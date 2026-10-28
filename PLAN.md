@@ -222,14 +222,19 @@ Split 50/50 into dev and test, grouped so near-copies can't land on both sides:
 analysis at a realistic low prevalence (for example 5%) to show what precision looks like
 then.
 
-**Test-set sizes** (dev can be as large as useful):
+**Set sizes** (kept small to fit the $190 budget, section 6):
 
-| task | source | test set |
-|---|---|---|
-| A | Richardson | about 400 images: 200 manipulated, stratified by type, with every non-painting image the filters leave; 200 clean |
-| A | BioFors | all within-blot positives that survive filtering, split by paper, with an equal number of negatives |
-| B | Richardson | about 300 pairs: 150 sharing a template, 150 negatives, half of them hard |
-| B | BioFors | about 300 pairs: 150 EDD, 150 same-paper negatives |
+| task | source | test set | dev set |
+|---|---|---|---|
+| A | Richardson | 300 images: 150 manipulated, stratified by type, with every non-painting image the filters leave; 150 clean | same size |
+| A | BioFors | all within-blot positives that survive filtering (at most ~100), split by paper, with an equal number of negatives | same size |
+| B | Richardson | 200 pairs: 100 sharing a template, 100 negatives, half of them hard | same size |
+| B | BioFors | 200 pairs: 100 EDD, 100 same-paper negatives | same size |
+
+That is about 900 test items and 900 dev items in total. With 300 items, an F1 has a 95%
+interval of about ±0.06; with 200, about ±0.07. That's enough to see a gain of about 0.10
+or more, but not small ones. The paired tests in section 7 help, since they compare
+conditions on the same items.
 
 ---
 
@@ -237,7 +242,16 @@ then.
 
 ### 3.1 Models and prompt
 
-**Models.** Opus 5.5 (main), Sonnet 5.5 and Haiku 5.5 (cost/quality curve).
+**Models.** The budget sets the roles:
+- **Opus 5.5** is the model the headline results are about, run only where it counts: the
+  baseline on dev (for your error review), and the baseline, final rulebook and generic
+  control on test.
+- **Haiku 5.5** costs about 1/40 as much, so all exploration runs on it: every condition,
+  every rulebook round, the ablations and the few-shot control.
+- **Sonnet 5.5** runs only the test baseline and the final rulebook, as a middle point.
+
+Effort is `medium` (Opus 5.5's default), unless a 30-image check in M2 shows `low`
+loses nothing. The prompt asks for a short explanation, to keep output tokens down.
 
 **Prompts** (versioned, like `PROMPT_VERSION` in Level 1). Each states the base rate and
 asks for structured output.
@@ -285,6 +299,9 @@ A1, A2, P1 and P2 are not "rules". They are cheap image processing that makes ev
 visible. They also set a stronger baseline, so later gains can't be credited to something
 this simple.
 
+All conditions run on Haiku, on dev. Only the best image-processing condition for each
+task (expected to be A1 and P1) becomes the baseline that runs on Opus and Sonnet.
+
 ### 3.3 Classical baselines
 
 These put the numbers in context:
@@ -301,7 +318,8 @@ other.
 
 1. The classical noise-correlation step ranks, for each query image, every other image in
    a pool of about 1,000 (Richardson test templates plus scraped clean images).
-2. Claude checks only each query's top k = 5 candidates.
+2. Haiku checks only each query's top k = 5 candidates. Opus would cost about $20 for
+   this demo, so it stays out unless money is left over at the end.
 3. Report recall at k for the classical step alone, then precision and recall after
    Claude checks.
 
@@ -424,6 +442,11 @@ given)
 | **R-aggregate** | same checklist answers, but the verdict comes from a small logistic regression fitted on dev | interpretable weights; separates "Claude sees the cue" from "Claude weighs the cue well" |
 | **R-tools** | rules that are image operations become tools Claude can call: contrast stretch, flip-and-compare, local noise-variance map, block self-similarity, and for pairs a band-masked difference image after alignment | some evidence just isn't visible to a vision model at native resolution |
 
+All four methods are compared on Haiku, on dev. R-aggregate costs nothing extra: it reuses
+the R-checklist answers. R-tools takes several turns per item, so it costs about 2–3 times
+as much, which is still cheap on Haiku. The best method on Haiku dev then gets one Opus dev
+run, to check that it carries over before Opus sees test.
+
 ### 5.4 Controls: making sure the gain comes from the biology
 
 - **Length-matched generic prompt**: same length, generic advice ("examine carefully,
@@ -432,7 +455,10 @@ given)
 - **Few-shot**: k labeled dev examples, no rules. Is showing examples worth more than
   explaining?
 - **Leave-one-rule-out ablation** on dev: each rule's own contribution, and which rules
-  cost precision.
+  cost precision. Two cheap ways to do it: drop one feature at a time from the R-aggregate
+  regression (no extra calls), and re-run the prompt without each rule on Haiku.
+- **Where each control runs:** the generic-prompt control runs on Opus test. Few-shot and
+  shuffled rationales run on Haiku dev only.
 - **Shuffled rationales** (optional): rules with mismatched rationales. Does Claude use
   the reasoning or only the keywords?
 
@@ -440,8 +466,8 @@ given)
 
 - You look only at dev images and dev errors.
 - Each rulebook version is frozen and given a hash before it touches test.
-- Test is scored **at most once per pre-declared rulebook version**, and every version is
-  reported, including those that didn't help.
+- Only the final rulebook goes to test, and test is scored once. Earlier rulebook
+  versions are reported with their dev scores, including those that didn't help.
 - Iterating on dev (write rules, run on dev, look at errors, revise) is fine. Plan for 2–3
   rounds.
 - Task B rules must be generic. Describing one specific template ("pattern A has a dark
@@ -449,57 +475,57 @@ given)
 
 ---
 
-## 6. Cost estimate
+## 6. Budget: $190 in total
 
 Prices (per million tokens, input / output): Opus 5.5 $4 / $20, Sonnet 5.5 $2 / $10,
-Haiku 5.5 $0.10 / $0.50. The Message Batches API halves these.
+Haiku 5.5 $0.10 / $0.50. Every full run goes through the Message Batches API, which
+halves these. The rulebook is prompt-cached.
 
-**Rough tokens per call:**
+**Assumed cost per call** (batch, `medium` effort, short explanation). These are estimates
+until the M2 smoke test measures them:
 
-| component | tokens |
-|---|---|
-| one 512-px image | ~250–350 (about width × height / 750) |
-| task A call with contrast copy | ~1,500 input |
-| task B call with contrast copies | ~2,500 input; with flipped copies ~3,500 |
-| rulebook | ~2,000, cached after the first call (cache reads cost much less) |
-| output, mostly Claude's reasoning at `high` effort | ~2,000–5,000 |
+| model | one call | 900-item run |
+|---|---|---|
+| Opus 5.5 | ~$0.02 (pairs ~$0.025) | ~$20 |
+| Sonnet 5.5 | ~$0.01 | ~$10 |
+| Haiku 5.5 | ~$0.0005 | ~$0.50 |
 
-Output dominates. A pair call costs only about 15–30% more than a single-image call.
+**Spend plan:**
 
-**Rough cost of Opus with the batch discount:**
+| item | model | items | est. cost |
+|---|---|---|---|
+| Western-only filter on sampled candidates (~3,000 images) | Haiku | 3,000 | ~$2 |
+| Smoke tests (10 calls before every full run) | all | — | ~$3 |
+| Effort check, `low` vs `medium` (30 images × 2) | Opus | 60 | ~$1.5 |
+| All baseline conditions, all rulebook rounds, 4 rule methods, ablations, few-shot and shuffled controls, retrieval demo (about 35–40 dev runs) | Haiku | ~35,000 | ~$25 |
+| Baseline on dev, for your error review | Opus | 900 | ~$20 |
+| Best rulebook on half of dev, to check carry-over from Haiku | Opus | 450 | ~$10 |
+| Test: baseline | Opus | 900 | ~$20 |
+| Test: final rulebook (longer checklist answers) | Opus | 900 | ~$25 |
+| Test: length-matched generic control | Opus | 900 | ~$20 |
+| Test: baseline + final rulebook | Sonnet | 1,800 | ~$20 |
+| **Planned total** | | | **~$146** |
+| **Reserve** for estimates being off | | | **~$44** |
 
-| unit | cost |
-|---|---|
-| one call | about $0.03–0.06 |
-| one condition over a 400-item set | about $15–25 |
+**If the smoke test shows calls cost more than assumed**, cut in this order:
+1. Drop the Sonnet runs (saves ~$20).
+2. Run the generic control on Haiku and Sonnet only, not Opus (saves ~$20). The
+   Haiku version still shows whether the gain is in the rule content.
+3. Run the Opus dev baseline on half of dev (saves ~$10). Your error review then covers
+   450 dev items.
+4. Shrink test sets to 200 per arm (saves about a quarter of every Opus test run).
 
-**Rough run count per task:**
-- about 7 baseline conditions on dev and test;
-- 4 rule methods, 3 controls and an ablation of about 10 rules on dev;
-- 2–3 rulebook rounds;
-- a few test runs.
+**Guards against overspending:**
+- `run_claude.py` keeps a spend ledger (`results/spend.jsonl`), computed from each
+  response's token usage.
+- Before every batch it prints the projected cost from the smoke test, and refuses to send
+  the batch if the projection would push total spend past $190.
+- Set a spend limit on the API key's workspace in the Claude Console as a hard backstop.
 
-That comes to about 40–50 condition × set runs.
-
-| item | Opus (batch) |
-|---|---|
-| task A, both sources | ~$700–1,100 |
-| task B, both sources | ~$400–700 (fewer conditions: no MW-context arm) |
-| retrieval-then-verify demo (about 200 queries × 5) | ~$50 |
-| Sonnet runs | about half of Opus |
-| Haiku runs | about 1/40 of Opus, so negligible |
-| **total, all three models** | **about $1,700–2,800** |
-
-Task B adds roughly 40% to the total, not double.
-
-**How to cut the cost:**
-- Run the ablation and early rule rounds on Sonnet, and confirm only the final rulebook
-  on Opus.
-- Use `medium` effort if a 30-image check shows no loss of quality.
-- Shrink dev runs to 200 items during iteration.
-
-**Before every full run, measure.** A 10-call smoke test records real input and output
-tokens. Its cost projection is printed and must be approved before the batch is sent.
+**The trade-off.** Rules are developed on Haiku, and Opus sees them only at the end. A
+rule that helps Haiku might not help Opus, which already sees more. The Opus check on half
+of dev catches that before test, and your error review uses Opus's own mistakes, so the
+rules target what Opus gets wrong.
 
 ---
 
@@ -509,7 +535,7 @@ tokens. Its cost projection is printed and must be approved before the batch is 
   type or template, and per vendor. Include CIs and paired significance (McNemar on
   verdicts, paired bootstrap on AUC and F1).
 - Opus vs Sonnet vs Haiku, with and without rules. Can rules let a cheaper model match
-  Opus?
+  Opus? (Haiku's test runs cost about $1, so they are included.)
 - Claude vs classical baselines on each task. For task B, does Claude add precision on
   top of the classical candidate filter (section 3.4)?
 - Which rules helped and which hurt (ablation table).
@@ -556,10 +582,10 @@ tokens. Its cost projection is printed and must be approved before the batch is 
 | M1b | Vendor scrape done (ToS checked, templates and copies screened out) | about 1:1 negatives per vendor |
 | M1c | Western-only filter, crops, ground-truth regions, pairs built; your review of dev | labels confirmed |
 | M1d | Normalized, split, shortcut checks pass | shortcut AUCs ≈ 0.5 |
-| M2 | Task A baseline (A0–A3) and task B baseline (P0–P2) × 3 models; classical baselines; retrieval demo | baseline report |
+| M2 | Smoke test and effort check; all baseline conditions on Haiku dev; best condition on Opus dev; classical baselines; retrieval demo | measured cost per call fits section 6 |
 | M3 | Error review sheets; you write rulebook v1 (task A and task B rules) | v1 frozen |
-| M4 | Rule methods and controls on dev, then one test run per task | results report |
-| M5 | 1–2 more rule rounds, cross-source and cross-template transfer, write-up | final report |
+| M4 | Rule methods and controls on Haiku dev; best method on half of dev with Opus | Opus dev gain confirmed |
+| M5 | 1–2 more rule rounds on Haiku; then the one test run (Opus, Sonnet, Haiku: baseline, final rulebook, generic control); cross-source and cross-template transfer; write-up | final report |
 
 ---
 
@@ -569,7 +595,8 @@ tokens. Its cost projection is printed and must be approved before the batch is 
   (task B).
 - **Richardson negatives:** scraped from the same vendors' catalogs.
 - **Assay:** western blots only.
-- **Models:** Claude only.
+- **Models:** Claude only. Haiku for exploration, Opus for the headline results, Sonnet as a middle point.
+- **Budget:** $190 in total (section 6).
 - **Unit of judgment:** single blot crops; pairs of single blot crops for task B.
 - **Review:** you can review as many dev images as needed.
 
@@ -580,5 +607,5 @@ tokens. Its cost projection is printed and must be approved before the batch is 
 - **BioFors arm size:** if the western filter leaves too few BioFors task A positives
   (fewer than about 80), report BioFors task A as a secondary, small-sample check, with
   Richardson as the main dataset.
-- **Budget:** is about $1,700–2,800 of API spend acceptable? If not, the cheaper route in
-  section 6 does the iteration on Sonnet and confirms on Opus, for about half that.
+- **Sonnet:** keep the Sonnet runs (~$20), or spend that on a larger Opus test set
+  instead?
