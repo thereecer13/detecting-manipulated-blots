@@ -10,8 +10,8 @@ def load(pat):
     for f in glob.glob(str(S / pat)):
         for p in json.load(open(f)): d[p["id"]] = p
     return d
-A = load("pilot/runs/run1/A_biofors.json"); B = load("pilot/runs/run1/B_*.json")
-R1 = load("pilot/runs/run1/R_recall_*.json"); R2 = load("pilot/runs/run2_vendor/*.json")
+A = load("pilot/runs/run3_views/A*.json"); B = load("pilot/runs/run3_views/B*.json")
+R1 = R2 = load("pilot/runs/run3_views/R*.json")
 font = ImageFont.load_default(size=18); small = ImageFont.load_default(size=15)
 W = 420
 def fit(im, h=None):
@@ -68,5 +68,5 @@ for i in R1:
     labels = ["image", "equalized (background revealed)"]
     for n in find_annotations(za.namelist(), r)[:1]:
         panels.append(fit(Image.open(io.BytesIO(za.read(n))))); labels.append("Richardson's annotation")
-    rows.append(row(panels, labels, f"{i}  {r['catalog_number']}  truth: {r['summary'][:70]}  |  my p = {R1[i]['probability_manipulated']:.2f} / {R2[i]['probability_manipulated']:.2f}"))
-sheet(rows, "R_missed", "Richardson vendor blots I MISSED in both runs")
+    rows.append(row(panels, labels, f"{i}  {r['catalog_number']}  truth: {r['summary'][:70]}  |  my p = {R1[i]["probability_manipulated"]:.2f}"))
+sheet(rows, "R_missed", "Richardson vendor blots I MISSED")
