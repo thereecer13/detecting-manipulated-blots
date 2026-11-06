@@ -1,0 +1,66 @@
+# Rulebook v3 (2026-11-06): rulebook v2 minus F1 (bands should follow the gel's shape) and
+# F2 (each lane should have the same grain), which flagged 6 clean thin strips in test 3.
+# Everything else is unchanged from v2. Frozen before test 4. Test 3 is development data from
+# here on (v3 was derived from its errors); test 4 uses papers and images not used before.
+
+# --- v1 rules (unchanged) ---
+- id: R1
+  kind: flag
+  name: Duplicated bands
+  rule: >
+    Take the outline shape of each band and compare it with every other band within the image.
+    If the similarity is above 0.95, this is suspicious. Suspicion should increase if more than
+    one band is similar to another within the same image.
+- id: R2
+  kind: flag
+  name: Splices and sharp transitions
+  rule: >
+    Look for continuous segments where there is a sharp transition in pixel brightness outside
+    bands, especially if they are perfectly straight lines.
+- id: R3
+  kind: flag
+  name: Background painting
+  rule: >
+    Use the method Richardson uses where you increase contrast, and look for blotchy patches
+    that greatly contrast an otherwise smooth background.
+
+# --- clearing rules (what is NOT manipulation) ---
+- id: C1
+  kind: clear
+  name: Disclosed splices are legitimate
+  rule: >
+    A visible white gap or a drawn separator line between strips marks a disclosed splice,
+    which journals allow; it is not manipulation. An undisclosed splice has no gap: two
+    backgrounds meet directly with a brightness step.
+- id: C2
+  kind: clear
+  name: Similar band shape alone is not evidence of duplication
+  rule: >
+    Evenly loaded bands (especially loading controls such as actin or GAPDH) are naturally
+    oval and alike. A copy is shown by identical fine detail: the same specks, scratches,
+    dust or noise pattern in and around the band.
+- id: C3
+  kind: clear
+  name: A background that is flat everywhere is contrast adjustment, not painting
+  rule: >
+    Painting is a local flat patch inside an otherwise grainy background. A background that is
+    uniformly flat white across the whole blot means the figure was over-adjusted.
+- id: C4
+  kind: clear
+  name: Compression artifacts are not edits
+  rule: >
+    Square 8x8-pixel blocks come from JPEG compression, and stepped contour lines come from
+    saving with few gray levels. Neither is evidence of editing.
+
+# --- additional flag rules ---
+- id: F3
+  kind: flag
+  name: A box around a band means it was pasted
+  rule: >
+    A faint rectangle of slightly different background around a single band indicates a
+    pasted patch.
+- id: F4
+  kind: flag
+  name: A band cut off by a straight line was trimmed
+  rule: >
+    Real band edges are soft. A band that ends abruptly along a straight line was cut.
