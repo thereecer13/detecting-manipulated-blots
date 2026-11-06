@@ -1,0 +1,1502 @@
+[
+ {
+  "task": "A_biofors",
+  "id": "1981e0ae0f",
+  "label": 1,
+  "paper": "952",
+  "image": "070000.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.47619047619047616,
+    0,
+    0.4908424908424908,
+    1
+   ]
+  ],
+  "size": [
+   273,
+   92
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "5b6dc69149",
+  "label": 1,
+  "paper": "612",
+  "image": "010101.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.7305389221556886,
+    0,
+    0.7425149700598802,
+    1
+   ]
+  ],
+  "size": [
+   334,
+   48
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "75608c066a",
+  "label": 1,
+  "paper": "219",
+  "image": "080100.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.3971631205673759,
+    0,
+    0.40425531914893614,
+    1
+   ]
+  ],
+  "size": [
+   564,
+   61
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "04cf49b31a",
+  "label": 1,
+  "paper": "202",
+  "image": "060201.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.45614035087719296,
+    0,
+    0.49122807017543857,
+    1
+   ]
+  ],
+  "size": [
+   114,
+   219
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "0f06b8ca9f",
+  "label": 1,
+  "paper": "650",
+  "image": "010101.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.4185303514376997,
+    0,
+    0.43130990415335463,
+    1
+   ]
+  ],
+  "size": [
+   313,
+   80
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "c4cf35dba9",
+  "label": 1,
+  "paper": "375",
+  "image": "050100.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.6944444444444444,
+    0,
+    0.7037037037037037,
+    1
+   ]
+  ],
+  "size": [
+   432,
+   72
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f22e390ce7",
+  "label": 1,
+  "paper": "992",
+  "image": "030100.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.3472222222222222,
+    0,
+    0.36574074074074076,
+    1
+   ]
+  ],
+  "size": [
+   216,
+   85
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "73966eefe4",
+  "label": 1,
+  "paper": "260",
+  "image": "080000.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.492600422832981,
+    0,
+    0.5010570824524313,
+    1
+   ]
+  ],
+  "size": [
+   473,
+   84
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "3e59a60a89",
+  "label": 1,
+  "paper": "821",
+  "image": "010100.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.5876288659793815,
+    0,
+    0.6082474226804123,
+    1
+   ]
+  ],
+  "size": [
+   194,
+   108
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "7b112238af",
+  "label": 1,
+  "paper": "801",
+  "image": "050000.png",
+  "types": [
+   "splice"
+  ],
+  "boxes_frac": [
+   [
+    0.5384615384615384,
+    0,
+    0.5576923076923077,
+    1
+   ]
+  ],
+  "size": [
+   208,
+   49
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "3008d6e12b",
+  "label": 1,
+  "paper": "34",
+  "image": "030004.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.6401515151515151,
+    0,
+    0.759469696969697,
+    1
+   ],
+   [
+    0.32954545454545453,
+    0,
+    0.44886363636363635,
+    1
+   ]
+  ],
+  "size": [
+   528,
+   117
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f0fc1402b6",
+  "label": 1,
+  "paper": "196",
+  "image": "010100.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.10037174721189591,
+    0,
+    0.24535315985130113,
+    1
+   ],
+   [
+    0.8438661710037175,
+    0,
+    0.9888475836431226,
+    1
+   ]
+  ],
+  "size": [
+   269,
+   59
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "8e34f9243f",
+  "label": 1,
+  "paper": "468",
+  "image": "080200.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.5579268292682927,
+    0,
+    0.698170731707317,
+    1
+   ],
+   [
+    0.06707317073170732,
+    0,
+    0.2073170731707317,
+    1
+   ]
+  ],
+  "size": [
+   328,
+   42
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "e174683a3c",
+  "label": 1,
+  "paper": "176",
+  "image": "010101.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.30526315789473685,
+    0,
+    0.4421052631578947,
+    1
+   ],
+   [
+    0.5536842105263158,
+    0,
+    0.6905263157894737,
+    1
+   ]
+  ],
+  "size": [
+   475,
+   56
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "fe1d31dbb3",
+  "label": 1,
+  "paper": "286",
+  "image": "060100.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.0410958904109589,
+    0,
+    0.2237442922374429,
+    1
+   ],
+   [
+    0.7488584474885844,
+    0,
+    0.9315068493150684,
+    1
+   ]
+  ],
+  "size": [
+   219,
+   137
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "fa5407952b",
+  "label": 1,
+  "paper": "97",
+  "image": "050000.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.5982142857142857,
+    0,
+    0.7678571428571429,
+    1
+   ],
+   [
+    0.23214285714285715,
+    0,
+    0.4017857142857143,
+    1
+   ]
+  ],
+  "size": [
+   224,
+   185
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "b179109488",
+  "label": 1,
+  "paper": "451",
+  "image": "040103.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.5360281195079086,
+    0,
+    0.6766256590509666,
+    1
+   ],
+   [
+    0.27065026362038663,
+    0,
+    0.4112478031634446,
+    1
+   ]
+  ],
+  "size": [
+   569,
+   88
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "190d5af8d8",
+  "label": 1,
+  "paper": "274",
+  "image": "040000.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.6642857142857143,
+    0,
+    0.7857142857142857,
+    1
+   ],
+   [
+    0.2,
+    0,
+    0.32142857142857145,
+    1
+   ]
+  ],
+  "size": [
+   140,
+   318
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "4b27d70561",
+  "label": 1,
+  "paper": "329",
+  "image": "040000.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.14233576642335766,
+    0,
+    0.2773722627737226,
+    1
+   ],
+   [
+    0.8193430656934306,
+    0,
+    0.9543795620437956,
+    1
+   ]
+  ],
+  "size": [
+   548,
+   42
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "43d45954fd",
+  "label": 1,
+  "paper": "550",
+  "image": "010203.png",
+  "types": [
+   "duplication"
+  ],
+  "boxes_frac": [
+   [
+    0.5108225108225108,
+    0,
+    0.6926406926406926,
+    1
+   ],
+   [
+    0.12987012987012986,
+    0,
+    0.3116883116883117,
+    1
+   ]
+  ],
+  "size": [
+   231,
+   54
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "aaa2c3af0f",
+  "label": 1,
+  "paper": "916",
+  "image": "050100.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.6363636363636364,
+    0.022222222222222223,
+    0.8426573426573427,
+    0.3333333333333333
+   ]
+  ],
+  "size": [
+   286,
+   45
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f299497508",
+  "label": 1,
+  "paper": "995",
+  "image": "020001.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.1425891181988743,
+    0.017241379310344827,
+    0.34896810506566606,
+    0.3103448275862069
+   ]
+  ],
+  "size": [
+   533,
+   58
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "5ea47b4813",
+  "label": 1,
+  "paper": "76",
+  "image": "060001.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.06873614190687362,
+    0.0273972602739726,
+    0.3436807095343681,
+    0.3287671232876712
+   ]
+  ],
+  "size": [
+   451,
+   73
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "31d4b6e49f",
+  "label": 1,
+  "paper": "871",
+  "image": "020102.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.21754385964912282,
+    0.04065040650406504,
+    0.4421052631578947,
+    0.3008130081300813
+   ]
+  ],
+  "size": [
+   285,
+   123
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "d61543c8de",
+  "label": 1,
+  "paper": "175",
+  "image": "040100.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.48184019370460046,
+    0.13333333333333333,
+    0.7288135593220338,
+    0.5111111111111111
+   ]
+  ],
+  "size": [
+   413,
+   45
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "51556c8f59",
+  "label": 1,
+  "paper": "875",
+  "image": "050106.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.3472222222222222,
+    0.08928571428571429,
+    0.5879629629629629,
+    0.3392857142857143
+   ]
+  ],
+  "size": [
+   216,
+   56
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "a59a701576",
+  "label": 1,
+  "paper": "725",
+  "image": "040001.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.8185654008438819,
+    0.0,
+    0.9789029535864979,
+    0.25
+   ]
+  ],
+  "size": [
+   237,
+   40
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "de972ffac2",
+  "label": 1,
+  "paper": "188",
+  "image": "030000.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.5010989010989011,
+    0.5443037974683544,
+    0.6593406593406593,
+    0.8987341772151899
+   ]
+  ],
+  "size": [
+   455,
+   79
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "9207256590",
+  "label": 1,
+  "paper": "962",
+  "image": "060101.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.33796296296296297,
+    0.6091644204851752,
+    0.5462962962962963,
+    0.9703504043126685
+   ]
+  ],
+  "size": [
+   216,
+   371
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f119e76be9",
+  "label": 1,
+  "paper": "860",
+  "image": "030100.png",
+  "types": [
+   "painting"
+  ],
+  "boxes_frac": [
+   [
+    0.5127272727272727,
+    0.03896103896103896,
+    0.7890909090909091,
+    0.3116883116883117
+   ]
+  ],
+  "size": [
+   275,
+   77
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "2c998b79cd",
+  "label": 0,
+  "paper": "920",
+  "image": "040005.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   337,
+   101
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "12f7bb6959",
+  "label": 0,
+  "paper": "216",
+  "image": "020101.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   549,
+   69
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f4a11fe0a6",
+  "label": 0,
+  "paper": "842",
+  "image": "030100.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   106,
+   46
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "9dd2549b5e",
+  "label": 0,
+  "paper": "770",
+  "image": "060000.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   431,
+   367
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f63206fba8",
+  "label": 0,
+  "paper": "820",
+  "image": "040300.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   253,
+   63
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "c01890d128",
+  "label": 0,
+  "paper": "346",
+  "image": "040102.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   155,
+   51
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "e6ed69431c",
+  "label": 0,
+  "paper": "988",
+  "image": "040002.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   350,
+   53
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "e8a143d5f8",
+  "label": 0,
+  "paper": "655",
+  "image": "040000.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   818,
+   457
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "fa2b9d0a27",
+  "label": 0,
+  "paper": "209",
+  "image": "040102.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   428,
+   62
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "87d43c1b9a",
+  "label": 0,
+  "paper": "632",
+  "image": "060000.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   363,
+   60
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "1e9dc735b3",
+  "label": 0,
+  "paper": "458",
+  "image": "070001.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   228,
+   49
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "bdaa07ae64",
+  "label": 0,
+  "paper": "392",
+  "image": "040301.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   397,
+   52
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "af884b2e20",
+  "label": 0,
+  "paper": "496",
+  "image": "030104.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   341,
+   44
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "4fbad1fe6d",
+  "label": 0,
+  "paper": "786",
+  "image": "050003.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   360,
+   55
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "d6b9c8b4fa",
+  "label": 0,
+  "paper": "989",
+  "image": "040200.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   394,
+   42
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "443b1c72d2",
+  "label": 0,
+  "paper": "491",
+  "image": "030101.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   486,
+   76
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "cdd8ed2417",
+  "label": 0,
+  "paper": "258",
+  "image": "040001.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   386,
+   50
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "8d1fe78711",
+  "label": 0,
+  "paper": "125",
+  "image": "060100.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   228,
+   76
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "0b941664fb",
+  "label": 0,
+  "paper": "614",
+  "image": "050101.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   538,
+   60
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "63723c975f",
+  "label": 0,
+  "paper": "492",
+  "image": "040303.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   392,
+   46
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "f9067d33d0",
+  "label": 0,
+  "paper": "118",
+  "image": "040001.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   287,
+   124
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "b73f3a6145",
+  "label": 0,
+  "paper": "733",
+  "image": "040102.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   312,
+   45
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "eee7ecd31c",
+  "label": 0,
+  "paper": "545",
+  "image": "040001.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   221,
+   66
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "be15aca066",
+  "label": 0,
+  "paper": "61",
+  "image": "010103.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   201,
+   87
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "d92de4ebff",
+  "label": 0,
+  "paper": "628",
+  "image": "040100.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   520,
+   62
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "e85f57e9a3",
+  "label": 0,
+  "paper": "57",
+  "image": "030100.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   108,
+   635
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "b20ba34068",
+  "label": 0,
+  "paper": "271",
+  "image": "040000.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   342,
+   89
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "c584b8bff6",
+  "label": 0,
+  "paper": "124",
+  "image": "040301.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   223,
+   78
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "7f1407eab2",
+  "label": 0,
+  "paper": "755",
+  "image": "020002.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   568,
+   45
+  ]
+ },
+ {
+  "task": "A_biofors",
+  "id": "629ce02d20",
+  "label": 0,
+  "paper": "714",
+  "image": "060103.png",
+  "types": [],
+  "boxes_frac": [],
+  "size": [
+   337,
+   86
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "51b0ff14c6",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta805639-1-w.jpg",
+  "catalog": "TA805639",
+  "vendor": "Origene",
+  "size": [
+   600,
+   1173
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "1e2887bb58",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta805183-1-w.jpg",
+  "catalog": "TA805183",
+  "vendor": "Origene",
+  "size": [
+   600,
+   1173
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "332b737ac7",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta806450-1-w.jpg",
+  "catalog": "TA806450",
+  "vendor": "Origene",
+  "size": [
+   196,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "c6908322f6",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta804950-8-w.jpg",
+  "catalog": "TA804950",
+  "vendor": "Origene",
+  "size": [
+   459,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "c06d5c908d",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta504406-1-w.jpg",
+  "catalog": "TA504406",
+  "vendor": "Origene",
+  "size": [
+   102,
+   200
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "46ad581b4b",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta803011-1-w.jpg",
+  "catalog": "TA803011",
+  "vendor": "Origene",
+  "size": [
+   102,
+   200
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "c861b5617f",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta507307-1-w.jpg",
+  "catalog": "TA507307",
+  "vendor": "Origene",
+  "size": [
+   196,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "69010b4284",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "MA5-26911-ALOX12-WB-20171219153335.jpg",
+  "catalog": "MA5-26911",
+  "vendor": "Thermo Fisher Scientific",
+  "size": [
+   657,
+   1286
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "70dff6fceb",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta808527-1-w.jpg",
+  "catalog": "TA808527",
+  "vendor": "Origene",
+  "size": [
+   196,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "c5528e31c1",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "HA500496_1.jpg",
+  "catalog": "HA500496",
+  "vendor": "HUABIO",
+  "size": [
+   2020,
+   1615
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "1867238148",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "23371.jfif",
+  "catalog": "bsm-54128R",
+  "vendor": "Bioss",
+  "size": [
+   724,
+   594
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "a173324bb4",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta504879-2-w.jpg",
+  "catalog": "TA504879",
+  "vendor": "Origene",
+  "size": [
+   342,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "4d38ba5b59",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta504776-500-w.jpg",
+  "catalog": "TA504776",
+  "vendor": "Origene",
+  "size": [
+   336,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "7239d9f453",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "MA5-26649-BOLL-WB-20171219153335.jpg",
+  "catalog": "MA5-26649",
+  "vendor": "Thermo Fisher Scientific",
+  "size": [
+   198,
+   388
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "0d866714eb",
+  "label": 1,
+  "summary": "Apparent \"painting\" of background",
+  "file": "ta806552-1-w.jpg",
+  "catalog": "TA806552",
+  "vendor": "Origene",
+  "size": [
+   196,
+   384
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "5b964e6c01",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "RAB01200-TRIM25-WB-1-20250625_084428.jpg",
+  "catalog": "RAB01200",
+  "vendor": "Abnova",
+  "size": [
+   167,
+   200
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "d48bb79c71",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "RAB01297-ATG5-WB-1-20250625_084428.jpg",
+  "catalog": "RAB01297",
+  "vendor": "Abnova",
+  "size": [
+   167,
+   200
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "ed9e4425de",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "HA500203_1.jpg",
+  "catalog": "HA500203",
+  "vendor": "HUABIO",
+  "size": [
+   1338,
+   1071
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "e2f9a31a19",
+  "label": 1,
+  "summary": "Duplicated blocks of background noise, unexpected horizontal break in background noise",
+  "file": "PA578648-Neuroligin1-AV-WB-20200824211338.jpg",
+  "catalog": "PA5-78648",
+  "vendor": "Thermo Fisher Scientific",
+  "size": [
+   650,
+   1023
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "eed386d3cc",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "50512.jfif",
+  "catalog": "bsm-62987r",
+  "vendor": "Bioss",
+  "size": [
+   250,
+   480
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "824a77417e",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "RAB01425-IQGAP2-WB-1-20250625_084428.jpg",
+  "catalog": "RAB01425",
+  "vendor": "Abnova",
+  "size": [
+   167,
+   200
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "b664b6f4ef",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "HA500362_1.jpg",
+  "catalog": "HA500362",
+  "vendor": "HUABIO",
+  "size": [
+   888,
+   711
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "e2d604be05",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "HA500022_2.jpg",
+  "catalog": "HA500022",
+  "vendor": "HUABIO",
+  "size": [
+   1293,
+   1034
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "0202e12482",
+  "label": 1,
+  "summary": "Unexpected discontinuity in background",
+  "file": "27429.jfif",
+  "catalog": "bsm-54370R",
+  "vendor": "Bioss",
+  "size": [
+   650,
+   524
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "a33289278f",
+  "label": 1,
+  "summary": "Duplicated sections of background noise",
+  "file": "PA5-75502-CYP4F2-WB-1-20200904000242.jpg",
+  "catalog": "PA5-75502",
+  "vendor": "Thermo Fisher Scientific",
+  "size": [
+   707,
+   743
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "4794ad09fc",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "50428.jfif",
+  "catalog": "bsm-61707r",
+  "vendor": "Bioss",
+  "size": [
+   258,
+   488
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "0ab79f9ca0",
+  "label": 1,
+  "summary": "Unexpected diagonal discontinuity",
+  "file": "48081.jfif",
+  "catalog": "bsm-54470r",
+  "vendor": "Bioss",
+  "size": [
+   1920,
+   1009
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "06653a9d03",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "1007-3_1.jpg",
+  "catalog": "1007-3",
+  "vendor": "HUABIO",
+  "size": [
+   888,
+   711
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "8f037e14f1",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "ER1901-69_2.jpg",
+  "catalog": "ER1901-69",
+  "vendor": "HUABIO",
+  "size": [
+   1211,
+   969
+  ]
+ },
+ {
+  "task": "R_recall",
+  "id": "28a179fa6f",
+  "label": 1,
+  "summary": "Repetitive regions of background noise",
+  "file": "RAB01492-ADENYLATEKINASE2-WB-1-20250625_084428.jpg",
+  "catalog": "RAB01492",
+  "vendor": "Abnova",
+  "size": [
+   167,
+   200
+  ]
+ }
+]
