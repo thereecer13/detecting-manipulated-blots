@@ -1,0 +1,43 @@
+# Rulebook v1: written by the project's biologist after reviewing pilot errors (2026-11-06).
+# Frozen before the first test on fresh images (pilot/test2). Rule text is kept close to the
+# author's wording; the measurement code that implements each rule is pilot/rule_tools.py.
+- id: R1
+  task: [A]
+  name: Duplicated bands
+  rule: >
+    Take the outline shape of each band and compare it with every other band within the image.
+    If the similarity is above 0.95, this is suspicious. Suspicion should increase if more than
+    one band is similar to another within the same image.
+  targets: [duplication]
+  implementation: >
+    Bands are dark blobs found after removing background shading (Otsu threshold); rows of
+    merged bands are split at lane minima. Outline similarity = Dice overlap of two band masks
+    centred on each other, best over as-is, left-right flip, up-down flip and 180-degree
+    rotation, allowing 1 px misalignment; bands whose areas differ by more than 1.43x score 0.
+    The gray-value correlation of the two band crops is reported alongside.
+- id: R2
+  task: [A]
+  name: Splices and sharp transitions
+  rule: >
+    Look for continuous segments where there is a sharp transition in pixel brightness outside
+    bands, especially if they are perfectly straight lines.
+  targets: [splice]
+  implementation: >
+    For every column and row: brightness step across it (2 px each side), on rows/columns away
+    from bands. A line is reported when steps above max(2.5 x noise, 3 gray levels) with the
+    same sign run continuously over >= 40% of its length outside bands (>= 12 px). Lines within
+    4% of the image border are ignored. Each line is classed as an edge (different brightness
+    on the two sides), a thin stripe (same brightness on both sides), or a blot boundary
+    against a blank figure area (one side has no grain and is near pure white or black).
+- id: R3
+  task: [A]
+  name: Background painting
+  rule: >
+    Use the method Richardson uses where you increase contrast, and look for blotchy patches
+    that greatly contrast an otherwise smooth background.
+  targets: [painting]
+  implementation: >
+    The equalized view raises contrast. Flat patches: background pixels (away from bands)
+    whose local grain (SD of the noise residual in a 7x7 window) is below 0.2 x the median
+    background grain, in patches of >= 0.4% of the image. Not assessable when the whole
+    background has no grain.
