@@ -3,6 +3,9 @@ import csv, hashlib, io, json, random, re, sys, tarfile, zipfile
 from pathlib import Path
 import numpy as np
 from PIL import Image
+sys.path.insert(0, str(Path(__file__).parent))
+from views import views
+Image.MAX_IMAGE_PIXELS = None
 
 S = Path(sys.argv[1]); RAW = S / "raw"; ANN = S / "bf"
 OUT = S / "pilot"; ITEMS = OUT / "items"; KEY = S / "pilot_key"
@@ -12,19 +15,14 @@ def ok(img):
     g = np.asarray(img.convert("L"))
     return min(img.size) >= 40 and (g < 128).mean() <= 0.5
 
-def norm(img):
-    g = img.convert("L"); w, h = g.size; s = 512 / max(w, h)
-    return g.resize((max(1, round(w * s)), max(1, round(h * s))), Image.LANCZOS), s
-
-def stretch(g):
-    a = np.asarray(g).astype(float); lo, hi = np.percentile(a, 50), np.percentile(a, 99.5)
-    return Image.fromarray((np.clip((a - lo) / max(hi - lo, 1), 0, 1) * 255).astype(np.uint8))
+def save_views(img, d, stem):
+    d.mkdir(parents=True, exist_ok=True)
+    for suffix, im in views(img).items(): im.save(d / f"{stem}{suffix}.png")
 
 def save(img, tag):
-    g, s = norm(img); h = hashlib.sha1(f"{tag}{rng.random()}".encode()).hexdigest()[:10]
-    d = ITEMS / tag.split(":")[0]; d.mkdir(parents=True, exist_ok=True)
-    g.save(d / f"{h}.png"); stretch(g).save(d / f"{h}_stretched.png")
-    return h, s, g.size
+    h = hashlib.sha1(f"{tag}{rng.random()}".encode()).hexdigest()[:10]
+    save_views(img, ITEMS / tag.split(":")[0], h)
+    return h, None, None
 
 cls = json.loads((ANN / "classification.json").read_text())
 blot = {(p, n) for p, ims in cls.items() for n, k in ims.items() if k == "Blot/Gel"}
@@ -88,9 +86,9 @@ for p in cp[::-1]:
     if len(negB) == 15: break
 for (p, a, b, v), lab in [(x, 1) for x in selB] + [(x, 0) for x in negB]:
     pid = hashlib.sha1(f"{p}{a}{b}{rng.random()}".encode()).hexdigest()[:10]
-    d = ITEMS / "B_biofors" / pid; d.mkdir(parents=True)
+    d = ITEMS / "B_biofors" / pid
     for i, n in enumerate([a, b], 1):
-        g, _ = norm(imgs[(p, n)]); g.save(d / f"image{i}.png"); stretch(g).save(d / f"image{i}_stretched.png")
+        save_views(imgs[(p, n)], d, f"image{i}")
     key.append({"task": "B_biofors", "id": pid, "label": lab, "paper": p, "images": [a, b]})
 # Richardson within-blot positives (recall only): 20
 rich = RAW / "rich"

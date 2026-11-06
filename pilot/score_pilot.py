@@ -1,9 +1,9 @@
 import json, random, sys
 from pathlib import Path
 import numpy as np
-S = Path(sys.argv[1]); key = {k["id"]: k for k in json.loads((S / "pilot_key/key.json").read_text())}
+S = Path(sys.argv[1]); RES = Path(sys.argv[2]); key = {k["id"]: k for k in json.loads((S / "pilot_key/key.json").read_text())}
 preds = {}
-for f in sorted((S / "pilot/results").glob("*.json")):
+for f in sorted((RES).glob("*.json")):
     for p in json.loads(f.read_text()): preds[p["id"]] = p
 def auc(s, y):
     s, y = np.array(s), np.array(y); p, n = s[y == 1], s[y == 0]

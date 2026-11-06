@@ -1,0 +1,10 @@
+[{"id":"25376891d9","verdict":"independent","probability_shared":0.08},
+{"id":"be61a6b61c","verdict":"independent","probability_shared":0.1},
+{"id":"f821ddb24a","verdict":"independent","probability_shared":0.07},
+{"id":"7c9ec561ea","verdict":"independent","probability_shared":0.08},
+{"id":"d802bd7952","verdict":"shared_content","probability_shared":0.68},
+{"id":"b5f03c1e17","verdict":"independent","probability_shared":0.15},
+{"id":"7db4ca6ead","verdict":"independent","probability_shared":0.08},
+{"id":"e0cc580745","verdict":"independent","probability_shared":0.1},
+{"id":"a7758118e2","verdict":"shared_content","probability_shared":0.95},
+{"id":"c1e2746860","verdict":"independent","probability_shared":0.25}]

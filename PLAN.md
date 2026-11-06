@@ -288,11 +288,11 @@ The conditions show where the difficulty lies.
 | condition | task | what Claude sees |
 |---|---|---|
 | A0 | A | the crop |
-| A1 | A | crop + contrast-stretched copy (Levels: raised black point, lowered white point) |
+| A1 | A | crop + three processed views: histogram-equalized (reveals background, like raising the black point and lowering the white point, but without clipping), local contrast (CLAHE) and noise residual; see `pilot/views.py` |
 | A2 | A | A1 + horizontally flipped, vertically flipped and 180°-rotated copies |
 | A3 | A | A1 + target, expected MW and ladder positions as text (section 2.4) |
 | P0 | B | the two crops |
-| P1 | B | both crops + contrast-stretched copies |
+| P1 | B | both crops + the same three views of each |
 | P2 | B | P1 + flipped and rotated copies of image 2 (templates reappear flipped) |
 
 A1, A2, P1 and P2 are not "rules". They are cheap image processing that makes evidence
