@@ -1,0 +1,10 @@
+[{"id":"eee3c61b12","verdict":"legitimate","probability_manipulated":0.12},
+{"id":"4cb27a16b6","verdict":"legitimate","probability_manipulated":0.15},
+{"id":"f06ea3b07d","verdict":"legitimate","probability_manipulated":0.15},
+{"id":"28a72ab845","verdict":"legitimate","probability_manipulated":0.15},
+{"id":"45e4b391fc","verdict":"legitimate","probability_manipulated":0.2},
+{"id":"b6b29b0a28","verdict":"legitimate","probability_manipulated":0.25},
+{"id":"8f4a056527","verdict":"manipulated","probability_manipulated":0.5},
+{"id":"cc6b4654b2","verdict":"manipulated","probability_manipulated":0.85},
+{"id":"cc026210cf","verdict":"manipulated","probability_manipulated":0.7},
+{"id":"1b29be2add","verdict":"legitimate","probability_manipulated":0.1}]
