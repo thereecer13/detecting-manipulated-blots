@@ -2,9 +2,13 @@
 vendors and catalog prefixes (Thermo Fisher MA5-/PA5-, Abnova RAB0 on thermofisher.com, Origene TA8/TA5).
 
 - Manipulated: August 2026 Richardson images with a within-blot problem (no shared-template or
-  cross-image findings), file name marked as a western blot ("WB"), not used in tests 3-4.
+  cross-image findings), file name marked as a western blot ("WB", or Origene's "-w" suffix), not
+  used in tests 3-4.
 - Clean: scraped images that passed pilot/screen_scraped.py.
-- Per catalog prefix, the same number of each, so vendor and prefix carry no signal.
+- Per catalog prefix, the same number of each, so vendor and prefix carry no signal. The manipulated
+  pool is much larger, so each clean image is paired with the unused manipulated image of the same
+  prefix that is closest in mean brightness, share of near-white pixels and aspect ratio (after the
+  same normalization), so overall brightness and shape carry no signal either.
 - Thermo-hosted images (both classes) are scaled to at most 650 px wide, the size of the scraped
   rendition, and every image is re-saved as JPEG quality 85, so size and compression history match.
 
@@ -38,7 +42,7 @@ pos = {}
 for r in rows:
     p = prefix_of(r["catalog_number"], r["product_link"])
     if (p and not cross.search(r["summary"]) and r["original_image_filename"] in names
-            and r["original_image_filename"] not in used and re.search(r"(^|[-_])WB([-_]|$)", r["original_image_filename"], re.I)):
+            and r["original_image_filename"] not in used and (re.search(r"(^|[-_])WB([-_]|$)", r["original_image_filename"], re.I) or re.search(r"-w\.jpe?g$", r["original_image_filename"], re.I))):
         pos.setdefault(p, []).append(r)
 neg = {}
 for l in (S / "scraped/screened.jsonl").read_text().splitlines():
@@ -59,18 +63,29 @@ def emit(img, extra):
     for suffix, im in views(img).items(): im.save(d / f"{h}{suffix}.png")
     key.append({"task": "V_vendor", "id": h, **extra, "size": list(img.size)})
 
+def stats(im):
+    g = np.asarray(im.resize((128, max(8, round(im.size[1] * 128 / im.size[0]))))).astype(float)
+    return np.array([g.mean() / 255, (g > 245).mean(), np.log(im.size[0] / im.size[1])])
+
 for p, n in targets.items():
     P, N = pos.get(p, []), neg.get(p, [])
     rng.shuffle(P); rng.shuffle(N)
-    k = min(n, len(P), len(N))
-    print(f"{p}: manipulated available {len(P)}, clean available {len(N)} -> using {k} of each")
     thermo = p in ("MA5-", "PA5-", "RAB0")
-    for r in P[:k]:
-        emit(normalize(Image.open(io.BytesIO(z.read(names[r["original_image_filename"]]))), thermo),
-             {"label": 1, "prefix": p, "catalog": r["catalog_number"], "summary": r["summary"], "file": r["original_image_filename"]})
-    for d in N[:k]:
-        emit(normalize(Image.open(S / "scraped/images" / d["file"]), thermo),
-             {"label": 0, "prefix": p, "catalog": d["catalog"], "summary": "", "file": d["file"], "image_url": d["image_url"]})
+    N = N[:min(n, len(N))]
+    if not N or not P: print(f"{p}: nothing to pair"); continue
+    pool = P[:max(10 * len(N), 60)]
+    pimg = [normalize(Image.open(io.BytesIO(z.read(names[r["original_image_filename"]]))), thermo) for r in pool]
+    pst = np.array([stats(im) for im in pimg]); taken = set()
+    pairs = 0
+    for d in N:
+        nim = normalize(Image.open(S / "scraped/images" / d["file"]), thermo); ns = stats(nim)
+        order = np.argsort(np.abs(pst - ns).sum(1))
+        j = next((int(j) for j in order if int(j) not in taken), None)
+        if j is None: break
+        taken.add(j); r = pool[j]; pairs += 1
+        emit(pimg[j], {"label": 1, "prefix": p, "catalog": r["catalog_number"], "summary": r["summary"], "file": r["original_image_filename"]})
+        emit(nim, {"label": 0, "prefix": p, "catalog": d["catalog"], "summary": "", "file": d["file"], "image_url": d["image_url"]})
+    print(f"{p}: manipulated pool {len(P)} (searched {len(pool)}), clean {len(N)} -> {pairs} matched pairs")
 KEY.mkdir(exist_ok=True); (KEY / "key.json").write_text(json.dumps(key, indent=1))
 from collections import Counter
 print(Counter((k["prefix"], k["label"]) for k in key))
