@@ -108,14 +108,15 @@ def origene_products(F):
 
 
 def origene_images(page):
-    t = page.decode("utf-8", "ignore")
+    """Western blot images from the product gallery data (file names ending in -w, or captions
+    mentioning western blots); the page's <img> tags only show the first gallery image."""
+    t = page.decode("utf-8", "ignore").replace("\\/", "/")
     res = []
-    for tag in re.findall(r"<img\b[^>]*>", t, re.I):
-        alt = html.unescape((re.findall(r'alt="([^"]*)"', tag) or [""])[0])
-        if not re.search(r"western", alt, re.I): continue
-        for src in re.findall(r'(?:data-src|src)="([^"]+)"', tag):
-            if "cdn.origene.com" in src:
-                res.append((src.split("?")[0], alt)); break
+    for full, cap in re.findall(r'"full":"(https://cdn\.origene\.com/[^"]+)","caption":"((?:[^"\\]|\\.)*)"', t):
+        url = full.split("?")[0]
+        cap = html.unescape(re.sub(r"<[^>]+>", "", cap.encode().decode("unicode_escape", "ignore")))
+        if (re.search(r"-w\.(?:jpe?g|png)$", url, re.I) or re.search(r"western|\bWB\b", cap, re.I)) and url not in [u for u, _ in res]:
+            res.append((url, cap))
     return res
 
 
