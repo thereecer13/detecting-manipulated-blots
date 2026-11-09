@@ -1,0 +1,1662 @@
+[
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "4948",
+   "catalog": "MA5-45001",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Cullin 2 Recombinant Rabbit Monoclonal Antibody (JG72-31)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-45001-CULLIN2-WB-1-20230104_130011.jpg"
+  },
+  "b": {
+   "index": "11430",
+   "catalog": "bsm-54381R",
+   "vendor": "Bioss",
+   "title": "Cullin 2 (4C9) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27546.jfif"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "7868",
+   "catalog": "TA500309",
+   "vendor": "Origene",
+   "title": "Neurogenin 1 (NEUROG1) Mouse Monoclonal Antibody [Clone ID: OTI19A11] | TA500309 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta500309-1-w.jpg"
+  },
+  "b": {
+   "index": "8061",
+   "catalog": "TA500348",
+   "vendor": "Origene",
+   "title": "Neurogenin 1 (NEUROG1) Mouse Monoclonal Antibody [Clone ID: OTI8G8] | TA500348 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta500348-1-w.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11132",
+   "catalog": "LS-C800122",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human TP63 / p63 Antibody (clone OTI2A7, WB) LS-C800122",
+   "summary": "Apparent \"painting\" of background",
+   "file": "543503_5060690.jpg"
+  },
+  "b": {
+   "index": "11137",
+   "catalog": "LS-C800131",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human TP63 / p63 Antibody (clone OTI2A7, Carrier-free, WB) LS-C800131",
+   "summary": "Apparent \"painting\" of background",
+   "file": "543502_5060693.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "4785",
+   "catalog": "MA5-36097",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "GAPDH Monoclonal Antibody (12D7)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-36097-GAPDH-WB-1-20201021153721.jpg"
+  },
+  "b": {
+   "index": "18783",
+   "catalog": "EM1901-57",
+   "vendor": "HUABIO",
+   "title": "GAPDH Mouse Monoclonal Antibody [12D7] (EM1901-57)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "EM1901-57_1.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "different target name",
+  "a": {
+   "index": "18625",
+   "catalog": "RAB01425",
+   "vendor": "Abnova",
+   "title": "IQGAP2 Recombinant Rabbit Monoclonal Antibody",
+   "summary": "Repetitive regions of background noise",
+   "file": "RAB01425-IQGAP2-WB-1-20250625_084428.jpg"
+  },
+  "b": {
+   "index": "18626",
+   "catalog": "RAB01426",
+   "vendor": "Abnova",
+   "title": "IHH Recombinant Rabbit Monoclonal Antibody",
+   "summary": "Repetitive regions of background noise",
+   "file": "RAB01426-IHH-WB-1-20250625_084428.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "4956",
+   "catalog": "MA5-45061",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "PGF Monoclonal Antibody (3G2)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-45061-PGF-WB-1-20230104_130011.jpg"
+  },
+  "b": {
+   "index": "18790",
+   "catalog": "EM1701-90",
+   "vendor": "HUABIO",
+   "title": "PLGF Mouse Monoclonal Antibody [3G2] (EM1701-90)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "EM1701-90_1.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "4827",
+   "catalog": "MA5-37798",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "USP28 Monoclonal Antibody (A1F8)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-37798-USP28-WB-1-20210113105908.jpg"
+  },
+  "b": {
+   "index": "18798",
+   "catalog": "EM1901-47",
+   "vendor": "HUABIO",
+   "title": "USP28 Mouse Monoclonal Antibody [A1F8] (EM1901-47)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "EM1901-47_1.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "different target name",
+  "a": {
+   "index": "11374",
+   "catalog": "bsm-54117R",
+   "vendor": "Bioss",
+   "title": "Nogo-B (7A12) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23168.jfif"
+  },
+  "b": {
+   "index": "11460",
+   "catalog": "bsm-54643r",
+   "vendor": "Bioss",
+   "title": "Nogo-A Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "36964.jfif"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "different target name",
+  "a": {
+   "index": "18646",
+   "catalog": "RAB01473",
+   "vendor": "Abnova",
+   "title": "CDK9 Recombinant Rabbit Monoclonal Antibody",
+   "summary": "Repetitive regions of background noise",
+   "file": "RAB01473-CDK9-WB-1-20250625_084428.jpg"
+  },
+  "b": {
+   "index": "18647",
+   "catalog": "RAB01474",
+   "vendor": "Abnova",
+   "title": "CDC37 Recombinant Rabbit Monoclonal Antibody",
+   "summary": "Repetitive regions of background noise",
+   "file": "RAB01474-CDC37-WB-1-20250625_084428.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "6444",
+   "catalog": "TA504776",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI3F8] | TA504776 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504776-1-w.jpg"
+  },
+  "b": {
+   "index": "6447",
+   "catalog": "TA504777",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI4D9] | TA504777 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504777-1-w.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "7895",
+   "catalog": "TA502635",
+   "vendor": "Origene",
+   "title": "ARFGAP1 Mouse Monoclonal Antibody [Clone ID: OTI 2C10] | TA502635 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502635-1-w.jpg"
+  },
+  "b": {
+   "index": "8232",
+   "catalog": "TA502593",
+   "vendor": "Origene",
+   "title": "ARFGAP1 Mouse Monoclonal Antibody [Clone ID: OTI1F6] | TA502593 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502593-1-w.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "8023",
+   "catalog": "TA503299",
+   "vendor": "Origene",
+   "title": "Apg3 (ATG3) Mouse Monoclonal Antibody [Clone ID: OTI3G3] | TA503299 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta503299-500-w.jpg"
+  },
+  "b": {
+   "index": "8165",
+   "catalog": "TA503301",
+   "vendor": "Origene",
+   "title": "Apg3 (ATG3) Mouse Monoclonal Antibody [Clone ID: OTI3C6] | TA503301 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta503301-500-w.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11109",
+   "catalog": "LS-C800097",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, Carrier-free, IHC, WB) LS-C800097",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537429_4360184.jpg"
+  },
+  "b": {
+   "index": "11115",
+   "catalog": "LS-C800099",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, IHC, WB) LS-C800099",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537427_4360182.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11109",
+   "catalog": "LS-C800097",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, Carrier-free, IHC, WB) LS-C800097",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537429_4360184.jpg"
+  },
+  "b": {
+   "index": "11116",
+   "catalog": "LS-C800099",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, IHC, WB) LS-C800099",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537428_4360183.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "4867",
+   "catalog": "MA5-41252",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "RNF2 Recombinant Rabbit Monoclonal Antibody (JB38-41)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-41252-RNF2-WB-1-20210721132148.jpg"
+  },
+  "b": {
+   "index": "11591",
+   "catalog": "bsm-54254R",
+   "vendor": "Bioss",
+   "title": "RNF2 (1F4) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "25354.jfif"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "8323",
+   "catalog": "TA805015",
+   "vendor": "Origene",
+   "title": "LXR alpha (NR1H3) Mouse Monoclonal Antibody [Clone ID: OTI1A5] | TA805015 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta805015-1-w.jpg"
+  },
+  "b": {
+   "index": "18483",
+   "catalog": "M03331-1",
+   "vendor": "Boster Biological Technology",
+   "title": "LXR alpha Mouse Monoclonal Antibody [Clone ID: OTI1A5]",
+   "summary": "Apparent \"painting\" of background",
+   "file": "m03331-1-anti-lxr-alpha-nr1h3-mouse-monoclonal-anti_009_KoYQ.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11108",
+   "catalog": "LS-C800096",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human DAPP1 / BAM32 Antibody (clone OTI1C10, Carrier-free, WB) LS-C800096",
+   "summary": "Apparent \"painting\" of background",
+   "file": "541410_4537742.jpg"
+  },
+  "b": {
+   "index": "11121",
+   "catalog": "LS-C800101",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human DAPP1 / BAM32 Antibody (clone OTI1C10, WB) LS-C800101",
+   "summary": "Apparent \"painting\" of background",
+   "file": "541411_4537951.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11110",
+   "catalog": "LS-C800097",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, Carrier-free, IHC, WB) LS-C800097",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537421_4537776.jpg"
+  },
+  "b": {
+   "index": "11117",
+   "catalog": "LS-C800099",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, IHC, WB) LS-C800099",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537422_4537869.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11110",
+   "catalog": "LS-C800097",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, Carrier-free, IHC, WB) LS-C800097",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537421_4537776.jpg"
+  },
+  "b": {
+   "index": "11118",
+   "catalog": "LS-C800099",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human GNAS Antibody (clone OTI13G5, IHC, WB) LS-C800099",
+   "summary": "Apparent \"painting\" of background",
+   "file": "537423_4537894.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11139",
+   "catalog": "LS-C800138",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human AKT1 Antibody (clone OTI1D12, IHC, WB) LS-C800138",
+   "summary": "Apparent \"painting\" of background",
+   "file": "525427_4455183.jpg"
+  },
+  "b": {
+   "index": "11149",
+   "catalog": "LS-C800160",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human AKT1 Antibody (clone OTI1D12, Carrier-free, IHC, WB) LS-C800160",
+   "summary": "Apparent \"painting\" of background",
+   "file": "525429_4455302.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11140",
+   "catalog": "LS-C800138",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human AKT1 Antibody (clone OTI1D12, IHC, WB) LS-C800138",
+   "summary": "Apparent \"painting\" of background",
+   "file": "525428_4455194.jpg"
+  },
+  "b": {
+   "index": "11149",
+   "catalog": "LS-C800160",
+   "vendor": "LSBio",
+   "title": "Monoclonal Mouse anti-Human AKT1 Antibody (clone OTI1D12, Carrier-free, IHC, WB) LS-C800160",
+   "summary": "Apparent \"painting\" of background",
+   "file": "525429_4455302.jpg"
+  }
+ },
+ {
+  "score": 1.0,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "11604",
+   "catalog": "bsm-60971r",
+   "vendor": "Bioss",
+   "title": "E cadherin Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "67721.jfif"
+  },
+  "b": {
+   "index": "11642",
+   "catalog": "bsm-60814r-100l",
+   "vendor": "Bioss",
+   "title": "E cadherin Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "65874.jfif"
+  }
+ },
+ {
+  "score": 0.999,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "4869",
+   "catalog": "MA5-41254",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "PCK2 Recombinant Rabbit Monoclonal Antibody (JB52-39)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-41254-PCK2-WB-1-20210721132148.jpg"
+  },
+  "b": {
+   "index": "11403",
+   "catalog": "bsm-54275R",
+   "vendor": "Bioss",
+   "title": "PCK2 (12C5) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26192.jfif"
+  }
+ },
+ {
+  "score": 0.999,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "6444",
+   "catalog": "TA504776",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI3F8] | TA504776 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504776-1-w.jpg"
+  },
+  "b": {
+   "index": "6455",
+   "catalog": "TA504830",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI2C9] | TA504830 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504830-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.999,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "6447",
+   "catalog": "TA504777",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI4D9] | TA504777 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504777-1-w.jpg"
+  },
+  "b": {
+   "index": "6455",
+   "catalog": "TA504830",
+   "vendor": "Origene",
+   "title": "NONO Mouse Monoclonal Antibody [Clone ID: OTI2C9] | TA504830 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504830-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.998,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "7861",
+   "catalog": "TA501635",
+   "vendor": "Origene",
+   "title": "NSE2 (NSMCE2) Mouse Monoclonal Antibody [Clone ID: OTI6A6] | TA501635 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta501635-1-w.jpg"
+  },
+  "b": {
+   "index": "8206",
+   "catalog": "TA501632",
+   "vendor": "Origene",
+   "title": "NSE2 (NSMCE2) Mouse Monoclonal Antibody [Clone ID: OTI4A2] | TA501632 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta501632-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.997,
+  "category": "different target name",
+  "a": {
+   "index": "3153",
+   "catalog": "MA5-34807",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Mgea5 Recombinant Rabbit Monoclonal Antibody (JG40-05)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34807-MGEA5-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11447",
+   "catalog": "bsm-54428R",
+   "vendor": "Bioss",
+   "title": "O-GlcNAcase (1A5) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27983.jfif"
+  }
+ },
+ {
+  "score": 0.996,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "8276",
+   "catalog": "TA504355",
+   "vendor": "Origene",
+   "title": "SERPINB6 Mouse Monoclonal Antibody [Clone ID: OTI3H3] | TA504355 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504355-1-w.jpg"
+  },
+  "b": {
+   "index": "8447",
+   "catalog": "TA504127",
+   "vendor": "Origene",
+   "title": "SERPINB6 Mouse Monoclonal Antibody [Clone ID: OTI1C5] | TA504127 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta504127-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.992,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "6401",
+   "catalog": "TA502805",
+   "vendor": "Origene",
+   "title": "ALDH1A3 Mouse Monoclonal Antibody [Clone ID: OTI4B6] | TA502805 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502805-1-w.jpg"
+  },
+  "b": {
+   "index": "6402",
+   "catalog": "TA502841",
+   "vendor": "Origene",
+   "title": "ALDH1A3 Mouse Monoclonal Antibody [Clone ID: OTI4E8] | TA502841 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502841-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.986,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3150",
+   "catalog": "MA5-34802",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Nectin 2 Recombinant Rabbit Monoclonal Antibody (JG39-64)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34802-Nectin-2-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11445",
+   "catalog": "bsm-54423R",
+   "vendor": "Bioss",
+   "title": "Nectin 2 (3G7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27950.jfif"
+  }
+ },
+ {
+  "score": 0.985,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3125",
+   "catalog": "MA5-34756",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "WNK1 Recombinant Rabbit Monoclonal Antibody (JG36-91)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34756-WNK1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11429",
+   "catalog": "bsm-54375r",
+   "vendor": "Bioss",
+   "title": "WNK1 Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27514.jfif"
+  }
+ },
+ {
+  "score": 0.977,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "2904",
+   "catalog": "MA5-32157",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Vitronectin Recombinant Rabbit Monoclonal Antibody (ST49-02)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32157-Vitronectin-WB-1.jpg"
+  },
+  "b": {
+   "index": "11510",
+   "catalog": "bsm-52460r",
+   "vendor": "Bioss",
+   "title": "Vitronectin Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23582.jfif"
+  }
+ },
+ {
+  "score": 0.976,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3146",
+   "catalog": "MA5-34791",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "NONO Recombinant Rabbit Monoclonal Antibody (JG87-38)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34791-p54nrb-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11440",
+   "catalog": "bsm-54412R",
+   "vendor": "Bioss",
+   "title": "NONO (1G11) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27884.jfif"
+  }
+ },
+ {
+  "score": 0.955,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "2930",
+   "catalog": "MA5-32269",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Phospho-HSL (Ser853) Recombinant Rabbit Monoclonal Antibody (SN06-39)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32269-Phospho-HSL-Ser853-WB-1.jpg"
+  },
+  "b": {
+   "index": "11523",
+   "catalog": "bsm-52579R",
+   "vendor": "Bioss",
+   "title": "Hormone sensitive lipase (Ser853) (2C6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24032.jfif"
+  }
+ },
+ {
+  "score": 0.931,
+  "category": "different target name",
+  "a": {
+   "index": "2887",
+   "catalog": "MA5-32049",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "SHIP1 Recombinant Rabbit Monoclonal Antibody (SY11-08)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32049-SHIP1-WB-1.jpg"
+  },
+  "b": {
+   "index": "11496",
+   "catalog": "bsm-52345R",
+   "vendor": "Bioss",
+   "title": "SHIP (2G2) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "22604.jfif"
+  }
+ },
+ {
+  "score": 0.92,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3051",
+   "catalog": "MA5-34615",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Cullin 4A Recombinant Rabbit Monoclonal Antibody (JU07-33)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34615-Cullin-4a-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11588",
+   "catalog": "bsm-54206R",
+   "vendor": "Bioss",
+   "title": "Cullin 4A (3C3) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24487.jfif"
+  }
+ },
+ {
+  "score": 0.917,
+  "category": "different target name",
+  "a": {
+   "index": "2988",
+   "catalog": "MA5-32680",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "CaMKII delta Recombinant Rabbit Monoclonal Antibody (JA30-07)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32680-CaMKII-delta-WB-1.jpg"
+  },
+  "b": {
+   "index": "11363",
+   "catalog": "bsm-54009R",
+   "vendor": "Bioss",
+   "title": "CAMK2D (2F6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23757.jfif"
+  }
+ },
+ {
+  "score": 0.913,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "2953",
+   "catalog": "MA5-32475",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Cystatin C Recombinant Rabbit Monoclonal Antibody (JJ09-16)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32475-Cystatin-C-WB-1.jpg"
+  },
+  "b": {
+   "index": "11546",
+   "catalog": "bsm-52759R",
+   "vendor": "Bioss",
+   "title": "Cystatin C (5C2) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24682.jfif"
+  }
+ },
+ {
+  "score": 0.903,
+  "category": "different target name",
+  "a": {
+   "index": "2962",
+   "catalog": "MA5-32513",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "TK1 Recombinant Rabbit Monoclonal Antibody (JF0970)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32513-TK1-WB-1.jpg"
+  },
+  "b": {
+   "index": "11550",
+   "catalog": "bsm-52813r",
+   "vendor": "Bioss",
+   "title": "Thymidine Kinase 1 Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24149.jfif"
+  }
+ },
+ {
+  "score": 0.898,
+  "category": "different target name",
+  "a": {
+   "index": "3149",
+   "catalog": "MA5-34795",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "CAF1 p60 Recombinant Rabbit Monoclonal Antibody (JG92-30)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34795-p60-CAF1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11442",
+   "catalog": "bsm-54416R",
+   "vendor": "Bioss",
+   "title": "CHAF1B (9A7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27913.jfif"
+  }
+ },
+ {
+  "score": 0.89,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "4909",
+   "catalog": "MA5-42580",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "CD137 (4-1BB) Monoclonal Antibody (2G1)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-42580-4-1BB-CD137-WB-1-20220201_094606.jpg"
+  },
+  "b": {
+   "index": "18788",
+   "catalog": "M1701-11",
+   "vendor": "HUABIO",
+   "title": "CD137 Mouse Monoclonal Antibody [2G1] (M1701-11)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "M1701-11_1.jpg"
+  }
+ },
+ {
+  "score": 0.876,
+  "category": "different target name",
+  "a": {
+   "index": "3070",
+   "catalog": "MA5-34655",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "hnRNP U Recombinant Rabbit Monoclonal Antibody (JB23-43)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34655-hnRNP-U-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11592",
+   "catalog": "bsm-54257R",
+   "vendor": "Bioss",
+   "title": "HNRNPU (1F6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "25363.jfif"
+  }
+ },
+ {
+  "score": 0.868,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "3190",
+   "catalog": "MA5-34888",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "GP130 Monoclonal Antibody (B11-B9-A8)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34888-CD130-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "18796",
+   "catalog": "EM1701-43",
+   "vendor": "HUABIO",
+   "title": "CD130 / GP130 Mouse Monoclonal Antibody [B11-B9-A8] (EM1701-43)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "EM1701-43_2.jpg"
+  }
+ },
+ {
+  "score": 0.866,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3087",
+   "catalog": "MA5-34677",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Furin Recombinant Rabbit Monoclonal Antibody (JB35-53)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34677-Furin-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11406",
+   "catalog": "bsm-54283r",
+   "vendor": "Bioss",
+   "title": "Furin Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26243.jfif"
+  }
+ },
+ {
+  "score": 0.861,
+  "category": "different target name",
+  "a": {
+   "index": "21",
+   "catalog": "MA5-34715",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "KDEL Recombinant Rabbit Monoclonal Antibody (JB42-04) - MA5-34715",
+   "summary": "Apparent painting of background",
+   "file": "MA5-34715-KDEL-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11416",
+   "catalog": "bsm-54328R",
+   "vendor": "Bioss",
+   "title": "KDELR1 (3A6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26558.jfif"
+  }
+ },
+ {
+  "score": 0.849,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3131",
+   "catalog": "MA5-34766",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "P2Y6 Recombinant Rabbit Monoclonal Antibody (JG37-77)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34766-P2Y6-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11431",
+   "catalog": "bsm-54386r-TR",
+   "vendor": "Bioss",
+   "title": "P2Y6 Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27624.jfif"
+  }
+ },
+ {
+  "score": 0.848,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "2919",
+   "catalog": "MA5-32237",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "MEKK2 Recombinant Rabbit Monoclonal Antibody (SC68-02)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32237-MEKK2-WB-1.jpg"
+  },
+  "b": {
+   "index": "11519",
+   "catalog": "bsm-52540R",
+   "vendor": "Bioss",
+   "title": "MEKK2 (9A2) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23898.jfif"
+  }
+ },
+ {
+  "score": 0.829,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3139",
+   "catalog": "MA5-34783",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "NCF2 Recombinant Rabbit Monoclonal Antibody (JG86-31)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34783-NOXA2-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11437",
+   "catalog": "bsm-54404R",
+   "vendor": "Bioss",
+   "title": "NCF2 (3A1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27854.jfif"
+  }
+ },
+ {
+  "score": 0.817,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "7716",
+   "catalog": "TA808081",
+   "vendor": "Origene",
+   "title": "IL12A Mouse Monoclonal Antibody [Clone ID: OTI2A8] | TA808081 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta808081-1-w.jpg"
+  },
+  "b": {
+   "index": "18476",
+   "catalog": "M00918",
+   "vendor": "Boster Biological Technology",
+   "title": "IL12A Mouse Monoclonal Antibody [Clone ID: OTI2A8]",
+   "summary": "Apparent \"painting\" of background",
+   "file": "m00918-il12a-primary-antibodies-wb-testing-1_Kxp-.jpg"
+  }
+ },
+ {
+  "score": 0.81,
+  "category": "different target name",
+  "a": {
+   "index": "3148",
+   "catalog": "MA5-34793",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "CAF1 p150 Recombinant Rabbit Monoclonal Antibody (JG38-98)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34793-p150-CAF1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11441",
+   "catalog": "bsm-54414R",
+   "vendor": "Bioss",
+   "title": "CHAF1A (1D4) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27900.jfif"
+  }
+ },
+ {
+  "score": 0.772,
+  "category": "different target name",
+  "a": {
+   "index": "2746",
+   "catalog": "MA5-32826",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "alpha-II Spectrin Recombinant Rabbit Monoclonal Antibody (JU32-09) - MA5-32826",
+   "summary": "Apparent painting of background, painting outside of image boundaries",
+   "file": "MA5-32826-alpha-II-Spectrin-WB-1.jpg"
+  },
+  "b": {
+   "index": "11383",
+   "catalog": "bsm-54194R",
+   "vendor": "Bioss",
+   "title": "SPTAN1 (4C8) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24310.jfif"
+  }
+ },
+ {
+  "score": 0.763,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "7540",
+   "catalog": "TA806448",
+   "vendor": "Origene",
+   "title": "RHOC Mouse Monoclonal Antibody [Clone ID: OTI3A5] | TA806448 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta806448-500-w.jpg"
+  },
+  "b": {
+   "index": "18503",
+   "catalog": "M01211",
+   "vendor": "Boster Biological Technology",
+   "title": "RHOC Mouse Monoclonal Antibody [Clone ID: OTI3A5]",
+   "summary": "Apparent \"painting\" of background",
+   "file": "m01211-anti-rhoc-mouse-monoclonal-antibody-clone-id-oti_RkG8.jpg"
+  }
+ },
+ {
+  "score": 0.762,
+  "category": "different target name",
+  "a": {
+   "index": "3168",
+   "catalog": "MA5-34840",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "ADAP Recombinant Rabbit Monoclonal Antibody (JE44-80)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34840-FYB-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11454",
+   "catalog": "bsm-54461R",
+   "vendor": "Bioss",
+   "title": "FYB1 (1F10) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "28304.jfif"
+  }
+ },
+ {
+  "score": 0.752,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3135",
+   "catalog": "MA5-34778",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "HSPE1 Recombinant Rabbit Monoclonal Antibody (JG82-34)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34778-Cpn10-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11434",
+   "catalog": "bsm-54399R",
+   "vendor": "Bioss",
+   "title": "HSPE1 (9B3) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27726.jfif"
+  }
+ },
+ {
+  "score": 0.728,
+  "category": "different target name",
+  "a": {
+   "index": "3085",
+   "catalog": "MA5-34675",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Cytochrome P450 Reductase Recombinant Rabbit Monoclonal Antibody (JB54-31)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34675-Cytochrome-P450-Reductase-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11405",
+   "catalog": "bsm-54281R",
+   "vendor": "Bioss",
+   "title": "Cytochrome P450 Oxidoreductase (4F7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26226.jfif"
+  }
+ },
+ {
+  "score": 0.694,
+  "category": "different target name",
+  "a": {
+   "index": "3140",
+   "catalog": "MA5-34784",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Nudel Recombinant Rabbit Monoclonal Antibody (JG38-63)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34784-Nudel-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11438",
+   "catalog": "bsm-54405R",
+   "vendor": "Bioss",
+   "title": "NDEL1 (7A1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27858.jfif"
+  }
+ },
+ {
+  "score": 0.691,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3038",
+   "catalog": "MA5-32832",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "FABP3 Recombinant Rabbit Monoclonal Antibody (JU73-03)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32832-FABP3-WB-1.jpg"
+  },
+  "b": {
+   "index": "11586",
+   "catalog": "bsm-54200R",
+   "vendor": "Bioss",
+   "title": "FABP3 (4C4) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24338.jfif"
+  }
+ },
+ {
+  "score": 0.688,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "8027",
+   "catalog": "TA501936",
+   "vendor": "Origene",
+   "title": "Glutathione Synthetase (GSS) Mouse Monoclonal Antibody [Clone ID: OTI2F2] | TA501936 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta501936-3-w.jpg"
+  },
+  "b": {
+   "index": "18465",
+   "catalog": "M00928",
+   "vendor": "Boster Biological Technology",
+   "title": "Glutathione Synthetase Mouse Monoclonal Antibody [Clone ID: OTI2F2]",
+   "summary": "Apparent \"painting\" of background",
+   "file": "m00928-anti-glutathione-synthetase-gss-mouse-monocl_002_RUaS.jpg"
+  }
+ },
+ {
+  "score": 0.684,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "2913",
+   "catalog": "MA5-32222",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "PRP19 Recombinant Rabbit Monoclonal Antibody (SC06-53)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32222-PRP19-WB-1.jpg"
+  },
+  "b": {
+   "index": "11517",
+   "catalog": "bsm-52524R",
+   "vendor": "Bioss",
+   "title": "PRP19 (7H10) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23854.jfif"
+  }
+ },
+ {
+  "score": 0.658,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3000",
+   "catalog": "MA5-32738",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "TUBA4A Recombinant Rabbit Monoclonal Antibody (JM73-24)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32738-alpha-Tubulin-WB-1.jpg"
+  },
+  "b": {
+   "index": "11372",
+   "catalog": "bsm-54088R",
+   "vendor": "Bioss",
+   "title": "TUBA4A (1F1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23002.jfif"
+  }
+ },
+ {
+  "score": 0.59,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3105",
+   "catalog": "MA5-34722",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "SNRPA Recombinant Rabbit Monoclonal Antibody (JB33-48)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34722-U1A-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11420",
+   "catalog": "bsm-54338R",
+   "vendor": "Bioss",
+   "title": "SNRPA (2A1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27158.jfif"
+  }
+ },
+ {
+  "score": 0.585,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "8346",
+   "catalog": "TA500013",
+   "vendor": "Origene",
+   "title": "FGF2 Mouse Monoclonal Antibody [Clone ID: OTI2H11] | TA500013 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta500013-1-w.jpg"
+  },
+  "b": {
+   "index": "8406",
+   "catalog": "TA500269",
+   "vendor": "Origene",
+   "title": "FGF2 Mouse Monoclonal Antibody [Clone ID: OTI3D10] | TA500269 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta500269-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.58,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3021",
+   "catalog": "MA5-32785",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "FTO Recombinant Rabbit Monoclonal Antibody (JM98-30)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32785-FTO-WB-1.jpg"
+  },
+  "b": {
+   "index": "11378",
+   "catalog": "bsm-54143R",
+   "vendor": "Bioss",
+   "title": "FTO (12A1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23475.jfif"
+  }
+ },
+ {
+  "score": 0.572,
+  "category": "different target name",
+  "a": {
+   "index": "2750",
+   "catalog": "MA5-32807",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "IKK epsilon Recombinant Rabbit Monoclonal Antibody (JU06-72) - MA5-32807",
+   "summary": "Duplicated regions of background noise, unexpected horizontal discontinuities",
+   "file": "MA5-32807-IKK-epsilon-WB-1.jpg"
+  },
+  "b": {
+   "index": "11636",
+   "catalog": "bsm-54171R",
+   "vendor": "Bioss",
+   "title": "IKBKE (6C1) Monoclonal Antibody",
+   "summary": "Unexpected horizontal and vertical discontinuities, repetitive regions of background noise",
+   "file": "24163.jfif"
+  }
+ },
+ {
+  "score": 0.546,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3169",
+   "catalog": "MA5-34844",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "ATP2A1 Recombinant Rabbit Monoclonal Antibody (JE45-75)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34844-SERCA1-ATPase-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11458",
+   "catalog": "bsm-54466R",
+   "vendor": "Bioss",
+   "title": "ATP2A1 (3G1) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "28258.jfif"
+  }
+ },
+ {
+  "score": 0.518,
+  "category": "different target name",
+  "a": {
+   "index": "26",
+   "catalog": "MA5-34624",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "MAD2 Recombinant Rabbit Monoclonal Antibody (JU46-13) - MA5-34624",
+   "summary": "Apparent painting of background, unexpected horizontal discontinuities in background",
+   "file": "MA5-34624-Mad2L1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11387",
+   "catalog": "bsm-54219r",
+   "vendor": "Bioss",
+   "title": "MAD2L1 Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24752.jfif"
+  }
+ },
+ {
+  "score": 0.509,
+  "category": "different target name",
+  "a": {
+   "index": "2926",
+   "catalog": "MA5-32259",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "COX1 Recombinant Rabbit Monoclonal Antibody (SC68-05)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32259-COX1-WB-1.jpg"
+  },
+  "b": {
+   "index": "11521",
+   "catalog": "bsm-52569R",
+   "vendor": "Bioss",
+   "title": "COX1/Cyclooxygenase 1 (4A8) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23942.jfif"
+  }
+ },
+ {
+  "score": 0.496,
+  "category": "different target name",
+  "a": {
+   "index": "3141",
+   "catalog": "MA5-34785",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "TPM1 Recombinant Rabbit Monoclonal Antibody (JG38-66)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34785-Tropomyosin-1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11439",
+   "catalog": "bsm-54406R",
+   "vendor": "Bioss",
+   "title": "Tropomyosin 1 (2G2) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26927.jfif"
+  }
+ },
+ {
+  "score": 0.494,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3015",
+   "catalog": "MA5-32772",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "UBA2 Recombinant Rabbit Monoclonal Antibody (JM66-53)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32772-UBA2-WB-1.jpg"
+  },
+  "b": {
+   "index": "11376",
+   "catalog": "bsm-54128R",
+   "vendor": "Bioss",
+   "title": "UBA2 (4F12) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23371.jfif"
+  }
+ },
+ {
+  "score": 0.484,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "6304",
+   "catalog": "TA502164",
+   "vendor": "Origene",
+   "title": "Dystrobrevin alpha (DTNA) Mouse Monoclonal Antibody [Clone ID: OTI1C2] | TA502164 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502164-1-w.jpg"
+  },
+  "b": {
+   "index": "7954",
+   "catalog": "TA502184",
+   "vendor": "Origene",
+   "title": "Dystrobrevin alpha (DTNA) Mouse Monoclonal Antibody [Clone ID: OTI1B2] | TA502184 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502184-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.476,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3019",
+   "catalog": "MA5-32779",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Galectin 1 Recombinant Rabbit Monoclonal Antibody (JM13-37)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32779-Galectin-1-WB-1.jpg"
+  },
+  "b": {
+   "index": "11377",
+   "catalog": "bsm-54137R",
+   "vendor": "Bioss",
+   "title": "Galectin 1 (9H8) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23415.jfif"
+  }
+ },
+ {
+  "score": 0.475,
+  "category": "different target name",
+  "a": {
+   "index": "2931",
+   "catalog": "MA5-32270",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "hnRNP C1/C2 Recombinant Rabbit Monoclonal Antibody (SN0652)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32270-hnRNP-C1-C2-WB-1.jpg"
+  },
+  "b": {
+   "index": "11524",
+   "catalog": "bsm-52580R",
+   "vendor": "Bioss",
+   "title": "hnRNP C1+C2 (9F7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23994.jfif"
+  }
+ },
+ {
+  "score": 0.442,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "4860",
+   "catalog": "MA5-41225",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "FMRP Recombinant Rabbit Monoclonal Antibody (JM91-41)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-41225-FMRP-WB-1-20210721132148.jpg"
+  },
+  "b": {
+   "index": "11563",
+   "catalog": "bsm-52945R",
+   "vendor": "Bioss",
+   "title": "FMRP (1B6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23853.jfif"
+  }
+ },
+ {
+  "score": 0.434,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3096",
+   "catalog": "MA5-34699",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "STIP1 Recombinant Rabbit Monoclonal Antibody (JB95-38)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34699-STIP1-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11412",
+   "catalog": "bsm-54308R",
+   "vendor": "Bioss",
+   "title": "STIP1 (2H5) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "26466.jfif"
+  }
+ },
+ {
+  "score": 0.404,
+  "category": "different target name",
+  "a": {
+   "index": "3010",
+   "catalog": "MA5-32765",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "PPARGC1B Recombinant Rabbit Monoclonal Antibody (JM33-24)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32765-PPARGC1B-WB-1.jpg"
+  },
+  "b": {
+   "index": "11578",
+   "catalog": "bsm-54119R",
+   "vendor": "Bioss",
+   "title": "PPARG coactivator 1 beta (6H5) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "23333.jfif"
+  }
+ },
+ {
+  "score": 0.392,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "3191",
+   "catalog": "MA5-34888",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "GP130 Monoclonal Antibody (B11-B9-A8)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34888-CD130-WB-2-20200207153852.jpg"
+  },
+  "b": {
+   "index": "18795",
+   "catalog": "EM1701-43",
+   "vendor": "HUABIO",
+   "title": "CD130 / GP130 Mouse Monoclonal Antibody [B11-B9-A8] (EM1701-43)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "EM1701-43_1.jpg"
+  }
+ },
+ {
+  "score": 0.38,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "2990",
+   "catalog": "MA5-32690",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Clathrin Heavy Chain Recombinant Rabbit Monoclonal Antibody (JA53-02)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32690-Clathrin-Heavy-Chain-WB-1.jpg"
+  },
+  "b": {
+   "index": "11573",
+   "catalog": "bsm-54022R",
+   "vendor": "Bioss",
+   "title": "Clathrin heavy chain (2H4) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "22252.jfif"
+  }
+ },
+ {
+  "score": 0.37,
+  "category": "different target name",
+  "a": {
+   "index": "4781",
+   "catalog": "MA5-32814",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "H3K14ac Recombinant Rabbit Monoclonal Antibody (JU43-26), ChIP-Verified",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-32814-Acetyl-Histone-H3-Lys14-WB-1.jpg"
+  },
+  "b": {
+   "index": "11382",
+   "catalog": "bsm-54178r",
+   "vendor": "Bioss",
+   "title": "Histone H3 (acetyl K14) Recombinant Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "24206.jfif"
+  }
+ },
+ {
+  "score": 0.292,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3152",
+   "catalog": "MA5-34805",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "Monoamine Oxidase B Recombinant Rabbit Monoclonal Antibody (JG39-97)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34805-Monoamine-Oxidase-B-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11446",
+   "catalog": "bsm-54426R",
+   "vendor": "Bioss",
+   "title": "Monoamine Oxidase B (2F6) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "27971.jfif"
+  }
+ },
+ {
+  "score": 0.286,
+  "category": "different target name",
+  "a": {
+   "index": "3161",
+   "catalog": "MA5-34823",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "XPO5 Recombinant Rabbit Monoclonal Antibody (JE40-91)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34823-Exportin-5-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11452",
+   "catalog": "bsm-54445R",
+   "vendor": "Bioss",
+   "title": "Exportin-5 (4H7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "28077.jfif"
+  }
+ },
+ {
+  "score": 0.286,
+  "category": "different target name",
+  "a": {
+   "index": "3157",
+   "catalog": "MA5-34815",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "KARS Recombinant Rabbit Monoclonal Antibody (JE40-55)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34815-Lysyl-tRNA-synthetase-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11449",
+   "catalog": "bsm-54437R",
+   "vendor": "Bioss",
+   "title": "Lysyl-tRNA synthetase (1H8) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "28033.jfif"
+  }
+ },
+ {
+  "score": 0.271,
+  "category": "same clone (resale/format)",
+  "a": {
+   "index": "8005",
+   "catalog": "TA502314",
+   "vendor": "Origene",
+   "title": "FAM40A (STRIP1) Mouse Monoclonal Antibody [Clone ID: OTI7G7] | TA502314 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502314-1-w.jpg"
+  },
+  "b": {
+   "index": "8087",
+   "catalog": "TA502310",
+   "vendor": "Origene",
+   "title": "FAM40A (STRIP1) Mouse Monoclonal Antibody [Clone ID: OTI7B8] | TA502310 | OriGene Technologies Inc.",
+   "summary": "Apparent \"painting\" of background",
+   "file": "ta502310-1-w.jpg"
+  }
+ },
+ {
+  "score": 0.267,
+  "category": "same target, different clone name",
+  "a": {
+   "index": "3075",
+   "catalog": "MA5-34660",
+   "vendor": "Thermo Fisher Scientific",
+   "title": "MCM5 Recombinant Rabbit Monoclonal Antibody (JB31-34)",
+   "summary": "Apparent \"painting\" of background",
+   "file": "MA5-34660-MCM5-WB-1-20200207153852.jpg"
+  },
+  "b": {
+   "index": "11394",
+   "catalog": "bsm-54262R",
+   "vendor": "Bioss",
+   "title": "MCM5 (9G7) Monoclonal Antibody",
+   "summary": "Apparent \"painting\" of background",
+   "file": "25446.jfif"
+  }
+ }
+]
