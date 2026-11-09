@@ -59,3 +59,23 @@ baseline,rules_v2,rules_v3`.
 - **Small sample:** 30 + 30, one judge per item per condition. Run-to-run noise was about
   25% of verdicts in the pilot. A 3-point F1 difference is within noise.
 - **No vendor precision:** still unmeasured, since there are no clean vendor images.
+
+## Re-run of the Richardson images with the fixed equalized view (2026-11-09)
+
+The equalized view used in tests 2–4 equalized the whole figure, so on vendor figures the white
+page took the bright end of the range and pushed the blot background toward black. The view now
+equalizes only inside the blot panels (`pilot/views.py`). The fix changed the view substantially
+for 28 of these 30 images.
+
+The same 30 Richardson images were re-judged blind with the fixed view, under the same three
+conditions and the same batches. Results are in `runs_fixed_view/`. Recall is over the 28 images
+that are western blots.
+
+| condition | old view | fixed view | painting (of 15) | other (of 13) |
+|---|---|---|---|---|
+| no rules | 3/28 | 6/28 | 2 → 4 | 1 → 2 |
+| rulebook v2 | 4/28 | 8/28 | 2 → 5 | 2 → 3 |
+| rulebook v3 | 3/28 | 7/28 | 2 → 4 | 1 → 3 |
+
+The bug roughly halved recall on vendor images. Even with the fix, about three quarters of
+Richardson's within-blot findings are still missed.

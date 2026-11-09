@@ -7,4 +7,4 @@ for l in sys.stdin.read().strip().splitlines():
     i, v, p = parts[:3]; r = parts[3] if len(parts) > 3 else "-"
     out.append({"id": i, "verdict": "manipulated" if v == "M" else "legitimate", "probability_manipulated": float(p),
                 "regions": [] if r == "-" else [list(map(float, b.split(","))) for b in r.split(";")]})
-json.dump(out, open(f"{base}/runs/{cond}/{batch}.json", "w")); print(cond, batch, len(out))
+json.dump(out, open(f"{base}/{'runs' if not base.endswith('fix') else 'runs'}/{cond}/{batch}.json", "w")); print(cond, batch, len(out))
