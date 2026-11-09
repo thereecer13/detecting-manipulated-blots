@@ -22,10 +22,46 @@ def resize(a, s, nearest):
     return cv2.resize(a, (max(1, round(w * s)), max(1, round(h * s))),
                       interpolation=cv2.INTER_NEAREST if nearest else cv2.INTER_AREA if s < 1 else cv2.INTER_LANCZOS4)
 
+def blot_mask(g):
+    """Pixels belonging to blot panels, not to the figure page around them.
+
+    Page = near-white pixels connected to the image border. Everything else that forms a large
+    region (>= 1.5% of the image) is a blot panel; small regions are text, ladder ticks and arrows.
+    Each panel is taken as its bounding rectangle (membranes are rectangular), minus any page pixels
+    inside that rectangle (white margin or ladder labels next to a strip). If no panel is found (the
+    whole image is one blot crop, or the background is pure white), the whole image counts as blot."""
+    h, w = g.shape
+    white = (cv2.GaussianBlur(g, (3, 3), 0) >= 246).astype(np.uint8)
+    n, lab = cv2.connectedComponents(white, 4)
+    border = set(np.unique(np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]))) - {0}
+    page = np.isin(lab, list(border)) & (white > 0)
+    if page.mean() < 0.05:
+        return np.ones_like(g, bool)
+    rest = cv2.morphologyEx((~page).astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(rest, 8)
+    mask = np.zeros_like(g, bool)
+    for i in range(1, n):
+        x, y, bw, bh, area = stats[i]
+        if area >= 0.015 * h * w and bw >= 0.05 * w and bh >= 0.05 * h:
+            mask[y:y + bh, x:x + bw] = True
+    mask &= ~page
+    return mask if mask.any() else np.ones_like(g, bool)
+
+
 def equalized(g):
-    """Global histogram equalization: the most common gray levels (usually the background) get most of the
-    output range, like raising the black point and lowering the white point by hand, but without clipping."""
-    return cv2.equalizeHist(g)
+    """Histogram equalization inside the blot panels only, using the panels' own gray levels: the
+    most common levels there (usually the membrane background) get most of the output range, like
+    raising the black point and lowering the white point by hand, without clipping. The page, labels
+    and ladder text outside the panels are left as they are (equalizing them with the blot would let
+    the white page take the bright end of the range and push the blot background to near black)."""
+    m = blot_mask(g)
+    vals = g[m]
+    hist = np.bincount(vals, minlength=256).astype(np.float64)
+    cdf = hist.cumsum(); cdf_min = cdf[cdf > 0][0]
+    lut = np.clip(np.round((cdf - cdf_min) / max(cdf[-1] - cdf_min, 1) * 255), 0, 255).astype(np.uint8)
+    out = g.copy(); out[m] = lut[g[m]]
+    return out
+
 
 def views(img, long_side=512):
     """Return {name: image} at long_side; forensic views are computed at native resolution."""
