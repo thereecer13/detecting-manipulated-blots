@@ -1,0 +1,196 @@
+[
+ {
+  "id": "0f5a941ed3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "In the equalized view, lane 1 has a flat background and lane 2 is noisier near the edges, but the local-contrast view looks natural and there is no clear seam."
+ },
+ {
+  "id": "15cfe2c660",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background shows only JPEG block texture. There are no seams or repeated regions."
+ },
+ {
+  "id": "0fa8a519d9",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.23,
+    0.33,
+    0.28,
+    0.62
+   ]
+  ],
+  "reasoning": "The equalized view shows a clean, flat vertical strip between the SIHA and HELA lanes. Its texture does not match the noisy background around it, which suggests painted background."
+ },
+ {
+  "id": "c3dffa565c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "This is a single-lane blot with lane texture that looks natural. There are no visible discontinuities."
+ },
+ {
+  "id": "981beae9ea",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lane background is very flat but uniform, which is typical of vendor images. There is only a small speck above the band."
+ },
+ {
+  "id": "70d1eca7c2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture across the two lanes is continuous and natural, with no seams."
+ },
+ {
+  "id": "c7e3fa32c4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows blocky flat areas. They most likely come from posterization of a smooth background rather than a pasted patch, but this is uncertain."
+ },
+ {
+  "id": "969ad54bcd",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.53,
+    0.28,
+    0.93,
+    0.6
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular darker block with straight edges around both bands. This suggests a pasted band patch."
+ },
+ {
+  "id": "0b082888f7",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lower half of panel B is completely flat, but its jagged edge looks like clipped white background. The local-contrast view looks natural."
+ },
+ {
+  "id": "6d65ccefa1",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "duplication",
+  "regions": [
+   [
+    0.41,
+    0.11,
+    0.49,
+    0.21
+   ],
+   [
+    0.42,
+    0.5,
+    0.48,
+    0.6
+   ],
+   [
+    0.42,
+    0.64,
+    0.48,
+    0.73
+   ]
+  ],
+  "reasoning": "The equalized view shows several lighter, similarly shaped patches in the lane background, one with a rectangular edge. This suggests cloned background."
+ },
+ {
+  "id": "d62d275adf",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.67,
+    0.43,
+    0.96,
+    0.6
+   ]
+  ],
+  "reasoning": "In the equalized view the band sits inside a dark block with a straight vertical left edge. This suggests a band patch pasted into a flat background."
+ },
+ {
+  "id": "e06b430f98",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background around the band has an irregular, natural noise pattern and no straight edges."
+ },
+ {
+  "id": "05269ad356",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.65,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.56,
+    0.87,
+    0.86,
+    0.93
+   ],
+   [
+    0.68,
+    0.6,
+    0.93,
+    0.74
+   ],
+   [
+    0.58,
+    0.22,
+    0.95,
+    0.42
+   ]
+  ],
+  "reasoning": "The equalized view shows several sharp-edged rectangular blocks, one of which crosses into the other lane at about 12 kDa. These suggest pasted or painted patches."
+ },
+ {
+  "id": "6cdc6a3580",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The speckle around the band is irregular and natural, and there are no seams."
+ },
+ {
+  "id": "2240ca1345",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.68,
+    0.11,
+    0.97,
+    0.56
+   ]
+  ],
+  "reasoning": "The smear region has a straight horizontal top edge and a sharp right boundary, so it looks like a pasted rectangular block."
+ },
+ {
+  "id": "fe40a13607",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is blotchy but irregular and natural-looking, with no repeated or rectangular features."
+ }
+]

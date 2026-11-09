@@ -1,0 +1,158 @@
+[
+ {
+  "id": "e99a11986a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture is continuous across all three lanes, with no seams or repeated patches. Band shapes differ naturally."
+ },
+ {
+  "id": "327305f9ca",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized and residual views show posterization blocks and faint vertical lines at the lane borders, but no clear duplicated or spliced content."
+ },
+ {
+  "id": "a579a7699a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Separate panels are honestly marked by white gaps. Background inside each panel is continuous and the bands look natural."
+ },
+ {
+  "id": "cdf39134b5",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The heavy smear has irregular, natural-looking edges. Background texture above and below it is continuous, with no clear seams."
+ },
+ {
+  "id": "8f002d0773",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background is textured and continuous in the equalized and residual views. The single band has no visible boundary around it."
+ },
+ {
+  "id": "25b2b3d7b6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane whose smear fades out smoothly. Its slightly sharp boundary in the equalized view is most likely contrast clipping rather than a paste."
+ },
+ {
+  "id": "82fa21f08d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two blots labelled A and B are shown as separate panels with different backgrounds. Neither panel shows an internal seam or duplicated band."
+ },
+ {
+  "id": "5b98b7155b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Smooth background gradients and grain continue across all lanes. Each band has its own shape."
+ },
+ {
+  "id": "183f463873",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.37,
+    0.07,
+    0.92,
+    0.29
+   ]
+  ],
+  "reasoning": "The top of the membrane is unusually smooth and flat, and it meets the textured background below along a sharp straight horizontal edge across the whole width, which suggests painted-over or replaced background. There is also an odd kink in the band at the U87 lane."
+ },
+ {
+  "id": "5c8889d024",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.47,
+    0.0,
+    0.93,
+    1.0
+   ]
+  ],
+  "reasoning": "Even after equalization the lane background is almost perfectly uniform, with no texture, unlike similar blots. This suggests the background was cleaned or painted around the bands."
+ },
+ {
+  "id": "458b002ca6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture is natural and continuous, with no seams or repeated regions."
+ },
+ {
+  "id": "f36c18bc97",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two lanes sit in separate panels. Their bands look similar but their background textures and minor bands differ, so they are not duplicates."
+ },
+ {
+  "id": "7496493f35",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background grain is continuous across the lanes, and the faint horizontal streak looks like a membrane artifact. There is no evidence of a splice or clone."
+ },
+ {
+  "id": "c403e7d95a",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.83,
+    0.23,
+    0.94,
+    0.36
+   ]
+  ],
+  "reasoning": "In the equalized view the mMCF2 band in panel B sits inside a dark block with a sharp straight vertical left edge, which suggests a pasted band patch. Posterization could also explain it."
+ },
+ {
+  "id": "2f9c1419c1",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two labelled panels with different backgrounds, each continuous inside. No internal seams or duplicated bands."
+ },
+ {
+  "id": "28586c16a9",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.36,
+    0.28,
+    0.62,
+    0.66
+   ]
+  ],
+  "reasoning": "The equalized and local views show a rectangular block with straight horizontal top and bottom edges containing both bands. Its textured background differs from the flat background above and below, a typical pasted patch."
+ }
+]

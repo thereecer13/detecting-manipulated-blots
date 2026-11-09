@@ -1,0 +1,149 @@
+[
+ {
+  "id": "83b60b19dd",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Upper lane is very flat in the equalized view, but the texture around the band looks continuous and the blockiness fits JPEG. No clear seam or duplicate."
+ },
+ {
+  "id": "fe1ce244ee",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background shows JPEG-blocky but continuous texture around the strong band. No repeated or cut regions found."
+ },
+ {
+  "id": "e9f65c4d32",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows natural, uneven background grain everywhere, with no flat patches or seams."
+ },
+ {
+  "id": "53bb15e1e4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.66,
+    0.12,
+    0.93,
+    0.72
+   ]
+  ],
+  "reasoning": "All the lane-2 texture sits inside a rectangle with a straight left edge, on a perfectly flat background that has no noise at all. Below the band there is a patch lighter than the background with sharp edges."
+ },
+ {
+  "id": "4c71c9d455",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.63,
+    0.29,
+    0.94,
+    0.45
+   ]
+  ],
+  "reasoning": "The band is a rectangular blob with straight vertical edges on a background with no noise at all in the residual view, which suggests a pasted band or a painted background."
+ },
+ {
+  "id": "674fee740b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Natural noise texture across the whole membrane, and the two bands differ in shape and position."
+ },
+ {
+  "id": "0bff8afb9d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The smooth gradient areas in the equalized view look like posterization and JPEG blocks rather than cloned or cut areas."
+ },
+ {
+  "id": "191348e66f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels have continuous grain, and the bands and minor lower bands differ between lanes. The panel border is an openly shown composite."
+ },
+ {
+  "id": "54d758bab8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with natural texture around the bands and no seams or duplicated features."
+ },
+ {
+  "id": "26366cc6b9",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lane background is textured with JPEG blocks throughout. Nothing looks repeated or spliced."
+ },
+ {
+  "id": "be9de4f23c",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.7,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.6,
+    0.41,
+    0.8,
+    0.65
+   ],
+   [
+    0.84,
+    0.42,
+    0.99,
+    0.97
+   ]
+  ],
+  "reasoning": "Panel B, whose background is otherwise noisy, has flat patches with no grain and sharp boundaries in the equalized and residual views, which fits painted-over background."
+ },
+ {
+  "id": "b91fff0746",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background grain is continuous, and the band ladder has distinct, non-repeating shapes."
+ },
+ {
+  "id": "b400666e5f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is almost perfectly flat with a few small blocky patches, which most likely come from compression or posterization rather than cloning."
+ },
+ {
+  "id": "8b78661ece",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels show natural streaks and grain. The bands differ in detail between lanes and between panels."
+ },
+ {
+  "id": "d5ed03678b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The upper lane is very flat compared with the textured lower lane, but there is no clear rectangular seam or duplicated content, so I'm leaving it as borderline."
+ }
+]

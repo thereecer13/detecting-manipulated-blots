@@ -1,0 +1,170 @@
+[
+ {
+  "id": "e51c0fa9fc",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.8,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.24,
+    0.7,
+    0.97,
+    0.98
+   ],
+   [
+    0.4,
+    0.28,
+    0.97,
+    0.4
+   ]
+  ],
+  "reasoning": "In the equalized and local views, everything below about 25 kDa is perfectly flat and meets the grainy upper blot along a straight horizontal line. There are also flat rectangular patches near 70 kDa, which points to painted background."
+ },
+ {
+  "id": "ef2e78df40",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows blocky texture across the whole lane, which fits JPEG compression. There is no local box or seam around the single band."
+ },
+ {
+  "id": "aed4b54f7f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single lane with a smooth, continuous smear and graininess. I found no seams, flat patches or repeated features."
+ },
+ {
+  "id": "7e84e31a50",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat across the whole lane, which suggests over-adjusted contrast rather than local painting. The band edges look natural."
+ },
+ {
+  "id": "c20bd3ebd5",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.62,
+    0.19,
+    0.93,
+    0.31
+   ],
+   [
+    0.62,
+    0.42,
+    0.93,
+    0.62
+   ]
+  ],
+  "reasoning": "The equalized and residual views show rectangular outlines with straight vertical and horizontal edges around both band regions inside an otherwise flat lane. This is consistent with pasted patches, though JPEG blocking could add to it."
+ },
+ {
+  "id": "6513aa357e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two panels are separated by a visible white gap, which is a disclosed splice. The equalized view shows smooth posterization contours and no local pasted patches."
+ },
+ {
+  "id": "1501f8ad3e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture fades into a saturated flat area along an irregular, natural-looking boundary, the same as the comparable 134f28eba6. I see no straight seams."
+ },
+ {
+  "id": "e622983407",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two lanes have continuous background and natural smears in the HeLa lane. I found no seams or duplicated band detail."
+ },
+ {
+  "id": "134f28eba6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The grainy background fades gradually with an irregular boundary, and the doublet band looks natural."
+ },
+ {
+  "id": "e3575808d1",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The panels are separated by a white gap, which is a disclosed splice. Both backgrounds are uniformly flat from over-adjustment, and the few small gray blocks look like compression or posterization."
+ },
+ {
+  "id": "d88fc36399",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.6,
+    0.22,
+    0.92,
+    0.8
+   ]
+  ],
+  "reasoning": "The equalized view shows a boxy region around the signal with fairly straight edges. The local-contrast view shows a smooth natural halo, though, so this is probably JPEG blocking on a slightly darker lane."
+ },
+ {
+  "id": "71d64c74db",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.22,
+    0.2,
+    0.44,
+    0.33
+   ]
+  ],
+  "reasoning": "There is a slightly darker zone around the hECT2 band in panel A, but in the local view it looks like a halo or posterization rather than a sharp pasted box. The panels are separated by a disclosed gap."
+ },
+ {
+  "id": "2e0d686629",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view is dominated by JPEG blocks. The bands and smear in lane 1 look continuous, with no clear straight seams."
+ },
+ {
+  "id": "e11b775247",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background grain is uniform, the bands are natural and I found no seams or flat patches."
+ },
+ {
+  "id": "f6fdfe0e2a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat areas at the top and bottom have irregular, gradient-like boundaries rather than straight edges, which fits a brightness gradient that clipped. The bands do not look copied."
+ },
+ {
+  "id": "d2a1ffce9c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture is continuous, with natural interference-ring patterns and varied faint bands. I found no seams or duplicates."
+ }
+]

@@ -1,0 +1,176 @@
+[
+ {
+  "id": "5d7143c397",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Typical two-lane overexpression blot; the blockiness in the equalized view is JPEG compression, and there is no clear seam, cloned band or local flat patch."
+ },
+ {
+  "id": "787cc303ce",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single clean band. The blotches in the equalized view look like posterization and JPEG blocks, not painted patches with sharp borders."
+ },
+ {
+  "id": "3d6729cd5a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two Coomassie gel panels separated by a gap. The background texture is grainy throughout, and there are no seams or repeated bands."
+ },
+ {
+  "id": "d3a38bdafa",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Panels are separated by a visible gap, which is a disclosed splice. Band patterns differ between lanes and the background is continuous within each panel."
+ },
+ {
+  "id": "5991d216da",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.29,
+    0.6,
+    0.92,
+    0.92
+   ]
+  ],
+  "reasoning": "The lower part of all three strips is flat in the residual, but its upper boundary is ragged and it spans every strip, which fits over-adjusted contrast more than local painting. The strips are separated by gaps."
+ },
+ {
+  "id": "d771fa6511",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single band on a uniformly flat background, consistent with global contrast adjustment. No box, seam or cut edge."
+ },
+ {
+  "id": "e40861cacf",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.64,
+    0.45,
+    0.8,
+    0.52
+   ]
+  ],
+  "reasoning": "The hTNNI1 and mTNNI1 bands in panel B are alike in shape, but they differ in thickness and no shared fine detail is visible. The panels are separated by a gap."
+ },
+ {
+  "id": "423be1571d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Three similar bands, but at different intensities and widths. The background is grainy throughout and has no visible seams."
+ },
+ {
+  "id": "bc3879071b",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.68,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.52,
+    0.14,
+    0.7,
+    0.4
+   ],
+   [
+    0.11,
+    0.58,
+    0.4,
+    0.86
+   ]
+  ],
+  "reasoning": "The equalized and residual views show a patch above lane 5 whose texture differs from its surroundings and whose bottom edge is sharp and straight. A smooth flat area at lower left breaks the otherwise grainy background."
+ },
+ {
+  "id": "99f96f7186",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The outline around the band in the equalized view is made of JPEG blocks. The residual shows no pasted rectangle or seam."
+ },
+ {
+  "id": "a2dc162b38",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single band on a flat background. The faint features at the lane ends are edge effects, and there is no seam or cloned region."
+ },
+ {
+  "id": "d087afd6e4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.42,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.28,
+    0.57,
+    0.56,
+    0.97
+   ]
+  ],
+  "reasoning": "In panel A, the equalized view shows a bright region below the bands with a fairly straight left edge, but the local-contrast view shows a smooth gradient there. Panels are separated by a gap."
+ },
+ {
+  "id": "e68004394e",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.52,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.68,
+    0.78,
+    0.9,
+    1.0
+   ]
+  ],
+  "reasoning": "The equalized view shows a darker rectangular region at the bottom right of the lane with a straight horizontal top edge and a straight vertical left edge, which suggests a pasted or painted background patch."
+ },
+ {
+  "id": "f0e119d598",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavy smear with distinct lower bands. The equalized view is dominated by JPEG blocks, and there are no straight seams or repeated bands."
+ },
+ {
+  "id": "eda2f1fdbf",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.68,
+    0.46,
+    0.95,
+    0.6
+   ],
+   [
+    0.65,
+    0.78,
+    0.95,
+    0.93
+   ]
+  ],
+  "reasoning": "The equalized view shows dark horizontal patches with straight edges above and below the main band, and odd blocks near the bottom, that have no counterpart in the original. These could be pasted regions, but posterization cannot be ruled out."
+ }
+]

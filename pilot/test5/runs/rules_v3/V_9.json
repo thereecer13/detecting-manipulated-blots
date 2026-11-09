@@ -1,0 +1,196 @@
+[
+ {
+  "id": "1d09d2fd98",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.4,
+    0.38,
+    0.44,
+    0.5
+   ],
+   [
+    0.55,
+    0.38,
+    0.59,
+    0.5
+   ]
+  ],
+  "reasoning": "The equalized view shows sharp vertical brightness steps between lanes 1/2 and 2/3 across the band row, with no gap, which fits undisclosed lane splices."
+ },
+ {
+  "id": "e1f210b185",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lanes are separate strips with white gaps (disclosed). The two positive bands look alike in shape, but their fine detail does not match."
+ },
+ {
+  "id": "33f3c89f71",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.48,
+    0.3,
+    0.72,
+    0.4
+   ]
+  ],
+  "reasoning": "The equalized view is dominated by JPEG blocks and posterization. A brightness change below the 70 kDa band in the left lane is ambiguous."
+ },
+ {
+  "id": "1c9406175e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.55,
+    0.55,
+    1.0,
+    0.7
+   ]
+  ],
+  "reasoning": "The background is blotchy but varies smoothly. A faint horizontal line near the lane 3-4 bands is weak evidence."
+ },
+ {
+  "id": "563abbc28b",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.27,
+    0.06,
+    0.43,
+    0.28
+   ],
+   [
+    0.33,
+    0.48,
+    0.43,
+    0.62
+   ]
+  ],
+  "reasoning": "In the equalized view the upper Raji lane is a smooth flat patch while the other lanes are grainy, and there are isolated white specks, which fits painted background."
+ },
+ {
+  "id": "1c6387aa51",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat across the whole blot, which points to over-adjustment. The bands differ naturally."
+ },
+ {
+  "id": "0961bed31d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat (over-adjusted) and there is a single smeared band, with no local edits visible."
+ },
+ {
+  "id": "256afc4f70",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lane streaks and background texture look continuous in the local view, and the bands differ in fine detail."
+ },
+ {
+  "id": "2a696ccf97",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.8,
+    0.48,
+    0.9,
+    0.56
+   ]
+  ],
+  "reasoning": "The equalized view has large posterized flat areas that look like few saved gray levels rather than local painting. An isolated dark blotch near SK-OV-3 is minor."
+ },
+ {
+  "id": "3a46ef43fb",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat with a single band, and nothing points to a splice or patch."
+ },
+ {
+  "id": "5220eee349",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background grain is continuous, and the bands are alike in shape but have different fine detail."
+ },
+ {
+  "id": "f74b517d9b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single lane with JPEG block texture in the equalized view and no clear edit."
+ },
+ {
+  "id": "0bc05dd837",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.57,
+    0.28,
+    0.93,
+    0.43
+   ]
+  ],
+  "reasoning": "The equalized view shows a light, straight-edged patch above the smear that contrasts with the surrounding background."
+ },
+ {
+  "id": "bae188a902",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.07,
+    0.15,
+    0.25,
+    0.9
+   ]
+  ],
+  "reasoning": "The left edge of the lane is smoother and lighter than the grainy right side, but the transition is soft and fits uneven exposure."
+ },
+ {
+  "id": "d8aaba8af4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.65,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.53,
+    0.22,
+    0.92,
+    0.4
+   ],
+   [
+    0.8,
+    0.92,
+    0.86,
+    0.96
+   ]
+  ],
+  "reasoning": "The equalized view shows rectangular, straight-edged dark blocks around and above the bands and an isolated rectangle in the flat background, which fits pasted patches."
+ }
+]

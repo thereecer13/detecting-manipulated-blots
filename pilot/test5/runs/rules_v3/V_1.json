@@ -1,0 +1,224 @@
+[
+ {
+  "id": "0f5a941ed3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.33,
+    0.44,
+    0.43,
+    0.62
+   ]
+  ],
+  "reasoning": "Lane 1 band sits in a dark, somewhat rectangular halo in the equalized view and the background is flat, but there is no clear seam or duplicated detail; most likely over-adjustment."
+ },
+ {
+  "id": "15cfe2c660",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single band; the equalized background shows only JPEG block texture, with no seams or flat patches."
+ },
+ {
+  "id": "0fa8a519d9",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.24,
+    0.32,
+    0.28,
+    0.48
+   ]
+  ],
+  "reasoning": "The equalized view shows a flat white vertical patch between the SIHA and HELA lanes, standing out against an otherwise grainy, speckled background."
+ },
+ {
+  "id": "c3dffa565c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Narrow single lane with continuous texture; no seams, boxes or repeated features."
+ },
+ {
+  "id": "981beae9ea",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.62,
+    0.4,
+    0.97,
+    0.5
+   ]
+  ],
+  "reasoning": "Straight horizontal lines cross the full lane width just above and below the band in the equalized and residual views, which suggests an inserted strip."
+ },
+ {
+  "id": "70d1eca7c2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavy JPEG blocking, but the background texture is continuous across both lanes and there is no clear splice or duplication."
+ },
+ {
+  "id": "c7e3fa32c4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.7,
+    0.56,
+    0.92,
+    0.68
+   ]
+  ],
+  "reasoning": "The equalized view shows rectilinear light and dark blocks hugging the band, but the image is strongly posterized, so these may be contour or JPEG artifacts."
+ },
+ {
+  "id": "969ad54bcd",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.66,
+    0.28,
+    0.95,
+    0.58
+   ]
+  ],
+  "reasoning": "A faint rectangular region of different background surrounds both bands, with a straight horizontal edge across the lane at about 70 kDa, consistent with a pasted patch."
+ },
+ {
+  "id": "0b082888f7",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two panels are separated by a white gap (a disclosed splice); the flat areas have irregular, contour-like edges from clipping or posterization."
+ },
+ {
+  "id": "6d65ccefa1",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.42,
+    0.1,
+    0.49,
+    0.2
+   ],
+   [
+    0.42,
+    0.5,
+    0.49,
+    0.6
+   ],
+   [
+    0.42,
+    0.66,
+    0.49,
+    0.73
+   ]
+  ],
+  "reasoning": "The equalized view shows several smooth, flat gray patches inside an otherwise grainy lane background, consistent with local background painting."
+ },
+ {
+  "id": "d62d275adf",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.68,
+    0.44,
+    0.95,
+    0.59
+   ]
+  ],
+  "reasoning": "The band sits in a box-shaped dark region with a straight vertical left edge in the equalized view, which suggests a pasted band patch."
+ },
+ {
+  "id": "e06b430f98",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The band's halo has irregular, grainy edges in the equalized view, and the background is otherwise uniformly flat (over-adjusted)."
+ },
+ {
+  "id": "05269ad356",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.68,
+    0.6,
+    0.92,
+    0.73
+   ],
+   [
+    0.55,
+    0.83,
+    0.85,
+    0.9
+   ]
+  ],
+  "reasoning": "Rectangular dark blocks appear in empty lane areas in the equalized view, but they look like JPEG/posterization blocks of faint smudges rather than clear edits."
+ },
+ {
+  "id": "6cdc6a3580",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The band and its trailing smear have irregular natural edges, and the rest of the background is flat with no seams."
+ },
+ {
+  "id": "2240ca1345",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.7,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.6,
+    0.12,
+    0.97,
+    0.55
+   ]
+  ],
+  "reasoning": "The smeared band region begins along a perfectly straight horizontal edge and forms a rectangular block in the equalized and local views, so the band looks trimmed or pasted."
+ },
+ {
+  "id": "fe40a13607",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.45,
+    0.1,
+    0.5,
+    0.3
+   ],
+   [
+    0.45,
+    0.7,
+    0.52,
+    0.95
+   ]
+  ],
+  "reasoning": "The equalized view shows flat gray blotches among grainy background, but they have contour-like edges that fit posterization, and the local view looks natural."
+ }
+]

@@ -1,0 +1,618 @@
+{
+ "review": "clean_vendor_review",
+ "exported": "2026-11-09T21:42:54.884Z",
+ "items": [
+  {
+   "id": "aed4b54f7f",
+   "label": "MA5-23870 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c3ece7f819",
+   "label": "MA5-24355 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c538dae31c",
+   "label": "MA5-24884 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "78d0e9097b",
+   "label": "MA5-25218 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "37ceb3adf5",
+   "label": "MA5-25265 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "05269ad356",
+   "label": "MA5-26470 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "a1a2e3b084",
+   "label": "MA5-31498 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "674fee740b",
+   "label": "MA5-32376 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "3a819110bb",
+   "label": "MA5-33189 (MA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "2e0d686629",
+   "label": "MA5-34931 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "52929305d2",
+   "label": "MA5-35149 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e622983407",
+   "label": "MA5-35277 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8be1d0e0a3",
+   "label": "MA5-35828 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c3dffa565c",
+   "label": "MA5-37510 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "2f8d6779c6",
+   "label": "MA5-37555 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8e43b0a9ef",
+   "label": "MA5-38397 (MA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "e44412a666",
+   "label": "MA5-38410 (MA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "2aafdf12e7",
+   "label": "MA5-41219 (MA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "3d6729cd5a",
+   "label": "MA5-42168 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "f36c18bc97",
+   "label": "MA5-42796 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "3408aa5850",
+   "label": "MA5-44614 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e99a11986a",
+   "label": "MA5-44826 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "f74b517d9b",
+   "label": "MA5-44871 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "15cfe2c660",
+   "label": "MA5-44909 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "325bc97665",
+   "label": "MA5-47446 (MA5-)",
+   "verdict": "not a western blot",
+   "notes": ""
+  },
+  {
+   "id": "89a5cfddda",
+   "label": "MA5-47452 (MA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "25b2b3d7b6",
+   "label": "MA5-49484 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "54d758bab8",
+   "label": "MA5-49488 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "4c97d4bf9c",
+   "label": "MA5-51324 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "f6b47fdb77",
+   "label": "MA5-55568 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "a579a7699a",
+   "label": "MA5-56437 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "5220eee349",
+   "label": "MA5-57762 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "5b98b7155b",
+   "label": "MA5-57782 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "386f73737a",
+   "label": "MA5-58128 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d2a1ffce9c",
+   "label": "MA5-61444 (MA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "22595acf69",
+   "label": "PA5-110421 (PA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "b9d205add4",
+   "label": "PA5-119783 (PA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e11b775247",
+   "label": "PA5-145407 (PA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1c3d7f213e",
+   "label": "PA5-76140 (PA5-)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d646956029",
+   "label": "PA5-78639 (PA5-)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "f0610bed98",
+   "label": "RAB02107 (RAB0)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "56ef17edda",
+   "label": "RAB02365 (RAB0)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1337eae7c7",
+   "label": "RAB04439 (RAB0)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1c6387aa51",
+   "label": "RAB04457 (RAB0)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "2396db544d",
+   "label": "TA500281 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "0b082888f7",
+   "label": "TA500463 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "26366cc6b9",
+   "label": "TA500495 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "f10f0ea393",
+   "label": "TA500806 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "606efbc067",
+   "label": "TA500832 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8404e071ba",
+   "label": "TA501021 (TA5)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "f439baa2f4",
+   "label": "TA501241 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "99f96f7186",
+   "label": "TA501903 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "ef2e78df40",
+   "label": "TA502248 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "787cc303ce",
+   "label": "TA502526 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "02ab4c6b5d",
+   "label": "TA502637 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "3d2de0d784",
+   "label": "TA502684 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8f002d0773",
+   "label": "TA502762 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e9f65c4d32",
+   "label": "TA503202 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1f6c39157f",
+   "label": "TA503537 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "330218ad51",
+   "label": "TA503970 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "f0e119d598",
+   "label": "TA504204 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1f2724d449",
+   "label": "TA504640 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c20bd3ebd5",
+   "label": "TA505120 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c7e3fa32c4",
+   "label": "TA505160 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "bf76598900",
+   "label": "TA505227 (TA5)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "44ebdfeb03",
+   "label": "TA506405 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d5ed03678b",
+   "label": "TA506805 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "a2dc162b38",
+   "label": "TA590480 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "fec3a537e8",
+   "label": "TA591070 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "4059f4737e",
+   "label": "TA592329 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e3575808d1",
+   "label": "TA592951 (TA5)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d62d275adf",
+   "label": "TA801978 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "7d9fbe2e88",
+   "label": "TA804679 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "7cb870ece3",
+   "label": "TA806202 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "e1f210b185",
+   "label": "TA807395 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "819ec28f3f",
+   "label": "TA807830 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "85e5645377",
+   "label": "TA807929 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "43137e3272",
+   "label": "TA809730 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "0961bed31d",
+   "label": "TA809794 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d771fa6511",
+   "label": "TA810160 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "2f9c1419c1",
+   "label": "TA810174 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "61444ac8a0",
+   "label": "TA810247 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "b3d37f9c28",
+   "label": "TA810317 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "555fab45d4",
+   "label": "TA810527 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "2240ca1345",
+   "label": "TA811398 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "3bed856c64",
+   "label": "TA811407 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "191348e66f",
+   "label": "TA811631 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "5991d216da",
+   "label": "TA811809 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "9962af2fc6",
+   "label": "TA811878 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d087afd6e4",
+   "label": "TA812291 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "c403e7d95a",
+   "label": "TA812536 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "69b8c74488",
+   "label": "TA812963 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "9efef90fd4",
+   "label": "TA813056 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "bb5e3a8c9c",
+   "label": "TA813230 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "1103297907",
+   "label": "TA815385 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8504b0e3fa",
+   "label": "TA815678 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "8fa6e493d6",
+   "label": "TA815680 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "d23cc46630",
+   "label": "TA815704 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "719207f68e",
+   "label": "TA816145 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "cba54aa73d",
+   "label": "TA890102 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "53bb15e1e4",
+   "label": "TA890147 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  },
+  {
+   "id": "b3bd7b2258",
+   "label": "TA890230 (TA8)",
+   "verdict": "clean",
+   "notes": ""
+  }
+ ]
+}

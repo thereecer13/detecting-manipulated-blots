@@ -1,0 +1,144 @@
+[
+ {
+  "id": "e51c0fa9fc",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.8,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.24,
+    0.72,
+    0.99,
+    0.97
+   ]
+  ],
+  "reasoning": "The bottom ~28% of the blot has no noise at all in the equalized and residual views, and it starts at a perfectly straight horizontal line. The rest of the membrane is grainy, which points to painted-over background."
+ },
+ {
+  "id": "ef2e78df40",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is heavy JPEG blocking, but the background texture is continuous across the lane. I see no seams, repeated patches or flat areas."
+ },
+ {
+  "id": "aed4b54f7f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "This is a single lane with a natural smear and natural background texture. There are no discontinuities."
+ },
+ {
+  "id": "7e84e31a50",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is completely flat, which matches this vendor's heavily processed style. The band has no visible paste boundary, but the flatness leaves some doubt."
+ },
+ {
+  "id": "c20bd3ebd5",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.42,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat, and the texture around the bands is confined to 8x8 blocks, which fits JPEG compression on a clean background. The light rectangle near the upper band is mildly suspicious but not conclusive."
+ },
+ {
+  "id": "6513aa357e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The smooth posterized gradients in both panels look like low-bit-depth export. I find no duplicated or spliced content within either panel."
+ },
+ {
+  "id": "1501f8ad3e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat top and bottom areas have irregular boundaries that follow the brightness gradient, which fits clipping. The same pattern appears in another image from this vendor."
+ },
+ {
+  "id": "e622983407",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background and band shapes look natural, and the equalized view shows no seams or cloned areas."
+ },
+ {
+  "id": "134f28eba6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat top and bottom areas have irregular, gradient-following edges, which fits clipped background. The band and its texture look natural."
+ },
+ {
+  "id": "e3575808d1",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels have flat, clean backgrounds with only small JPEG block artifacts. I found no duplicated bands or splice lines."
+ },
+ {
+  "id": "d88fc36399",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The texture is confined to a JPEG-blocky area around the band on an otherwise flat background, which is typical of this vendor's processing. There is no clear paste edge."
+ },
+ {
+  "id": "71d64c74db",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Panel A has a blocky gray halo around its single band on a flat background, which most likely comes from compression. Panel B looks continuous."
+ },
+ {
+  "id": "2e0d686629",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture is continuous across both lanes with JPEG blocks, and I find no duplicated bands or seams."
+ },
+ {
+  "id": "e11b775247",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background grain and the bands look natural and uniform. I see no discontinuities."
+ },
+ {
+  "id": "f6fdfe0e2a",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.5,
+    0.59,
+    0.76,
+    0.68
+   ]
+  ],
+  "reasoning": "A smooth, noise-free horizontal patch sits below the A549/A375 lanes and stands out in the residual and equalized views against the grainy membrane around it. It may be paint covering a signal."
+ },
+ {
+  "id": "d2a1ffce9c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The concentric contours in the NIH-3T3 lane come from posterization. The bands and background look natural and continuous."
+ }
+]

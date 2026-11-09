@@ -1,0 +1,144 @@
+[
+ {
+  "id": "35efbc2157",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with continuous grainy background in the equalized view; no seams, flat patches or repeated bands."
+ },
+ {
+  "id": "02ab4c6b5d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.47,
+    0.87,
+    0.95,
+    1.0
+   ]
+  ],
+  "reasoning": "Background is mostly JPEG-blocky texture. A flatter strip near the bottom is mildly suspicious but has no clear edge, and there are no duplicated bands."
+ },
+ {
+  "id": "56ef17edda",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavily JPEG-compressed with block artifacts everywhere. A faint horizontal tonal change in the equalized view is not a clean straight seam, and the two bands differ in shape."
+ },
+ {
+  "id": "8450baa137",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background is uniformly flat across the whole lane, which points to over-adjustment rather than local painting. The texture around the band is only a halo or contour, not a clear pasted box."
+ },
+ {
+  "id": "bb9f4625f0",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Natural uneven background with smooth gradients. The three bands differ in shape (lane 2 is a doublet), and there are no seams."
+ },
+ {
+  "id": "2f8d6779c6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with consistent streaky lane texture. No splices or patches."
+ },
+ {
+  "id": "7d9fbe2e88",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background is flat everywhere, consistent with over-adjustment. The smear lane has soft edges in the residual view, with no cloned bands or cut edges."
+ },
+ {
+  "id": "f0610bed98",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Strong JPEG block artifacts but no straight seams. The three bands differ in thickness and intensity."
+ },
+ {
+  "id": "10b6dca862",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows posterization contours and flat areas typical of few gray levels. The bands differ (lane 2 is a doublet), and there are no clear splices."
+ },
+ {
+  "id": "c538dae31c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two lanes are separate boxed strips with a white gap, which is a disclosed splice. The background inside each strip is continuous."
+ },
+ {
+  "id": "69b8c74488",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lighter left area matches an empty lane with a soft boundary, and the local-contrast view looks natural. No duplicated bands."
+ },
+ {
+  "id": "4f45286d4d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background is uniformly flat (over-adjusted). A faint matching band in lane 1 suggests the original background is intact, with no local patches."
+ },
+ {
+  "id": "a25c98bea8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.45,
+    0.17,
+    0.75,
+    0.21
+   ]
+  ],
+  "reasoning": "A short straight horizontal edge near the 130 kDa marker shows in the equalized and residual views. It probably comes from posterization contours, but it could also be a local edit."
+ },
+ {
+  "id": "8be1d0e0a3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Continuous grainy background across the three lanes. Each band has a distinct shape and smear, and there are no seams."
+ },
+ {
+  "id": "8fa6e493d6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two blots separated by a white gap (disclosed). The backgrounds are uniformly flat, and the bands are similar but differ in width and intensity, as expected for an overexpression specificity panel."
+ },
+ {
+  "id": "4c97d4bf9c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture looks natural with soft lane differences. No sharp straight seams or cloned regions."
+ }
+]

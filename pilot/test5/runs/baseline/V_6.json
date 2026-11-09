@@ -1,0 +1,176 @@
+[
+ {
+  "id": "5d7143c397",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single-lane overexpression blot with heavy JPEG blocking. Band shapes and the smear between them look natural, and none of the views show a clear seam or cloned area."
+ },
+ {
+  "id": "787cc303ce",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "One clean band. The background texture in the equalized view is patchy only from JPEG compression, with no sharp rectangular boundary or repeated patch."
+ },
+ {
+  "id": "3d6729cd5a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two separate SDS-PAGE gel panels, each with continuous grain across its lanes. The marker ladders differ between panels and no duplicated bands are visible."
+ },
+ {
+  "id": "d3a38bdafa",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.62,
+    0.26,
+    0.93,
+    0.76
+   ]
+  ],
+  "reasoning": "In the residual view, the textured area in panel B starts at a fairly straight horizontal edge near 70 kDa, and the background above and below it is flat. This could be a pasted region, but it may just be clipping of a uniform background."
+ },
+ {
+  "id": "5991d216da",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Three lanes shown as separate panels. Grain is consistent within each, and the lower part of every panel is flat in the same way, which fits clipping of the background."
+ },
+ {
+  "id": "d771fa6511",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat, which is common in this vendor's images. The faint smear around the band fades out naturally and shows no sharp edges."
+ },
+ {
+  "id": "e40861cacf",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two posterized panels whose band shapes differ from lane to lane. Neither panel shows a clear splice line or cloned background."
+ },
+ {
+  "id": "423be1571d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background grain runs continuously across all three lanes, with no seams or obviously repeated texture patches."
+ },
+ {
+  "id": "bc3879071b",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.54,
+    0.16,
+    0.7,
+    0.4
+   ]
+  ],
+  "reasoning": "Above the bands between lanes 5 and 6 there is a geometric patch with straight vertical edges and a horizontal bottom line. Its texture differs from the surrounding background, which suggests painting or patching."
+ },
+ {
+  "id": "99f96f7186",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.64,
+    0.58,
+    0.96,
+    0.7
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular outline around the band, so the band may have been pasted in as a block, though JPEG blocking could also produce this."
+ },
+ {
+  "id": "a2dc162b38",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.52,
+    0.07,
+    0.9,
+    0.83
+   ]
+  ],
+  "reasoning": "The middle of the lane is perfectly flat while the top and bottom have texture, which may point to painted background. This is also typical of clipped backgrounds in this vendor's images."
+ },
+ {
+  "id": "d087afd6e4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A lighter region below the bands in panel A appears in the equalized view, but the local-contrast view looks natural and the residual shows no seams."
+ },
+ {
+  "id": "e68004394e",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.55,
+    0.47,
+    0.92,
+    0.7
+   ],
+   [
+    0.66,
+    0.79,
+    0.92,
+    1.0
+   ]
+  ],
+  "reasoning": "The residual shows a rectangular box around the band cluster, and the equalized view shows a sharp-cornered rectangular region at the bottom of the lane. Both suggest a pasted or patched area."
+ },
+ {
+  "id": "f0e119d598",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "duplication",
+  "regions": [
+   [
+    0.72,
+    0.56,
+    0.95,
+    0.61
+   ],
+   [
+    0.72,
+    0.64,
+    0.95,
+    0.7
+   ]
+  ],
+  "reasoning": "The doublets near 35 kDa and 25 kDa look alike, but they differ slightly in sharpness. There is no clear evidence that one was cloned from the other."
+ },
+ {
+  "id": "eda2f1fdbf",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "One band, with only JPEG-block texture in the processed views and no seams or repeated regions."
+ }
+]

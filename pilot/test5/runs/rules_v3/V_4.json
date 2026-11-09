@@ -1,0 +1,150 @@
+[
+ {
+  "id": "e99a11986a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows an even, grainy background. The three bands differ in shape and intensity, and there are no seams."
+ },
+ {
+  "id": "327305f9ca",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is posterized and flat across the whole lane, with vertical lines only at the lane edges. This fits compression or over-adjustment rather than a local edit."
+ },
+ {
+  "id": "a579a7699a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The white gap between panels is a disclosed splice. The background is continuous and grainy, and the bands and GAPDH strips vary naturally."
+ },
+ {
+  "id": "cdf39134b5",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The smear and background texture look continuous. Apart from JPEG or posterization blocks, there are no straight seams or local flat patches."
+ },
+ {
+  "id": "8f002d0773",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The blocky patches in the upper lane look like JPEG blocks. The background otherwise has natural, uneven texture and there is no clear seam."
+ },
+ {
+  "id": "25b2b3d7b6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A single lane with a background that is flat white almost everywhere except near the band. This points to over-adjustment rather than local painting."
+ },
+ {
+  "id": "82fa21f08d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two panels are separated by a white gap (a disclosed splice). The CLAHE view shows a continuous background, and the bands differ in shape."
+ },
+ {
+  "id": "5b98b7155b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy throughout with smooth natural gradients. The bands differ in shape and there are no seams."
+ },
+ {
+  "id": "183f463873",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.38,
+    0.27,
+    0.92,
+    0.31
+   ],
+   [
+    0.38,
+    0.08,
+    0.92,
+    0.28
+   ]
+  ],
+  "reasoning": "A perfectly straight horizontal brightness step runs across the full blot width at about 130 kDa. Above it the background is smooth and lacks grain, while below it is grainy, which suggests a spliced or painted top region."
+ },
+ {
+  "id": "5c8889d024",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat across the whole lane, which points to over-adjustment. The two bands differ in shape, and nothing looks pasted."
+ },
+ {
+  "id": "458b002ca6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows a flat, light zone at 25-45 kDa. The CLAHE view, however, shows continuous texture, so this is likely posterization."
+ },
+ {
+  "id": "f36c18bc97",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lanes are separated by drawn borders (disclosed). The 100 kDa bands look alike, but their fine detail and the 60 kDa bands differ."
+ },
+ {
+  "id": "7496493f35",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy throughout. A faint horizontal dark streak is not visible as a seam in the CLAHE view, and the bands differ."
+ },
+ {
+  "id": "c403e7d95a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The panels are separated by a white gap, and each has a smooth background. A slightly boxy dark area around the mMCF2 band in the equalized view is weak evidence and does not show in the residual."
+ },
+ {
+  "id": "2f9c1419c1",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The panels are separated by a white gap (disclosed), and the brightness differences between them are expected. Each panel's background is continuous."
+ },
+ {
+  "id": "28586c16a9",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.8,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.37,
+    0.28,
+    0.62,
+    0.64
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular textured block around the bands, with straight top and bottom edges. Above and below it the background is flat and featureless, which indicates a pasted strip or a painted surrounding background."
+ }
+]

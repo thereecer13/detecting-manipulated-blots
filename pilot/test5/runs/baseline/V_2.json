@@ -1,0 +1,189 @@
+[
+ {
+  "id": "4059f4737e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat apart from a rectangle of JPEG noise around the band. This matches the clean-background style this vendor uses, and there is no clear duplication or seam."
+ },
+ {
+  "id": "386f73737a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture is natural and continuous across the whole lane, with no seams, flat patches or repeated structures."
+ },
+ {
+  "id": "37eec46909",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is heavy JPEG blocking and a faint vertical line near the right panel edge, probably the border. The two bands look different enough, and there is no clear clone."
+ },
+ {
+  "id": "71ba309cfc",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background gradients look smooth and consistent with posterization. The KO lane is blank as expected, and nothing appears duplicated."
+ },
+ {
+  "id": "c05ba1c2da",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The vertical streaks in the empty lane and the posterized background are typical of this vendor's processing. There are no repeated bands or seams."
+ },
+ {
+  "id": "37ceb3adf5",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.47,
+    0.54,
+    0.95,
+    0.58
+   ]
+  ],
+  "reasoning": "The equalized view shows a straight horizontal level boundary below 40 kDa, with a flat area under it. The residual shows no seam there, so it is probably posterization from processing."
+ },
+ {
+  "id": "555fab45d4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lane background is uniformly flat, with JPEG noise only around the band. This matches the vendor's style, and nothing appears duplicated."
+ },
+ {
+  "id": "caa227ec06",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single band on a smooth background, with only minor faint marks. There are no seams or clones."
+ },
+ {
+  "id": "2572c98b50",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.63,
+    0.28,
+    0.73,
+    0.37
+   ],
+   [
+    0.8,
+    0.31,
+    0.92,
+    0.38
+   ],
+   [
+    0.8,
+    0.51,
+    0.87,
+    0.61
+   ],
+   [
+    0.65,
+    0.45,
+    0.73,
+    0.5
+   ]
+  ],
+  "reasoning": "Several smooth, featureless patches sit inside an otherwise grainy background near the 5, 2 and 1 \u00b5l lanes. The equalized and residual views both show them, which suggests painted background."
+ },
+ {
+  "id": "7e351764c8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is posterized and blocky in the usual way for this vendor. There are no repeated features or sharp splice lines."
+ },
+ {
+  "id": "cba54aa73d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.47,
+    0.78,
+    0.95,
+    1.0
+   ]
+  ],
+  "reasoning": "Below 15 kDa there is a perfectly flat strip with a sharp straight top edge, unlike the streaked texture above it. It could be padding the vendor added to fit the marker range, or a pasted region."
+ },
+ {
+  "id": "61444ac8a0",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat with noise only in a box around the bands. This is consistent with the vendor's clean-background processing, and nothing is cloned."
+ },
+ {
+  "id": "3bed856c64",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.66,
+    0.23,
+    0.94,
+    0.81
+   ]
+  ],
+  "reasoning": "The texture is limited to a rectangle around the smear, with a flat background elsewhere. This is the same processing pattern as other images from this vendor, and nothing is duplicated."
+ },
+ {
+  "id": "62f88ea020",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single band with a rectangle of JPEG noise around it on a flat background. This looks like typical processing, not manipulation."
+ },
+ {
+  "id": "8504b0e3fa",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "duplication",
+  "regions": [
+   [
+    0.63,
+    0.3,
+    0.69,
+    0.36
+   ],
+   [
+    0.7,
+    0.48,
+    0.75,
+    0.55
+   ]
+  ],
+  "reasoning": "The band shapes in lanes 3-7 are very similar between panels A and B, which is plausible for the same samples. Panel B also has bright smudges in the background, but nothing is clearly cloned."
+ },
+ {
+  "id": "d23cc46630",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture in both panels is consistent, and the bands differ in shape and intensity. There is no clear seam or clone."
+ }
+]

@@ -1,0 +1,136 @@
+[
+ {
+  "id": "719207f68e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels have smooth, low-noise backgrounds, as is typical of heavily processed vendor composites. I saw no seams or repeated features inside either panel."
+ },
+ {
+  "id": "ecb1d133bb",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.35,
+    0.28,
+    0.65,
+    0.55
+   ]
+  ],
+  "reasoning": "The equalized and residual views show a lighter area with no grain above the bands. Its top edge is a sharp straight line across the full lane width, unlike the grainy background around it, which points to painted-over background."
+ },
+ {
+  "id": "d084054688",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The single lane has a uniform background and natural faint specks. I found no seams or duplicated features."
+ },
+ {
+  "id": "330218ad51",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background has continuous natural texture and a gradual shading gradient. Nothing looks cloned or spliced."
+ },
+ {
+  "id": "a1a2e3b084",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The HeLa and HepG2 bands look alike but differ in tilt and shape. Background grain is continuous across the lanes."
+ },
+ {
+  "id": "43137e3272",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is almost completely flat across the whole lane. That could be heavy processing or cleaning, but I found no local boundary or cloned feature."
+ },
+ {
+  "id": "b3bd7b2258",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat areas at the top and bottom of the lane follow a smooth gradient. They look like posterization from few gray levels rather than painting with sharp edges."
+ },
+ {
+  "id": "819ec28f3f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels have natural grain and smear shapes. Nothing is repeated inside either panel."
+ },
+ {
+  "id": "952af4f75d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat background shows JPEG block artifacts. I saw no clear cloned or spliced region."
+ },
+ {
+  "id": "6555837d41",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.75,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.37,
+    0.08,
+    0.57,
+    0.62
+   ]
+  ],
+  "reasoning": "The upper part of the A431 lane has no noise and a stair-step boundary, while the Raji and U937 lanes are evenly grainy. This suggests that part of the A431 lane was painted over."
+ },
+ {
+  "id": "52929305d2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lane texture is continuous and the bands look natural. I found no discontinuities."
+ },
+ {
+  "id": "9efef90fd4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat patches match the brightest, clipped background areas and blend into it gradually. The bands and smears look natural."
+ },
+ {
+  "id": "3d2de0d784",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There are heavy JPEG block artifacts but no repeated structures or seams."
+ },
+ {
+  "id": "1c3d7f213e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background, scratches and smears are continuous and natural. The bands differ from lane to lane."
+ },
+ {
+  "id": "244de26bea",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The lanes are shown as separate strips. Some flat patches (top and bottom of the HeLa lane, top of the HepG2 lane) may just be clipped bright background, and I found no clear cloning."
+ }
+]

@@ -1,0 +1,211 @@
+[
+ {
+  "id": "4059f4737e",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.65,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.55,
+    0.5,
+    0.9,
+    0.82
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular region of different background around the single band, with straight top and side edges. This matches a pasted patch (FLAG 8)."
+ },
+ {
+  "id": "386f73737a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is evenly grainy throughout, and there are no seams, flat patches or duplicated detail."
+ },
+ {
+  "id": "37eec46909",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.5,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.72,
+    0.03,
+    0.76,
+    0.97
+   ]
+  ],
+  "reasoning": "The residual and equalized views show a straight vertical seam running the full height inside the blot near its right edge. The rest of the image is heavily JPEG-compressed, so the evidence is uncertain."
+ },
+ {
+  "id": "71ba309cfc",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat areas follow posterization contours, and the white gap between the two panels marks a disclosed separation. There is no local box or seam."
+ },
+ {
+  "id": "c05ba1c2da",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background looks posterized and flat overall. The faint vertical streaks look like lane edges or compression rather than a cut."
+ },
+ {
+  "id": "37ceb3adf5",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.5,
+    0.55,
+    0.95,
+    1.0
+   ],
+   [
+    0.5,
+    0.18,
+    0.95,
+    0.36
+   ]
+  ],
+  "reasoning": "A perfectly straight horizontal boundary crosses the lane at about 56% height. Below it the background is uniformly flat, while above it the background is textured, which suggests a painted or replaced region."
+ },
+ {
+  "id": "555fab45d4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.72,
+    0.2,
+    0.94,
+    0.48
+   ]
+  ],
+  "reasoning": "The equalized view shows a small rectangular box with straight edges sitting on top of the band, which suggests a pasted patch (FLAG 8)."
+ },
+ {
+  "id": "caa227ec06",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat from over-adjustment. Only a few small specks are visible and there is no clear box or seam."
+ },
+ {
+  "id": "2572c98b50",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.65,
+    0.37,
+    0.74,
+    0.6
+   ],
+   [
+    0.83,
+    0.37,
+    0.92,
+    0.45
+   ],
+   [
+    0.86,
+    0.62,
+    0.91,
+    0.75
+   ]
+  ],
+  "reasoning": "The equalized view shows several flat, uniform gray rectangles inside an otherwise grainy background next to the weak lanes. This is classic background painting."
+ },
+ {
+  "id": "7e351764c8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view is blocky and posterized, which is consistent with compression. There is no distinct box, seam or duplicated band."
+ },
+ {
+  "id": "cba54aa73d",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.48,
+    0.79,
+    0.95,
+    1.0
+   ]
+  ],
+  "reasoning": "The bottom of the blot below about 79% height is perfectly flat, with a sharp straight horizontal edge. Above that edge the background is streaky and textured, which points to a painted or spliced region."
+ },
+ {
+  "id": "61444ac8a0",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat from over-adjustment, and there are no local seams or boxes around the band."
+ },
+ {
+  "id": "3bed856c64",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.66,
+    0.39,
+    0.94,
+    0.81
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular region around the band smear, with a straight bottom edge and left edge that set it apart from the flat lane. This suggests a pasted patch."
+ },
+ {
+  "id": "62f88ea020",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.7,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.55,
+    0.79,
+    0.92,
+    0.89
+   ]
+  ],
+  "reasoning": "The equalized view shows a sharp rectangular outline around the single band. This indicates a pasted band patch (FLAG 8)."
+ },
+ {
+  "id": "8504b0e3fa",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.63,
+    0.3,
+    0.71,
+    0.36
+   ]
+  ],
+  "reasoning": "Bands that look alike across the two panels are expected from the same samples, and the residual mostly shows JPEG blocks. One small white blotch appears in panel B, which keeps some suspicion."
+ },
+ {
+  "id": "d23cc46630",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The mPLIN2 and hPLIN3 bands in panel B are similar but differ in thickness and fine detail. The background shows no clear seams or patches."
+ }
+]

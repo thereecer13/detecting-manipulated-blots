@@ -1,0 +1,142 @@
+[
+ {
+  "id": "83b60b19dd",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows posterized flat zones and blotchy texture around the band, which look like low-gray-level saving. The local and residual views show no seam, box or duplicated detail."
+ },
+ {
+  "id": "fe1ce244ee",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.55,
+    0.34,
+    0.95,
+    0.55
+   ]
+  ],
+  "reasoning": "The saturated band has a fairly straight top edge, and the equalized view shows a sharp horizontal contour beside it. Both could come from posterization or a trimmed band, and the local view looks natural."
+ },
+ {
+  "id": "e9f65c4d32",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy all over, with no flat patches, seams or repeated features. There is only one band."
+ },
+ {
+  "id": "53bb15e1e4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat from over-adjustment. The lighter area under the 35 kDa band follows the lane smear, and the local view shows natural texture."
+ },
+ {
+  "id": "4c71c9d455",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat (over-adjusted, not painted). The band meets the panel's right edge, which is cropping rather than a cut inside the image."
+ },
+ {
+  "id": "674fee740b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background shows grainy texture with JPEG blocks across the whole blot and no seam between the lanes. The two bands differ in shape and position."
+ },
+ {
+  "id": "0bff8afb9d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows smooth posterized gradients across the lane rather than one local flat patch. No straight seams or duplicated bands."
+ },
+ {
+  "id": "191348e66f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two panels are separated by a visible white gap, so the splice is disclosed. The bands differ in fine detail, and the background texture is continuous within each panel."
+ },
+ {
+  "id": "54d758bab8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with a natural smear around the band. No seams, boxes or flat patches."
+ },
+ {
+  "id": "26366cc6b9",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows mostly JPEG blockiness and uniform texture across the lane. The two bands differ, and there is no clear seam."
+ },
+ {
+  "id": "be9de4f23c",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.75,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.6,
+    0.4,
+    0.78,
+    0.64
+   ],
+   [
+    0.87,
+    0.33,
+    0.99,
+    0.97
+   ]
+  ],
+  "reasoning": "In the equalized view, panel B has a sharply bounded rectangular flat patch near the NC lane and a flat vertical strip at the right, both inside an otherwise grainy background. This matches local background painting."
+ },
+ {
+  "id": "b91fff0746",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy with natural gradients, and the band ladder looks continuous. No seams or repeated features."
+ },
+ {
+  "id": "b400666e5f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat across the whole blot, which points to over-adjustment rather than local painting. No seams or duplicated bands."
+ },
+ {
+  "id": "8b78661ece",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The panels are separated by a disclosed gap. The hAK5 bands in the two panels look alike in shape but differ in fine detail, and the background unevenness looks natural."
+ },
+ {
+  "id": "d5ed03678b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The top area is flat and the lower lane shows smears and posterized steps. There are no sharp straight seams or pasted boxes."
+ }
+]

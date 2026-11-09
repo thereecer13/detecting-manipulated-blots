@@ -1,0 +1,136 @@
+[
+ {
+  "id": "f6b47fdb77",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture is continuous across all three lanes in the equalized view. There are no seams, flat patches or duplicated band detail."
+ },
+ {
+  "id": "b3d37f9c28",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Both panels have flat posterized zones above and below the grainy band region, which looks like compression or few gray levels. The white gap between panels A and B is a disclosed separation."
+ },
+ {
+  "id": "bb5e3a8c9c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows blotchy, posterized background consistent with compression. The faint halo around the 25 kDa band looks like normal diffusion, not a sharp pasted box."
+ },
+ {
+  "id": "44ebdfeb03",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is uniformly flat across the whole lane, which points to over-adjustment rather than local painting. The block edges near the band are consistent with JPEG blocks."
+ },
+ {
+  "id": "6f27c1cd60",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat throughout the lane, which is over-adjustment. The single band has soft edges and no seams."
+ },
+ {
+  "id": "614333ea13",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.17,
+    0.58,
+    0.59,
+    0.63
+   ]
+  ],
+  "reasoning": "The gray background around the p21 bands ends abruptly along a perfectly straight horizontal line just below the bands, across the full blot width, then turns white. This looks like an undisclosed splice or replaced region."
+ },
+ {
+  "id": "1f1b617415",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The single lane has a uniform background and a natural diffuse halo around the band. No seams or patches."
+ },
+ {
+  "id": "22595acf69",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a slight background difference between the cell-line and tissue lanes, but the residual shows no straight seam. Bands differ in fine detail."
+ },
+ {
+  "id": "1f6c39157f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy with vertical streaks throughout. Small rectangular features in the equalized view are consistent with compression blocks, and the local view shows nothing abnormal."
+ },
+ {
+  "id": "1103297907",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is mostly flat (over-adjusted). The small rectangular patches in the equalized view match JPEG block structure, and the local contrast view shows no pasted box around the band."
+ },
+ {
+  "id": "578dcc02aa",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.8,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.09,
+    0.25,
+    0.64,
+    0.46
+   ]
+  ],
+  "reasoning": "The equalized and residual views show a horizontal strip around the 80 kDa bands that is perfectly flat, with no grain and straight top and bottom edges. The rest of the blot background is grainy, so this looks like painted or replaced background."
+ },
+ {
+  "id": "333eba31b3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Each panel's background is uniformly flat, which is contrast adjustment. The white gap between panels is a disclosed separation, and the bands differ in shape and detail."
+ },
+ {
+  "id": "3408aa5850",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is continuously grainy across the lane, with no flat patches or seams. The single band is natural."
+ },
+ {
+  "id": "ed5b989e92",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The band's lower edge looks fairly sharp in the equalized view, but the local view shows a soft halo, which is consistent with a natural smear. The background is otherwise uniform."
+ },
+ {
+  "id": "ff81fb2a8c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The high-MW band is cut by the top crop of the figure, not by a line inside the blot. The background is uniform, with only faint compression speckles."
+ }
+]

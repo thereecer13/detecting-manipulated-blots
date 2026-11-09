@@ -1,0 +1,195 @@
+[
+ {
+  "id": "0c33ff21ae",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavy JPEG blocking in the enhanced views, but no clear seams or repeated regions. The pair of small dark dots near 50 kDa looks odd but is not conclusive."
+ },
+ {
+  "id": "5f11ce2542",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.46,
+    0.2,
+    0.74,
+    0.37
+   ],
+   [
+    0.03,
+    0.72,
+    0.35,
+    0.8
+   ],
+   [
+    0.46,
+    0.65,
+    0.74,
+    0.85
+   ]
+  ],
+  "reasoning": "The equalized and residual views show large, straight-edged rectangles with no grain set into otherwise noisy background. This points to painted or filled background patches."
+ },
+ {
+  "id": "2e129b1d4b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture runs on across all 13 lanes with no visible splice lines or repeated bands."
+ },
+ {
+  "id": "7f08e0a006",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with a natural smear and ordinary compression blocks. No seams or cloned areas."
+ },
+ {
+  "id": "7cb870ece3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The doublet band looks natural. One small blocky patch near 100 kDa in the equalized view is probably compression."
+ },
+ {
+  "id": "9962af2fc6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two panels clearly shown as separate, each with consistent background grain and band shapes that look natural."
+ },
+ {
+  "id": "85e5645377",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Panels are shown as separate. Background noise inside each panel is even, and the bands are not repeated."
+ },
+ {
+  "id": "c3ece7f819",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Faint shade differences in the equalized view, but the residual shows grain running on without seams."
+ },
+ {
+  "id": "3968ddb46a",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background is flat from posterization. The band edges are slightly blocky, but there is no clear sign of pasting."
+ },
+ {
+  "id": "f439baa2f4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.24,
+    0.08,
+    0.36,
+    0.47
+   ],
+   [
+    0.24,
+    0.47,
+    0.55,
+    0.95
+   ]
+  ],
+  "reasoning": "Panel A has large regions with no grain and fairly straight edges, next to textured background, which suggests smoothed or painted background. Panel B shows no such areas."
+ },
+ {
+  "id": "6f14d8f52e",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.7,
+    0.31,
+    0.87,
+    0.37
+   ],
+   [
+    0.52,
+    0.44,
+    0.63,
+    0.49
+   ]
+  ],
+  "reasoning": "The residual and equalized views show small rectangular patches with sharp outlines near the band, which may be pasted or retouched areas."
+ },
+ {
+  "id": "b9d205add4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "duplication",
+  "regions": [
+   [
+    0.37,
+    0.12,
+    0.52,
+    0.98
+   ],
+   [
+    0.53,
+    0.12,
+    0.68,
+    0.98
+   ]
+  ],
+  "reasoning": "In the equalized view, the background block pattern around lane 1 seems to repeat around lane 2 with about the same horizontal spacing, which suggests a cloned lane or background."
+ },
+ {
+  "id": "63b514aee8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane where the grain fades smoothly around the band. No seams."
+ },
+ {
+  "id": "78d0e9097b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Lanes are shown as separate strips in the usual vendor layout. Their textures differ and none is clearly a duplicate."
+ },
+ {
+  "id": "0fb764e8f6",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.5,
+    0.26,
+    0.7,
+    0.41
+   ]
+  ],
+  "reasoning": "The faint bands in the left lane sit inside a rectangle with sharp edges and their own texture in the residual and equalized views, which suggests pasted content."
+ },
+ {
+  "id": "696395f76c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Large areas with no grain next to the textured smear could be retouching, but their edges are uneven and fit smooth background flattened by compression."
+ }
+]

@@ -1,0 +1,169 @@
+[
+ {
+  "id": "719207f68e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two panels sit side by side with a clear separator (a disclosed composite). Both backgrounds are smooth and even, and I see no cloned bands or pasted boxes."
+ },
+ {
+  "id": "ecb1d133bb",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.35,
+    0.28,
+    0.65,
+    0.55
+   ]
+  ],
+  "reasoning": "In the equalized and local views, a large flat patch with a straight top edge runs across the lane above the bands (about 75-110 kDa). The background around it is grainy, so this looks like painted background."
+ },
+ {
+  "id": "d084054688",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is flat across the whole lane, which points to global contrast adjustment. The two bands have similar shapes, but I see no matching fine detail between them."
+ },
+ {
+  "id": "330218ad51",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background brightens gradually toward the bottom and has a light halo under the band, both typical of real blots. I see no straight seams or clone patterns."
+ },
+ {
+  "id": "a1a2e3b084",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The SQSTM1 bands look alike but differ in fine detail, and the grainy background runs continuously across the lanes. The GAPDH strip is a separate, disclosed panel."
+ },
+ {
+  "id": "43137e3272",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single band, and the background is uniformly flat because of contrast adjustment. I see no local patches or seams."
+ },
+ {
+  "id": "b3bd7b2258",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Texture shows only in the gray levels next to the band, and the rest of the lane is flat. This fits posterization or contrast adjustment better than a pasted patch, though the flat zones have fairly sharp borders."
+ },
+ {
+  "id": "819ec28f3f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two panels are separated by a white gap (a disclosed splice). Background grain is continuous within each panel, and the bands differ in fine detail."
+ },
+ {
+  "id": "952af4f75d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [
+   [
+    0.65,
+    0.32,
+    0.92,
+    0.65
+   ]
+  ],
+  "reasoning": "The residual view shows a rectangular blocky area around the band, which could be a pasted box. However, it matches heavy JPEG block artifacts, so suspicion stays moderate."
+ },
+ {
+  "id": "6555837d41",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.7,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.37,
+    0.08,
+    0.56,
+    0.6
+   ]
+  ],
+  "reasoning": "In the A431 lane, the upper background is perfectly flat with a stepped boundary. The Raji and U937 lanes next to it are grainy, which suggests that region was painted."
+ },
+ {
+  "id": "52929305d2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a single lane with continuous grainy background and no seams or flat patches. The bands differ from each other."
+ },
+ {
+  "id": "9efef90fd4",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.6,
+    0.6,
+    0.95,
+    0.95
+   ],
+   [
+    0.6,
+    0.05,
+    0.95,
+    0.2
+   ]
+  ],
+  "reasoning": "The equalized view shows a uniformly flat gray area in the lower right (and upper right) with sharp, ragged borders. The left side of the blot is blotchy and grainy, which fits local painting."
+ },
+ {
+  "id": "3d2de0d784",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The blocky texture in the enhanced views matches JPEG compression. I see no straight splice lines or duplicated bands."
+ },
+ {
+  "id": "1c3d7f213e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy and continuous with natural smears, and the bands differ in fine detail. I see no seams or flat patches."
+ },
+ {
+  "id": "244de26bea",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.14,
+    0.1,
+    0.22,
+    0.6
+   ],
+   [
+    0.24,
+    0.1,
+    0.32,
+    0.35
+   ]
+  ],
+  "reasoning": "The lanes are separated by white gaps (disclosed). Even so, the Hela and HepG2 lanes have smooth flat patches inside an otherwise grainy background in the equalized view, which suggests local painting."
+ }
+]

@@ -1,0 +1,163 @@
+[
+ {
+  "id": "1337eae7c7",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two similar bands on a clean background. The equalized view shows only JPEG blocks and no seams or repeated texture."
+ },
+ {
+  "id": "fec3a537e8",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.8,
+    0.06,
+    0.99,
+    0.95
+   ]
+  ],
+  "reasoning": "The last two lanes (AAVDJ, AAV2) have a much darker, different background and a sharp vertical boundary, so they look like a spliced-in panel. There is also an odd white streak below AAV6."
+ },
+ {
+  "id": "a3274df17e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A single lane with smooth gradients. The flat zones in the equalized view look like compression or posterization, not cloning."
+ },
+ {
+  "id": "2396db544d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A typical overexpression blot with uniform lane texture and no discontinuities."
+ },
+ {
+  "id": "e1851c5962",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.6,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.68,
+    0.12,
+    0.97,
+    0.55
+   ]
+  ],
+  "reasoning": "The band cluster sits inside a sharp-edged rectangle of textured noise. The background around it is perfectly flat in the equalized and residual views, which suggests a patch pasted onto a painted background."
+ },
+ {
+  "id": "58a32cd473",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.52,
+    0.12,
+    0.92,
+    0.52
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangular region with straight horizontal edges around the bands, set into a flat lane background. This is consistent with a pasted or painted patch."
+ },
+ {
+  "id": "1f2724d449",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture is continuous around the bands and shows no rectangular seams or repeats."
+ },
+ {
+  "id": "44f884ceed",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background has natural uneven texture, and the three bands differ from each other."
+ },
+ {
+  "id": "8591951ef2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.55,
+    0.33,
+    0.62,
+    0.55
+   ]
+  ],
+  "reasoning": "The large band is cut off sharply at the left lane edge, which may just be cropping. The background is flat, but I see no clear duplication."
+ },
+ {
+  "id": "bdcdac347b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.15,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background grain is uniform and continuous across the lanes, and the bands have distinct shapes."
+ },
+ {
+  "id": "f10f0ea393",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A normal two-lane blot with consistent background texture."
+ },
+ {
+  "id": "fdc05678ff",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.75,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.3,
+    0.38,
+    0.42,
+    0.6
+   ],
+   [
+    0.55,
+    0.15,
+    0.6,
+    0.7
+   ]
+  ],
+  "reasoning": "Above the lane-2 band there is a lighter rectangular flat patch with vertical edges, and the equalized view shows flat painted blocks and a vertical seam near lane 3."
+ },
+ {
+  "id": "07a24ee635",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two separate panels from different antibodies, and both are labeled. The actin panel is smooth, but I see no internal seams or clones."
+ },
+ {
+  "id": "606efbc067",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background texture is consistent, and the bands look natural."
+ },
+ {
+  "id": "d3ead4299f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The large flat zones in the equalized view are explained by posterization from very few gray levels. There are no sharp seams around the band."
+ }
+]

@@ -1,0 +1,137 @@
+[
+ {
+  "id": "35efbc2157",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with continuous, natural background grain in all views; no seams or repeated texture seen."
+ },
+ {
+  "id": "02ab4c6b5d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background texture is dominated by JPEG blocking; the lower part is somewhat flat but there is no clear seam or cloned region."
+ },
+ {
+  "id": "56ef17edda",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavy compression artifacts; a faint horizontal tonal change sits above the band row, but there is no clear splice or duplicate."
+ },
+ {
+  "id": "8450baa137",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.67,
+    0.45,
+    0.95,
+    0.62
+   ]
+  ],
+  "reasoning": "The background is perfectly flat except for a roughly rectangular noisy patch around the bands with a fairly straight left edge. This could be a pasted band region, but it is also typical of vendor background cleanup or JPEG."
+ },
+ {
+  "id": "bb9f4625f0",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Continuous mottled background across all three lanes with natural gradients; no seams."
+ },
+ {
+  "id": "2f8d6779c6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Single lane with consistent texture and no discontinuities."
+ },
+ {
+  "id": "7d9fbe2e88",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Flat vendor-style background with a natural-looking smear of bands; no obvious repeated band structure or seam."
+ },
+ {
+  "id": "f0610bed98",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Strong JPEG blocking hides detail; no clear splice or cloned area between lanes."
+ },
+ {
+  "id": "10b6dca862",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Posterized background with large flat areas, consistent with low bit depth; no distinct cut or duplicated band."
+ },
+ {
+  "id": "c538dae31c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Lanes are shown as separate framed panels, as openly disclosed; the texture within each looks natural."
+ },
+ {
+  "id": "69b8c74488",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Smooth background with natural gradients around the bands; no seams."
+ },
+ {
+  "id": "4f45286d4d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.25,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Flat background; the faint smudge in lane 1 looks like natural weak signal, not an erased band."
+ },
+ {
+  "id": "a25c98bea8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Large flat posterized areas typical of this vendor's style; no clear cloned or spliced region."
+ },
+ {
+  "id": "8be1d0e0a3",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Continuous background texture across all three lanes; the bands differ naturally."
+ },
+ {
+  "id": "8fa6e493d6",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Two openly separate panels; the saturated bands look similar but are not clearly identical copies, and the background shows no cloning."
+ },
+ {
+  "id": "4c97d4bf9c",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a slight tonal change between the lanes, likely a lane-to-lane difference. The texture continues across it, so there is no definite splice."
+ }
+]

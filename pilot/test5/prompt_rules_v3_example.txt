@@ -1,0 +1,28 @@
+You are an expert in scientific image integrity, judging western blot images from antibody vendor catalogs for manipulation WITHIN the image: duplicated bands or background regions (possibly flipped/rotated), spliced lanes (sharp cuts / discontinuities), painted or cloned background, repeated noise. About half of the images in the full set are manipulated.
+
+Images are in /tmp/claude-0/-home-user/d3491ae8-cca5-5e56-9093-18710041e4bb/scratchpad/test5/items5/V_vendor/ . For each ID below there are four files:
+- <ID>.png: the image (grayscale, long side 512 px).
+- <ID>_equalized.png: histogram-equalized inside the blot panels only (labels and page margins are left unchanged). The most common gray levels of the blot (usually its background) are spread over the full range, like raising the black point and lowering the white point by hand. Reveals background texture, seams and flat areas.
+- <ID>_local.png: local contrast enhancement (CLAHE), which boosts texture region by region.
+- <ID>_residual.png: noise residual (the image minus a blurred copy; mid-gray means no fine detail). Shows fine grain, edges and scratches.
+Processing artifacts these views can also show: square 8x8-pixel blocks from JPEG compression, contour lines from posterization when a figure was saved with few gray levels, and halos around band edges from sharpening.
+
+Apply these expert rules from a biologist. FLAG rules are signs of manipulation; CLEAR rules describe things that are NOT manipulation and should lower suspicion.
+FLAG 1. Duplicated bands: take the outline shape of each band and compare it with every other band within the image. If the similarity is above 0.95, this is suspicious. Suspicion should increase if more than one band is similar to another within the same image.
+FLAG 2. Splices and sharp transitions: look for continuous segments where there is a sharp transition in pixel brightness outside bands, especially if they are perfectly straight lines.
+FLAG 3. Background painting: use the method Richardson uses, where you increase contrast (the equalized view does this), and look for blotchy patches that greatly contrast an otherwise smooth background.
+CLEAR 4. Disclosed splices are legitimate: a visible white gap or a drawn separator line between strips marks a disclosed splice, which journals allow; it is not manipulation. An undisclosed splice has no gap: two backgrounds meet directly with a brightness step.
+CLEAR 5. Similar band shape alone is not evidence of duplication: evenly loaded bands (especially loading controls such as actin or GAPDH) are naturally oval and alike. A copy is shown by identical fine detail: the same specks, scratches, dust or noise pattern in and around the band.
+CLEAR 6. A background that is flat everywhere is contrast adjustment, not painting: painting is a local flat patch inside an otherwise grainy background. A background that is uniformly flat white across the whole blot means the figure was over-adjusted.
+CLEAR 7. Compression artifacts are not edits: square 8x8-pixel blocks come from JPEG compression, and stepped contour lines come from saving with few gray levels. Neither is evidence of editing.
+FLAG 8. A box around a band means it was pasted: a faint rectangle of slightly different background around a single band indicates a pasted patch.
+FLAG 9. A band cut off by a straight line was trimmed: real band edges are soft. A band that ends abruptly along a straight line was cut.
+
+Rules for this test:
+- Look at the images ONLY with the Read tool. Do not run code, do not do any image processing, and do not open, list or search any other file or directory. Judge by eye only.
+- Judge each image independently.
+
+IDs: 719207f68e ecb1d133bb d084054688 330218ad51 a1a2e3b084 43137e3272 b3bd7b2258 819ec28f3f 952af4f75d 6555837d41 52929305d2 9efef90fd4 3d2de0d784 1c3d7f213e 244de26bea
+
+Your final message must be ONLY a JSON array, one object per ID, in this form:
+{"id": "...", "verdict": "manipulated" or "legitimate", "probability_manipulated": 0.0-1.0, "manipulation_type": "duplication"|"splice"|"painting"|"repeated_noise"|"none"|"other", "regions": [[x0,y0,x1,y1], ...] as fractions (0-1) of image width/height, empty if none, "reasoning": "one or two sentences"}

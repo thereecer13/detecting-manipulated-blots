@@ -1,0 +1,160 @@
+[
+ {
+  "id": "1337eae7c7",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two bands have similar shapes but their fine detail differs. The equalized view shows only JPEG block artifacts."
+ },
+ {
+  "id": "fec3a537e8",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "A visible white separator divides the right strip from the rest, so the splice is disclosed. Elsewhere the background is grainy and continuous."
+ },
+ {
+  "id": "a3274df17e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The flat white areas inside the lane look like saturation from over-adjustment and posterization. There is no bounded patch and no seam."
+ },
+ {
+  "id": "2396db544d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The blocky shapes around the band in the equalized view match JPEG blocks. The local-contrast view shows no box or seam."
+ },
+ {
+  "id": "e1851c5962",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The band cluster sits in a darker region with fairly straight edges in the equalized view. The local view shows a smooth halo, so posterization is the likely cause."
+ },
+ {
+  "id": "58a32cd473",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.8,
+  "manipulation_type": "other",
+  "regions": [
+   [
+    0.52,
+    0.12,
+    0.92,
+    0.52
+   ],
+   [
+    0.52,
+    0.66,
+    0.92,
+    0.82
+   ]
+  ],
+  "reasoning": "The equalized view shows a rectangle of different background, with perfectly straight horizontal edges, around the band region. A second horizontal brightness step appears lower in the lane, which suggests a pasted patch."
+ },
+ {
+  "id": "1f2724d449",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is grainy and continuous, with no straight seams or flat patches."
+ },
+ {
+  "id": "44f884ceed",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The blotchy background is irregular and natural, and the three bands differ in fine detail."
+ },
+ {
+  "id": "8591951ef2",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The saturated band fills the lane up to the crop edge. There are no internal seams or pasted boxes."
+ },
+ {
+  "id": "bdcdac347b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The texture is uniform and grainy across all lanes, and the bands differ from each other."
+ },
+ {
+  "id": "f10f0ea393",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows mainly JPEG blocks. There is no clear box or seam around the band."
+ },
+ {
+  "id": "fdc05678ff",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.85,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.0,
+    0.12,
+    0.75,
+    0.4
+   ],
+   [
+    0.32,
+    0.41,
+    0.42,
+    0.56
+   ],
+   [
+    0.55,
+    0.15,
+    0.6,
+    0.7
+   ],
+   [
+    0.75,
+    0.6,
+    0.85,
+    0.95
+   ]
+  ],
+  "reasoning": "The equalized view shows large flat uniform patches with straight edges inside an otherwise grainy background, including a rectangle above lane 2. There is also a vertical seam between lanes 2 and 3."
+ },
+ {
+  "id": "07a24ee635",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The two blots are separate panels with a visible gap, which is a disclosed layout. The loading-control bands differ in detail."
+ },
+ {
+  "id": "606efbc067",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background shows continuous grain and JPEG blocks only, and the bands differ in shape."
+ },
+ {
+  "id": "d3ead4299f",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The equalized view shows smooth posterized gradients from a near-flat background. There is no local patch or straight seam."
+ }
+]

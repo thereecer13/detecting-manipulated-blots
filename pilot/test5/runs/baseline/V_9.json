@@ -1,0 +1,136 @@
+[
+ {
+  "id": "1d09d2fd98",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.65,
+  "manipulation_type": "splice",
+  "regions": [
+   [
+    0.56,
+    0.36,
+    0.76,
+    0.48
+   ]
+  ],
+  "reasoning": "In the equalized view there is a sharp vertical cut between lanes 2 and 3 across the band row. The lane 3 band lacks the halo that lanes 1 and 2 have and has an odd pointed, sharp-edged end, so it looks pasted in."
+ },
+ {
+  "id": "e1f210b185",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Separate lane strips, each with its own background texture and band pattern. No repeated regions or seams inside a lane."
+ },
+ {
+  "id": "33f3c89f71",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Heavy posterization and streaking show in the equalized view, but the residual shows no clear cloned or spliced area."
+ },
+ {
+  "id": "1c9406175e",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is continuous across the lanes. The contour lines around the bands look like posterization or compression, not seams."
+ },
+ {
+  "id": "563abbc28b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The top of the Raji lane is a flat region in the equalized view, but the residual is just as smooth at the top of every lane, so it is probably a brightness level rather than painting."
+ },
+ {
+  "id": "1c6387aa51",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.45,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The background is almost perfectly flat, with a faint vertical line in lane 1. That suggests heavy cleanup by the vendor, but there is no local cloning or seam."
+ },
+ {
+  "id": "0961bed31d",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Typical single-lane overexpression blot with a flat background. The vertical lines are the lane borders."
+ },
+ {
+  "id": "256afc4f70",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.35,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Background streaks run continuously through all lanes, and the residual shows no clear splice or duplicated area."
+ },
+ {
+  "id": "2a696ccf97",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Posterized background with large flat areas, consistent with a figure saved with few gray levels. No sharp seams or repeated bands."
+ },
+ {
+  "id": "3a46ef43fb",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Clean single-band lane with a natural smear around the band. Nothing suspicious."
+ },
+ {
+  "id": "5220eee349",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.2,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Natural grainy background with a smooth gradient across the blot. Each band has its own shape and there are no seams."
+ },
+ {
+  "id": "f74b517d9b",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.3,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "Shows JPEG blocking and a watermark pattern in the margin. No repeated noise or cut within the lane is visible."
+ },
+ {
+  "id": "0bc05dd837",
+  "verdict": "manipulated",
+  "probability_manipulated": 0.55,
+  "manipulation_type": "painting",
+  "regions": [
+   [
+    0.58,
+    0.24,
+    0.93,
+    0.45
+   ]
+  ],
+  "reasoning": "Above the smear there is a rectangular region with straight top and left edges. It is textured in the residual and differently toned in the equalized and local views, while its surroundings are flat, which suggests a pasted or painted patch."
+ },
+ {
+  "id": "bae188a902",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "The left edge of the lane is smoother and lighter both above and below the band, but its boundaries are irregular, which fits clipped highlights better than painting."
+ },
+ {
+  "id": "d8aaba8af4",
+  "verdict": "legitimate",
+  "probability_manipulated": 0.4,
+  "manipulation_type": "none",
+  "regions": [],
+  "reasoning": "There is a small dark rectangle near the bottom right and blocky structure around the bands, most likely JPEG blocks. No clear duplication or splice."
+ }
+]
