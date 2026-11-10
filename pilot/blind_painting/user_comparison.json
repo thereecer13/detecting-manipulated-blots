@@ -1,0 +1,156 @@
+{
+ "review": "painted_vs_false_positive",
+ "exported": "2026-11-10T01:22:24.448Z",
+ "items": [
+  {
+   "id": "pair_e464a821af",
+   "label": "Pair 1: LEFT painted (Richardson-flagged, blot 36) vs RIGHT not flagged (MA5-49488, blot 1).",
+   "verdict": "unsure",
+   "notes": "Are the outer homogenous white areas on the top and bottom possibly a result of compression? "
+  },
+  {
+   "id": "pair_70cdf0d2cd",
+   "label": "Pair 2: LEFT painted (Richardson-flagged, blot 10) vs RIGHT not flagged (TA890102, blot 3). Rulebook v3 also called this one painted.",
+   "verdict": "the right one also looks painted",
+   "notes": "The bottom of the blot is perfectly gray which does not match the rest of the background. "
+  },
+  {
+   "id": "pair_b03ffb562e",
+   "label": "Pair 3: LEFT painted (Richardson-flagged, blot 27) vs RIGHT not flagged (TA813056, blot 9). Rulebook v3 also called this one painted.",
+   "verdict": "the right one also looks painted",
+   "notes": "This is 100% panted. The top has a homogenous gray part. The bottom has a gray painted blob of the exact same grayness. These areas do not match the rest of the background. "
+  },
+  {
+   "id": "pair_9579c483cf",
+   "label": "Pair 4: LEFT painted (Richardson-flagged, blot 47) vs RIGHT not flagged (MA5-49484, blot 13).",
+   "verdict": "the right one also looks painted",
+   "notes": "The top and bottom are completely white, which is different from the areas around the bands. "
+  },
+  {
+   "id": "pair_682ca4d20b",
+   "label": "Pair 5: LEFT painted (Richardson-flagged, blot 16) vs RIGHT not flagged (MA5-35828, blot 15).",
+   "verdict": "unsure",
+   "notes": "The right one has interesting light patches juxtaposed with dark patches. If this is possibly explained by natural western blot backgrounds, then this is clean. Otherwise, I'm not sure how that patchiness can arise. "
+  },
+  {
+   "id": "pair_aad49f9844",
+   "label": "Pair 6: LEFT painted (Richardson-flagged, blot 55) vs RIGHT not flagged (TA502762, blot 19).",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "There is a contrast in brightness in the right one but this could be explained by compression. "
+  },
+  {
+   "id": "pair_e6c549e025",
+   "label": "Pair 7: LEFT painted (Richardson-flagged, blot 2) vs RIGHT not flagged (TA811398, blot 28). Rulebook v3 also called this one painted.",
+   "verdict": "the right one also looks painted",
+   "notes": "Maybe painted is not the right term, but if definitely looks like an outline was drawn around the bands and then the rest of the blot was compressed to zero. "
+  },
+  {
+   "id": "pair_34246ab540",
+   "label": "Pair 8: LEFT painted (Richardson-flagged, blot 45) vs RIGHT not flagged (TA807395, blot 34).",
+   "verdict": "unsure",
+   "notes": "It's weird that there are white patches contrasted with the areas around the bands. But this could just be compression. "
+  },
+  {
+   "id": "pair_519a5a5959",
+   "label": "Pair 9: LEFT painted (Richardson-flagged, blot 63) vs RIGHT not flagged (MA5-34931, blot 35).",
+   "verdict": "the right one also looks painted",
+   "notes": "This is definitely pained, since there are perfectly homogenous smooth bright patches around the bands. "
+  },
+  {
+   "id": "pair_39e38fd605",
+   "label": "Pair 10: LEFT painted (Richardson-flagged, blot 38) vs RIGHT not flagged (TA812536, blot 44).",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "The right on has smooth background but it's almost encompassing the rest of the blot outside the bands and therefore doesn't represent intentional painting around unwanted bands.  "
+  },
+  {
+   "id": "pair_af2d2c0701",
+   "label": "Pair 11: LEFT painted (Richardson-flagged, blot 54) vs RIGHT not flagged (TA811407, blot 46). Rulebook v3 also called this one painted.",
+   "verdict": "the right one also looks painted",
+   "notes": ""
+  },
+  {
+   "id": "pair_301320f4b9",
+   "label": "Pair 12: LEFT painted (Richardson-flagged, blot 61) vs RIGHT not flagged (TA502526, blot 48).",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "These both look like heavily compressed blots which is why the background is so homogenous. However, in the painted example, the \"painted\" area is actually not the smooth homogenous part but the blotchy area above the bands. "
+  },
+  {
+   "id": "pair_7bd9708a8f",
+   "label": "Pair 13: LEFT painted (Richardson-flagged, blot 30) vs RIGHT not flagged (TA810527, blot 50). Rulebook v3 also called this one painted.",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "Maybe not painting but there is a blurry background just outside the band, which represents the background, and it does not match the perfectly homogenous part of the rest of the blot. "
+  },
+  {
+   "id": "pair_fc6a83326a",
+   "label": "Pair 14: LEFT painted (Richardson-flagged, blot 41) vs RIGHT not flagged (TA592329, blot 56). Rulebook v3 also called this one painted.",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "The right one also has perfectly smooth background outside the band area, but this could just be a result of compression. "
+  },
+  {
+   "id": "pair_9e47fda8a0",
+   "label": "Pair 15: LEFT painted (Richardson-flagged, blot 43) vs RIGHT not flagged (TA812963, blot 59).",
+   "verdict": "I see a difference (describe in notes)",
+   "notes": "I think the right one is actually just compression. "
+  },
+  {
+   "id": "tp_3564c666fa",
+   "label": "Extra painted example (Richardson-flagged, blot 12): MA5-44619",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_54263c5baf",
+   "label": "Extra painted example (Richardson-flagged, blot 40): MA5-32089",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_106e44f25b",
+   "label": "Extra painted example (Richardson-flagged, blot 22): MA5-34802",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_15d7f9ee73",
+   "label": "Extra painted example (Richardson-flagged, blot 7): MA5-34928",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_11bbf08f38",
+   "label": "Extra painted example (Richardson-flagged, blot 6): TA504762",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_fe03a72015",
+   "label": "Extra painted example (Richardson-flagged, blot 4): TA504737",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_70b0d51e10",
+   "label": "Extra painted example (Richardson-flagged, blot 53): MA5-27433",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_714d1f25be",
+   "label": "Extra painted example (Richardson-flagged, blot 32): MA5-33004",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_aa9c449534",
+   "label": "Extra painted example (Richardson-flagged, blot 8): TA501317",
+   "verdict": "",
+   "notes": ""
+  },
+  {
+   "id": "tp_96d766196c",
+   "label": "Extra painted example (Richardson-flagged, blot 29): TA506222",
+   "verdict": "",
+   "notes": ""
+  }
+ ]
+}

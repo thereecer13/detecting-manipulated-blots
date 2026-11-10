@@ -1,0 +1,390 @@
+{
+ "review": "blind_painting_test",
+ "exported": "2026-11-10T01:01:20.870Z",
+ "items": [
+  {
+   "id": "e464a821af",
+   "label": "Blot 1",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "8fcef90710",
+   "label": "Blot 2",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "70cdf0d2cd",
+   "label": "Blot 3",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "fe03a72015",
+   "label": "Blot 4",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "a70c7b5081",
+   "label": "Blot 5",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "11bbf08f38",
+   "label": "Blot 6",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "15d7f9ee73",
+   "label": "Blot 7",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "aa9c449534",
+   "label": "Blot 8",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "b03ffb562e",
+   "label": "Blot 9",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "9684f0d970",
+   "label": "Blot 10",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "c53d95ab9d",
+   "label": "Blot 11",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "3564c666fa",
+   "label": "Blot 12",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "9579c483cf",
+   "label": "Blot 13",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "35cb64a731",
+   "label": "Blot 14",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "682ca4d20b",
+   "label": "Blot 15",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "6e72e13aa4",
+   "label": "Blot 16",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "31ff2a6af4",
+   "label": "Blot 17",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "456c82231c",
+   "label": "Blot 18",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "aad49f9844",
+   "label": "Blot 19",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "e22047f5d0",
+   "label": "Blot 20",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "0b7504a0b0",
+   "label": "Blot 21",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "106e44f25b",
+   "label": "Blot 22",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "b891f2a0da",
+   "label": "Blot 23",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "ee5d438c04",
+   "label": "Blot 24",
+   "verdict": "can't tell (compression grain only)",
+   "notes": ""
+  },
+  {
+   "id": "e321110d9a",
+   "label": "Blot 25",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "f2cdb77ee2",
+   "label": "Blot 26",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "ff1293cbe5",
+   "label": "Blot 27",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "e6c549e025",
+   "label": "Blot 28",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "96d766196c",
+   "label": "Blot 29",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "052ac616c2",
+   "label": "Blot 30",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "7b5a605fc8",
+   "label": "Blot 31",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "714d1f25be",
+   "label": "Blot 32",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "2c81b99c41",
+   "label": "Blot 33",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "34246ab540",
+   "label": "Blot 34",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "519a5a5959",
+   "label": "Blot 35",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "62baf6aeb0",
+   "label": "Blot 36",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "073b32ab25",
+   "label": "Blot 37",
+   "verdict": "can't tell (compression grain only)",
+   "notes": ""
+  },
+  {
+   "id": "fa51f29b55",
+   "label": "Blot 38",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "01b9b74d08",
+   "label": "Blot 39",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "54263c5baf",
+   "label": "Blot 40",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "985f69e720",
+   "label": "Blot 41",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "66087fe6c0",
+   "label": "Blot 42",
+   "verdict": "can't tell (compression grain only)",
+   "notes": ""
+  },
+  {
+   "id": "868a6ad86a",
+   "label": "Blot 43",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "39e38fd605",
+   "label": "Blot 44",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "5cedf47530",
+   "label": "Blot 45",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "af2d2c0701",
+   "label": "Blot 46",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "c1553f7960",
+   "label": "Blot 47",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "301320f4b9",
+   "label": "Blot 48",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "732e001745",
+   "label": "Blot 49",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "7bd9708a8f",
+   "label": "Blot 50",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "d8ce608c54",
+   "label": "Blot 51",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "65d919cfca",
+   "label": "Blot 52",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "70b0d51e10",
+   "label": "Blot 53",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "1fbfeb37d9",
+   "label": "Blot 54",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "5f4b961f0d",
+   "label": "Blot 55",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "fc6a83326a",
+   "label": "Blot 56",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "a4de7aeab6",
+   "label": "Blot 57",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "c6ca67fadd",
+   "label": "Blot 58",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "9e47fda8a0",
+   "label": "Blot 59",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "8ae55d7566",
+   "label": "Blot 60",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "0e7549c213",
+   "label": "Blot 61",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "8810c7ffb3",
+   "label": "Blot 62",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "63ce251f33",
+   "label": "Blot 63",
+   "verdict": "painted (smooth patches in real background grain)",
+   "notes": ""
+  },
+  {
+   "id": "dec7d0ccb8",
+   "label": "Blot 64",
+   "verdict": "not painted",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,514 @@
+[
+ {
+  "id": "e464a821af",
+  "n": 1,
+  "label": 0,
+  "catalog": "MA5-49488",
+  "summary": "",
+  "test5_id": "54d758bab8"
+ },
+ {
+  "id": "8fcef90710",
+  "n": 2,
+  "label": 1,
+  "catalog": "TA804938",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "0fa8a519d9"
+ },
+ {
+  "id": "70cdf0d2cd",
+  "n": 3,
+  "label": 0,
+  "catalog": "TA890102",
+  "summary": "",
+  "test5_id": "cba54aa73d"
+ },
+ {
+  "id": "fe03a72015",
+  "n": 4,
+  "label": 1,
+  "catalog": "TA504737",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "969ad54bcd"
+ },
+ {
+  "id": "a70c7b5081",
+  "n": 5,
+  "label": 1,
+  "catalog": "TA801577",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "981beae9ea"
+ },
+ {
+  "id": "11bbf08f38",
+  "n": 6,
+  "label": 1,
+  "catalog": "TA504762",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "e51c0fa9fc"
+ },
+ {
+  "id": "15d7f9ee73",
+  "n": 7,
+  "label": 1,
+  "catalog": "MA5-34928",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "28586c16a9"
+ },
+ {
+  "id": "aa9c449534",
+  "n": 8,
+  "label": 1,
+  "catalog": "TA501317",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "eda2f1fdbf"
+ },
+ {
+  "id": "b03ffb562e",
+  "n": 9,
+  "label": 0,
+  "catalog": "TA813056",
+  "summary": "",
+  "test5_id": "9efef90fd4"
+ },
+ {
+  "id": "9684f0d970",
+  "n": 10,
+  "label": 1,
+  "catalog": "TA801357",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "183f463873"
+ },
+ {
+  "id": "c53d95ab9d",
+  "n": 11,
+  "label": 0,
+  "catalog": "MA5-42168",
+  "summary": "",
+  "test5_id": "3d6729cd5a"
+ },
+ {
+  "id": "3564c666fa",
+  "n": 12,
+  "label": 1,
+  "catalog": "MA5-44619",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "6d65ccefa1"
+ },
+ {
+  "id": "9579c483cf",
+  "n": 13,
+  "label": 0,
+  "catalog": "MA5-49484",
+  "summary": "",
+  "test5_id": "25b2b3d7b6"
+ },
+ {
+  "id": "35cb64a731",
+  "n": 14,
+  "label": 0,
+  "catalog": "TA810174",
+  "summary": "",
+  "test5_id": "2f9c1419c1"
+ },
+ {
+  "id": "682ca4d20b",
+  "n": 15,
+  "label": 0,
+  "catalog": "MA5-35828",
+  "summary": "",
+  "test5_id": "8be1d0e0a3"
+ },
+ {
+  "id": "6e72e13aa4",
+  "n": 16,
+  "label": 1,
+  "catalog": "MA5-32231",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "5f11ce2542"
+ },
+ {
+  "id": "31ff2a6af4",
+  "n": 17,
+  "label": 0,
+  "catalog": "TA807929",
+  "summary": "",
+  "test5_id": "85e5645377"
+ },
+ {
+  "id": "456c82231c",
+  "n": 18,
+  "label": 0,
+  "catalog": "TA502248",
+  "summary": "",
+  "test5_id": "ef2e78df40"
+ },
+ {
+  "id": "aad49f9844",
+  "n": 19,
+  "label": 0,
+  "catalog": "TA502762",
+  "summary": "",
+  "test5_id": "8f002d0773"
+ },
+ {
+  "id": "e22047f5d0",
+  "n": 20,
+  "label": 0,
+  "catalog": "TA503537",
+  "summary": "",
+  "test5_id": "1f6c39157f"
+ },
+ {
+  "id": "0b7504a0b0",
+  "n": 21,
+  "label": 0,
+  "catalog": "MA5-51324",
+  "summary": "",
+  "test5_id": "4c97d4bf9c"
+ },
+ {
+  "id": "106e44f25b",
+  "n": 22,
+  "label": 1,
+  "catalog": "MA5-34802",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "ecb1d133bb"
+ },
+ {
+  "id": "b891f2a0da",
+  "n": 23,
+  "label": 0,
+  "catalog": "MA5-37510",
+  "summary": "",
+  "test5_id": "c3dffa565c"
+ },
+ {
+  "id": "ee5d438c04",
+  "n": 24,
+  "label": 1,
+  "catalog": "TA800756",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "d8aaba8af4"
+ },
+ {
+  "id": "e321110d9a",
+  "n": 25,
+  "label": 1,
+  "catalog": "MA5-34840",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "696395f76c"
+ },
+ {
+  "id": "f2cdb77ee2",
+  "n": 26,
+  "label": 0,
+  "catalog": "MA5-57782",
+  "summary": "",
+  "test5_id": "5b98b7155b"
+ },
+ {
+  "id": "ff1293cbe5",
+  "n": 27,
+  "label": 1,
+  "catalog": "TA807896",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "be9de4f23c"
+ },
+ {
+  "id": "e6c549e025",
+  "n": 28,
+  "label": 0,
+  "catalog": "TA811398",
+  "summary": "",
+  "test5_id": "2240ca1345"
+ },
+ {
+  "id": "96d766196c",
+  "n": 29,
+  "label": 1,
+  "catalog": "TA506222",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "563abbc28b"
+ },
+ {
+  "id": "052ac616c2",
+  "n": 30,
+  "label": 1,
+  "catalog": "TA811000",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "2572c98b50"
+ },
+ {
+  "id": "7b5a605fc8",
+  "n": 31,
+  "label": 0,
+  "catalog": "MA5-31498",
+  "summary": "",
+  "test5_id": "a1a2e3b084"
+ },
+ {
+  "id": "714d1f25be",
+  "n": 32,
+  "label": 1,
+  "catalog": "MA5-33004",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "bc3879071b"
+ },
+ {
+  "id": "2c81b99c41",
+  "n": 33,
+  "label": 0,
+  "catalog": "MA5-23870",
+  "summary": "",
+  "test5_id": "aed4b54f7f"
+ },
+ {
+  "id": "34246ab540",
+  "n": 34,
+  "label": 0,
+  "catalog": "TA807395",
+  "summary": "",
+  "test5_id": "e1f210b185"
+ },
+ {
+  "id": "519a5a5959",
+  "n": 35,
+  "label": 0,
+  "catalog": "MA5-34931",
+  "summary": "",
+  "test5_id": "2e0d686629"
+ },
+ {
+  "id": "62baf6aeb0",
+  "n": 36,
+  "label": 1,
+  "catalog": "MA5-26335",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "58a32cd473"
+ },
+ {
+  "id": "073b32ab25",
+  "n": 37,
+  "label": 1,
+  "catalog": "MA5-34811",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "1d09d2fd98"
+ },
+ {
+  "id": "fa51f29b55",
+  "n": 38,
+  "label": 1,
+  "catalog": "TA807147",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "244de26bea"
+ },
+ {
+  "id": "01b9b74d08",
+  "n": 39,
+  "label": 0,
+  "catalog": "MA5-42796",
+  "summary": "",
+  "test5_id": "f36c18bc97"
+ },
+ {
+  "id": "54263c5baf",
+  "n": 40,
+  "label": 1,
+  "catalog": "MA5-32089",
+  "summary": "Duplicated regions of background noise, unexpected horizontal discontinuities",
+  "test5_id": "578dcc02aa"
+ },
+ {
+  "id": "985f69e720",
+  "n": 41,
+  "label": 1,
+  "catalog": "TA503031",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "6f14d8f52e"
+ },
+ {
+  "id": "66087fe6c0",
+  "n": 42,
+  "label": 1,
+  "catalog": "TA808378",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "5c8889d024"
+ },
+ {
+  "id": "868a6ad86a",
+  "n": 43,
+  "label": 1,
+  "catalog": "TA801250",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "f6fdfe0e2a"
+ },
+ {
+  "id": "39e38fd605",
+  "n": 44,
+  "label": 0,
+  "catalog": "TA812536",
+  "summary": "",
+  "test5_id": "c403e7d95a"
+ },
+ {
+  "id": "5cedf47530",
+  "n": 45,
+  "label": 1,
+  "catalog": "TA802776",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "6555837d41"
+ },
+ {
+  "id": "af2d2c0701",
+  "n": 46,
+  "label": 0,
+  "catalog": "TA811407",
+  "summary": "",
+  "test5_id": "3bed856c64"
+ },
+ {
+  "id": "c1553f7960",
+  "n": 47,
+  "label": 1,
+  "catalog": "MA5-31479",
+  "summary": "Unexpected horizontal discontinuities in background ",
+  "test5_id": "614333ea13"
+ },
+ {
+  "id": "301320f4b9",
+  "n": 48,
+  "label": 0,
+  "catalog": "TA502526",
+  "summary": "",
+  "test5_id": "787cc303ce"
+ },
+ {
+  "id": "732e001745",
+  "n": 49,
+  "label": 0,
+  "catalog": "TA503202",
+  "summary": "",
+  "test5_id": "e9f65c4d32"
+ },
+ {
+  "id": "7bd9708a8f",
+  "n": 50,
+  "label": 0,
+  "catalog": "TA810527",
+  "summary": "",
+  "test5_id": "555fab45d4"
+ },
+ {
+  "id": "d8ce608c54",
+  "n": 51,
+  "label": 0,
+  "catalog": "RAB04439",
+  "summary": "",
+  "test5_id": "1337eae7c7"
+ },
+ {
+  "id": "65d919cfca",
+  "n": 52,
+  "label": 0,
+  "catalog": "TA807830",
+  "summary": "",
+  "test5_id": "819ec28f3f"
+ },
+ {
+  "id": "70b0d51e10",
+  "n": 53,
+  "label": 1,
+  "catalog": "MA5-27433",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "63b514aee8"
+ },
+ {
+  "id": "1fbfeb37d9",
+  "n": 54,
+  "label": 1,
+  "catalog": "TA807265",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "e1851c5962"
+ },
+ {
+  "id": "5f4b961f0d",
+  "n": 55,
+  "label": 1,
+  "catalog": "TA506849",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "e68004394e"
+ },
+ {
+  "id": "fc6a83326a",
+  "n": 56,
+  "label": 0,
+  "catalog": "TA592329",
+  "summary": "",
+  "test5_id": "4059f4737e"
+ },
+ {
+  "id": "a4de7aeab6",
+  "n": 57,
+  "label": 0,
+  "catalog": "TA506405",
+  "summary": "",
+  "test5_id": "44ebdfeb03"
+ },
+ {
+  "id": "c6ca67fadd",
+  "n": 58,
+  "label": 1,
+  "catalog": "TA806758",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "4c71c9d455"
+ },
+ {
+  "id": "9e47fda8a0",
+  "n": 59,
+  "label": 0,
+  "catalog": "TA812963",
+  "summary": "",
+  "test5_id": "69b8c74488"
+ },
+ {
+  "id": "8ae55d7566",
+  "n": 60,
+  "label": 1,
+  "catalog": "RAB02226",
+  "summary": "Repetitive regions of background noise",
+  "test5_id": "37eec46909"
+ },
+ {
+  "id": "0e7549c213",
+  "n": 61,
+  "label": 1,
+  "catalog": "TA503923",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "0bc05dd837"
+ },
+ {
+  "id": "8810c7ffb3",
+  "n": 62,
+  "label": 0,
+  "catalog": "TA809730",
+  "summary": "",
+  "test5_id": "43137e3272"
+ },
+ {
+  "id": "63ce251f33",
+  "n": 63,
+  "label": 1,
+  "catalog": "MA5-32228",
+  "summary": "Apparent \"painting\" of background",
+  "test5_id": "fdc05678ff"
+ },
+ {
+  "id": "dec7d0ccb8",
+  "n": 64,
+  "label": 0,
+  "catalog": "MA5-44614",
+  "summary": "",
+  "test5_id": "3408aa5850"
+ }
+]
