@@ -131,9 +131,11 @@ def main():
     ap.add_argument("--per-prefix", nargs="+", required=True, help="PREFIX=N, e.g. MA5-=110 TA8=70")
     ap.add_argument("--delay", type=float, default=3.0, help="minimum seconds between requests to one host")
     ap.add_argument("--seed", type=int, default=5055)
+    ap.add_argument("--all-images", action="store_true", help="save every western blot image of a product, not only the first (template hunting)")
+    ap.add_argument("--cache", type=Path, help="page cache directory (default <out>/cache); share it between runs to avoid refetching")
     a = ap.parse_args()
     flagged = {norm_cat(r["catalog_number"]) for r in csv.DictReader(open(a.spreadsheet, encoding="utf-8"))}
-    F = Fetcher(a.out / "cache", a.delay)
+    F = Fetcher(a.cache or a.out / "cache", a.delay)
     img_dir = a.out / "images"; img_dir.mkdir(parents=True, exist_ok=True)
     log = a.out / "scraped.jsonl"
     done = {json.loads(l)["catalog"] for l in log.read_text().splitlines()} if log.exists() else set()
@@ -155,17 +157,24 @@ def main():
             try:
                 imgs = VENDORS[v][1](F.get(url))
                 if not imgs: continue
-                img_url, alt = imgs[0]                       # one image per product, so no product dominates
-                data = F.get(img_url, binary=True)
+                if not a.all_images: imgs = imgs[:1]       # one image per product, so no product dominates
             except Exception as e:
                 print(f"  skip {cat}: {e}"); continue
-            name = f"{hashlib.sha1(img_url.encode()).hexdigest()[:12]}{Path(urlparse(img_url).path).suffix or '.jpg'}"
-            (img_dir / name).write_bytes(data)
-            rec = {"vendor": v, "prefix": prefix, "catalog": cat, "product_url": url, "image_url": img_url,
-                   "alt": alt[:300], "file": name, "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-            with open(log, "a") as f: f.write(json.dumps(rec) + "\n")
+            saved = 0
+            for img_url, alt in imgs:
+                try:
+                    data = F.get(img_url, binary=True)
+                except Exception as e:
+                    print(f"  skip image {img_url}: {e}"); continue
+                name = f"{hashlib.sha1(img_url.encode()).hexdigest()[:12]}{Path(urlparse(img_url).path).suffix or '.jpg'}"
+                (img_dir / name).write_bytes(data)
+                rec = {"vendor": v, "prefix": prefix, "catalog": cat, "product_url": url, "image_url": img_url,
+                       "alt": alt[:300], "file": name, "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+                with open(log, "a") as f: f.write(json.dumps(rec) + "\n")
+                saved += 1
+            if not saved: continue
             done.add(cat); got += 1
-            print(f"  [{prefix} {got}/{n}] {cat}")
+            print(f"  [{prefix} {got}/{n}] {cat} ({saved} image{'s' if saved > 1 else ''})")
 
 
 if __name__ == "__main__":
