@@ -8,6 +8,13 @@ page pixels set to zero. The central 80% of one map is searched for in the other
 directions; the score is the best correlation. A different crop or a small rescale of the same
 background still matches.
 
+Use it as a candidate generator; every candidate is checked by eye. Validation (held-out Richardson
+Thermo template images vs 37 user-verified clean blots, 63 fresh scraped blots and 100 Richardson
+non-template images): at score >= 0.4, recall A 14/25, B 16/25, C 19/25, D 20/25; 4 of 200
+negatives pass, all heavily painted figures whose few surviving grainy patches match by chance.
+Masking flat areas (--flat, --min-valid) removes those but collapses pattern B recall (faint grain),
+so it is off by default.
+
     python pilot/template_match.py validate --richardson raw/rich_aug --clean <dir with clean images> ...
     python pilot/template_match.py scan --richardson raw/rich_aug --scraped scraped_tmpl --out matches.json
 """
@@ -22,6 +29,8 @@ Image.MAX_IMAGE_PIXELS = None
 
 W = 200
 SCALES = (0.9, 1.0, 1.1)
+MIN_VALID = 0.0    # share of the panel that must be usable background (0 = off)
+FLAT = -1.0        # local residual RMS below which background counts as flat and is masked (-1 = off)
 
 
 def noise_map(img):
@@ -37,7 +46,10 @@ def noise_map(img):
     page = cv2.dilate((p >= 236).astype(np.uint8), np.ones((5, 5), np.uint8)) > 0
     if (~page).sum() < 400: return None
     m = ~page & (p > np.percentile(p[~page], 35))
+    raw = p - cv2.GaussianBlur(p, (0, 0), 1.2)
+    m &= np.sqrt(cv2.blur(raw * raw, (5, 5))) > FLAT     # drop perfectly flat (painted or clipped) areas
     if m.sum() < 400 or r[m].std() < 0.3: return None
+    if m.mean() < MIN_VALID: return None        # mostly flat or page: too little background to compare
     r = np.where(m, (r - r[m].mean()) / r[m].std(), 0).astype(np.float32)
     return r
 
@@ -108,7 +120,10 @@ def main():
     ap.add_argument("--out", type=Path)
     ap.add_argument("--per-pattern", type=int, default=20, help="exemplars per pattern")
     ap.add_argument("--held", type=int, default=25, help="validate: held-out template images per pattern")
+    ap.add_argument("--min-valid", type=float, default=MIN_VALID)
+    ap.add_argument("--flat", type=float, default=FLAT)
     a = ap.parse_args()
+    globals().update(MIN_VALID=a.min_valid, FLAT=a.flat)
     rng = __import__("random").Random(7)
     rows, load = richardson(a.richardson)
     ex, held = bank(template_rows(rows), load, a.per_pattern, rng)
