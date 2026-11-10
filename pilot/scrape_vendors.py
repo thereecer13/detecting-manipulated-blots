@@ -88,7 +88,8 @@ def thermo_products(F):
 
 def thermo_images(page):
     t = page.decode("utf-8", "ignore").replace("\\u003d", "=").replace("\\/", "/")
-    files = re.findall(r"/antibody/images/\d+/([^\"'?\s]+?-WB-[^\"'?\s]*?\.(?:jpe?g|png))", t, re.I)
+    # western blot files: newer names contain "-WB-", older ones "_Westernblot" or "_WB"
+    files = re.findall(r"/antibody/images/\d+/([^\"'?\s]+?(?:-WB-|_WB|Westernblot)[^\"'?\s]*?\.(?:jpe?g|png))", t, re.I)
     seen = []
     for f in files:
         if f not in seen: seen.append(f)
@@ -131,6 +132,7 @@ def main():
     ap.add_argument("--per-prefix", nargs="+", required=True, help="PREFIX=N, e.g. MA5-=110 TA8=70")
     ap.add_argument("--delay", type=float, default=3.0, help="minimum seconds between requests to one host")
     ap.add_argument("--seed", type=int, default=5055)
+    ap.add_argument("--ranges", nargs="+", default=[], help="PREFIX=lo-hi[,lo-hi]: only catalog numbers in these numeric ranges, e.g. PA5-=99000-104999,114000-116999")
     ap.add_argument("--all-images", action="store_true", help="save every western blot image of a product, not only the first (template hunting)")
     ap.add_argument("--cache", type=Path, help="page cache directory (default <out>/cache); share it between runs to avoid refetching")
     a = ap.parse_args()
@@ -140,6 +142,7 @@ def main():
     log = a.out / "scraped.jsonl"
     done = {json.loads(l)["catalog"] for l in log.read_text().splitlines()} if log.exists() else set()
     targets = dict(kv.split("=") for kv in a.per_prefix)
+    ranges = {k: [tuple(int(x) for x in r.split("-")) for r in v.split(",")] for k, v in (kv.split("=") for kv in a.ranges)}
     rng = random.Random(a.seed)
     products = {}
     for v in {PREFIX_VENDOR[p] for p in targets}:
@@ -148,6 +151,9 @@ def main():
     for prefix, n in targets.items():
         v = PREFIX_VENDOR[prefix]; n = int(n)
         pool = sorted({(c, u) for c, u in products[v] if c.upper().startswith(prefix) and norm_cat(c) not in flagged})
+        if prefix in ranges:
+            num = lambda c: int(m.group(0)) if (m := re.match(r"\d+", c[len(prefix):])) else -1
+            pool = [(c, u) for c, u in pool if any(lo <= num(c) <= hi for lo, hi in ranges[prefix])]
         rng.shuffle(pool)
         got = sum(1 for c in done if c.upper().startswith(prefix))
         print(f"{prefix}: {len(pool)} unflagged products available, target {n}, already have {got}")
