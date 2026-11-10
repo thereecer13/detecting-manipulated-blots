@@ -1,0 +1,86 @@
+# Rulebook v4 (2026-11-10): rulebook v3 with the painting rules rewritten from the biologist's
+# blind test and labelled comparison on test 5 vendor blots (pilot/blind_painting/).
+#   - R3 (background painting) rewritten: smooth patches INSIDE grainy background, irregular edges
+#     allowed, identical gray level across patches, and pasted-in texture islands.
+#   - C3 ("flat everywhere is contrast adjustment, not painting") removed: in test 5 it was the
+#     reason given for many missed painted blots (e.g. MA5-27220, MA5-36206).
+#   - New A1 (can't judge): near-total flatness or grain of a gray level or two cannot separate
+#     painting from compression, so the judge abstains with a moderate probability.
+#   - F3 (box around a band): outlines made of 8x8 JPEG squares excluded; in test 5 five of v3's
+#     false positives were F3 firing on compression blocks.
+# Unchanged from v3: R1, R2, C1, C2, C4, F4.
+# Frozen before the fresh vendor test (test 6). Test 5 is development data from here on.
+
+# --- v1 rules (R1, R2 unchanged; R3 rewritten) ---
+- id: R1
+  kind: flag
+  name: Duplicated bands
+  rule: >
+    Take the outline shape of each band and compare it with every other band within the image.
+    If the similarity is above 0.95, this is suspicious. Suspicion should increase if more than
+    one band is similar to another within the same image.
+- id: R2
+  kind: flag
+  name: Splices and sharp transitions
+  rule: >
+    Look for continuous segments where there is a sharp transition in pixel brightness outside
+    bands, especially if they are perfectly straight lines.
+- id: R3
+  kind: flag
+  name: Background painting
+  rule: >
+    In the contrast-raised (equalized) view, look outside the bands for a smooth, homogeneous
+    patch that sits inside otherwise grainy, blotchy background, so that grain surrounds or
+    borders the patch. The patch edges may be irregular or blob-shaped; they do not need to be
+    straight. Suspicion increases when several flat patches share exactly the same gray level,
+    or when a flat patch does not match the background around it. Also flag the reverse: an
+    island of blotchy texture that does not match the rest of the background, which suggests
+    texture pasted in.
+
+# --- abstaining rule ---
+- id: A1
+  kind: cannot_judge
+  name: Painting cannot be judged when there is no grain to compare against
+  rule: >
+    If the background is flat almost everywhere outside the bands (for example, texture only in a
+    halo around the bands), or the background grain is only a faint flicker of one or two gray
+    levels, painting and compression or over-adjustment look the same. Do not call such a
+    background clean on that basis, and do not call it painted on flatness alone: answer
+    "cannot_judge" for painting unless another rule gives clear evidence.
+
+# --- clearing rules (what is NOT manipulation) ---
+- id: C1
+  kind: clear
+  name: Disclosed splices are legitimate
+  rule: >
+    A visible white gap or a drawn separator line between strips marks a disclosed splice,
+    which journals allow; it is not manipulation. An undisclosed splice has no gap: two
+    backgrounds meet directly with a brightness step.
+- id: C2
+  kind: clear
+  name: Similar band shape alone is not evidence of duplication
+  rule: >
+    Evenly loaded bands (especially loading controls such as actin or GAPDH) are naturally
+    oval and alike. A copy is shown by identical fine detail: the same specks, scratches,
+    dust or noise pattern in and around the band.
+- id: C4
+  kind: clear
+  name: Compression artifacts are not edits
+  rule: >
+    Square 8x8-pixel blocks come from JPEG compression, and stepped contour lines come from
+    saving with few gray levels. Neither is evidence of editing.
+
+# --- additional flag rules ---
+- id: F3
+  kind: flag
+  name: A box around a band means it was pasted
+  rule: >
+    A faint rectangle of slightly different background around a single band indicates a
+    pasted patch. An outline built from small square 8x8-pixel blocks hugging the band is JPEG
+    compression, not a pasted box; the rectangle must have long straight edges that do not
+    follow the block grid.
+- id: F4
+  kind: flag
+  name: A band cut off by a straight line was trimmed
+  rule: >
+    Real band edges are soft. A band that ends abruptly along a straight line was cut.
