@@ -4,6 +4,8 @@ box. Progress is kept in the browser while reviewing; 'Export' downloads a JSON 
     python pilot/make_review_html.py items.json out.html --title "Clean vendor blots" \
         --choices "clean|manipulated|unsure|not a western blot"
 
+    --lossless embeds PNG instead of JPEG, so the page adds no compression artifacts.
+
 items.json: [{"id": "...", "label": "shown above the item", "images": [{"path": "...", "caption": "..."}]}]
 """
 import argparse, base64, html, io, json
@@ -11,10 +13,13 @@ from pathlib import Path
 from PIL import Image
 
 
-def data_uri(path, max_side=700):
+def data_uri(path, max_side=700, lossless=False):
     im = Image.open(path).convert("L")
     im.thumbnail((max_side, max_side))
-    buf = io.BytesIO(); im.save(buf, "JPEG", quality=85)
+    buf = io.BytesIO()
+    if lossless:   # PNG: no compression artifacts added to forensic views
+        im.save(buf, "PNG", optimize=True); return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+    im.save(buf, "JPEG", quality=85)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
@@ -88,11 +93,12 @@ render();
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("items", type=Path); ap.add_argument("out", type=Path)
+    ap.add_argument("--lossless", action="store_true", help="embed PNG instead of JPEG (for judging grain or compression)")
     ap.add_argument("--title", required=True); ap.add_argument("--choices", required=True, help="'|'-separated; the first two get green/red")
     a = ap.parse_args()
     items = json.loads(a.items.read_text())
     for it in items:
-        for im in it["images"]: im["src"] = data_uri(im.pop("path"))
+        for im in it["images"]: im["src"] = data_uri(im.pop("path"), lossless=a.lossless)
     choices = a.choices.split("|")
     review_id = a.out.stem
     page = (PAGE.replace("__TITLE__", html.escape(a.title)).replace("__C0__", html.escape(choices[0])).replace("__C1__", html.escape(choices[1]))
