@@ -90,24 +90,25 @@ def _coarse(ga, gb):
 
 
 def align(ga, gb):
-    """(score, s, dx, dy): B pixel (X, Y) maps to A pixel (s*X + dx, s*Y + dy). Start from the
-    detector's panel-level alignment, then refine scale (+-3%) and shift (+-3 B pixels) by the direct
+    """(score, s, dx, dy): B pixel (X, Y) maps to A pixel (s*X + dx, s*Y + dy). Start from the whole
+    figures at their size ratio and from the detector's panel-level alignment, then refine scale (+-3%) and shift (+-3 B pixels) by the direct
     correlation of the fine noise at B's resolution."""
-    c = _coarse(ga, gb)
-    if c is None: return (-1, 1.0, 0.0, 0.0)
-    _, s0, dx0, dy0 = c
-    best = (-1, s0, dx0, dy0)
+    starts = [(ga.shape[1] / gb.shape[1], 0.0, 0.0)]          # whole figures at their size ratio
+    c = _coarse(ga, gb)                                        # detector's panel-level alignment
+    if c is not None: starts.append(c[1:])
+    best = (-1, starts[0][0], 0.0, 0.0)
     # A is shrunk to whole-pixel widths around ga.w / s0 (each width is one scale), and B is placed at
     # whole-pixel offsets: fine noise only correlates at exact pixel alignment
-    w0 = ga.shape[1] / s0
-    for wt in range(max(16, int(w0 * 0.97)), int(w0 * 1.03) + 2):
-        s = ga.shape[1] / wt
-        bx, by = round(dx0 / s), round(dy0 / s)
-        for oy in range(-3, 4):
-            for ox in range(-3, 4):
-                dx, dy = (bx + ox) * s, (by + oy) * s
-                r = global_corr(ga, gb, s, dx, dy)
-                if r > best[0]: best = (r, float(s), float(dx), float(dy))
+    for s0, dx0, dy0 in starts:
+        w0 = ga.shape[1] / s0
+        for wt in range(max(16, int(w0 * 0.97)), int(w0 * 1.03) + 2):
+            s = ga.shape[1] / wt
+            bx, by = round(dx0 / s), round(dy0 / s)
+            for oy in range(-3, 4):
+                for ox in range(-3, 4):
+                    dx, dy = (bx + ox) * s, (by + oy) * s
+                    r = global_corr(ga, gb, s, dx, dy)
+                    if r > best[0]: best = (r, float(s), float(dx), float(dy))
     return best
 
 
