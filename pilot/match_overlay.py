@@ -95,7 +95,7 @@ def align(ga, gb):
     correlation of the fine noise at B's resolution."""
     starts = [(ga.shape[1] / gb.shape[1], 0.0, 0.0)]          # whole figures at their size ratio
     c = _coarse(ga, gb)                                        # detector's panel-level alignment
-    if c is not None: starts.append(c[1:])
+    if c is not None and 0.2 <= c[1] <= 8: starts.append(c[1:])   # ignore implausible scales
     best = (-1, starts[0][0], 0.0, 0.0)
     # A is shrunk to whole-pixel widths around ga.w / s0 (each width is one scale), and B is placed at
     # whole-pixel offsets: fine noise only correlates at exact pixel alignment

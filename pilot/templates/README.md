@@ -17,6 +17,15 @@ First look (top 6 by score):
 - 4 are knockdown figures (blot + bar chart) where the largest "panel" is the chart: false.
 - 1 (MA5-15084, phospho-PDGFRb) has nothing in common with its exemplar: false.
 
-The remaining candidates are under review by the biologist (`template_candidates.html`, not
-committed: vendor images). `scan_scores.json` has every scraped image's best score, pattern and
+All 31 candidates checked with `match_overlay.py` (aligned at whole-pixel precision, window-by-
+window noise correlation inside the blot panels). Reference: two known pattern B members
+(PA5-102779 vs PA5-102533) match on 82% of their shared background (correlation 0.98); only the
+patch around each figure's band differs. Candidates: highest 7% (PA5-99275, shared figure frame),
+the rest 0-5%. **No new template member in this pilot.** The detector's hits were figure-layout
+matches (Thermo uses the same frame, ladder and arrow positions for many products) or
+wrong-panel comparisons (knockdown figures with bar charts).
+
+Implication: the detector's validation recall (69%) was probably helped by template members also
+sharing a figure frame. A better detector should score only the lane interior, as the overlay
+map does, before a larger scan. `scan_scores.json` has every scraped image's best score, pattern and
 exemplar.
