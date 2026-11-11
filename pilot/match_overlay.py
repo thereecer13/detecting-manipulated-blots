@@ -131,7 +131,9 @@ def local_match(ga, gb, s, dx, dy, win):
     gbw = cv2.warpAffine(gb, M, (gas.shape[1], gas.shape[0]), flags=cv2.INTER_NEAREST, borderValue=255)
     inside = cv2.warpAffine(np.ones_like(gb), M, (gas.shape[1], gas.shape[0]), flags=cv2.INTER_NEAREST, borderValue=0) > 0
     ra, va = residual(gas); rb, vb = residual(gbw)
-    v = va & vb & inside & blot_mask(gas.astype(np.uint8)) & blot_mask(np.clip(gbw, 0, 255).astype(np.uint8))   # blot panels only: no ladder text
+    e = max(3, round(0.04 * min(gb.shape)))           # blot panels only (no ladder text), minus a border margin:
+    bm = lambda x: cv2.erode(blot_mask(np.clip(x, 0, 255).astype(np.uint8)).astype(np.uint8), np.ones((e, e), np.uint8)) > 0
+    v = va & vb & inside & bm(gas) & bm(gbw)            # box lines and lane numbers belong to the shared figure frame
     ra, rb = np.where(v, ra, 0), np.where(v, rb, 0)
     k = (win, win)
     num = cv2.blur(ra * rb, k); den = np.sqrt(cv2.blur(ra * ra, k) * cv2.blur(rb * rb, k))

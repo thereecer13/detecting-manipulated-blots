@@ -10,7 +10,8 @@ How v2 works:
 2. Alignment: the candidate is shrunk (or enlarged) to the exemplar's exact pixel size, +-2 px in
    width, and shifted by whole pixels (+-4) at that resolution; fine noise only correlates at exact
    pixel alignment.
-3. Score: inside the blot panels only (page, printed labels and bands masked; bands are pixels much
+3. Score: inside the blot panels only, minus a margin of 4% of the figure along panel borders (box
+   lines, lane numbers; pilot: frame-edge matches gave 20-27% shares), with page, printed labels and bands masked; bands are pixels much
    darker than their surroundings), the noise residuals are compared window by window (windows of
    ~1/25 of the figure width). `share` = fraction of valid windows whose correlation exceeds 0.5,
    `median` = median window correlation. A true template pair has most windows matching (reference
@@ -44,7 +45,10 @@ def prep(g):
     k = max(15, (min(g.shape) // 8) | 1); k = min(k, 255) if min(k, 255) % 2 else min(k, 255) - 1
     local = cv2.medianBlur(np.clip(g, 0, 255).astype(np.uint8), k).astype(np.float32)
     band = cv2.dilate((g < local - 25).astype(np.uint8), np.ones((5, 5), np.uint8)) > 0
-    v = ~page & ~band & blot_mask(np.clip(g, 0, 255).astype(np.uint8))
+    bm = blot_mask(np.clip(g, 0, 255).astype(np.uint8))
+    e = max(3, round(0.04 * min(g.shape)))           # skip a margin along panel borders: box lines,
+    bm = cv2.erode(bm.astype(np.uint8), np.ones((e, e), np.uint8)) > 0   # lane numbers and edge ringing are frame
+    v = ~page & ~band & bm
     return np.where(v, r, 0).astype(np.float32), v
 
 
