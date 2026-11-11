@@ -30,9 +30,9 @@ sharing a figure frame. A better detector should score only the lane interior, a
 map does, before a larger scan. `scan_scores.json` has every scraped image's best score, pattern and
 exemplar.
 
-## Detector v2 scan, interim (2,201 of the PA5 images scraped so far)
+## Detector v2 scan, interim (3,466 PA5 images scraped so far)
 
-`template_scan2.py scan` on images from 1,475 of 4,500 PA5 products in the template catalog ranges,
+`template_scan2.py scan` on images from 2,445 of 4,500 PA5 products in the template catalog ranges,
 then `match_overlay.py` against three Richardson pattern-B members (PA5-101612, PA5-102533 and
 PA5-101939 or PA5-115761). None of these catalogs is in Richardson's June or August spreadsheets.
 Every hit is pattern B, 1.36 figure aspect, and all but one come from the same 2019-08-08 upload batch.
@@ -41,12 +41,15 @@ Every hit is pattern B, 1.36 figure aspect, and all but one come from the same 2
 |---|---|---|---|
 | confirmed | PA5-99397 | IL-5 | 73-82% |
 | confirmed | PA5-116113 | VEGFB | 64-75% |
+| confirmed | PA5-99468 | Cyclin C | 53-60% |
+| confirmed | PA5-99414 | HOXB5 | 33-65% |
 | confirmed | PA5-99210 | TBX10 | 41-52% |
 | likely | PA5-99252 | ARMX3 | 36-49% |
 | likely | PA5-99459 | Fra2 | 40-47% |
 | partial | PA5-99249 | VPS72 | 27-40% |
 | partial | PA5-99307 | SIX6 | 24-27% |
 | partial | PA5-99296 | SURF1 | 21-23% |
+| partial | PA5-99306 | CTU1 | 19-24% |
 | partial | PA5-99283 | HSPH1 | 15-20% |
 | no match | PA5-101954, PA5-101963 | | 0% (shared frame only) |
 
