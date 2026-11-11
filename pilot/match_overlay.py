@@ -142,6 +142,19 @@ def local_match(ga, gb, s, dx, dy, win):
     return lc, v, inside, gbw
 
 
+def eq_in(g, mask):
+    """Histogram-equalize g using only the pixels in mask, and change only those pixels. The mask is
+    the blot area shared by both images, so the page and labels stay as they are and both images get
+    the same treatment (equalizing each with its own detected panel let the page into some masks)."""
+    g = np.clip(g, 0, 255).astype(np.uint8)
+    if mask.sum() < 100: return g
+    hist = np.bincount(g[mask], minlength=256).astype(np.float64)
+    cdf = hist.cumsum(); cdf_min = cdf[cdf > 0][0]
+    lut = np.clip(np.round((cdf - cdf_min) / max(cdf[-1] - cdf_min, 1) * 255), 0, 255).astype(np.uint8)
+    out = g.copy(); out[mask] = lut[g[mask]]
+    return out
+
+
 def shade(img_gray, mask, label, font):
     rgb = Image.fromarray(img_gray.astype(np.uint8)).convert("RGB")
     over = np.asarray(rgb).astype(np.float32).copy()
@@ -179,7 +192,9 @@ def main():
     gas = cv2.resize(ga, (m.shape[1], m.shape[0]), interpolation=cv2.INTER_AREA)
     ys, xs = np.where(inside)
     y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
-    ea = equalized(gas.astype(np.uint8)); eb = equalized(np.clip(gbw, 0, 255).astype(np.uint8))
+    common = inside & blot_mask(np.clip(gas, 0, 255).astype(np.uint8)) & blot_mask(np.clip(gbw, 0, 255).astype(np.uint8))
+    common = cv2.morphologyEx(common.astype(np.uint8), cv2.MORPH_OPEN, np.ones((5, 5), np.uint8)) > 0
+    ea = eq_in(gas, common); eb = eq_in(gbw, common)
     fa, fb = Image.fromarray(ea[y0:y1, x0:x1]), Image.fromarray(eb[y0:y1, x0:x1])
     z = 460 / max(fa.size[1], 1)
     fa = fa.resize((round(fa.size[0] * z), round(fa.size[1] * z)), Image.NEAREST); fb = fb.resize(fa.size, Image.NEAREST)
@@ -192,8 +207,10 @@ def main():
     mb = cv2.warpAffine(m.astype(np.uint8), np.float32([[1, 0, -dx / s], [0, 1, -dy / s]]), (gb.shape[1], gb.shape[0]), flags=cv2.INTER_NEAREST) > 0
     m = m_a
     # match map on both images (B: map the mask back to B's own frame)
-    pa = shade(equalized(ga.astype(np.uint8)), m, f"{a.label_a}: matching background shaded", font)
-    pb = shade(equalized(gb.astype(np.uint8)), mb, f"{a.label_b}: same areas", font)
+    ca = cv2.resize(common.astype(np.uint8), (ga.shape[1], ga.shape[0]), interpolation=cv2.INTER_NEAREST) > 0
+    cb = cv2.warpAffine(common.astype(np.uint8), np.float32([[1, 0, -dx / s], [0, 1, -dy / s]]), (gb.shape[1], gb.shape[0]), flags=cv2.INTER_NEAREST) > 0
+    pa = shade(eq_in(ga, ca), m, f"{a.label_a}: matching background shaded", font)
+    pb = shade(eq_in(gb, cb), mb, f"{a.label_b}: same areas", font)
     h = max(pa.size[1], pb.size[1]); pb = pb.resize((round(pb.size[0] * pa.size[1] / pb.size[1]), pa.size[1]))
     sheet = Image.new("RGB", (pa.size[0] + pb.size[0] + 16, pa.size[1] + 24), "white")
     sheet.paste(pa, (0, 0)); sheet.paste(pb, (pa.size[0] + 16, 0))
