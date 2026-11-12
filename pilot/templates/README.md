@@ -90,3 +90,29 @@ catalog numbers from the same PA5 ranges that are absent from the sitemap
   flagged products; it looks like a broad withdrawal of this PA5 line that includes them. None of
   this says why: products go unavailable for supply reasons too. The hidden products' template
   images are still served on their product pages.
+
+## Pattern A, new detector (`pilot/pattern_a.py`)
+
+The template detector found only 2 of 23 pattern-A members because its exemplars came from
+Richardson's archive figures, which are cropped differently from one another. On Thermo's current
+product images, pattern-A figures use one layout (650 x 650 px, a single lane boxed at x = 194-300), so
+lane interiors line up to within a few pixels. The new detector compares the grain inside the lane
+(band masked; column / row streaks removed) at the best whole-pixel shift and counts the share of
+31 x 31 windows that correlate. The match is the grain itself: aligned correlation 0.66 (median of
+231 member pairs) drops below 0.12 when the lanes are shifted by 8 px.
+
+- Validation, leave-one-out over the Thermo images of 23 Richardson pattern-A members: **23 of 23
+  products detected** (window share 0.67-1.0). Not detected: PA5-114955's second image, a different
+  2024 blot (arrow, lane number) that is not the template figure.
+- 5,851 unflagged PA5 blots in the template ranges: 4 hits, highest other image 0.10.
+
+| Catalog | Target | Window share | Notes |
+|---|---|---|---|
+| PA5-116129 | WNT5B | 1.0 | new, not in Richardson's spreadsheets or image archives |
+| PA5-116130 | WNT9B | 1.0 | new |
+| PA5-116125 | Wnt10B | 1.0 | new |
+| PA5-116143 | ZDHHC7 | 0.75 | already found by the template detector (650 x 1020 figure, grey lane borders) |
+
+Look-alikes rejected: boxes spanning several lanes or white gaps, and lanes with strong structure
+inside the box (grain outside 1-8 gray levels). Limits: needs a boxed single lane; pattern-A figures in
+other layouts (multi-lane) are not covered.
