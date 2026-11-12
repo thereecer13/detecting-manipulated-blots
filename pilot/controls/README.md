@@ -45,3 +45,17 @@ First batch (3,389 figures, 9,401 panels; the figures of earlier-crawled product
 - The five groups above are found again.
 - 28 product pairs involving a dark panel: all checked by eye, all false (lone nuclei / blobs on black,
   empty noise panels). No reused near-black control yet.
+
+Second batch (4,339 figures; adds the first ~1,500 crawled MA5 pages):
+- **PA5-79444 (IGF1R) and MA5-14924 (Lyn): same "No Primary antibody" panel, but the IGF1R figure is
+  MCF7 cells and the Lyn figure A431 cells.** One control cannot be from both cell lines. Both images
+  stamped 2021-03-23 11:04:06 (the batch of the FZR1 / BAF57 pair).
+- **MA5-31961 (HSP70) and MA5-24843 (HSPA4): the same HeLa image** (the HSPA4 one is a 150 x 124 copy);
+  HSPA4 and HSP70 (HSPA1A) are different proteins.
+- PA5-90290 (PRMT5) and MA5-41126 (LDHB): same no-primary panel, both HeLa, same upload stamp
+  (2022-08-18); the stained panels show different fields. Possibly one shared experiment.
+- MA5-48110 (CD35) and MA5-48112 (CD25): same isotype-control panel, both Jurkat, same upload stamp;
+  plausibly one shared experiment.
+- Same target or same protein (likely legitimate): JMJD1B MA5-14792 / MA5-44598, PTP1B MA5-25574 /
+  MA5-25642, 14-3-3 eta MA5-24792 / MA5-47416, CD107b MA5-31970 = LAMP2 MA5-35052.
+- 23 new pairs involving a dark panel: all false by eye.
