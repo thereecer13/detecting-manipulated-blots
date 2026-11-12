@@ -31,20 +31,28 @@ import template_match as tm
 from views import blot_mask
 Image.MAX_IMAGE_PIXELS = None
 
-PATTERNS = ("A", "B")          # Thermo polyclonal templates; C/D/E-H can be added the same way
+PATTERNS = ("A", "B", "C", "D")   # Thermo templates: A, B on PA5 polyclonals, C, D on MA5 monoclonals
 PER_GROUP = 4                  # exemplars per (pattern, aspect) group
 ASPECT_TOL = 0.03
 LOCAL = 0.5
+PAGE_MASK = True      # mask near-white pixels (>= 236) even inside blot panels
+BAND_SHAPE = False    # count dark regions as bands only if band-shaped (wide or large), not blotches
 
 
 def prep(g):
     """Noise residual and valid mask (blot panels only, no page, no labels, no bands)."""
     g = g.astype(np.float32)
     r = g - cv2.GaussianBlur(g, (0, 0), 1.2)
-    page = cv2.dilate((g >= 236).astype(np.uint8), np.ones((5, 5), np.uint8)) > 0
+    page = cv2.dilate((g >= 236).astype(np.uint8), np.ones((5, 5), np.uint8)) > 0 if PAGE_MASK else np.zeros(g.shape, bool)
     k = max(15, (min(g.shape) // 8) | 1); k = min(k, 255) if min(k, 255) % 2 else min(k, 255) - 1
     local = cv2.medianBlur(np.clip(g, 0, 255).astype(np.uint8), k).astype(np.float32)
-    band = cv2.dilate((g < local - 25).astype(np.uint8), np.ones((5, 5), np.uint8)) > 0
+    dark = (g < local - 25).astype(np.uint8)
+    if BAND_SHAPE:   # blotchy templates (pattern A) have many small dark specks that are background, not bands
+        n, lab, st, _ = cv2.connectedComponentsWithStats(cv2.morphologyEx(dark, cv2.MORPH_CLOSE, np.ones((3, 3), np.uint8)), 8)
+        H, W = g.shape
+        keep = [i for i in range(1, n) if st[i][2] >= 3 * st[i][3] and st[i][2] >= 0.03 * W or st[i][4] >= 0.002 * H * W]
+        dark = np.isin(lab, keep).astype(np.uint8)
+    band = cv2.dilate(dark, np.ones((5, 5), np.uint8)) > 0
     bm = blot_mask(np.clip(g, 0, 255).astype(np.uint8))
     e = max(3, round(0.04 * min(g.shape)))           # skip a margin along panel borders: box lines,
     bm = cv2.erode(bm.astype(np.uint8), np.ones((e, e), np.uint8)) > 0   # lane numbers and edge ringing are frame
@@ -119,8 +127,9 @@ def score_image(g, groups):
 
 
 _G = None
-def _init(rich, seed, exclude):
-    global _G
+def _init(rich, seed, exclude, patterns=PATTERNS):
+    global _G, PATTERNS
+    PATTERNS = tuple(patterns)
     rows, load = tm.richardson(rich)
     _G = exemplar_groups(rows, load, random.Random(seed), exclude=set(exclude))
 
@@ -138,8 +147,12 @@ def main():
     ap.add_argument("--negatives", nargs="*", type=Path, default=[])
     ap.add_argument("--held", type=int, default=30, help="validate: held-out members per pattern")
     ap.add_argument("--scraped", type=Path); ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument("--exclude", type=Path, help="file of catalog numbers never to use as exemplars (held-out validation members)")
+    ap.add_argument("--patterns", default=",".join(PATTERNS))
     ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--seed", type=int, default=11)
     a = ap.parse_args()
+    globals()["PATTERNS"] = tuple(a.patterns.split(","))
+    excl = [l.strip() for l in open(a.exclude)] if a.exclude else []
     rows, load = tm.richardson(a.richardson)
     tr = tm.template_rows(rows); rng = random.Random(a.seed)
     paths, kinds = [], []
@@ -157,11 +170,11 @@ def main():
                 paths.append(p); kinds.append(("member", L))
         for p in a.negatives: paths.append(p); kinds.append(("negative", None))
         exclude = sorted({r["catalog_number"] for L in PATTERNS for r in tr[L]} - used)   # keep exemplar set identical
-        init = (str(a.richardson), a.seed, [])
+        init = (str(a.richardson), a.seed, excl, PATTERNS)
     else:
         recs = [json.loads(l) for l in (a.scraped / "scraped.jsonl").read_text().splitlines()]
         paths = [a.scraped / "images" / r["file"] for r in recs]; kinds = [("scraped", None)] * len(paths)
-        init = (str(a.richardson), a.seed, [])
+        init = (str(a.richardson), a.seed, excl, PATTERNS)
     with ProcessPoolExecutor(a.jobs, initializer=_init, initargs=init) as ex:
         res = list(ex.map(_work, paths, chunksize=4))
     for r, k in zip(res, kinds): r["kind"], r["true_pattern"] = k

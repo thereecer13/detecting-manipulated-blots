@@ -134,6 +134,7 @@ def main():
     ap.add_argument("--seed", type=int, default=5055)
     ap.add_argument("--ranges", nargs="+", default=[], help="PREFIX=lo-hi[,lo-hi]: only catalog numbers in these numeric ranges, e.g. PA5-=99000-104999,114000-116999")
     ap.add_argument("--all-images", action="store_true", help="save every western blot image of a product, not only the first (template hunting)")
+    ap.add_argument("--catalogs", type=Path, help="file with one catalog number per line: fetch only these, even if flagged (e.g. known template members for detector validation)")
     ap.add_argument("--cache", type=Path, help="page cache directory (default <out>/cache); share it between runs to avoid refetching")
     a = ap.parse_args()
     flagged = {norm_cat(r["catalog_number"]) for r in csv.DictReader(open(a.spreadsheet, encoding="utf-8"))}
@@ -150,7 +151,11 @@ def main():
         print(f"{v}: {len(products[v])} product URLs in sitemaps")
     for prefix, n in targets.items():
         v = PREFIX_VENDOR[prefix]; n = int(n)
-        pool = sorted({(c, u) for c, u in products[v] if c.upper().startswith(prefix) and norm_cat(c) not in flagged})
+        if a.catalogs:
+            want = {norm_cat(l.strip()) for l in open(a.catalogs) if l.strip()}
+            pool = sorted({(c, u) for c, u in products[v] if c.upper().startswith(prefix) and norm_cat(c) in want})
+        else:
+            pool = sorted({(c, u) for c, u in products[v] if c.upper().startswith(prefix) and norm_cat(c) not in flagged})
         if prefix in ranges:
             num = lambda c: int(m.group(0)) if (m := re.match(r"\d+", c[len(prefix):])) else -1
             pool = [(c, u) for c, u in pool if any(lo <= num(c) <= hi for lo, hi in ranges[prefix])]
