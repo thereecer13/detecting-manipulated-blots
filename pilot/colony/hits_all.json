@@ -1,0 +1,314 @@
+[
+ {
+  "pmcid": "PMC10941524",
+  "a": {
+   "file": "pmc_colony/papers/PMC10941524/JCMM-28-e15010-g001.jpg",
+   "xyr": [
+    194,
+    756,
+    25
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC10941524/JCMM-28-e15010-g001.jpg",
+   "xyr": [
+    129,
+    755,
+    21
+   ]
+  },
+  "inliers": 26,
+  "ncc": 0.9891678302178661,
+  "mirrored": false,
+  "rotation": -0.07920861516513321,
+  "scale": 1.1900878760362181
+ },
+ {
+  "pmcid": "PMC11224233",
+  "a": {
+   "file": "pmc_colony/papers/PMC11224233/41419_2024_6865_Fig4_HTML.jpg",
+   "xyr": [
+    625,
+    584,
+    31
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC11224233/41419_2024_6865_Fig4_HTML.jpg",
+   "xyr": [
+    368,
+    584,
+    32
+   ]
+  },
+  "inliers": 13,
+  "ncc": 0.9124447667489365,
+  "mirrored": false,
+  "rotation": 179.57391690217668,
+  "scale": 0.8758689647346546
+ },
+ {
+  "pmcid": "PMC11224233",
+  "a": {
+   "file": "pmc_colony/papers/PMC11224233/41419_2024_6865_Fig4_HTML.jpg",
+   "xyr": [
+    305,
+    585,
+    30
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC11224233/41419_2024_6865_Fig4_HTML.jpg",
+   "xyr": [
+    368,
+    584,
+    32
+   ]
+  },
+  "inliers": 41,
+  "ncc": 0.9629310394410271,
+  "mirrored": false,
+  "rotation": 0.11553820681619636,
+  "scale": 0.9344908202731697
+ },
+ {
+  "pmcid": "PMC11550297",
+  "a": {
+   "file": "pmc_colony/papers/PMC11550297/12672_2024_1496_Fig4_HTML.jpg",
+   "xyr": [
+    82,
+    726,
+    46
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC11550297/12672_2024_1496_Fig4_HTML.jpg",
+   "xyr": [
+    81,
+    818,
+    45
+   ]
+  },
+  "inliers": 329,
+  "ncc": 0.991554733935468,
+  "mirrored": false,
+  "rotation": -0.0043404307008222225,
+  "scale": 1.0222744978122051
+ },
+ {
+  "pmcid": "PMC11550297",
+  "a": {
+   "file": "pmc_colony/papers/PMC11550297/12672_2024_1496_Fig4_HTML.jpg",
+   "xyr": [
+    173,
+    818,
+    46
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC11550297/12672_2024_1496_Fig4_HTML.jpg",
+   "xyr": [
+    173,
+    724,
+    45
+   ]
+  },
+  "inliers": 190,
+  "ncc": 0.9871711728230949,
+  "mirrored": false,
+  "rotation": -0.01384195368893129,
+  "scale": 1.0224416017861295
+ },
+ {
+  "pmcid": "PMC11648741",
+  "a": {
+   "file": "pmc_colony/papers/PMC11648741/research.0553.fig.001.jpg",
+   "xyr": [
+    49,
+    149,
+    25
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC11648741/research.0553.fig.008.jpg",
+   "xyr": [
+    281,
+    67,
+    26
+   ]
+  },
+  "inliers": 77,
+  "ncc": 0.9747977681316146,
+  "mirrored": false,
+  "rotation": -0.07223512823862431,
+  "scale": 1.1122011102408895
+ },
+ {
+  "pmcid": "PMC12442663",
+  "a": {
+   "file": "pmc_colony/papers/PMC12442663/ADVS-12-e04688-g009.jpg",
+   "xyr": [
+    363,
+    514,
+    19
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC12442663/ADVS-12-e04688-g010.jpg",
+   "xyr": [
+    440,
+    488,
+    23
+   ]
+  },
+  "inliers": 21,
+  "ncc": 0.9006465477899949,
+  "mirrored": false,
+  "rotation": -0.14122868374296713,
+  "scale": 0.9349750190346642
+ },
+ {
+  "pmcid": "PMC12813190",
+  "a": {
+   "file": "pmc_colony/papers/PMC12813190/fphar-16-1725886-g002.jpg",
+   "xyr": [
+    440,
+    863,
+    22
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC12813190/fphar-16-1725886-g002.jpg",
+   "xyr": [
+    486,
+    910,
+    22
+   ]
+  },
+  "inliers": 28,
+  "ncc": 0.9300847048052496,
+  "mirrored": false,
+  "rotation": 0.06285007740261087,
+  "scale": 0.994975100539246
+ },
+ {
+  "pmcid": "PMC6246953",
+  "a": {
+   "file": "pmc_colony/papers/PMC6246953/CAM4-7-5554-g001.jpg",
+   "xyr": [
+    266,
+    725,
+    26
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC6246953/CAM4-7-5554-g001.jpg",
+   "xyr": [
+    620,
+    725,
+    26
+   ]
+  },
+  "inliers": 13,
+  "ncc": 0.994934375479274,
+  "mirrored": false,
+  "rotation": -0.15495646772035818,
+  "scale": 1.000782132633992
+ },
+ {
+  "pmcid": "PMC8743659",
+  "a": {
+   "file": "pmc_colony/papers/PMC8743659/JCMM-26-422-g007.jpg",
+   "xyr": [
+    515,
+    862,
+    29
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC8743659/JCMM-26-422-g007.jpg",
+   "xyr": [
+    515,
+    776,
+    28
+   ]
+  },
+  "inliers": 13,
+  "ncc": 0.8751885403184948,
+  "mirrored": true,
+  "rotation": -179.99309637552636,
+  "scale": 1.0353598977699512
+ },
+ {
+  "pmcid": "PMC9972175",
+  "a": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    157,
+    182,
+    25
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    375,
+    181,
+    30
+   ]
+  },
+  "inliers": 32,
+  "ncc": 0.8261427750088874,
+  "mirrored": false,
+  "rotation": -0.40182176417767074,
+  "scale": 0.8343328263060159
+ },
+ {
+  "pmcid": "PMC9972175",
+  "a": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    106,
+    177,
+    26
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    375,
+    181,
+    30
+   ]
+  },
+  "inliers": 45,
+  "ncc": 0.9061431137844932,
+  "mirrored": false,
+  "rotation": -0.15299710787885956,
+  "scale": 0.8666441799857615
+ },
+ {
+  "pmcid": "PMC9972175",
+  "a": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    375,
+    181,
+    30
+   ]
+  },
+  "b": {
+   "file": "pmc_colony/papers/PMC9972175/CAM4-12-5124-g007.jpg",
+   "xyr": [
+    221,
+    180,
+    26
+   ]
+  },
+  "inliers": 68,
+  "ncc": 0.9478919977855125,
+  "mirrored": false,
+  "rotation": 0.1309269952532353,
+  "scale": 1.1527383165177456
+ }
+]
