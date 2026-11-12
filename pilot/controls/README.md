@@ -29,3 +29,19 @@ another sampled product. A pair is found only when both products are in the samp
 catalog-wide count is likely much higher.
 
 Image URLs: `confirmed_pairs.json`.
+
+## Full PA5/MA5 crawl (in progress): any panel shared between products
+
+`pilot/crawl_icc.py` downloads every ICC/IF figure of every PA5- and MA5- product; `pilot/shared_panels.py`
+compares every panel with every panel of other products, each level-stretched so near-black panels can
+match. Bright pairs must also match in fine detail (high-pass NCC >= 0.55; true copies >= 0.70, cells-on-
+black look-alikes <= 0.35). Pairs with a dark panel are matched on smoothed panels and checked by eye.
+
+First batch (3,389 figures, 9,401 panels; the figures of earlier-crawled products):
+- **PA5-115786 (PF4) and PA5-100429 (CCDC53): the whole figure is the same** (all four panels: red, green
+  beta-tubulin, DAPI, merge; HeLa). Both descriptions give red as the product's own antibody. Images
+  uploaded 2021-01-13 (PF4) and 2019-08-08 (CCDC53). Neither is in Richardson's spreadsheets.
+- PA5-88731 and PA5-87186 (both LSM1): same image; same target, plausibly legitimate.
+- The five groups above are found again.
+- 28 product pairs involving a dark panel: all checked by eye, all false (lone nuclei / blobs on black,
+  empty noise panels). No reused near-black control yet.
