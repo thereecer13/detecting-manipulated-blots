@@ -1,0 +1,50 @@
+[
+ {
+  "group": "FZR1 PA5-100535 vs BAF57 PA5-89181",
+  "a": "PA5-100535",
+  "b": "PA5-89181",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5100535-FZR1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA589181-BAF57-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "PKC delta MA5-32482 vs BRD2 MA5-34812",
+  "a": "MA5-32482",
+  "b": "MA5-34812",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-2-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34812-BRD2-ICCIF-1-20221128_141258.jpg"
+ },
+ {
+  "group": "RAN PA5-17652 vs RAG2 PA5-22048 vs Cyclin B2 PA5-29233",
+  "a": "PA5-17652",
+  "b": "PA5-22048",
+  "score": 0.945,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg"
+ },
+ {
+  "group": "RAN PA5-17652 vs RAG2 PA5-22048 vs Cyclin B2 PA5-29233",
+  "a": "PA5-29233",
+  "b": "PA5-22048",
+  "score": 0.915,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529233-CyclinB2-ICC_20181116123226.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg"
+ },
+ {
+  "group": "TXNIP MA5-32771 vs C-EBP beta MA5-32252",
+  "a": "MA5-32771",
+  "b": "MA5-32252",
+  "score": 0.87,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32771-TXNIP-ICCIF-1-20250715_092748.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32252-C-EBPBETA-ICCIF-1-20260429_181631.jpg"
+ },
+ {
+  "group": "Pericentrin PA5-116926 vs Pericentrin PA5-115736 (same target)",
+  "a": "PA5-116926",
+  "b": "PA5-115736",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-116926-PERICENTRIN-ICCIF-2-20240202_060933.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-115736-PERICENTRIN-ICCIF-1-20240415_151956.jpg"
+ }
+]
