@@ -70,3 +70,23 @@ redrawn, but it needs a human look. Frame-sharing negatives in validation reache
 Pattern-A members are cropped differently from one another, so pattern-A shares vary more; ZDHHC7
 matches PA5-102052 over the whole lane outside the band (band moved from ~40 to ~33 kDa).
 Pattern-A recall of the detector is lower (validation 6/30), so pattern-A members are likely undercounted.
+
+## Did Thermo pull the flagged PA5 products?
+
+Method: Richardson's Thermo catalog numbers compared with Thermo's antibody sitemap (249,420 products,
+fetched 2026-11-11), then the product status that each page carries (`pilot/check_discontinued.py`):
+45 flagged products (30 absent from the sitemap, 15 present) and a baseline of 200 random unflagged
+catalog numbers from the same PA5 ranges that are absent from the sitemap
+(`thermo_status_sample.jsonl`, checked 2026-11-12).
+
+- Absent from the sitemap means hidden from search (`searchStatus: false`), not deleted: the product
+  page, its datasheet and its western blot image stay online. 29 of 30 sampled absent flagged
+  products are marked "long-term unavailable", 1 discontinued. All 15 present ones are searchable.
+- Flagged PA5 products in the template ranges: 1,111 of 2,694 hidden (41%; pattern A 889/2,046,
+  pattern B 209/594). Flagged MA5: about 2% hidden.
+- Unflagged PA5 products in the same ranges: an estimated 1,893 of 6,277 hidden (30%; 197 of 200
+  sampled absent numbers are real products, 186 long-term unavailable, 11 discontinued).
+- So flagged products are hidden more often (41% vs 30%), but most of the hiding is not specific to
+  flagged products; it looks like a broad withdrawal of this PA5 line that includes them. None of
+  this says why: products go unavailable for supply reasons too. The hidden products' template
+  images are still served on their product pages.
