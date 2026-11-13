@@ -59,3 +59,21 @@ Second batch (4,339 figures; adds the first ~1,500 crawled MA5 pages):
 - Same target or same protein (likely legitimate): JMJD1B MA5-14792 / MA5-44598, PTP1B MA5-25574 /
   MA5-25642, 14-3-3 eta MA5-24792 / MA5-47416, CD107b MA5-31970 = LAMP2 MA5-35052.
 - 23 new pairs involving a dark panel: all false by eye.
+
+Third batch (5,515 figures; crawl at ~4,450 MA5 pages):
+- **IGF1R / Lyn group grows to three cell lines**: the same "No Primary antibody" panel is labelled MCF7
+  (PA5-79444, IGF1R), A431 (MA5-14924, Lyn) and PC3 (MA5-15329, Lyn). All stamped 2021-03-23 11:04:06.
+- **MA5-29441 (IkB alpha, HeLa, uploaded 2020-08-24) and MA5-24791 (EWSR1, MCF7, uploaded 2020-03-04):
+  same no-primary panel**, different cell lines, six months apart; the control's elongated cells do not
+  look like the clustered MCF7 cells in the EWSR1 panels.
+- FZR1 / BAF57 group adds MA5-27318 (RRM2); all A-431, 2021-03-23 batch.
+- MA5-24861 (ACLY) and MA5-15692 (ALDH1A1): same no-primary panel, both A549.
+- 2022-08-18 batch, HeLa: PRMT5 (PA5-90290), LDHB (MA5-41126) and HNRNPC (MA5-32270) share one
+  no-primary panel; VASP (MA5-38250) and LDLR (MA5-38556) share another. Possibly shared experiments.
+- MA5-38184 (TRBP) and MA5-32246 (MyD88): same no-primary panel, HeLa, 2023-02-13 batch.
+- Same target (likely legitimate): Pan-cadherin, HSPB8, GSTP, PP1A, Rb, CD30, TLE1, SMC1, ACLY, cardiac
+  troponin T product pairs.
+- Dark pairs: 109, of which 105 involve 15 "hub" panels (lone cells, blobs, empty noise) that loosely
+  match many dark panels; the other 4 were false by eye. `shared_panels.py` now tags hub pairs.
+- Blots of the same pages: template scan 70 hit products, 69 already in Richardson's lists, the other
+  (MA5-32110, a six-lane ABCG1 blot) matched only a strip of the GAPDH panel edge: false. Pattern A: 0.

@@ -54,6 +54,7 @@ CAND = 0.6          # fingerprint cosine needed to verify a pair
 VERIFY = 0.8        # NCC of the panels; pairs >= 0.85 are reported as matches, 0.8-0.85 as "review"
 WV = 160            # width of stretched panels kept for verification
 DETAIL = 0.55       # fine-detail NCC needed when both panels are bright
+HUB_DEG = 4         # a dark panel matching this many others is a generic look-alike hub
 
 
 # Synthetic test (pilot/controls/README.md): 106/148 darkened copies (peak gray ~6-25) found at >= 0.8,
@@ -155,8 +156,16 @@ def run(recs, roots, out, jobs):
                       "tier": "dark: check by eye" if det is None else ("match" if v >= 0.85 else "review"),
                       "a": {k: a[k] for k in ("catalog", "file", "url", "k", "box")} | {"target": tgt[a["file"]], "white": round(a["white"])},
                       "b": {k: b[k] for k in ("catalog", "file", "url", "k", "box")} | {"target": tgt[b["file"]], "white": round(b["white"])}})
+    # dark "hub" panels (lone cells, blobs, empty noise) loosely match many other dark panels; tag their
+    # pairs instead of listing each one (the hub panels themselves are listed so a dark control reused
+    # on many products is still seen)
+    from collections import Counter
+    deg = Counter((p[s]["file"], p[s]["k"]) for p in pairs if p["dark"] for s in ("a", "b"))
+    hubs = {k for k, v in deg.items() if v >= HUB_DEG}
+    for p in pairs:
+        if p["dark"] and ((p["a"]["file"], p["a"]["k"]) in hubs or (p["b"]["file"], p["b"]["k"]) in hubs): p["tier"] = "dark: generic hub"
     pairs.sort(key=lambda p: -p["score"])
-    out.write_text(json.dumps({"pairs": pairs, "same_file": same_file}, indent=1))
+    out.write_text(json.dumps({"pairs": pairs, "same_file": same_file, "dark_hubs": [{"file": f, "k": k, "matches": deg[(f, k)]} for f, k in hubs]}, indent=1))
     print(f"{len(pairs)} verified cross-product panel pairs ({sum(p['dark'] for p in pairs)} involve a dark panel); "
           f"{len(same_file)} image files listed on several products", flush=True)
     for p in pairs[:40]:
