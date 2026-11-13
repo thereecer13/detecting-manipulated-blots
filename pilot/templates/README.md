@@ -116,3 +116,22 @@ lane interiors line up to within a few pixels. The new detector compares the gra
 Look-alikes rejected: boxes spanning several lanes or white gaps, and lanes with strong structure
 inside the box (grain outside 1-8 gray levels). Limits: needs a boxed single lane; pattern-A figures in
 other layouts (multi-lane) are not covered.
+
+## New member from the full Thermo crawl: MR1 MA5-48493 (uploaded 2025-12-01)
+
+The crawl of all MA5- product pages (`pilot/crawl_icc.py`, blots in scrape_vendors format) is scanned
+batch by batch with `template_scan2.py` and `pattern_a.py`; hits on products already in Richardson's
+lists are skipped. Through ~10,000 MA5 pages, one product outside the lists:
+
+| Figure | Matches (Richardson member, Thermo image) | Lane-grain correlation at best shift | Best shift (dy, dx) |
+|---|---|---|---|
+| MA5-48493-MR1-WB-1_20251201094822 (recombinant protein) | MA5-38523 FLT3 (pattern C), WB-1-20210308 | 0.59 | (0, -1) |
+| same | MA5-38647, one of its three images | 0.51 | (0, 1) |
+| MA5-48493-MR1-WB-2_20251201094911 (HEK293 lysate) | MA5-38647, another of its images | 0.58 | (0, 0) |
+
+Correlation is of the lane-interior residual (blur sigma 6 removed, band masked, row/column means removed,
+lanes resized to 90 x 600), maximised over +-12 px shifts. Off-peak median ~0; the same MR1 lane against 12
+random blots of the batch: <= 0.08. Both MR1 figures post-date Richardson's August 2025 list. The match
+overlay (`match_overlay.py`) agrees for WB-1 vs FLT3 (78% of the shared background).
+Other unlisted hits so far were false: a lane-edge strip (MA5-32110, MA5-44552), or no match on overlay
+(MA5-24785, MA5-51464, MA5-11869, MA5-36069).

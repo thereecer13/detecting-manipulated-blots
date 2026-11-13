@@ -119,3 +119,11 @@ Sixth batch (7,305 figures; crawl at ~9,000 MA5 pages):
 - Same target (likely legitimate): SHIP1, ALKBH, GCN2 product pairs.
 - Dark pairs: 23 new, 22 tagged hubs, the other false by eye.
 - Blots (1,328 new): template scan 45 hit products, all already in Richardson's lists. Pattern A: 0 hits.
+
+Seventh batch (7,695 figures; crawl at ~10,000 MA5 pages):
+- RAN / RAG2 / Cyclin B2 group (from the sample) adds Ku80 MA5-16375; all HeLa.
+- EIF2S1 MA5-52465 and XIAP MA5-52464: same no-primary panel, HeLa, same 2024-07-02 batch (lower concern).
+- Dark pairs: 21 new; 13 tagged hubs; the other 8 false by eye (5 involve MA5-14327, a new hub-like panel).
+- **Blots: MR1 MA5-48493 (uploaded 2025-12-01, not in Richardson's lists) shares lane background with
+  template members FLT3 MA5-38523 and MA5-38647** - see pilot/templates/README.md. MA5-44552 (lane-edge
+  strip) and MA5-11869 (9% overlay) false. Pattern A: 0 hits.

@@ -158,5 +158,21 @@
   "score": 0.8,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-41103-SMAD2-ICCIF-1-20241029_101909.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35269-SMAD3-ICCIF-1-20241029_101909.jpg"
+ },
+ {
+  "group": "EIF2S1 / XIAP (HeLa, same batch): same no-primary panel",
+  "a": "MA5-52465",
+  "b": "MA5-52464",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-52465-0-ICCIF-1-20240702_074957.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-52464-0-ICCIF-1-20240702_074957.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 (HeLa): same no-primary panel",
+  "a": "PA5-17652",
+  "b": "MA5-16375",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg"
  }
 ]
