@@ -184,3 +184,24 @@ Eleventh batch (10,207 figures; crawl at ~16,500 MA5/PA5 pages):
 - Dark pairs: 8 new; 5 tagged hubs; the other 3 false by eye.
 - Blots (1,411 new): template scan 26 hit products, 25 already in Richardson's lists. The unlisted hit
   MA5-26905 (pattern C) is false: a single K562 band at ~22 kDa, unlike MA5-17126. Pattern A: 0 hits.
+
+Twelfth batch (10,784 figures; crawl at ~18,000 MA5/PA5 pages):
+- **HSPA2 MA5-35691 and FGF1 MA5-35690 carry the same whole stained figure** (orange stain, and the same
+  field merged with DAPI), both stamped 2023-10-10 09:20:56. The captions name different cells: HSPA2 says
+  C6 (rat glioma), FGF1 says U-2 OS (human osteosarcoma).
+- **Active/pro-caspase 3 MA5-54044 and AKT1 MA5-54172 carry the same whole stained figure** (DAPI,
+  magenta, merge), both "C2C12", both stamped 2025-12-09 22:07:27. Two different targets, one image.
+- **DNM1L MA5-26249 (SH-SY5Y) and PKM1 MA5-14815 (MDA-MB-231) share a no-primary panel.** The panel's
+  sparse, rounded cells look like the PKM1 figure's cells, not the densely packed cells in the DNM1L
+  panels a-d.
+- New shared no-primary panels, HeLa: GSK3B PA5-104555 (2021-03-23) / GORASP1 MA5-25160 (2021-05-27);
+  GBA MA5-35236 (2025-07-15) / ALPL MA5-42414 (2026-04-29, nine months later).
+- ISG15 MA5-29371 (A549 + IFN alpha) / NQO1 MA5-15044 (A549): same no-primary panel.
+- Groups grow: RAN / RAG2 / Cyclin B2 / Ku80 adds a second Ku80 product (MA5-14953); Prohibitin / SDHA adds
+  Profilin 1 MA5-25120 (HeLa).
+- Same batch, lower concern: IGF1R / Lyn (2021-03-23), MUC1 / VASP (2022-08-18), PROX1 / ISL1 (2024-05-21).
+- Same target (likely legitimate): angiotensinogen, S100A9, PGP9.5, Lyn, ACTA1, TXN, PSMB9, p16INK4a.
+- Dark pairs: 10 new; 9 tagged hubs; the other 1 false by eye.
+- Blots (1,407 new): template scan 34 hit products, 33 already in Richardson's lists; the unlisted
+  MA5-26551 (pattern C) is false by eye: a thin band at ~40 kDa with a different marker ladder from
+  MA5-17126. Pattern A: 0 hits.

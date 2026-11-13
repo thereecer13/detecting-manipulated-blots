@@ -278,5 +278,69 @@
   "score": 0.983,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC3-20210323110406.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "HSPA2 (C6) / FGF1 (U-2 OS): same whole stained figure",
+  "a": "MA5-35691",
+  "b": "MA5-35690",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35691-HSPA2-ICCIF-1-20231010_092056.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35690-FGF1-ICCIF-3-20231010_092056.jpg"
+ },
+ {
+  "group": "Active/pro-caspase 3 / AKT1 (C2C12): same whole stained figure",
+  "a": "MA5-54044",
+  "b": "MA5-54172",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-54044-ACTIVE-PRO-CASPASE3-ICCIF-1-20251209_220727.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-54172-AKT1-ICCIF-1-20251209_220727.jpg"
+ },
+ {
+  "group": "DNM1L (SH-SY5Y) / PKM1 (MDA-MB-231): same no-primary panel",
+  "a": "MA5-26249",
+  "b": "MA5-14815",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526249-DNM1L-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514815-PKM1-ICC.jpg"
+ },
+ {
+  "group": "GSK3B / GORASP1 (HeLa, two months apart): same no-primary panel",
+  "a": "PA5-104555",
+  "b": "MA5-25160",
+  "score": 0.978,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5104555-GSK3B-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525160-GORASP1-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "GBA / ALPL (HeLa, nine months apart): same no-primary panel",
+  "a": "MA5-35236",
+  "b": "MA5-42414",
+  "score": 0.962,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35236-GBA-ICCIF-1-20250715_092748.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-42414-ALPL-ICCIF-1-20260429_181631.jpg"
+ },
+ {
+  "group": "ISG15 / NQO1 (A549): same no-primary panel",
+  "a": "MA5-29371",
+  "b": "MA5-15044",
+  "score": 0.902,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529371-ISG15-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA515044-NQO1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 (HeLa): adds second Ku80 product",
+  "a": "PA5-17652",
+  "b": "MA5-14953",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514953-Ku80-ICC.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): same no-primary panel",
+  "a": "MA5-32598",
+  "b": "MA5-25120",
+  "score": 0.929,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg"
  }
 ]
