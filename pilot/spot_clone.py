@@ -8,7 +8,8 @@
 2. Verification at each candidate offset, around its cell: local NCC of the image with itself shifted
    (> 0.9), of the fine-noise residuals (> 0.7), texture, and a peak test: the match must be better at
    this offset than 3 px away in all 8 directions (edges and smooth structures match along themselves).
-   Area = largest connected region that passes.
+   Every connected region that passes is kept (an image can have several duplications), with its exact
+   outline; repeats of the same region from neighbouring candidates are dropped.
 
 Synthetic test (soft-brush clone-stamp spots of 14-34 px, offsets <= 120 px, JPEG q85, Proteintech IHC
 images; scratchpad sc_synth): with the true offset given, 95/109 spots pass verification and 0 of
@@ -37,6 +38,7 @@ MIN_STD = 5.0
 MIN_VOTES, CELL = 4, 24
 PEAK = 0.08
 AREA_MIN = 60
+COMP_MIN = 30          # smallest region kept (every region at every offset is kept, then deduplicated)
 
 
 def _patches(g):
@@ -90,12 +92,33 @@ def verify(g, cand):
             alt = np.maximum(alt, _local_ncc(A, g[y0 + dy + ey:y1 + dy + ey, x0 + dx + ex:x1 + dx + ex], win=7)[0])
         reg = (nc > 0.9) & (nr > 0.7) & (sd > MIN_STD) & (nc - alt > PEAK)
         reg = cv2.morphologyEx(reg.astype(np.uint8), cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
-        n, _, st, _ = cv2.connectedComponentsWithStats(reg)
-        if n < 2: continue
-        k = 1 + int(np.argmax(st[1:, cv2.CC_STAT_AREA]))
-        res.append({"area": int(st[k, cv2.CC_STAT_AREA]), "votes": v, "shift": [dx, dy],
-                    "bbox": [int(x0 + st[k, 0]), int(y0 + st[k, 1]), int(st[k, 2]), int(st[k, 3])]})
-    res.sort(key=lambda r: -r["area"]); return res
+        n, lab, st, _ = cv2.connectedComponentsWithStats(reg)
+        for k in range(1, n):                       # every matching region at this offset, not only the largest
+            if st[k, cv2.CC_STAT_AREA] < COMP_MIN: continue
+            m = (lab == k).astype(np.uint8)
+            cnt, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            poly = [[int(x0 + q[0][0]), int(y0 + q[0][1])] for q in max(cnt, key=cv2.contourArea)]
+            res.append({"area": int(st[k, cv2.CC_STAT_AREA]), "votes": v, "shift": [dx, dy],
+                        "bbox": [int(x0 + st[k, 0]), int(y0 + st[k, 1]), int(st[k, 2]), int(st[k, 3])], "outline": poly})
+    res.sort(key=lambda r: -r["area"])
+    return dedupe(res, h, w)
+
+
+def _mask(poly, h, w, dx=0, dy=0):
+    m = np.zeros((h, w), np.uint8)
+    cv2.fillPoly(m, [np.int32([[x + dx, y + dy] for x, y in poly])], 1)
+    return m > 0
+
+
+def dedupe(res, h, w):
+    """Drop regions already covered by a larger kept one (the same copy found again from a neighbouring
+    candidate cell or offset, or in the reverse direction)."""
+    keep, masks = [], []
+    for r in res:
+        a = _mask(r["outline"], h, w); b = _mask(r["outline"], h, w, *r["shift"])
+        if any((a & (ka | kb)).sum() > 0.3 * a.sum() or (b & (ka | kb)).sum() > 0.3 * b.sum() for ka, kb in masks): continue
+        keep.append(r); masks.append((a, b))
+    return keep
 
 
 def detect(rgb):
@@ -103,19 +126,40 @@ def detect(rgb):
     return verify(g, candidates(g, mask_watermark(*g.shape) > 0))
 
 
-def overlay(rgb, found, path):
-    im = fit(rgb).copy()
-    for d, c in zip(found[:3], ((255, 140, 0), (0, 160, 255), (220, 0, 220))):
-        x, y, bw, bh = d["bbox"]; dx, dy = d["shift"]
-        for ox, oy in ((0, 0), (dx, dy)): cv2.rectangle(im, (x + ox - 4, y + oy - 4), (x + ox + bw + 4, y + oy + bh + 4), c, 2)
+COLS = ((255, 120, 0), (0, 150, 255), (230, 0, 200), (0, 200, 90), (255, 220, 0), (140, 70, 255))
+
+
+def overlay(rgb, found, path, min_area=None):
+    """Exact outline of every duplicated region: each pair in its own colour, the region and its copy
+    (at the detected offset) both outlined and numbered."""
+    im = fit(rgb).copy(); min_area = AREA_MIN if min_area is None else min_area
+    pairs = [d for d in found if d["area"] >= min_area]
+    # fragments of one copied patch share its offset: same number and colour
+    groups = []
+    for d in found:
+        if d["area"] < COMP_MIN: continue
+        g = next((g for g in groups if abs(g[0]["shift"][0] - d["shift"][0]) <= 2 and abs(g[0]["shift"][1] - d["shift"][1]) <= 2), None)
+        if g is not None: g.append(d)
+        elif d["area"] >= min_area: groups.append([d])
+    for i, grp in enumerate(groups):
+      for d in grp:
+        c = COLS[i % len(COLS)]; dx, dy = d["shift"]
+        for ox, oy in ((0, 0), (dx, dy)):
+            pts = np.int32([[x + ox, y + oy] for x, y in d["outline"]])
+            cv2.polylines(im, [pts], True, (255, 255, 255), 4, cv2.LINE_AA)
+            cv2.polylines(im, [pts], True, c, 2, cv2.LINE_AA)
+            x, y = pts[:, 0].min(), pts[:, 1].min()
+            cv2.putText(im, str(i + 1), (int(x) - 2, int(y) - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 3, cv2.LINE_AA)
+            cv2.putText(im, str(i + 1), (int(x) - 2, int(y) - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.6, c, 2, cv2.LINE_AA)
     Image.fromarray(im).save(path)
+    return groups
 
 
 def _scan(path):
     try: rgb = np.asarray(Image.open(path).convert("RGB"))
     except Exception as e: return {"error": str(e)[:80]}
     f = detect(rgb)
-    return {"area": f[0]["area"] if f else 0, "found": f[:5]}
+    return {"area": f[0]["area"] if f else 0, "n_regions": sum(d["area"] >= AREA_MIN for d in f), "found": f}
 
 
 def synth(src_dir, out_dir, n, seed=7):
