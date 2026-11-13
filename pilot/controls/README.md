@@ -151,3 +151,17 @@ Ninth batch (9,002 figures; crawl at ~13,450 MA5/PA5 pages):
   dioxygenase, MTDH, VPS35, RAB21, progesterone receptor, Rab9a, HMPV, desmin, ZFP36, GAPDH product pairs.
 - Dark pairs: 10 new; 8 tagged hubs; the other 2 (MA5-41175 vs ERG MA5-26261) false by eye.
 - Blots (1,414 new): template scan 32 hit products, all already in Richardson's lists. Pattern A: 0 hits.
+
+Tenth batch (9,601 figures; crawl at ~14,900 MA5/PA5 pages):
+- **HeLa group grows to ten products: SP1 MA5-35331 (figure 4, stamped 2022-08-18, the same day as the
+  PRMT5 / LDHB / HNRNPC / CLTC uploads).**
+- Neutrophil elastase / STING (THP-1) adds a second STING product, MA5-26032 (stamped 2020-03-04).
+- Same experiment, likely legitimate: Bax / vimentin double stain (MA5-51189, MA5-35320); ApoC3 /
+  cytokeratin 2e double-stained IHC (MA5-42767, MA5-42788, same timestamp); VPS35 / Vps26a (retromer
+  partners, MA5-42386 / MA5-34647 / MA5-34664, same timestamp).
+- Same target (likely legitimate): PDGFRB, PTP1B, KRAS, AP-1, MUC1, CK1 alpha, STING, COX2, RHEB,
+  CALCOCO2, PSMB9, PECAM-1, KPNA2, SATB1, cytokeratin 5, KLF2 product pairs.
+- Dark pairs: 7 new; 4 tagged hubs; the other 3 false by eye.
+- Blots (1,335 new): template scan 40 hit products, 38 already in Richardson's lists. The two unlisted
+  hits are false: MA5-24236 (pattern C) has no lane-grain match to FLT3 MA5-38523 (peak 0.033, at the
+  noise level), and MA5-15313 has a different band and background from MA5-17126. Pattern A: 0 hits.

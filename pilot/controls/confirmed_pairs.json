@@ -230,5 +230,21 @@
   "score": 0.947,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA553932-SMARCB1-ICC-20200304132147.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA526261-ERG-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "HeLa no-primary panel (ten products; adds SP1)",
+  "a": "MA5-41253",
+  "b": "MA5-35331",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-41253-CRM1-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35331-SP1-ICCIF-4-20220818_115929.jpg"
+ },
+ {
+  "group": "Neutrophil elastase / STING (THP-1): same no-primary panel (second STING product)",
+  "a": "MA5-32548",
+  "b": "MA5-26032",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532548-ELANE-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526032-TMEM173-ICC-20200304132147.jpg"
  }
 ]
