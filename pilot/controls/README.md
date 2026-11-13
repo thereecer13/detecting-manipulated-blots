@@ -142,3 +142,12 @@ Eighth batch (8,432 figures; crawl at ~11,800 MA5 pages):
   MBD, HNRNPH1, LPL, TP53, PKM2, TOMM20, phospho-H2A product pairs.
 - Dark pairs: 25 new; 15 tagged hubs; the other 10 false by eye.
 - Blots (1,596 new): template scan 42 hit products, all already in Richardson's lists. Pattern A: 0 hits.
+
+Ninth batch (9,002 figures; crawl at ~13,450 MA5/PA5 pages):
+- **SMARCB1 PA5-53932 (stamped 2020-03-04) and ERG MA5-26261 (stamped 2019-12-09): same no-primary
+  panel**, both HeLa. The two captions give different protocols (permeabilization 15 vs 10 minutes,
+  blocking 1 hour vs 10 minutes), yet the control panel is identical.
+- Same target (likely legitimate): HMGB1, EpCAM, Histone H3, DPYSL2, TSPO, alpha-ketoglutarate-dependent
+  dioxygenase, MTDH, VPS35, RAB21, progesterone receptor, Rab9a, HMPV, desmin, ZFP36, GAPDH product pairs.
+- Dark pairs: 10 new; 8 tagged hubs; the other 2 (MA5-41175 vs ERG MA5-26261) false by eye.
+- Blots (1,414 new): template scan 32 hit products, all already in Richardson's lists. Pattern A: 0 hits.

@@ -222,5 +222,13 @@
   "score": 0.902,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC1_20220603144555.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-33215-BAK-ICCIF-1-20260106_160400.jpg"
+ },
+ {
+  "group": "SMARCB1 / ERG (HeLa, 2019 vs 2020): same no-primary panel",
+  "a": "PA5-53932",
+  "b": "MA5-26261",
+  "score": 0.947,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA553932-SMARCB1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526261-ERG-ICC-20191209134648.jpg"
  }
 ]
