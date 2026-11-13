@@ -126,5 +126,37 @@
   "score": 0.976,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35112-ADAR1-ICCIF-1-20221128_141258.jpg"
+ },
+ {
+  "group": "HeLa no-primary panel on seven products (adds SMARCC1)",
+  "a": "PA5-90290",
+  "b": "MA5-34657",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34657-SMARCC1-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "Prohibitin PA5-17325 / SDHA MA5-32598 (HeLa): same no-primary panel",
+  "a": "PA5-17325",
+  "b": "MA5-32598",
+  "score": 0.961,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517325-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "IkB alpha (HeLa) / EWSR1 (MCF7): same no-primary panel (adds MA5-15153)",
+  "a": "MA5-24791",
+  "b": "MA5-15153",
+  "score": 0.903,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524791-EWSR1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA515153-IkBalpha-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "SMAD2 / Smad3 (A549, same batch): same no-primary panel",
+  "a": "MA5-41103",
+  "b": "MA5-35269",
+  "score": 0.8,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-41103-SMAD2-ICCIF-1-20241029_101909.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35269-SMAD3-ICCIF-1-20241029_101909.jpg"
  }
 ]

@@ -107,3 +107,15 @@ Fifth batch (6,740 figures; crawl at ~7,600 MA5 pages):
 - Blots (1,379 new): template scan 37 hit products, 35 already in Richardson's lists; MA5-51464 fails the
   overlay check (0% match share); MA5-36069 (a blue single-lane blot) does not resemble its exemplar by eye.
   Pattern A: 0 hits (highest window share 0.14).
+
+Sixth batch (7,305 figures; crawl at ~9,000 MA5 pages):
+- **HeLa no-primary panel now on seven products**: SMARCC1 (MA5-34657, stamped 2022-10-10) joins
+  PRMT5 / LDHB / HNRNPC / CLTC (2022-08-18) and XPO1 / ADAR1 (2022-11-28).
+- **Prohibitin PA5-17325 (2020-08-24) and SDHA MA5-32598 (2020-07-13): same no-primary panel**, HeLa.
+- IkB alpha / EWSR1 group adds a second IkB alpha product (MA5-15153, HeLa, same 2020-08-24 stamp as
+  MA5-29441); the EWSR1 caption still says MCF7.
+- SMAD2 MA5-41103 and Smad3 MA5-35269: same no-primary panel, A549, same 2024-10-29 batch, but different
+  DAPI panels (one experiment's control on two related products; lower concern).
+- Same target (likely legitimate): SHIP1, ALKBH, GCN2 product pairs.
+- Dark pairs: 23 new, 22 tagged hubs, the other false by eye.
+- Blots (1,328 new): template scan 45 hit products, all already in Richardson's lists. Pattern A: 0 hits.
