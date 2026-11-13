@@ -246,5 +246,37 @@
   "score": 0.995,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532548-ELANE-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA526032-TMEM173-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "Thrombospondin 2 / glucocorticoid receptor: same whole stained figure, captions disagree (293T vs HeLa)",
+  "a": "MA5-46937",
+  "b": "MA5-46938",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-46937-THROMBOSPONDIN2-ICCIF-1-20230508_130652.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-46938-GLUCOCORTICOIDRECEPTOR-NR3C1-ICCIF-1-20230508_130652.jpg"
+ },
+ {
+  "group": "HEK 293 no-primary panel: PKC delta / GLUT1 / ATP1A1",
+  "a": "MA5-32482",
+  "b": "MA5-36259",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-3-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36259-ATP1A1-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "PTGES2 / USP14: same no-primary panel",
+  "a": "MA5-26128",
+  "b": "MA5-24727",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-26128-PTGES2-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-24727-USP14-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (same batch 2021-03-23): same no-primary panel",
+  "a": "MA5-27318",
+  "b": "MA5-32936",
+  "score": 0.983,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC3-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC1-20210323110406.jpg"
  }
 ]

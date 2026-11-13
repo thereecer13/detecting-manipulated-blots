@@ -165,3 +165,22 @@ Tenth batch (9,601 figures; crawl at ~14,900 MA5/PA5 pages):
 - Blots (1,335 new): template scan 40 hit products, 38 already in Richardson's lists. The two unlisted
   hits are false: MA5-24236 (pattern C) has no lane-grain match to FLT3 MA5-38523 (peak 0.033, at the
   noise level), and MA5-15313 has a different band and background from MA5-17126. Pattern A: 0 hits.
+
+Eleventh batch (10,207 figures; crawl at ~16,500 MA5/PA5 pages):
+- **Thrombospondin 2 MA5-46937 and glucocorticoid receptor MA5-46938 carry the same whole figure** (green
+  channel plus a red cytoskeleton merge, 10 um scale bar), both stamped 2023-05-08 13:06:52. The captions
+  disagree: GR says HeLa cells; TSP2 says "mock and transfected 293T cells", but the figure has no
+  mock / transfected comparison and the caption does not mention the red channel. The staining is nuclear
+  and cytoplasmic, which fits GR better than a secreted protein. This could be an upload mix-up rather
+  than reuse; it is a stained panel, not a control.
+- **HEK 293 group grows: ATP1A1 MA5-36259 (stamped 2022-08-18)** shares the no-primary panel with PKC delta
+  MA5-32482 (figure 3) and GLUT1 MA5-37843.
+- **USP14 MA5-24727 (stamped 2023-02-13) shares the no-primary panel of PTGES2 MA5-26128 (2023-01-12).**
+- RRM2 MA5-27318, PPP1CB MA5-32936, FZR1 PA5-100535 and BAF57 PA5-89181: same no-primary panel, all
+  stamped 2021-03-23 11:04:06 (same batch, lower concern).
+- Muromonab MA5-47769 / CD2 MA5-47805: same isotype-control panel, same timestamp (lower concern).
+- Same or related target (likely legitimate): PDI / P4HB (the same protein), PDPK1 / phospho-PDPK1,
+  VPS35 / Vps26a, pericentrin, BCL-10, MUC1, CUGBP1, F4/80, TSPO, SOX17, MMP-9, PGP9.5, desmin, CDCP1, Ntrk1.
+- Dark pairs: 8 new; 5 tagged hubs; the other 3 false by eye.
+- Blots (1,411 new): template scan 26 hit products, 25 already in Richardson's lists. The unlisted hit
+  MA5-26905 (pattern C) is false: a single K562 band at ~22 kDa, unlike MA5-17126. Pattern A: 0 hits.
