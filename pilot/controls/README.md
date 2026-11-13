@@ -77,3 +77,17 @@ Third batch (5,515 figures; crawl at ~4,450 MA5 pages):
   match many dark panels; the other 4 were false by eye. `shared_panels.py` now tags hub pairs.
 - Blots of the same pages: template scan 70 hit products, 69 already in Richardson's lists, the other
   (MA5-32110, a six-lane ABCG1 blot) matched only a strip of the GAPDH panel edge: false. Pattern A: 0.
+
+Fourth batch (6,083 figures; crawl at ~6,000 MA5 pages):
+- **MA5-54064 (alpha-smooth muscle actin, human HT-1080 cells) and MA5-54052 (Arp2, mouse C2C12 cells):
+  pixel-identical figures** (DAPI / antibody / merge strip; different files, same 2024-06-25 14:41:28
+  stamp). This is the stained panel itself, not a control, captioned as two antibodies in two species.
+- **MA5-32397 (CDK9, A-431) and MA5-25137 (KHK, U-87 MG): same no-primary panel**, different cell
+  lines, both stamped 2021-03-23 11:04:06 (the FZR1 / BAF57 / IGF1R batch).
+- ACLY / ALDH1A1 group adds MA5-29049 (Bcl-xL); all three captions say A549.
+- 2022-08-18 HeLa group adds MA5-32690 (clathrin heavy chain): four products, one no-primary panel.
+- Same target (likely legitimate): SQSTM1, cytokeratin 5, IGF2BP3, TEAD1 product pairs.
+- Dark pairs: 9 new, 7 tagged hubs, 2 false by eye.
+- Blots of the same pages (1,365 new): template scan 27 hit products, 26 already in Richardson's lists;
+  the other (MA5-24785, RBP4, weak pattern-C score) fails the overlay check (7% match share): false.
+  Pattern A: 0 hits (highest window share 0.09).

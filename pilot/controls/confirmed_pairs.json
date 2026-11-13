@@ -46,5 +46,37 @@
   "score": 0.974,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-116926-PERICENTRIN-ICCIF-2-20240202_060933.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-115736-PERICENTRIN-ICCIF-1-20240415_151956.jpg"
+ },
+ {
+  "group": "aSMA MA5-54064 (HT-1080) vs Arp2 MA5-54052 (C2C12): identical figure",
+  "a": "MA5-54064",
+  "b": "MA5-54052",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-54064-ALPHA-SMOOTHMUSCLEACTIN-ICCIF-1-20240625_144128.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-54052-ARP2-ICCIF-1-20240625_144128.jpg"
+ },
+ {
+  "group": "CDK9 MA5-32397 (A-431) vs KHK MA5-25137 (U-87 MG): same no-primary panel",
+  "a": "MA5-32397",
+  "b": "MA5-25137",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532397-CDK9-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525137-KHK-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "ACLY / ALDH1A1 / Bcl-xL (A549): same no-primary panel",
+  "a": "MA5-24861",
+  "b": "MA5-29049",
+  "score": 0.991,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524861-ACLY-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA529049-BCLxL-ICC.jpg"
+ },
+ {
+  "group": "PRMT5 / LDHB / HNRNPC / CLTC (HeLa, 2022-08-18): same no-primary panel",
+  "a": "PA5-90290",
+  "b": "MA5-32690",
+  "score": 0.961,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32690-CLATHRINHEAVYCHAIN-ICCIF-1-20220818_115929.jpg"
  }
 ]
