@@ -132,6 +132,7 @@ lists are skipped. Through ~10,000 MA5 pages, one product outside the lists:
 Correlation is of the lane-interior residual (blur sigma 6 removed, band masked, row/column means removed,
 lanes resized to 90 x 600), maximised over +-12 px shifts. Off-peak median ~0; the same MR1 lane against 12
 random blots of the batch: <= 0.08. Both MR1 figures post-date Richardson's August 2025 list. The match
-overlay (`match_overlay.py`) agrees for WB-1 vs FLT3 (78% of the shared background).
+overlay (`match_overlay.py`) agrees for WB-1 vs FLT3 (78% of the shared background) but not for WB-2 vs
+MA5-38647 (4%, weak alignment 0.25); the WB-2 link rests on the lane-grain test alone, so WB-1 is the firmer case.
 Other unlisted hits so far were false: a lane-edge strip (MA5-32110, MA5-44552), or no match on overlay
 (MA5-24785, MA5-51464, MA5-11869, MA5-36069).
