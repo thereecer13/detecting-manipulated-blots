@@ -78,5 +78,53 @@
   "score": 0.961,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32690-CLATHRINHEAVYCHAIN-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "RAD54L2 PA5-99087 / Survivin MA5-15077 (HeLa, 20 months apart): same no-primary panel",
+  "a": "PA5-99087",
+  "b": "MA5-15077",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-99087-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "PRMT5 / LDHB / HNRNPC / CLTC / XPO1 / ADAR1 (HeLa): same no-primary panel",
+  "a": "PA5-90290",
+  "b": "MA5-41253",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-41253-CRM1-ICCIF-1-20221128_141258.jpg"
+ },
+ {
+  "group": "galiximab / CD40 (Daudi, same batch): same isotype control",
+  "a": "MA5-48060",
+  "b": "MA5-48065",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-48060-GALIXIMAB-ICCIF-1-20230905_154513.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-48065-CD40-ICCIF-1-20230905_154513.jpg"
+ },
+ {
+  "group": "PKC delta / BRD2 / cIAP1 / PTGES2 (BeWo): same no-primary panel",
+  "a": "MA5-32482",
+  "b": "MA5-26128",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-2-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-26128-PTGES2-ICCIF-2-20230112_020528.jpg"
+ },
+ {
+  "group": "PKC delta / BRD2 / cIAP1 / PTGES2 (BeWo): same no-primary panel",
+  "a": "MA5-32482",
+  "b": "MA5-35343",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-2-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35343-CIAP1-ICCIF-1-20221128_141258.jpg"
+ },
+ {
+  "group": "PRMT5 / LDHB / HNRNPC / CLTC / XPO1 / ADAR1 (HeLa): same no-primary panel",
+  "a": "PA5-90290",
+  "b": "MA5-35112",
+  "score": 0.976,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35112-ADAR1-ICCIF-1-20221128_141258.jpg"
  }
 ]

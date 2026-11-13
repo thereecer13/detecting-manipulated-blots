@@ -91,3 +91,19 @@ Fourth batch (6,083 figures; crawl at ~6,000 MA5 pages):
 - Blots of the same pages (1,365 new): template scan 27 hit products, 26 already in Richardson's lists;
   the other (MA5-24785, RBP4, weak pattern-C score) fails the overlay check (7% match share): false.
   Pattern A: 0 hits (highest window share 0.09).
+
+Fifth batch (6,740 figures; crawl at ~7,600 MA5 pages):
+- **BeWo no-primary panel on four products across four months**: PKC delta (MA5-32482, stamped
+  2023-03-16), BRD2 (MA5-34812, 2022-11-28), cIAP1 (MA5-35343, 2022-11-28) and PTGES2 (MA5-26128,
+  2023-01-12). (PKC delta / BRD2 was found in the sample; two more products now.)
+- **2022-08-18 HeLa panel (PRMT5 / LDHB / HNRNPC / CLTC) reappears on XPO1 (MA5-41253) and ADAR1
+  (MA5-35112), both stamped 2022-11-28**: six products, one no-primary panel, two upload dates.
+- **RAD54L2 PA5-99087 (2022-03-01) and Survivin MA5-15077 (2020-07-13): same no-primary panel**, HeLa,
+  uploaded 20 months apart.
+- MA5-48060 (galiximab) and MA5-48065 (CD40): same isotype-control panel, Daudi, same 2023-09-05 batch
+  (one experiment's control shown on two products; lower concern).
+- Same target (likely legitimate): MCM6, JMJD1B, M-CSF, S100A9, RhoGDI product pairs.
+- Dark pairs: 41 new, 33 tagged hubs, the other 8 false by eye.
+- Blots (1,379 new): template scan 37 hit products, 35 already in Richardson's lists; MA5-51464 fails the
+  overlay check (0% match share); MA5-36069 (a blue single-lane blot) does not resemble its exemplar by eye.
+  Pattern A: 0 hits (highest window share 0.14).
