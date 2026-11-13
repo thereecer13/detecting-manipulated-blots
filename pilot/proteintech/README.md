@@ -22,3 +22,19 @@ differ):
 
 These need a human look at the original files before anything is said publicly. Images ranked below
 48 (area < 91) were not reviewed.
+
+### Update: every duplication per image, exact outlines
+The detector now keeps every matching region (>= 30 px) at every candidate offset, drops repeats, and
+saves each region's outline; regions with the same offset are fragments of one copied patch and are
+drawn as one numbered duplication. Rescan of the 192 flagged images (`spot_v3`). Duplications whose
+fragments total >= 120 px, checked with difference maps:
+
+| Product / image | Duplications | Call |
+|---|---|---|
+| MRPL46 16611-1-AP, IHC6192 | 2: offset (55, 0), 593 px; offset (45, 33), 696 px | **likely copied, twice**: both are compact areas identical to the area at the offset, inside tissue that differs everywhere else |
+| PRODH 22980-1-AP, IHC-4967 | 3 compact patches (offsets (9,-78), (26,35), (11,59)) + 1 false (fibre edge on flat background) | possible: offsets run along the muscle fibres, whose texture repeats along the fibre axis |
+| PRODH 22980-1-AP, IHC-4968 | 4 (447, 365, 275, 169 px) | weaker: scattered, blotchy agreement in granular muscle texture |
+| ERBB2 51105-1-AP, IHC22545 | 2 (233, 122 px) | possible (image has strong colour fringing) |
+
+Most flagged images also carry many small (60-95 px) look-alike regions; the count of regions per image
+is not by itself evidence.
