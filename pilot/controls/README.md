@@ -127,3 +127,18 @@ Seventh batch (7,695 figures; crawl at ~10,000 MA5 pages):
 - **Blots: MR1 MA5-48493 (uploaded 2025-12-01, not in Richardson's lists) shares lane background with
   template members FLT3 MA5-38523 and MA5-38647** - see pilot/templates/README.md. MA5-44552 (lane-edge
   strip) and MA5-11869 (9% overlay) false. Pattern A: 0 hits.
+
+Eighth batch (8,432 figures; crawl at ~11,800 MA5 pages):
+- **SUMO1 MA5-14877 (stamped 2022-06-03) and BAK MA5-33215 (stamped 2026-01-06): same no-primary panel**,
+  both A-431, uploaded three and a half years apart.
+- **HEK 293 no-primary panel: PKC delta MA5-32482 (figure 3, 2023-03-16) and GLUT1 MA5-37843 (2022-08-18).**
+- **A549 no-primary panel on MEKK2 MA5-37973 (2024-04-15), MYST1 MA5-34741 (2024-05-21) and Map3k2
+  MA5-32237.**
+- Neutrophil elastase MA5-32548 and STING MA5-26030: same no-primary panel, THP-1.
+- HeLa group grows to nine products (second LDHB MA5-35655 and second SMARCC1 MA5-35475, the latter
+  stamped 2022-09-26); Prohibitin / SDHA adds a second Prohibitin product (MA5-15899).
+- Related or same target (likely legitimate): ATM / phospho-ATM (same experiment), MA5-15256 / MA5-13070
+  (the same published Nature Communications figure), and EpCAM, KRT8, CA125, ENDOG, RBM3, pan-cytokeratin,
+  MBD, HNRNPH1, LPL, TP53, PKM2, TOMM20, phospho-H2A product pairs.
+- Dark pairs: 25 new; 15 tagged hubs; the other 10 false by eye.
+- Blots (1,596 new): template scan 42 hit products, all already in Richardson's lists. Pattern A: 0 hits.

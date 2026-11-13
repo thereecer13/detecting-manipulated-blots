@@ -174,5 +174,53 @@
   "score": 1.0,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg"
+ },
+ {
+  "group": "MEKK2 / MYST1 / Map3k2 (A549): same no-primary panel",
+  "a": "MA5-37973",
+  "b": "MA5-34741",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-37973-MEKK2-ICCIF-1-20240415_151956.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34741-MYST1-ICCIF-1-20240521_131813.jpg"
+ },
+ {
+  "group": "PKC delta fig 3 / GLUT1 (HEK 293): same no-primary panel",
+  "a": "MA5-32482",
+  "b": "MA5-37843",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-3-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-37843-GLUT1-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "HeLa no-primary panel (nine products)",
+  "a": "PA5-90290",
+  "b": "MA5-35475",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35475-SMARCC1-ICCIF-1-20220926_150048.jpg"
+ },
+ {
+  "group": "Neutrophil elastase / STING (THP-1): same no-primary panel",
+  "a": "MA5-32548",
+  "b": "MA5-26030",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532548-ELANE-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526030-TMEM173-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA (HeLa): same no-primary panel",
+  "a": "MA5-32598",
+  "b": "MA5-15899",
+  "score": 0.961,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA515899-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK (A-431, 2022 vs 2026): same no-primary panel",
+  "a": "MA5-14877",
+  "b": "MA5-33215",
+  "score": 0.902,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC1_20220603144555.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-33215-BAK-ICCIF-1-20260106_160400.jpg"
  }
 ]
