@@ -336,3 +336,24 @@ Eighteenth batch (14,642 figures; crawl at ~28,250 MA5/PA5 pages):
   Shift test: no isolated peak for MA5-26536 or MA5-37951 against MA5-17126, MA5-31771 or MA5-38523 (all
   peaks within 0.005 of p99, none at (0, 0)); the lane finder fails on MA5-55374. All three unresolved.
   Pattern A: 0 hits.
+
+Nineteenth batch (15,235 figures; crawl at ~29,780 MA5/PA5 pages):
+- **SUMO1 / BAK / TCF7L2 (A-431) adds ADAR PA5-78729 and two Toll-interacting protein products
+  (MA5-26308, MA5-28676), all stamped 2021-05-27 with captions saying U-87 MG.** The same no-primary panel
+  is described as A-431 on the SUMO1/BAK/TCF7L2 products and as U-87 MG on ADAR and TOLLIP. Nine products.
+- **The RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 group (HeLa) adds CHEK1 MA5-32180 (2019-12-09) and AGFG1
+  PA5-30234 (no stamp).** AGFG1 and Cyclin B2 carry the panel relabelled "No Primary Control" in a different
+  font. Eight products, 2018 to 2020.
+- **IkB alpha / EWSR1 / Stathmin 1 adds GTF2B MA5-24864 (HeLa, 2020-03-04)**, the same upload stamp as
+  EWSR1, whose caption says MCF7. Five products.
+- **The PR / caveolin 1 / ER alpha no-primary group adds the PR polyclonal PA5-68778.** Note the caveolin 1
+  caption says A-431 while the PR and ER alpha captions say T-47D, for the same panel.
+- SMARCB1 / ERG (HeLa) adds E2F2 PA5-77950 (HeLa, 2020-03-04, same stamp as SMARCB1).
+- MTDH / BRAF (MCF7, 2024-06-20) adds a third MTDH product (MA5-36100).
+- CD38 MA5-47876 / CD37 MA5-47852 (Daudi, 2023-09-05): same isotype control panel (same batch, lower
+  concern, like the other isotype pairs).
+- Same target (likely legitimate): LAMC1, FAS, MTDH, PR (SK-BR-3 negative panel), RNA pol II pS5 / POLR2A.
+- Dark pairs: 4 new non-hub pairs, all false by eye.
+- Blots (1,473 new): template scan 19 hit products, all already in Richardson's lists. Pattern A detector:
+  13 hits, 12 already listed (share 0.79 to 1.0); the two unlisted (MA5-15738-BTIN 0.33, MA5-32100 0.15) are
+  published journal figures (Sci Rep, Wiley) on white backgrounds, false.

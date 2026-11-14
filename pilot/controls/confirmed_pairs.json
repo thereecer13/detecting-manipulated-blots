@@ -1046,5 +1046,205 @@
   "score": 0.904,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-33215-BAK-ICCIF-1-20260106_160400.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "Progesterone receptor / caveolin 1 / ER alpha: same no-primary panel (adds PA5-68778)",
+  "a": "MA5-14501",
+  "b": "PA5-68778",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514501-EstrogenReceptoralpha-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA568778-ProgesteroneReceptor-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "PA5-17652",
+  "b": "MA5-32180",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-16375",
+  "b": "MA5-32180",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-14953",
+  "b": "MA5-32180",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514953-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-32191",
+  "b": "MA5-32180",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532191-MAPK9-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "Progesterone receptor / caveolin 1 / ER alpha: same no-primary panel (adds PA5-68778)",
+  "a": "MA5-14841",
+  "b": "PA5-68778",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514841-ProgesteroneReceptor-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA568778-ProgesteroneReceptor-AV-ICC.jpg"
+ },
+ {
+  "group": "Progesterone receptor / caveolin 1 / ER alpha: same no-primary panel (adds PA5-68778)",
+  "a": "MA5-16329",
+  "b": "PA5-68778",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516329-Caveolin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA568778-ProgesteroneReceptor-AV-ICC.jpg"
+ },
+ {
+  "group": "MTDH / BRAF (MCF7, same batch): same no-primary panel",
+  "a": "MA5-32846",
+  "b": "MA5-36100",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32846-B-RAF-ICCIF-1-20240620_080430.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36100-METADHERIN-ICCIF-1-20240620_080430.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "a": "MA5-14877",
+  "b": "PA5-78729",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC3_20220603144847.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578729-ADAR-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "CD38 / CD37 (Daudi, same batch): same isotype control",
+  "a": "MA5-47876",
+  "b": "MA5-47852",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-47876-CD38-ICCIF-1-20230905_154513.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-47852-CD37-ICCIF-1-20230905_154513.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "a": "MA5-26308",
+  "b": "PA5-78729",
+  "score": 0.989,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-26308-TOLLIP-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578729-ADAR-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "a": "MA5-28676",
+  "b": "PA5-78729",
+  "score": 0.989,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-28676-TOLLIP-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578729-ADAR-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SMARCB1 / ERG / E2F2 (HeLa, 2019 vs 2020): same no-primary panel",
+  "a": "PA5-53932",
+  "b": "PA5-77950",
+  "score": 0.973,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA553932-SMARCB1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577950-E2F2-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B (HeLa, MCF7): same no-primary panel",
+  "a": "MA5-24791",
+  "b": "MA5-24864",
+  "score": 0.968,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524791-EWSR1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524864-GTF2B-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "PA5-29233",
+  "b": "PA5-30234",
+  "score": 0.955,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529233-CyclinB2-ICC_20181116123226.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "PA5-22048",
+  "b": "MA5-32180",
+  "score": 0.941,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "PA5-22048",
+  "b": "PA5-30234",
+  "score": 0.919,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B (HeLa, MCF7): same no-primary panel",
+  "a": "MA5-29441",
+  "b": "MA5-24864",
+  "score": 0.915,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529441-IkBalpha-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524864-GTF2B-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B (HeLa, MCF7): same no-primary panel",
+  "a": "MA5-15153",
+  "b": "MA5-24864",
+  "score": 0.915,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515153-IkBalpha-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524864-GTF2B-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B (HeLa, MCF7): same no-primary panel",
+  "a": "MA5-16400",
+  "b": "MA5-24864",
+  "score": 0.915,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516400-STMN1-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524864-GTF2B-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "PA5-17652",
+  "b": "PA5-30234",
+  "score": 0.912,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-16375",
+  "b": "PA5-30234",
+  "score": 0.912,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-14953",
+  "b": "PA5-30234",
+  "score": 0.912,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514953-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-32191",
+  "b": "PA5-30234",
+  "score": 0.912,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532191-MAPK9-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 (HeLa): same no-primary panel",
+  "a": "MA5-32180",
+  "b": "PA5-30234",
+  "score": 0.912,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg"
  }
 ]
