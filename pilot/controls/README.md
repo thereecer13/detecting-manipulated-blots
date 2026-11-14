@@ -294,3 +294,20 @@ Sixteenth batch (13,422 figures; crawl at ~25,100 MA5/PA5 pages):
   detector gave its first hit (MA5-33115 vs exemplar PA5-99645, share 0.5), but it is false:** the image is
   a published third-party multi-panel figure (Exp Ther Med, butorphanol in PC12 cells), the matched box
   spans the chemical structure and bar charts rather than a blot lane, and the correlation is 0.054.
+
+Seventeenth batch (14,034 figures; crawl at ~26,650 MA5/PA5 pages):
+- **SUMO1 / BAK group (A-431) adds TCF7L2 MA5-32240 (stamped 2021-05-27).** The same no-primary panel now
+  appears on four products uploaded 2021-05-27, 2022-06-03, 2022-10-10 and 2026-01-06.
+- **RAN / RAG2 / Cyclin B2 / Ku80 group (HeLa) adds JNK2 MA5-32191 (2019-12-09) and a second Ku80 product
+  (MA5-16375).** RAG2's copy is stamped 2019-03-19, RAN's 2020-01-14.
+- **RAD54L2 / Survivin / SCF (HeLa) adds Plastin-3 MA5-27772 (2021-11-15).** Survivin's copy is stamped
+  2020-07-13 and RAD54L2's 2022-03-01.
+- **TRBP / TSC2 / MYD88 group (HeLa, 2023-02-13) adds a second MYD88 product (MA5-35251) stamped 2023-03-09.**
+- Rab9a / RACK1 (captions HeLa vs HEK-293, 2022-08-18) adds a second Rab9a (MA5-31997) and a second RACK1
+  (MA5-35405), same stamp.
+- RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 / RRM1 (2021-03-23) adds CD2AP MA5-33009 (same stamp).
+- The ten-product HeLa group gains new cross-links only (SMARCC1, SP1, PRMT5, LDHB, HNRNPC, CLTC, XPO1 to
+  ADAR1's copy); no new products.
+- Same target (likely legitimate): K-Ras, CD44, CD147, PGP9.5, Arntl, DTYMK.
+- Dark pairs: 3 new non-hub pairs (2 distinct), false by eye.
+- Blots (1,435 new): template scan 37 hit products, all already in Richardson's lists. Pattern A: 0 hits.
