@@ -275,3 +275,22 @@ Fifteenth batch (12,811 figures; crawl at ~23,500 MA5/PA5 pages):
   STAT6, p53.
 - Dark pairs: 4 new non-hub pairs, all false by eye.
 - Blots (1,459 new): template scan 46 hit products, all already in Richardson's lists. Pattern A: 0 hits.
+
+Sixteenth batch (13,422 figures; crawl at ~25,100 MA5/PA5 pages):
+- **Progesterone receptor MA5-14841 and estrogen receptor alpha MA5-14501 (both T-47D): the same stained
+  "Composite" panel (green nuclear signal, panel d)** appears in PR's main ICC figure and in ER alpha's
+  antibody-validation figure. Two different antibodies cannot give the same image.
+- **The PR / caveolin 1 no-primary group (batch 13) adds ER alpha MA5-14501 and a second PR product
+  (MA5-16394).** Same panel f on PR, caveolin 1 and ER alpha.
+- **Fumarate hydratase MA5-27746 (HeLa, 2020-11-30) and NPM1 MA5-12508 (HeLa, no stamp): same no-primary
+  panel.**
+- RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 group adds RRM1 MA5-26497 (same 2021-03-23 stamp; caption A-431).
+- S100A6 MA5-32511 (caption SH-SY5Y) and KHK MA5-25174 share a no-primary panel (same 2021-03-23 stamp).
+- Same batch, lower concern: NKG2D MA5-51623 / 4-1BB MA5-51586 isotype panel (2024-06-28).
+- Same target (likely legitimate): EphB4, PTPN1, NuMA, phospho-H2A, cadherin-17, PKA, phospho-RNA pol II,
+  CDK1, H3 trimethyl, influenza NP, RhoGDI, angiotensinogen, GPC3, KHK, CCDC.
+- Dark pairs: 11 new; 9 distinct non-hub pairs, all false by eye.
+- Blots (1,365 new): template scan 36 hit products, all already in Richardson's lists. **The pattern A
+  detector gave its first hit (MA5-33115 vs exemplar PA5-99645, share 0.5), but it is false:** the image is
+  a published third-party multi-panel figure (Exp Ther Med, butorphanol in PC12 cells), the matched box
+  spans the chemical structure and bar charts rather than a blot lane, and the correlation is 0.054.

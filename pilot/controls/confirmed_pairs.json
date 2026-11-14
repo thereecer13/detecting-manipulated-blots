@@ -654,5 +654,77 @@
   "score": 0.966,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532693-TRAILR2-ICC-20200713083630.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA527756-PRMT1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 (2021-03-23): adds RRM1",
+  "a": "MA5-27318",
+  "b": "MA5-26497",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526497-RRM1-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "Progesterone receptor / ER alpha (T-47D): same stained composite panel",
+  "a": "MA5-14841",
+  "b": "MA5-14501",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514841-ProgesteroneReceptor-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514501-EstrogenReceptoralpha-AV-ICC.jpg"
+ },
+ {
+  "group": "Progesterone receptor / caveolin 1 / ER alpha: same no-primary panel",
+  "a": "MA5-16394",
+  "b": "MA5-14501",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516394-ProgesteroneReceptor-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514501-EstrogenReceptoralpha-ICC.jpg"
+ },
+ {
+  "group": "NKG2D / 4-1BB (same batch): same isotype control",
+  "a": "MA5-51623",
+  "b": "MA5-51586",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-51623-NKG2D-CD314-ICCIF-1-20240628_134238.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-51586-4-1BB-CD137-ICCIF-1-20240628_134238.jpg"
+ },
+ {
+  "group": "Progesterone receptor / caveolin 1 / ER alpha: same no-primary panel",
+  "a": "MA5-16329",
+  "b": "MA5-14501",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516329-Caveolin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514501-EstrogenReceptoralpha-AV-ICC.jpg"
+ },
+ {
+  "group": "S100A6 / KHK (same batch 2021-03-23): same no-primary panel",
+  "a": "MA5-32511",
+  "b": "MA5-25174",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532511-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525174-KHK-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 (2021-03-23): adds RRM1",
+  "a": "PA5-100535",
+  "b": "MA5-26497",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5100535-FZR1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526497-RRM1-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 (2021-03-23): adds RRM1",
+  "a": "PA5-89181",
+  "b": "MA5-26497",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589181-BAF57-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526497-RRM1-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "Fumarate hydratase / NPM1 (HeLa): same no-primary panel",
+  "a": "MA5-27746",
+  "b": "MA5-12508",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527746-FH-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA512508-NPM1-ICC.jpg"
  }
 ]
