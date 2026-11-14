@@ -231,3 +231,32 @@ no isolated peak against MA5-17126 or member MA5-31771 (peaks 0.04-0.14, each wi
 But both checks are weak here: match_overlay also gives 0% for two listed pattern C members against
 MA5-17126, and only one of three listed member-member pairs gives a clear shift peak (MA5-31771 / MA5-31894:
 0.38 at (0, 0)). These four stay unresolved rather than false.
+
+Fourteenth batch (12,272 figures; crawl at ~21,900 MA5/PA5 pages):
+- **NADPH-cytochrome P450 reductase MA5-24977 (HeLa, 2021-03-23) and Histone H3.3 phospho-S31 MA5-44190
+  (2022-07-06): the same panel is labelled "No Primary antibody" on POR and "H3.3 (phospho S31) HeLa
+  (Untreated)" on the histone product.** One of the two labels is wrong: a no-primary control shown as a
+  stained result, or the reverse.
+- **Rab9a MA5-35602 (caption: HeLa) and RACK1 MA5-34809 (caption: HEK-293): same no-primary panel**, same
+  stamp (2022-08-18), captions disagree on the cell line.
+- **BCL-10 MA5-14756 and MA5-32327 (HeLa, 2020-11-30) and fumarase MA5-27745 (HeLa, 2021-03-23): same
+  no-primary panel**, four months apart.
+- **BCL11B MA5-32546 (A549, 2022-11-28) and SENP1 MA5-35519 (A549, 2023-04-18): same no-primary panel**
+  at different display levels.
+- **GAPDH MA5-33140 (HeLa, 2026-01-06) and HSPE1 MA5-35686 (HeLa, 2024-03-05): same no-primary panel**,
+  two years apart. A second GAPDH product (MA5-31976) shares it under HSPE1's stamp.
+- **BMP-8B MA5-27733 and ZFP57 MA5-23521 (293T, same stamp 2020-03-19): the same green-channel stained
+  panel** on two products for different targets (both captions: mock and transfected 293T).
+- RAD54L2 / Survivin adds SCF MA5-26328 (HeLa, no stamp). DNM1L / PKM1 adds two more DNM1L products
+  (MA5-26250, MA5-26255). HEK 293 group adds a second ATP1A1 product (MA5-32184). Prohibitin / SDHA adds
+  a second prohibitin (MA5-15899). ALPL / GBA adds a second GBA (MA5-38382, 2025 vs ALPL 2026).
+- Same batch, lower concern: GP130 / Caveolin 2 (HeLa, 2019-12-09); BAD / A-Raf (HeLa, 2021-03-23);
+  COX1 / FANCA (A549, 2023-01-12); MUC1 / p21 isotype panel (MCF7, 2024-06-28); PHD1 / PDK1 (HeLa, no stamp).
+- Same target (likely legitimate): IFITM3, AGTR1, nestin, caspase 6, Cas9, beta-tubulin, ATP5F1B, TOLLIP,
+  GBA, SDHA, COX2, ABCC1, CD81, PECAM1, DNM1L, ErbB2.
+- Dark pairs: 28 new; 18 tagged hubs; the other 10 (7 distinct) false by eye.
+- Blots (2,054 new): template scan 59 hit products, 57 already in Richardson's lists. Unlisted MA5-26534
+  (NDUFS2, pattern C, share 0.265): shift test peak 0.146 at (-12, 3) vs MA5-17126 (p99 0.135) and 0.145 at
+  (12, 0) vs MA5-31771 (p99 0.118), neither at (0, 0); unresolved. Unlisted MA5-15880 (pattern A, share
+  0.54) is a published third-party figure (J Cell Mol Med, multi-panel); the match is on white background
+  and the dedicated pattern A detector gives 0 hits; false. Pattern A detector: 0 hits.

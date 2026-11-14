@@ -382,5 +382,189 @@
   "score": 0.997,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532397-CDK9-ICC-20210323110406.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA525136-KHK-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "BMP-8B / ZFP57 (293T, same batch): same stained panel",
+  "a": "MA5-27733",
+  "b": "MA5-23521",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-27733-BMP-8B-ICC-IF-1-20200319095611.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-23521-ZFP57-ICC-IF-1-20200319095611.jpg"
+ },
+ {
+  "group": "BCL-10 / fumarase (HeLa, four months apart): same no-primary panel",
+  "a": "MA5-14756",
+  "b": "MA5-27745",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514756-BCL10-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527745-FH-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "BCL-10 / fumarase (HeLa, four months apart): same no-primary panel",
+  "a": "MA5-32327",
+  "b": "MA5-27745",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532327-BCL10-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527745-FH-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "GAPDH / HSPE1 (HeLa, 2024 vs 2026): same no-primary panel",
+  "a": "MA5-31976",
+  "b": "MA5-35686",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-31976-GAPDH-ICCIF-1-20240305_153008.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35686-HSPE1-ICCIF-1-20240305_153008.jpg"
+ },
+ {
+  "group": "DNM1L (SH-SY5Y) / PKM1 (MDA-MB-231): adds DNM1L MA5-26250, MA5-26255",
+  "a": "MA5-14815",
+  "b": "MA5-26250",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514815-PKM1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526250-DNM1L-ICC.jpg"
+ },
+ {
+  "group": "GP130 / Caveolin 2 (HeLa, same batch): same no-primary panel",
+  "a": "MA5-23922",
+  "b": "MA5-32083",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA523922-GP130-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532083-Caveolin2-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "MUC1 / p21 (MCF7, same batch): same isotype control",
+  "a": "MA5-51672",
+  "b": "MA5-51677",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-51672-MUC1-ICCIF-1-20240628_134238.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-51677-P21-ICCIF-1-20240628_134238.jpg"
+ },
+ {
+  "group": "BAD / A-Raf (HeLa, same batch): same no-primary panel",
+  "a": "MA5-14800",
+  "b": "MA5-32428",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514800-BAD-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532428-ARAF-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "HEK 293 no-primary panel: PKC delta / GLUT1 / ATP1A1 (adds MA5-32184)",
+  "a": "MA5-32482",
+  "b": "MA5-32184",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32482-PKCDELTA-ICCIF-3-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32184-SODIUMPOTASSIUMATPASE-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "HEK 293 no-primary panel: PKC delta / GLUT1 / ATP1A1 (adds MA5-32184)",
+  "a": "MA5-37843",
+  "b": "MA5-32184",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-37843-GLUT1-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32184-SODIUMPOTASSIUMATPASE-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "COX1 / FANCA (A549, same batch): same no-primary panel",
+  "a": "MA5-35479",
+  "b": "MA5-35800",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35479-COX1-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35800-FANCA-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "DNM1L (SH-SY5Y) / PKM1 (MDA-MB-231): adds DNM1L MA5-26250, MA5-26255",
+  "a": "MA5-14815",
+  "b": "MA5-26255",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514815-PKM1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526255-DNM1L-ICC.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds second prohibitin",
+  "a": "PA5-17325",
+  "b": "MA5-27782",
+  "score": 0.972,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517325-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds second prohibitin",
+  "a": "MA5-15899",
+  "b": "MA5-27782",
+  "score": 0.972,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515899-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Rab9a (HeLa) / RACK1 (HEK-293): same no-primary panel, captions disagree",
+  "a": "MA5-35602",
+  "b": "MA5-34809",
+  "score": 0.969,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35602-RAB9-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34809-RACK1-ICCIF-2-20220818_115929.jpg"
+ },
+ {
+  "group": "GBA / ALPL (HeLa): adds second GBA product",
+  "a": "MA5-42414",
+  "b": "MA5-38382",
+  "score": 0.962,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-42414-ALPL-ICCIF-1-20260429_181631.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-38382-GBA-ICCIF-1-20250715_092748.jpg"
+ },
+ {
+  "group": "PHD1 / PDK1 (HeLa): same no-primary panel",
+  "a": "MA5-24853",
+  "b": "MA5-32702",
+  "score": 0.951,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524853-PHD1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532702-PDK1-ICC.jpg"
+ },
+ {
+  "group": "BCL11B / SENP1 (A549, five months apart): same no-primary panel",
+  "a": "MA5-32546",
+  "b": "MA5-35519",
+  "score": 0.946,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32546-BCL11B-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35519-SENP1-ICCIF-1-20230418_161349.jpg"
+ },
+ {
+  "group": "POR (no primary) / Histone H3.3 pS31 (labelled stained, HeLa untreated): same panel, labels disagree",
+  "a": "MA5-24977",
+  "b": "MA5-44190",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524977-POR-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-44190-HISTONEH3-3-ICCIF-2-20220706_161658.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF (HeLa): same no-primary panel",
+  "a": "PA5-99087",
+  "b": "MA5-26328",
+  "score": 0.936,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-99087-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF (HeLa): same no-primary panel",
+  "a": "MA5-15077",
+  "b": "MA5-26328",
+  "score": 0.936,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg"
+ },
+ {
+  "group": "GAPDH / HSPE1 (HeLa, 2024 vs 2026): same no-primary panel",
+  "a": "MA5-33140",
+  "b": "MA5-35686",
+  "score": 0.93,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-33140-GAPDH-ICCIF-1-20260106_160400.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35686-HSPE1-ICCIF-1-20240305_153008.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds second prohibitin",
+  "a": "MA5-25120",
+  "b": "MA5-27782",
+  "score": 0.92,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg"
  }
 ]
