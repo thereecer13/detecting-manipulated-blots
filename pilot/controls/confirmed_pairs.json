@@ -1718,5 +1718,61 @@
   "score": 0.903,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA524791-EWSR1-ICC-20200304132147.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA517762-STMN1-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa): adds RAD54L2 PA5-89311",
+  "a": "MA5-15077",
+  "b": "PA5-89311",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa): adds RAD54L2 PA5-89311",
+  "a": "MA5-14847",
+  "b": "PA5-89311",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa): adds RAD54L2 PA5-89311",
+  "a": "PA5-67940",
+  "b": "PA5-89311",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA567940-GBA-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "S100A6 / KHK (same batch 2021-03-23): adds KHK PA5-29004",
+  "a": "MA5-32511",
+  "b": "PA5-29004",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532511-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA529004-KHK-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "PLCB2 (THP-1) / KDM6A (K-562): same no-primary panel, captions disagree",
+  "a": "PA5-102006",
+  "b": "PA5-31828",
+  "score": 0.97,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-102006-PLCB2-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-31828-KDM6A-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa): adds RAD54L2 PA5-89311",
+  "a": "MA5-27772",
+  "b": "PA5-89311",
+  "score": 0.955,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527772-PLS3-ICC_20211115140859.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa): adds RAD54L2 PA5-89311",
+  "a": "MA5-26328",
+  "b": "PA5-89311",
+  "score": 0.936,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg"
  }
 ]

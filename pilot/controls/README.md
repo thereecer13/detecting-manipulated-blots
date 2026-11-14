@@ -404,3 +404,16 @@ two hours before this check-in, and the shared-panel step needed a longer timeou
 - Blots (845 new): template scan 13 hit products, 12 already in Richardson's lists. Unlisted: GLB1 PA5-49989
   (pattern B, share 0.17 vs PA5-99439, just above the 0.15 cut; stamped 2025-10-08): unresolved. Pattern A
   detector: 23 hits, 22 listed; the unlisted PA5-95265 is a published figure (Animals, corr 0.12), false.
+
+Twenty-second batch (16,929 figures; crawl at ~34,180 MA5/PA5 pages):
+- **PLCB2 PA5-102006 (caption THP-1, 2022-10-10) / KDM6A PA5-31828 (caption K-562, 2022-08-18): same
+  no-primary panel, captions disagree.**
+- RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA (HeLa) adds a second RAD54L2 product (PA5-89311,
+  2022-03-01). Seven products.
+- S100A6 / KHK (SH-SY5Y, 2021-03-23) adds a third KHK product (PA5-29004, same stamp).
+- Same target (likely legitimate): ASC (MA5-32312 / PA5-50915).
+- Dark pairs: 3 new non-hub pairs, all false by eye.
+- Blots (1,451 new): template scan 15 hit products, 14 already in Richardson's lists. Unlisted pattern C hit
+  PA5-85905 (share 0.20 vs MA5-17126): shift test peaks 0.066 at (-1, -12) vs MA5-17126 (p99 0.060) and
+  0.042 at (11, 9) vs MA5-31771 (p99 0.039), none at (0, 0): unresolved. Pattern A detector: 25 hits, all
+  already listed.
