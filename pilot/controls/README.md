@@ -387,3 +387,20 @@ Twentieth batch (16,072 figures; crawl at ~31,900 MA5/PA5 pages):
   published figure. An independent high-pass background test (sigma 3) did not separate members from
   same-layout non-members (non-members reach 0.64), so it neither confirms nor rules out the hit. Candidate,
   unresolved.
+
+Twenty-first batch (16,651 figures; crawl at ~32,810 MA5/PA5 pages; the container was reclaimed for about
+two hours before this check-in, and the shared-panel step needed a longer timeout):
+- **The SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB group adds LAMTOR1 PA5-78516 (U-87 MG, 2021-05-27) and
+  NDUFAF2 PA5-89734 (caption Hep G2, 2021-05-10).** Twelve products; the one panel is now described as
+  A-431, U-87 MG, MCF7 and Hep G2.
+- **STAT1 MA5-32271 (2020-11-30) and MA5-37072 (2023-06-26) / RAB12 PA5-98523 (2023-06-19), HeLa: same
+  no-primary panel**, the STAT1 copies two and a half years apart.
+- Fumarase MA5-33010 / S100A6 PA5-31862 (PC-3, both 2021-03-23): same no-primary panel.
+- RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 / RRM1 / CD2AP (2021-03-23) adds a second RRM1 product (PA5-17023).
+- IkB alpha / EWSR1 / Stathmin 1 / GTF2B adds a second Stathmin 1 product (PA5-17762, HeLa, 2020-07-13).
+- SMARCB1 / ERG / E2F2 (HeLa) adds ORC2 PA5-70227 (2020-03-04, same stamp as SMARCB1 and E2F2).
+- KLF10 MA5-20125 / PA5-20838 and AK2 PA5-14196 / PA5-20838: non-cell images (heat map, gels), false.
+- Dark pairs: 2 new non-hub pairs, both false by eye.
+- Blots (845 new): template scan 13 hit products, 12 already in Richardson's lists. Unlisted: GLB1 PA5-49989
+  (pattern B, share 0.17 vs PA5-99439, just above the 0.15 cut; stamped 2025-10-08): unresolved. Pattern A
+  detector: 23 hits, 22 listed; the unlisted PA5-95265 is a published figure (Animals, corr 0.12), false.
