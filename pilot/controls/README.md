@@ -357,3 +357,33 @@ Nineteenth batch (15,235 figures; crawl at ~29,780 MA5/PA5 pages):
 - Blots (1,473 new): template scan 19 hit products, all already in Richardson's lists. Pattern A detector:
   13 hits, 12 already listed (share 0.79 to 1.0); the two unlisted (MA5-15738-BTIN 0.33, MA5-32100 0.15) are
   published journal figures (Sci Rep, Wiley) on white backgrounds, false.
+
+Twentieth batch (16,072 figures; crawl at ~31,900 MA5/PA5 pages):
+- **The RAN / RAG2 / Cyclin B2 / Ku80 / JNK2 / CHEK1 / AGFG1 group (HeLa) adds PRMT1 PA5-17299 (2019-03-19,
+  same stamp as RAG2) and HSPA9 PA5-78009.** Ten products, 2018 to 2020.
+- **The SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP group adds nucleoside diphosphate kinase B PA5-96679
+  (2021-05-27), caption MCF7.** The one panel is now described as A-431, U-87 MG and MCF7. Ten products.
+- **RAD54L2 / Survivin / SCF / Plastin-3 / HGFR (HeLa) adds GBA PA5-67940 (2020-08-24).** Six products.
+- **PR / caveolin 1 / ER alpha adds a second caveolin 1 product (PA5-32297), caption A-431**, like MA5-16329;
+  the PR and ER alpha captions say T-47D.
+- NME1 / AQP1 (HeLa) adds GABARAP PA5-78366. PHD1 / PDK1 (HeLa) adds BNIP3L PA5-19958.
+- **New pairs:**
+  - CHK2 MA5-32220 / ADAM9 PA5-17080 (A-431, both 2021-03-23).
+  - Citrate synthase MA5-17265 (2020-10-20) and MA5-17264 (2021-03-23) / MAOB PA5-29824 (2020-10-20),
+    Hep G2.
+  - Angiotensinogen MA5-29010 and MA5-32372 / UQCRC2 PA5-30204 (Hep G2, 2019-01-22).
+  - **Annexin A2 MA5-32689 (caption Hep G2) / ADAM17 PA5-17079 (caption HeLa, 2020-08-24): same panel,
+    captions disagree.**
+  - HMMR PA5-88546 (HeLa, 2022-03-15) / cereblon PA5-38037 (HeLa, 2022-03-10).
+- Same target (likely legitimate): Neuroligin 1, MGMT. MA5-12104 / AK2 PA5-14196 (0.954): different images by
+  eye, false.
+- Dark pairs: 3 new non-hub pairs, all false by eye.
+- Blots (2,139 new): template scan 18 hit products, 17 already in Richardson's lists. Unlisted pattern C hit
+  PA5-15332 (share 0.20 vs MA5-15896): shift test peaks 0.043 at (12, 0) vs MA5-17126 and 0.044 at (-1, 12)
+  vs MA5-31771, p99 0.034, none at (0, 0): unresolved.
+- **Pattern A detector: 23 hits, 22 already listed. The unlisted hit is CaV1.3 PA5-118794 (K562, stamped
+  2021-09-23): share 1.0, corr 0.711 against exemplar PA5-99645, in the range of the listed members
+  (0.67 to 0.73), with identical lane borders (x 194 to 300).** This is a Thermo product image, not a
+  published figure. An independent high-pass background test (sigma 3) did not separate members from
+  same-layout non-members (non-members reach 0.64), so it neither confirms nor rules out the hit. Candidate,
+  unresolved.
