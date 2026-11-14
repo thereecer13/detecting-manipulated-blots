@@ -162,9 +162,9 @@ Tenth batch (9,601 figures; crawl at ~14,900 MA5/PA5 pages):
 - Same target (likely legitimate): PDGFRB, PTP1B, KRAS, AP-1, MUC1, CK1 alpha, STING, COX2, RHEB,
   CALCOCO2, PSMB9, PECAM-1, KPNA2, SATB1, cytokeratin 5, KLF2 product pairs.
 - Dark pairs: 7 new; 4 tagged hubs; the other 3 false by eye.
-- Blots (1,335 new): template scan 40 hit products, 38 already in Richardson's lists. The two unlisted
-  hits are false: MA5-24236 (pattern C) has no lane-grain match to FLT3 MA5-38523 (peak 0.033, at the
-  noise level), and MA5-15313 has a different band and background from MA5-17126. Pattern A: 0 hits.
+- Blots (1,335 new): template scan 40 hit products, 38 already in Richardson's lists. Of the two unlisted
+  hits, MA5-24236 (pattern C) has no lane-grain match to FLT3 MA5-38523 (peak 0.033, at the noise level);
+  MA5-15313 is unresolved (see the batch 13 note on pattern C checks). Pattern A: 0 hits.
 
 Eleventh batch (10,207 figures; crawl at ~16,500 MA5/PA5 pages):
 - **Thrombospondin 2 MA5-46937 and glucocorticoid receptor MA5-46938 carry the same whole figure** (green
@@ -183,7 +183,7 @@ Eleventh batch (10,207 figures; crawl at ~16,500 MA5/PA5 pages):
   VPS35 / Vps26a, pericentrin, BCL-10, MUC1, CUGBP1, F4/80, TSPO, SOX17, MMP-9, PGP9.5, desmin, CDCP1, Ntrk1.
 - Dark pairs: 8 new; 5 tagged hubs; the other 3 false by eye.
 - Blots (1,411 new): template scan 26 hit products, 25 already in Richardson's lists. The unlisted hit
-  MA5-26905 (pattern C) is false: a single K562 band at ~22 kDa, unlike MA5-17126. Pattern A: 0 hits.
+  MA5-26905 (pattern C) is unresolved (see the batch 13 note on pattern C checks). Pattern A: 0 hits.
 
 Twelfth batch (10,784 figures; crawl at ~18,000 MA5/PA5 pages):
 - **HSPA2 MA5-35691 and FGF1 MA5-35690 carry the same whole stained figure** (orange stain, and the same
@@ -203,5 +203,31 @@ Twelfth batch (10,784 figures; crawl at ~18,000 MA5/PA5 pages):
 - Same target (likely legitimate): angiotensinogen, S100A9, PGP9.5, Lyn, ACTA1, TXN, PSMB9, p16INK4a.
 - Dark pairs: 10 new; 9 tagged hubs; the other 1 false by eye.
 - Blots (1,407 new): template scan 34 hit products, 33 already in Richardson's lists; the unlisted
-  MA5-26551 (pattern C) is false by eye: a thin band at ~40 kDa with a different marker ladder from
-  MA5-17126. Pattern A: 0 hits.
+  MA5-26551 (pattern C) is unresolved (see the batch 13 note on pattern C checks). Pattern A: 0 hits.
+
+Thirteenth batch (11,357 figures; crawl at ~19,600 MA5/PA5 pages):
+- **IkB alpha / EWSR1 group (HeLa and MCF7) adds a second IkB alpha product (MA5-29441, stamped 2020-08-24)
+  and Stathmin 1 MA5-16400 (HeLa, 2020-07-13).** The group now spans four products uploaded over five months.
+- **Progesterone receptor MA5-14841 (T-47D) and caveolin 1 MA5-16329: same no-primary panel.**
+- **RCOR1 MA5-24297 and PRMT4 MA5-15796 (HeLa): same panel, labelled "No Primary antibody" on one and
+  "No primary control" on the other.**
+- **Integrin beta 1 MA5-27900 (A-431) and VISTA MA5-44265 (2023-06-19): same no-primary panel.**
+- CDK9 / KHK (A-431 vs U-87 MG) adds a second KHK product (MA5-25136, U-87 MG); GSK3B / GORASP1 adds a second
+  GORASP1 product (MA5-25148).
+- Same batch, lower concern: TRBP MA5-38184 / TSC2 MA5-35293 / MYD88 MA5-32246 (HeLa, 2023-02-13 08:26:54,
+  the same stamp as USP14 MA5-24727); CLEC4A / CD154 isotype panel (2023-09-05, the same stamp as
+  muromonab / CD2).
+- Same target (likely legitimate): citrate synthase, KHK, EWSR1, GORASP1, aconitase 2, HA tag, PR, OAS2, ASH2L,
+  LGR5, IGF2BP3, cytokeratin 5.
+- Dark pairs: 11 new; 6 tagged hubs; the other 5 false by eye.
+- Blots (1,433 new): template scan 35 hit products, 34 already in Richardson's lists; unlisted MA5-26600
+  (pattern C, share 0.475).
+
+Note on the unlisted pattern C hits (MA5-15313, MA5-26905, MA5-26551, MA5-26600). Pattern C is a shared
+background grain under different bands, so different bands do not rule a hit out; earlier notes that did so
+are withdrawn. Neither check finds a match: match_overlay gives 0-4% against MA5-17126's Thermo image, and
+the lane-grain shift test (with a fallback lane finder for the frameless grey strips these blots use) gives
+no isolated peak against MA5-17126 or member MA5-31771 (peaks 0.04-0.14, each within the off-peak p99).
+But both checks are weak here: match_overlay also gives 0% for two listed pattern C members against
+MA5-17126, and only one of three listed member-member pairs gives a clear shift peak (MA5-31771 / MA5-31894:
+0.38 at (0, 0)). These four stay unresolved rather than false.

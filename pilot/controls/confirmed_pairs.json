@@ -342,5 +342,45 @@
   "score": 0.929,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 (HeLa, MCF7): same no-primary panel",
+  "a": "MA5-29441",
+  "b": "MA5-16400",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529441-IkBalpha-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA516400-STMN1-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Progesterone receptor (T-47D) / caveolin 1: same no-primary panel",
+  "a": "MA5-14841",
+  "b": "MA5-16329",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514841-ProgesteroneReceptor-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA516329-Caveolin1-AV-ICC.jpg"
+ },
+ {
+  "group": "RCOR1 / PRMT4 (HeLa): same panel, labelled differently",
+  "a": "MA5-24297",
+  "b": "MA5-15796",
+  "score": 0.982,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524297-RCOR1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA515796-PRMT4-ICC-20190319102800.jpg"
+ },
+ {
+  "group": "Integrin beta 1 (A-431) / VISTA: same no-primary panel",
+  "a": "MA5-27900",
+  "b": "MA5-44265",
+  "score": 0.87,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527900-Integrinbeta1CD29-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-44265-VISTA-RE-1-20230619_162658.jpg"
+ },
+ {
+  "group": "CDK9 (A-431) / KHK (U-87 MG): adds second KHK product",
+  "a": "MA5-32397",
+  "b": "MA5-25136",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532397-CDK9-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525136-KHK-ICC2-20210323110406.jpg"
  }
 ]
