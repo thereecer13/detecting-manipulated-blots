@@ -870,5 +870,181 @@
   "score": 0.904,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-33215-BAK-ICCIF-1-20260106_160400.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA532240-TCF7L2-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-32111",
+  "b": "MA5-14935",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32111-BAK-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-32240",
+  "b": "MA5-36225",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532240-TCF7L2-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36225-BAK-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-14935",
+  "b": "MA5-36225",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36225-BAK-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "NME1 / AQP1 (HeLa): same no-primary panel",
+  "a": "MA5-30707",
+  "b": "MA5-32593",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA530707-NME1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532593-AQP1-ICC-20191104133922.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR (HeLa): same no-primary panel",
+  "a": "PA5-99087",
+  "b": "MA5-14847",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-99087-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR (HeLa): same no-primary panel",
+  "a": "MA5-15077",
+  "b": "MA5-14847",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg"
+ },
+ {
+  "group": "BCL11B / SENP1 (A549): adds second SENP1",
+  "a": "MA5-32546",
+  "b": "MA5-34767",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32546-BCL11B-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34767-SENP1-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-14877",
+  "b": "MA5-14935",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC1_20220603144555.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-14877",
+  "b": "MA5-36225",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC1_20220603144555.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36225-BAK-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "ZFP36 / COX2 (RAW 264.7 + LPS, five weeks apart): same no-primary panel",
+  "a": "MA5-24972",
+  "b": "MA5-14568",
+  "score": 0.988,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524972-ZFP36-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514568-COX2-ICC-20191105121718.jpg"
+ },
+ {
+  "group": "Aurora B / MKK7 (HeLa, five weeks apart): same no-primary panel",
+  "a": "MA5-15321",
+  "b": "MA5-32362",
+  "score": 0.987,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515321-AuroraB-ICC-20191105121718.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532362-MKK7-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds MA5-32000, MA5-25113",
+  "a": "MA5-27782",
+  "b": "MA5-32000",
+  "score": 0.972,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532000-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "ZFP36 / COX2 (RAW 264.7 + LPS, five weeks apart): same no-primary panel",
+  "a": "MA5-25406",
+  "b": "MA5-14568",
+  "score": 0.967,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525406-ZFP36-AV-ICC-20191209134831.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514568-COX2-AV-ICC-20191105121718.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds MA5-32000, MA5-25113",
+  "a": "MA5-32598",
+  "b": "MA5-32000",
+  "score": 0.961,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA532000-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR (HeLa): same no-primary panel",
+  "a": "MA5-27772",
+  "b": "MA5-14847",
+  "score": 0.955,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527772-PLS3-ICC_20211115140859.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg"
+ },
+ {
+  "group": "HSP90 alpha / HSP27 (HeLa): same no-primary panel",
+  "a": "MA5-25036",
+  "b": "MA5-33170",
+  "score": 0.954,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525036-HSP90alpha-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA533170-HSP27-AV-ICC.jpg"
+ },
+ {
+  "group": "POR (no primary, three products) / Histone H3.3 pS31 (labelled stained): same panel",
+  "a": "MA5-44190",
+  "b": "MA5-24967",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-44190-HISTONEH3-3-ICCIF-2-20220706_161658.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524967-POR-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "POR (no primary, three products) / Histone H3.3 pS31 (labelled stained): same panel",
+  "a": "MA5-44190",
+  "b": "MA5-24964",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-44190-HISTONEH3-3-ICCIF-2-20220706_161658.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA524964-POR-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR (HeLa): same no-primary panel",
+  "a": "MA5-26328",
+  "b": "MA5-14847",
+  "score": 0.936,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds MA5-32000, MA5-25113",
+  "a": "MA5-32598",
+  "b": "MA5-25113",
+  "score": 0.928,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525113-Profilin1-ICC.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds MA5-32000, MA5-25113",
+  "a": "MA5-27782",
+  "b": "MA5-25113",
+  "score": 0.92,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA525113-Profilin1-ICC.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "a": "MA5-33215",
+  "b": "MA5-14935",
+  "score": 0.904,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-33215-BAK-ICCIF-1-20260106_160400.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
  }
 ]

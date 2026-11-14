@@ -311,3 +311,28 @@ Seventeenth batch (14,034 figures; crawl at ~26,650 MA5/PA5 pages):
 - Same target (likely legitimate): K-Ras, CD44, CD147, PGP9.5, Arntl, DTYMK.
 - Dark pairs: 3 new non-hub pairs (2 distinct), false by eye.
 - Blots (1,435 new): template scan 37 hit products, all already in Richardson's lists. Pattern A: 0 hits.
+
+Eighteenth batch (14,642 figures; crawl at ~28,250 MA5/PA5 pages):
+- **The POR / Histone H3.3 phospho-S31 panel (batch 14) is also on two more POR products, MA5-24967 and
+  MA5-24964 (HeLa, 2021-03-23).** It is labelled "No Primary antibody" on all three POR products and
+  "H3.3 (phospho S31) HeLa (Untreated)" on MA5-44190.
+- **RAD54L2 / Survivin / SCF / Plastin-3 (HeLa) adds hepatocyte growth factor receptor MA5-14847
+  (2020-08-24).** The group now has five products uploaded between 2020-07 and 2022-03.
+- **SUMO1 / BAK / TCF7L2 (A-431) adds a second TCF7L2 (MA5-14935, 2021-05-27) and a third BAK (MA5-36225,
+  2022-10-10).** Six products, 2021 to 2026.
+- **ZFP36 MA5-24972 and MA5-25406 (2019-12-09) and COX2 MA5-14568 (2019-11-05), RAW 264.7 + LPS: same
+  no-primary panel**, five weeks apart; it appears in both the main and the validation figures.
+- **Aurora B MA5-15321 (HeLa and T-47D, 2019-11-05) and MKK7 MA5-32362 (HeLa, 2019-12-09): same no-primary
+  panel.**
+- NME1 MA5-30707 (HeLa, no stamp) and AQP1 MA5-32593 (HeLa, 2019-11-04): same no-primary panel.
+- HSP90 alpha MA5-25036 (HeLa, no stamp) and HSP27 MA5-33170 (validation figure): same no-primary panel.
+- BCL11B / SENP1 adds a second SENP1 product (MA5-34767, 2023-03-16). Prohibitin / SDHA / Profilin 1 adds a
+  third prohibitin (MA5-32000) and a second profilin (MA5-25113). ACLY / ALDH1A1 / Bcl-xL: new cross-links
+  only.
+- Same target (likely legitimate): caspase 6, SLC7A11, LAMP1, 53BP1, STAT, RHEB, phospho-RNA pol II.
+- Dark pairs: 2 new non-hub pairs, both false by eye.
+- Blots (1,352 new): template scan 37 hit products, 34 already in Richardson's lists. Unlisted pattern C hits
+  MA5-26536 (share 0.35 vs MA5-17126), MA5-37951 (0.21 vs MA5-38523) and MA5-55374 (0.22 vs MA5-38523).
+  Shift test: no isolated peak for MA5-26536 or MA5-37951 against MA5-17126, MA5-31771 or MA5-38523 (all
+  peaks within 0.005 of p99, none at (0, 0)); the lane finder fails on MA5-55374. All three unresolved.
+  Pattern A: 0 hits.
