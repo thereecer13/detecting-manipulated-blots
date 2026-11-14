@@ -566,5 +566,93 @@
   "score": 0.92,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "MTDH / BRAF (MCF7, same batch): same no-primary panel",
+  "a": "MA5-37800",
+  "b": "MA5-32846",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-37800-METADHERIN-ICCIF-1-20240620_080430.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32846-B-RAF-ICCIF-1-20240620_080430.jpg"
+ },
+ {
+  "group": "COX1 / FANCA / cyclophilin 40 (A549, same batch): same no-primary panel",
+  "a": "MA5-35800",
+  "b": "MA5-35640",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35800-FANCA-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35640-CYCLOPHILIN40-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "MEKK2 / MYST1 / Map3k2 (A549): adds MYST1 MA5-38064",
+  "a": "MA5-37973",
+  "b": "MA5-38064",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-37973-MEKK2-ICCIF-1-20240415_151956.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-38064-MYST1-ICCIF-1-20240521_131813.jpg"
+ },
+ {
+  "group": "MEKK2 / MYST1 / Map3k2 (A549): adds MYST1 MA5-38064",
+  "a": "MA5-32237",
+  "b": "MA5-38064",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32237-MEKK2-ICCIF-1-20240415_151956.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-38064-MYST1-ICCIF-1-20240521_131813.jpg"
+ },
+ {
+  "group": "MTDH / BRAF (MCF7, same batch): same no-primary panel",
+  "a": "MA5-15564",
+  "b": "MA5-32846",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-15564-METADHERIN-ICCIF-1-20240620_080430.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32846-B-RAF-ICCIF-1-20240620_080430.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23): adds S100A6 (caption U-87 MG)",
+  "a": "MA5-27318",
+  "b": "MA5-26658",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC3-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526658-S100A6-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "COX1 / FANCA / cyclophilin 40 (A549, same batch): same no-primary panel",
+  "a": "MA5-35479",
+  "b": "MA5-35640",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35479-COX1-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35640-CYCLOPHILIN40-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "Tocilizumab / CD64 (U937, same batch): same isotype control",
+  "a": "MA5-48062",
+  "b": "MA5-48056",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-48062-TOCILIZUMAB-ICCIF-1-20230905_154513.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-48056-CD64-ICCIF-1-20230905_154513.jpg"
+ },
+ {
+  "group": "SUMO1 / BAK (A-431, 2022 vs 2026): adds BAK MA5-32111",
+  "a": "MA5-14877",
+  "b": "MA5-32111",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC1_20220603144555.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-32111-BAK-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23): adds S100A6 (caption U-87 MG)",
+  "a": "MA5-32936",
+  "b": "MA5-26658",
+  "score": 0.984,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA526658-S100A6-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "TRAIL-R2 / PRMT1 (HCT 116, seven months apart): same no-primary panel",
+  "a": "MA5-32693",
+  "b": "MA5-27756",
+  "score": 0.966,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532693-TRAILR2-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/MA527756-PRMT1-ICC-20191209134648.jpg"
  }
 ]

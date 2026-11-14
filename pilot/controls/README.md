@@ -260,3 +260,18 @@ Fourteenth batch (12,272 figures; crawl at ~21,900 MA5/PA5 pages):
   (12, 0) vs MA5-31771 (p99 0.118), neither at (0, 0); unresolved. Unlisted MA5-15880 (pattern A, share
   0.54) is a published third-party figure (J Cell Mol Med, multi-panel); the match is on white background
   and the dedicated pattern A detector gives 0 hits; false. Pattern A detector: 0 hits.
+
+Fifteenth batch (12,811 figures; crawl at ~23,500 MA5/PA5 pages):
+- **TRAIL-R2 MA5-32693 (HCT 116, 2020-07-13) and PRMT1 MA5-27756 (HCT 116, 2019-12-09): same no-primary
+  panel**, seven months apart.
+- RRM2 / PPP1CB / FZR1 / BAF57 group adds S100A6 MA5-26658 (same 2021-03-23 stamp). Its caption says U-87 MG;
+  the group's earlier captions say A-431.
+- SUMO1 / BAK group adds a second BAK product (MA5-32111, A-431, 2022-10-10); the group now spans 2022 to 2026.
+- MEKK2 / MYST1 / Map3k2 (A549) adds another MYST1 product (MA5-38064, 2024-05-21).
+- COX1 / FANCA (A549, 2023-01-12) adds cyclophilin 40 MA5-35640 (same stamp).
+- Same batch, lower concern: MTDH MA5-37800 and MA5-15564 / BRAF MA5-32846 (MCF7, 2024-06-20);
+  tocilizumab MA5-48062 / CD64 MA5-48056 isotype panel (U937, 2023-09-05).
+- Same target (likely legitimate): TP53, PP2A alpha, PTP1B, IGF2BP3, histone H3, AKT1, Strep tag II, VEGF,
+  STAT6, p53.
+- Dark pairs: 4 new non-hub pairs, all false by eye.
+- Blots (1,459 new): template scan 46 hit products, all already in Richardson's lists. Pattern A: 0 hits.
