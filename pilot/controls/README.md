@@ -615,3 +615,24 @@ Thirty-third batch (22,988 figures; crawl at ~49,920 MA5/PA5 pages):
   MA5-15887): shift peaks 0.056 at (5, -4) and 0.064 at (-4, -12), none at (0, 0): unresolved. Unlisted
   PA5-49926 (pattern B, 0.30 vs PA5-99439) is a two-strip FGF23 blot in the same strip layout; not checked
   further: unresolved. Pattern A detector: 20 hits, all listed.
+
+Thirty-fourth batch (23,549 figures; crawl at ~51,345 MA5/PA5 pages):
+- **Blot: PTPN22 PA5-118870 (WB-1, stamped 2021-09-23) matches Richardson's background pattern B**
+  (exemplar GRB14 PA5-101612, 2019-08-08; share 0.89, corr 0.90 at zero offset). With contrast stretched,
+  both blots show the same background: a dark streak down lane 1, a dark lower-left corner and the same
+  mottling, while the bands sit at different weights (about 90 kDa for GRB14, about 60 kDa for PTPN22).
+  PA5-118870 is not in Richardson's lists. It carries the 2021-09-23 upload stamp of the unresolved pattern
+  A candidates EVL, USP24 and ELF5.
+- Profilin 1 PA5-22991 / PA5-27612 (caption HeLa, no stamp) and ATG13 PA5-75682 (caption HCT 116,
+  2020-03-04): same no-primary panel, captions disagree.
+- GSTM3 PA5-142352 (HeLa, 2023-01-04) / FXR1 PA5-18556 (HeLa, 2024-02-01): same "Negative Control" panel,
+  13 months apart.
+- RAD18 PA5-52602 / PA5-52331 and NMP84 PA5-69083 (HeLa, no stamps): same no-primary panel.
+- TGN46 PA5-23068 / TRAP1 PA5-30358 (HeLa, no stamps): same no-primary panel.
+- Citrate synthase / MAOB PA5-29824 (Hep G2) adds a second MAOB product (PA5-79624, 2020-10-20).
+- Fumarase / S100A6 PA5-31862 (PC-3, 2021-03-23) adds Lyn PA5-27361 (caption PC-3, same stamp).
+- SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds a second SMARCB1 product (PA5-53764, 2020-03-04).
+- Same target (likely legitimate): MAOB, PSMB10, ATG13, SMARCB1; MA5-12902 / PA5-68465 published figures.
+- Dark pairs: 1 new non-hub pair, false by eye.
+- Blots (1,413 new): template scan 7 hit products, 6 listed (the unlisted one is PTPN22 above). Pattern A
+  detector: 22 hits, all listed.

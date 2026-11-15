@@ -2774,5 +2774,61 @@
   "score": 0.999,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA589734-NDUFAF2-ICC_20210510112017.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA576173-TIMM10-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "Citrate synthase / MAOB (Hep G2): same no-primary panel",
+  "a": "MA5-17265",
+  "b": "PA5-79624",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA517265-CS-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579624-MAOB-ICC-1-20201020140612.jpg"
+ },
+ {
+  "group": "Fumarase / S100A6 (PC-3, 2021-03-23) adds Lyn PA5-27361",
+  "a": "PA5-31862",
+  "b": "PA5-27361",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA531862-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA527361-Lyn-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "GSTM3 (2023-01-04) / FXR1 (2024-02-01), HeLa: same negative-control panel",
+  "a": "PA5-142352",
+  "b": "PA5-18556",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142352-GSTM3-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18556-FXR1-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds SMARCB1 PA5-53764",
+  "a": "PA5-77950",
+  "b": "PA5-53764",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA577950-E2F2-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA553764-SMARCB1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "Profilin 1 (HeLa) / ATG13 (HCT 116): same no-primary panel, captions disagree",
+  "a": "PA5-22991",
+  "b": "PA5-75682",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522991-PFN1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA575682-ATG13-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAD18 / NMP84 (HeLa): same no-primary panel",
+  "a": "PA5-52602",
+  "b": "PA5-69083",
+  "score": 0.977,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA552602-RAD18-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA569083-NMP84-ICC.jpg"
+ },
+ {
+  "group": "TGN46 / TRAP1 (HeLa): same no-primary panel",
+  "a": "PA5-23068",
+  "b": "PA5-30358",
+  "score": 0.897,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA523068-TGN46-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530358-TRAP1-ICC.jpg"
  }
 ]
