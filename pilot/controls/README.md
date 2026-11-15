@@ -475,3 +475,18 @@ Twenty-fifth batch (18,622 figures; crawl at ~38,600 MA5/PA5 pages):
 - Dark pairs: 5 new non-hub pairs, all false by eye.
 - Blots (1,453 new): template scan 13 hit products, all listed. Pattern A detector: 29 hits, 28 listed; the
   unlisted PA5-35924 is a published figure (share 1.0 but corr 0.19), false.
+
+Twenty-sixth batch (19,130 figures; crawl at ~40,000 MA5/PA5 pages):
+- Prohibitin / SDHA / Profilin 1 adds RPA70 PA5-17377 (caption HeLa, 2020-07-13, same stamp as SDHA
+  MA5-27782 / MA5-32598); the RPA70 copy is labelled "e", the Prohibitin copies "f".
+- S100A6 / KHK / TIF1 gamma ICC2 (SH-SY5Y, 2021-03-23) adds PPP1CB PA5-28225 (caption SH-SY5Y, same stamp).
+  This is a second PPP1CB product; PPP1CB MA5-32936 is in the other 2021-03-23 panel (RRM2 / FZR1, A-431).
+- Angiotensinogen / UQCRC2 (Hep G2) adds a third angiotensinogen product (PA5-21520, Hep G2).
+- Same target (likely legitimate): angiotensinogen, CBX5, tyrosine hydroxylase / phospho-TH.
+- Dark pairs: 4 new non-hub pairs, all false by eye.
+- Blots (1,459 new): template scan 16 hit products, 13 listed. Unlisted pattern C hits PA5-85869 (0.20 vs
+  MA5-17126), PA5-24986 (0.15 vs MA5-15896) and PA5-25754 (0.17 vs MA5-38523): no shift peak at (0, 0)
+  against MA5-17126 or MA5-31771 (peaks 0.029 to 0.055, each just above its p99, at offsets of 4 to 12 px):
+  unresolved. Pattern A detector: 22 hits, 21 listed. The unlisted EVL PA5-118886 (WB-1, 2021-09-23; share
+  1.0, corr 0.76 to exemplar PA5-99645) is a Thermo image in the same single-lane template (identical marker
+  ladder layout and lane frame, band at ~48 kDa): a pattern A candidate like CaV1.3 PA5-118794, unresolved.

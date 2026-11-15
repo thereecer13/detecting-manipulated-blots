@@ -1966,5 +1966,93 @@
   "score": 0.891,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA592419-Syntenin1-ICC-20201130085646.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA577971-ERCC1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 (SH-SY5Y, 2021-03-23): adds PPP1CB PA5-28225",
+  "a": "MA5-25174",
+  "b": "PA5-28225",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525174-KHK-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528225-PPP1CB-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 (SH-SY5Y, 2021-03-23): adds PPP1CB PA5-28225",
+  "a": "PA5-29004",
+  "b": "PA5-28225",
+  "score": 0.991,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529004-KHK-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528225-PPP1CB-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 (SH-SY5Y, 2021-03-23): adds PPP1CB PA5-28225",
+  "a": "MA5-32511",
+  "b": "PA5-28225",
+  "score": 0.99,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532511-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528225-PPP1CB-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "PA5-17325",
+  "b": "PA5-17377",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517325-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-15899",
+  "b": "PA5-17377",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515899-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-32000",
+  "b": "PA5-17377",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532000-Prohibitin-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-27782",
+  "b": "PA5-17377",
+  "score": 0.978,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-32598",
+  "b": "PA5-17377",
+  "score": 0.967,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-25113",
+  "b": "PA5-17377",
+  "score": 0.922,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525113-Profilin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 (HeLa): adds RPA70 PA5-17377",
+  "a": "MA5-25120",
+  "b": "PA5-17377",
+  "score": 0.921,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Angiotensinogen / UQCRC2 (Hep G2): adds angiotensinogen PA5-21520",
+  "a": "PA5-30204",
+  "b": "PA5-21520",
+  "score": 0.917,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA530204-UQCRC2-ICC_20190122140105.jpg.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521520-AGT-ICC.jpg"
  }
 ]
