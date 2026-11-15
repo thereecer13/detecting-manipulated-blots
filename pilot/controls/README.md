@@ -490,3 +490,25 @@ Twenty-sixth batch (19,130 figures; crawl at ~40,000 MA5/PA5 pages):
   unresolved. Pattern A detector: 22 hits, 21 listed. The unlisted EVL PA5-118886 (WB-1, 2021-09-23; share
   1.0, corr 0.76 to exemplar PA5-99645) is a Thermo image in the same single-lane template (identical marker
   ladder layout and lane frame, band at ~48 kDa): a pattern A candidate like CaV1.3 PA5-118794, unresolved.
+
+Twenty-seventh batch (19,703 figures; crawl at ~41,400 MA5/PA5 pages):
+- **Calnexin MA5-35588 (caption HeLa, 2022-10-10) and HADHA PA5-53317 (caption Hep G2, 2021-05-27): the
+  same stained panel "a"**, labelled "Calnexin" on one and "HADHA" on the other. In the HADHA figure, panel a
+  matches its own composite (d). In the calnexin figure, the DAPI, F-actin and composite panels (b to d) show
+  different, elongated cells that do not match panel a. The 2022 calnexin figure carries the 2021 HADHA
+  stained channel. Calnexin is an ER membrane protein and HADHA a mitochondrial enzyme.
+- eIF4E PA5-86554 carries two figures (2022-06-03), each sharing a different existing panel: ICC1 (caption
+  A-431) has the CHK2 MA5-32220 / ADAM9 PA5-17080 panel (2021-03-23); ICC2 (caption U-87 MG) has the
+  RSK MA5-15040 / PLCG1 PA5-85807 panel.
+- RAN / RAG2 / Cyclin B2 / Ku80 / PRMT1 / HSPA9 / JNK2 / CHEK1 / AGFG1 group (HeLa) adds Radixin PA5-21660
+  and RACK1 PA5-17484 (captions HeLa). The RACK1 copy is captioned "No primary control". This RACK1 product
+  is not the one in the Rab9a / RACK1 panel.
+- POT1 PA5-66996 (2020-08-24) / MCM4 PA5-65088 (2020-11-30): same no-primary panel, both captions SH-SY5Y,
+  three months apart; the POT1 copy is labelled "f", the MCM4 copy "e".
+- HMMR / cereblon (HeLa) adds a second cereblon product (PA5-78492, 2022-03-01).
+- Same target (likely legitimate): cereblon, MRTFA, and DAB2IP PA5-144652 (2024-01-18) / PA5-141039
+  (2023-01-04), whose whole figures are identical.
+- Dark pairs: 3 new non-hub pairs, all false by eye.
+- Blots (1,407 new): template scan 12 hit products, 11 listed. Unlisted pattern C hit PA5-59228 (0.26 vs
+  MA5-38647): peaks 0.042 at (-12, 3) and 0.044 at (11, 4), none at (0, 0): unresolved. Pattern A detector:
+  23 hits, all listed.

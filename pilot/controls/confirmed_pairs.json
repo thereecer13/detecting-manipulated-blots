@@ -2054,5 +2054,221 @@
   "score": 0.917,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA530204-UQCRC2-ICC_20190122140105.jpg.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA521520-AGT-ICC.jpg"
+ },
+ {
+  "group": "eIF4E PA5-86554 joins CHK2 / ADAM9 (A-431) and RSK / PLCG1 (U-87 MG) panels",
+  "a": "MA5-15040",
+  "b": "PA5-86554",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515040-RPS6KA1-ICC1_20220603145018.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA586554-EIF4E-ICC2_20220603151948.jpg"
+ },
+ {
+  "group": "eIF4E PA5-86554 joins CHK2 / ADAM9 (A-431) and RSK / PLCG1 (U-87 MG) panels",
+  "a": "MA5-32220",
+  "b": "PA5-86554",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532220-CHK2-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA586554-EIF4E-ICC1_20220603151809.jpg"
+ },
+ {
+  "group": "eIF4E PA5-86554 joins CHK2 / ADAM9 (A-431) and RSK / PLCG1 (U-87 MG) panels",
+  "a": "PA5-17080",
+  "b": "PA5-86554",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517080-ADAM9-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA586554-EIF4E-ICC1_20220603151809.jpg"
+ },
+ {
+  "group": "eIF4E PA5-86554 joins CHK2 / ADAM9 (A-431) and RSK / PLCG1 (U-87 MG) panels",
+  "a": "PA5-85807",
+  "b": "PA5-86554",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA585807-PLCG1-ICC2_20220603151208.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA586554-EIF4E-ICC2_20220603151948.jpg"
+ },
+ {
+  "group": "Calnexin (HeLa, 2022) / HADHA (Hep G2, 2021): same stained panel a, relabelled",
+  "a": "MA5-35588",
+  "b": "PA5-53317",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35588-CALNEXIN-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA553317-HADHA-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-22048",
+  "b": "PA5-21660",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-22048",
+  "b": "PA5-17484",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "POT1 / MCM4 (SH-SY5Y, 3 months apart): same no-primary panel",
+  "a": "PA5-66996",
+  "b": "PA5-65088",
+  "score": 0.98,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA566996-POT1-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA565088-MCM4-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-17299",
+  "b": "PA5-21660",
+  "score": 0.962,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517299-PRMT1-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-17299",
+  "b": "PA5-17484",
+  "score": 0.962,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517299-PRMT1-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-17652",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-16375",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-14953",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514953-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-32191",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532191-MAPK9-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-32180",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-78009",
+  "b": "PA5-21660",
+  "score": 0.944,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578009-HSPA9-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-17652",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-16375",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA516375-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-14953",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514953-Ku80-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-32191",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532191-MAPK9-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "MA5-32180",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532180-CHEK1-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-78009",
+  "b": "PA5-17484",
+  "score": 0.943,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578009-HSPA9-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "HMMR / cereblon (HeLa): adds cereblon PA5-78492",
+  "a": "PA5-88546",
+  "b": "PA5-78492",
+  "score": 0.938,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA588546-RHAMM-ICC_20220315041604.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-78492-CRBN-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-30234",
+  "b": "PA5-17484",
+  "score": 0.921,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-30234",
+  "b": "PA5-21660",
+  "score": 0.921,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA530234-AGFG1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-29233",
+  "b": "PA5-21660",
+  "score": 0.875,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529233-CyclinB2-ICC_20181116123226.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds Radixin PA5-21660 and RACK1 PA5-17484",
+  "a": "PA5-29233",
+  "b": "PA5-17484",
+  "score": 0.874,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529233-CyclinB2-ICC_20181116123226.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517484-RACK1-ICC.jpg"
  }
 ]
