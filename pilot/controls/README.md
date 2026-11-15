@@ -586,3 +586,20 @@ Thirty-first batch (21,905 figures; crawl at ~47,070 MA5/PA5 pages):
   HeLa IF figure; PA5-28647 / PA5-12447 are published figures.
 - Dark pairs: 6 new non-hub pairs, all false by eye.
 - Blots (1,453 new): template scan 11 hit products, all listed. Pattern A detector: 24 hits, all listed.
+
+Thirty-second batch (22,420 figures; crawl at ~48,470 MA5/PA5 pages):
+- **GLI3 MA5-42801 (caption NIH/3T3, a mouse line) and AGPS PA5-87935 (caption U2OS, a human line): the same
+  stained figure**, both the target channel and the DAPI merge, uploaded the same day (2023-10-10). The
+  captions name different targets, cell lines and species.
+- COX1 / FANCA / cyclophilin 40 MA5-35640 (A549, 2023-01-12) adds a second cyclophilin 40 product (PA5-27988,
+  caption A549, 2023-02-13).
+- NME1 / AQP1 / GABARAP (HeLa) adds a second NME1 product (PA5-79742, no stamp).
+- Prohibitin / SDHA / Profilin 1 / RPA70 (HeLa) adds Cofilin PA5-19727 (caption HeLa, no stamp).
+- RAN / RAG2 / ... / CBX5 group: another RAG2-CBX5 link, nothing new.
+- Same target (likely legitimate): NME1, HSPB8, RhoGDI, IRF5, GBA3, PABPC4, POLR2J, YY1, GMNN; PA5-41758 /
+  PA5-43290 / PA5-41802 share a HeLa IF figure.
+- Dark pairs: no new non-hub pairs.
+- Blots (1,469 new): template scan 12 hit products, 10 listed. Unlisted PA5-40591 (pattern A, 0.16) is a
+  published figure, false. Unlisted PA5-51546 (pattern B, 0.19 vs PA5-99439) is a two-lane SK-MEL-30 / HEK 293
+  blot in the standard layout with an RNA panel; at this share it is not checked further: unresolved.
+  Pattern A detector: 19 hits, all listed.

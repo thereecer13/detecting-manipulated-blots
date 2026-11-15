@@ -2726,5 +2726,37 @@
   "score": 0.992,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA596679-NME2-ICC-20210527145632.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA563019-NDUFAF2-ICC_20210511115308.jpg"
+ },
+ {
+  "group": "GLI3 (NIH/3T3, mouse) / AGPS (U2OS, human): same whole stained figure, captions disagree",
+  "a": "MA5-42801",
+  "b": "PA5-87935",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-42801-GLI3-ICCIF-3-20231010_092056.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-87935-AGPS-ICCIF-2-20231010_092056.jpg"
+ },
+ {
+  "group": "Cyclophilin 40 PA5-27988 joins COX1 / FANCA / cyclophilin 40 (A549)",
+  "a": "MA5-35800",
+  "b": "PA5-27988",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35800-FANCA-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-27988-CYCLOPHILIN40-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "group": "NME1 PA5-79742 joins NME1 / AQP1 / GABARAP (HeLa)",
+  "a": "MA5-32593",
+  "b": "PA5-79742",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532593-AQP1-ICC-20191104133922.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579742-NME1-ICC.jpg"
+ },
+ {
+  "group": "Cofilin PA5-19727 joins Prohibitin / SDHA / Profilin 1 / RPA70 (HeLa)",
+  "a": "MA5-25120",
+  "b": "PA5-19727",
+  "score": 0.991,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA519727-Cofilin-ICC.jpg"
  }
 ]
