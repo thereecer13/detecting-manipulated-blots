@@ -2638,5 +2638,61 @@
   "score": 0.901,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532192-PRKDC-ICC-20191209134648.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA576769-PCM1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "ASC (MCF7) / MDA5 (A549 + IFN gamma): same no-primary panel, captions disagree",
+  "a": "MA5-32312",
+  "b": "PA5-89344",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532312-PYCARD-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA589344-MDA5-ICC_20210701230239.jpg"
+ },
+ {
+  "group": "ASC (MCF7) / MDA5 (A549 + IFN gamma): same no-primary panel, captions disagree",
+  "a": "PA5-50915",
+  "b": "PA5-89344",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA550915-PYCARD-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA589344-MDA5-ICC_20210701230239.jpg"
+ },
+ {
+  "group": "TRIM25 PA5-27229 joins RAN / RAG2 / Cyclin B2 / Ku80 group (HeLa)",
+  "a": "PA5-17652",
+  "b": "PA5-27229",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA527229-TRIM25-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "TORC2 / TERT (HeLa, 2023-01-04): same negative-control panel",
+  "a": "PA5-142679",
+  "b": "PA5-142844",
+  "score": 0.973,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142679-TORC2-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142844-TERT-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "CD63 / MCT2 (Jurkat): same no-primary panel",
+  "a": "MA5-30187",
+  "b": "PA5-76603",
+  "score": 0.958,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA530187-CD63-ICC.jpg-1-20201226180234.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576603-Monocarboxylatetransporter2-ICC-1-20201020140612.jpg"
+ },
+ {
+  "group": "Syntenin-1 (MDA-MB-231/MCF7) / ERCC1 (U-87 MG): same no-primary panel, captions disagree",
+  "a": "MA5-32932",
+  "b": "PA5-29158",
+  "score": 0.891,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532932-Syntenin1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA529158-ERCC1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAD54L2 PA5-50258 joins RAD54L2 / Survivin group (HeLa)",
+  "a": "MA5-15077",
+  "b": "PA5-50258",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-50258-RAD54L2-ICCIF-1-20220301_073323.jpg"
  }
 ]

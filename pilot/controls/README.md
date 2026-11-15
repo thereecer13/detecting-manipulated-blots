@@ -552,3 +552,22 @@ Twenty-ninth batch (20,780 figures; crawl at ~44,200 MA5/PA5 pages):
   Pattern A detector: 21 hits, 19 listed. ELF5 PA5-118893 (WB-1, 2021-09-23, the EVL / USP24 upload stamp;
   share 1.0, corr 0.69) is in the same single-lane template: a third pattern A candidate from that upload,
   unresolved. PA5-109274 is a published figure (bar charts and strips, corr 0.09), false.
+
+Thirtieth batch (21,341 figures; crawl at ~45,670 MA5/PA5 pages):
+- **ASC MA5-32312 (caption MCF7, 2020-10-20) / PA5-50915 (2020-11-30) and MDA5 PA5-89344 (caption A549 treated
+  with IFN gamma, 2021-07-01): same no-primary panel**, captions disagree. The ASC pair was earlier listed as
+  same target; with MDA5 it is a cross-target panel.
+- TORC2 PA5-142679 / TERT PA5-142844 (both HeLa, 2023-01-04): same "-ve control" panel.
+- CD63 MA5-30187 (Jurkat, 2020-12-26) / MCT2 PA5-76603 (Jurkat, 2020-10-20): same no-primary panel.
+- Syntenin-1 / ERCC1 (captions MDA-MB-231 and MCF7 vs U-87 MG) adds a second ERCC1 product (PA5-29158, caption
+  U-87 MG, 2020-03-04).
+- RAN / RAG2 / Cyclin B2 / Ku80 / ... / Serpin H1 group (HeLa) adds TRIM25 PA5-27229 (caption HeLa,
+  2021-05-27, the Serpin H1 stamp). RAD54L2 / Survivin / SMARCA5 group (HeLa) adds a third RAD54L2 product
+  (PA5-50258).
+- Same target (likely legitimate): Tgoln2, EphB4, EPS8, ERCC1, RAD54L2; Oncostatin M PA5-120974 / PA5-76861 and
+  VAPB PA5-76727 / PA5-110563 share figures across the 2023-10-10 and 2024-10-25 uploads.
+- Dark pairs: 5 new non-hub pairs, all false by eye.
+- Blots (1,462 new): template scan 13 hit products, 11 listed. Unlisted PA5-19534 (0.20 vs MA5-17126): shift
+  peaks 0.111 at (-10, 2) and 0.122 at (-12, 0), none at (0, 0): unresolved. Unlisted PA5-14903 (0.18 vs
+  MA5-15887): peaks 0.038 at (-12, 8) and 0.039 at (12, 6), none at (0, 0): unresolved. Pattern A detector: 31
+  hits, 30 listed; the unlisted PA5-27338 is a published figure (corr 0.15), false.
