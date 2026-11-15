@@ -571,3 +571,18 @@ Thirtieth batch (21,341 figures; crawl at ~45,670 MA5/PA5 pages):
   peaks 0.111 at (-10, 2) and 0.122 at (-12, 0), none at (0, 0): unresolved. Unlisted PA5-14903 (0.18 vs
   MA5-15887): peaks 0.038 at (-12, 8) and 0.039 at (12, 6), none at (0, 0): unresolved. Pattern A detector: 31
   hits, 30 listed; the unlisted PA5-27338 is a published figure (corr 0.15), false.
+
+Thirty-first batch (21,905 figures; crawl at ~47,070 MA5/PA5 pages):
+- **Fra1 PA5-76185 (2019-12-09) and CDC25B PA5-17759 (2020-03-04): a "negative cell line" panel in one figure
+  is the no-primary panel in the other.** Fra1's panel e is labelled "CLDN5 HeLa(Negative)", naming a different
+  target; the same image is CDC25B's panel f, labelled "No Primary antibody". CLDN5 MA5-32614's own
+  "HeLa (Negative)" panel shows different cells, so the CLDN5 label is a leftover from a template. Fra1's
+  own no-primary panel f is a different image. Captions: U-87 MG and HeLa (Fra1) vs HeLa and serum-starved
+  HeLa (CDC25B).
+- RAN / RAG2 / Cyclin B2 / Ku80 / ... / Serpin H1 / TRIM25 group (HeLa) adds CBX5 PA5-82556 (caption HeLa,
+  2021-05-27, the Serpin H1 / TRIM25 stamp).
+- SUMO1 / NDKB (MCF7) / NDUFAF2 (Hep G2) adds a second NDUFAF2 product (PA5-63019, caption Hep G2, 2021-05-11).
+- Same target (likely legitimate): NDUFAF2, FABP7, PLCG1, Tsg101, H3K36me3; PA5-41758 / PA5-43290 share a
+  HeLa IF figure; PA5-28647 / PA5-12447 are published figures.
+- Dark pairs: 6 new non-hub pairs, all false by eye.
+- Blots (1,453 new): template scan 11 hit products, all listed. Pattern A detector: 24 hits, all listed.

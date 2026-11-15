@@ -2694,5 +2694,37 @@
   "score": 1.0,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-50258-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "Fra1 panel e (labelled 'CLDN5 HeLa(Negative)') = CDC25B no-primary panel f: stained-panel / no-primary swap",
+  "a": "PA5-76185",
+  "b": "PA5-17759",
+  "score": 0.888,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576185-FOSL1-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517759-CDC25B-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "CBX5 PA5-82556 joins RAN / RAG2 / Cyclin B2 / Ku80 group (HeLa)",
+  "a": "PA5-17652",
+  "b": "PA5-82556",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582556-CBX5-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
+  "a": "MA5-14877",
+  "b": "PA5-63019",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA563019-NDUFAF2-ICC_20210511115308.jpg"
+ },
+ {
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
+  "a": "PA5-96679",
+  "b": "PA5-63019",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA596679-NME2-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA563019-NDUFAF2-ICC_20210511115308.jpg"
  }
 ]
