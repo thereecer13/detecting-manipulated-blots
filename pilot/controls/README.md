@@ -603,3 +603,15 @@ Thirty-second batch (22,420 figures; crawl at ~48,470 MA5/PA5 pages):
   published figure, false. Unlisted PA5-51546 (pattern B, 0.19 vs PA5-99439) is a two-lane SK-MEL-30 / HEK 293
   blot in the standard layout with an RNA panel; at this share it is not checked further: unresolved.
   Pattern A detector: 19 hits, all listed.
+
+Thirty-third batch (22,988 figures; crawl at ~49,920 MA5/PA5 pages):
+- TRBP / TSC2 / MYD88 (HeLa, 2023-02-13 and 2023-03-09) adds a second TSC2 product (PA5-95194, caption HeLa,
+  2023-02-13).
+- SUMO1 / NDKB (MCF7) / NDUFAF2 (Hep G2) adds TIMM10 PA5-76173 (caption Hep G2, 2021-05-27, the SUMO1 / NDKB
+  stamp).
+- Same target (likely legitimate): ENOX2, CRX, NeuN, Profilin 1, TSC2.
+- Dark pairs: 1 new non-hub pair and 1 review pair, both false by eye.
+- Blots (1,464 new): template scan 14 hit products, 12 listed. Unlisted PA5-11652 (pattern C, 0.19 vs
+  MA5-15887): shift peaks 0.056 at (5, -4) and 0.064 at (-4, -12), none at (0, 0): unresolved. Unlisted
+  PA5-49926 (pattern B, 0.30 vs PA5-99439) is a two-strip FGF23 blot in the same strip layout; not checked
+  further: unresolved. Pattern A detector: 20 hits, all listed.

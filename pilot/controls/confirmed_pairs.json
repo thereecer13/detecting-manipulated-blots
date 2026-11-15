@@ -2758,5 +2758,21 @@
   "score": 0.991,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA519727-Cofilin-ICC.jpg"
+ },
+ {
+  "group": "TRBP / TSC2 / MYD88 (HeLa, 2023-02-13 and 2023-03-09): same no-primary panel",
+  "a": "MA5-38184",
+  "b": "PA5-95194",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-38184-TRBP-ICCIF-1-20230213_082654.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95194-TSC2-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
+  "a": "PA5-89734",
+  "b": "PA5-76173",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589734-NDUFAF2-ICC_20210510112017.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576173-TIMM10-ICC-20210527145632.jpg"
  }
 ]
