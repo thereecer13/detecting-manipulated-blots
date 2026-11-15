@@ -216,7 +216,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA515899-Prohibitin-ICC-20200824211338.jpg"
  },
  {
-  "group": "SUMO1 / BAK (A-431, 2022 vs 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14877",
   "b": "MA5-33215",
   "score": 0.902,
@@ -632,7 +632,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-48056-CD64-ICCIF-1-20230905_154513.jpg"
  },
  {
-  "group": "SUMO1 / BAK (A-431, 2022 vs 2026): adds BAK MA5-32111",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14877",
   "b": "MA5-32111",
   "score": 0.994,
@@ -752,7 +752,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-35251-MYD88-ICCIF-1_20230309130134.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-32111",
   "b": "MA5-32240",
   "score": 1.0,
@@ -808,7 +808,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA533009-CD2AP-ICC-20210323110406.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14877",
   "b": "MA5-32240",
   "score": 0.994,
@@ -864,7 +864,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA527772-PLS3-ICC_20211115140859.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-33215",
   "b": "MA5-32240",
   "score": 0.904,
@@ -872,7 +872,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA532240-TCF7L2-ICC-20210527145632.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-32111",
   "b": "MA5-14935",
   "score": 1.0,
@@ -880,7 +880,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-32240",
   "b": "MA5-36225",
   "score": 1.0,
@@ -888,7 +888,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36225-BAK-ICCIF-1-20221010_062607.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14935",
   "b": "MA5-36225",
   "score": 1.0,
@@ -928,7 +928,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-34767-SENP1-ICCIF-1-20230316_142139.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14877",
   "b": "MA5-14935",
   "score": 0.994,
@@ -936,7 +936,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA514935-TCF7L2-ICC-20210527145632.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-14877",
   "b": "MA5-36225",
   "score": 0.994,
@@ -1040,7 +1040,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA525113-Profilin1-ICC.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
+  "group": "SUMO1 (fig. ICC1) / BAK / TCF7L2 (A-431, 2021 to 2026): same no-primary panel",
   "a": "MA5-33215",
   "b": "MA5-14935",
   "score": 0.904,
@@ -1112,7 +1112,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-36100-METADHERIN-ICCIF-1-20240620_080430.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-14877",
   "b": "PA5-78729",
   "score": 0.996,
@@ -1128,7 +1128,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/MA5-47852-CD37-ICCIF-1-20230905_154513.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-26308",
   "b": "PA5-78729",
   "score": 0.989,
@@ -1136,7 +1136,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA578729-ADAR-ICC-20210527145632.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP (A-431 vs U-87 MG captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-28676",
   "b": "PA5-78729",
   "score": 0.989,
@@ -1384,7 +1384,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA519958-BNIP3L-ICC.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB (A-431 vs U-87 MG vs MCF7 captions): same no-primary panel",
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
   "a": "MA5-14877",
   "b": "PA5-96679",
   "score": 0.986,
@@ -1584,7 +1584,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA517023-RRM1-ICC3-20210323110406.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "PA5-78729",
   "b": "PA5-78516",
   "score": 0.998,
@@ -1600,7 +1600,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA531862-S100A6-ICC-20210323110406.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-14877",
   "b": "PA5-78516",
   "score": 0.997,
@@ -1632,7 +1632,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA517023-RRM1-ICC1-20210323110406.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
   "a": "MA5-14877",
   "b": "PA5-89734",
   "score": 0.992,
@@ -1640,7 +1640,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA589734-NDUFAF2-ICC_20210510112017.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (2021 fig.) / NDKB (MCF7) / NDUFAF2 (Hep G2): same no-primary panel, captions disagree",
   "a": "PA5-96679",
   "b": "PA5-89734",
   "score": 0.992,
@@ -1672,7 +1672,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA570227-ORC2-ICC-20200304132147.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-26308",
   "b": "PA5-78516",
   "score": 0.988,
@@ -1680,7 +1680,7 @@
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA578516-LAMTOR1-ICC-20210527145632.jpg"
  },
  {
-  "group": "SUMO1 / BAK / TCF7L2 / ADAR / TOLLIP / NDKB / LAMTOR1 / NDUFAF2 (four cell lines in captions): same no-primary panel",
+  "group": "SUMO1 (fig. ICC3) / ADAR / TOLLIP / LAMTOR1 (U-87 MG, 2021 to 2022): same no-primary panel",
   "a": "MA5-28676",
   "b": "PA5-78516",
   "score": 0.988,

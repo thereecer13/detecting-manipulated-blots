@@ -417,3 +417,18 @@ Twenty-second batch (16,929 figures; crawl at ~34,180 MA5/PA5 pages):
   PA5-85905 (share 0.20 vs MA5-17126): shift test peaks 0.066 at (-1, -12) vs MA5-17126 (p99 0.060) and
   0.042 at (11, 9) vs MA5-31771 (p99 0.039), none at (0, 0): unresolved. Pattern A detector: 25 hits, all
   already listed.
+
+Correction (SUMO1 family, batches 13 to 21). SUMO1 MA5-14877 carries three different ICC figures, each
+with its own no-primary panel, and the batch notes chained them into one "SUMO1 / BAK / TCF7L2 / ADAR /
+TOLLIP / NDKB / LAMTOR1 / NDUFAF2" group described as one panel captioned in four cell lines. That is
+wrong. A panel-level check (pairs linked only when they share the same panel, not the same product) gives
+three groups:
+- SUMO1 figure ICC1 (2022-06-03) / BAK x4 / TCF7L2 x2: one panel, all captions A-431, 2021 to 2026.
+- SUMO1 figure ICC3 (2022-06-03) / ADAR / TOLLIP x2 / LAMTOR1: one panel, all captions U-87 MG.
+- SUMO1 figure of 2021-05-27 / NDKB PA5-96679 (caption MCF7) / NDUFAF2 PA5-89734 (caption Hep G2): one
+  panel, captions disagree.
+The same check on every other group finds no claim that changes: the other multi-panel groups are separate
+panels shared by the same products (PR / ER alpha main and validation figures, ZFP36 / COX2, citrate
+synthase), the HEK 293 group's three panels were already listed separately, and the RRM2 / PPP1CB group has
+a second shared panel (S100A6 MA5-26658 with RRM2, PPP1CB and RRM1). confirmed_pairs.json group names for the
+SUMO1 family are updated accordingly.
