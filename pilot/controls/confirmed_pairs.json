@@ -1886,5 +1886,85 @@
   "score": 0.967,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC2-20210323110406.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "BCL11B / SENP1 (A549): adds PTP1B PA5-109252",
+  "a": "MA5-34767",
+  "b": "PA5-109252",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34767-SENP1-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-109252-PTP1B-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "DNA ligase III (HeLa) / BRIP1 (293T): whole figure identical, captions disagree",
+  "a": "PA5-21480",
+  "b": "PA5-27096",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-21480-DNALIGASEIII-ICCIF-1-20220614_145106.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-27096-BRIP1-ICCIF-1-20220614_145106.jpg"
+ },
+ {
+  "group": "BCL11B / SENP1 (A549): adds PTP1B PA5-109252",
+  "a": "MA5-32546",
+  "b": "PA5-109252",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32546-BCL11B-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-109252-PTP1B-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "BMAL1 / PKA C-alpha (NIH:OVCAR-3, 7 months apart): same no-primary panel",
+  "a": "MA5-32750",
+  "b": "PA5-28160",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32750-BMAL1-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-28160-PKAALPHA-ICCIF-1-20230525_112519.jpg"
+ },
+ {
+  "group": "BMAL1 / PKA C-alpha (NIH:OVCAR-3, 7 months apart): same no-primary panel",
+  "a": "MA5-35561",
+  "b": "PA5-28160",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35561-BMAL1-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-28160-PKAALPHA-ICCIF-1-20230525_112519.jpg"
+ },
+ {
+  "group": "SMARCB1 / ERG / E2F2 / ORC2 (HeLa): adds E2F2 PA5-41473",
+  "a": "PA5-53932",
+  "b": "PA5-41473",
+  "score": 0.973,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA553932-SMARCB1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA541473-E2F2-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "PPP2R1A / PRDX1 (HeLa): same no-primary panel",
+  "a": "MA5-14952",
+  "b": "PA5-27487",
+  "score": 0.973,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514952-PPP2R1A-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA527487-PRDX1-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "BCL11B / SENP1 (A549): adds PTP1B PA5-109252",
+  "a": "MA5-35519",
+  "b": "PA5-109252",
+  "score": 0.947,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35519-SENP1-ICCIF-1-20230418_161349.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-109252-PTP1B-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "Syntenin-1 (MDA-MB-231/MCF7) / ERCC1 (U-87 MG): same no-primary panel, captions disagree",
+  "a": "MA5-32932",
+  "b": "PA5-77971",
+  "score": 0.891,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532932-Syntenin1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577971-ERCC1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "Syntenin-1 (MDA-MB-231/MCF7) / ERCC1 (U-87 MG): same no-primary panel, captions disagree",
+  "a": "PA5-92419",
+  "b": "PA5-77971",
+  "score": 0.891,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA592419-Syntenin1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577971-ERCC1-ICC-20200304132147.jpg"
  }
 ]

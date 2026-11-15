@@ -458,3 +458,20 @@ Twenty-fourth batch (18,056 figures; crawl at ~37,150 MA5/PA5 pages):
   vs PA5-99439) and PA5-62996 (share 0.20 vs MA5-31717): shift peaks 0.048 at (-11, 12) / 0.024 at (-12, -3)
   and 0.046 at (6, -7) / 0.043 at (1, -12) vs MA5-17126 / MA5-31771, none at (0, 0): unresolved. Pattern A
   detector: 11 hits, all already in Richardson's lists.
+
+Twenty-fifth batch (18,622 figures; crawl at ~38,600 MA5/PA5 pages):
+- **DNA ligase III PA5-21480 and BRIP1 PA5-27096 (both 2022-06-14): the whole figure is the same image**,
+  both stained panels included. The captions disagree: LIG3 "at nucleus", HeLa, 4% PFA at RT for 15 min;
+  BRIP1 "at cytoplasm", 293T, 2% PFA in culture medium at 37 C for 30 min. The image shows nuclear staining.
+- **Syntenin-1 MA5-32932 / PA5-92419 (caption MDA-MB-231 and MCF7, 2020-11-30) and ERCC1 PA5-77971 (caption
+  U-87 MG, 2020-03-04): same no-primary panel**, captions disagree, nine months apart.
+- BMAL1 MA5-32750 / MA5-35561 (2022-10-10) and PKA C-alpha PA5-28160 (2023-05-25): same no-primary panel,
+  both captions NIH:OVCAR-3, seven months apart.
+- PPP2R1A MA5-14952 (HeLa, 2020-07-13) and PRDX1 PA5-27487 (HeLa treated with H2O2, 2020-08-24): same
+  no-primary panel, six weeks apart.
+- BCL11B / SENP1 (A549) adds PTP1B PA5-109252 (A549, 2023-03-16, same stamp as SENP1 MA5-34767).
+- SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds a second E2F2 product (PA5-41473, 2020-03-04).
+- Same target (likely legitimate): eIF4A1, E2F2, MRPS30, NAT10, GRP78.
+- Dark pairs: 5 new non-hub pairs, all false by eye.
+- Blots (1,453 new): template scan 13 hit products, all listed. Pattern A detector: 29 hits, 28 listed; the
+  unlisted PA5-35924 is a published figure (share 1.0 but corr 0.19), false.
