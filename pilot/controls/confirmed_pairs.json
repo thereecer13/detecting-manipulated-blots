@@ -1814,5 +1814,77 @@
   "score": 0.973,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA553932-SMARCB1-ICC-20200304132147.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA567313-ORC2-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "PA5-100535",
+  "b": "PA5-78496",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5100535-FZR1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "PA5-89181",
+  "b": "PA5-78496",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589181-BAF57-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "MA5-33009",
+  "b": "PA5-78496",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA533009-CD2AP-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "MA5-27318",
+  "b": "PA5-78496",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "MA5-26497",
+  "b": "PA5-78496",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526497-RRM1-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "PA5-17023",
+  "b": "PA5-78496",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517023-RRM1-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK (2021-03-23, SH-SY5Y): adds TIF1 gamma ICC2",
+  "a": "MA5-25174",
+  "b": "PA5-78496",
+  "score": 0.988,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525174-KHK-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK (2021-03-23, SH-SY5Y): adds TIF1 gamma ICC2",
+  "a": "PA5-29004",
+  "b": "PA5-78496",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529004-KHK-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 (2021-03-23, A-431): adds TIF1 gamma ICC1",
+  "a": "MA5-32936",
+  "b": "PA5-78496",
+  "score": 0.967,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg"
  }
 ]

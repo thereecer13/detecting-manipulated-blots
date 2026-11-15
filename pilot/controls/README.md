@@ -445,3 +445,16 @@ Twenty-third batch (17,530 figures; crawl at ~35,700 MA5/PA5 pages; groups now c
   PA5-13181 (share 0.15 vs MA5-31680): shift peaks 0.064 at (-6, -6) vs MA5-17126 (p99 0.058) and 0.077 at
   (12, -9) vs MA5-31771 (p99 0.073), none at (0, 0): unresolved. Pattern A detector: 20 hits, 19 listed;
   the unlisted PA5-14896 is a published figure (ACS Omega, multi-panel, corr 0.18), false.
+
+Twenty-fourth batch (18,056 figures; crawl at ~37,150 MA5/PA5 pages):
+- TIF1 gamma PA5-78496 carries two figures from the 2021-03-23 11:04:06 batch, each sharing a different
+  existing panel: ICC1 (caption A-431) has the RRM2 / PPP1CB / FZR1 / BAF57 / RRM1 / CD2AP no-primary panel;
+  ICC2 (caption SH-SY5Y) has the S100A6 MA5-32511 / KHK (MA5-25174, PA5-29004) panel. Captions agree within
+  each panel.
+- Same-target pairs (likely legitimate): Histone macroH2A, ALDOC, galectin 1.
+- Dark pairs: 1 new non-hub pair (phospho-H2A.X MA5-27753 / HNF1A PA5-142250), false by eye. One review pair
+  (PA5-20838 / PA5-27195) is two published figures (gel vs tissue), false.
+- Blots (1,504 new): template scan 13 hit products, 11 listed. Unlisted pattern C hits PA5-49843 (share 0.24
+  vs PA5-99439) and PA5-62996 (share 0.20 vs MA5-31717): shift peaks 0.048 at (-11, 12) / 0.024 at (-12, -3)
+  and 0.046 at (6, -7) / 0.043 at (1, -12) vs MA5-17126 / MA5-31771, none at (0, 0): unresolved. Pattern A
+  detector: 11 hits, all already in Richardson's lists.
