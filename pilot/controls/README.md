@@ -532,3 +532,23 @@ Twenty-eighth batch (20,253 figures; crawl at ~42,800 MA5/PA5 pages):
   test cannot extract a lane: unresolved. Pattern A detector: 25 hits, 24 listed. The unlisted USP24
   PA5-118918 (WB-1, 2021-09-23, the same upload stamp as EVL PA5-118886; share 1.0, corr 0.82 to PA5-104063)
   is in the same single-lane template: a pattern A candidate, unresolved.
+
+Twenty-ninth batch (20,780 figures; crawl at ~44,200 MA5/PA5 pages):
+- PTP1B MA5-25574 / MA5-25616 / MA5-25641 / MA5-25642 (captions MCF-7, no stamp) and SCRIB PA5-66680
+  (caption MCF7 and Caco-2, 2020-11-30): same no-primary panel, PTP1B copies labelled "e", SCRIB "f".
+- Ferritin MA5-14736 (caption Hep G2 and MCF7, 2020-08-24) and MCT1 PA5-76687 (caption Hep G2, 2020-03-04):
+  same no-primary panel, five months apart; labelled "f" and "e".
+- TWIST1 MA5-17195 / V-ATPase E1 PA5-29899 (HeLa, both 2019-03-19): same no-primary panel.
+- DNA-PK MA5-32192 (HeLa, 2019-12-09) / PCM1 PA5-76769 (HeLa, 2020-03-04): same no-primary panel.
+- S100A6 / KHK / TIF1 gamma ICC2 / PPP1CB PA5-28225 (SH-SY5Y, 2021-03-23) adds PTPRN PA5-76932 (caption
+  SH-SY5Y, same stamp).
+- RAD54L2 / Survivin group (HeLa) adds SMARCA5 PA5-52601 (caption HeLa, 2020-07-13, same stamp as Survivin
+  MA5-15077). Prohibitin / SDHA / Profilin 1 / RPA70 adds a fourth Prohibitin product (PA5-19556).
+- Same target (likely legitimate): PD-L1 MA5-32450 / PA5-88105, FAM3B, adenylate cyclase 3, Prohibitin;
+  vimentin MA5-13203 / PA5-27231 carry the same published figure.
+- Dark pairs: 4 new non-hub pairs, all false by eye.
+- Blots (1,517 new): template scan 8 hit products, 7 listed. The unlisted PA5-19216 (0.21 vs MA5-38647) is a
+  three-strip blot (A, B, C) without a lane frame; the shift test cannot extract a lane: unresolved.
+  Pattern A detector: 21 hits, 19 listed. ELF5 PA5-118893 (WB-1, 2021-09-23, the EVL / USP24 upload stamp;
+  share 1.0, corr 0.69) is in the same single-lane template: a third pattern A candidate from that upload,
+  unresolved. PA5-109274 is a published figure (bar charts and strips, corr 0.09), false.

@@ -2462,5 +2462,181 @@
   "score": 0.899,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA517762-STMN1-ICC-20200713083630.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA519079-EWSR1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 / PPP1CB (SH-SY5Y): adds PTPRN PA5-76932",
+  "a": "MA5-32511",
+  "b": "PA5-76932",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532511-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576932-PTPRN-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "TWIST1 / V-ATPase E1 (HeLa, 2019-03-19): same no-primary panel",
+  "a": "MA5-17195",
+  "b": "PA5-29899",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA517195-TWIST1-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA529899-VATPaseE1-ICC-20190319102800.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "PA5-99087",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-99087-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "MA5-15077",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515077-Survivin-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "MA5-14847",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514847-Hepatocytegrowthfactorreceptor-ICC1-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "PA5-67940",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA567940-GBA-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "PA5-89311",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-89311-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "PA5-27087",
+  "b": "PA5-52601",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA527087-Survivin-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 / PPP1CB (SH-SY5Y): adds PTPRN PA5-76932",
+  "a": "PA5-29004",
+  "b": "PA5-76932",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529004-KHK-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576932-PTPRN-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 / PPP1CB (SH-SY5Y): adds PTPRN PA5-76932",
+  "a": "MA5-25174",
+  "b": "PA5-76932",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525174-KHK-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576932-PTPRN-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma ICC2 / PPP1CB (SH-SY5Y): adds PTPRN PA5-76932",
+  "a": "PA5-28225",
+  "b": "PA5-76932",
+  "score": 0.99,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA528225-PPP1CB-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576932-PTPRN-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 / RPA70: adds Prohibitin PA5-19556",
+  "a": "PA5-17377",
+  "b": "PA5-19556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517377-RPA70-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA519556-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 / RPA70: adds Prohibitin PA5-19556",
+  "a": "MA5-27782",
+  "b": "PA5-19556",
+  "score": 0.972,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527782-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA519556-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "PTP1B (MCF-7) / SCRIB (MCF7 and Caco-2): same no-primary panel",
+  "a": "MA5-25642",
+  "b": "PA5-66680",
+  "score": 0.97,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525642-PTPN1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA566680-SCRIB-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "PTP1B (MCF-7) / SCRIB (MCF7 and Caco-2): same no-primary panel",
+  "a": "MA5-25641",
+  "b": "PA5-66680",
+  "score": 0.97,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525641-PTPN1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA566680-SCRIB-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "PTP1B (MCF-7) / SCRIB (MCF7 and Caco-2): same no-primary panel",
+  "a": "MA5-25574",
+  "b": "PA5-66680",
+  "score": 0.969,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525574-PTPN1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA566680-SCRIB-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "PTP1B (MCF-7) / SCRIB (MCF7 and Caco-2): same no-primary panel",
+  "a": "MA5-25616",
+  "b": "PA5-66680",
+  "score": 0.969,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525616-PTPN1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA566680-SCRIB-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 / RPA70: adds Prohibitin PA5-19556",
+  "a": "MA5-32598",
+  "b": "PA5-19556",
+  "score": 0.961,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532598-SDHA-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA519556-Prohibitin-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "MA5-27772",
+  "b": "PA5-52601",
+  "score": 0.955,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527772-PLS3-ICC_20211115140859.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin group (HeLa): adds SMARCA5 PA5-52601",
+  "a": "MA5-26328",
+  "b": "PA5-52601",
+  "score": 0.936,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA552601-SMARCA5-ICC-20200713083630.jpg"
+ },
+ {
+  "group": "Ferritin (Hep G2 and MCF7) / MCT1 (Hep G2): same no-primary panel",
+  "a": "MA5-14736",
+  "b": "PA5-76687",
+  "score": 0.903,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514736-FTL-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576687-SLC16A1-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "DNA-PK / PCM1 (HeLa): same no-primary panel",
+  "a": "MA5-32192",
+  "b": "PA5-76769",
+  "score": 0.901,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532192-PRKDC-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576769-PCM1-ICC-20200304132147.jpg"
  }
 ]
