@@ -432,3 +432,16 @@ panels shared by the same products (PR / ER alpha main and validation figures, Z
 synthase), the HEK 293 group's three panels were already listed separately, and the RRM2 / PPP1CB group has
 a second shared panel (S100A6 MA5-26658 with RRM2, PPP1CB and RRM1). confirmed_pairs.json group names for the
 SUMO1 family are updated accordingly.
+
+Twenty-third batch (17,530 figures; crawl at ~35,700 MA5/PA5 pages; groups now checked at panel level):
+- RSK1/2/3 MA5-15040 / PLCG1 PA5-85807 (U-87 MG, both 2022-06-03): same no-primary panel.
+- FAS MA5-32489 (validation figure, T-47D vs MDA-MB-231, 2021-05-27) / TRPV6 PA5-51295 (T-47D and MCF7,
+  2021-03-23): same no-primary panel, two months apart.
+- EDF1 PA5-142102 / PRDM14 PA5-142696 (HeLa, both 2023-01-04): same "-ve control" panel.
+- SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds a second ORC2 product (PA5-67313, 2020-03-04); same panel files
+  as the existing group.
+- Dark pairs: 2 new non-hub pairs, both false by eye.
+- Blots (1,550 new): template scan 13 hit products, 12 already in Richardson's lists. Unlisted pattern C hit
+  PA5-13181 (share 0.15 vs MA5-31680): shift peaks 0.064 at (-6, -6) vs MA5-17126 (p99 0.058) and 0.077 at
+  (12, -9) vs MA5-31771 (p99 0.073), none at (0, 0): unresolved. Pattern A detector: 20 hits, 19 listed;
+  the unlisted PA5-14896 is a published figure (ACS Omega, multi-panel, corr 0.18), false.
