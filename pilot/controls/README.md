@@ -512,3 +512,23 @@ Twenty-seventh batch (19,703 figures; crawl at ~41,400 MA5/PA5 pages):
 - Blots (1,407 new): template scan 12 hit products, 11 listed. Unlisted pattern C hit PA5-59228 (0.26 vs
   MA5-38647): peaks 0.042 at (-12, 3) and 0.044 at (11, 4), none at (0, 0): unresolved. Pattern A detector:
   23 hits, all listed.
+
+Twenty-eighth batch (20,253 figures; crawl at ~42,800 MA5/PA5 pages):
+- **ADAM17 PA5-17079 (caption HeLa, 2020-08-24) and 4EBP1 PA5-17745 (caption HeLa, 2020-07-13): same
+  no-primary panel**, six weeks apart. This extends the Annexin A2 MA5-32689 (caption Hep G2) / ADAM17 panel,
+  so it is one panel across three products with captions Hep G2 and HeLa.
+- RAD54L2 / Survivin / SCF / Plastin-3 / GBA / HGFR (HeLa) adds a second Survivin product (PA5-27087, caption
+  HeLa, 2020-11-30).
+- RAN / RAG2 / Cyclin B2 / Ku80 / ... / Radixin / RACK1 (HeLa) adds Serpin H1 PA5-83072 (caption HeLa,
+  2021-05-27).
+- IkB alpha / EWSR1 / Stathmin 1 / GTF2B adds a second EWSR1 product (PA5-19079, 2020-03-04), whose caption
+  also says MCF7 while the other members say HeLa.
+- Same target (likely legitimate): HAS3, UBE2G2, RAD18, Survivin, EWSR1; MA5-15738 / PA5-32178 carry the same
+  published figure.
+- Dark pairs: 8 new non-hub pairs, all false by eye.
+- Blots (1,455 new): template scan 13 hit products, 11 listed. Unlisted hits: PA5-83441 (0.47 vs PA5-101507,
+  a multi-lane blot with a lane-1 ladder): shift peaks 0.020 at (-8, 12) and 0.052 at (-5, -12), none at
+  (0, 0): unresolved. PA5-79097 (0.27 vs MA5-17126) is a single lane on white with no frame, so the shift
+  test cannot extract a lane: unresolved. Pattern A detector: 25 hits, 24 listed. The unlisted USP24
+  PA5-118918 (WB-1, 2021-09-23, the same upload stamp as EVL PA5-118886; share 1.0, corr 0.82 to PA5-104063)
+  is in the same single-lane template: a pattern A candidate, unresolved.
