@@ -2886,5 +2886,85 @@
   "score": 0.974,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA527913-GSTP1-ICC-20210323110406.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA597731-ACTN4-ICC_20211111143649.jpg"
+ },
+ {
+  "group": "S100A8 MA5-17621 / MyD88 PA5-19919 (SK-BR-3, both 2019-11-05): same no-primary panel",
+  "a": "MA5-17621",
+  "b": "PA5-19919",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA517621-S100A8-ICC-20191105121718.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA519919-MyD88-ICC-20191105121718.jpg"
+ },
+ {
+  "group": "SUMO1 / NDKB / NDUFAF2 / TIMM10 group adds a second SUMO1 product PA5-24560",
+  "a": "MA5-14877",
+  "b": "PA5-24560",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA524560-SUMO1-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA / SMARCA5 (HeLa) adds a third RAD54L2 product PA5-65253",
+  "a": "PA5-99087",
+  "b": "PA5-65253",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-99087-RAD54L2-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-65253-RAD54L2-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "SUMO1 MA5-14877 ICC2 (U-2 OS) / ZC3H12A PA5-83215 (U-2 OS): same no-primary panel",
+  "a": "MA5-14877",
+  "b": "PA5-83215",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC2_20220603144717.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA583215-ZC3H12A-ICC_20210803131731.jpg"
+ },
+ {
+  "group": "FXR PA5-18620 / Kallikrein 6 PA5-143104 (U2OS, 2024-02-01): same -ve control panel",
+  "a": "PA5-18620",
+  "b": "PA5-143104",
+  "score": 0.981,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18620-FXR-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-143104-KALLIKREIN6-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "PLZF MA5-15667 (HeLa, panel e) / PML PA5-51039 (HeLa, panel f): same no-primary panel",
+  "a": "MA5-15667",
+  "b": "PA5-51039",
+  "score": 0.942,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515667-PLZF-ICC-20200713083630.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA551039-PML-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "PRKAR1B MA5-25517 / CRKL PA5-28622 (SH-SY5Y): same no-primary panel",
+  "a": "MA5-25517",
+  "b": "PA5-28622",
+  "score": 0.933,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525517-PARKAR1B-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528622-CRKL-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "CYP2E1 MA5-32605 / 14-3-3 epsilon PA5-28937 (Hep G2): same no-primary panel",
+  "a": "MA5-32605",
+  "b": "PA5-28937",
+  "score": 0.92,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532605-CYP2E1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528937-14-3-3-epsilon-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "GMNN (two products) / Golgin-97 PA5-30048 (HeLa): same no-primary panel",
+  "a": "PA5-30612",
+  "b": "PA5-30048",
+  "score": 0.907,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA530612-GMNN-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530048-Golgin97-ICC.jpg"
+ },
+ {
+  "group": "GMNN (two products) / Golgin-97 PA5-30048 (HeLa): same no-primary panel",
+  "a": "PA5-76710",
+  "b": "PA5-30048",
+  "score": 0.866,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576710-GMNN-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530048-Golgin97-ICC.jpg"
  }
 ]

@@ -93,8 +93,9 @@ def panels_of(job):
         h, w = s.shape
         out.append({"catalog": rec["catalog"], "file": rec["file"], "url": rec.get("url"), "k": k, "box": [x0, y0, x1, y1],
                     "dark": hi < 60, "white": hi, "idx": idx, "q": np.stack(qs),
-                    "v": cv2.resize(s, (WV, max(16, round(h * WV / w))), interpolation=cv2.INTER_AREA) * 255,
-                    "g": cv2.resize(p.astype(np.float32).max(2), (WV, max(16, round(h * WV / w))), interpolation=cv2.INTER_AREA)})
+                    # kept as uint8 (4x less memory than float32; cast back in _verify): ~60k panels no longer fit in 16 GB as float32
+                    "v": np.round(cv2.resize(s, (WV, max(16, round(h * WV / w))), interpolation=cv2.INTER_AREA) * 255).astype(np.uint8),
+                    "g": np.round(cv2.resize(p.astype(np.float32).max(2), (WV, max(16, round(h * WV / w))), interpolation=cv2.INTER_AREA)).clip(0, 255).astype(np.uint8)})
     return out
 
 
@@ -107,6 +108,7 @@ def _verify(args):
     """Best NCC of the plain panels (bright panels; stretching amplifies JPEG noise) or of the stretched
     panels (dark panels, where the plain ones are almost flat)."""
     (va, ga, da), (vb, gb, db) = args
+    va, ga, vb, gb = (x.astype(np.float32) for x in (va, ga, vb, gb))
     plain = max(match(ga, gb), match(gb, ga)) if ga.std() > 3 and gb.std() > 3 else -1
     if da or db:   # a dark panel has only a few gray levels: smooth away the quantization / JPEG blocks
         sa, sb = cv2.GaussianBlur(va, (0, 0), 1.5), cv2.GaussianBlur(vb, (0, 0), 1.5)
@@ -144,6 +146,7 @@ def run(recs, roots, out, jobs):
                 for j in top:
                     if row[j] >= CAND:
                         key = (min(s + i, int(j)), max(s + i, int(j))); cand[key] = max(cand.get(key, -1), float(row[j]))
+    for p in P: del p["q"]
     print(f"{len(cand)} candidate pairs", flush=True)
     keys = list(cand)
     with ProcessPoolExecutor(jobs) as ex: sc = list(ex.map(_verify, [((P[i]["v"], P[i]["g"], P[i]["dark"]), (P[j]["v"], P[j]["g"], P[j]["dark"])) for i, j in keys], chunksize=64))

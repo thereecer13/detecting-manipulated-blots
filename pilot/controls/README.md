@@ -658,3 +658,27 @@ Thirty-fifth batch (24,090 figures; crawl at ~52,735 MA5/PA5 pages):
     Unresolved.
   - PA5-50087 (pattern B, 0.15) is a single-strip PHF3 blot in a different layout: false.
   Pattern A detector: 25 hits, 23 listed (the two above).
+
+Thirty-sixth batch (25,068 figures, 56,087 panels; crawl at ~55,300 MA5/PA5 pages). The first attempt ran out of
+memory (16 GB); `shared_panels.py` now keeps its 160-px verification panels as uint8 instead of float32.
+- S100A8 MA5-17621 / MyD88 PA5-19919 (caption SK-BR-3, both stamped 2019-11-05): same no-primary panel (f).
+- PLZF MA5-15667 (HeLa, 2020-07-13, labelled "e") / PML PA5-51039 (HeLa, 2020-03-04, labelled "f"): same
+  no-primary panel under different panel letters.
+- PRKAR1B MA5-25517 (no stamp) / CRKL PA5-28622 (2020-11-30), both captioned SH-SY5Y: same no-primary panel.
+- CYP2E1 MA5-32605 (no stamp) / 14-3-3 epsilon PA5-28937 (2020-03-04), both Hep G2: same no-primary panel.
+- GMNN PA5-30612 and PA5-76710 / Golgin-97 PA5-30048 (HeLa, no stamps): same no-primary panel.
+- FXR PA5-18620 / Kallikrein 6 PA5-143104 (U2OS, both 2024-02-01): same "-ve control" panel.
+- SUMO1 MA5-14877 ICC2 (U-2 OS, 2022-06-03; the panel shared with BAK MA5-33215) also appears as the
+  no-primary panel of ZC3H12A PA5-83215 (U-2 OS, 2021-08-03), ten months earlier.
+- SUMO1 / NDKB / NDUFAF2 / TIMM10 adds a second SUMO1 product (PA5-24560, Hep G2, same stamp 2021-05-27 as
+  MA5-14877); RAD54L2 / Survivin group (HeLa) adds a third RAD54L2 product (PA5-65253, same stamp 2022-03-01
+  as PA5-99087).
+- Same target (likely legitimate): PTPN2, TRF2/RAP1, SATB1, SYK, Aqp4, KIR2DL3, BRK, YBX1, RAD54L2, SUMO1.
+- False: two published-figure pairs (GPC3 / PA5-27288 microscopy insets) and 3 dark non-hub pairs, by eye.
+- Blots (2,626 new): template scan 24 hit products, 22 listed; unlisted EED PA5-92427 (pattern A 0.16) is a
+  multi-band HeLa / mouse brain blot and CGKII PA5-49822 (pattern B 0.22) a two-lane HUVEC blot: both false.
+  Pattern A detector: 39 hits, 38 listed. Unlisted:
+  - SRRM2 PA5-118900 (WB-1, stamped 2021-09-23; detector share 1.0, corr 0.72, the highest correlation seen
+    so far vs PA5-99645): with contrast stretched, the lane background shows the exemplar's pale patch at
+    37-50 kDa and the same dark mottling, with the band moved from ~180 kDa to ~300 kDa. Strong candidate;
+    the sixth blot from the 2021-09-23 upload flagged (EVL, USP24, ELF5, SOS2 pattern A; PTPN22 pattern B).
