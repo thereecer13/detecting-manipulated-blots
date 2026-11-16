@@ -2830,5 +2830,61 @@
   "score": 0.897,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA523068-TGN46-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA530358-TRAP1-ICC.jpg"
+ },
+ {
+  "group": "ASC (MCF7) / MDA5 (A549 + IFN gamma): same no-primary panel, captions disagree",
+  "a": "MA5-32312",
+  "b": "PA5-82028",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532312-PYCARD-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582028-MDA5-ICC_20210701225753.jpg"
+ },
+ {
+  "group": "RSK / PLCG1 (U-87 MG and NTERA-2, 2022-06-03) adds RSK1 PA5-90646",
+  "a": "MA5-32276",
+  "b": "PA5-90646",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532276-PLCG1-ICC1_20220603145702.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA590646-RPS6KA1-ICC1_20220603152232.jpg"
+ },
+ {
+  "group": "MAO-B / CK1 epsilon (HeLa, 2024-02-01): same negative-control panel",
+  "a": "PA5-18442",
+  "b": "PA5-18704",
+  "score": 0.988,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18442-MONOAMINEOXIDASEB-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18704-CK1EPSILON-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B adds Coilin PA5-66995 (HeLa)",
+  "a": "MA5-24791",
+  "b": "PA5-66995",
+  "score": 0.982,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524791-EWSR1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA566995-Coilin-ICC.jpg"
+ },
+ {
+  "group": "GSTP1 (PC-3, three products) / ACTN4 (PC-3): same no-primary panel",
+  "a": "MA5-15309",
+  "b": "PA5-97731",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA515309-GSTP1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA597731-ACTN4-ICC_20211111143649.jpg"
+ },
+ {
+  "group": "GSTP1 (PC-3, three products) / ACTN4 (PC-3): same no-primary panel",
+  "a": "MA5-29313",
+  "b": "PA5-97731",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529313-GSTP1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA597731-ACTN4-ICC_20211111143649.jpg"
+ },
+ {
+  "group": "GSTP1 (PC-3, three products) / ACTN4 (PC-3): same no-primary panel",
+  "a": "MA5-27913",
+  "b": "PA5-97731",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527913-GSTP1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA597731-ACTN4-ICC_20211111143649.jpg"
  }
 ]

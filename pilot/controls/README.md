@@ -636,3 +636,25 @@ Thirty-fourth batch (23,549 figures; crawl at ~51,345 MA5/PA5 pages):
 - Dark pairs: 1 new non-hub pair, false by eye.
 - Blots (1,413 new): template scan 7 hit products, 6 listed (the unlisted one is PTPN22 above). Pattern A
   detector: 22 hits, all listed.
+
+Thirty-fifth batch (24,090 figures; crawl at ~52,735 MA5/PA5 pages):
+- GSTP1 MA5-15309 / MA5-29313 (caption PC-3, 2020-11-30) and MA5-27913 (2021-03-23) with alpha-actinin-4
+  PA5-97731 (caption PC-3, 2021-11-11): same no-primary panel, labelled "f" in all four products.
+- MAO-B PA5-18442 / CK1 epsilon PA5-18704 (HeLa, both 2024-02-01): same "-ve control" panel.
+- ASC / MDA5 (captions MCF7 vs A549 + IFN gamma) adds a second MDA5 product (PA5-82028, caption A549 + IFN
+  gamma, 2021-07-01), so the panel is on five products.
+- IkB alpha / EWSR1 / Stathmin 1 / GTF2B (captions HeLa and MCF7) adds Coilin PA5-66995 (caption HeLa, no stamp)
+  and a second GTF2B product (PA5-28556, 2020-03-04).
+- RSK / PLCG1 (2022-06-03) adds RSK1 PA5-90646; this panel's captions say NTERA-2 cl.D1 (MA5-32276 / PA5-90646)
+  as well as U-87 MG (MA5-15040 / PA5-85807).
+- Same target (likely legitimate): FOXA1, TFAP2, GTF2B, ING5, MDA5, VCP, PRDX5, AIPL1, SBP2, PLCG1.
+- Dark / review pairs: 4 new non-hub pairs (published figures), all false by eye.
+- Blots (1,444 new): template scan 15 hit products, 12 listed. Unlisted:
+  - SOS2 PA5-118863 (WB-1, stamped 2021-09-23; template pattern A 0.57 vs PA5-102052; pattern A detector
+    share 0.75, corr 0.38): single lane in the same template. The fourth candidate from the 2021-09-23
+    upload (with EVL, USP24, ELF5; PTPN22 from that upload matched pattern B). Unresolved.
+  - DOCK7 PA5-68163 (WB-1, 2025-10-08; template 0.23; detector share 0.73, corr 0.38): single lane in the
+    same template; with contrast stretched it shows a pale patch at 37-50 kDa like the exemplar PA5-99645.
+    Unresolved.
+  - PA5-50087 (pattern B, 0.15) is a single-strip PHF3 blot in a different layout: false.
+  Pattern A detector: 25 hits, 23 listed (the two above).
