@@ -784,3 +784,26 @@ Forty-second batch (28,479 figures, 62,945 panels; crawl at ~64,000 MA5/PA5 page
 - False by eye: 5 dark non-hub pairs.
 - Blots (921 new): template scan 7 hit products, all listed. Pattern A detector: 14 hits, all listed (the
   2019-08-08 upload plus RAB17 PA5-115816). No 2021-09-23 stamps.
+
+## Sorting the 405 confirmed pairs by what their captions say (tier_pairs.py)
+
+For each confirmed pair, the two product captions are compared. Cell lines come from a search of the full
+caption against a list of known lines. The species of the secondary antibody comes from the secondary's
+catalog number (A32790/A27034/A32731/A32794 anti-rabbit; A32766/A32723/A28175/A32787 anti-mouse; A32814
+anti-goat). The upload date comes from the image URL stamp.
+
+| Tier | Rule | Pairs | Groups* |
+|---|---|---|---|
+| 1a captions contradict: cell line or panel label | no cell line in common, or a conflicting panel label (CrkL/SOX11) | 44 | 19 |
+| 1b captions contradict: secondary species only | same cell line, but anti-mouse vs anti-rabbit (or anti-goat) | 90 | 25 |
+| 2 probable reuse | captions consistent, upload stamps more than 7 days apart | 89 | 21 |
+| 3 plausible batch control | captions consistent, stamps within 7 days | 71 | 20 |
+| 4 undetermined | consistent where known, but a stamp or caption detail is missing | 111 | 15 |
+
+*Groups are connected sets of products, ranked by their most severe pair. A group can join products through
+different shared panels, so evidence is per pair (pair_tiers.json). Group summary: group_tiers.json.
+
+Caveats: 1b is weaker than 1a. A lab could put both secondaries on a no-primary well, though the captions never
+say so. Upload stamps are not experiment dates, so tier 2 vs 3 is only a hint. Tier 1a includes same-day pairs
+such as MA5-54064 (HT-1080) / MA5-54052 (C2C12): a no-primary image shows one cell line, so both captions
+cannot be right.

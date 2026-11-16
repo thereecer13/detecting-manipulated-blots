@@ -1,0 +1,1153 @@
+[
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 18,
+  "products": [
+   "MA5-14877",
+   "MA5-14935",
+   "MA5-26308",
+   "MA5-28676",
+   "MA5-32111",
+   "MA5-32240",
+   "MA5-33215",
+   "MA5-36225",
+   "PA5-110105",
+   "PA5-21668",
+   "PA5-24560",
+   "PA5-63019",
+   "PA5-76173",
+   "PA5-78516",
+   "PA5-78729",
+   "PA5-83215",
+   "PA5-89734",
+   "PA5-96679"
+  ],
+  "reasons": [
+   "cell lines ['hepg2'] vs ['mcf7']",
+   "cell lines ['mcf7'] vs ['hepg2']",
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 8,
+  "products": [
+   "MA5-15153",
+   "MA5-16400",
+   "MA5-24791",
+   "MA5-24864",
+   "MA5-29441",
+   "PA5-17762",
+   "PA5-19079",
+   "PA5-66995"
+  ],
+  "reasons": [
+   "cell lines ['hela'] vs ['mcf7']",
+   "cell lines ['mcf7'] vs ['hela']; secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 6,
+  "products": [
+   "MA5-14501",
+   "MA5-14841",
+   "MA5-16329",
+   "MA5-16394",
+   "PA5-32297",
+   "PA5-68778"
+  ],
+  "reasons": [
+   "cell lines ['a431', 'shsy5y'] vs ['skbr3', 't47d']",
+   "cell lines ['skbr3', 't47d'] vs ['a431', 'shsy5y']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 4,
+  "products": [
+   "MA5-14815",
+   "MA5-26249",
+   "MA5-26250",
+   "MA5-26255"
+  ],
+  "reasons": [
+   "cell lines ['mdamb231'] vs ['shsy5y']; secondary anti-rabbit vs anti-mouse",
+   "cell lines ['shsy5y'] vs ['mdamb231']; secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 4,
+  "products": [
+   "MA5-32689",
+   "PA5-17079",
+   "PA5-17638",
+   "PA5-17745"
+  ],
+  "reasons": [
+   "cell lines ['hepg2'] vs ['hela']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 4,
+  "products": [
+   "MA5-32932",
+   "PA5-29158",
+   "PA5-77971",
+   "PA5-92419"
+  ],
+  "reasons": [
+   "cell lines ['mcf7', 'mdamb231'] vs ['u87mg']",
+   "cell lines ['mcf7', 'mdamb231'] vs ['u87mg']; secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 4,
+  "products": [
+   "MA5-32312",
+   "PA5-50915",
+   "PA5-82028",
+   "PA5-89344"
+  ],
+  "reasons": [
+   "cell lines ['hela', 'mcf7'] vs ['a549']",
+   "cell lines ['hela', 'mcf7'] vs ['a549']; secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 3,
+  "products": [
+   "MA5-25136",
+   "MA5-25137",
+   "MA5-32397"
+  ],
+  "reasons": [
+   "cell lines ['a431'] vs ['u87mg']; secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 3,
+  "products": [
+   "PA5-102006",
+   "PA5-31828",
+   "PA5-78108"
+  ],
+  "reasons": [
+   "cell lines ['thp1'] vs ['k562']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 3,
+  "products": [
+   "MA5-25517",
+   "PA5-28622",
+   "PA5-40698"
+  ],
+  "reasons": [
+   "label conflict: \"No Primary antibody\" vs \"BeWo (Negative)\"",
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-54052",
+   "MA5-54064"
+  ],
+  "reasons": [
+   "cell lines ['ht1080'] vs ['c2c12']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-46937",
+   "MA5-46938"
+  ],
+  "reasons": [
+   "cell lines ['hek293'] vs ['hela']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-35690",
+   "MA5-35691"
+  ],
+  "reasons": [
+   "cell lines ['c6'] vs ['u2os']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "PA5-21480",
+   "PA5-27096"
+  ],
+  "reasons": [
+   "cell lines ['hela'] vs ['hek293']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-35588",
+   "PA5-53317"
+  ],
+  "reasons": [
+   "cell lines ['hela'] vs ['hepg2']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-42801",
+   "PA5-87935"
+  ],
+  "reasons": [
+   "cell lines ['nih3t3'] vs ['u2os']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "PA5-22991",
+   "PA5-75682"
+  ],
+  "reasons": [
+   "cell lines ['hela'] vs ['hct116']"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "PA5-18988",
+   "PA5-56878"
+  ],
+  "reasons": [
+   "cell lines ['ovcar3', 'shsy5y'] vs ['bewo', 'hacat']; secondary anti-goat vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "n_products": 2,
+  "products": [
+   "MA5-17154",
+   "PA5-78203"
+  ],
+  "reasons": [
+   "cell lines ['mcf7'] vs ['hela']; secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 15,
+  "products": [
+   "MA5-25174",
+   "MA5-26497",
+   "MA5-26658",
+   "MA5-27318",
+   "MA5-32511",
+   "MA5-32936",
+   "MA5-33009",
+   "PA5-100535",
+   "PA5-17023",
+   "PA5-28225",
+   "PA5-29004",
+   "PA5-76932",
+   "PA5-78496",
+   "PA5-78501",
+   "PA5-89181"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 12,
+  "products": [
+   "MA5-14847",
+   "MA5-15077",
+   "MA5-26328",
+   "MA5-27772",
+   "PA5-27087",
+   "PA5-50258",
+   "PA5-52601",
+   "PA5-57874",
+   "PA5-65253",
+   "PA5-67940",
+   "PA5-89311",
+   "PA5-99087"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 11,
+  "products": [
+   "MA5-15899",
+   "MA5-25113",
+   "MA5-25120",
+   "MA5-27782",
+   "MA5-32000",
+   "MA5-32598",
+   "PA5-17325",
+   "PA5-17377",
+   "PA5-19556",
+   "PA5-19727",
+   "PA5-27627"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 8,
+  "products": [
+   "MA5-24727",
+   "MA5-26128",
+   "MA5-32184",
+   "MA5-32482",
+   "MA5-34812",
+   "MA5-35343",
+   "MA5-36259",
+   "MA5-37843"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 8,
+  "products": [
+   "MA5-26261",
+   "PA5-17569",
+   "PA5-41473",
+   "PA5-53764",
+   "PA5-53932",
+   "PA5-67313",
+   "PA5-70227",
+   "PA5-77950"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 5,
+  "products": [
+   "MA5-25574",
+   "MA5-25616",
+   "MA5-25641",
+   "MA5-25642",
+   "PA5-66680"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 4,
+  "products": [
+   "MA5-24964",
+   "MA5-24967",
+   "MA5-24977",
+   "MA5-44190"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit",
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 4,
+  "products": [
+   "MA5-17264",
+   "MA5-17265",
+   "PA5-29824",
+   "PA5-79624"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 4,
+  "products": [
+   "MA5-15309",
+   "MA5-27913",
+   "MA5-29313",
+   "PA5-97731"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 4,
+  "products": [
+   "MA5-29446",
+   "MA5-29447",
+   "PA5-28344",
+   "PA5-76544"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 3,
+  "products": [
+   "MA5-26030",
+   "MA5-26032",
+   "MA5-32548"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 3,
+  "products": [
+   "MA5-14756",
+   "MA5-27745",
+   "MA5-32327"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 3,
+  "products": [
+   "MA5-14568",
+   "MA5-24972",
+   "MA5-25406"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 3,
+  "products": [
+   "MA5-33010",
+   "PA5-27361",
+   "PA5-31862"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-25160",
+   "PA5-104555"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-15044",
+   "MA5-29371"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-23922",
+   "MA5-32083"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-27756",
+   "MA5-32693"
+  ],
+  "reasons": [
+   "secondary anti-rabbit vs anti-mouse"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-15321",
+   "MA5-32362"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-17195",
+   "PA5-29899"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-14736",
+   "PA5-76687"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "PA5-17759",
+   "PA5-76185"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-17621",
+   "PA5-19919"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-15667",
+   "PA5-51039"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "n_products": 2,
+  "products": [
+   "MA5-25570",
+   "PA5-29571"
+  ],
+  "reasons": [
+   "secondary anti-mouse vs anti-rabbit"
+  ]
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 17,
+  "products": [
+   "MA5-14953",
+   "MA5-16375",
+   "MA5-32180",
+   "MA5-32191",
+   "PA5-17299",
+   "PA5-17484",
+   "PA5-17652",
+   "PA5-21660",
+   "PA5-22048",
+   "PA5-27229",
+   "PA5-29233",
+   "PA5-30234",
+   "PA5-31144",
+   "PA5-78009",
+   "PA5-79410",
+   "PA5-82556",
+   "PA5-83072"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 9,
+  "products": [
+   "MA5-32690",
+   "MA5-34626",
+   "MA5-34657",
+   "MA5-35112",
+   "MA5-35331",
+   "MA5-35475",
+   "MA5-41253",
+   "PA5-90290",
+   "PA5-95583"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 4,
+  "products": [
+   "MA5-32237",
+   "MA5-34741",
+   "MA5-37973",
+   "MA5-38064"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 4,
+  "products": [
+   "MA5-35479",
+   "MA5-35640",
+   "MA5-35800",
+   "PA5-27988"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 4,
+  "products": [
+   "MA5-32546",
+   "MA5-34767",
+   "MA5-35519",
+   "PA5-109252"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 4,
+  "products": [
+   "PA5-142192",
+   "PA5-142352",
+   "PA5-142531",
+   "PA5-18556"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "MA5-35236",
+   "MA5-38382",
+   "MA5-42414"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "MA5-31976",
+   "MA5-33140",
+   "MA5-35686"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "MA5-32271",
+   "MA5-37072",
+   "PA5-98523"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "PA5-142102",
+   "PA5-142696",
+   "PA5-18408"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "MA5-32750",
+   "MA5-35561",
+   "PA5-28160"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "PA5-142679",
+   "PA5-142844",
+   "PA5-19001"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 3,
+  "products": [
+   "MA5-35679",
+   "MA5-36214",
+   "PA5-110999"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "MA5-32252",
+   "MA5-32771"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "PA5-115736",
+   "PA5-116926"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "MA5-32489",
+   "PA5-51295"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "MA5-14952",
+   "PA5-27487"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "PA5-65088",
+   "PA5-66996"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "MA5-32192",
+   "PA5-76769"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "MA5-30187",
+   "PA5-76603"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "2 probable reuse",
+  "n_products": 2,
+  "products": [
+   "PA5-142561",
+   "PA5-18658"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 5,
+  "products": [
+   "MA5-15040",
+   "MA5-32220",
+   "PA5-17080",
+   "PA5-85807",
+   "PA5-86554"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 4,
+  "products": [
+   "MA5-15564",
+   "MA5-32846",
+   "MA5-36100",
+   "MA5-37800"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 4,
+  "products": [
+   "MA5-35251",
+   "MA5-35293",
+   "MA5-38184",
+   "PA5-95194"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-48060",
+   "MA5-48065"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-35269",
+   "MA5-41103"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-52464",
+   "MA5-52465"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-54044",
+   "MA5-54172"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-23521",
+   "MA5-27733"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-51672",
+   "MA5-51677"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-14800",
+   "MA5-32428"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-34809",
+   "MA5-35602"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-48056",
+   "MA5-48062"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-31997",
+   "MA5-35405"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "MA5-47852",
+   "MA5-47876"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-18442",
+   "PA5-18704"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-143104",
+   "PA5-18620"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-41442",
+   "PA5-85695"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-17919",
+   "PA5-78539"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-143222",
+   "PA5-143265"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "3 plausible batch control",
+  "n_products": 2,
+  "products": [
+   "PA5-142075",
+   "PA5-142651"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 4,
+  "products": [
+   "MA5-30707",
+   "MA5-32593",
+   "PA5-78366",
+   "PA5-79742"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 4,
+  "products": [
+   "PA5-102832",
+   "PA5-38037",
+   "PA5-78492",
+   "PA5-88546"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 4,
+  "products": [
+   "MA5-29010",
+   "MA5-32372",
+   "PA5-21520",
+   "PA5-30204"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 3,
+  "products": [
+   "MA5-27900",
+   "MA5-44265",
+   "PA5-78028"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 3,
+  "products": [
+   "MA5-24853",
+   "MA5-32702",
+   "PA5-19958"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 3,
+  "products": [
+   "PA5-30048",
+   "PA5-30612",
+   "PA5-76710"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-24861",
+   "MA5-29049"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-15796",
+   "MA5-24297"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (caption details missing)",
+  "n_products": 2,
+  "products": [
+   "MA5-51586",
+   "MA5-51623"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-12508",
+   "MA5-27746"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-25036",
+   "MA5-33170"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "PA5-52602",
+   "PA5-69083"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "PA5-23068",
+   "PA5-30358"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-32276",
+   "PA5-90646"
+  ],
+  "reasons": []
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "n_products": 2,
+  "products": [
+   "MA5-32605",
+   "PA5-28937"
+  ],
+  "reasons": []
+ }
+]
