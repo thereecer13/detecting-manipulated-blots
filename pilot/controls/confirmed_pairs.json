@@ -3326,5 +3326,37 @@
   "score": 0.989,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-26308-TOLLIP-ICC-20210527145632.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA520926-ZC3H12A-ICC_20210729141302.jpg"
+ },
+ {
+  "group": "CBX5 / G3BP1 no-primary panel (HeLa, 2020 vs 2021)",
+  "a": "MA5-32018",
+  "b": "PA5-90073",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532018-Chromoboxproteinhomolog5-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA590073-G3BP1-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "CBX5 / G3BP1 no-primary panel (HeLa, 2020 vs 2021)",
+  "a": "PA5-17441",
+  "b": "PA5-90073",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517441-Chromoboxproteinhomolog5-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA590073-G3BP1-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "ILK / FAS / TRPV6 adds Galectin 1 MA5-32779",
+  "a": "MA5-32779",
+  "b": "PA5-28571",
+  "score": 0.97,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532779-LGALS1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA528571-ILK-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "Acetyl-H3 K18 / acetyl-H4 K8 no-primary panel f",
+  "a": "MA5-24669",
+  "b": "PA5-40092",
+  "score": 0.952,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA524669-Acetyl-HistoneH3-Lys18-AV-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA540092-Acetyl-HistoneH4-Lys8-AV-ICC-20180124100757.jpg"
  }
 ]

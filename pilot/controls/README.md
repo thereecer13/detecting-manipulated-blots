@@ -843,3 +843,13 @@ Forty-fourth batch (29,328 figures, 64,673 panels; crawl at ~66,100 MA5/PA5 page
     the shift-correlation peak (0.12) is not at (0, 0). Its lane is uniformly flat with no texture.
   - MCART2 PA5-24374 (pattern C, share 0.18): false; peak 0.06, at the noise level.
   - Pattern A detector: 12 hits, all listed. No 2021-09-23 stamps.
+
+Forty-fifth batch (29,663 figures, 65,343 panels; crawl at ~67,100 MA5/PA5 pages):
+- CBX5 MA5-32018 and PA5-17441 (HeLa, stamped 2020-08-24) / G3BP1 PA5-90073 (HeLa, stamped 2021-05-27): same
+  no-primary panel (e on CBX5, f on G3BP1). The captions are consistent, but the uploads are nine months apart.
+- The ILK / FAS / TRPV6 group adds Galectin 1 MA5-32779 (caption MCF7 and MDA-MB-231, no stamp).
+- Acetyl-histone H3 (Lys18) MA5-24669 / acetyl-histone H4 (Lys8) PA5-40092 (stamped 2018-01-24): same
+  "No Primary" panel f on products for two different histone marks.
+- Same target (likely legitimate): ACIN1, GGA2, GOLGA4, POFUT2, RAB13, RSRC1.
+- False by eye: published-figure panels (MA5-20125, MA5-12902 vs PA5-106838) and 7 dark non-hub pairs.
+- Blots (925 new): template scan 8 hit products, all listed. Pattern A detector: all hits listed.
