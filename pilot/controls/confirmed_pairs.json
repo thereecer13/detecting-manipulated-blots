@@ -3022,5 +3022,37 @@
   "score": 0.999,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA576173-TIMM10-ICC-20210527145632.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA521668-NDUFB9-ICC_20210511132848.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / PRMT1 / HSPA9 / CHEK1 / AGFG1 / Radixin (HeLa) adds RAD51 PA5-31144",
+  "a": "PA5-21660",
+  "b": "PA5-31144",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA521660-Radixin-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA531144-RAD51-ICC.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / TIF1 gamma / PPP1CB (SH-SY5Y, 2021-03-23) adds SAP102 PA5-78501",
+  "a": "PA5-78496",
+  "b": "PA5-78501",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578501-SAP102-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA / SMARCA5 (HeLa) adds OPA1 PA5-57874",
+  "a": "MA5-26328",
+  "b": "PA5-57874",
+  "score": 0.96,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526328-SCF-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA557874-OPA1-ICC.jpg"
+ },
+ {
+  "group": "Integrin beta 1 MA5-27900 / VISTA MA5-44265 adds a second ITGB1 product PA5-78028",
+  "a": "MA5-44265",
+  "b": "PA5-78028",
+  "score": 0.859,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-44265-VISTA-ICCIF-1-20230619_162658.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578028-ITGB1-ICC.jpg"
  }
 ]

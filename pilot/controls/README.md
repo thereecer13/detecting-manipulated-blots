@@ -708,3 +708,18 @@ Thirty-eighth batch (26,414 figures, 58,603 panels; crawl at ~58,800 MA5/PA5 pag
 - Blots (1,398 new): template scan 16 hit products, 15 listed. Unlisted SARS-CoV-2 nucleocapsid PA5-144378
   (pattern C 0.39) is a single-lane recombinant-protein blot in a different layout: false. Pattern A
   detector: 19 hits, all listed.
+
+Thirty-ninth batch (26,973 figures, 59,750 panels; crawl at ~60,250 MA5/PA5 pages). No new cross-target groups;
+four existing groups grow:
+- RAN / RAG2 / Cyclin B2 / Ku80 / PRMT1 / HSPA9 / CHEK1 / AGFG1 / Radixin (HeLa) adds RAD51 PA5-31144 (caption
+  HeLa, no stamp), where the panel is labelled "No primary control" rather than "e".
+- RAD54L2 / Survivin / SCF / Plastin-3 / HGFR / GBA / SMARCA5 (HeLa) adds OPA1 PA5-57874 (caption HeLa, no
+  stamp).
+- S100A6 / KHK / TIF1 gamma / PPP1CB (SH-SY5Y, 2021-03-23) adds SAP102 PA5-78501 (caption SH-SY5Y, same stamp).
+- Integrin beta 1 MA5-27900 / VISTA MA5-44265 adds a second ITGB1 product (PA5-78028, caption A-431, no stamp).
+- p21 MA5-31479 (2022-06-14) and CDK4 PA5-27827 (2020-03-19) carry the same stained MCF7 figure; both
+  captions describe it as a CDK4 (green) / p21 (red) co-stain with both antibodies, so it is legitimate.
+- Same target (likely legitimate): MLPH, PTPN2, DNAJC, DOK4, GTF2F, INPP5, SKIP, Integrin beta 1.
+- Blots (1,428 new): template scan 11 hit products, 8 listed. Unlisted GPC5 PA5-50185 (pattern B 0.37),
+  cytokeratin 7 PA5-85983 (pattern C 0.22; no zero-offset peak in shift2.py) and TMF1 PA5-31184 (pattern C
+  0.18) are blots in different layouts: false. Pattern A detector: 16 hits, all listed.
