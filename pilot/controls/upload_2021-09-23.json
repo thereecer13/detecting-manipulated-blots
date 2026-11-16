@@ -1,0 +1,490 @@
+[
+ {
+  "catalog": "PA5-118822",
+  "target": "CKMT2",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118822-CKMT2-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118496",
+  "target": "RARA",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118496-RARA-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118739",
+  "target": "ETS1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118739-ETS1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118790",
+  "target": "XRCC1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118790-XRCC1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118768",
+  "target": "AMYLOIDPRECURSORPROTEIN",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118768-AMYLOIDPRECURSORPROTEIN-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118709",
+  "target": "PDX1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118709-PDX1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118509",
+  "target": "NAA15",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118509-NAA15-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118824",
+  "target": "CRP1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118824-CRP1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118713",
+  "target": "RAD23A",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118713-RAD23A-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118825",
+  "target": "NFYA",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118825-NFYA-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118501",
+  "target": "UBA52",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118501-UBA52-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118867",
+  "target": "ARP3",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118867-ARP3-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118599",
+  "target": "MGLUR4",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118599-MGLUR4-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118878",
+  "target": "PERILIPIN1",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118878-PERILIPIN1-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118529",
+  "target": "ROCK2",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118529-ROCK2-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118730",
+  "target": "RAPTOR",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118730-RAPTOR-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118755",
+  "target": "EPHA5",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118755-EPHA5-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118499",
+  "target": "ITGB5-INTEGRINBETA5",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118499-ITGB5-INTEGRINBETA5-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118794",
+  "target": "CAV1-3",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118794-CAV1-3-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118800",
+  "target": "NKCC1",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118800-NKCC1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118886",
+  "target": "EVL",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118886-EVL-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118893",
+  "target": "ELF5",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118893-ELF5-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118900",
+  "target": "SRRM2",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118900-SRRM2-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118907",
+  "target": "CABP5",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118907-CABP5-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118918",
+  "target": "USP24",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern A); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118918-USP24-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118866",
+  "target": "GIPR",
+  "wb": "1",
+  "verdict": "possible",
+  "reason": "band is a 2-px hairline crossing a white gap with no membrane; lane strip has a jagged cut edge",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118866-GIPR-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118911",
+  "target": "EEF1A2",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118911-EEF1A2-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118642",
+  "target": "LIMK1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118642-LIMK1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118822",
+  "target": "CKMT2",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118822-CKMT2-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118599",
+  "target": "MGLUR4",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118599-MGLUR4-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118736",
+  "target": "E-CADHERIN",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118736-E-CADHERIN-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118633",
+  "target": "ASK1",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118633-ASK1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118793",
+  "target": "SCN9A",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118793-SCN9A-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118805",
+  "target": "PKCLAMBDA-IOTA",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118805-PKCLAMBDA-IOTA-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118807",
+  "target": "GPR27",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118807-GPR27-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118810",
+  "target": "GPR4",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118810-GPR4-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118811",
+  "target": "GPR45",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118811-GPR45-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118905",
+  "target": "BAG5",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118905-BAG5-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118498",
+  "target": "DYSFERLIN",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118498-DYSFERLIN-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118521",
+  "target": "IKKGAMMA",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118521-IKKGAMMA-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118510",
+  "target": "COL14A1",
+  "wb": "1",
+  "verdict": "possible",
+  "reason": "both lanes are flat fill except around the band (88% of box)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118510-COL14A1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118529",
+  "target": "ROCK2",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118529-ROCK2-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118688",
+  "target": "CUX1",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118688-CUX1-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118706",
+  "target": "P73",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118706-P73-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118719",
+  "target": "SRF",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118719-SRF-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118723",
+  "target": "TSC2",
+  "wb": "2",
+  "verdict": "possible",
+  "reason": "labelled lane 1 is flat fill (no membrane texture)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118723-TSC2-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118745",
+  "target": "PKCALPHA",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118745-PKCALPHA-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118748",
+  "target": "P130",
+  "wb": "2",
+  "verdict": "possible",
+  "reason": "labelled lane 1 is flat fill (no membrane texture)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118748-P130-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118758",
+  "target": "EPHB3",
+  "wb": "2",
+  "verdict": "possible",
+  "reason": "labelled lane 1 is flat fill (no membrane texture)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118758-EPHB3-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118769",
+  "target": "ATP1A1",
+  "wb": "2",
+  "verdict": "possible",
+  "reason": "labelled lane 1 is flat fill (no membrane texture)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118769-ATP1A1-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118808",
+  "target": "GPR30",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118808-GPR30-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118889",
+  "target": "PCYOX1",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118889-PCYOX1-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118894",
+  "target": "KLHL3",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118894-KLHL3-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118904",
+  "target": "ATAXIN7",
+  "wb": "2",
+  "verdict": "possible",
+  "reason": "band sits on flat fill: lane 2 has no membrane texture; band is a uniform bar with a white halo",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118904-ATAXIN7-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118912",
+  "target": "LRP4",
+  "wb": "2",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118912-LRP4-WB-2-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118505",
+  "target": "APRIL",
+  "wb": "1",
+  "verdict": "possible",
+  "reason": "pattern B background, weak match (r 0.11-0.16 vs flip controls <=0.02)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118505-APRIL-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118826",
+  "target": "ACVRL1",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern B); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118826-ACVRL1-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118870",
+  "target": "PTPN22",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern B); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118870-PTPN22-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118876",
+  "target": "PLEIOTROPHIN",
+  "wb": "1",
+  "verdict": "confirmed",
+  "reason": "shares lane background with other products (pattern B); raw-pixel texture r 0.38-0.82 vs flipped/shifted controls <=0.06",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118876-PLEIOTROPHIN-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118863",
+  "target": "SOS2",
+  "wb": "1",
+  "verdict": "possible",
+  "reason": "pattern A background, weaker match (r 0.12-0.20 vs flip controls <=0.04; image is rescaled)",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118863-SOS2-WB-1-2021923125244.jpg"
+ },
+ {
+  "catalog": "PA5-118549",
+  "target": "PI3KP85-P55",
+  "wb": "1",
+  "verdict": "clean by these checks",
+  "reason": "",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118549-PI3KP85-P55-WB-1-2021923125244.jpg"
+ }
+]
