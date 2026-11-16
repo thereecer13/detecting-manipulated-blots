@@ -772,3 +772,15 @@ Forty-first batch (28,111 figures, 62,254 panels; crawl at ~63,100 MA5/PA5 pages
     37–50 kDa and the same dark blotches, with a band only at ~20 kDa. Review image:
     reviews/thermo_controls/cabp5_srrm2_patternA.png. The 2021-09-23 upload now has 7 blot candidates.
   - FOXI3 PA5-48217 (pattern C): false; shift-correlation peak 0.05, no higher than the noise.
+
+Forty-second batch (28,479 figures, 62,945 panels; crawl at ~64,000 MA5/PA5 pages):
+- Prohibitin / SDHA / Profilin 1 / RPA70 / Cofilin (HeLa, panel e) adds a second Cofilin product, PA5-27627
+  (HeLa). Its caption names the rabbit secondary A27034, while Profilin 1 MA5-25120's caption names the
+  anti-mouse A28175 for the same panel, so the secondaries conflict.
+- The 2022 HeLa no-primary panel group (SMARCC1 / PRMT5 / LDHB / HNRNPC / CLTC / XPO1 / ADAR1) adds SP1
+  PA5-95583 and a second ADAR1 product, MA5-34626. All captions say HeLa with A32790, so they are consistent.
+- HMMR / cereblon (HeLa, 2022) adds IRF7 PA5-102832, labeled panel f where HMMR's is panel e.
+- Same target (likely legitimate): ATP1B2, CDK6, Cofilin, Erg, HAI-2, SDHB, SP1, Tsg101, eIF4E2.
+- False by eye: 5 dark non-hub pairs.
+- Blots (921 new): template scan 7 hit products, all listed. Pattern A detector: 14 hits, all listed (the
+  2019-08-08 upload plus RAB17 PA5-115816). No 2021-09-23 stamps.

@@ -3206,5 +3206,37 @@
   "score": 1.0,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA576544-MCM5-ICC-20200304132147.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA528344-RAD21-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "Prohibitin / SDHA / Profilin 1 / RPA70 / Cofilin adds Cofilin PA5-27627 (secondary conflict with Profilin 1)",
+  "a": "MA5-25120",
+  "b": "PA5-27627",
+  "score": 0.991,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525120-Profilin1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA527627-Cofilin-ICC.jpg"
+ },
+ {
+  "group": "2022 HeLa no-primary panel group adds SP1 PA5-95583",
+  "a": "MA5-34657",
+  "b": "PA5-95583",
+  "score": 0.983,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34657-SMARCC1-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95583-SP1-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "2022 HeLa no-primary panel group adds ADAR1 MA5-34626",
+  "a": "MA5-34626",
+  "b": "PA5-95583",
+  "score": 0.973,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34626-ADAR1-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95583-SP1-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "HMMR / cereblon adds IRF7 PA5-102832 (panel e vs f)",
+  "a": "PA5-88546",
+  "b": "PA5-102832",
+  "score": 0.978,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA588546-RHAMM-ICC_20220315041604.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-102832-IRF7-ICCIF-1-20220301_073323.jpg"
  }
 ]
