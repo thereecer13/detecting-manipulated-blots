@@ -69,3 +69,28 @@
   - SH3YL1 PA5-56593 (2021-05-27).
   - PYCARD PA5-85811 (2022-06-20).
   - TNK1 MA5-15413 (unstamped).
+
+## 2017-12-19 upload: second labelling round (review_2017_results.json)
+Pool: 2,254 blots from that upload that Richardson did not flag. The set was the top 60 by largest enclosed
+constant patch (one per product) plus 8 hidden zero-score controls, shuffled.
+
+| Group | Painted | Not painted | Unsure |
+|---|---|---|---|
+| Top 60 detector hits | 26 | 13 | 21 |
+| 8 zero-score controls | 5 | 3 | 0 |
+
+- **The detector does not discriminate inside this upload.** The reviewer called 43% of the top hits painted
+  (67% of decided calls) and 5 of 8 zero-score controls painted.
+- **Why the controls score zero:** the controls called painted are single lanes with no texture left at all.
+  With no textured surround there is no enclosed patch, so the score is zero.
+- **By rank:** 11/20 painted at ranks 1–20, 10/20 at ranks 21–40 and 5/20 at ranks 41–60.
+- **What it suggests:** a large share of the unflagged blots in this upload look painted to the reviewer,
+  whatever the score. The set is not a random sample (top hits plus zero-score extremes), so it does not give
+  a rate for the upload.
+- **Next:** label a random sample of the 2,254 to estimate the rate with a confidence interval.
+- **New painted candidates from this round (26):** CSNK1G2 MA5-26560, CYP2J2 MA5-25705, TRPM4 MA5-24916,
+  ANKRD53 MA5-25469, LXN MA5-25708, MTRF1L MA5-25063, LCMT1 MA5-25598, PAFAH1B3 MA5-26670, PHF21B MA5-25630,
+  PROM2 MA5-24913, PDE2A MA5-25498, EXOSC1 MA5-27008, DHFR MA5-24945, VEGFB MA5-26326, NHEJ1 MA5-25313,
+  ZIM2 MA5-25331, IGJ MA5-25839, NIF3L1 MA5-25719, PMS2 MA5-26269, SERPINB3 MA5-25380, PAAF1 MA5-26327,
+  RNF113B MA5-25821, CLPP MA5-25330, CDCP1 MA5-25357, TTLL12 MA5-25022, DOK2 MA5-25661.
+  The 5 controls called painted are in the results file.

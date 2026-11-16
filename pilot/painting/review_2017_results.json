@@ -1,0 +1,682 @@
+[
+ {
+  "id": "Q00",
+  "group": "top",
+  "file": "MA5-25719-NIF3L1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25719",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25719-NIF3L1-WB-1-20171219153335.jpg",
+  "max_patch": 25652,
+  "rank": 37,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q01",
+  "group": "top",
+  "file": "MA5-25350-EXD1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25350",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25350-EXD1-WB-1-20171219153335.jpg",
+  "max_patch": 24367,
+  "rank": 44,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q02",
+  "group": "low_score",
+  "file": "MA5-27347-FLJ33360-WB-1-20171219153335.jpg",
+  "catalog": "MA5-27347",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-27347-FLJ33360-WB-1-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q03",
+  "group": "top",
+  "file": "MA5-25833-KCNJ3-WB-2-20171219153335.jpg",
+  "catalog": "MA5-25833",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25833-KCNJ3-WB-2-20171219153335.jpg",
+  "max_patch": 32667,
+  "rank": 21,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q04",
+  "group": "top",
+  "file": "MA5-25889-SERPINB6-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25889",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25889-SERPINB6-WB-1-20171219153335.jpg",
+  "max_patch": 30857,
+  "rank": 26,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q05",
+  "group": "top",
+  "file": "MA5-25313-NHEJ1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25313",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25313-NHEJ1-WB-1-20171219153335.jpg",
+  "max_patch": 30490,
+  "rank": 29,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q06",
+  "group": "top",
+  "file": "MA5-25598-LCMT1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25598",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25598-LCMT1-WB-1-20171219153335.jpg",
+  "max_patch": 36671,
+  "rank": 11,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q07",
+  "group": "top",
+  "file": "MA5-26327-PAAF1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-26327",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26327-PAAF1-WB-1-20171219153335.jpg",
+  "max_patch": 25557,
+  "rank": 40,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q08",
+  "group": "top",
+  "file": "MA5-25693-CDKN3-WB-2-20171219153335.jpg",
+  "catalog": "MA5-25693",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25693-CDKN3-WB-2-20171219153335.jpg",
+  "max_patch": 30696,
+  "rank": 28,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q09",
+  "group": "low_score",
+  "file": "MA5-26344-PDCD6IP-WB-20171219153335.jpg",
+  "catalog": "MA5-26344",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26344-PDCD6IP-WB-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q10",
+  "group": "top",
+  "file": "MA5-25839-IGJ-WB-20171219153335.jpg",
+  "catalog": "MA5-25839",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25839-IGJ-WB-20171219153335.jpg",
+  "max_patch": 27024,
+  "rank": 35,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q11",
+  "group": "low_score",
+  "file": "MA5-26060-RIOK2-WB-2-20171219153335.jpg",
+  "catalog": "MA5-26060",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26060-RIOK2-WB-2-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q12",
+  "group": "top",
+  "file": "MA5-27008-EXOSC1-WB-20171219153335.jpg",
+  "catalog": "MA5-27008",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-27008-EXOSC1-WB-20171219153335.jpg",
+  "max_patch": 32329,
+  "rank": 22,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q13",
+  "group": "top",
+  "file": "MA5-25357-CDCP1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25357",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25357-CDCP1-WB-1-20171219153335.jpg",
+  "max_patch": 21513,
+  "rank": 54,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q14",
+  "group": "top",
+  "file": "MA5-25630-PHF21B-WB-20171219153335.jpg",
+  "catalog": "MA5-25630",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25630-PHF21B-WB-20171219153335.jpg",
+  "max_patch": 34370,
+  "rank": 17,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q15",
+  "group": "top",
+  "file": "MA5-25690-CDKN3-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25690",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25690-CDKN3-WB-1-20171219153335.jpg",
+  "max_patch": 36301,
+  "rank": 12,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q16",
+  "group": "top",
+  "file": "MA5-26432-ARL2BP-WB-20171219153335.jpg",
+  "catalog": "MA5-26432",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26432-ARL2BP-WB-20171219153335.jpg",
+  "max_patch": 23903,
+  "rank": 45,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q17",
+  "group": "low_score",
+  "file": "MA5-25607-GATM-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25607",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25607-GATM-WB-1-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q18",
+  "group": "top",
+  "file": "MA5-25821-RNF113B-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25821",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25821-RNF113B-WB-1-20171219153335.jpg",
+  "max_patch": 24386,
+  "rank": 43,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q19",
+  "group": "top",
+  "file": "MA5-25250-PIK3AP1-WB-20171219153335.jpg",
+  "catalog": "MA5-25250",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25250-PIK3AP1-WB-20171219153335.jpg",
+  "max_patch": 34964,
+  "rank": 14,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q20",
+  "group": "top",
+  "file": "MA5-24916-TRPM4-WB-1-20171219153335.jpg",
+  "catalog": "MA5-24916",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-24916-TRPM4-WB-1-20171219153335.jpg",
+  "max_patch": 47632,
+  "rank": 3,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q21",
+  "group": "top",
+  "file": "MA5-24921-SSB-WB-1-20171219153335.jpg",
+  "catalog": "MA5-24921",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-24921-SSB-WB-1-20171219153335.jpg",
+  "max_patch": 21256,
+  "rank": 58,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q22",
+  "group": "top",
+  "file": "MA5-25469-ANKRD53-WB-20171219153335.jpg",
+  "catalog": "MA5-25469",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25469-ANKRD53-WB-20171219153335.jpg",
+  "max_patch": 46806,
+  "rank": 4,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q23",
+  "group": "top",
+  "file": "MA5-25540-MGLL-WB-20171219153335.jpg",
+  "catalog": "MA5-25540",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25540-MGLL-WB-20171219153335.jpg",
+  "max_patch": 22188,
+  "rank": 52,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q24",
+  "group": "top",
+  "file": "MA5-26326-VEGFB-WB-20171219153335.jpg",
+  "catalog": "MA5-26326",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26326-VEGFB-WB-20171219153335.jpg",
+  "max_patch": 30730,
+  "rank": 27,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q25",
+  "group": "top",
+  "file": "MA5-26322-AMOT-WB-20171219153335.jpg",
+  "catalog": "MA5-26322",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26322-AMOT-WB-20171219153335.jpg",
+  "max_patch": 24712,
+  "rank": 41,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q26",
+  "group": "top",
+  "file": "MA5-27536-ACAD9-WB-20171219153335.jpg",
+  "catalog": "MA5-27536",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-27536-ACAD9-WB-20171219153335.jpg",
+  "max_patch": 29166,
+  "rank": 30,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q27",
+  "group": "top",
+  "file": "MA5-25380-SERPINB3-WB-20171219153335.jpg",
+  "catalog": "MA5-25380",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25380-SERPINB3-WB-20171219153335.jpg",
+  "max_patch": 25576,
+  "rank": 39,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q28",
+  "group": "top",
+  "file": "MA5-25330-CLPP-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25330",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25330-CLPP-WB-1-20171219153335.jpg",
+  "max_patch": 23074,
+  "rank": 48,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q29",
+  "group": "top",
+  "file": "MA5-24945-DHFR-WB-1-20171219153335.jpg",
+  "catalog": "MA5-24945",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-24945-DHFR-WB-1-20171219153335.jpg",
+  "max_patch": 31911,
+  "rank": 24,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q30",
+  "group": "top",
+  "file": "MA5-25705-CYP2J2-WB-20171219153335.jpg",
+  "catalog": "MA5-25705",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25705-CYP2J2-WB-20171219153335.jpg",
+  "max_patch": 47824,
+  "rank": 2,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q31",
+  "group": "top",
+  "file": "MA5-25535-MAPRE2-WB-20171219153335.jpg",
+  "catalog": "MA5-25535",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25535-MAPRE2-WB-20171219153335.jpg",
+  "max_patch": 21038,
+  "rank": 60,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q32",
+  "group": "top",
+  "file": "MA5-25063-MTRF1L-WB-20171219153335.jpg",
+  "catalog": "MA5-25063",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25063-MTRF1L-WB-20171219153335.jpg",
+  "max_patch": 41865,
+  "rank": 8,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q33",
+  "group": "top",
+  "file": "MA5-25012-BIRC7-WB-2-20171219153335.jpg",
+  "catalog": "MA5-25012",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25012-BIRC7-WB-2-20171219153335.jpg",
+  "max_patch": 21986,
+  "rank": 53,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q34",
+  "group": "top",
+  "file": "MA5-25221-KLHL2-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25221",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25221-KLHL2-WB-1-20171219153335.jpg",
+  "max_patch": 45996,
+  "rank": 5,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q35",
+  "group": "top",
+  "file": "MA5-25587-ILVBL-WB-20171219153335.jpg",
+  "catalog": "MA5-25587",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25587-ILVBL-WB-20171219153335.jpg",
+  "max_patch": 33108,
+  "rank": 19,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q36",
+  "group": "top",
+  "file": "MA5-25696-GTF2F1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25696",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25696-GTF2F1-WB-1-20171219153335.jpg",
+  "max_patch": 32190,
+  "rank": 23,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q37",
+  "group": "top",
+  "file": "MA5-25022-TTLL12-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25022",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25022-TTLL12-WB-1-20171219153335.jpg",
+  "max_patch": 21292,
+  "rank": 56,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q38",
+  "group": "top",
+  "file": "MA5-25674-PMVK-WB-20171219153335.jpg",
+  "catalog": "MA5-25674",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25674-PMVK-WB-20171219153335.jpg",
+  "max_patch": 23120,
+  "rank": 47,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q39",
+  "group": "low_score",
+  "file": "MA5-26808-NUDT21-WB-20171219153335.jpg",
+  "catalog": "MA5-26808",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26808-NUDT21-WB-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q40",
+  "group": "top",
+  "file": "MA5-25661-DOK2-WB-20171219153335.jpg",
+  "catalog": "MA5-25661",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25661-DOK2-WB-20171219153335.jpg",
+  "max_patch": 21284,
+  "rank": 57,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q41",
+  "group": "top",
+  "file": "MA5-25498-PDE2A-WB-20171219153335.jpg",
+  "catalog": "MA5-25498",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25498-PDE2A-WB-20171219153335.jpg",
+  "max_patch": 32844,
+  "rank": 20,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q42",
+  "group": "top",
+  "file": "MA5-25788-KCNAB1-WB-20171219153335.jpg",
+  "catalog": "MA5-25788",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25788-KCNAB1-WB-20171219153335.jpg",
+  "max_patch": 43427,
+  "rank": 7,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q43",
+  "group": "top",
+  "file": "MA5-26269-PMS2-WB-20171219153335.jpg",
+  "catalog": "MA5-26269",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26269-PMS2-WB-20171219153335.jpg",
+  "max_patch": 25624,
+  "rank": 38,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q44",
+  "group": "top",
+  "file": "MA5-25597-LCMT1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25597",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25597-LCMT1-WB-1-20171219153335.jpg",
+  "max_patch": 26972,
+  "rank": 36,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q45",
+  "group": "top",
+  "file": "MA5-25291-GSS-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25291",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25291-GSS-WB-1-20171219153335.jpg",
+  "max_patch": 31832,
+  "rank": 25,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q46",
+  "group": "top",
+  "file": "MA5-25331-ZIM2-WB-20171219153335.jpg",
+  "catalog": "MA5-25331",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25331-ZIM2-WB-20171219153335.jpg",
+  "max_patch": 27662,
+  "rank": 33,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q47",
+  "group": "top",
+  "file": "MA5-25148-GORASP1-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25148",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25148-GORASP1-WB-1-20171219153335.jpg",
+  "max_patch": 24552,
+  "rank": 42,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q48",
+  "group": "top",
+  "file": "MA5-25410-ACY3-WB-20171219153335.jpg",
+  "catalog": "MA5-25410",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25410-ACY3-WB-20171219153335.jpg",
+  "max_patch": 27330,
+  "rank": 34,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q49",
+  "group": "top",
+  "file": "MA5-25395-PDE2A-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25395",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25395-PDE2A-WB-1-20171219153335.jpg",
+  "max_patch": 23354,
+  "rank": 46,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q50",
+  "group": "low_score",
+  "file": "MA5-25363-DNAJB1-WB-2-20171219153335.jpg",
+  "catalog": "MA5-25363",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25363-DNAJB1-WB-2-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q51",
+  "group": "low_score",
+  "file": "MA5-26187-ADAMTS8-WB-20171219153335.jpg",
+  "catalog": "MA5-26187",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26187-ADAMTS8-WB-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q52",
+  "group": "top",
+  "file": "MA5-25740-EFEMP1-WB-20171219153335.jpg",
+  "catalog": "MA5-25740",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25740-EFEMP1-WB-20171219153335.jpg",
+  "max_patch": 41229,
+  "rank": 9,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q53",
+  "group": "top",
+  "file": "MA5-25706-DPP10-WB-20171219153335.jpg",
+  "catalog": "MA5-25706",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25706-DPP10-WB-20171219153335.jpg",
+  "max_patch": 35246,
+  "rank": 13,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q54",
+  "group": "top",
+  "file": "MA5-26631-NRBF2-WB-20171219153335.jpg",
+  "catalog": "MA5-26631",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26631-NRBF2-WB-20171219153335.jpg",
+  "max_patch": 37028,
+  "rank": 10,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q55",
+  "group": "top",
+  "file": "MA5-25310-FAM84B-WB-20171219153335.jpg",
+  "catalog": "MA5-25310",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25310-FAM84B-WB-20171219153335.jpg",
+  "max_patch": 22921,
+  "rank": 49,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q56",
+  "group": "low_score",
+  "file": "MA5-25160-GORASP1-WB-2-20171219153335.jpg",
+  "catalog": "MA5-25160",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25160-GORASP1-WB-2-20171219153335.jpg",
+  "max_patch": 0,
+  "rank": null,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q57",
+  "group": "top",
+  "file": "MA5-24954-PRKY-WB-20171219153335.jpg",
+  "catalog": "MA5-24954",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-24954-PRKY-WB-20171219153335.jpg",
+  "max_patch": 34532,
+  "rank": 16,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q58",
+  "group": "top",
+  "file": "MA5-24913-PROM2-WB-4-20171219153335.jpg",
+  "catalog": "MA5-24913",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-24913-PROM2-WB-4-20171219153335.jpg",
+  "max_patch": 33734,
+  "rank": 18,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q59",
+  "group": "top",
+  "file": "MA5-25910-TMEFF2-WB-20171219153335.jpg",
+  "catalog": "MA5-25910",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25910-TMEFF2-WB-20171219153335.jpg",
+  "max_patch": 21406,
+  "rank": 55,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q60",
+  "group": "top",
+  "file": "MA5-25708-LXN-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25708",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25708-LXN-WB-1-20171219153335.jpg",
+  "max_patch": 44681,
+  "rank": 6,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q61",
+  "group": "top",
+  "file": "MA5-25365-JOSD1-WB-20171219153335.jpg",
+  "catalog": "MA5-25365",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25365-JOSD1-WB-20171219153335.jpg",
+  "max_patch": 22616,
+  "rank": 50,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q62",
+  "group": "top",
+  "file": "MA5-26560-CSNK1G2-WB-20171219153335.jpg",
+  "catalog": "MA5-26560",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26560-CSNK1G2-WB-20171219153335.jpg",
+  "max_patch": 50125,
+  "rank": 1,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q63",
+  "group": "top",
+  "file": "MA5-25454-POLR2E-WB-1-20171219153335.jpg",
+  "catalog": "MA5-25454",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25454-POLR2E-WB-1-20171219153335.jpg",
+  "max_patch": 27934,
+  "rank": 32,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q64",
+  "group": "top",
+  "file": "MA5-25087-NIT2-WB-20171219153335.jpg",
+  "catalog": "MA5-25087",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25087-NIT2-WB-20171219153335.jpg",
+  "max_patch": 22445,
+  "rank": 51,
+  "verdict": "not painted"
+ },
+ {
+  "id": "Q65",
+  "group": "top",
+  "file": "MA5-26282-RAPGEF1-WB-20171219153335.jpg",
+  "catalog": "MA5-26282",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26282-RAPGEF1-WB-20171219153335.jpg",
+  "max_patch": 28834,
+  "rank": 31,
+  "verdict": "unsure"
+ },
+ {
+  "id": "Q66",
+  "group": "top",
+  "file": "MA5-26670-PAFAH1B3-WB-20171219153335.jpg",
+  "catalog": "MA5-26670",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-26670-PAFAH1B3-WB-20171219153335.jpg",
+  "max_patch": 34963,
+  "rank": 15,
+  "verdict": "painted"
+ },
+ {
+  "id": "Q67",
+  "group": "top",
+  "file": "MA5-25523-FLYWCH2-WB-20171219153335.jpg",
+  "catalog": "MA5-25523",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-25523-FLYWCH2-WB-20171219153335.jpg",
+  "max_patch": 21240,
+  "rank": 59,
+  "verdict": "unsure"
+ }
+]
