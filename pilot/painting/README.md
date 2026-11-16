@@ -50,3 +50,22 @@
     within 20 on 96% of pairs.
 - The first version of the page used whole-image histogram equalization. It over-amplified grain and
   recoloured the page around the labels, so it was replaced.
+
+## Calibration result (user labels, 2026-11-16; review_results.json)
+| Group | Painted | Not painted | Unsure |
+|---|---|---|---|
+| Top 40 detector hits (unflagged by Richardson) | 7 | 22 | 11 |
+| 10 Richardson-painted (hidden positive controls) | 5 | 4 | 1 |
+| 10 zero-score blots (hidden negative controls) | 0 | 9 | 1 |
+
+- **Detector precision at the top of the ranking:** 7/40 (18%), or 7/29 (24%) of decided calls, against
+  0/10 for zero-score blots. The difference is not statistically significant at this size (Fisher p ≈ 0.3).
+- **By upload:** in the 2017-12-19 upload, 4 of the 6 top hits were called painted. In all other uploads,
+  3 of 34.
+- **Reviewer vs Richardson:** the reviewer called 5 of 10 Richardson-painted blots painted, so about half
+  of his painting calls are not visible in a single adjusted image.
+- **New painted candidates (not in Richardson's spreadsheets):**
+  - 2017-12-19 upload: PDIA4 MA5-25771, MYF5 MA5-26654, HSPBP1 MA5-25667, RSPO1 MA5-26680.
+  - SH3YL1 PA5-56593 (2021-05-27).
+  - PYCARD PA5-85811 (2022-06-20).
+  - TNK1 MA5-15413 (unstamped).
