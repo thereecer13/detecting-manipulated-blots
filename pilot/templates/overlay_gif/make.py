@@ -8,14 +8,16 @@ def eq_masked(O,box):
     out=g.copy();out[t:b,l:r]=e[t:b,l:r];return out
 try: F=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',15);Fs=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',12)
 except Exception: F=Fs=ImageFont.load_default()
+FB=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',56)
 def frames(R,box,items,title,out,up):
     fr=[]
     for lab,sub,O in items:
         o=np.clip(O,0,255).astype(np.uint8);e=eq_masked(O,box)
         a=Image.fromarray(o).resize((o.shape[1]*up,o.shape[0]*up),Image.BICUBIC);b=Image.fromarray(e).resize(a.size,Image.BICUBIC)
-        W=a.width*2+30;H=a.height+70
-        c=Image.new('L',(W,H),255);c.paste(a,(0,62));c.paste(b,(a.width+30,62));d=ImageDraw.Draw(c)
-        d.text((4,4),lab,fill=0,font=F);d.text((4,24),sub,fill=60,font=Fs);d.text((4,44),'original (aligned)',fill=90,font=Fs);d.text((a.width+34,44),'equalized inside the blot frame',fill=90,font=Fs)
+        W=a.width*2+30;H=a.height+80
+        c=Image.new('L',(W,H),255);c.paste(a,(0,80));c.paste(b,(a.width+30,80));d=ImageDraw.Draw(c)
+        t="Richardson's" if lab.startswith('Richardson') else 'New'
+        tw=d.textlength(t,font=FB);d.text(((W-tw)/2,8),t,fill=0,font=FB)
         fr.append(c.convert('P'))
     fr[0].save(out,save_all=True,append_images=fr[1:],duration=[1600]+[900]*(len(fr)-1),loop=0)
     return fr
