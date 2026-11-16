@@ -723,3 +723,19 @@ four existing groups grow:
 - Blots (1,428 new): template scan 11 hit products, 8 listed. Unlisted GPC5 PA5-50185 (pattern B 0.37),
   cytokeratin 7 PA5-85983 (pattern C 0.22; no zero-offset peak in shift2.py) and TMF1 PA5-31184 (pattern C
   0.18) are blots in different layouts: false. Pattern A detector: 16 hits, all listed.
+
+Fortieth batch (27,574 figures, 61,129 panels; crawl at ~61,700 MA5/PA5 pages):
+- **B1 bradykinin receptor PA5-18988 (stamped 2021-07-01) and V-ATPase B1 PA5-56878 (stamped 2020-11-30): same
+  no-primary panel f, with captions that contradict each other.** BDKRB1's caption: SH-SY5Y cells, goat primary
+  with Donkey anti-Goat Alexa Fluor Plus 488 (A32814), nuclei with ProLong Gold. V-ATPase B1's caption: HaCaT
+  and BeWo cells, rabbit primary with Donkey anti-Rabbit Alexa Fluor Plus 488 (A32790), nuclei with ProLong
+  Diamond with DAPI. A no-primary control tests the secondary antibody, so one panel cannot be the control for
+  both. Review image: reviews/thermo_controls/bdkrb1_vatpase.png (outside the repo).
+- NME1 MA5-29446 and MA5-29447 / MCM5 PA5-76544 (all captioned HeLa; MCM5 stamped 2020-03-04): same
+  no-primary panel.
+- GSTM3 / FXR1 / SHH "Negative Control" adds KCNN4 PA5-142531 (caption HeLa, 2023-01-04, same stamp).
+- RAN / RAG2 / Cyclin B2 / Ku80 / PRMT1 / HSPA9 / CHEK1 / AGFG1 / Radixin / RAD51 (HeLa) adds a second HSPA9
+  product (PA5-79410, caption HeLa, no stamp).
+- Same target (likely legitimate): ATGL, CD34, DC-SIGN, HSPA9, KIAA1, NOTCH, WFS1.
+- False by eye: 7 dark non-hub pairs and one published-figure review pair.
+- Blots (1,474 new): template scan 14 hit products, all listed. Pattern A detector: 15 hits, all listed.

@@ -3054,5 +3054,45 @@
   "score": 0.859,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-44265-VISTA-ICCIF-1-20230619_162658.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA578028-ITGB1-ICC.jpg"
+ },
+ {
+  "group": "BDKRB1 PA5-18988 (SH-SY5Y, goat primary) / V-ATPase B1 PA5-56878 (HaCaT+BeWo, rabbit primary): same no-primary panel f",
+  "a": "PA5-18988",
+  "b": "PA5-56878",
+  "score": 0.954,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA518988-BDKRB1-ICC_20210701214745.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA556878-VATPaseB1-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "GSTM3 / FXR1 / SHH 'Negative Control' adds KCNN4 PA5-142531",
+  "a": "PA5-142192",
+  "b": "PA5-142531",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142192-SHH-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142531-KCNN4-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "NME1 MA5-29446 / MA5-29447 / MCM5 PA5-76544 (HeLa): same no-primary panel",
+  "a": "MA5-29446",
+  "b": "PA5-76544",
+  "score": 0.89,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529446-NME1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576544-MCM5-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "NME1 MA5-29446 / MA5-29447 / MCM5 PA5-76544 (HeLa): same no-primary panel",
+  "a": "MA5-29447",
+  "b": "PA5-76544",
+  "score": 0.89,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529447-NME1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576544-MCM5-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAN / RAG2 / Cyclin B2 / Ku80 / PRMT1 / HSPA9 / CHEK1 / AGFG1 / Radixin / RAD51 (HeLa) adds a second HSPA9 product PA5-79410",
+  "a": "PA5-17652",
+  "b": "PA5-79410",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579410-HSPA9-ICC.jpg"
  }
 ]
