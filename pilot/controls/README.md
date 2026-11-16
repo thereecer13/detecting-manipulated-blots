@@ -739,3 +739,36 @@ Fortieth batch (27,574 figures, 61,129 panels; crawl at ~61,700 MA5/PA5 pages):
 - Same target (likely legitimate): ATGL, CD34, DC-SIGN, HSPA9, KIAA1, NOTCH, WFS1.
 - False by eye: 7 dark non-hub pairs and one published-figure review pair.
 - Blots (1,474 new): template scan 14 hit products, all listed. Pattern A detector: 15 hits, all listed.
+
+Forty-first batch (28,111 figures, 62,254 panels; crawl at ~63,100 MA5/PA5 pages):
+- **CrkL PA5-28622 (stamped 2020-11-30) and SOX11 PA5-40698 (stamped 2019-11-05): one image, two different
+  labels.** CrkL labels it "No Primary antibody" (SH-SY5Y). SOX11, the older upload, labels the same image
+  "BeWo (Negative)": a cell line with no expression, stained with the SOX11 antibody, not a no-primary
+  control. The CrkL / PRKAR1B group (batch 36) now includes SOX11. Review image:
+  reviews/thermo_controls/crkl_sox11.png (outside the repo).
+- **PPM1A MA5-17154 (stamped 2021-03-23) and TOP1 PA5-78203 (stamped 2019-11-04): same no-primary panel e,
+  with captions that contradict each other.** PPM1A's caption: MCF7 cells, mouse monoclonal with Goat
+  anti-Mouse Alexa Fluor Plus 488 (A32723). TOP1's caption: HeLa cells, rabbit polyclonal with Goat anti-Rabbit
+  Superclonal 488 (A27034). Review image: reviews/thermo_controls/ppm1a_top1.png.
+- **AP2M1 MA5-25570 (stamped 2019-11-05) and mtTFA PA5-29571 (stamped 2019-12-09): same no-primary panel e.**
+  Both captions say Caco-2, but the secondaries differ: anti-mouse A32723 for AP2M1 and anti-rabbit A32731 for
+  mtTFA. Review image: reviews/thermo_controls/ap2m1_mttfa.png.
+- NME1 MA5-29446 and MA5-29447 / MCM5 (batch 40) adds RAD21 PA5-28344 (HeLa, stamped 2020-03-04). The secondaries
+  differ here too: NME1 uses anti-mouse A28175, RAD21 uses anti-rabbit A32731.
+- eIF4E PA5-17919 / GSK-3 beta PA5-78539: same no-primary panel f. Both say HeLa, carry the same 2021-03-23
+  stamp and use the same secondary (A32790), so this may be a legitimate shared batch control.
+- Tead1 MA5-35679 and MA5-36214 / Bmi1 PA5-110999: same panel e. Both say HeLa and use the same secondary
+  (A32790).
+- Same image under each pair's "Negative control" / "-ve control" label: ZGLP1 PA5-142561 / OGT PA5-18658 (U2OS);
+  HSP60 PA5-143265 / AIF PA5-143222 (HeLa); FARP1 PA5-142075 / GLI1 PA5-142651 (U2OS); EDF1 PA5-142102 /
+  GATA1 PA5-18408 (HeLa).
+- The SUMO1 ICC2 / BAK panel group adds PH-interacting protein PA5-110105 (A-431, stamped 2021-05-27).
+- Same target (likely legitimate): ARHGAP5, ASNA1, CD81, Cytochrome P450 Reductase, DLD, eIF4A1, LDB3,
+  Optineurin, PP2A alpha, SQSTM1, TGM2.
+- False by eye: 5 dark non-hub pairs and one published-figure review pair (MA5-12104).
+- Blots (1,379 new): the template scan hit 12 products. Two were unlisted:
+  - **CABP5 PA5-118907 (WB-1, stamped 2021-09-23, again the same upload as SRRM2): pattern A, confirmed by eye.**
+    The equalized background matches SRRM2 PA5-118900 and the exemplar PA5-99645: the same pale patch at
+    37–50 kDa and the same dark blotches, with a band only at ~20 kDa. Review image:
+    reviews/thermo_controls/cabp5_srrm2_patternA.png. The 2021-09-23 upload now has 7 blot candidates.
+  - FOXI3 PA5-48217 (pattern C): false; shift-correlation peak 0.05, no higher than the noise.
