@@ -35,3 +35,18 @@
   of its family.
 - **Human calibration:** rank by the largest coherent constant region and label about 60 hits by eye, to
   measure precision directly.
+
+## Human calibration set (select60.py) and the review view
+- **Set:** 60 blots, shuffled and unlabelled. 40 are the top-ranked unflagged blots by largest enclosed
+  constant patch (max 6 per upload stamp, 1 per product), 10 are Richardson-painted (positive controls)
+  and 10 are zero-score blots (negative controls).
+- **Review view:** `views.levels_richardson`.
+  - Fitted on 339 of Richardson's original / "_levels" pairs: his adjustment is a linear stretch of a
+    30-grey-level window (gain 8.5, gamma 1) centred on the membrane background, residual 0.3 grey levels.
+  - Our version centres the window on each blot panel's most common textured grey level and changes only
+    pixels inside the blot panels (`views.blot_mask_v2`, which also handles light-grey pages and trims
+    ladder labels).
+  - Agreement with his adjusted images inside the blot: median difference 2.2 of 255 grey levels, and
+    within 20 on 96% of pairs.
+- The first version of the page used whole-image histogram equalization. It over-amplified grain and
+  recoloured the page around the labels, so it was replaced.
