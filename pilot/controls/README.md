@@ -695,3 +695,16 @@ four existing groups grow:
 - Blots (2,123 new): template scan 15 hit products, 13 listed. Unlisted PAR6 PA5-18233 (pattern C 0.22) is a
   two-lane blot in a different layout (false); AKT1 PA5-23780 (pattern C 0.18) shows no zero-offset peak in
   shift2.py against either reference (unresolved, likely false). Pattern A detector: 29 hits, all listed.
+
+Thirty-eighth batch (26,414 figures, 58,603 panels; crawl at ~58,800 MA5/PA5 pages):
+- SLK PA5-85695 / SOX4 PA5-41442 (both captioned MCF7, both stamped 2022-07-11): same no-primary panel.
+- SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds EZH2 PA5-17569 (caption HeLa, stamped 2022-03-10); ERG MA5-26261
+  carries the same panel stamped 2019-12-09, so the panel spans more than two years of uploads.
+- SUMO1 / NDKB / NDUFAF2 / TIMM10 (Hep G2) adds NDUFB9 PA5-21668 (caption Hep G2, 2021-05-11, the same day as
+  NDUFAF2 PA5-63019).
+- Same target (likely legitimate): PGBD5 (stained panel), DAP, guanine nucleotide-binding protein, KAP3, macroH2A,
+  NDUF, POLR2.
+- False by eye: 3 dark non-hub pairs.
+- Blots (1,398 new): template scan 16 hit products, 15 listed. Unlisted SARS-CoV-2 nucleocapsid PA5-144378
+  (pattern C 0.39) is a single-lane recombinant-protein blot in a different layout: false. Pattern A
+  detector: 19 hits, all listed.

@@ -2998,5 +2998,29 @@
   "score": 0.989,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142679-TORC2-ICCIF-2-20230104_152038.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19001-MONOACYLGLYCEROLLIPASE-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "SLK PA5-85695 / SOX4 PA5-41442 (MCF7, both 2022-07-11): same no-primary panel",
+  "a": "PA5-85695",
+  "b": "PA5-41442",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-85695-SLK-ICCIF-1-20220711_130200.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-41442-SOX4-ICCIF-1-20220711_130200.jpg"
+ },
+ {
+  "group": "SMARCB1 / ERG / E2F2 / ORC2 (HeLa) adds EZH2 PA5-17569",
+  "a": "MA5-26261",
+  "b": "PA5-17569",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526261-ERG-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-17569-EZH2-ICCIF-1-20220310_131741.jpg"
+ },
+ {
+  "group": "SUMO1 / NDKB / NDUFAF2 / TIMM10 (Hep G2) adds NDUFB9 PA5-21668",
+  "a": "PA5-76173",
+  "b": "PA5-21668",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576173-TIMM10-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA521668-NDUFB9-ICC_20210511132848.jpg"
  }
 ]
