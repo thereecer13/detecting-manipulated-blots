@@ -33,3 +33,13 @@ The control is the same score with the candidate flipped vertically.
 | A | | PA5-118918 USP24 | 0.61 | -0.08 |
 
 Pattern A scale for the 650×650 crops is 0.749–0.752 with offset (-87, 0), the same for every blot.
+
+## Version 2 (make2.py)
+- Shows only the new blots, titled "Richardson's Pattern A" or "Richardson's Pattern B".
+- Images are shown at native resolution with no resampling. Same-layout blots already line up at zero shift,
+  so this removes the jitter version 1 had from per-image resampling onto Richardson's grid.
+- Exceptions:
+  - ACVRL1 is moved down 4 px, because its background sits 3.5 px lower than its frame.
+  - ZDHHC7 (a 650×1020 crop) is mapped onto the square layout: scale 0.638, x offset +117.
+- In pattern A, the dash marker is replaced with a drawn arrow at the same height. The arrow is our
+  annotation, not part of the vendor image.
