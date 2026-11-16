@@ -682,3 +682,16 @@ memory (16 GB); `shared_panels.py` now keeps its 160-px verification panels as u
     so far vs PA5-99645): with contrast stretched, the lane background shows the exemplar's pale patch at
     37-50 kDa and the same dark mottling, with the band moved from ~180 kDa to ~300 kDa. Strong candidate;
     the sixth blot from the 2021-09-23 upload flagged (EVL, USP24, ELF5, SOS2 pattern A; PTPN22 pattern B).
+
+Thirty-seventh batch (25,878 figures, 57,656 panels; crawl at ~57,400 MA5/PA5 pages). No new cross-target groups;
+four existing groups grow:
+- TORC2 / TERT "-ve control" (U2OS, both 2023-01-04) adds monoacylglycerol lipase PA5-19001 (caption
+  paraformaldehyde-fixed U2OS, stamped 2024-02-01), thirteen months later.
+- GSTM3 / FXR1 "Negative Control" adds SHH PA5-142192 (caption HeLa, 2023-01-04, same stamp as GSTM3).
+- Annexin A2 / ADAM17 / 4EBP1 adds AIF PA5-17638 (caption HeLa, no stamp).
+- PLCB2 / KDM6A adds a second PLCB2 product (PA5-78108, THP-1, same stamp 2022-10-10 as PA5-102006).
+- Same target (likely legitimate): NUMB, FABP, Aqp4, TBRG4, Gemin 3, DLG7, SFPQ, ITGB8, MRPS16, PADI2.
+- False by eye: AK2 / Ki67 (published figures), 6 dark non-hub pairs, one blot-strip pair.
+- Blots (2,123 new): template scan 15 hit products, 13 listed. Unlisted PAR6 PA5-18233 (pattern C 0.22) is a
+  two-lane blot in a different layout (false); AKT1 PA5-23780 (pattern C 0.18) shows no zero-offset peak in
+  shift2.py against either reference (unresolved, likely false). Pattern A detector: 29 hits, all listed.

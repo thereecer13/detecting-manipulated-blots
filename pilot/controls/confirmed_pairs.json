@@ -2966,5 +2966,37 @@
   "score": 0.866,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA576710-GMNN-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA530048-Golgin97-ICC.jpg"
+ },
+ {
+  "group": "PLCB2 (THP-1) / KDM6A (K-562) adds a second PLCB2 product PA5-78108",
+  "a": "PA5-102006",
+  "b": "PA5-78108",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-102006-PLCB2-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-78108-PLCB2-ICCIF-1-20221010_062607.jpg"
+ },
+ {
+  "group": "Annexin A2 / ADAM17 / 4EBP1 adds AIF PA5-17638",
+  "a": "MA5-32689",
+  "b": "PA5-17638",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532689-ANXA2-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517638-AIF-ICC.jpg"
+ },
+ {
+  "group": "GSTM3 / FXR1 'Negative Control' adds SHH PA5-142192",
+  "a": "PA5-142352",
+  "b": "PA5-142192",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142352-GSTM3-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142192-SHH-ICCIF-2-20230104_152038.jpg"
+ },
+ {
+  "group": "TORC2 / TERT '-ve control' (U2OS, 2023-01-04) adds MGLL PA5-19001 (U2OS, 2024-02-01)",
+  "a": "PA5-142679",
+  "b": "PA5-19001",
+  "score": 0.989,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142679-TORC2-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19001-MONOACYLGLYCEROLLIPASE-ICCIF-2-20240201_121020.jpg"
  }
 ]
