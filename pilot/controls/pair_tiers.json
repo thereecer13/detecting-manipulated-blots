@@ -9647,5 +9647,261 @@
   "b_date": "2022-03-01",
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA588546-RHAMM-ICC_20220315041604.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-102832-IRF7-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-143265",
+  "b": "PA5-143221",
+  "group": "HSP60 / AIF -ve control (HeLa) adds AIF PA5-143221",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143265-HSP60-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-143221-AIF-ICCIF-2-20230104_152038.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "MA5-27900",
+  "b": "PA5-119555",
+  "group": "Integrin beta 1 / VISTA adds VISTA PA5-119555",
+  "a_cells": [
+   "a431"
+  ],
+  "b_cells": [
+   "a431",
+   "hek293"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [],
+  "a_date": "",
+  "b_date": "2023-06-19",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527900-Integrinbeta1CD29-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-119555-VISTA-RE-1-20230619_162658.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-78028",
+  "b": "PA5-119555",
+  "group": "Integrin beta 1 / VISTA adds VISTA PA5-119555",
+  "a_cells": [
+   "a431"
+  ],
+  "b_cells": [
+   "a431",
+   "hek293"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2023-06-19",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578028-ITGB1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-119555-VISTA-ICCIF-1-20230619_162658.jpg"
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "why": "secondary anti-mouse vs anti-rabbit",
+  "gap_days": 0,
+  "a": "MA5-26367",
+  "b": "PA5-30292",
+  "group": "FAF-X / eIF2B delta no-primary panel e (A-431, anti-mouse vs anti-rabbit)",
+  "a_cells": [
+   "a431"
+  ],
+  "b_cells": [
+   "a431"
+  ],
+  "a_sec": [
+   "mouse"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-03-23",
+  "b_date": "2021-03-23",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526367-USP9X-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA530292-eIF2b-ICC-20210323110406.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-142234",
+  "b": "PA5-142785",
+  "group": "GTF2IRD1 / Nrf2 -ve control (U2OS)",
+  "a_cells": [
+   "u2os"
+  ],
+  "b_cells": [
+   "u2os"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142234-GTF2IRD1-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142785-NRF2-ICCIF-2-20230104_152038.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-89734",
+  "b": "PA5-110488",
+  "group": "HepG2 group adds Tim10 PA5-110488",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589734-NDUFAF2-ICC_20210510112017.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5110488-TIMM10-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-21668",
+  "b": "PA5-110488",
+  "group": "HepG2 group adds Tim10 PA5-110488",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA521668-NDUFB9-ICC_20210511132848.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5110488-TIMM10-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-24560",
+  "b": "PA5-110488",
+  "group": "HepG2 group adds Tim10 PA5-110488",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA524560-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5110488-TIMM10-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-78729",
+  "b": "PA5-20926",
+  "group": "U-87 MG group adds ZC3H12A PA5-20926",
+  "a_cells": [
+   "u87mg"
+  ],
+  "b_cells": [
+   "u87mg"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578729-ADAR-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA520926-ZC3H12A-ICC_20210729141302.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-78516",
+  "b": "PA5-20926",
+  "group": "U-87 MG group adds ZC3H12A PA5-20926",
+  "a_cells": [
+   "u87mg"
+  ],
+  "b_cells": [
+   "u87mg"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578516-LAMTOR1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA520926-ZC3H12A-ICC_20210729141302.jpg"
+ },
+ {
+  "tier": "1b captions contradict: secondary antibody species only",
+  "why": "secondary anti-mouse vs anti-rabbit",
+  "gap_days": null,
+  "a": "MA5-26308",
+  "b": "PA5-20926",
+  "group": "U-87 MG group adds ZC3H12A PA5-20926",
+  "a_cells": [
+   "u87mg"
+  ],
+  "b_cells": [
+   "u87mg"
+  ],
+  "a_sec": [
+   "mouse"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-26308-TOLLIP-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA520926-ZC3H12A-ICC_20210729141302.jpg"
  }
 ]

@@ -828,3 +828,18 @@ Forty-third batch (crawl at ~65,300 MA5/PA5 pages):
     - Review image: reviews/thermo_controls/acvrl1_patternB.png.
   - HDAC11 PA5-11249, SC4MOL PA5-48651, ID1 PA5-121198 and GAK PA5-15320 (pattern C): false; shift-correlation
     peaks of 0.03–0.10, at or near the noise level.
+
+Forty-fourth batch (29,328 figures, 64,673 panels; crawl at ~66,100 MA5/PA5 pages):
+- **FAF-X MA5-26367 / eIF2B delta PA5-30292 (both A-431, both stamped 2021-03-23): same no-primary panel e,
+  but the secondaries conflict.** FAF-X's caption names an anti-mouse secondary and eIF2B delta's an
+  anti-rabbit one (tier 1b).
+- GTF2IRD1 PA5-142234 / Nrf2 PA5-142785: the same "-ve control" image (both U2OS, both stamped 2023-01-04).
+- The HepG2 group (NDUFAF2 / NDUFB9 / SUMO1 / NME2) adds Tim10 PA5-110488 (HepG2, stamped 2021-05-27).
+- The U-87 MG group (ADAR1 / LAMTOR1 / TOLLIP / SUMO1) adds ZC3H12A PA5-20926 (U-87 MG, no stamp).
+- Same target (likely legitimate): alpha A crystallin, CREM, DNAJA2, DNAJB6, ITGB8, LAT, Tim10.
+- False by eye: 3 dark non-hub pairs.
+- Blots (861 new): template scan 13 hit products, 2 unlisted:
+  - WDR54 PA5-113432 (pattern C, share 0.41): false. It uses a different layout (kDa labels with units), and
+    the shift-correlation peak (0.12) is not at (0, 0). Its lane is uniformly flat with no texture.
+  - MCART2 PA5-24374 (pattern C, share 0.18): false; peak 0.06, at the noise level.
+  - Pattern A detector: 12 hits, all listed. No 2021-09-23 stamps.
