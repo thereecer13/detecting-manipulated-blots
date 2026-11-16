@@ -807,3 +807,24 @@ Caveats: 1b is weaker than 1a. A lab could put both secondaries on a no-primary 
 say so. Upload stamps are not experiment dates, so tier 2 vs 3 is only a hint. Tier 1a includes same-day pairs
 such as MA5-54064 (HT-1080) / MA5-54052 (C2C12): a no-primary image shows one cell line, so both captions
 cannot be right.
+
+Forty-third batch (crawl at ~65,300 MA5/PA5 pages):
+- HSP60 PA5-143265 / AIF "-ve control" (HeLa, 2023-01-04) adds a second AIF product, PA5-143221 (same stamp).
+- Integrin beta 1 / VISTA (A-431) adds a second VISTA product, PA5-119555 (caption A-431 and HEK293,
+  2023-06-19; panel f where ITGB1 has panel e).
+- Same target (likely legitimate): Aconitase, DHRS2, GLS, HCLS1, HSP70, KRT9, MIF, MYH11, NLRC4, SERPINA10,
+  SRPRB, VSIR.
+- False or uninformative by eye:
+  - near-blank dark frames shared by the PA5-49xxx family and PA5-34401 (nothing to compare);
+  - bead and well images;
+  - 4 dark non-hub pairs.
+- Blots (1,332 new): template scan 16 hit products, 5 unlisted:
+  - **ACVRL1 PA5-118826 (WB-1, stamped 2021-09-23): pattern B, confirmed.**
+    - After rescaling to the exemplar size, its lane background matches the 2019-08-08 pattern B exemplars
+      TSEN54 PA5-101939 and GRB14 PA5-101612 on raw pixels: texture r = 0.62 and 0.61, falling to 0.02 when
+      flipped.
+    - It is the first time the 2019 pattern B background appears in the 2021-09-23 upload, which now has
+      8 blot candidates.
+    - Review image: reviews/thermo_controls/acvrl1_patternB.png.
+  - HDAC11 PA5-11249, SC4MOL PA5-48651, ID1 PA5-121198 and GAK PA5-15320 (pattern C): false; shift-correlation
+    peaks of 0.03–0.10, at or near the noise level.
