@@ -1,0 +1,992 @@
+{
+ "F00": {
+  "file": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "hit": {
+   "n": 397,
+   "frac": 0.7861386138613862,
+   "aligned": 0.49622166246851385,
+   "nncv": 0.4906330337696408,
+   "boxfrac": 0.18645418326693228,
+   "dy": 411,
+   "dx": -359,
+   "src": [
+    416,
+    464,
+    680,
+    698
+   ],
+   "dst": [
+    57,
+    875,
+    321,
+    1109
+   ],
+   "overlap": 0.0,
+   "score": 312.0970297029703
+  },
+  "pmcid": "PMC13488854",
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
+  "fig": "Fig. 2",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "F01": {
+  "file": "PMC13663672_AMS-22-4-127589-g001.webp",
+  "hit": {
+   "n": 224,
+   "frac": 0.7368421052631579,
+   "aligned": 0.026785714285714284,
+   "nncv": 0.4535778967987612,
+   "boxfrac": 0.20012828736369467,
+   "dy": 1,
+   "dx": 527,
+   "src": [
+    615,
+    794,
+    927,
+    1104
+   ],
+   "dst": [
+    1142,
+    795,
+    1454,
+    1105
+   ],
+   "overlap": 0.0,
+   "score": 165.05263157894737
+  },
+  "pmcid": "PMC13663672",
+  "doi": "10.5114/aoms.2020.100837",
+  "title": "Ellagic acid inhibited cervical cancer growth via blocking the AKT/mTOR/STAT3 pathway",
+  "citation": "Arch Med Sci. 2020 Nov 15;22(4):2389\u2013403. doi: 10.5114/aoms.2020.100837",
+  "fig": "Figure 1",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "F02": {
+  "file": "PMC12009130_nihms-2052733-f0005.jpg",
+  "hit": {
+   "n": 170,
+   "frac": 0.8252427184466019,
+   "aligned": 0.10588235294117647,
+   "nncv": 0.3764454073251979,
+   "boxfrac": 0.13120567375886524,
+   "dy": 341,
+   "dx": 1,
+   "src": [
+    158,
+    404,
+    240,
+    626
+   ],
+   "dst": [
+    159,
+    745,
+    241,
+    967
+   ],
+   "overlap": 0.0,
+   "score": 140.29126213592232
+  },
+  "pmcid": "PMC12009130",
+  "doi": "10.1016/j.celrep.2024.115111",
+  "title": "A minority of Th1 and Tfh effector cells express survival genes shared by memory cell progeny that require IL-7 or TCR signaling to persist",
+  "citation": "Cell Rep. Author manuscript; Available in PMC 2025 Apr 19.",
+  "fig": "Figure 4.",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F03": {
+  "file": "PMC11725927_pnas.2413686122fig02.jpg",
+  "hit": {
+   "n": 96,
+   "frac": 0.9896907216494846,
+   "aligned": 0.0,
+   "nncv": 0.47217228869461664,
+   "boxfrac": 0.03345070422535211,
+   "dy": 0,
+   "dx": 1088,
+   "src": [
+    281,
+    3035,
+    414,
+    3141
+   ],
+   "dst": [
+    1369,
+    3035,
+    1502,
+    3141
+   ],
+   "overlap": 0.0,
+   "score": 95.01030927835052
+  },
+  "pmcid": "PMC11725927",
+  "doi": "10.1073/pnas.2413686122",
+  "title": "Computational-aided rational mutation design of pertuzumab to overcome active HER2 mutation S310F through antibody\u2013drug conjugates",
+  "citation": "Proc Natl Acad Sci U S A. 2024 Dec 30;122(1):e2413686122. doi: 10.1073/pnas.2413686122",
+  "fig": "Fig. 2.",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F04": {
+  "file": "PMC7618435_EMS211310-f007.jpg",
+  "hit": {
+   "n": 144,
+   "frac": 0.6180257510729614,
+   "aligned": 0.0,
+   "nncv": 0.6367912949682722,
+   "boxfrac": 0.17875,
+   "dy": 0,
+   "dx": 249,
+   "src": [
+    332,
+    840,
+    475,
+    994
+   ],
+   "dst": [
+    581,
+    840,
+    724,
+    994
+   ],
+   "overlap": 0.0,
+   "score": 88.99570815450645
+  },
+  "pmcid": "PMC7618435",
+  "doi": "10.1016/j.cell.2022.11.005",
+  "title": "A human fetal lung cell atlas uncovers proximal-distal gradients of differentiation and key regulators of epithelial fates",
+  "citation": "Cell. Author manuscript; Available in PMC 2025 Dec 4.",
+  "fig": "Figure 7",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "F05": {
+  "file": "PMC12296486_NRR-21-1222-g007.jpg",
+  "hit": {
+   "n": 122,
+   "frac": 0.6192893401015228,
+   "aligned": 0.5819672131147541,
+   "nncv": 0.49715168778114777,
+   "boxfrac": 0.4265536723163842,
+   "dy": 68,
+   "dx": 0,
+   "src": [
+    249,
+    344,
+    551,
+    400
+   ],
+   "dst": [
+    249,
+    412,
+    551,
+    468
+   ],
+   "overlap": 0.0,
+   "score": 75.55329949238579
+  },
+  "pmcid": "PMC12296486",
+  "doi": "10.4103/NRR.NRR-D-24-00302",
+  "title": "Porcine decellularized nerve matrix hydrogel attenuates neuroinflammation after peripheral nerve injury by inhibiting the TLR4/MyD88/NF-\u03baB axis",
+  "citation": "Neural Regen Res. 2024 Nov 13;21(3):1222\u201335. doi: 10.4103/NRR.NRR-D-24-00302",
+  "fig": "Figure 6",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "F06": {
+  "file": "PMC11896328_KJM2-37-1058-g002.jpg",
+  "hit": {
+   "n": 109,
+   "frac": 0.6606060606060606,
+   "aligned": 0.44036697247706424,
+   "nncv": 0.38150549052317995,
+   "boxfrac": 0.3765867418899859,
+   "dy": 61,
+   "dx": 0,
+   "src": [
+    237,
+    354,
+    504,
+    405
+   ],
+   "dst": [
+    237,
+    415,
+    504,
+    466
+   ],
+   "overlap": 0.0,
+   "score": 72.00606060606061
+  },
+  "pmcid": "PMC11896328",
+  "doi": "10.1002/kjm2.12432",
+  "title": "Circular RNA circ_0011385 promotes cervical cancer progression through competitively binding to miR\u2010149\u20105p and up\u2010regulating SOX4 expression",
+  "citation": "Kaohsiung J Med Sci. 2021 Aug 9;37(12):1058\u201368. doi: 10.1002/kjm2.12432",
+  "fig": "FIGURE 4",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F07": {
+  "file": "PMC12143824_gr3.jpg",
+  "hit": {
+   "n": 91,
+   "frac": 0.65,
+   "aligned": 0.5494505494505495,
+   "nncv": 0.6616313090312004,
+   "boxfrac": 0.07622298065984073,
+   "dy": 51,
+   "dx": 0,
+   "src": [
+    675,
+    394,
+    722,
+    461
+   ],
+   "dst": [
+    675,
+    445,
+    722,
+    512
+   ],
+   "overlap": 0.23880597014925373,
+   "score": 59.15
+  },
+  "pmcid": "PMC12143824",
+  "doi": "10.1016/j.ajps.2024.101011",
+  "title": "Endosomal disruption by co-encapsulating gentamicin in lipid nanoparticles for efficient siRNA delivery and cancer therapy",
+  "citation": "Asian J Pharm Sci. 2024 Dec 16;20(3):101011. doi: 10.1016/j.ajps.2024.101011",
+  "fig": "Fig. 3",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F08": {
+  "file": "PMC11895931_KJM2-39-873-g003.jpg",
+  "hit": {
+   "n": 65,
+   "frac": 0.8552631578947368,
+   "aligned": 0.0,
+   "nncv": 0.9652465051524123,
+   "boxfrac": 0.04372355430183357,
+   "dy": 33,
+   "dx": 0,
+   "src": [
+    244,
+    408,
+    275,
+    441
+   ],
+   "dst": [
+    244,
+    441,
+    275,
+    474
+   ],
+   "overlap": 0.0,
+   "score": 55.5921052631579
+  },
+  "pmcid": "PMC11895931",
+  "doi": "10.1002/kjm2.12728",
+  "title": "FTO\u2010mediated epigenetic upregulation of LINC01559 confers cell resistance to docetaxel in breast carcinoma by suppressing miR\u20101343\u20103p",
+  "citation": "Kaohsiung J Med Sci. 2023 Aug 16;39(9):873\u201382. doi: 10.1002/kjm2.12728",
+  "fig": "FIGURE 2",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F09": {
+  "file": "PMC12094562_NRR-21-392-g003.jpg",
+  "hit": {
+   "n": 84,
+   "frac": 0.631578947368421,
+   "aligned": 0.36904761904761907,
+   "nncv": 0.5974210527298398,
+   "boxfrac": 0.34807417974322397,
+   "dy": 61,
+   "dx": -1,
+   "src": [
+    396,
+    26,
+    640,
+    77
+   ],
+   "dst": [
+    395,
+    87,
+    639,
+    138
+   ],
+   "overlap": 0.0,
+   "score": 53.05263157894736
+  },
+  "pmcid": "PMC12094562",
+  "doi": "10.4103/NRR.NRR-D-23-01273",
+  "title": "Long noncoding RNA GAS5 acts as a competitive endogenous RNA to regulate GSK-3\u03b2 and PTEN expression by sponging miR-23b-3p in Alzheimer\u2019s disease",
+  "citation": "Neural Regen Res. 2024 Jul 29;21(1):392\u2013405. doi: 10.4103/NRR.NRR-D-23-01273",
+  "fig": "Figure 2",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "F10": {
+  "file": "PMC11895569_KJM2-40-150-g005.jpg",
+  "hit": {
+   "n": 73,
+   "frac": 0.6576576576576577,
+   "aligned": 0.3287671232876712,
+   "nncv": 0.5338760625517288,
+   "boxfrac": 0.2750352609308886,
+   "dy": 90,
+   "dx": 0,
+   "src": [
+    225,
+    818,
+    420,
+    896
+   ],
+   "dst": [
+    225,
+    908,
+    420,
+    986
+   ],
+   "overlap": 0.0,
+   "score": 48.00900900900901
+  },
+  "pmcid": "PMC11895569",
+  "doi": "10.1002/kjm2.12791",
+  "title": "METTL3\u2010mediated m6A methylation of TRAF5 inhibits lung adenocarcinoma cell metastasis via activation of the PI3K/AKT/NF\u2010\u03baB signaling pathway",
+  "citation": "Kaohsiung J Med Sci. 2023 Dec 13;40(2):150\u201360. doi: 10.1002/kjm2.12791",
+  "fig": "FIGURE 6",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F11": {
+  "file": "PMC11984661_ACEL-24-e14440-g007.jpg",
+  "hit": {
+   "n": 67,
+   "frac": 0.6767676767676768,
+   "aligned": 0.417910447761194,
+   "nncv": 0.4105579410318286,
+   "boxfrac": 0.22002820874471085,
+   "dy": 1,
+   "dx": 171,
+   "src": [
+    26,
+    207,
+    182,
+    278
+   ],
+   "dst": [
+    197,
+    208,
+    353,
+    279
+   ],
+   "overlap": 0.0,
+   "score": 45.343434343434346
+  },
+  "pmcid": "PMC11984661",
+  "doi": "10.1111/acel.14440",
+  "title": "Piezo1 exacerbates inflammation\u2010induced cartilaginous endplate degeneration by activating mitochondrial fission via the Ca2+/CaMKII/Drp1 axis",
+  "citation": "Aging Cell. 2024 Nov 28;24(4):e14440. doi: 10.1111/acel.14440",
+  "fig": "FIGURE 4",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "F12": {
+  "file": "PMC12602676_10528_2024_10959_Fig5_HTML.jpg",
+  "hit": {
+   "n": 59,
+   "frac": 0.7468354430379747,
+   "aligned": 0.2033898305084746,
+   "nncv": 0.6405586455186351,
+   "boxfrac": 0.2261904761904762,
+   "dy": 0,
+   "dx": 83,
+   "src": [
+    184,
+    27,
+    240,
+    160
+   ],
+   "dst": [
+    267,
+    27,
+    323,
+    160
+   ],
+   "overlap": 0.0,
+   "score": 44.063291139240505
+  },
+  "pmcid": "PMC12602676",
+  "doi": "10.1007/s10528-024-10959-3",
+  "title": "The LINC01094/miR-545-3p/SLC7A11 Signaling Axis Promotes the Development of Gastric Cancer by Regulating Cell Growth and Ferroptosis",
+  "citation": "Biochem Genet. 2024 Nov 14;63(6):4829\u201345. doi: 10.1007/s10528-024-10959-3",
+  "fig": "Fig. 5",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F13": {
+  "file": "PMC12046306_kcj-55-305-g006.jpg",
+  "hit": {
+   "n": 60,
+   "frac": 0.7142857142857143,
+   "aligned": 0.16666666666666666,
+   "nncv": 0.7279621732252495,
+   "boxfrac": 0.15137614678899083,
+   "dy": 1,
+   "dx": 151,
+   "src": [
+    60,
+    422,
+    159,
+    554
+   ],
+   "dst": [
+    211,
+    423,
+    310,
+    555
+   ],
+   "overlap": 0.0,
+   "score": 42.85714285714286
+  },
+  "pmcid": "PMC12046306",
+  "doi": "10.4070/kcj.2024.0190",
+  "title": "UPF1 Alleviates Myocardial Ischemia-Reperfusion Injury by Regulating SMURF2-Mediated Ubiquitination Degradation of FOXA2",
+  "citation": "Korean Circ J. 2024 Dec 10;55(4):305\u201321. doi: 10.4070/kcj.2024.0190",
+  "fig": "Figure 6",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "F14": {
+  "file": "PMC12488030_sciadv.add2632-f3.jpg",
+  "hit": {
+   "n": 65,
+   "frac": 0.6074766355140186,
+   "aligned": 0.0,
+   "nncv": 0.4301171064119665,
+   "boxfrac": 0.12278308321964529,
+   "dy": 1,
+   "dx": 123,
+   "src": [
+    38,
+    370,
+    128,
+    456
+   ],
+   "dst": [
+    161,
+    371,
+    251,
+    457
+   ],
+   "overlap": 0.0,
+   "score": 39.48598130841121
+  },
+  "pmcid": "PMC12488030",
+  "doi": "10.1126/sciadv.add2632",
+  "title": "CD34+ cell\u2013derived fibroblast-macrophage cross-talk drives limb ischemia recovery through the OSM-ANGPTL signaling axis",
+  "citation": "Sci Adv. 2023 Apr 12;9(15):eadd2632. doi: 10.1126/sciadv.add2632",
+  "fig": "Fig. 3.",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "F15": {
+  "file": "PMC12174192_12011_2024_4477_Fig1_HTML.jpg",
+  "hit": {
+   "n": 49,
+   "frac": 0.6901408450704225,
+   "aligned": 0.2857142857142857,
+   "nncv": 0.5164380538709142,
+   "boxfrac": 0.32193732193732194,
+   "dy": 0,
+   "dx": 78,
+   "src": [
+    508,
+    124,
+    561,
+    237
+   ],
+   "dst": [
+    586,
+    124,
+    639,
+    237
+   ],
+   "overlap": 0.0,
+   "score": 33.816901408450704
+  },
+  "pmcid": "PMC12174192",
+  "doi": "10.1007/s12011-024-04477-x",
+  "title": "Nickel Sulfate-Induced GSIS Injury in MIN6 Cells by Activating the JNK Pathway Through Oxidative Stress",
+  "citation": "Biol Trace Elem Res. 2024 Dec 11;203(8):4308\u201317. doi: 10.1007/s12011-024-04477-x",
+  "fig": "Fig. 1",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F16": {
+  "file": "PMC11928426_12033_2024_1148_Fig2_HTML.jpg",
+  "hit": {
+   "n": 54,
+   "frac": 0.6,
+   "aligned": 0.2777777777777778,
+   "nncv": 0.7178217674757696,
+   "boxfrac": 0.22189349112426035,
+   "dy": 88,
+   "dx": 0,
+   "src": [
+    390,
+    149,
+    540,
+    223
+   ],
+   "dst": [
+    390,
+    237,
+    540,
+    311
+   ],
+   "overlap": 0.0,
+   "score": 32.4
+  },
+  "pmcid": "PMC11928426",
+  "doi": "10.1007/s12033-024-01148-z",
+  "title": "Role of C/EBP Homologous Protein (CHOP) and Nupr1 Interaction in Endoplasmic Reticulum Stress-Induced Apoptosis of Lens Epithelial Cells",
+  "citation": "Mol Biotechnol. 2024 May 21;67(4):1628\u201340. doi: 10.1007/s12033-024-01148-z",
+  "fig": "Fig. 2",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "F17": {
+  "file": "PMC12015977_CAC2-44-1350-g007.jpg",
+  "hit": {
+   "n": 39,
+   "frac": 0.8297872340425532,
+   "aligned": 0.5128205128205128,
+   "nncv": 0.4096263752386953,
+   "boxfrac": 0.2215568862275449,
+   "dy": 1,
+   "dx": 87,
+   "src": [
+    26,
+    420,
+    94,
+    568
+   ],
+   "dst": [
+    113,
+    421,
+    181,
+    569
+   ],
+   "overlap": 0.0,
+   "score": 32.361702127659576
+  },
+  "pmcid": "PMC12015977",
+  "doi": "10.1002/cac2.12609",
+  "title": "Yap methylation\u2010induced FGL1 expression suppresses anti\u2010tumor immunity and promotes tumor progression in KRAS\u2010driven lung adenocarcinoma",
+  "citation": "Cancer Commun (Lond). 2024 Sep 28;44(11):1350\u201373. doi: 10.1002/cac2.12609",
+  "fig": "FIGURE 6",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F18": {
+  "file": "PMC11969555_AMS-21-1-118396-g003.jpg",
+  "hit": {
+   "n": 36,
+   "frac": 0.8571428571428571,
+   "aligned": 0.4444444444444444,
+   "nncv": 0.5584121878413759,
+   "boxfrac": 0.2244039270687237,
+   "dy": 142,
+   "dx": -1,
+   "src": [
+    515,
+    10,
+    675,
+    34
+   ],
+   "dst": [
+    514,
+    152,
+    674,
+    176
+   ],
+   "overlap": 0.0,
+   "score": 30.857142857142854
+  },
+  "pmcid": "PMC11969555",
+  "doi": "10.5114/aoms.2020.94439",
+  "title": "Inhibition of glioma cell viability by jatrophone via NF-\u03baB down-regulation and apoptosis inhibitor up-regulation",
+  "citation": "Arch Med Sci. 2020 Apr 15;21(1):224\u201332. doi: 10.5114/aoms.2020.94439",
+  "fig": "Figure 3",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "F19": {
+  "file": "PMC12344613_ADHM-13-0-g003.jpg",
+  "hit": {
+   "n": 40,
+   "frac": 0.7547169811320755,
+   "aligned": 0.575,
+   "nncv": 0.7608015653059641,
+   "boxfrac": 0.21095334685598377,
+   "dy": 0,
+   "dx": 51,
+   "src": [
+    294,
+    236,
+    345,
+    340
+   ],
+   "dst": [
+    345,
+    236,
+    396,
+    340
+   ],
+   "overlap": 0.0,
+   "score": 30.18867924528302
+  },
+  "pmcid": "PMC12344613",
+  "doi": "10.1002/adhm.202401270",
+  "title": "Bioconjugated Antibody\u2010Trojan Immune Converter Enhance Cancer Immunotherapy with Minimized Toxicity by Programmed Two\u2010Step Immunomodulation of Myeloid Cells",
+  "citation": "Adv Healthc Mater. 2024 May 27;13(27):2401270. doi: 10.1002/adhm.202401270",
+  "fig": "Figure 5",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F20": {
+  "file": "PMC12014313_gr4.jpg",
+  "hit": {
+   "n": 41,
+   "frac": 0.6833333333333333,
+   "aligned": 0.4878048780487805,
+   "nncv": 0.4805840526374818,
+   "boxfrac": 0.1959731543624161,
+   "dy": 79,
+   "dx": -79,
+   "src": [
+    264,
+    178,
+    410,
+    244
+   ],
+   "dst": [
+    185,
+    257,
+    331,
+    323
+   ],
+   "overlap": 0.0,
+   "score": 28.016666666666666
+  },
+  "pmcid": "PMC12014313",
+  "doi": "10.1016/j.neurot.2024.e00479",
+  "title": "Dehydroervatamine as a promising novel TREM2 agonist, attenuates neuroinflammation",
+  "citation": "Neurotherapeutics. 2024 Nov 28;22(2):e00479. doi: 10.1016/j.neurot.2024.e00479",
+  "fig": "Fig. 4",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F21": {
+  "file": "PMC11899519_SMLL-21-2406094-g009.jpg",
+  "hit": {
+   "n": 44,
+   "frac": 0.6285714285714286,
+   "aligned": 0.0,
+   "nncv": 0.9875093381017309,
+   "boxfrac": 0.14968553459119496,
+   "dy": 0,
+   "dx": 119,
+   "src": [
+    70,
+    312,
+    189,
+    419
+   ],
+   "dst": [
+    189,
+    312,
+    308,
+    419
+   ],
+   "overlap": 0.0,
+   "score": 27.65714285714286
+  },
+  "pmcid": "PMC11899519",
+  "doi": "10.1002/smll.202406094",
+  "title": "Harnessing Lactobacillus reuteri\u2010Derived Extracellular Vesicles for Multifaceted Cancer Treatment",
+  "citation": "Small. 2024 Oct 18;21(10):2406094. doi: 10.1002/smll.202406094",
+  "fig": "Figure 2",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "F22": {
+  "file": "PMC11972891_nihms-2038179-f0006.jpg",
+  "hit": {
+   "n": 39,
+   "frac": 0.7090909090909091,
+   "aligned": 0.358974358974359,
+   "nncv": 0.575438434535483,
+   "boxfrac": 0.2418478260869565,
+   "dy": 1,
+   "dx": -285,
+   "src": [
+    426,
+    953,
+    604,
+    1027
+   ],
+   "dst": [
+    141,
+    954,
+    319,
+    1028
+   ],
+   "overlap": 0.0,
+   "score": 27.654545454545456
+  },
+  "pmcid": "PMC11972891",
+  "doi": "10.1016/j.ajt.2024.11.021",
+  "title": "Graft-derived extracellular vesicles transport miRNAs to modulate macrophage polarization after heart transplantation",
+  "citation": "Am J Transplant. Author manuscript; Available in PMC 2026 Apr 1.",
+  "fig": "Figure 6.",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F23": {
+  "file": "PMC11895885_KJM2-39-1002-g005.jpg",
+  "hit": {
+   "n": 40,
+   "frac": 0.625,
+   "aligned": 0.0,
+   "nncv": 0.7057845115348952,
+   "boxfrac": 0.23413258110014104,
+   "dy": 1,
+   "dx": -159,
+   "src": [
+    324,
+    76,
+    490,
+    138
+   ],
+   "dst": [
+    165,
+    77,
+    331,
+    139
+   ],
+   "overlap": 0.04148853478429848,
+   "score": 25.0
+  },
+  "pmcid": "PMC11895885",
+  "doi": "10.1002/kjm2.12745",
+  "title": "The gut microbiota metabolite butyrate mitigates MPTP/MPP +\u2010induced Parkinson's disease by inhibiting the JAK2/STAT3 signaling pathway",
+  "citation": "Kaohsiung J Med Sci. 2023 Oct 9;39(10):1002\u201310. doi: 10.1002/kjm2.12745",
+  "fig": "FIGURE 2",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F24": {
+  "file": "PMC12105067_ALL-80-1400-g005.jpg",
+  "hit": {
+   "n": 39,
+   "frac": 0.6290322580645161,
+   "aligned": 0.0,
+   "nncv": 0.62603931878108,
+   "boxfrac": 0.3159379407616361,
+   "dy": 1,
+   "dx": -159,
+   "src": [
+    194,
+    65,
+    418,
+    88
+   ],
+   "dst": [
+    35,
+    66,
+    259,
+    89
+   ],
+   "overlap": 0.27756211180124224,
+   "score": 24.532258064516128
+  },
+  "pmcid": "PMC12105067",
+  "doi": "10.1111/all.16393",
+  "title": "Feedback regulation of VISTA and Treg by TNF\u2010\u03b1 controls T cell responses in drug allergy",
+  "citation": "Allergy. 2024 Nov 11;80(5):1400\u201316. doi: 10.1111/all.16393",
+  "fig": "FIGURE 3",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "F25": {
+  "file": "PMC11947051_10495_2024_2049_Fig6_HTML.jpg",
+  "hit": {
+   "n": 38,
+   "frac": 0.6440677966101694,
+   "aligned": 0.5263157894736842,
+   "nncv": 0.6538497777658432,
+   "boxfrac": 0.11239414934565051,
+   "dy": 1,
+   "dx": -77,
+   "src": [
+    126,
+    34,
+    190,
+    180
+   ],
+   "dst": [
+    49,
+    35,
+    113,
+    181
+   ],
+   "overlap": 0.0,
+   "score": 24.47457627118644
+  },
+  "pmcid": "PMC11947051",
+  "doi": "10.1007/s10495-024-02049-x",
+  "title": "PWP1 transcriptionally regulates p53, modulating apoptosis and cell cycle to promote gastric cancer progression",
+  "citation": "Apoptosis. 2024 Dec 25;30(3-4):693\u2013709. doi: 10.1007/s10495-024-02049-x",
+  "fig": "Fig. 6",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F26": {
+  "file": "PMC12225914_gr1.jpg",
+  "hit": {
+   "n": 40,
+   "frac": 0.6060606060606061,
+   "aligned": 0.0,
+   "nncv": 0.5776065561110466,
+   "boxfrac": 0.18135376756066413,
+   "dy": 0,
+   "dx": 196,
+   "src": [
+    37,
+    630,
+    179,
+    714
+   ],
+   "dst": [
+    233,
+    630,
+    375,
+    714
+   ],
+   "overlap": 0.0,
+   "score": 24.242424242424242
+  },
+  "pmcid": "PMC12225914",
+  "doi": "10.1016/j.jare.2024.08.003",
+  "title": "Inhibition of mitophagy via the EIF2S1-ATF4-PRKN pathway contributes to viral encephalitis",
+  "citation": "J Adv Res. 2024 Aug 3;73:199\u2013217. doi: 10.1016/j.jare.2024.08.003",
+  "fig": "Fig. 1",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F27": {
+  "file": "PMC11895996_KJM2-39-576-g002.jpg",
+  "hit": {
+   "n": 30,
+   "frac": 0.7692307692307693,
+   "aligned": 0.43333333333333335,
+   "nncv": 0.7650444150328164,
+   "boxfrac": 0.21297602256699577,
+   "dy": 85,
+   "dx": 0,
+   "src": [
+    50,
+    564,
+    201,
+    593
+   ],
+   "dst": [
+    50,
+    649,
+    201,
+    678
+   ],
+   "overlap": 0.0,
+   "score": 23.076923076923077
+  },
+  "pmcid": "PMC11895996",
+  "doi": "10.1002/kjm2.12661",
+  "title": "Euchromatic histone lysine methyltransferase 2 facilitates radioresistance in prostate cancer by repressing endoplasmic reticulum protein 29 transcription",
+  "citation": "Kaohsiung J Med Sci. 2023 Feb 24;39(6):576\u201386. doi: 10.1002/kjm2.12661",
+  "fig": "FIGURE 4",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "F28": {
+  "file": "PMC12305798_AMS-21-3-188719-g004.jpg",
+  "hit": {
+   "n": 28,
+   "frac": 0.8235294117647058,
+   "aligned": 0.25,
+   "nncv": 0.8611482498618093,
+   "boxfrac": 0.16801075268817203,
+   "dy": 0,
+   "dx": 237,
+   "src": [
+    293,
+    290,
+    418,
+    328
+   ],
+   "dst": [
+    530,
+    290,
+    655,
+    328
+   ],
+   "overlap": 0.0,
+   "score": 23.058823529411764
+  },
+  "pmcid": "PMC12305798",
+  "doi": "10.5114/aoms/188719",
+  "title": "Excessive autophagy of myocardial cells promotes ferroptosis and exacerbates heart failure in the state of myocardial infarction",
+  "citation": "Arch Med Sci. 2024 Jun 12;21(3):944\u201363. doi: 10.5114/aoms/188719",
+  "fig": "Figure 4",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "F29": {
+  "file": "PMC13316909_43046_2021_81_Fig1_HTML.jpg",
+  "hit": {
+   "n": 26,
+   "frac": 0.8666666666666667,
+   "aligned": 0.0,
+   "nncv": 0.49557331657327375,
+   "boxfrac": 0.13843648208469056,
+   "dy": 97,
+   "dx": -1,
+   "src": [
+    423,
+    212,
+    508,
+    300
+   ],
+   "dst": [
+    422,
+    309,
+    507,
+    397
+   ],
+   "overlap": 0.0,
+   "score": 22.533333333333335
+  },
+  "pmcid": "PMC13316909",
+  "doi": "10.1186/s43046-021-00081-5",
+  "title": "Massive pericardial effusion and pleural effusion: cardiac and pleural infiltration in newly diagnosed acute myeloid leukemia",
+  "citation": "J Egypt Natl Canc Inst. 2021 Sep 1;33:23. doi: 10.1186/s43046-021-00081-5",
+  "fig": "Fig. 1",
+  "license": "CC BY",
+  "retracted": false
+ }
+}

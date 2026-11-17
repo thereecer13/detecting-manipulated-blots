@@ -18,7 +18,8 @@ def main():
             M[d['file']] = d
     rows = []
     for r in json.load(open(scan)):
-        hs = [h for h in r['hits'] if h['overlap'] < 0.3]
+        hs = [h for h in r['hits'] if h['overlap'] < 0.3 and h['aligned'] < 0.6
+              and h['nncv'] > 0.35 and h['boxfrac'] < 0.5]
         if hs:
             rows.append((hs[0]['score'], r['file'], hs[0]))
     rows.sort(key=lambda t: -t[0])
@@ -35,11 +36,12 @@ def main():
         w = max(3, max(im.size) // 300)
         for b, col, t in ((h['src'], (255, 0, 0), 'A'), (h['dst'], (0, 90, 255), 'B')):
             d.rectangle([b[0] - 8, b[1] - 8, b[2] + 8, b[3] + 8], outline=col, width=w)
+        box.thumbnail((560, 560), Image.LANCZOS)
         p1 = os.path.join(out, idx + '_fig.png'); box.save(p1)
         pad = 10
         ca = im.crop((h['src'][0] - pad, h['src'][1] - pad, h['src'][2] + pad, h['src'][3] + pad))
         cb = im.crop((h['dst'][0] - pad, h['dst'][1] - pad, h['dst'][2] + pad, h['dst'][3] + pad))
-        s = min(4, 420 / max(ca.size))
+        s = min(4, 340 / max(ca.size))
         sz = (max(1, int(ca.width * s)), max(1, int(ca.height * s)))
         ca, cb = ca.resize(sz, Image.LANCZOS), cb.resize(sz, Image.LANCZOS)
         pair = Image.new('RGB', (sz[0] * 2 + 12, sz[1]), 'white')
