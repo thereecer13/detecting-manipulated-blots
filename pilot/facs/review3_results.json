@@ -1,0 +1,36 @@
+{
+ "review": "facs_across_figures",
+ "exported": "2026-11-17T23:10:25.922Z",
+ "items": [
+  {
+   "id": "X00",
+   "label": "X00 — PMC13488854: Fig. 2 (A) and Fig. 3 (B). 65 single dots coincide; best chance alignment gives 37; B is drawn at 80% of the size of A. Caption A: Hck Knockdown Reduces ECM Degradation, Inflammation, and Apoptosis in Chondrocytes. A Hck level in chondrocytes treated with IL-1β, measured by RT-qPCR. B RT-qPCR confirmed the effectiveness of siRNA transfection in reducing Hck levels. C Cell viability was evaluated with CCK-8 test in IL-1β-treated chondrocytes following Hck knockdown. D-E ELISA m… Caption B: Hck enhances IL-1β-induced ECM degradation, inflammation, and apoptosis in chondrocytes via JAK-STAT3 signaling pathway. A Western blot analysis of JAK-STAT3 signaling proteins in IL-1β-stimulated chondrocytes following Hck knockdown and colivelin treatment. B CCK-8 assay measuring cell viability in IL-1β-stimulated chondrocytes following Hck knock…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "X01",
+   "label": "X01 — PMC13488854: Fig. 2 (A) and Fig. 3 (B). 60 single dots coincide; best chance alignment gives 33; B is drawn at 80% of the size of A. Caption A: Hck Knockdown Reduces ECM Degradation, Inflammation, and Apoptosis in Chondrocytes. A Hck level in chondrocytes treated with IL-1β, measured by RT-qPCR. B RT-qPCR confirmed the effectiveness of siRNA transfection in reducing Hck levels. C Cell viability was evaluated with CCK-8 test in IL-1β-treated chondrocytes following Hck knockdown. D-E ELISA m… Caption B: Hck enhances IL-1β-induced ECM degradation, inflammation, and apoptosis in chondrocytes via JAK-STAT3 signaling pathway. A Western blot analysis of JAK-STAT3 signaling proteins in IL-1β-stimulated chondrocytes following Hck knockdown and colivelin treatment. B CCK-8 assay measuring cell viability in IL-1β-stimulated chondrocytes following Hck knock…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "X02",
+   "label": "X02 — PMC13488854: Fig. 2 (A) and Fig. 3 (B). 59 single dots coincide; best chance alignment gives 34; B is drawn at 80% of the size of A. Caption A: Hck Knockdown Reduces ECM Degradation, Inflammation, and Apoptosis in Chondrocytes. A Hck level in chondrocytes treated with IL-1β, measured by RT-qPCR. B RT-qPCR confirmed the effectiveness of siRNA transfection in reducing Hck levels. C Cell viability was evaluated with CCK-8 test in IL-1β-treated chondrocytes following Hck knockdown. D-E ELISA m… Caption B: Hck enhances IL-1β-induced ECM degradation, inflammation, and apoptosis in chondrocytes via JAK-STAT3 signaling pathway. A Western blot analysis of JAK-STAT3 signaling proteins in IL-1β-stimulated chondrocytes following Hck knockdown and colivelin treatment. B CCK-8 assay measuring cell viability in IL-1β-stimulated chondrocytes following Hck knock…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "X03",
+   "label": "X03 — PMC13488854: Fig. 2 (A) and Fig. 3 (B). 53 single dots coincide; best chance alignment gives 41; B is drawn at 80% of the size of A. Caption A: Hck Knockdown Reduces ECM Degradation, Inflammation, and Apoptosis in Chondrocytes. A Hck level in chondrocytes treated with IL-1β, measured by RT-qPCR. B RT-qPCR confirmed the effectiveness of siRNA transfection in reducing Hck levels. C Cell viability was evaluated with CCK-8 test in IL-1β-treated chondrocytes following Hck knockdown. D-E ELISA m… Caption B: Hck enhances IL-1β-induced ECM degradation, inflammation, and apoptosis in chondrocytes via JAK-STAT3 signaling pathway. A Western blot analysis of JAK-STAT3 signaling proteins in IL-1β-stimulated chondrocytes following Hck knockdown and colivelin treatment. B CCK-8 assay measuring cell viability in IL-1β-stimulated chondrocytes following Hck knock…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "X04",
+   "label": "X04 — PMC11895658: FIGURE 2 (A) and FIGURE 1 (B). 39 single dots coincide; best chance alignment gives 28; B is drawn at 111% of the size of A. Caption A: Downregulation of METTL3 alleviates cell damage induced by SP. Cells were transfected with si‐METTL3, and negative control cells were transfection with si‐NC. AECs were infected with SP. (A): mRNA levels of METTL3 were measured by RT‐qPCR. (B): Western blot analysis detected the cellular levels of Bax, Bcl‐2, and METTL3 in proteins. (C): Cell viabi… Caption B: SP induces apoptosis and inflammatory injury in AECs and promotes METTL3 expression. AECs were infected with SP, and the untreated cells were used as the control (Ctrl). (A): Cell viability was detected using CCK‐8 assay. (B): The apoptosis rate was measured by flow cytometry. (C): mRNA levels of METTL3 were measured by RT‐qPCR. (D): Western blot a…",
+   "verdict": "unsure",
+   "notes": ""
+  }
+ ]
+}

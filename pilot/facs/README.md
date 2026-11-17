@@ -42,3 +42,13 @@ Across figures of one paper (`cross_fig.py`, `build_review3.py`, key `review3_ke
 - 5 pairs score >= 8, in 2 papers: four pairs between Fig. 2 and Fig. 3 of PMC13488854 (plots drawn at
   different sizes), and one in PMC11896295 that is a grid of small plots matched on tick marks and labels
   (false by eye).
+
+Review of the across-figure page (`review3_results.json`, key `review3_key.json`; 5 pairs)
+- 4 duplicated (all in PMC13488854, Adv Rheumatol 2024, doi:10.1186/s42358-024-00427-2), 1 unsure (PMC11895658).
+- The four PMC13488854 pairs are two panels of Fig. 2F against two panels of Fig. 3E: the "Control" and
+  "IL-1β+si-Hck#2" apoptosis plots of each figure. Every one of the four combinations shares dots, so the
+  overlap is not only the same condition shown again in a later figure: the Control plot of one figure also
+  shares dots with the si-Hck#2 plot of the other. The quadrant percentages printed on the plots differ
+  between the figures (e.g. Control Q1-LL 93.33% in Fig. 2, 92.48% in Fig. 3).
+- Scores (coinciding dots minus best chance alignment) are 12 to 28, lower than most within-figure
+  duplicates, because Fig. 3 is drawn at 80% of the size of Fig. 2.
