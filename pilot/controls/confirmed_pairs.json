@@ -3422,5 +3422,117 @@
   "score": 0.979,
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA517265-CS-ICC-1-20201020140612.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA579337-GSTM1-ICC-1-20201020140612.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds PPM1A PA5-29275 and HSP40 PA5-17382",
+  "a": "PA5-22048",
+  "b": "PA5-29275",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA522048-RAG2-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA529275-PPM1A-ICC-20190319102800.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds PPM1A PA5-29275 and HSP40 PA5-17382",
+  "a": "PA5-17299",
+  "b": "PA5-17382",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517299-PRMT1-ICC-20190319102800.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517382-HSP40-ICC.jpg"
+ },
+ {
+  "group": "ASC / MDA5 group adds third ASC product PA5-27715 (caption HeLa and MCF7; MDA5 says A549)",
+  "a": "PA5-89344",
+  "b": "PA5-27715",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589344-MDA5-ICC_20210701230239.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA527715-PYCARD-ICC-1-20201020140612.jpg"
+ },
+ {
+  "group": "p53 PA5-17648 / beta-catenin PA5-77933 (MCF7, 2022-03-01): same no-primary panel",
+  "a": "PA5-17648",
+  "b": "PA5-77933",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-17648-P53-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-77933-BETACATENIN-ICCIF-1-20220301_073323.jpg"
+ },
+ {
+  "group": "GAPDH / HSPE1 (HeLa) group adds HSPE1 PA5-96675 and PA5-79415",
+  "a": "MA5-31976",
+  "b": "PA5-96675",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-31976-GAPDH-ICCIF-1-20240305_153008.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-96675-HSPE1-ICCIF-1-20240305_153008.jpg"
+ },
+ {
+  "group": "GAPDH / HSPE1 (HeLa) group adds HSPE1 PA5-96675 and PA5-79415",
+  "a": "MA5-31976",
+  "b": "PA5-79415",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-31976-GAPDH-ICCIF-1-20240305_153008.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-79415-HSPE1-ICCIF-1-20240305_153008.jpg"
+ },
+ {
+  "group": "RSK1 PA5-90646 / PLCG1 PA5-86198 (NTERA-2): same no-primary panel",
+  "a": "PA5-90646",
+  "b": "PA5-86198",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA590646-RPS6KA1-ICC1_20220603152232.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA586198-PLCG1-ICC1_20220603151638.jpg"
+ },
+ {
+  "group": "HADHA PA5-76718 / FASN PA5-22111 (Hep G2, 2020-08-24): same no-primary panel",
+  "a": "PA5-76718",
+  "b": "PA5-22111",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576718-HADHA-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA522111-FASN-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "SOX11 / CrkL / PRKAR1B group adds third CrkL product PA5-88241",
+  "a": "PA5-40698",
+  "b": "PA5-88241",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA540698-SOX11-ICC-20191105121718.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA588241-CRKL-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "EWSR1 MA5-35826 and MA5-34868 / PGR PA5-94983 (T-47D, 2023-03-16): same no-primary panel",
+  "a": "MA5-35826",
+  "b": "PA5-94983",
+  "score": 0.99,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35826-EWSR1-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-94983-PROGESTERONERECEPTOR-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "EWSR1 MA5-35826 and MA5-34868 / PGR PA5-94983 (T-47D, 2023-03-16): same no-primary panel",
+  "a": "MA5-34868",
+  "b": "PA5-94983",
+  "score": 0.99,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34868-EWSR1-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-94983-PROGESTERONERECEPTOR-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "Citrate synthase / MAOB / GSTM1 group adds citrate synthase PA5-76803",
+  "a": "PA5-29824",
+  "b": "PA5-76803",
+  "score": 0.979,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529824-MAOB-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576803-CS-ICC-1-20201020140612.jpg"
+ },
+ {
+  "group": "RB / RIPK2 PA5-34808 / CPT1A PA5-76788 (MCF7, 2020-08 to 2020-11): same no-primary panel",
+  "a": "MA5-32103",
+  "b": "PA5-34808",
+  "score": 0.976,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532103-Retinoblastomaassociatedprotein-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA534808-RIP2-AV-ICC-20200824211338.jpg"
+ },
+ {
+  "group": "RB / RIPK2 PA5-34808 / CPT1A PA5-76788 (MCF7, 2020-08 to 2020-11): same no-primary panel",
+  "a": "PA5-34808",
+  "b": "PA5-76788",
+  "score": 0.934,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA534808-RIP2-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA576788-CPT1A-ICC-20201130085646.jpg"
  }
 ]

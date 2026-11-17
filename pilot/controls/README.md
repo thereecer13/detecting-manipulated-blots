@@ -875,3 +875,20 @@ Forty-sixth batch (30,249 figures, 66,480 panels; crawl at ~68,500 MA5/PA5 pages
   - PA5-12546, PA5-52199, PA5-71514 (pattern C) and PA5-81963 (D): false; shift-correlation peaks 0.05,
     at the noise level and off zero.
   - Pattern A detector: 3 hits, all listed.
+
+Forty-seventh batch (31,124 figures, 68,196 panels; crawl at ~70,760 MA5/PA5 pages):
+- The ASC / MDA5 group (captions already disagree: MCF7 vs A549) adds a third ASC product, PA5-27715, whose
+  caption says HeLa and MCF7 (stamped 2020-10-20).
+- Retinoblastoma protein (MA5-32103, MA5-11387, PA5-27215) / RIPK2 PA5-34808 (all MCF7, stamped 2020-08-24) /
+  CPT1A PA5-76788 (MCF7, stamped 2020-11-30): same no-primary panel, on uploads three months apart.
+- New same-day pairs with consistent captions (plausible batch controls): p53 PA5-17648 / beta-catenin
+  PA5-77933 (MCF7, 2022-03-01); HADHA PA5-76718 / FASN PA5-22111 (Hep G2, 2020-08-24); EWSR1 MA5-35826 and
+  MA5-34868 / PGR PA5-94983 (T-47D, 2023-03-16); RSK1 PA5-90646 / PLCG1 PA5-86198 (NTERA-2, no stamps).
+- The HeLa RAN group adds PPM1A PA5-29275 (stamped 2019-03-19) and HSP40 PA5-17382 (no stamp).
+- The GAPDH / HSPE1 group adds HSPE1 PA5-96675 and PA5-79415; the SOX11 / CrkL / PRKAR1B group adds a third
+  CrkL product, PA5-88241; the citrate synthase / MAOB / GSTM1 group adds citrate synthase PA5-76803.
+- Same target (likely legitimate): ASC, TMEM132A, TCF7.
+- False by eye: published-figure panels (MA5-12272 vs PA5-79532, PA5-49403 vs PA5-53106, PA5-34401 vs
+  PA5-21759) and 5 dark non-hub pairs.
+- Blots (2,305 new): template scan 20 hit products, 2 unlisted, both false by eye: PA5-85269 (pattern C,
+  share 0.17) and PA5-52431 (pattern D, share 0.33) use different figure layouts from the templates.
