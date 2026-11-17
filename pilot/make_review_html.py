@@ -14,6 +14,8 @@ from PIL import Image
 
 
 def data_uri(path, max_side=700, lossless=False):
+    if str(path).lower().endswith(".gif"):   # animations are embedded unchanged
+        return "data:image/gif;base64," + base64.b64encode(Path(path).read_bytes()).decode()
     im = Image.open(path).convert("L")
     im.thumbnail((max_side, max_side))
     buf = io.BytesIO()
