@@ -11198,5 +11198,221 @@
   "b_date": "2020-11-30",
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA577971-ERCC1-ICC-20200304132147.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA576618-Syntenin1-ICC-20201130085646.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-52331",
+  "b": "PA5-53922",
+  "group": "RAD18 PA5-52331 and PA5-52602 / NMP84 PA5-53922 and PA5-54056 (HeLa, no stamps): same no-primary panel",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA552331-RAD18-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA553922-NMP84-ICC.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-52602",
+  "b": "PA5-53922",
+  "group": "RAD18 PA5-52331 and PA5-52602 / NMP84 PA5-53922 and PA5-54056 (HeLa, no stamps): same no-primary panel",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA552602-RAD18-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA553922-NMP84-ICC.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-52331",
+  "b": "PA5-54056",
+  "group": "RAD18 PA5-52331 and PA5-52602 / NMP84 PA5-53922 and PA5-54056 (HeLa, no stamps): same no-primary panel",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA552331-RAD18-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA554056-NMP84-ICC.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-53317",
+  "b": "PA5-53605",
+  "group": "HADHA PA5-53317 / FIS1 PA5-53605 (Hep G2, 2021-05-27): same no-primary panel",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA553317-HADHA-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA553605-FIS1-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-76718",
+  "b": "PA5-79238",
+  "group": "HADHA PA5-76718 / FASN PA5-22111 (Hep G2, 2020-08-24): adds a second FASN product, PA5-79238",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-08-24",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576718-HADHA-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579238-FASN-ICC-20200824211338.JPG"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "MA5-32351",
+  "b": "PA5-75279",
+  "group": "CCNB2 MA5-32351 / HNRNPA1 PA5-75279 (HeLa, 2019-12-09): same no-primary panel",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2019-12-09",
+  "b_date": "2019-12-09",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532351-CCNB2-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA575279-HNRNPA1-ICC-20191209134648.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 31,
+  "a": "MA5-35733",
+  "b": "PA5-117743",
+  "group": "MBD3 MA5-35733 and MA5-34711 / WDR5 PA5-117743 (MCF7, 2023-03-16 and 2023-02-13): same no-primary panel",
+  "a_cells": [
+   "mcf7"
+  ],
+  "b_cells": [
+   "mcf7"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2023-03-16",
+  "b_date": "2023-02-13",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35733-MBD3-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-117743-WDR5-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 31,
+  "a": "MA5-34711",
+  "b": "PA5-117743",
+  "group": "MBD3 MA5-35733 and MA5-34711 / WDR5 PA5-117743 (MCF7, 2023-03-16 and 2023-02-13): same no-primary panel",
+  "a_cells": [
+   "mcf7"
+  ],
+  "b_cells": [
+   "mcf7"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2023-03-16",
+  "b_date": "2023-02-13",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34711-MBD3-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-117743-WDR5-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 1863,
+  "a": "PA5-98768",
+  "b": "PA5-98708",
+  "group": "MR1 PA5-98768 / cereblon PA5-98708 (HeLa, 2020-11-30 and 2026-01-06): same no-primary panel",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-11-30",
+  "b_date": "2026-01-06",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA598768-MR1-ICC-20201130085646.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-98708-CRBN-ICCIF-1-20260106_160400.jpg"
  }
 ]

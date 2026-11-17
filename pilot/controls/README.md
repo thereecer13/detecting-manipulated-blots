@@ -943,3 +943,20 @@ Fiftieth batch (33,410 figures, 72,860 panels; crawl at ~76,700 MA5/PA5 pages):
   - **APRIL PA5-118591 (pattern B, share 0.66): confirmed.** Stamped 2021-09-23, COLO205. Its lane
     background matches the pattern B exemplar GRB14 PA5-101612: shift-correlation peak 0.39 at zero shift,
     against an off-peak 99th percentile of 0.18. Not in Richardson's lists. Noted in upload_2021-09-23.md.
+
+Fifty-first batch (34,299 figures, 74,599 panels; crawl at ~79,000 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: MR1 PA5-98768 (2020-11-30) /
+  cereblon PA5-98708 (2026-01-06), both HeLa, more than five years apart; MBD3 MA5-35733 and MA5-34711
+  (2023-03-16) / WDR5 PA5-117743 (2023-02-13), all MCF7.
+- New same-day pairs with consistent captions (plausible batch controls): HADHA PA5-53317 / FIS1 PA5-53605
+  (Hep G2, 2021-05-27); CCNB2 MA5-32351 / HNRNPA1 PA5-75279 (HeLa, 2019-12-09).
+- No stamps: RAD18 (PA5-52331, PA5-52602) / NMP84 (PA5-53922, PA5-54056), all HeLa.
+- The HADHA PA5-76718 / FASN group (Hep G2, 2020-08-24) adds a second FASN product, PA5-79238.
+- Not counted: Rictor MA5-15681 / DCP1A PA5-59461 share a DAPI panel, but the captions (mouse antibody with
+  Alexa Fluor 647, rabbit antibody with Alexa Fluor 488, same HeLa protocol) read as one double-staining
+  experiment. The PA5-59461 caption calls the antibody "EDC4" and cites Product # MA5-15681.
+- Same target (likely legitimate): ATGL, La-related protein 1.
+- False by eye: EAR2 / COL1A2 / ZAK (blank dark panels), published-figure panels (PA5-34401 vs PA5-27438 and
+  PA5-88115) and 9 dark non-hub pairs.
+- Blots (2,396 new): template scan 33 hit products, 2 unlisted, both false by eye: PA5-82177 and PA5-52174
+  (pattern D, share 0.21 and 0.16) share only the figure layout with the templates.
