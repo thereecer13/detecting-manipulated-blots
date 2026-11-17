@@ -973,3 +973,10 @@ Fifty-second batch (34,851 figures, 75,598 panels; crawl at ~81,300 MA5/PA5 page
 - Blots (1,439 new): template scan 18 hit products, 5 unlisted, none confirmed: PA5-24133 and PA5-15416
   (pattern C, shift-correlation peaks 0.06 and 0.04, off zero) and PA5-50137, PA5-23213, PA5-50032
   (pattern B, share 0.16 to 0.24) differ from the templates by eye.
+
+Fifty-third batch (35,171 figures, 76,283 panels; crawl at ~82,100 MA5/PA5 pages):
+- New same-day pair with consistent captions (plausible batch control): MAPK11 MA5-14950 / KEAP1 PA5-23601
+  (A-431, 2022-03-01).
+- False by eye: published-figure panels matched to PA5-20872 (dark green/blue fields from PA5-82257,
+  MA5-12960, MA5-12104, PA5-71814, MA5-28588) and 5 dark non-hub pairs.
+- Blots (838 new): template scan 9 hit products, none unlisted.

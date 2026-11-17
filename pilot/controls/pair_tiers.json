@@ -11570,5 +11570,29 @@
   "b_date": "2021-03-23",
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC2-20210323110406.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA579895-PTPN2-ICC1-20210323110406.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "MA5-14950",
+  "b": "PA5-23601",
+  "group": "MAPK11 MA5-14950 / KEAP1 PA5-23601 (A-431, 2022-03-01): same no-primary panel",
+  "a_cells": [
+   "a431"
+  ],
+  "b_cells": [
+   "a431"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2022-03-01",
+  "b_date": "2022-03-01",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-14950-P38MAPKBETA-ICCIF-1-20220301_073323.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-23601-KEAP1-ICCIF-1-20220301_073323.jpg"
  }
 ]
