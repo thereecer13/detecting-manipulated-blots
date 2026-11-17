@@ -853,3 +853,25 @@ Forty-fifth batch (29,663 figures, 65,343 panels; crawl at ~67,100 MA5/PA5 pages
 - Same target (likely legitimate): ACIN1, GGA2, GOLGA4, POFUT2, RAB13, RSRC1.
 - False by eye: published-figure panels (MA5-20125, MA5-12902 vs PA5-106838) and 7 dark non-hub pairs.
 - Blots (925 new): template scan 8 hit products, all listed. Pattern A detector: all hits listed.
+
+Forty-sixth batch (30,249 figures, 66,480 panels; crawl at ~68,500 MA5/PA5 pages):
+- **The Hep G2 citrate synthase / MAOB group adds GSTM1 PA5-79337, whose caption says HeLa** (tier 1a): the
+  same no-primary panel on a product with a different stated cell line.
+- The HepG2 group (SUMO1 / NDUFAF2 / NDUFB9 / NME2 / Tim10) adds OASL PA5-81946 (Hep G2, stamped 2021-05-11).
+- The HeLa group (IkB alpha / EWSR1 / Stathmin 1 / GTF2B / Coilin) adds NONO PA5-79748.
+- The NME1 / AQP1 / GABARAP group adds PDK1 PA5-79797 (HeLa).
+- The SOX11 / CrkL / PRKAR1B group adds a second CrkL product, PA5-95058 (SH-SY5Y).
+- APAF1 MA5-32082 / FADD PA5-17808 (both MDA-MB-231): same no-primary panel e.
+- AGXT PA5-142433 / Biglycan PA5-18606 (both HepG2): same goat-IgG negative control image, on uploads
+  stamped 2023-01-04 and 2024-02-01.
+- Not counted: CD100 MA5-47680 / PLXNB1 PA5-143747 share a panel, but the captions describe one
+  double-staining experiment. Same target (likely legitimate): CDK6, IL1R, IRF1, RPS14, HUS1, NFkB p100/p52.
+- False by eye: PA5-34401 vs PA5-49858.
+- Blots (1,487 new): template scan 14 hit products, 7 unlisted:
+  - **AKR1B1 PA5-118871 (pattern B, share 0.85): confirmed.** Stamped 2021-09-23. Raw-pixel lane texture
+    correlates with the GRB14 and TSEN54 pattern B exemplars at r = 0.59 and 0.62, peak at zero shift
+    (flipped controls 0.20 and 0.04). Not in Richardson's lists.
+  - MRPL39 PA5-50062 and Mimecan PA5-148614 (pattern B, share 0.29 and 0.26): false, different layouts.
+  - PA5-12546, PA5-52199, PA5-71514 (pattern C) and PA5-81963 (D): false; shift-correlation peaks 0.05,
+    at the noise level and off zero.
+  - Pattern A detector: 3 hits, all listed.

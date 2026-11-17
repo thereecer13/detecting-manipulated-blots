@@ -9995,5 +9995,196 @@
   "b_date": "2018-01-24",
   "a_url": "https://www.thermofisher.com/antibody/images/650/MA524669-Acetyl-HistoneH3-Lys18-AV-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA540092-Acetyl-HistoneH4-Lys8-AV-ICC-20180124100757.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "MA5-14877",
+  "b": "PA5-81946",
+  "group": "HepG2 group (SUMO1 / NDUFAF2 / NDUFB9 / NME2 / Tim10) adds OASL PA5-81946",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-05-27",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA581946-OASL-ICC_20210511114054.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 57,
+  "a": "MA5-29441",
+  "b": "PA5-79748",
+  "group": "IkB alpha / EWSR1 / Stathmin 1 / GTF2B group adds NONO PA5-79748",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-08-24",
+  "b_date": "2020-10-20",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529441-IkBalpha-ICC-20200824211338.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579748-NONO-ICC-1-20201020140612.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "MA5-30707",
+  "b": "PA5-79797",
+  "group": "NME1 / AQP1 / GABARAP group adds PDK1 PA5-79797",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2019-12-09",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA530707-NME1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579797-PDK1-ICC-20191209134648.jpg"
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "why": "cell lines ['hepg2'] vs ['hela', 'lncap']",
+  "gap_days": 0,
+  "a": "PA5-29824",
+  "b": "PA5-79337",
+  "group": "Citrate synthase / MAOB (Hep G2) group adds GSTM1 PA5-79337 (caption HeLa)",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hela",
+   "lncap"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-10-20",
+  "b_date": "2020-10-20",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529824-MAOB-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579337-GSTM1-ICC-1-20201020140612.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "MA5-32082",
+  "b": "PA5-17808",
+  "group": "APAF1 MA5-32082 / FADD PA5-17808 (MDA-MB-231): same no-primary panel",
+  "a_cells": [
+   "mdamb231"
+  ],
+  "b_cells": [
+   "mdamb231"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-03-04",
+  "b_date": "2020-03-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532082-APAF1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517808-FADD-ICC-20200304132147.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 350,
+  "a": "PA5-40698",
+  "b": "PA5-95058",
+  "group": "SOX11 / CrkL / PRKAR1B group adds second CrkL product PA5-95058",
+  "a_cells": [
+   "bewo",
+   "shsy5y"
+  ],
+  "b_cells": [
+   "shsy5y"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2019-11-05",
+  "b_date": "2020-10-20",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA540698-SOX11-ICC-20191105121718.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA595058-CRKL-ICC-1-20201020140612.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 393,
+  "a": "PA5-142433",
+  "b": "PA5-18606",
+  "group": "AGXT PA5-142433 / Biglycan PA5-18606 (HepG2): same goat IgG negative control",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hepg2"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2024-02-01",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142433-AGXT-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18606-BIGLYCAN-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "tier": "1a captions contradict: cell line or label",
+  "why": "cell lines ['hepg2'] vs ['hela', 'lncap']; secondary anti-mouse vs anti-rabbit",
+  "gap_days": 0,
+  "a": "MA5-17265",
+  "b": "PA5-79337",
+  "group": "Citrate synthase / MAOB (Hep G2) group adds GSTM1 PA5-79337 (caption HeLa)",
+  "a_cells": [
+   "hepg2"
+  ],
+  "b_cells": [
+   "hela",
+   "lncap"
+  ],
+  "a_sec": [
+   "mouse"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2020-10-20",
+  "b_date": "2020-10-20",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA517265-CS-ICC-1-20201020140612.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579337-GSTM1-ICC-1-20201020140612.jpg"
  }
 ]
