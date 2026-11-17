@@ -12,8 +12,9 @@ import panelmatch as pm
 
 def matched_dots(im, a, b, h, im_b=None):
     """Coinciding dots as figure coordinates: (points in A, points in B)."""
-    pa, sa = pm.dots(im.crop((a[0], a[1], a[2] + 1, a[3] + 1)), border=0.04)
-    pb, sb = pm.dots((im_b or im).crop((b[0], b[1], b[2] + 1, b[3] + 1)), border=0.04)
+    import facs_panels as fpn
+    pa, sa = fpn.panel_dots(im, a)
+    pb, sb = fpn.panel_dots(im_b or im, b)
     if not len(pa) or not len(pb):
         return np.zeros((0, 2)), np.zeros((0, 2))
     Am = pm._raster(pa, sa)
@@ -29,11 +30,11 @@ def matched_dots(im, a, b, h, im_b=None):
     return np.array(qa).reshape(-1, 2), np.array(qb).reshape(-1, 2)
 
 
-def highlight(im, box, pts, pad, target=340):
+def highlight(im, box, pts, pad, target=640):
     """Enlarged crop with every coinciding dot ringed and their region outlined."""
     x0, y0 = box[0] - pad, box[1] - pad
     c = im.crop((x0, y0, box[2] + pad, box[3] + pad))
-    s = min(4, target / max(c.size))
+    s = min(6, target / max(c.size))
     c = c.resize((max(1, int(c.width * s)), max(1, int(c.height * s))), Image.LANCZOS)
     d = ImageDraw.Draw(c)
     r = max(3, int(2.2 * s))
@@ -76,7 +77,7 @@ def main():
         box = im.copy(); d = ImageDraw.Draw(box); w = max(3, max(im.size) // 300)
         for bb, col in ((a, (255, 0, 0)), (b, (0, 90, 255))):
             d.rectangle([bb[0] - 6, bb[1] - 6, bb[2] + 6, bb[3] + 6], outline=col, width=w)
-        box.thumbnail((560, 560), Image.LANCZOS)
+        box.thumbnail((1000, 1000), Image.LANCZOS)
         p1 = os.path.join(out, idx + '_fig.png'); box.save(p1)
         pad = 8
         ca = im.crop((a[0] - pad, a[1] - pad, a[2] + pad, a[3] + pad))
@@ -85,7 +86,7 @@ def main():
             cb = im.crop((ox - pad, oy - pad, ox + (a[2] - a[0]) + pad, oy + (a[3] - a[1]) + pad))
         else:
             cb = im.crop((b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad))
-        s = min(4, 340 / max(ca.size))
+        s = min(6, 640 / max(ca.size))
         sz = (max(1, int(ca.width * s)), max(1, int(ca.height * s)))
         ca, cb = ca.resize(sz, Image.LANCZOS), cb.resize(sz, Image.LANCZOS)
         pair = Image.new('RGB', (sz[0] * 2 + 12, sz[1]), 'white')

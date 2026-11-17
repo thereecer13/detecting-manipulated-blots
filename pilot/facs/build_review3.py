@@ -11,7 +11,7 @@ import build_review2 as b2
 def boxed(im, bb, col):
     c = im.copy(); d = ImageDraw.Draw(c)
     d.rectangle([bb[0] - 6, bb[1] - 6, bb[2] + 6, bb[3] + 6], outline=col, width=max(3, max(im.size) // 300))
-    c.thumbnail((480, 480), Image.LANCZOS)
+    c.thumbnail((1000, 1000), Image.LANCZOS)
     return c
 
 

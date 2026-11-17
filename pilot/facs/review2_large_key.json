@@ -1,0 +1,422 @@
+{
+ "G00": {
+  "file": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "a": [
+   412,
+   449,
+   685,
+   702
+  ],
+  "b": [
+   52,
+   860,
+   326,
+   1113
+  ],
+  "match": {
+   "score": 274.9999542236328,
+   "M": 390,
+   "S": 115,
+   "frac": 0.7910749269063768,
+   "na": 496,
+   "nb": 493,
+   "scale": 1.0,
+   "dy": 0,
+   "dx": -1,
+   "i": 1,
+   "j": 2
+  },
+  "pmcid": "PMC13488854",
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
+  "fig": "Fig. 2",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "G01": {
+  "file": "PMC13663672_AMS-22-4-127589-g001.webp",
+  "a": [
+   605,
+   711,
+   1029,
+   1114
+  ],
+  "b": [
+   1132,
+   713,
+   1555,
+   1113
+  ],
+  "match": {
+   "score": 196.0,
+   "M": 227,
+   "S": 31,
+   "frac": 0.729903536977492,
+   "na": 311,
+   "nb": 385,
+   "scale": 1.0,
+   "dy": 1,
+   "dx": 1,
+   "i": 0,
+   "j": 2
+  },
+  "pmcid": "PMC13663672",
+  "doi": "10.5114/aoms.2020.100837",
+  "title": "Ellagic acid inhibited cervical cancer growth via blocking the AKT/mTOR/STAT3 pathway",
+  "citation": "Arch Med Sci. 2020 Nov 15;22(4):2389\u2013403. doi: 10.5114/aoms.2020.100837",
+  "fig": "Figure 1",
+  "license": "CC BY-NC-SA",
+  "retracted": false
+ },
+ "G02": {
+  "file": "PMC11927087_nihms-2066141-f0002.jpg",
+  "a": [
+   123,
+   128,
+   481,
+   495
+  ],
+  "b": [
+   59,
+   346,
+   240,
+   549
+  ],
+  "match": {
+   "score": 42.999996185302734,
+   "M": 56,
+   "S": 13,
+   "frac": 0.9824560734263638,
+   "na": 279,
+   "nb": 57,
+   "scale": 1.0,
+   "dy": 217,
+   "dx": -65,
+   "i": 0,
+   "j": 3
+  },
+  "pmcid": "PMC11927087",
+  "doi": "10.1016/j.antiviral.2024.105947",
+  "title": "KDM5A/B contribute to HIV-1 latent infection and survival of HIV-1 infected cells",
+  "citation": "Antiviral Res. Author manuscript; Available in PMC 2025 Mar 21.",
+  "fig": "Fig. 2.",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "G03": {
+  "file": "PMC13499021_nihms-1949624-f0001.webp",
+  "a": [
+   398,
+   604,
+   634,
+   813
+  ],
+  "b": [
+   81,
+   1102,
+   298,
+   1294
+  ],
+  "match": {
+   "score": 37.000003814697266,
+   "M": 53,
+   "S": 16,
+   "frac": 0.5638298278159284,
+   "na": 119,
+   "nb": 94,
+   "scale": 1.1,
+   "dy": -1,
+   "dx": -2,
+   "i": 2,
+   "j": 4
+  },
+  "pmcid": "PMC13499021",
+  "doi": "10.1016/j.jmb.2023.168316",
+  "title": "Cellular Assays for Dynamic Quantification of Deubiquitinase Activity and Inhibition",
+  "citation": "J Mol Biol. Author manuscript; Available in PMC 2026 Aug 22.",
+  "fig": "Figure 1.",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "G04": {
+  "file": "PMC13521051_jfda-28-01-147f3.webp",
+  "a": [
+   416,
+   128,
+   652,
+   295
+  ],
+  "b": [
+   1294,
+   382,
+   1529,
+   553
+  ],
+  "match": {
+   "score": 36.81987577639752,
+   "M": 76,
+   "S": 37,
+   "frac": 0.4720496894409938,
+   "na": 218,
+   "nb": 161,
+   "scale": 1.0,
+   "dy": -3,
+   "dx": 1,
+   "i": 1,
+   "j": 4
+  },
+  "pmcid": "PMC13521051",
+  "doi": "10.1016/j.jfda.2019.10.004",
+  "title": "In vitro and in vivo evaluation of the neuroprotective activity of Uncaria hirsuta Haviland",
+  "citation": "J Food Drug Anal. 2019 Nov 27;28(1):147\u201358. doi: 10.1016/j.jfda.2019.10.004",
+  "fig": "Fig. 3",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "G05": {
+  "file": "PMC11404482_ja4c06716_0003.jpg",
+  "a": [
+   37,
+   559,
+   210,
+   731
+  ],
+  "b": [
+   255,
+   559,
+   428,
+   732
+  ],
+  "match": {
+   "score": 23.0,
+   "M": 36,
+   "S": 13,
+   "frac": 0.8571428571428571,
+   "na": 42,
+   "nb": 56,
+   "scale": 1.0,
+   "dy": 0,
+   "dx": 0,
+   "i": 0,
+   "j": 1
+  },
+  "pmcid": "PMC11404482",
+  "doi": "10.1021/jacs.4c06716",
+  "title": "Visualization of Brain Tumors with Infrared-Labeled Aptamers for Fluorescence-Guided Surgery",
+  "citation": "J Am Chem Soc. 2024 Aug 26;146(36):24989\u20135004. doi: 10.1021/jacs.4c06716",
+  "fig": "Figure 3",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "G06": {
+  "file": "PMC11899519_SMLL-21-2406094-g009.jpg",
+  "a": [
+   78,
+   309,
+   176,
+   411
+  ],
+  "b": [
+   197,
+   309,
+   295,
+   411
+  ],
+  "match": {
+   "score": 23.0,
+   "M": 36,
+   "S": 13,
+   "frac": 0.6666666666666666,
+   "na": 56,
+   "nb": 54,
+   "scale": 1.0,
+   "dy": 0,
+   "dx": 1,
+   "i": 0,
+   "j": 1
+  },
+  "pmcid": "PMC11899519",
+  "doi": "10.1002/smll.202406094",
+  "title": "Harnessing Lactobacillus reuteri\u2010Derived Extracellular Vesicles for Multifaceted Cancer Treatment",
+  "citation": "Small. 2024 Oct 18;21(10):2406094. doi: 10.1002/smll.202406094",
+  "fig": "Figure 2",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "G07": {
+  "file": "PMC12046306_kcj-55-305-g006.jpg",
+  "a": [
+   72,
+   427,
+   191,
+   546
+  ],
+  "b": [
+   222,
+   427,
+   341,
+   546
+  ],
+  "match": {
+   "score": 23.0,
+   "M": 40,
+   "S": 17,
+   "frac": 0.7272727272727273,
+   "na": 57,
+   "nb": 55,
+   "scale": 1.0,
+   "dy": -1,
+   "dx": -1,
+   "i": 0,
+   "j": 1
+  },
+  "pmcid": "PMC12046306",
+  "doi": "10.4070/kcj.2024.0190",
+  "title": "UPF1 Alleviates Myocardial Ischemia-Reperfusion Injury by Regulating SMURF2-Mediated Ubiquitination Degradation of FOXA2",
+  "citation": "Korean Circ J. 2024 Dec 10;55(4):305\u201321. doi: 10.4070/kcj.2024.0190",
+  "fig": "Figure 6",
+  "license": "CC BY-NC",
+  "retracted": false
+ },
+ "G08": {
+  "file": "PMC11955049_gr3.jpg",
+  "a": [
+   12,
+   374,
+   173,
+   508
+  ],
+  "b": [
+   12,
+   715,
+   173,
+   850
+  ],
+  "match": {
+   "score": 15.650791743445076,
+   "M": 29,
+   "S": 12,
+   "frac": 0.4603174300420852,
+   "na": 63,
+   "nb": 69,
+   "scale": 1.0,
+   "dy": -4,
+   "dx": 6,
+   "i": 0,
+   "j": 1
+  },
+  "pmcid": "PMC11955049",
+  "doi": "10.1016/j.fmre.2022.06.011",
+  "title": "A dynamic peripheral immune landscape during human pregnancy",
+  "citation": "Fundam Res. 2022 Jun 30;5(1):391\u2013406. doi: 10.1016/j.fmre.2022.06.011",
+  "fig": "Fig. 3",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "G09": {
+  "file": "PMC11962862_nihms-2066005-f0002.jpg",
+  "a": [
+   1217,
+   614,
+   1492,
+   889
+  ],
+  "b": [
+   530,
+   1723,
+   767,
+   1962
+  ],
+  "match": {
+   "score": 12.743354324746951,
+   "M": 48,
+   "S": 33,
+   "frac": 0.42477869354518116,
+   "na": 412,
+   "nb": 113,
+   "scale": 1.1,
+   "dy": 4,
+   "dx": 7,
+   "i": 0,
+   "j": 6
+  },
+  "pmcid": "PMC11962862",
+  "doi": "10.1126/sciimmunol.add6608",
+  "title": "A B cell screen against endogenous retroviruses identifies glycan-reactive IgM that recognize a broad array of enveloped viruses",
+  "citation": "Sci Immunol. Author manuscript; Available in PMC 2025 Apr 2.",
+  "fig": "Fig. 2.",
+  "license": "CC BY",
+  "retracted": false
+ },
+ "G10": {
+  "file": "PMC11895915_KJM2-39-554-g006.jpg",
+  "a": [
+   53,
+   405,
+   138,
+   490
+  ],
+  "b": [
+   53,
+   508,
+   138,
+   594
+  ],
+  "match": {
+   "score": 11.0,
+   "M": 24,
+   "S": 13,
+   "frac": 0.5714285714285714,
+   "na": 42,
+   "nb": 51,
+   "scale": 1.0,
+   "dy": -1,
+   "dx": -1,
+   "i": 0,
+   "j": 2
+  },
+  "pmcid": "PMC11895915",
+  "doi": "10.1002/kjm2.12673",
+  "title": "Exosomal miR\u2010196a\u20105p enhances radioresistance in lung cancer cells by downregulating NFKBIA",
+  "citation": "Kaohsiung J Med Sci. 2023 Mar 13;39(6):554\u201364. doi: 10.1002/kjm2.12673",
+  "fig": "FIGURE 1",
+  "license": "CC BY-NC-ND",
+  "retracted": false
+ },
+ "G11": {
+  "file": "PMC12001162_FEBS-292-1904-g001.jpg",
+  "a": [
+   27,
+   160,
+   160,
+   305
+  ],
+  "b": [
+   561,
+   341,
+   694,
+   488
+  ],
+  "match": {
+   "score": 10.73170443279005,
+   "M": 20,
+   "S": 9,
+   "frac": 0.48780483152808213,
+   "na": 47,
+   "nb": 41,
+   "scale": 1.0,
+   "dy": 5,
+   "dx": -1,
+   "i": 0,
+   "j": 2
+  },
+  "pmcid": "PMC12001162",
+  "doi": "10.1111/febs.17326",
+  "title": "Depletion of Tregs from CD4 + CAR\u2010T\u00a0cells enhances the tumoricidal effect of CD8 + CAR\u2010T\u00a0cells in anti\u2010CD19 CAR\u2010T therapy",
+  "citation": "FEBS J. 2024 Dec 4;292(8):1904\u201319. doi: 10.1111/febs.17326",
+  "fig": "Fig. 1",
+  "license": "CC BY-NC",
+  "retracted": false
+ }
+}

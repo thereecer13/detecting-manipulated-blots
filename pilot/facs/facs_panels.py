@@ -19,6 +19,19 @@ import facsplot as fp
 SC = [1.0, 0.8, 0.9, 1.1, 1.25]
 
 
+def panel_dots(im, box, thr=60):
+    """Isolated dots inside a panel box, without tick marks or other marks next to straight lines."""
+    x0, y0, x1, y1 = box
+    crop = im.crop((x0, y0, x1 + 1, y1 + 1))
+    pts, shp = pm.dots(crop, border=0.04)
+    dark = fp.ink_of(crop) > thr
+    lines = ndi.binary_opening(dark, np.ones((1, 40), bool)) | ndi.binary_opening(dark, np.ones((40, 1), bool))
+    nearline = ndi.binary_dilation(lines, iterations=3)
+    if len(pts):
+        pts = pts[~nearline[np.round(pts[:, 0]).astype(int), np.round(pts[:, 1]).astype(int)]]
+    return pts, shp
+
+
 def find_panels(im, thr=60):
     B = fp.ink_of(im)
     H, W = B.shape
@@ -64,7 +77,17 @@ def find_panels(im, thr=60):
         gate_h = bool((ih.sum(1) > 0.3 * w).any())
         gate_v = bool((iv.sum(0) > 0.3 * h).any())
         crop = im.crop((x0, y0, x1 + 1, y1 + 1))
-        pts, shp = pm.dots(crop, border=0.04)
+        pts, shp = panel_dots(im, [x0, y0, x1, y1])
+        # a frame holding two or more separate inner frames (thin outlines) is a grid of small plots
+        other = (hl | vl)[y0 + m:y1 - m, x0 + m:x1 - m] & ~(lab[y0 + m:y1 - m, x0 + m:x1 - m] == i + 1)
+        l3, _ = ndi.label(other, structure=np.ones((3, 3)))
+        sub = 0
+        for k, t in enumerate(ndi.find_objects(l3)):
+            hh, ww = t[0].stop - t[0].start, t[1].stop - t[1].start
+            if hh > 0.15 * h and ww > 0.15 * w and (l3[t] == k + 1).mean() < 0.15:
+                sub += 1
+        if sub >= 2:
+            continue
         if len(pts) < 30:
             continue
         # lattice test (hatched bars, dither): evenly spaced dots

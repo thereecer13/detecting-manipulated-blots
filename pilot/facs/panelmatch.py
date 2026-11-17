@@ -96,7 +96,7 @@ def match(A, B, scales=SCALES, thr=0.7):
 
 
 # ---- dot-level matching -------------------------------------------------
-def dots(im, thr=50, max_area=14, max_box=5, border=0.05):
+def dots(im, thr=50, max_area=14, max_box=5, border=0.05, drop_text=True):
     """Centroids of small isolated ink specks (single events).
 
     Text, axis lines, gate lines and dense clouds form larger connected
@@ -111,7 +111,7 @@ def dots(im, thr=50, max_area=14, max_box=5, border=0.05):
         return np.zeros((0, 2)), (H, W)
     sl = ndi.find_objects(lab)
     area = ndi.sum(np.ones_like(lab), lab, index=np.arange(1, n + 1))
-    pts = []
+    pts, tall = [], []
     by, bx = border * H, border * W
     for i, s in enumerate(sl):
         h, w = s[0].stop - s[0].start, s[1].stop - s[1].start
@@ -120,8 +120,15 @@ def dots(im, thr=50, max_area=14, max_box=5, border=0.05):
         cy, cx = (s[0].start + s[0].stop - 1) / 2, (s[1].start + s[1].stop - 1) / 2
         if cy < by or cy > H - by or cx < bx or cx > W - bx:
             continue
-        pts.append((cy, cx))
-    return np.array(pts).reshape(-1, 2), (H, W)
+        pts.append((cy, cx)); tall.append(h >= 4)
+    pts = np.array(pts).reshape(-1, 2)
+    if drop_text and len(pts) > 2:
+        # digits and letters: glyph-height marks with a similar mark beside them on the same line
+        tall = np.array(tall)
+        dy = np.abs(pts[:, None, 0] - pts[None, :, 0]); dx = np.abs(pts[:, None, 1] - pts[None, :, 1])
+        near = (dy <= 1.5) & (dx > 0) & (dx <= 8) & tall[None, :]
+        pts = pts[~(tall & near.any(1))]
+    return pts, (H, W)
 
 
 def _raster(pts, shape, r=0):

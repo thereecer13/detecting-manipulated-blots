@@ -98,16 +98,21 @@ def main():
     ap.add_argument("items", type=Path); ap.add_argument("out", type=Path)
     ap.add_argument("--lossless", action="store_true", help="embed PNG instead of JPEG (for judging grain or compression)")
     ap.add_argument("--title", required=True); ap.add_argument("--choices", required=True, help="'|'-separated; the first two get green/red")
+    ap.add_argument("--large", action="store_true", help="one item per row, every image at full width")
+    ap.add_argument("--max-side", type=int, default=700, help="longest side of embedded images in pixels")
     a = ap.parse_args()
     items = json.loads(a.items.read_text())
     for it in items:
-        for im in it["images"]: im["src"] = data_uri(im.pop("path"), lossless=a.lossless, color=bool(im.pop("color", False)))
+        for im in it["images"]: im["src"] = data_uri(im.pop("path"), max_side=a.max_side, lossless=a.lossless, color=bool(im.pop("color", False)))
     choices = a.choices.split("|")
     review_id = a.out.stem
     page = (PAGE.replace("__TITLE__", html.escape(a.title)).replace("__C0__", html.escape(choices[0])).replace("__C1__", html.escape(choices[1]))
             .replace("__FILTER_OPTS__", "".join(f"<option>{html.escape(c)}</option>" for c in choices))
             .replace("__CHOICES__", json.dumps(choices)).replace("__REVIEW_ID__", json.dumps(review_id))
             .replace("__ITEMS__", json.dumps(items)))
+    if a.large:
+        page = page.replace("</style>", "main{grid-template-columns:1fr}figure{flex:1 1 100%}"
+                            "figure img{max-height:none;width:auto;max-width:100%}</style>", 1)
     a.out.write_text(page)
     print(f"wrote {a.out} ({a.out.stat().st_size / 1e6:.1f} MB, {len(items)} items)")
 
