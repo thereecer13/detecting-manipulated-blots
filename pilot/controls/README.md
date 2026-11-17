@@ -980,3 +980,23 @@ Fifty-third batch (35,171 figures, 76,283 panels; crawl at ~82,100 MA5/PA5 pages
 - False by eye: published-figure panels matched to PA5-20872 (dark green/blue fields from PA5-82257,
   MA5-12960, MA5-12104, PA5-71814, MA5-28588) and 5 dark non-hub pairs.
 - Blots (838 new): template scan 9 hit products, none unlisted.
+
+Fifty-fourth batch (35,979 figures, 77,776 panels; crawl at ~84,400 MA5/PA5 pages):
+- Captions disagree on the cell line: ATP5F1B MA5-32589 and MA5-35081 (Hep G2) / GATA-6 PA5-85601 (figure
+  of BeWo and SH-SY5Y cells), all stamped 2023-03-16. EWSR1 PA5-29905 (caption MCF7, 2020-03-04) joins the
+  IkB alpha / Stathmin 1 / GTF2B / Coilin / NONO group, whose other captions say HeLa. Catalase PA5-29650
+  (MCF7, 2021-03-23) joins the PPM1A (MCF7) / TOP1 (HeLa, 2019-11-04) group.
+- Uploads on different dates sharing one control panel, captions consistent: BAF53A/BAF53B PA5-18272
+  (2024-02-01) / OGFR PA5-142204 (2023-01-04), U2OS; LXR beta PA5-18310 (2024-02-01) joins ZGLP1
+  (2023-01-04) / OGT; TRAF2 PA5-17500 (2020-03-04) joins CBX5 / G3BP1 (HeLa, 2020 and 2021); NDUFAF2
+  PA5-83895 (2021-05-10) joins the Hep G2 group of SUMO1 / NME2 / Tim10 / OASL (2021-05-27).
+- New same-day pairs or members with consistent captions (plausible batch controls): AP2 gamma PA5-17330 /
+  MCM2 PA5-79645 (MCF-7, 2020-01-14); MAD3 PA5-18096 / LEF1 PA5-18493 and STK35 PA5-18247 / ARK5 PA5-18919
+  (U2OS, 2024-02-01); SAP102 PA5-68165 joins S100A6 / KHK / TIF1 gamma (SH-SY5Y, 2021-03-23).
+- No stamps: WIPI2 PA5-78465 / RALA PA5-79910 (A-431); Lysozyme MA5-28578 / PSAP PA5-21340 (Hep G2; the
+  PSAP copy is dimmer). A second BCL-10 product, PA5-88067, joins BCL-10 / fumarase.
+- Same target (likely legitimate): beta-catenin, OAS3, C9orf72, Nkx-2.5, CELSR2.
+- False by eye: ARMX2 / TRAF3IP3 / HIST1H2BH (blank dark panels) and 3 dark non-hub pairs.
+- Blots (2,122 new): template scan 15 hit products, 3 unlisted, none confirmed: PA5-98181 and PA5-12145
+  (pattern C, shift-correlation peaks 0.08 and 0.06, at the noise level and off zero) and PA5-52345
+  (pattern D, share 0.22; an ordinary two-lane blot by eye).
