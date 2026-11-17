@@ -59,3 +59,32 @@ a match elsewhere in the image. Best-match nrmse: <= 0.02 in 57 images, <= 0.03 
 - one item per image, per catalog number; at most 5 per upload stamp, so that one upload cannot fill the set;
 - 49 top candidates (nrmse <= 0.030), 5 of Richardson's within-blot cases, 6 low-score controls
   (nrmse 0.10 to 0.16), shuffled. Labels are pending.
+
+## Round 1 labels (60 items) and the reviewer's criteria
+
+| Set | duplicated | unsure | not duplicated |
+|---|---|---|---|
+| 49 top candidates | 7 | 4 | 38 |
+| 5 Richardson within-blot cases | 3 | 0 | 2 |
+| 6 low-score controls | 0 | 0 | 6 |
+
+New candidates labelled duplicated: CABP5 PA5-86758, HDAC2 MA5-18061, PAX8 PA5-21368 and PA5-18457,
+alpha-synuclein PA5-17239, GBA PA5-22326, TFAP2A PA5-17359 (GAPDH row). All seven are same-orientation
+matches. The two Richardson cases labelled not duplicated (HA601015, BDNF PA5-85730) are the ones where the
+search probably boxed a different pair from the one he flagged.
+
+Reviewer's criteria (2026-11-17), which the pixel score did not capture:
+- only whole-band duplications count, not parts of bands;
+- heavily overexposed bands (uniform ovals) look alike without being copies;
+- outline similarity is the main metric, fill similarity secondary;
+- the more unusual the outline, the more convincing a close match;
+- the same blot shown twice in one figure is not duplication (read labels, consider the figure's context).
+
+`outline.py` turns these into features: outline IoU at 30/50/70% of band depth, whether the band or its
+match touches the crop border (partial band), unusualness (1 - IoU with its own mirror images), saturation.
+On the 60 labels, requiring a whole band, unusualness >= 0.05 and outline IoU >= 0.94 keeps all 10
+duplicated items and removes 30 of the 46 not-duplicated ones. Outline IoU alone does not separate the
+classes in this set (all candidates were already above 0.92).
+
+`round2.py` applies that filter to every match with nrmse <= 0.05: 95 images pass (19 already labelled).
+`build_page.py` builds the round-2 page from the 60 best-ranked unlabelled ones.
