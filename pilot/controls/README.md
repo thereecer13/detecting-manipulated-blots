@@ -960,3 +960,16 @@ Fifty-first batch (34,299 figures, 74,599 panels; crawl at ~79,000 MA5/PA5 pages
   PA5-88115) and 9 dark non-hub pairs.
 - Blots (2,396 new): template scan 33 hit products, 2 unlisted, both false by eye: PA5-82177 and PA5-52174
   (pattern D, share 0.21 and 0.16) share only the figure layout with the templates.
+
+Fifty-second batch (34,851 figures, 75,598 panels; crawl at ~81,300 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: the SUMO1 MA5-14877 (fig. ICC2,
+  2022-06-03) / ZC3H12A PA5-83215 (2021-08-03) group adds LDHB PA5-82656 (2021-05-27), all U-2 OS.
+- New same-day members with consistent captions (plausible batch controls): Delangin PA5-142579 joins
+  HSP60 PA5-143265 / AIF PA5-143221 and PA5-143222 (HeLa, 2023-01-04); HNRNPH1 PA5-50678 joins CCNB2 /
+  HNRNPA1 (HeLa, 2019-12-09); PTPN2 PA5-79895 joins the RRM2 / PPP1CB / FZR1 / BAF57 group (A-431,
+  2021-03-23).
+- Same target (likely legitimate): PTPN2 (PA5-76059, PA5-80959, PA5-79895), CCT3.
+- False by eye: a published-figure panel (PA5-34401 vs COX6C PA5-49921) and 4 dark non-hub pairs.
+- Blots (1,439 new): template scan 18 hit products, 5 unlisted, none confirmed: PA5-24133 and PA5-15416
+  (pattern C, shift-correlation peaks 0.06 and 0.04, off zero) and PA5-50137, PA5-23213, PA5-50032
+  (pattern B, share 0.16 to 0.24) differ from the templates by eye.

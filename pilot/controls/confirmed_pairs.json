@@ -3846,5 +3846,61 @@
   "score": 0.906,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA598768-MR1-ICC-20201130085646.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-98708-CRBN-ICCIF-1-20260106_160400.jpg"
+ },
+ {
+  "group": "SUMO1 MA5-14877 ICC2 / ZC3H12A (U-2 OS) group adds LDHB PA5-82656 (2021-05-27)",
+  "a": "PA5-83215",
+  "b": "PA5-82656",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA583215-ZC3H12A-ICC_20210803131731.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582656-LDHB-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "SUMO1 MA5-14877 ICC2 / ZC3H12A (U-2 OS) group adds LDHB PA5-82656 (2021-05-27)",
+  "a": "MA5-14877",
+  "b": "PA5-82656",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC2_20220603144717.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582656-LDHB-ICC-20210527145632.jpg"
+ },
+ {
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a": "PA5-143222",
+  "b": "PA5-142579",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143222-AIF-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a": "PA5-143265",
+  "b": "PA5-142579",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143265-HSP60-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a": "PA5-143221",
+  "b": "PA5-142579",
+  "score": 0.991,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143221-AIF-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "CCNB2 / HNRNPA1 (HeLa, 2019-12-09) adds HNRNPH1 PA5-50678",
+  "a": "MA5-32351",
+  "b": "PA5-50678",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532351-CCNB2-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550678-HNRNPH1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 group (A-431, 2021-03-23) adds PTPN2 PA5-79895",
+  "a": "MA5-32936",
+  "b": "PA5-79895",
+  "score": 0.987,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579895-PTPN2-ICC1-20210323110406.jpg"
  }
 ]

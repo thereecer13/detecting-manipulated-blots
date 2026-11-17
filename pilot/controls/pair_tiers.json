@@ -11414,5 +11414,161 @@
   "b_date": "2026-01-06",
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA598768-MR1-ICC-20201130085646.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-98708-CRBN-ICCIF-1-20260106_160400.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-83215",
+  "b": "PA5-82656",
+  "group": "SUMO1 MA5-14877 ICC2 / ZC3H12A (U-2 OS) group adds LDHB PA5-82656 (2021-05-27)",
+  "a_cells": [
+   "u2os"
+  ],
+  "b_cells": [
+   "u2os"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA583215-ZC3H12A-ICC_20210803131731.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582656-LDHB-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "MA5-14877",
+  "b": "PA5-82656",
+  "group": "SUMO1 MA5-14877 ICC2 / ZC3H12A (U-2 OS) group adds LDHB PA5-82656 (2021-05-27)",
+  "a_cells": [
+   "u2os"
+  ],
+  "b_cells": [
+   "u2os"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "2021-05-27",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC2_20220603144717.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA582656-LDHB-ICC-20210527145632.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-143222",
+  "b": "PA5-142579",
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143222-AIF-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-143265",
+  "b": "PA5-142579",
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143265-HSP60-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-143221",
+  "b": "PA5-142579",
+  "group": "HSP60 / AIF -ve control (HeLa, 2023-01-04) adds Delangin PA5-142579",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143221-AIF-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142579-DELANGIN-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "MA5-32351",
+  "b": "PA5-50678",
+  "group": "CCNB2 / HNRNPA1 (HeLa, 2019-12-09) adds HNRNPH1 PA5-50678",
+  "a_cells": [
+   "hela"
+  ],
+  "b_cells": [
+   "hela"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2019-12-09",
+  "b_date": "2019-12-09",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532351-CCNB2-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550678-HNRNPH1-ICC-20191209134648.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "MA5-32936",
+  "b": "PA5-79895",
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 group (A-431, 2021-03-23) adds PTPN2 PA5-79895",
+  "a_cells": [
+   "a431"
+  ],
+  "b_cells": [
+   "a431"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2021-03-23",
+  "b_date": "2021-03-23",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532936-PPP1CB-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA579895-PTPN2-ICC1-20210323110406.jpg"
  }
 ]
