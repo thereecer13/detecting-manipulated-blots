@@ -922,3 +922,24 @@ Forty-ninth batch (32,501 figures, 70,986 panels; crawl at ~74,400 MA5/PA5 pages
   PA5-49719 (pattern C, share 0.26 to 0.42) have shift-correlation peaks of 0.05 to 0.06, at the noise level
   and off zero; PA5-51879 (pattern D, share 0.15) and PA5-118589 (pattern B, share 0.29) use different
   figure layouts from the templates.
+
+Fiftieth batch (33,410 figures, 72,860 panels; crawl at ~76,700 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: TIAM1 PA5-142082 (2023-01-04) /
+  AKAP9 PA5-18345 fig. 2 (2024-02-01), both U2OS; UBE2C PA5-18080 (2024-02-01) / TBC1D10A PA5-142085
+  (2023-01-04), both MCF7; transferrin receptor MA5-16643 / RAB11B PA5-31348 (HeLa, 2018-11-19 and
+  2018-11-16; secondary species differ).
+- New same-day pairs with consistent captions (plausible batch controls): ETS2 PA5-28053 / PRMT5 PA5-78323
+  (HeLa, 2020-03-04); Nrf2 PA5-142785 / ATF6 PA5-141992 (HeLa, 2023-01-04); ADAM12 PA5-18314 / AKAP9
+  PA5-18345 fig. 1 (A431, 2024-02-01).
+- Existing groups grow: the HeLa RAN group adds CBX5 PA5-40091 (2022-02-14) and FEN1 PA5-27518 (2019-11-05);
+  S100A6 / KHK (2021-03-23) adds PTPRN PA5-92949; TWIST1 / V-ATPase E1 (HeLa, 2019-03-19) adds TIP60
+  PA5-34548; the A-431 SUMO1 / BAK / TCF7L2 group adds PH-interacting protein PA5-77167 (2021-05-27);
+  GSTP1 / ACTN4 (PC-3) adds a fourth GSTP1 product, PA5-79340; PTP1B / SCRIB adds PTPN1 PA5-79894; the
+  Syntenin-1 / ERCC1 group (captions already disagree on cell line) adds Syntenin-1 PA5-76618.
+- Same target (likely legitimate): S100A10, PHIP, TAP/NXF1, YBX1, B-Raf.
+- False by eye: published-figure panels (PA5-11274 vs PA5-27814, MA5-15065 vs PA5-50450, PA5-34401 vs
+  PA5-49806) and 6 dark non-hub pairs.
+- Blots (2,281 new): template scan 22 hit products, 1 unlisted:
+  - **APRIL PA5-118591 (pattern B, share 0.66): confirmed.** Stamped 2021-09-23, COLO205. Its lane
+    background matches the pattern B exemplar GRB14 PA5-101612: shift-correlation peak 0.39 at zero shift,
+    against an off-peak 99th percentile of 0.18. Not in Richardson's lists. Added to upload_2021-09-23.json.
