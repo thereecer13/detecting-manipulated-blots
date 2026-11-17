@@ -35,3 +35,10 @@ Review of v2 (`review2_results.json`, key `review2_key.json`; 19 panel pairs)
 
 Within one plot (`within.py`): the same repeated-dot search inside each of the 958 flow panels found nothing
 above chance (7 panels with 15-18 repeated dots, none convincing by eye).
+
+Across figures of one paper (`cross_fig.py`, `build_review3.py`, key `review3_key.json`)
+- Only figures whose caption mentions flow cytometry were fetched, so this covers 70 papers with detected
+  flow plots in two or more such figures; supplementary figures are not included.
+- 5 pairs score >= 8, in 2 papers: four pairs between Fig. 2 and Fig. 3 of PMC13488854 (plots drawn at
+  different sizes), and one in PMC11896295 that is a grid of small plots matched on tick marks and labels
+  (false by eye).

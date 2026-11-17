@@ -1,0 +1,127 @@
+{
+ "X00": {
+  "pmcid": "PMC11896295",
+  "fa": "PMC11896295_KJM2-38-542-g002.jpg",
+  "fb": "PMC11896295_KJM2-38-542-g003.jpg",
+  "a": [
+   38,
+   611,
+   357,
+   816
+  ],
+  "b": [
+   27,
+   445,
+   347,
+   650
+  ],
+  "M": 101,
+  "S": 61,
+  "scale": 1.0,
+  "dx": -1,
+  "dy": 1,
+  "doi": "10.1002/kjm2.12522",
+  "title": "CERS6\u2010AS1 promotes cell proliferation and represses cell apoptosis in pancreatic cancer via miR\u2010195\u20105p/WIPI2 axis",
+  "citation": "Kaohsiung J Med Sci. 2022 Feb 24;38(6):542\u201353. doi: 10.1002/kjm2.12522"
+ },
+ "X01": {
+  "pmcid": "PMC13488854",
+  "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "fb": "PMC13488854_42358_2024_427_Fig3_HTML.webp",
+  "a": [
+   412,
+   860,
+   685,
+   1113
+  ],
+  "b": [
+   886,
+   546,
+   1102,
+   740
+  ],
+  "M": 71,
+  "S": 39,
+  "scale": 1.25,
+  "dx": 1,
+  "dy": 5,
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2"
+ },
+ "X02": {
+  "pmcid": "PMC13488854",
+  "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "fb": "PMC13488854_42358_2024_427_Fig3_HTML.webp",
+  "a": [
+   52,
+   449,
+   326,
+   702
+  ],
+  "b": [
+   886,
+   546,
+   1102,
+   740
+  ],
+  "M": 65,
+  "S": 36,
+  "scale": 1.25,
+  "dx": 1,
+  "dy": 5,
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2"
+ },
+ "X03": {
+  "pmcid": "PMC13488854",
+  "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "fb": "PMC13488854_42358_2024_427_Fig3_HTML.webp",
+  "a": [
+   52,
+   449,
+   326,
+   702
+  ],
+  "b": [
+   57,
+   542,
+   274,
+   736
+  ],
+  "M": 62,
+  "S": 37,
+  "scale": 1.25,
+  "dx": 2,
+  "dy": 4,
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2"
+ },
+ "X04": {
+  "pmcid": "PMC13488854",
+  "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
+  "fb": "PMC13488854_42358_2024_427_Fig3_HTML.webp",
+  "a": [
+   412,
+   860,
+   685,
+   1113
+  ],
+  "b": [
+   57,
+   542,
+   274,
+   736
+  ],
+  "M": 56,
+  "S": 45,
+  "scale": 1.25,
+  "dx": 1,
+  "dy": 3,
+  "doi": "10.1186/s42358-024-00427-2",
+  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2"
+ }
+}

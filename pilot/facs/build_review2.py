@@ -10,10 +10,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import panelmatch as pm
 
 
-def matched_dots(im, a, b, h):
+def matched_dots(im, a, b, h, im_b=None):
     """Coinciding dots as figure coordinates: (points in A, points in B)."""
     pa, sa = pm.dots(im.crop((a[0], a[1], a[2] + 1, a[3] + 1)), border=0.04)
-    pb, sb = pm.dots(im.crop((b[0], b[1], b[2] + 1, b[3] + 1)), border=0.04)
+    pb, sb = pm.dots((im_b or im).crop((b[0], b[1], b[2] + 1, b[3] + 1)), border=0.04)
     if not len(pa) or not len(pb):
         return np.zeros((0, 2)), np.zeros((0, 2))
     Am = pm._raster(pa, sa)
