@@ -904,3 +904,21 @@ Forty-eighth batch (31,681 figures, 69,300 panels; crawl at ~72,200 MA5/PA5 page
 - False by eye: COL1A2 PA5-49912 vs EAR2 PA5-49785 (blank dark panels) and 5 dark non-hub pairs.
 - Blots (1,470 new): template scan 16 hit products, 2 unlisted, both false: PA5-98989 and PA5-48116
   (pattern C, share 0.17) have shift-correlation peaks of 0.06 and 0.05, at the noise level and off zero.
+
+Forty-ninth batch (32,501 figures, 70,986 panels; crawl at ~74,400 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: TRIM21 PA5-18147 and BCL7A
+  PA5-17933 (2024-02-01) / TIGD1 PA5-142098 (2023-01-04), all U2OS negative control images; ACAA1 PA5-29956 /
+  TPI1 PA5-18342 (Hep G2, 2018-11-12 and 2018-11-16).
+- New same-day pair with consistent captions (plausible batch control): EN2 PA5-18474 / FOXA1 PA5-18168
+  (U2OS, 2024-02-01).
+- Existing groups grow: the RRM2 group (2021-03-23) adds PTPN2 PA5-42722 (U-87 MG); the HeLa RAN group adds
+  HNRNPH1 PA5-70400 (2019-12-09); angiotensinogen / UQCRC2 (Hep G2) adds BIK PA5-20249; APAF1 / FADD
+  (MDA-MB-231, 2020-03-04) adds a second FADD product, PA5-78260; PRPF31 / TBK1 (HeLa) adds ORP5 PA5-18221
+  (2024-02-01).
+- Same target (likely legitimate): PTPN2, IL18BP, RRM1, NGEF, RPS12, UPF1, TOLLIP, CTCF, CHAMP1, DOPEY2,
+  HAND2, PRDM7, GTL3, FBP1, GRP78, CD81, Phospho-EGFR.
+- False by eye: 4 dark non-hub pairs (published-figure panels and blank dark panels).
+- Blots (2,250 new): template scan 20 hit products, 5 unlisted, none confirmed: PA5-97618, PA5-98089 and
+  PA5-49719 (pattern C, share 0.26 to 0.42) have shift-correlation peaks of 0.05 to 0.06, at the noise level
+  and off zero; PA5-51879 (pattern D, share 0.15) and PA5-118589 (pattern B, share 0.29) use different
+  figure layouts from the templates.

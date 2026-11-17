@@ -3590,5 +3590,77 @@
   "score": 0.99,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-94983-PROGESTERONERECEPTOR-ICCIF-1-20230316_142139.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-35366-EWSR1-ICCIF-1-20230316_142139.jpg"
+ },
+ {
+  "group": "RRM2 / PPP1CB / FZR1 / BAF57 / S100A6 / RRM1 / CD2AP (2021-03-23): adds PTPN2 PA5-42722 (U-87 MG)",
+  "a": "MA5-27318",
+  "b": "PA5-42722",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC3-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA542722-PTPN2-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "Angiotensinogen / UQCRC2 (Hep G2): adds BIK PA5-20249",
+  "a": "MA5-29010",
+  "b": "PA5-20249",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA529010-AGT-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA520249-BIK-ICC.jpg"
+ },
+ {
+  "group": "APAF1 MA5-32082 / FADD PA5-17808 (MDA-MB-231): adds a second FADD product, PA5-78260",
+  "a": "MA5-32082",
+  "b": "PA5-78260",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532082-APAF1-ICC-20200304132147.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578260-FADD-ICC-20200304132147.jpg"
+ },
+ {
+  "group": "RAN group (HeLa): adds HNRNPH1 PA5-70400",
+  "a": "PA5-17652",
+  "b": "PA5-70400",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517652-RAN-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA570400-HNRNPH1-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "PRPF31 PA5-18611 / TBK1 PA5-142790 (HeLa): adds ORP5 PA5-18221 (2024-02-01)",
+  "a": "PA5-18611",
+  "b": "PA5-18221",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18611-PRPF31-ICCIF-2-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18221-ORP5-ICCIF-1-20240201_121020.jpg"
+ },
+ {
+  "group": "TRIM21 PA5-18147 / BCL7A PA5-17933 / TIGD1 PA5-142098 (U2OS, 2024-02-01 and 2023-01-04): same negative control image",
+  "a": "PA5-18147",
+  "b": "PA5-17933",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18147-TRIM21-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-17933-BCL7A-ICCIF-1-20240201_121020.jpg"
+ },
+ {
+  "group": "TRIM21 PA5-18147 / BCL7A PA5-17933 / TIGD1 PA5-142098 (U2OS, 2024-02-01 and 2023-01-04): same negative control image",
+  "a": "PA5-18147",
+  "b": "PA5-142098",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18147-TRIM21-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142098-TIGD1-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "EN2 PA5-18474 / FOXA1 PA5-18168 (U2OS, 2024-02-01): same negative control image",
+  "a": "PA5-18474",
+  "b": "PA5-18168",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18474-EN2-ICCIF-2-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18168-FOXA1-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "ACAA1 PA5-29956 / TPI1 PA5-18342 (Hep G2, 2018-11-12 and 2018-11-16): same no-primary panel",
+  "a": "PA5-29956",
+  "b": "PA5-18342",
+  "score": 0.96,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529956-ACAA1-ICC_20181112161112.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA518342-TPI1-ICC_20181116122136.jpg"
  }
 ]
