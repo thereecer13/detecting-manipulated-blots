@@ -547,14 +547,5 @@
   "reason": "",
   "url": "https://www.thermofisher.com/antibody/images/650/PA5-118549-PI3KP85-P55-WB-1-2021923125244.jpg",
   "in_richardson": ""
- },
- {
-  "catalog": "PA5-118591",
-  "target": "APRIL",
-  "wb": "1",
-  "verdict": "confirmed",
-  "reason": "shares lane background with GRB14 PA5-101612 (pattern B, template share 0.66); shift-correlation peak 0.39 at zero shift vs off-peak 99th percentile 0.18",
-  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118591-APRIL-WB-1-2021923125244.jpg",
-  "in_richardson": ""
  }
 ]

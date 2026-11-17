@@ -942,4 +942,4 @@ Fiftieth batch (33,410 figures, 72,860 panels; crawl at ~76,700 MA5/PA5 pages):
 - Blots (2,281 new): template scan 22 hit products, 1 unlisted:
   - **APRIL PA5-118591 (pattern B, share 0.66): confirmed.** Stamped 2021-09-23, COLO205. Its lane
     background matches the pattern B exemplar GRB14 PA5-101612: shift-correlation peak 0.39 at zero shift,
-    against an off-peak 99th percentile of 0.18. Not in Richardson's lists. Added to upload_2021-09-23.json.
+    against an off-peak 99th percentile of 0.18. Not in Richardson's lists. Noted in upload_2021-09-23.md.
