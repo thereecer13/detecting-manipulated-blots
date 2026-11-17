@@ -47,3 +47,15 @@ by a person:
 False hits among the top 10: small fragments on the edge of one large band (PA5-50832, MA5-38403, MA5-50638).
 
 Not covered yet: the same band pasted into different blots (Richardson's pattern A groups).
+
+## Full run (74,564 crawled blot images)
+
+`run_search.py` over every crawled Thermo blot: 44,036 images had at least one band, 24,432 had a band with
+a match elsewhere in the image. Best-match nrmse: <= 0.02 in 57 images, <= 0.03 in 259, <= 0.04 in 832.
+
+`select60.py` builds the labelling set (`render.py` draws each item):
+- filters: band at least 30 x 10 px; band and match must not overlap; chart bars rejected (one flat
+  mid-grey fills more than 30% of the band box);
+- one item per image, per catalog number; at most 5 per upload stamp, so that one upload cannot fill the set;
+- 49 top candidates (nrmse <= 0.030), 5 of Richardson's within-blot cases, 6 low-score controls
+  (nrmse 0.10 to 0.16), shuffled. Labels are pending.
