@@ -1,0 +1,4235 @@
+{
+ "W00": {
+  "kind": "within",
+  "name": "PA5-105597-Phospho-CXCR4-Ser338-Ser339-WB-1-20190808102937.jpg",
+  "cat": "PA5-105597",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-105597-Phospho-CXCR4-Ser338-Ser339-WB-1-20190808102937.jpg",
+  "hit": [
+   0.032,
+   0.996,
+   "same",
+   [
+    320,
+    384,
+    33,
+    12
+   ],
+   [
+    391,
+    380
+   ]
+  ],
+  "feat": {
+   "outline": 0.9723840721122573,
+   "outline_min": 0.9705882352941176,
+   "touch": false,
+   "unusual": 0.3300305439415689,
+   "sat": 0.4375,
+   "fill": 0.968,
+   "area_ratio": 1.0
+  },
+  "score": 0.7779072576898058,
+  "new_crawl": true
+ },
+ "W01": {
+  "kind": "within",
+  "name": "PA527559-SNRPB-WB.jpg",
+  "cat": "PA5-27559",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA527559-SNRPB-WB.jpg",
+  "hit": [
+   0.0105,
+   1.0,
+   "same",
+   [
+    414,
+    582,
+    31,
+    12
+   ],
+   [
+    370,
+    578
+   ]
+  ],
+  "feat": {
+   "outline": 0.9901376355847233,
+   "outline_min": 0.9849056603773585,
+   "touch": false,
+   "unusual": 0.19233535584818706,
+   "sat": 0.3883495145631068,
+   "fill": 0.9895,
+   "area_ratio": 0.9951456310679612
+  },
+  "score": 0.685507292271232,
+  "new_crawl": true
+ },
+ "W02": {
+  "kind": "within",
+  "name": "PA517018-ATG3-WB_20181112154555.jpg",
+  "cat": "PA5-17018",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA517018-ATG3-WB_20181112154555.jpg",
+  "hit": [
+   0.0436,
+   0.994,
+   "same",
+   [
+    405,
+    488,
+    43,
+    18
+   ],
+   [
+    453,
+    484
+   ]
+  ],
+  "feat": {
+   "outline": 0.9621491664388118,
+   "outline_min": 0.9518072289156626,
+   "touch": false,
+   "unusual": 0.2088506112294846,
+   "sat": 0.5555555555555556,
+   "fill": 0.9564,
+   "area_ratio": 0.9936305732484076
+  },
+  "score": 0.6820200247240908,
+  "new_crawl": true
+ },
+ "W03": {
+  "kind": "within",
+  "name": "PA5-37131-ABCA5-WB-1-20200904000242.jpg",
+  "cat": "PA5-37131",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-37131-ABCA5-WB-1-20200904000242.jpg",
+  "hit": [
+   0.0322,
+   0.996,
+   "same",
+   [
+    246,
+    192,
+    84,
+    41
+   ],
+   [
+    129,
+    185
+   ]
+  ],
+  "feat": {
+   "outline": 0.9466414712068758,
+   "outline_min": 0.938996138996139,
+   "touch": false,
+   "unusual": 0.18174250212261478,
+   "sat": 0.08137535816618911,
+   "fill": 0.9678,
+   "area_ratio": 0.9489971346704871
+  },
+  "score": 0.6453657251936087,
+  "new_crawl": true
+ },
+ "W04": {
+  "kind": "within",
+  "name": "PA552629-HEXIM1-WB.jpg",
+  "cat": "PA5-52629",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA552629-HEXIM1-WB.jpg",
+  "hit": [
+   0.0265,
+   0.998,
+   "same",
+   [
+    184,
+    379,
+    50,
+    32
+   ],
+   [
+    240,
+    373
+   ]
+  ],
+  "feat": {
+   "outline": 0.9846425783698871,
+   "outline_min": 0.9825581395348837,
+   "touch": false,
+   "unusual": 0.11420588760041488,
+   "sat": 0.6868421052631579,
+   "fill": 0.9735,
+   "area_ratio": 0.9991235758106923
+  },
+  "score": 0.6047732688168376,
+  "new_crawl": true
+ },
+ "W05": {
+  "kind": "within",
+  "name": "PA5-79184-DCI-WB-20180709134901.jpg",
+  "cat": "PA5-79184",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79184-DCI-WB-20180709134901.jpg",
+  "hit": [
+   0.0219,
+   0.998,
+   "same",
+   [
+    431,
+    497,
+    56,
+    31
+   ],
+   [
+    491,
+    492
+   ]
+  ],
+  "feat": {
+   "outline": 0.9624144134672613,
+   "outline_min": 0.9546165884194053,
+   "touch": false,
+   "unusual": 0.10548504265159504,
+   "sat": 0.21919431279620852,
+   "fill": 0.9781,
+   "area_ratio": 0.9848308051341891
+  },
+  "score": 0.5827275321867346,
+  "new_crawl": true
+ },
+ "W06": {
+  "kind": "within",
+  "name": "tfs_29569_fgeed-05-1034720-g003.jpg",
+  "cat": "PA5-30044",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_29569_fgeed-05-1034720-g003.jpg",
+  "hit": [
+   0.0417,
+   0.993,
+   "same",
+   [
+    235,
+    779,
+    53,
+    23
+   ],
+   [
+    168,
+    774
+   ]
+  ],
+  "feat": {
+   "outline": 0.9405553915827651,
+   "outline_min": 0.9104781281790437,
+   "touch": false,
+   "unusual": 0.1166210940663109,
+   "sat": 0.6140845070422535,
+   "fill": 0.9583,
+   "area_ratio": 0.9646739130434783
+  },
+  "score": 0.5799662945877322,
+  "new_crawl": true
+ },
+ "W07": {
+  "kind": "within",
+  "name": "PA5-118351-VINCULIN-WB-1-2021112113224.jpg",
+  "cat": "PA5-118351",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-118351-VINCULIN-WB-1-2021112113224.jpg",
+  "hit": [
+   0.0264,
+   0.998,
+   "same",
+   [
+    243,
+    161,
+    84,
+    29
+   ],
+   [
+    349,
+    155
+   ]
+  ],
+  "feat": {
+   "outline": 0.9628594011936796,
+   "outline_min": 0.9427860696517413,
+   "touch": false,
+   "unusual": 0.08802385784586464,
+   "sat": 0.4010840108401084,
+   "fill": 0.9736,
+   "area_ratio": 0.997289972899729
+  },
+  "score": 0.5661842996530666,
+  "new_crawl": true
+ },
+ "W08": {
+  "kind": "within",
+  "name": "PA5-79645-MCM2-WB-20180709134901.jpg",
+  "cat": "PA5-79645",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79645-MCM2-WB-20180709134901.jpg",
+  "hit": [
+   0.028,
+   0.997,
+   "rot180",
+   [
+    486,
+    159,
+    64,
+    32
+   ],
+   [
+    327,
+    157
+   ]
+  ],
+  "feat": {
+   "outline": 0.9596493197925703,
+   "outline_min": 0.9540059347181009,
+   "touch": false,
+   "unusual": 0.14861825081208177,
+   "sat": 0.16439909297052155,
+   "fill": 0.972,
+   "area_ratio": 0.9965986394557823
+  },
+  "score": 0.5602014568771749,
+  "new_crawl": true
+ },
+ "W09": {
+  "kind": "within",
+  "name": "PA5-79944-RUNX3-WB-20180709134901.jpg",
+  "cat": "PA5-79944",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79944-RUNX3-WB-20180709134901.jpg",
+  "hit": [
+   0.0432,
+   0.993,
+   "same",
+   [
+    290,
+    715,
+    131,
+    53
+   ],
+   [
+    429,
+    707
+   ]
+  ],
+  "feat": {
+   "outline": 0.9413735942503458,
+   "outline_min": 0.9405082787832114,
+   "touch": false,
+   "unusual": 0.08339656103944011,
+   "sat": 0.2172265723667593,
+   "fill": 0.9568,
+   "area_ratio": 0.9952237305178482
+  },
+  "score": 0.5491941175389891,
+  "new_crawl": true
+ },
+ "W10": {
+  "kind": "within",
+  "name": "PA5-95135-CDK7-WB-1-20190319132517.jpg",
+  "cat": "PA5-95135",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95135-CDK7-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0286,
+   0.997,
+   "same",
+   [
+    472,
+    360,
+    64,
+    31
+   ],
+   [
+    544,
+    356
+   ]
+  ],
+  "feat": {
+   "outline": 0.9526686286819199,
+   "outline_min": 0.94947209653092,
+   "touch": false,
+   "unusual": 0.06415564682675734,
+   "sat": 0.20909090909090908,
+   "fill": 0.9714,
+   "area_ratio": 0.9919839679358717
+  },
+  "score": 0.5374533864256085,
+  "new_crawl": true
+ },
+ "W11": {
+  "kind": "within",
+  "name": "PA5-80221-Villin-WB-20180709134901.jpg",
+  "cat": "PA5-80221",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-80221-Villin-WB-20180709134901.jpg",
+  "hit": [
+   0.0247,
+   0.998,
+   "same",
+   [
+    355,
+    187,
+    77,
+    33
+   ],
+   [
+    436,
+    184
+   ]
+  ],
+  "feat": {
+   "outline": 0.9629552624392255,
+   "outline_min": 0.9472168905950096,
+   "touch": false,
+   "unusual": 0.05212045715294559,
+   "sat": 0.2221412964311726,
+   "fill": 0.9753000000000001,
+   "area_ratio": 0.9905316824471959
+  },
+  "score": 0.5316672997157799,
+  "new_crawl": true
+ },
+ "W12": {
+  "kind": "within",
+  "name": "PA5-95228-PDGF-B-WB-1-20190319132517.jpg",
+  "cat": "PA5-95228",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95228-PDGF-B-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0496,
+   0.991,
+   "hflip",
+   [
+    404,
+    711,
+    85,
+    37
+   ],
+   [
+    494,
+    705
+   ]
+  ],
+  "feat": {
+   "outline": 0.944112135885809,
+   "outline_min": 0.9378306878306878,
+   "touch": false,
+   "unusual": 0.09196769413025514,
+   "sat": 0.19286125503742085,
+   "fill": 0.9504,
+   "area_ratio": 0.9654576856649395
+  },
+  "score": 0.5029954956726413,
+  "new_crawl": true
+ },
+ "W13": {
+  "kind": "within",
+  "name": "PA5-141097-CGAS-WB-1-20230104_130011.jpg",
+  "cat": "PA5-141097",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-141097-CGAS-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.0479,
+   0.993,
+   "hflip",
+   [
+    308,
+    298,
+    36,
+    17
+   ],
+   [
+    259,
+    293
+   ]
+  ],
+  "feat": {
+   "outline": 0.9456534185258098,
+   "outline_min": 0.9331210191082803,
+   "touch": false,
+   "unusual": 0.09082360506564602,
+   "sat": 0.016713091922005572,
+   "fill": 0.9521,
+   "area_ratio": 0.9598930481283422
+  },
+  "score": 0.502842925688464,
+  "new_crawl": true
+ },
+ "W14": {
+  "kind": "within",
+  "name": "PA519462-26515640-Ki-67-srep15807-f3.jpg",
+  "cat": "PA5-19462",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA519462-26515640-Ki-67-srep15807-f3.jpg",
+  "hit": [
+   0.0294,
+   0.995,
+   "hflip",
+   [
+    454,
+    231,
+    30,
+    10
+   ],
+   [
+    514,
+    227
+   ]
+  ],
+  "feat": {
+   "outline": 0.946448023653906,
+   "outline_min": 0.9084967320261438,
+   "touch": false,
+   "unusual": 0.07438129922978405,
+   "sat": 0.04794520547945205,
+   "fill": 0.9706,
+   "area_ratio": 1.0
+  },
+  "score": 0.4892598409318128,
+  "new_crawl": true
+ },
+ "W15": {
+  "kind": "within",
+  "name": "PA5-119463-SERPINA7-WB-1-2021113123928.jpg",
+  "cat": "PA5-119463",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119463-SERPINA7-WB-1-2021113123928.jpg",
+  "hit": [
+   0.0497,
+   0.99,
+   "rot180",
+   [
+    301,
+    1034,
+    86,
+    31
+   ],
+   [
+    203,
+    1030
+   ]
+  ],
+  "feat": {
+   "outline": 0.9426035498422382,
+   "outline_min": 0.9293877551020409,
+   "touch": false,
+   "unusual": 0.07368270229645531,
+   "sat": 0.27421916357861303,
+   "fill": 0.9503,
+   "area_ratio": 0.9454454454454454
+  },
+  "score": 0.48667981650095404,
+  "new_crawl": true
+ },
+ "W16": {
+  "kind": "within",
+  "name": "PA5-79357-HEXA-WB-20180709134901.jpg",
+  "cat": "PA5-79357",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79357-HEXA-WB-20180709134901.jpg",
+  "hit": [
+   0.0266,
+   0.997,
+   "rot180",
+   [
+    491,
+    584,
+    101,
+    55
+   ],
+   [
+    257,
+    581
+   ]
+  ],
+  "feat": {
+   "outline": 0.952536967548942,
+   "outline_min": 0.9469261388766033,
+   "touch": false,
+   "unusual": 0.06518461344741056,
+   "sat": 0.18286277084701247,
+   "fill": 0.9734,
+   "area_ratio": 0.9980302035456337
+  },
+  "score": 0.4845233140186657,
+  "new_crawl": true
+ },
+ "W17": {
+  "kind": "within",
+  "name": "PA5-80056-SP2-WB-20180709134901.jpg",
+  "cat": "PA5-80056",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-80056-SP2-WB-20180709134901.jpg",
+  "hit": [
+   0.0241,
+   0.998,
+   "vflip",
+   [
+    314,
+    355,
+    69,
+    46
+   ],
+   [
+    395,
+    349
+   ]
+  ],
+  "feat": {
+   "outline": 0.9523105833063784,
+   "outline_min": 0.9492537313432836,
+   "touch": false,
+   "unusual": 0.06295426220475649,
+   "sat": 0.10093056549749463,
+   "fill": 0.9759,
+   "area_ratio": 0.9885468861846815
+  },
+  "score": 0.4824965716335213,
+  "new_crawl": true
+ },
+ "W18": {
+  "kind": "within",
+  "name": "tfs_31216_urn-x-wiley-09066705-media-exd15111-exd15111-fig-0005.jpg",
+  "cat": "PA5-95549",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_31216_urn-x-wiley-09066705-media-exd15111-exd15111-fig-0005.jpg",
+  "hit": [
+   0.0431,
+   0.985,
+   "rot180",
+   [
+    335,
+    106,
+    31,
+    10
+   ],
+   [
+    370,
+    103
+   ]
+  ],
+  "feat": {
+   "outline": 0.9436258831607668,
+   "outline_min": 0.9333333333333333,
+   "touch": false,
+   "unusual": 0.055966392364235694,
+   "sat": 0.0,
+   "fill": 0.9569,
+   "area_ratio": 0.9577464788732394
+  },
+  "score": 0.47216185020216656,
+  "new_crawl": false
+ },
+ "W19": {
+  "kind": "within",
+  "name": "MA5-36056-Hemopexin-WB-1-2020071600.jpg",
+  "cat": "MA5-36056",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36056-Hemopexin-WB-1-2020071600.jpg",
+  "hit": [
+   0.0419,
+   0.992,
+   "rot180",
+   [
+    118,
+    122,
+    61,
+    31
+   ],
+   [
+    188,
+    118
+   ]
+  ],
+  "feat": {
+   "outline": 0.9473498048766714,
+   "outline_min": 0.9330708661417323,
+   "touch": false,
+   "unusual": 0.0535077419245488,
+   "sat": 0.4742014742014742,
+   "fill": 0.9581,
+   "area_ratio": 0.9770679770679771
+  },
+  "score": 0.47192890617895344,
+  "new_crawl": false
+ },
+ "W20": {
+  "kind": "within",
+  "name": "PA5-95138-Collagen-II-WB-1-20190319132517.jpg",
+  "cat": "PA5-95138",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95138-Collagen-II-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0406,
+   0.994,
+   "hflip",
+   [
+    443,
+    224,
+    77,
+    41
+   ],
+   [
+    252,
+    220
+   ]
+  ],
+  "feat": {
+   "outline": 0.9461122957624747,
+   "outline_min": 0.9394946808510638,
+   "touch": false,
+   "unusual": 0.05386639357214932,
+   "sat": 0.3567188343227199,
+   "fill": 0.9594,
+   "area_ratio": 0.9735563950350783
+  },
+  "score": 0.4716178246514057,
+  "new_crawl": false
+ },
+ "W21": {
+  "kind": "within",
+  "name": "MA5-44763-KINESIN5B-WB-2-20230104_130011.jpg",
+  "cat": "MA5-44763",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44763-KINESIN5B-WB-2-20230104_130011.jpg",
+  "hit": [
+   0.0496,
+   0.992,
+   "hflip",
+   [
+    346,
+    223,
+    43,
+    20
+   ],
+   [
+    253,
+    219
+   ]
+  ],
+  "feat": {
+   "outline": 0.9443917659453764,
+   "outline_min": 0.9314814814814815,
+   "touch": false,
+   "unusual": 0.05393519777830125,
+   "sat": 0.04771371769383698,
+   "fill": 0.9504,
+   "area_ratio": 0.9314814814814815
+  },
+  "score": 0.4708186556842362,
+  "new_crawl": false
+ },
+ "W22": {
+  "kind": "within",
+  "name": "MA5-44723-SAFB-WB-2-20230104_130011.jpg",
+  "cat": "MA5-44723",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44723-SAFB-WB-2-20230104_130011.jpg",
+  "hit": [
+   0.0474,
+   0.993,
+   "hflip",
+   [
+    330,
+    485,
+    43,
+    18
+   ],
+   [
+    274,
+    481
+   ]
+  ],
+  "feat": {
+   "outline": 0.9418372494186628,
+   "outline_min": 0.9321663019693655,
+   "touch": false,
+   "unusual": 0.05238851586502954,
+   "sat": 0.05847953216374269,
+   "fill": 0.9526,
+   "area_ratio": 0.9610136452241715
+  },
+  "score": 0.4682340723534992,
+  "new_crawl": false
+ },
+ "G00": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 34907,
+    "cat": "PA5-86612",
+    "target": "p70-S6-Kinase",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86612-p70-S6-Kinase-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86612-p70-S6-Kinase-WB-1-20190228112632.jpg",
+    "box": [
+     434,
+     169,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 67176,
+    "cat": "PA5-86584",
+    "target": "Cytokeratin-19",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86584-Cytokeratin-19-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86584-Cytokeratin-19-WB-1-20190228112632.jpg",
+    "box": [
+     434,
+     389,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 71274,
+    "cat": "PA5-86596",
+    "target": "Cofilin",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86596-Cofilin-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86596-Cofilin-WB-1-20190228112632.jpg",
+    "box": [
+     435,
+     640,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 90928,
+    "cat": "PA5-86571",
+    "target": "TNF-beta",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86571-TNF-beta-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86571-TNF-beta-WB-1-20190228112632.jpg",
+    "box": [
+     435,
+     640,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 37304,
+    "cat": "PA5-86627",
+    "target": "IL-32",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86627-IL-32-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86627-IL-32-WB-1-20190228112632.jpg",
+    "box": [
+     433,
+     598,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 58186,
+    "cat": "PA5-86477",
+    "target": "C-EBP-gamma",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86477-C-EBP-gamma-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86477-C-EBP-gamma-WB-1-20190228112632.jpg",
+    "box": [
+     435,
+     687,
+     53,
+     21
+    ]
+   },
+   {
+    "band": 59711,
+    "cat": "PA5-86607",
+    "target": "Stathmin-1",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86607-Stathmin-1-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86607-Stathmin-1-WB-1-20190228112632.jpg",
+    "box": [
+     434,
+     647,
+     53,
+     21
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    34907,
+    67176,
+    "same",
+    0.014848668062803994,
+    0.14648708766919555
+   ],
+   [
+    34907,
+    71274,
+    "same",
+    0.018281746402157927,
+    0.2896246395172418
+   ],
+   [
+    34907,
+    90928,
+    "same",
+    0.018284988679641696,
+    0.2760670999011887
+   ],
+   [
+    34907,
+    37304,
+    "same",
+    0.0188779533148115,
+    0.12414515088374665
+   ],
+   [
+    34907,
+    58186,
+    "same",
+    0.02361032651694272,
+    0.23366868487279382
+   ],
+   [
+    34907,
+    59711,
+    "same",
+    0.023778417505988986,
+    0.2975856455948813
+   ],
+   [
+    37304,
+    59711,
+    "same",
+    0.018495227305475554,
+    0.0782043497758805
+   ],
+   [
+    37304,
+    67176,
+    "same",
+    0.01907210669866548,
+    0.18725846991096887
+   ],
+   [
+    37304,
+    58186,
+    "same",
+    0.01892752614299328,
+    0.15965223496668324
+   ],
+   [
+    58186,
+    59711,
+    "same",
+    0.013985944175966186,
+    0.2969389035231005
+   ],
+   [
+    58186,
+    67176,
+    "same",
+    0.02405630569258757,
+    0.14031260031217732
+   ],
+   [
+    59711,
+    67176,
+    "same",
+    0.02389842097809655,
+    0.07901352376154497
+   ],
+   [
+    67176,
+    71274,
+    "same",
+    0.01874269758342088,
+    0.13790183648335
+   ],
+   [
+    67176,
+    90928,
+    "same",
+    0.01875346481068383,
+    0.24841956662868855
+   ],
+   [
+    71274,
+    90928,
+    "same",
+    0.00043826446984489336,
+    0.6930571515963228
+   ],
+   [
+    37304,
+    71274,
+    "same",
+    0.025891504634842553,
+    0.150140789199418
+   ],
+   [
+    37304,
+    90928,
+    "same",
+    0.025883200529139158,
+    0.21048507007543346
+   ]
+  ],
+  "ctx_med": 0.18725846991096887,
+  "n_products": 7,
+  "n_unlisted": 7
+ },
+ "G01": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 42158,
+    "cat": "PA5-86554",
+    "target": "eIF4E",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86554-eIF4E-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86554-eIF4E-WB-1-20190228112632.jpg",
+    "box": [
+     432,
+     615,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 94279,
+    "cat": "PA5-86534",
+    "target": "CD9",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86534-CD9-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86534-CD9-WB-1-20190228112632.jpg",
+    "box": [
+     434,
+     616,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 47696,
+    "cat": "PA5-86631",
+    "target": "PGC",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86631-PGC-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86631-PGC-WB-1-20190228112632.jpg",
+    "box": [
+     434,
+     394,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 92913,
+    "cat": "PA5-86543",
+    "target": "Histone-H2B",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86543-Histone-H2B-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86543-Histone-H2B-WB-1-20190228112632.jpg",
+    "box": [
+     433,
+     673,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 67779,
+    "cat": "PA5-86594",
+    "target": "NGF",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86594-NGF-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86594-NGF-WB-1-20190228112632.jpg",
+    "box": [
+     435,
+     587,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 42463,
+    "cat": "PA5-86617",
+    "target": "DAB1",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86617-DAB1-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86617-DAB1-WB-1-20190228112632.jpg",
+    "box": [
+     438,
+     234,
+     53,
+     20
+    ]
+   },
+   {
+    "band": 85017,
+    "cat": "PA5-86443",
+    "target": "JAB1",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86443-JAB1-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86443-JAB1-WB-1-20190228112632.jpg",
+    "box": [
+     433,
+     422,
+     53,
+     20
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    42158,
+    94279,
+    "same",
+    0.0195943454117952,
+    0.29093829053022335
+   ],
+   [
+    42158,
+    47696,
+    "same",
+    0.020559928325437953,
+    0.20474788115201223
+   ],
+   [
+    42158,
+    92913,
+    "same",
+    0.02493972223050175,
+    0.14198415692075658
+   ],
+   [
+    42158,
+    67779,
+    "same",
+    0.028528214908684714,
+    0.24360139958749458
+   ],
+   [
+    42463,
+    47696,
+    "same",
+    0.022811957741520696,
+    0.37394155156585557
+   ],
+   [
+    42463,
+    94279,
+    "same",
+    0.028496603500955613,
+    0.11521229257539807
+   ],
+   [
+    42463,
+    92913,
+    "same",
+    0.024953774640845437,
+    0.23757738536039702
+   ],
+   [
+    47696,
+    92913,
+    "same",
+    0.018684832522152913,
+    0.4239773043012025
+   ],
+   [
+    47696,
+    94279,
+    "same",
+    0.02330596712940442,
+    0.2461444825569206
+   ],
+   [
+    47696,
+    85017,
+    "same",
+    0.02499388039270686,
+    0.2597889003786619
+   ],
+   [
+    67779,
+    94279,
+    "same",
+    0.018343936424844616,
+    0.4121520149380734
+   ],
+   [
+    85017,
+    92913,
+    "same",
+    0.016590401828520018,
+    0.3226375526928396
+   ]
+  ],
+  "ctx_med": 0.2597889003786619,
+  "n_products": 7,
+  "n_unlisted": 7
+ },
+ "G02": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 3998,
+    "cat": "MA5-43732",
+    "target": "IL-5",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43732-IL-5-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43732-IL-5-WB-1-20220413_152309.jpg",
+    "box": [
+     222,
+     798,
+     48,
+     17
+    ]
+   },
+   {
+    "band": 49873,
+    "cat": "PA5-122310",
+    "target": "SLN",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "PA5-122310-SLN-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-122310-SLN-WB-1-20220413_152309.jpg",
+    "box": [
+     225,
+     380,
+     48,
+     17
+    ]
+   },
+   {
+    "band": 12921,
+    "cat": "MA5-43578",
+    "target": "SFTPC",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43578-SFTPC-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43578-SFTPC-WB-1-20220413_152309.jpg",
+    "box": [
+     208,
+     244,
+     48,
+     17
+    ]
+   },
+   {
+    "band": 14180,
+    "cat": "MA5-43740",
+    "target": "IL-18",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43740-IL-18-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43740-IL-18-WB-1-20220413_152309.jpg",
+    "box": [
+     188,
+     788,
+     48,
+     17
+    ]
+   },
+   {
+    "band": 8192,
+    "cat": "MA5-43834",
+    "target": "ERLIN2",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43834-ERLIN2-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43834-ERLIN2-WB-1-20220413_152309.jpg",
+    "box": [
+     185,
+     370,
+     48,
+     17
+    ]
+   },
+   {
+    "band": 10265,
+    "cat": "MA5-43947",
+    "target": "ARMET",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43947-ARMET-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43947-ARMET-WB-1-20220413_152309.jpg",
+    "box": [
+     192,
+     529,
+     48,
+     17
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    3998,
+    49873,
+    "same",
+    0.024283992392090628,
+    0.5539042886640411
+   ],
+   [
+    3998,
+    12921,
+    "same",
+    0.02640191490291887,
+    0.5426389895987757
+   ],
+   [
+    3998,
+    14180,
+    "same",
+    0.020988107158042692,
+    0.4810222293791746
+   ],
+   [
+    8192,
+    12921,
+    "same",
+    0.020372338611137637,
+    0.6856012928461116
+   ],
+   [
+    8192,
+    49873,
+    "same",
+    0.020079604928982083,
+    0.5107518809589705
+   ],
+   [
+    8192,
+    14180,
+    "same",
+    0.026858193608227995,
+    0.6505807778856655
+   ],
+   [
+    8192,
+    10265,
+    "same",
+    0.02957730050511692,
+    0.6930268095139147
+   ],
+   [
+    10265,
+    49873,
+    "same",
+    0.02852693659063838,
+    0.4753100946404254
+   ],
+   [
+    10265,
+    12921,
+    "same",
+    0.029900397455193437,
+    0.5908375233785703
+   ],
+   [
+    12921,
+    14180,
+    "same",
+    0.020964674568933597,
+    0.7964772882770218
+   ],
+   [
+    12921,
+    49873,
+    "same",
+    0.024546785424197904,
+    0.6654368564527985
+   ],
+   [
+    14180,
+    49873,
+    "same",
+    0.025364881529718376,
+    0.586323338429241
+   ]
+  ],
+  "ctx_med": 0.5908375233785703,
+  "n_products": 6,
+  "n_unlisted": 6
+ },
+ "G03": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 635,
+    "cat": "MA5-25145",
+    "target": "C9orf41",
+    "date": "2017-12-19",
+    "listed": true,
+    "name": "MA5-25145-C9orf41-WB-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25145-C9orf41-WB-20171219153335.jpg",
+    "box": [
+     468,
+     542,
+     124,
+     44
+    ]
+   },
+   {
+    "band": 6166,
+    "cat": "MA5-25137",
+    "target": "KHK",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25137-KHK-WB-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25137-KHK-WB-20171219153335.jpg",
+    "box": [
+     468,
+     725,
+     124,
+     45
+    ]
+   },
+   {
+    "band": 18919,
+    "cat": "MA5-25136",
+    "target": "KHK",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25136-KHK-WB-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25136-KHK-WB-20171219153335.jpg",
+    "box": [
+     468,
+     725,
+     124,
+     45
+    ]
+   },
+   {
+    "band": 27548,
+    "cat": "MA5-25175",
+    "target": "MIOX",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25175-MIOX-WB-1-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25175-MIOX-WB-1-20171219153335.jpg",
+    "box": [
+     468,
+     726,
+     124,
+     43
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    635,
+    6166,
+    "same",
+    0.022538336141307385,
+    0.9974467070443829
+   ],
+   [
+    635,
+    18919,
+    "same",
+    0.022538336141307385,
+    0.9974467070443829
+   ],
+   [
+    635,
+    27548,
+    "same",
+    0.02838232857821118,
+    0.9949847944020914
+   ],
+   [
+    6166,
+    27548,
+    "same",
+    0.029083524787920787,
+    0.9931717602685896
+   ],
+   [
+    18919,
+    27548,
+    "same",
+    0.029083524787920787,
+    0.9931717602685896
+   ]
+  ],
+  "ctx_med": 0.9949847944020914,
+  "n_products": 4,
+  "n_unlisted": 3
+ },
+ "G04": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 152,
+    "cat": "MA5-24687",
+    "target": "H3K36me3",
+    "date": "2018-02-22",
+    "listed": false,
+    "name": "MA524687-Tri-Methyl-HistoneH3-Lys36-Array_201802220914231.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA524687-Tri-Methyl-HistoneH3-Lys36-Array_201802220914231.jpg",
+    "box": [
+     127,
+     15,
+     32,
+     19
+    ]
+   },
+   {
+    "band": 5502,
+    "cat": "MA5-14867",
+    "target": "H3K36me2",
+    "date": "2018-02-22",
+    "listed": false,
+    "name": "MA514867-Di-Methyl-HistoneH3-Lys36-Array_20180222085834.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA514867-Di-Methyl-HistoneH3-Lys36-Array_20180222085834.jpg",
+    "box": [
+     127,
+     15,
+     32,
+     19
+    ]
+   },
+   {
+    "band": 48529,
+    "cat": "PA5-17109",
+    "target": "H3K36me3",
+    "date": "2018-02-22",
+    "listed": false,
+    "name": "PA517109-Tri-Methyl-HistoneH3-Lys36-Array_20180222092222.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA517109-Tri-Methyl-HistoneH3-Lys36-Array_20180222092222.jpg",
+    "box": [
+     127,
+     15,
+     32,
+     19
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    152,
+    5502,
+    "same",
+    1.099051942468641e-15,
+    1.0
+   ],
+   [
+    153,
+    5503,
+    "same",
+    1.591406070281684e-15,
+    0.922648839633662
+   ],
+   [
+    154,
+    5504,
+    "same",
+    1.9027590939037754e-16,
+    0.999318931094619
+   ],
+   [
+    156,
+    5506,
+    "same",
+    1.0245487893384726e-15,
+    0.7015463592380216
+   ],
+   [
+    5502,
+    48529,
+    "same",
+    1.099051942468641e-15,
+    0.9951316540431179
+   ],
+   [
+    5506,
+    48533,
+    "same",
+    0.006008952717832936,
+    0.6265639146133841
+   ]
+  ],
+  "ctx_med": 0.9951316540431179,
+  "n_products": 3,
+  "n_unlisted": 3,
+  "excluded": "matched on figure text, not a band"
+ },
+ "G05": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 15090,
+    "cat": "MA5-56606",
+    "target": "Influenza-A-H9N2-HA-A-turkey-Wisconsin-1-1966",
+    "date": "2025-01-13",
+    "listed": false,
+    "name": "MA5-56606-INFLUENZAAH9N2HA-WB-2-20250113_080749.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-56606-INFLUENZAAH9N2HA-WB-2-20250113_080749.jpg",
+    "box": [
+     223,
+     372,
+     35,
+     26
+    ]
+   },
+   {
+    "band": 22752,
+    "cat": "MA5-56759",
+    "target": "Influenza-A-H3N2-HA-A-TW-3446-02",
+    "date": "2025-01-13",
+    "listed": false,
+    "name": "MA5-56759-INFLUENZAAH3N2HA-WB-1-20250113_080749.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-56759-INFLUENZAAH3N2HA-WB-1-20250113_080749.jpg",
+    "box": [
+     222,
+     372,
+     35,
+     26
+    ]
+   },
+   {
+    "band": 18651,
+    "cat": "MA5-56607",
+    "target": "Influenza-A-H9N2-HA-A-turkey-Wisconsin-1-1966",
+    "date": "2025-01-13",
+    "listed": false,
+    "name": "MA5-56607-INFLUENZAAH9N2HA-WB-2-20250113_080749.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-56607-INFLUENZAAH9N2HA-WB-2-20250113_080749.jpg",
+    "box": [
+     223,
+     372,
+     35,
+     26
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    15090,
+    22752,
+    "same",
+    0.02563776895332953,
+    0.999173176974413
+   ],
+   [
+    18651,
+    22752,
+    "same",
+    0.026716724534825417,
+    0.9992130289221512
+   ]
+  ],
+  "ctx_med": 0.9992130289221512,
+  "n_products": 3,
+  "n_unlisted": 3
+ },
+ "G06": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 17869,
+    "cat": "MA5-25160",
+    "target": "GRASP65",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25160-GORASP1-WB-1-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25160-GORASP1-WB-1-20171219153335.jpg",
+    "box": [
+     465,
+     520,
+     133,
+     41
+    ]
+   },
+   {
+    "band": 20923,
+    "cat": "MA5-25164",
+    "target": "HID1",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25164-C17orf28-WB-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25164-C17orf28-WB-20171219153335.jpg",
+    "box": [
+     465,
+     332,
+     133,
+     41
+    ]
+   },
+   {
+    "band": 27440,
+    "cat": "MA5-25166",
+    "target": "Thromboxane-synthase",
+    "date": "2017-12-19",
+    "listed": false,
+    "name": "MA5-25166-TBXAS1-WB-20171219153335.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-25166-TBXAS1-WB-20171219153335.jpg",
+    "box": [
+     465,
+     475,
+     132,
+     42
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    17869,
+    20923,
+    "same",
+    0.023259660287531986,
+    0.9983684912245179
+   ],
+   [
+    17869,
+    27440,
+    "same",
+    0.0298812545002628,
+    0.9976852541813703
+   ],
+   [
+    20923,
+    27440,
+    "same",
+    0.028768930479425917,
+    0.9985543651198565
+   ]
+  ],
+  "ctx_med": 0.9983684912245179,
+  "n_products": 3,
+  "n_unlisted": 3
+ },
+ "G07": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 47761,
+    "cat": "PA5-122068",
+    "target": "CPSF1",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "PA5-122068-CPSF1-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-122068-CPSF1-WB-1-20220413_152309.jpg",
+    "box": [
+     199,
+     317,
+     94,
+     43
+    ]
+   },
+   {
+    "band": 48893,
+    "cat": "PA5-119095",
+    "target": "DSPG3",
+    "date": "2021-11-31",
+    "listed": false,
+    "name": "PA5-119095-DSPG3-WB-1-2021113123928.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-119095-DSPG3-WB-1-2021113123928.jpg",
+    "box": [
+     199,
+     420,
+     94,
+     43
+    ]
+   },
+   {
+    "band": 73891,
+    "cat": "PA5-119358",
+    "target": "GCDFP-15",
+    "date": "2021-11-31",
+    "listed": false,
+    "name": "PA5-119358-GCDFP-15-WB-1-2021113123928.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-119358-GCDFP-15-WB-1-2021113123928.jpg",
+    "box": [
+     196,
+     660,
+     94,
+     43
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    47761,
+    48893,
+    "same",
+    0.029930453294399504,
+    0.6492316532516983
+   ],
+   [
+    47761,
+    73891,
+    "same",
+    0.029890508141985104,
+    0.6635686053436908
+   ],
+   [
+    48893,
+    73891,
+    "same",
+    0.02194031257962743,
+    0.6218543218622004
+   ]
+  ],
+  "ctx_med": 0.6492316532516983,
+  "n_products": 3,
+  "n_unlisted": 3
+ },
+ "G08": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 74304,
+    "cat": "PA5-99262",
+    "target": "IRX2",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99262-IRX2-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99262-IRX2-WB-1-20190808102937.jpg",
+    "box": [
+     254,
+     371,
+     78,
+     18
+    ]
+   },
+   {
+    "band": 76568,
+    "cat": "PA5-99229",
+    "target": "BHLHE41",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99229-BHLH3-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99229-BHLH3-WB-1-20190808102937.jpg",
+    "box": [
+     254,
+     371,
+     78,
+     18
+    ]
+   },
+   {
+    "band": 76425,
+    "cat": "PA5-115002",
+    "target": "p16INK4a",
+    "date": "2021-01-13",
+    "listed": false,
+    "name": "PA5-115002-p16INK4a-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-115002-p16INK4a-WB-1-20210113212447.jpg",
+    "box": [
+     254,
+     734,
+     78,
+     18
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    74304,
+    76568,
+    "same",
+    0.021611251636390785,
+    0.9822952522817874
+   ],
+   [
+    76425,
+    76568,
+    "same",
+    0.01855984708811899,
+    0.9754305854883778
+   ]
+  ],
+  "ctx_med": 0.9822952522817874,
+  "n_products": 3,
+  "n_unlisted": 3
+ },
+ "G09": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 3229,
+    "cat": "MA5-50643",
+    "target": "ASS1",
+    "date": "2024-01-18",
+    "listed": false,
+    "name": "MA5-50643-ASS1-WB-1-20240118_095129.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-50643-ASS1-WB-1-20240118_095129.jpg",
+    "box": [
+     260,
+     231,
+     42,
+     19
+    ]
+   },
+   {
+    "band": 18399,
+    "cat": "MA5-44755",
+    "target": "WDR1",
+    "date": "2023-01-04",
+    "listed": false,
+    "name": "MA5-44755-WDR1-WB-1-20230104_130011.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-44755-WDR1-WB-1-20230104_130011.jpg",
+    "box": [
+     332,
+     269,
+     42,
+     19
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    3229,
+    18399,
+    "same",
+    0.028035683107566194,
+    0.7939313996786074
+   ]
+  ],
+  "ctx_med": 0.7939313996786074,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G10": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 5610,
+    "cat": "MA5-44033",
+    "target": "CD206",
+    "date": "2024-06-05",
+    "listed": false,
+    "name": "MA5-44033-CD206-MMR-WB-1-20240605_112310.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-44033-CD206-MMR-WB-1-20240605_112310.jpg",
+    "box": [
+     399,
+     263,
+     49,
+     26
+    ]
+   },
+   {
+    "band": 23509,
+    "cat": "MA5-28581",
+    "target": "CD206-MMR",
+    "date": "2024-06-05",
+    "listed": false,
+    "name": "MA5-28581-CD206-MMR-WB-1-20240605_112310.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-28581-CD206-MMR-WB-1-20240605_112310.jpg",
+    "box": [
+     399,
+     263,
+     49,
+     26
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    5610,
+    23509,
+    "same",
+    2.038971078154214e-16,
+    1.0
+   ],
+   [
+    5611,
+    23510,
+    "same",
+    8.498805689774752e-16,
+    1.0
+   ],
+   [
+    5612,
+    23511,
+    "same",
+    1.0394636698014578e-15,
+    0.9999999999999999
+   ],
+   [
+    5613,
+    23512,
+    "same",
+    2.2469354602171764e-15,
+    0.9999999999999998
+   ]
+  ],
+  "ctx_med": 1.0,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target under two names (CD206)"
+ },
+ "G11": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 5687,
+    "cat": "MA5-44740",
+    "target": "Annexin-A7",
+    "date": "2023-01-04",
+    "listed": false,
+    "name": "MA5-44740-ANNEXINVII-WB-1-20230104_130011.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-44740-ANNEXINVII-WB-1-20230104_130011.jpg",
+    "box": [
+     232,
+     278,
+     186,
+     24
+    ]
+   },
+   {
+    "band": 11597,
+    "cat": "MA5-50662",
+    "target": "Annexin-VII",
+    "date": "2024-01-18",
+    "listed": false,
+    "name": "MA5-50662-ANNEXINVII-WB-1-20240118_095129.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-50662-ANNEXINVII-WB-1-20240118_095129.jpg",
+    "box": [
+     232,
+     278,
+     186,
+     24
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    5687,
+    11597,
+    "same",
+    0.020936055221037773,
+    0.9868104849393927
+   ]
+  ],
+  "ctx_med": 0.9868104849393927,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target (annexin A7)"
+ },
+ "G12": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 7198,
+    "cat": "MA5-43558",
+    "target": "TMEM27",
+    "date": "2022-04-13",
+    "listed": false,
+    "name": "MA5-43558-TMEM27-WB-1-20220413_152309.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-43558-TMEM27-WB-1-20220413_152309.jpg",
+    "box": [
+     243,
+     638,
+     135,
+     32
+    ]
+   },
+   {
+    "band": 64909,
+    "cat": "PA5-119060",
+    "target": "COX2",
+    "date": "2021-11-31",
+    "listed": false,
+    "name": "PA5-119060-COX2-WB-2-2021113123928.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-119060-COX2-WB-2-2021113123928.jpg",
+    "box": [
+     229,
+     375,
+     134,
+     30
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    7198,
+    64909,
+    "same",
+    0.02627341282023877,
+    0.7144074794998853
+   ]
+  ],
+  "ctx_med": 0.7144074794998853,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G13": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 13310,
+    "cat": "MA5-50379",
+    "target": "GNAI1-GNAI2-GNAI3",
+    "date": "2024-01-23",
+    "listed": false,
+    "name": "MA5-50379-GNAI1-GNAI2-GNAI3-WB-3-20240123_090647.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-50379-GNAI1-GNAI2-GNAI3-WB-3-20240123_090647.jpg",
+    "box": [
+     259,
+     342,
+     57,
+     18
+    ]
+   },
+   {
+    "band": 20907,
+    "cat": "MA5-50380",
+    "target": "GNAI3",
+    "date": "2024-01-23",
+    "listed": false,
+    "name": "MA5-50380-GNAI3-WB-2-20240123_090647.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-50380-GNAI3-WB-2-20240123_090647.jpg",
+    "box": [
+     259,
+     342,
+     58,
+     18
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    13310,
+    20907,
+    "same",
+    0.011083027154272281,
+    0.9992442484478067
+   ]
+  ],
+  "ctx_med": 0.9992442484478067,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G14": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 22451,
+    "cat": "MA5-15175",
+    "target": "Phospho-JNK1-JNK2-Thr183-Tyr185",
+    "date": "no date",
+    "listed": false,
+    "name": "MA5-15175_WesternBlot_2.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-15175_WesternBlot_2.jpg",
+    "box": [
+     100,
+     418,
+     34,
+     21
+    ]
+   },
+   {
+    "band": 24159,
+    "cat": "MA5-15174",
+    "target": "Phospho-ERK1-ERK2-Tyr204",
+    "date": "no date",
+    "listed": false,
+    "name": "MA5-15174_WesternBlot.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA5-15174_WesternBlot.jpg",
+    "box": [
+     81,
+     406,
+     33,
+     22
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    22451,
+    24159,
+    "same",
+    0.014438718757162402,
+    0.44174007341885035
+   ]
+  ],
+  "ctx_med": 0.44174007341885035,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G15": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 27909,
+    "cat": "MA5-24698",
+    "target": "H2BK20ac",
+    "date": "2018-01-17",
+    "listed": false,
+    "name": "MA524698-Acetyl-HistoneH2B-Lys20-WB-20180117084915.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA524698-Acetyl-HistoneH2B-Lys20-WB-20180117084915.jpg",
+    "box": [
+     140,
+     552,
+     50,
+     15
+    ]
+   },
+   {
+    "band": 32380,
+    "cat": "PA5-40100",
+    "target": "H2BK12ac",
+    "date": "2018-01-23",
+    "listed": false,
+    "name": "PA540100-Acetyl-HistoneH2B-Lys12-WB_20180123083545.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA540100-Acetyl-HistoneH2B-Lys12-WB_20180123083545.jpg",
+    "box": [
+     140,
+     554,
+     50,
+     14
+    ]
+   },
+   {
+    "band": 27914,
+    "cat": "MA5-24698",
+    "target": "H2BK20ac",
+    "date": "no date",
+    "listed": false,
+    "name": "MA524698-Acetyl-HistoneH2B-Lys20-WB.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/MA524698-Acetyl-HistoneH2B-Lys20-WB.jpg",
+    "box": [
+     140,
+     552,
+     50,
+     15
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    27909,
+    32380,
+    "same",
+    0.028654217869321683,
+    0.9154214128331479
+   ],
+   [
+    27914,
+    32380,
+    "same",
+    0.02981487326589072,
+    0.9164578942158537
+   ]
+  ],
+  "ctx_med": 0.9164578942158537,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G16": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 33378,
+    "cat": "PA5-67500",
+    "target": "Phospho-MYL2-Ser15",
+    "date": "2023-05-03",
+    "listed": false,
+    "name": "PA5-67500-MYL2-WB-1-20230503_074551.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-67500-MYL2-WB-1-20230503_074551.jpg",
+    "box": [
+     335,
+     283,
+     112,
+     25
+    ]
+   },
+   {
+    "band": 82809,
+    "cat": "PA5-67499",
+    "target": "Phospho-MYL2-Tyr118",
+    "date": "2023-05-03",
+    "listed": false,
+    "name": "PA5-67499-MYL2-WB-1-20230503_074551.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-67499-MYL2-WB-1-20230503_074551.jpg",
+    "box": [
+     336,
+     268,
+     113,
+     26
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    33378,
+    82809,
+    "same",
+    0.02434687289477279,
+    0.9382237802909287
+   ],
+   [
+    33379,
+    82810,
+    "same",
+    0.023571609456159756,
+    0.928008951202994
+   ]
+  ],
+  "ctx_med": 0.9382237802909287,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G17": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 35058,
+    "cat": "PA5-75640",
+    "target": "FXYD2",
+    "date": "2020-09-04",
+    "listed": false,
+    "name": "PA5-75640-FXYD2-WB-1-20200904000242.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-75640-FXYD2-WB-1-20200904000242.jpg",
+    "box": [
+     262,
+     974,
+     68,
+     29
+    ]
+   },
+   {
+    "band": 68331,
+    "cat": "PA5-75620",
+    "target": "Gng12",
+    "date": "2020-09-04",
+    "listed": false,
+    "name": "PA5-75620-Gng12-WB-1-20200904000242.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-75620-Gng12-WB-1-20200904000242.jpg",
+    "box": [
+     401,
+     989,
+     68,
+     29
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    35058,
+    68331,
+    "same",
+    0.025004023469696535,
+    0.41532529962198755
+   ],
+   [
+    35059,
+    68332,
+    "same",
+    0.02738120014815028,
+    0.7940000498730038
+   ]
+  ],
+  "ctx_med": 0.7940000498730038,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G18": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 35673,
+    "cat": "PA5-86747",
+    "target": "CDK9",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86747-CDK9-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86747-CDK9-WB-1-20190228112632.jpg",
+    "box": [
+     271,
+     425,
+     91,
+     27
+    ]
+   },
+   {
+    "band": 91702,
+    "cat": "PA5-86084",
+    "target": "TRF1",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86084-TRF1-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86084-TRF1-WB-1-20190228112632.jpg",
+    "box": [
+     256,
+     303,
+     93,
+     27
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    35673,
+    91702,
+    "rot180",
+    0.022016880398090598,
+    0.7617064489216511
+   ]
+  ],
+  "ctx_med": 0.7617064489216511,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G19": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 37514,
+    "cat": "PA5-144632",
+    "target": "CD3",
+    "date": "2024-01-18",
+    "listed": false,
+    "name": "PA5-144632-CD3-WB-1-20240118_095129.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-144632-CD3-WB-1-20240118_095129.jpg",
+    "box": [
+     288,
+     294,
+     59,
+     33
+    ]
+   },
+   {
+    "band": 52697,
+    "cat": "PA5-141057",
+    "target": "CD3e",
+    "date": "2023-01-04",
+    "listed": false,
+    "name": "PA5-141057-CD3-WB-1-20230104_130011.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-141057-CD3-WB-1-20230104_130011.jpg",
+    "box": [
+     288,
+     295,
+     60,
+     32
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    37514,
+    52697,
+    "same",
+    0.018064560974177316,
+    0.9342936277218276
+   ],
+   [
+    37515,
+    52698,
+    "same",
+    0.02891153597166991,
+    0.9500507293736928
+   ],
+   [
+    37517,
+    52700,
+    "same",
+    0.01881136786091831,
+    0.9648773857774208
+   ],
+   [
+    37518,
+    52701,
+    "same",
+    0.025376097094123962,
+    0.9893982663157955
+   ]
+  ],
+  "ctx_med": 0.9648773857774208,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target (CD3e)"
+ },
+ "G20": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 38560,
+    "cat": "PA5-78701",
+    "target": "ABCG5",
+    "date": "2018-07-09",
+    "listed": false,
+    "name": "PA5-78701-ABCG5-WB-20180709134901.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-78701-ABCG5-WB-20180709134901.jpg",
+    "box": [
+     449,
+     286,
+     79,
+     34
+    ]
+   },
+   {
+    "band": 90963,
+    "cat": "PA5-80221",
+    "target": "Villin",
+    "date": "2018-07-09",
+    "listed": false,
+    "name": "PA5-80221-Villin-WB-20180709134901.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-80221-Villin-WB-20180709134901.jpg",
+    "box": [
+     355,
+     187,
+     77,
+     33
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    38560,
+    90963,
+    "rot180",
+    0.026595891623782744,
+    0.8476807631761598
+   ]
+  ],
+  "ctx_med": 0.8476807631761598,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G21": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 44831,
+    "cat": "PA5-79639",
+    "target": "MBD4",
+    "date": "2018-07-09",
+    "listed": false,
+    "name": "PA5-79639-MBD4-WB-20180709134901.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-79639-MBD4-WB-20180709134901.jpg",
+    "box": [
+     518,
+     624,
+     65,
+     35
+    ]
+   },
+   {
+    "band": 63070,
+    "cat": "PA5-95107",
+    "target": "TRAM2",
+    "date": "2019-03-19",
+    "listed": false,
+    "name": "PA5-95107-TRAM2-WB-1-20190319132517.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-95107-TRAM2-WB-1-20190319132517.jpg",
+    "box": [
+     516,
+     624,
+     66,
+     35
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    44831,
+    63070,
+    "same",
+    0.026771170495914726,
+    0.9991717782297013
+   ]
+  ],
+  "ctx_med": 0.9991717782297013,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G22": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 45907,
+    "cat": "PA5-95075",
+    "target": "ErbB4",
+    "date": "2019-03-19",
+    "listed": false,
+    "name": "PA5-95075-ErbB4-WB-3-20190319132517.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-95075-ErbB4-WB-3-20190319132517.jpg",
+    "box": [
+     541,
+     622,
+     61,
+     27
+    ]
+   },
+   {
+    "band": 51423,
+    "cat": "PA5-95078",
+    "target": "TRIF",
+    "date": "2019-03-19",
+    "listed": false,
+    "name": "PA5-95078-TRIF-WB-2-20190319132517.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-95078-TRIF-WB-2-20190319132517.jpg",
+    "box": [
+     541,
+     622,
+     61,
+     27
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    45907,
+    51423,
+    "same",
+    0.007570556353336933,
+    0.9998648030478273
+   ]
+  ],
+  "ctx_med": 0.9998648030478273,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G23": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 49281,
+    "cat": "PA5-82764",
+    "target": "PRKD2",
+    "date": "2025-11-17",
+    "listed": false,
+    "name": "PA5-82764-PRKD2-WB-1-20251117_151608.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-82764-PRKD2-WB-1-20251117_151608.jpg",
+    "box": [
+     144,
+     216,
+     50,
+     14
+    ]
+   },
+   {
+    "band": 63790,
+    "cat": "PA5-111439",
+    "target": "Protein-Kinase-D2",
+    "date": "2025-11-17",
+    "listed": false,
+    "name": "PA5-111439-PRKD2-WB-1-20251117_151608.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-111439-PRKD2-WB-1-20251117_151608.jpg",
+    "box": [
+     469,
+     216,
+     50,
+     14
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    49281,
+    63790,
+    "same",
+    0.0017409311241457011,
+    0.9999617582135646
+   ],
+   [
+    49282,
+    63791,
+    "same",
+    0.008440754214483013,
+    0.9818973897927151
+   ]
+  ],
+  "ctx_med": 0.9999617582135646,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target (PRKD2)"
+ },
+ "G24": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 51131,
+    "cat": "PA5-79958",
+    "target": "SCLY",
+    "date": "2018-07-09",
+    "listed": false,
+    "name": "PA5-79958-SCLY-WB-20180709134901.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-79958-SCLY-WB-20180709134901.jpg",
+    "box": [
+     240,
+     257,
+     67,
+     31
+    ]
+   },
+   {
+    "band": 56052,
+    "cat": "PA5-79822",
+    "target": "PIK3R2",
+    "date": "2023-04-10",
+    "listed": false,
+    "name": "PA5-79822-PIK3R2-WB-2-20230410_104019.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-79822-PIK3R2-WB-2-20230410_104019.jpg",
+    "box": [
+     171,
+     244,
+     66,
+     30
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    51131,
+    56052,
+    "rot180",
+    0.028139126847832333,
+    0.22556203019789983
+   ]
+  ],
+  "ctx_med": 0.22556203019789983,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G25": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 52655,
+    "cat": "PA5-79624",
+    "target": "MAOB",
+    "date": "2020-10-20",
+    "listed": false,
+    "name": "PA579624-MAOB-WB-1-20201020140612.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA579624-MAOB-WB-1-20201020140612.jpg",
+    "box": [
+     130,
+     639,
+     40,
+     13
+    ]
+   },
+   {
+    "band": 65628,
+    "cat": "PA5-82012",
+    "target": "Monoamine-Oxidase-B",
+    "date": "2022-03-15",
+    "listed": false,
+    "name": "PA582012-MAOB-WB_20220315044209.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA582012-MAOB-WB_20220315044209.jpg",
+    "box": [
+     130,
+     638,
+     40,
+     13
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    52655,
+    65628,
+    "same",
+    0.01579930504267179,
+    0.9973423224389023
+   ],
+   [
+    52657,
+    65630,
+    "same",
+    0.016662574084313264,
+    0.9980051658980104
+   ],
+   [
+    52658,
+    65632,
+    "same",
+    0.015238094877557106,
+    0.9966342899435742
+   ],
+   [
+    52659,
+    65631,
+    "same",
+    0.017141703688923284,
+    0.9980702809465664
+   ],
+   [
+    52660,
+    65634,
+    "same",
+    0.015292286418670581,
+    0.9978898445162867
+   ]
+  ],
+  "ctx_med": 0.9978898445162867,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target (MAOB)"
+ },
+ "G26": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 52670,
+    "cat": "PA5-79624",
+    "target": "MAOB",
+    "date": "2020-10-20",
+    "listed": false,
+    "name": "PA579624-MAOB-AV-WB-1-20201020140612.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA579624-MAOB-AV-WB-1-20201020140612.jpg",
+    "box": [
+     176,
+     640,
+     43,
+     14
+    ]
+   },
+   {
+    "band": 65639,
+    "cat": "PA5-82012",
+    "target": "Monoamine-Oxidase-B",
+    "date": "2022-03-15",
+    "listed": false,
+    "name": "PA582012-MAOB-AV-WB_20220315044331.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA582012-MAOB-AV-WB_20220315044331.jpg",
+    "box": [
+     176,
+     639,
+     43,
+     14
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    52670,
+    65639,
+    "same",
+    0.010828966126829438,
+    0.9985922331172173
+   ],
+   [
+    52671,
+    65640,
+    "same",
+    0.011973924021962786,
+    0.9984385837207799
+   ],
+   [
+    52672,
+    65642,
+    "same",
+    0.01102938561370801,
+    0.9961459289039137
+   ],
+   [
+    52673,
+    65641,
+    "same",
+    0.01159485412403401,
+    0.9985129322185101
+   ],
+   [
+    52674,
+    65644,
+    "same",
+    0.012090079956550408,
+    0.9979091250032802
+   ],
+   [
+    52675,
+    65643,
+    "same",
+    0.013445500511731724,
+    0.9986152125238417
+   ]
+  ],
+  "ctx_med": 0.9985129322185101,
+  "n_products": 2,
+  "n_unlisted": 2,
+  "excluded": "same target (MAOB)"
+ },
+ "G27": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 55689,
+    "cat": "PA5-75678",
+    "target": "PANK2",
+    "date": "2020-09-04",
+    "listed": false,
+    "name": "PA5-75678-PANK2-WB-1-20200904000242.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-75678-PANK2-WB-1-20200904000242.jpg",
+    "box": [
+     260,
+     344,
+     87,
+     33
+    ]
+   },
+   {
+    "band": 84311,
+    "cat": "PA5-86800",
+    "target": "PIK3CD",
+    "date": "2019-02-28",
+    "listed": false,
+    "name": "PA5-86800-PIK3CD-WB-1-20190228112632.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-86800-PIK3CD-WB-1-20190228112632.jpg",
+    "box": [
+     391,
+     151,
+     87,
+     33
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    55689,
+    84311,
+    "same",
+    0.024676640820453975,
+    0.2920303495155665
+   ]
+  ],
+  "ctx_med": 0.2920303495155665,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G28": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 59551,
+    "cat": "PA5-75518",
+    "target": "GPR176",
+    "date": "2020-09-04",
+    "listed": false,
+    "name": "PA5-75518-GPR176-WB-1-20200904000242.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-75518-GPR176-WB-1-20200904000242.jpg",
+    "box": [
+     216,
+     277,
+     99,
+     48
+    ]
+   },
+   {
+    "band": 85540,
+    "cat": "PA5-75499",
+    "target": "CYP2A7",
+    "date": "2020-09-04",
+    "listed": false,
+    "name": "PA5-75499-CYP2A7-WB-1-20200904000242.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-75499-CYP2A7-WB-1-20200904000242.jpg",
+    "box": [
+     219,
+     327,
+     98,
+     48
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    59551,
+    85540,
+    "same",
+    0.028093450175464375,
+    0.9833898525394429
+   ]
+  ],
+  "ctx_med": 0.9833898525394429,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G29": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 64445,
+    "cat": "PA5-34971",
+    "target": "EHMT2",
+    "date": "2018-03-12",
+    "listed": false,
+    "name": "PA5-34971-EHMT2-Knockdown-20180312090218.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-34971-EHMT2-Knockdown-20180312090218.jpg",
+    "box": [
+     129,
+     373,
+     64,
+     26
+    ]
+   },
+   {
+    "band": 92355,
+    "cat": "PA5-27145",
+    "target": "FOXO3A",
+    "date": "2018-03-12",
+    "listed": false,
+    "name": "PA5-27145-FOXO3A-Knockdown-20180312090218.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-27145-FOXO3A-Knockdown-20180312090218.jpg",
+    "box": [
+     129,
+     373,
+     64,
+     26
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    64445,
+    92355,
+    "same",
+    1.2887531425471486e-15,
+    1.0
+   ],
+   [
+    64446,
+    92356,
+    "same",
+    2.939573906093861e-16,
+    1.0
+   ]
+  ],
+  "ctx_med": 1.0,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G30": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 68309,
+    "cat": "PA5-51687",
+    "target": "PFKM",
+    "date": "2019-01-31",
+    "listed": false,
+    "name": "PA5-51687PFKMPolyclonalAntibodyWB2-20190131155521.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-51687PFKMPolyclonalAntibodyWB2-20190131155521.jpg",
+    "box": [
+     236,
+     493,
+     133,
+     31
+    ]
+   },
+   {
+    "band": 70928,
+    "cat": "PA5-51688",
+    "target": "GART",
+    "date": "2019-01-31",
+    "listed": false,
+    "name": "PA5-51688GARTPolyclonalAntibodyWB2-20190131155521.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-51688GARTPolyclonalAntibodyWB2-20190131155521.jpg",
+    "box": [
+     236,
+     493,
+     133,
+     31
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    68309,
+    70928,
+    "same",
+    1.1538141627315963e-15,
+    0.8605076919479832
+   ],
+   [
+    68310,
+    70929,
+    "same",
+    0.0036437523141398466,
+    0.8658761370802998
+   ]
+  ],
+  "ctx_med": 0.8658761370802998,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G31": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 74964,
+    "cat": "PA5-99296",
+    "target": "SURF1",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99296-SURF1-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99296-SURF1-WB-1-20190808102937.jpg",
+    "box": [
+     274,
+     489,
+     73,
+     11
+    ]
+   },
+   {
+    "band": 78002,
+    "cat": "PA5-99163",
+    "target": "Cyclin-G1",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99163-Cyclin-G1-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99163-Cyclin-G1-WB-1-20190808102937.jpg",
+    "box": [
+     274,
+     488,
+     74,
+     13
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    74964,
+    78002,
+    "same",
+    0.019040509963848276,
+    0.9914720393131982
+   ]
+  ],
+  "ctx_med": 0.9914720393131982,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G32": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 75098,
+    "cat": "PA5-99542",
+    "target": "MEK1-MEK2",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99542-MEK1-MEK2-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99542-MEK1-MEK2-WB-1-20190808102937.jpg",
+    "box": [
+     285,
+     535,
+     137,
+     38
+    ]
+   },
+   {
+    "band": 75120,
+    "cat": "PA5-99529",
+    "target": "JNK1-JNK2-JNK3",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99529-JNK1-JNK2-JNK3-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99529-JNK1-JNK2-JNK3-WB-1-20190808102937.jpg",
+    "box": [
+     285,
+     535,
+     137,
+     38
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    75098,
+    75120,
+    "same",
+    0.002025926542784365,
+    0.9907048005736777
+   ]
+  ],
+  "ctx_med": 0.9907048005736777,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G33": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 81112,
+    "cat": "PA5-119372",
+    "target": "PPFIA1",
+    "date": "2021-11-31",
+    "listed": false,
+    "name": "PA5-119372-PPFIA1-WB-2-2021113123928.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-119372-PPFIA1-WB-2-2021113123928.jpg",
+    "box": [
+     211,
+     1041,
+     69,
+     20
+    ]
+   },
+   {
+    "band": 82252,
+    "cat": "PA5-118972",
+    "target": "ABCF1",
+    "date": "2021-11-31",
+    "listed": false,
+    "name": "PA5-118972-ABCF1-WB-2-2021113123928.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-118972-ABCF1-WB-2-2021113123928.jpg",
+    "box": [
+     211,
+     1041,
+     69,
+     20
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    81112,
+    82252,
+    "same",
+    6.334070089112788e-16,
+    0.9999999999999999
+   ],
+   [
+    81113,
+    82253,
+    "same",
+    2.264821174121844e-16,
+    1.0
+   ]
+  ],
+  "ctx_med": 1.0,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G34": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 85985,
+    "cat": "PA5-95135",
+    "target": "CDK7",
+    "date": "2019-03-19",
+    "listed": false,
+    "name": "PA5-95135-CDK7-WB-1-20190319132517.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-95135-CDK7-WB-1-20190319132517.jpg",
+    "box": [
+     472,
+     360,
+     64,
+     31
+    ]
+   },
+   {
+    "band": 91867,
+    "cat": "PA5-79184",
+    "target": "DCI",
+    "date": "2018-07-09",
+    "listed": false,
+    "name": "PA5-79184-DCI-WB-20180709134901.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-79184-DCI-WB-20180709134901.jpg",
+    "box": [
+     174,
+     502,
+     64,
+     31
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    85985,
+    91867,
+    "same",
+    0.029125657111247868,
+    0.3524963387802527
+   ]
+  ],
+  "ctx_med": 0.3524963387802527,
+  "n_products": 2,
+  "n_unlisted": 2
+ },
+ "G35": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 34020,
+    "cat": "PA5-101499",
+    "target": "CEACAM21",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101499-CEACAM21-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101499-CEACAM21-WB-1-20190808102937.jpg",
+    "box": [
+     156,
+     571,
+     105,
+     23
+    ]
+   },
+   {
+    "band": 48978,
+    "cat": "PA5-101426",
+    "target": "AIG1",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101426-AIG1-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101426-AIG1-WB-1-20190808102937.jpg",
+    "box": [
+     156,
+     571,
+     106,
+     23
+    ]
+   },
+   {
+    "band": 52006,
+    "cat": "PA5-102103",
+    "target": "MRGPRE",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-102103-MRGPRE-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-102103-MRGPRE-WB-1-20190808102937.jpg",
+    "box": [
+     156,
+     571,
+     105,
+     23
+    ]
+   },
+   {
+    "band": 48449,
+    "cat": "PA5-101304",
+    "target": "COX11",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101304-COX11-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101304-COX11-WB-1-20190808102937.jpg",
+    "box": [
+     156,
+     571,
+     105,
+     23
+    ]
+   },
+   {
+    "band": 62495,
+    "cat": "PA5-101831",
+    "target": "RAP2C",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101831-RAP2C-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101831-RAP2C-WB-1-20190808102937.jpg",
+    "box": [
+     154,
+     639,
+     105,
+     25
+    ]
+   },
+   {
+    "band": 59971,
+    "cat": "PA5-101077",
+    "target": "LRAT",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101077-LRAT-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101077-LRAT-WB-1-20190808102937.jpg",
+    "box": [
+     154,
+     639,
+     105,
+     25
+    ]
+   },
+   {
+    "band": 37347,
+    "cat": "PA5-101265",
+    "target": "CREBZF",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-101265-CREBZF-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-101265-CREBZF-WB-1-20190808102937.jpg",
+    "box": [
+     154,
+     639,
+     105,
+     25
+    ]
+   },
+   {
+    "band": 78111,
+    "cat": "PA5-116143",
+    "target": "ZDHHC7",
+    "date": "2021-01-13",
+    "listed": false,
+    "name": "PA5-116143-ZDHHC7-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-116143-ZDHHC7-WB-1-20210113212447.jpg",
+    "box": [
+     153,
+     553,
+     106,
+     25
+    ]
+   },
+   {
+    "band": 95866,
+    "cat": "PA5-114980",
+    "target": "CD32",
+    "date": "2021-01-13",
+    "listed": true,
+    "name": "PA5-114980-CD32-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-114980-CD32-WB-1-20210113212447.jpg",
+    "box": [
+     153,
+     553,
+     106,
+     25
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    34020,
+    48978,
+    "same",
+    0.012140285858441202,
+    0.7842248455288237
+   ],
+   [
+    34020,
+    52006,
+    "same",
+    0.02511604960100492,
+    0.9926099860288718
+   ],
+   [
+    34020,
+    48449,
+    "same",
+    0.025770360434649822,
+    0.8929038163109075
+   ],
+   [
+    34020,
+    62495,
+    "same",
+    0.026034691953674576,
+    0.5846887209073529
+   ],
+   [
+    34020,
+    59971,
+    "same",
+    0.026094095304771074,
+    0.5913873513589192
+   ],
+   [
+    37347,
+    62495,
+    "same",
+    0.016704088685941195,
+    0.8314601956382417
+   ],
+   [
+    37347,
+    59971,
+    "same",
+    0.016424185254502573,
+    0.8467147146580926
+   ],
+   [
+    48449,
+    52006,
+    "same",
+    0.011348993679409706,
+    0.8963826454000782
+   ],
+   [
+    48449,
+    48978,
+    "same",
+    0.021483795455635273,
+    0.7735364431612511
+   ],
+   [
+    48978,
+    52006,
+    "same",
+    0.026068033829748236,
+    0.7700670420085659
+   ],
+   [
+    59971,
+    62495,
+    "same",
+    0.009649757961577937,
+    0.9924404421620041
+   ],
+   [
+    78111,
+    95866,
+    "same",
+    1.1470202947794925e-15,
+    1.0
+   ],
+   [
+    37347,
+    78111,
+    "same",
+    0.02924859916468091,
+    0.5551173839324506
+   ],
+   [
+    37347,
+    95866,
+    "same",
+    0.02924859916468091,
+    0.5551173839324506
+   ]
+  ],
+  "ctx_med": 0.8314601956382417,
+  "n_products": 9,
+  "n_unlisted": 1
+ },
+ "G36": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 33199,
+    "cat": "PA5-103932",
+    "target": "MUC7",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103932-MUC7-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103932-MUC7-WB-1-20190808102937.jpg",
+    "box": [
+     209,
+     317,
+     75,
+     15
+    ]
+   },
+   {
+    "band": 42889,
+    "cat": "PA5-118918",
+    "target": "USP24",
+    "date": "2021-92-31",
+    "listed": false,
+    "name": "PA5-118918-USP24-WB-1-2021923125244.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-118918-USP24-WB-1-2021923125244.jpg",
+    "box": [
+     210,
+     48,
+     74,
+     16
+    ]
+   },
+   {
+    "band": 43017,
+    "cat": "PA5-103869",
+    "target": "TRIM23",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103869-TRIM23-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103869-TRIM23-WB-1-20190808102937.jpg",
+    "box": [
+     208,
+     246,
+     77,
+     17
+    ]
+   },
+   {
+    "band": 53054,
+    "cat": "PA5-114836",
+    "target": "AKR1C1",
+    "date": "2021-01-13",
+    "listed": true,
+    "name": "PA5-114836-AKR1C1-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-114836-AKR1C1-WB-1-20210113212447.jpg",
+    "box": [
+     211,
+     326,
+     75,
+     17
+    ]
+   },
+   {
+    "band": 39213,
+    "cat": "PA5-103634",
+    "target": "ABCA7",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103634-ABCA7-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103634-ABCA7-WB-1-20190808102937.jpg",
+    "box": [
+     209,
+     86,
+     75,
+     19
+    ]
+   },
+   {
+    "band": 41582,
+    "cat": "PA5-103799",
+    "target": "POLR3G",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103799-POLR3G-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103799-POLR3G-WB-1-20190808102937.jpg",
+    "box": [
+     209,
+     415,
+     76,
+     18
+    ]
+   },
+   {
+    "band": 44186,
+    "cat": "PA5-104042",
+    "target": "S100A7",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-104042-S100A7-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-104042-S100A7-WB-1-20190808102937.jpg",
+    "box": [
+     208,
+     565,
+     76,
+     16
+    ]
+   },
+   {
+    "band": 56984,
+    "cat": "PA5-99827",
+    "target": "Cyclin-B3",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99827-Cyclin-B3-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99827-Cyclin-B3-WB-1-20190808102937.jpg",
+    "box": [
+     207,
+     114,
+     76,
+     17
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    33199,
+    42889,
+    "same",
+    0.02661537869152901,
+    0.7350207981068712
+   ],
+   [
+    33199,
+    43017,
+    "same",
+    0.024393920047565496,
+    0.6729960390206687
+   ],
+   [
+    33199,
+    53054,
+    "same",
+    0.025971604109942748,
+    0.7430519163531413
+   ],
+   [
+    39213,
+    53054,
+    "same",
+    0.02909364569514776,
+    0.6677504234186168
+   ],
+   [
+    41582,
+    43017,
+    "same",
+    0.019000880390244994,
+    0.7158085766740773
+   ],
+   [
+    42889,
+    53054,
+    "same",
+    0.016882208898685785,
+    0.6970877713221959
+   ],
+   [
+    44186,
+    56984,
+    "same",
+    0.026027520029065204,
+    0.6627116263579061
+   ],
+   [
+    44186,
+    53054,
+    "same",
+    0.028051955145970888,
+    0.7701436364178111
+   ]
+  ],
+  "ctx_med": 0.7158085766740773,
+  "n_products": 8,
+  "n_unlisted": 1
+ },
+ "G37": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 42574,
+    "cat": "PA5-103208",
+    "target": "JTB",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103208-JTB-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103208-JTB-WB-1-20190808102937.jpg",
+    "box": [
+     212,
+     529,
+     74,
+     37
+    ]
+   },
+   {
+    "band": 49837,
+    "cat": "PA5-99696",
+    "target": "PTPRN2",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99696-PTPRN2-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99696-PTPRN2-WB-1-20190808102937.jpg",
+    "box": [
+     210,
+     141,
+     74,
+     36
+    ]
+   },
+   {
+    "band": 65375,
+    "cat": "PA5-99638",
+    "target": "HOXD10",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99638-HOXD10-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99638-HOXD10-WB-1-20190808102937.jpg",
+    "box": [
+     210,
+     359,
+     74,
+     38
+    ]
+   },
+   {
+    "band": 52758,
+    "cat": "PA5-115405",
+    "target": "IL-37",
+    "date": "2021-01-13",
+    "listed": true,
+    "name": "PA5-115405-IL-37-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-115405-IL-37-WB-1-20210113212447.jpg",
+    "box": [
+     209,
+     416,
+     76,
+     36
+    ]
+   },
+   {
+    "band": 70472,
+    "cat": "PA5-104015",
+    "target": "PLD2",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-104015-PLD2-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-104015-PLD2-WB-1-20190808102937.jpg",
+    "box": [
+     211,
+     140,
+     75,
+     36
+    ]
+   },
+   {
+    "band": 48387,
+    "cat": "PA5-103078",
+    "target": "CHD5",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103078-CHD5-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103078-CHD5-WB-1-20190808102937.jpg",
+    "box": [
+     209,
+     76,
+     75,
+     38
+    ]
+   },
+   {
+    "band": 77135,
+    "cat": "PA5-99390",
+    "target": "Caspase-1-p20-Cleaved-Asp296",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99390-Caspase-1-p20-Cleaved-Asp296-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99390-Caspase-1-p20-Cleaved-Asp296-WB-1-20190808102937.jpg",
+    "box": [
+     298,
+     458,
+     74,
+     36
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    42574,
+    49837,
+    "same",
+    0.029522466516122062,
+    0.8068765859731869
+   ],
+   [
+    42574,
+    65375,
+    "same",
+    0.024067401566896282,
+    0.7062759096723483
+   ],
+   [
+    42574,
+    52758,
+    "same",
+    0.02692380598873043,
+    0.7807988618940066
+   ],
+   [
+    42574,
+    70472,
+    "same",
+    0.027500090187245113,
+    0.8109637330018656
+   ],
+   [
+    48387,
+    65375,
+    "same",
+    0.02454392183754116,
+    0.6400433663005582
+   ],
+   [
+    48387,
+    49837,
+    "same",
+    0.027437469379905738,
+    0.646441940963978
+   ],
+   [
+    42574,
+    48387,
+    "same",
+    0.026092526979005992,
+    0.6870315311619383
+   ],
+   [
+    48387,
+    52758,
+    "same",
+    0.019873677255597837,
+    0.7081088974067097
+   ],
+   [
+    49837,
+    77135,
+    "same",
+    0.025762721606084563,
+    0.4995864453208722
+   ],
+   [
+    49837,
+    65375,
+    "same",
+    0.020492122497020746,
+    0.640363583468964
+   ],
+   [
+    49837,
+    52758,
+    "same",
+    0.025737591054652387,
+    0.7195110187912679
+   ],
+   [
+    49837,
+    70472,
+    "same",
+    0.02741404455058179,
+    0.9757661791707846
+   ],
+   [
+    52758,
+    70472,
+    "same",
+    0.023279036063179926,
+    0.7171078948650244
+   ],
+   [
+    52758,
+    77135,
+    "same",
+    0.027968156386736755,
+    0.5029877401054733
+   ],
+   [
+    52758,
+    65375,
+    "same",
+    0.022218189515399518,
+    0.7295109558662122
+   ],
+   [
+    70472,
+    77135,
+    "same",
+    0.028132260458703238,
+    0.5131924148180359
+   ],
+   [
+    65375,
+    70472,
+    "same",
+    0.02798791260997504,
+    0.6391400302458804
+   ]
+  ],
+  "ctx_med": 0.7062759096723483,
+  "n_products": 7,
+  "n_unlisted": 1
+ },
+ "G38": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 34882,
+    "cat": "PA5-103312",
+    "target": "TMPRSS15",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103312-TMPRSS15-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103312-TMPRSS15-WB-1-20190808102937.jpg",
+    "box": [
+     215,
+     150,
+     69,
+     25
+    ]
+   },
+   {
+    "band": 85828,
+    "cat": "PA5-104002",
+    "target": "PEX6",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-104002-PEX6-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-104002-PEX6-WB-1-20190808102937.jpg",
+    "box": [
+     213,
+     153,
+     69,
+     25
+    ]
+   },
+   {
+    "band": 80341,
+    "cat": "PA5-99645",
+    "target": "KIF13B",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99645-KIF13B-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99645-KIF13B-WB-1-20190808102937.jpg",
+    "box": [
+     212,
+     97,
+     71,
+     27
+    ]
+   },
+   {
+    "band": 65754,
+    "cat": "PA5-104409",
+    "target": "EBF1",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-104409-EBF1-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-104409-EBF1-WB-1-20190808102937.jpg",
+    "box": [
+     213,
+     242,
+     70,
+     26
+    ]
+   },
+   {
+    "band": 80359,
+    "cat": "PA5-103456",
+    "target": "Cytokeratin-Pan-Type-II",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103456-Cytokeratin-Pan-Type-II-WB-2-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103456-Cytokeratin-Pan-Type-II-WB-2-20190808102937.jpg",
+    "box": [
+     212,
+     250,
+     71,
+     27
+    ]
+   },
+   {
+    "band": 66606,
+    "cat": "PA5-118907",
+    "target": "CABP5",
+    "date": "2021-92-31",
+    "listed": false,
+    "name": "PA5-118907-CABP5-WB-1-2021923125244.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-118907-CABP5-WB-1-2021923125244.jpg",
+    "box": [
+     211,
+     464,
+     70,
+     25
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    34882,
+    85828,
+    "same",
+    0.029464191691374784,
+    0.9441401349473637
+   ],
+   [
+    34882,
+    80341,
+    "same",
+    0.025934794482621166,
+    0.6464305959627306
+   ],
+   [
+    65754,
+    80359,
+    "same",
+    0.02724012636806463,
+    0.6841711093429098
+   ],
+   [
+    65754,
+    66606,
+    "same",
+    0.02801189651610107,
+    0.762533387058369
+   ],
+   [
+    80341,
+    80359,
+    "same",
+    0.024981847085465747,
+    0.6975546928149391
+   ]
+  ],
+  "ctx_med": 0.6975546928149391,
+  "n_products": 6,
+  "n_unlisted": 1
+ },
+ "G39": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 70881,
+    "cat": "PA5-114931",
+    "target": "CGRP",
+    "date": "2021-01-13",
+    "listed": true,
+    "name": "PA5-114931-CGRP-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-114931-CGRP-WB-1-20210113212447.jpg",
+    "box": [
+     210,
+     571,
+     72,
+     21
+    ]
+   },
+   {
+    "band": 81635,
+    "cat": "PA5-103674",
+    "target": "CHERP",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-103674-CHERP-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-103674-CHERP-WB-1-20190808102937.jpg",
+    "box": [
+     210,
+     150,
+     72,
+     22
+    ]
+   },
+   {
+    "band": 81202,
+    "cat": "PA5-115605",
+    "target": "MYBPC3",
+    "date": "2021-01-13",
+    "listed": true,
+    "name": "PA5-115605-MYBPC3-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-115605-MYBPC3-WB-1-20210113212447.jpg",
+    "box": [
+     212,
+     124,
+     71,
+     22
+    ]
+   },
+   {
+    "band": 77984,
+    "cat": "PA5-116125",
+    "target": "Wnt10B",
+    "date": "2021-01-13",
+    "listed": false,
+    "name": "PA5-116125-Wnt10B-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-116125-Wnt10B-WB-1-20210113212447.jpg",
+    "box": [
+     211,
+     314,
+     71,
+     21
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    70881,
+    81635,
+    "same",
+    0.023944223723359748,
+    0.7597345759288291
+   ],
+   [
+    70881,
+    81202,
+    "same",
+    0.028415998768345437,
+    0.6778391881514529
+   ],
+   [
+    77984,
+    81202,
+    "same",
+    0.02631223061143362,
+    0.6457756168511682
+   ],
+   [
+    77984,
+    81635,
+    "same",
+    0.023997796049097887,
+    0.7010818359123517
+   ]
+  ],
+  "ctx_med": 0.7010818359123517,
+  "n_products": 4,
+  "n_unlisted": 1
+ },
+ "G40": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 47869,
+    "cat": "PA5-99285",
+    "target": "SPDL1",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99285-SPDL1-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99285-SPDL1-WB-1-20190808102937.jpg",
+    "box": [
+     264,
+     330,
+     90,
+     21
+    ]
+   },
+   {
+    "band": 77560,
+    "cat": "PA5-99140",
+    "target": "Phospho-PAK3-Ser154",
+    "date": "2019-08-08",
+    "listed": false,
+    "name": "PA5-99140-Phospho-PAK3-Ser154-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99140-Phospho-PAK3-Ser154-WB-1-20190808102937.jpg",
+    "box": [
+     264,
+     330,
+     90,
+     21
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    47869,
+    77560,
+    "same",
+    0.010953939478450187,
+    0.998935926628087
+   ]
+  ],
+  "ctx_med": 0.998935926628087,
+  "n_products": 2,
+  "n_unlisted": 1
+ },
+ "G41": {
+  "kind": "cross",
+  "members": [
+   {
+    "band": 72905,
+    "cat": "PA5-99601",
+    "target": "PNCK",
+    "date": "2019-08-08",
+    "listed": true,
+    "name": "PA5-99601-PNCK-WB-1-20190808102937.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-99601-PNCK-WB-1-20190808102937.jpg",
+    "box": [
+     209,
+     317,
+     76,
+     20
+    ]
+   },
+   {
+    "band": 75126,
+    "cat": "PA5-115548",
+    "target": "MAST1",
+    "date": "2021-01-13",
+    "listed": false,
+    "name": "PA5-115548-MAST1-WB-1-20210113212447.jpg",
+    "url": "https://www.thermofisher.com/antibody/images/650/PA5-115548-MAST1-WB-1-20210113212447.jpg",
+    "box": [
+     301,
+     101,
+     75,
+     20
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    72905,
+    75126,
+    "same",
+    0.02573864218074302,
+    0.4780939264979164
+   ]
+  ],
+  "ctx_med": 0.4780939264979164,
+  "n_products": 2,
+  "n_unlisted": 1
+ }
+}

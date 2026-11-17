@@ -88,3 +88,46 @@ classes in this set (all candidates were already above 0.92).
 
 `round2.py` applies that filter to every match with nrmse <= 0.05: 95 images pass (19 already labelled).
 `build_page.py` builds the round-2 page from the 60 best-ranked unlabelled ones.
+
+## Round 3: newly crawled blots, band groups and the cross-blot search
+
+Why: a reviewer question on GBA PA5-22326 showed two gaps. The blot has three copies of one band (NIH:OVCAR-3
+60 kDa, Hep G2 42 kDa, Hep G2 60 kDa; the third is about 7% wider) and a second pair (HeLa and HEK-293 at
+60 kDa). `search_copies` keeps only the best match per band and compares at one scale, so it reported one pair.
+
+Within one blot, new images: `run_search.py` over the 14,566 blot images crawled since the full run (8,508
+with a band, 4,651 with a match). With the round-2 outline filter, 114 images pass in all (19 from the new
+crawl); 23 were not labelled or on a page before (`review_r3_key.json`, ids W00-W22).
+
+Band-to-band search (`cross.py`), 89,129 blot images:
+- `bands`: whole bands of at least 30 x 10 px with an unusual outline (unusualness >= 0.05), identical files
+  merged: 96,086 bands in 33,940 images. Each band gets a 32 x 16 normalised descriptor.
+- `pairs`: descriptor similarity >= 0.985 in any of four orientations, sizes within 0.8-1.25, six best per
+  band; pairs are across images of different products, or within one image in different lanes: 127,404.
+- `verify`: aligned pixel difference with a gain fit of 0.6-1.6 (copies across blots often have changed
+  contrast), outline IoU, and the correlation of the surroundings with the band masked out (`ctx`).
+- Validation on Richardson's "may use the same band" notes: all three pairs present at one scale in the
+  crawl pass (difference 0.026-0.042, outline 0.94-0.95, surroundings 0.64-0.72). They fail the within-blot
+  gain limit of 0.8-1.25, which is why the limit is wider here.
+
+Cross-blot results (`xgroups.py`; strict tier: same scale, difference <= 0.03, outline >= 0.94, both images
+named after their product):
+- 1,005 pairs; 506 are two products for the same target (set aside), 499 are different targets.
+- The 499 pairs form 137 groups of 457 products. 95 groups contain only products already in Richardson's
+  spreadsheets (nearly all pattern A; he notes the shared band for 8 of them). 42 groups include a product
+  that is not in his spreadsheets (95 such products); 34 groups are entirely unlisted.
+- By eye, before human review, the unlisted groups fall into:
+  - one band on single-lane blots of different targets at different molecular weights: PA5-86xxx (two groups
+    of 7, uploaded 2019-02-28), MA5-43xxx / PA5-122310 (6, 2022-04-13), MA5-2513x and MA5-2516x (2017-12-19),
+    PA5-119095 / 119358 / 122068, TMEM27 MA5-43558 / COX2 PA5-119060, and unlisted members of pattern A / B
+    families (e.g. IRX2 / BHLHE41 / p16INK4a, Cyclin G1 / SURF1, JNK / MEK, SPDL1 / phospho-PAK3);
+  - a whole blot or a control row shown for two targets: ErbB4 PA5-95075 / TRIF PA5-95078, MBD4 PA5-79639 /
+    TRAM2 PA5-95107, CYP2A7 / GPR176, PFKM PA5-51687 / GART PA5-51688, EHMT2 PA5-34971 (shows the FOXO3A
+    knockdown figure of PA5-27145), shared loading or tag controls (H2B, GAPDH, MLC2, DDDDK tag);
+  - look-alikes that are probably not the same band (e.g. WDR1 / ASS1, ABCG5 / Villin, DCI / CDK7).
+- Excluded from the page: one group matched on figure text (histone peptide-array figures) and six groups
+  whose two products are one target under two names (CD206, annexin A7, CD3e, PRKD2, MAOB).
+- `build_page3.py` builds the pages: 3a within one blot (23 items), 3b across blots (35 groups). Labels pending.
+
+Not covered: bands under 30 x 10 px, symmetric ovals, resized copies across blots (the strict tier is
+same-scale only; 6,345 looser resized matches were not reviewed), and other vendors.
