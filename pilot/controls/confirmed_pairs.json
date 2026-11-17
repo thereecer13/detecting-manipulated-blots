@@ -3534,5 +3534,61 @@
   "score": 0.934,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA534808-RIP2-ICC-20200824211338.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA576788-CPT1A-ICC-20201130085646.jpg"
+ },
+ {
+  "group": "IRF3 MA5-32348 / RAB7A PA5-78238 (A549, 2021-07-01 and 2021-08-03): same no-primary panel",
+  "a": "MA5-32348",
+  "b": "PA5-78238",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532348-IRF3-ICC_20210701214429.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-78238-RAB7A-ICC_20210803130409.jpg"
+ },
+ {
+  "group": "MCM4 PA5-29039 / PRKAR1B PA5-47592 (SH-SY5Y, 2020-01-14): same no-primary panel",
+  "a": "PA5-29039",
+  "b": "PA5-47592",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529039-MCM4-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA547592-PRKAR1B-ICC-20200114105556.jpg"
+ },
+ {
+  "group": "PRPF31 PA5-18611 / TBK1 PA5-142790 (HeLa, 2024-02-01 and 2023-01-04): same negative control image",
+  "a": "PA5-18611",
+  "b": "PA5-142790",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18611-PRPF31-ICCIF-2-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142790-TBK1-ICCIF-2-20230104_152038.jpg"
+ },
+ {
+  "group": "Mrtfa PA5-97092 and PA5-109960 / EEA1 PA5-17228 (BJ, 2022-08-18 and 2022-11-28): same no-primary panel",
+  "a": "PA5-97092",
+  "b": "PA5-17228",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-97092-MKL1-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-17228-EEA1-ICCIF-2-20221128_141258.jpg"
+ },
+ {
+  "group": "Mrtfa PA5-97092 and PA5-109960 / EEA1 PA5-17228 (BJ, 2022-08-18 and 2022-11-28): same no-primary panel",
+  "a": "PA5-109960",
+  "b": "PA5-17228",
+  "score": 0.995,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-109960-MKL1-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-17228-EEA1-ICCIF-2-20221128_141258.jpg"
+ },
+ {
+  "group": "NMDAR2A PA5-142846 / HNF1A PA5-142141 (NIH3T3, 2023-01-04): same negative control image",
+  "a": "PA5-142846",
+  "b": "PA5-142141",
+  "score": 0.994,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142846-NMDAR2A-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142141-HNF1A-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "group": "EWSR1 MA5-35826 and MA5-34868 / PGR PA5-94983 (T-47D, 2023-03-16): adds EWSR1 PA5-35366",
+  "a": "PA5-94983",
+  "b": "PA5-35366",
+  "score": 0.99,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-94983-PROGESTERONERECEPTOR-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-35366-EWSR1-ICCIF-1-20230316_142139.jpg"
  }
 ]

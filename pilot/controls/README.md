@@ -892,3 +892,15 @@ Forty-seventh batch (31,124 figures, 68,196 panels; crawl at ~70,760 MA5/PA5 pag
   PA5-21759) and 5 dark non-hub pairs.
 - Blots (2,305 new): template scan 20 hit products, 2 unlisted, both false by eye: PA5-85269 (pattern C,
   share 0.17) and PA5-52431 (pattern D, share 0.33) use different figure layouts from the templates.
+
+Forty-eighth batch (31,681 figures, 69,300 panels; crawl at ~72,200 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: IRF3 MA5-32348 / RAB7A PA5-78238
+  (A549, 2021-07-01 and 2021-08-03); Mrtfa PA5-97092 and PA5-109960 / EEA1 PA5-17228 (BJ, 2022-08-18 and
+  2022-11-28); PRPF31 PA5-18611 / TBK1 PA5-142790 (HeLa negative control image, 2024-02-01 and 2023-01-04).
+- New same-day pairs with consistent captions (plausible batch controls): MCM4 PA5-29039 / PRKAR1B PA5-47592
+  (SH-SY5Y, 2020-01-14); NMDAR2A PA5-142846 / HNF1A PA5-142141 (NIH3T3, 2023-01-04).
+- The EWSR1 / PGR group adds a third EWSR1 product, PA5-35366 (T-47D, 2023-03-16).
+- Same target (likely legitimate): SYK (PA5-86076, PA5-17812, PA5-96063), TIM-1/KIM-1, IFITM3.
+- False by eye: COL1A2 PA5-49912 vs EAR2 PA5-49785 (blank dark panels) and 5 dark non-hub pairs.
+- Blots (1,470 new): template scan 16 hit products, 2 unlisted, both false: PA5-98989 and PA5-48116
+  (pattern C, share 0.17) have shift-correlation peaks of 0.06 and 0.05, at the noise level and off zero.
