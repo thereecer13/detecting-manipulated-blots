@@ -6,17 +6,18 @@ box. Progress is kept in the browser while reviewing; 'Export' downloads a JSON 
 
     --lossless embeds PNG instead of JPEG, so the page adds no compression artifacts.
 
-items.json: [{"id": "...", "label": "shown above the item", "images": [{"path": "...", "caption": "..."}]}]
+items.json: [{"id": "...", "label": "shown above the item", "images": [{"path": "...", "caption": "...", "color": false}]}]
+("color": true keeps an image in colour; the default is greyscale.)
 """
 import argparse, base64, html, io, json
 from pathlib import Path
 from PIL import Image
 
 
-def data_uri(path, max_side=700, lossless=False):
+def data_uri(path, max_side=700, lossless=False, color=False):
     if str(path).lower().endswith(".gif"):   # animations are embedded unchanged
         return "data:image/gif;base64," + base64.b64encode(Path(path).read_bytes()).decode()
-    im = Image.open(path).convert("L")
+    im = Image.open(path).convert("RGB" if color else "L")
     im.thumbnail((max_side, max_side))
     buf = io.BytesIO()
     if lossless:   # PNG: no compression artifacts added to forensic views
@@ -100,7 +101,7 @@ def main():
     a = ap.parse_args()
     items = json.loads(a.items.read_text())
     for it in items:
-        for im in it["images"]: im["src"] = data_uri(im.pop("path"), lossless=a.lossless)
+        for im in it["images"]: im["src"] = data_uri(im.pop("path"), lossless=a.lossless, color=bool(im.pop("color", False)))
     choices = a.choices.split("|")
     review_id = a.out.stem
     page = (PAGE.replace("__TITLE__", html.escape(a.title)).replace("__C0__", html.escape(choices[0])).replace("__C1__", html.escape(choices[1]))
