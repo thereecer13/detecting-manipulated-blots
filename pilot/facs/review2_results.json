@@ -1,0 +1,120 @@
+{
+ "review": "facs_duplication_v2",
+ "exported": "2026-11-17T06:45:09.003Z",
+ "items": [
+  {
+   "id": "G00",
+   "label": "G00 — 411 single dots coincide (80% of the isolated dots in the sparser plot; best chance alignment gives 120). PMC13488854 Fig. 2. Caption: Hck Knockdown Reduces ECM Degradation, Inflammation, and Apoptosis in Chondrocytes. A Hck level in chondrocytes treated with IL-1β, measured by RT-qPCR. B RT-qPCR confirmed the effectiveness of siRNA transfection in reducing Hck levels. C Cell viability was evaluated with CCK-8 test in IL-1β-treated chondrocytes following Hck knockdown. D-E ELISA measured IL-6 and TNF-α levels in IL-1β-treated chondrocytes following Hck knockdown. F Apoptosis in IL-1β-treated chondrocytes was assessed by flow cy…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G01",
+   "label": "G01 — 232 single dots coincide (74% of the isolated dots in the sparser plot; best chance alignment gives 31). PMC13663672 Figure 1. Caption: Effect of EA on HeLa cell proliferation and apoptosis. A – MTT assay was performed for cell proliferation detection. B – HeLa cell apoptosis was measured by Annexin V-FITC apoptosis detection kit: NC – cells treated with 0 μM EA. Low – cells treated with 2.5 μM EA. Middle – cells treated with 5 μM EA. High – cells treated with 10 μM EA. 5-Fu – cells treated with appropriate concentration of 5-Fu C – The effect of EA on HeLa cell cycle progression was determined by flow cytometry: NC – control gr…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G02",
+   "label": "G02 — 56 single dots coincide (98% of the isolated dots in the sparser plot; best chance alignment gives 13). PMC11927087 Fig. 2.. Caption: KDM5 inhibitor JQKD82 induces the HIV-1 reactivation, cell death, and H3K4me3 at HIV-1 LTR in the latent infected CA5 cells. CA5 cells were treated with 0, 10, or 25 μM JQKD82 for 5 days (A). Cells were harvested for LIVE/DEAD staining and analyzed with flow cytometry to identify the expression of HIV-1 LTR-driven GFP (B) and LIVE/DEAD-APC (C). CA5 cells were treated with DMSO or 25 μM JQKD82 for 5 days and then harvested to perform the ChIP qPCR assay of H3K4me3 focusing on HIV-1 LTR Nuc-0 and …",
+   "verdict": "unsure",
+   "notes": "I'm confused about the original image. "
+  },
+  {
+   "id": "G03",
+   "label": "G03 — 79 single dots coincide (47% of the isolated dots in the sparser plot; best chance alignment gives 37). PMC13521051 Fig. 3. Caption: Neuroprotective effects of 5β-carboxystrictosidine (1) and chlorogenic acid (2) against 6-OHDA-induced apoptosis in mNGF-differentiated PC12 cells. The cells were incubated with different concentrations (12.5, 25, 50, or 100 μM) of the compounds, and 6-OHDA (300 μM) was added subsequently. (A) The percentage of apoptotic cells was determined through flow cytometry using Annexin V-FITC and propidium iodide (PI) double-staining. Q1 – Q4 respectively represent necrosis, late apoptosis, survival, an…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G04",
+   "label": "G04 — 55 single dots coincide (54% of the isolated dots in the sparser plot; best chance alignment gives 18). PMC13499021 Figure 1.. Caption: Establishing a two-color flow cytometry readout for SARS2 PLpro DUB activity.(A) Schematic depicting a fluorescence-based DUB activity assay. Following ubiquitin fusion cleavage, the arginine residue at the N-terminus of EGFP is recognized by an UBR ligase, resulting in K48-linked poly-ubiquitination and subsequent proteasomal degradation. EGFP ubiquitination is reversed by overexpressing an active DUB such as SARS2 PLpro, resulting in protein stabilization and increased fluorescence. (B) Repres…",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  },
+  {
+   "id": "G05",
+   "label": "G05 — 46 single dots coincide (78% of the isolated dots in the sparser plot; best chance alignment gives 16). PMC11899519 Figure 2. Caption: In Vitro Cytotoxicity of REVs. a) Visualization of cellular uptake of REVs, confirming internalization. b) Dose‐dependent cytotoxicity of REVs showing significant cell death. Data are presented as mean ± standard deviation (n = 5) and statistical significance is assessed using one‐way ANOVA with a post hoc Tukey's HSD test (***p < 0.001). c) Flow cytometry analysis illustrating increased apoptosis induced by REVs. Data are presented as mean ± standard deviation (n = 5) and statistical significan…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G06",
+   "label": "G06 — 44 single dots coincide (75% of the isolated dots in the sparser plot; best chance alignment gives 18). PMC12046306 Figure 6. Caption: UPF1 inhibited H/R-triggered cardiomyocyte apoptosis via regulating SMURF2/FOXA2/PAR4 pathway. H9C2 cells were infected with oe-NC, oe-UPF1 and oe-SMURF2 for 48 hours, and then subjected to H/R. H9C2 cells were then collected for subsequent experiments. (A) UPF1, SMURF2, FOXA2, and PAR4 levels were tested utilizing western blot. (B) Cell Counting Kit-8 assay evaluated cell viability. (C) Apoptosis was detected with flow cytometry. (D) Western blot detected apoptosis-related proteins (n=3).FOXA2 …",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G07",
+   "label": "G07 — 38 single dots coincide (86% of the isolated dots in the sparser plot; best chance alignment gives 13). PMC11404482 Figure 3. Caption: Binding analysis of aptamers to cells. Histogram of aptamers binding with human glial tumor cells and control cells: human breast cancer cultured cells and cells isolated from healthy mouse brain (A). Flow cytometry dot plots of human breast cancer (B) and human glioblastoma (C) cells: nonstained control (1), incubation with FAM-labeled nonspecific randomized oligonucleotide (2), and Glint2-1 (3). Histograms of aptamer binding with population 1 (D1) and population 2 (D2) of primary cultured huma…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G08",
+   "label": "G08 — 29 single dots coincide (46% of the isolated dots in the sparser plot; best chance alignment gives 12). PMC11955049 Fig. 3. Caption: Aberrant cell-cell communication supported the decreased adaptive immune response after pregnancy. (a) Dot plot showing the representative GO biological process and pathways enriched in downregulated DEGs in DC and MC subsets. (b) Venn plot showing the integrated comparative analysis of downregulated DEGs among DC and MC subsets. (c) Circle plot showing the inferred MHC-II signaling networks. (d) Violin plot showing the expression of genes related to MHC-II signaling among immune populations bet…",
+   "verdict": "not a flow plot",
+   "notes": ""
+  },
+  {
+   "id": "G09",
+   "label": "G09 — 50 single dots coincide (44% of the isolated dots in the sparser plot; best chance alignment gives 33). PMC11962862 Fig. 2.. Caption: An ERV-baiting strategy enables detection of ERV-reactive B cells in pre-immune splenic and peritoneal compartments.(A) Schematic of fluorescence streptavidin-biotin-tagged ERV and VLP baiting strategy. ERV purified from ERV-infected DFJ8 cells were tagged with PE to label ERV-reactive B cells (top). DFJ8 cells infected with VSV-G pseudotyped FMLV-ΔEnvΔGlycogag were cultured for VLP production. Purified VLP were tagged with PE conjugated to AF647 dye to detect non-specific binding (bottom). (B) …",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G10",
+   "label": "G10 — 21 single dots coincide (50% of the isolated dots in the sparser plot; best chance alignment gives 9). PMC12001162 Fig. 1. Caption: Establishment of different fractions of CAR‐T cells. (A) Analysis of CAR‐transduced PBMC population by flow cytometry. Different populations of anti‐CD19 CAR‐T cells were isolated by magnetic‐activated cell sorting (MACS); (B) Surface staining of CD3 and CD8 in CD8+CAR‐T population; (C) Surface staining of CD3, CD4 and CD25, as well as the intracellular Foxp3 staining in CD4+CAR‐T population; (D) Surface staining of CD4/CD25 and the intracellular Foxp3 staining in CD4+CD25−CAR‐T population; (E) …",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G11",
+   "label": "G11 — 28 single dots coincide (58% of the isolated dots in the sparser plot; best chance alignment gives 17). PMC11895915 FIGURE 1. Caption: Radioresistant lung cancer cells have stronger radioresistance abilities than parental cells. Parental A549 cells (A549P) and a radioresistant cell line (A549R26‐1) were treated with 2–8 Gy intensity radiation. (A) Cell viability of A549R26‐1 and A549P cells was determined by CCK‐8 assay, **p < 0.01. (B) The proliferation ability of A549R26‐1 and A549P cells was assessed by clone formation assay, **p < 0.01. (C) Apoptosis of A549R26‐1 and A549P cells was determined by flow cytometry, ***p < 0.00…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G12",
+   "label": "G12 — 26 single dots coincide (44% of the isolated dots in the sparser plot; best chance alignment gives 14). PMC11896218 FIGURE 4. Caption: The knockdown of nuclear enriched abundant transcript 1 (NEAT1) inhibited tumor proliferation and promoted apoptosis through the upregulation of miR‐186‐5p in cholangiocarcinoma (CCA) cell lines. HCCC‐9810 and HuCCT1 cells were transfected with mimics NC, miR‐186‐5p mimics, sh‐NC + inhibitor NC, sh‐NEAT1 + inhibitor NC or sh‐NEAT1 + miR‐186‐5p inhibitor for 24 h. (A),(B) The cell proliferation was tested by colony formation. (C),(D) Flow cytometry analysis was performed to examine the apoptosis …",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G13",
+   "label": "G13 — 63 single dots coincide (39% of the isolated dots in the sparser plot; best chance alignment gives 51). PMC13688075 FIGURE 5. Caption: Loss of NF2 decreases caspase‐3‐dependent apoptosis and inhibits STS‐induced apoptosis by regulating IP3R‐mediated Ca2+ release. (A, B) Flow cytometry data and quantification of apoptosis. The cells were treated for 1 h with or without 200 nM STS. The percentage of apoptotic cells was detected using Annexin V‐FITC flow cytometry. The apoptosis ratio represents the percentage of apoptotic cells in the STS treatment group compared with the no STS treatment group (STS/control). (C) Western blotting…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G14",
+   "label": "G14 — 20 single dots coincide (50% of the isolated dots in the sparser plot; best chance alignment gives 11). PMC11894999 Fig. 7. Caption: rCVS11-LTB induced good immune memory after immunization. At 3rd and 7th weeks after primary immunization, mouse spleens were collected and single cell suspensions were prepared and stained with antibodies against TCM, T-cell and B-cell activation markers for flow cytometry analysis. A) The representative flow cytometric plots (7th week post immunization) and percentages of CD4+, CD44+ and CD62L+ in recruited CD4+ T cells in the spleens of immunized mice. B) The representative flow cytometric pl…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G15",
+   "label": "G15 — 30 single dots coincide (43% of the isolated dots in the sparser plot; best chance alignment gives 20). PMC11895912 FIGURE 4. Caption: TBL1XR1 mediates the effects of miR‐199a/214 cluster on cell proliferation, apoptosis, and cell cycle in nimotuzumab‐treated PCa cells. The PC3 cells treated with nimotuzumab were transfected with miR‐199a‐5p mimics or miR‐214‐3p mimics alone or in combination with TBL1XR1 overexpression vectors. After 48 h of transfection, the expression of β‐catenin and phosphorylated GSK3β and EGFR was determined by Western blotting (A‐D). MTT assay was performed to measure cell viability (E), and flow cytome…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G16",
+   "label": "G16 — 29 single dots coincide (47% of the isolated dots in the sparser plot; best chance alignment gives 20). PMC11585960 Fig. 2. Caption: Single clone analysis of selected nanobodies. (a and b) Yeast cells expressing copies of one of the ten selected nanobodies are labeled with (a) 10 nM tau oligomers or (b) 100 nM tau monomer, and the extent of binding was assessed with flow cytometry. Plots exhibit fluorescence signal corresponding to tau binding on the y-axis and fluorescence signal corresponding to the expression level of the nanobodies on the x-axis.",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G17",
+   "label": "G17 — 20 single dots coincide (42% of the isolated dots in the sparser plot; best chance alignment gives 10). PMC11895949 FIGURE 3. Caption: Silencing of LASP1 attenuated IL‐1β‐induced chondrocyte degeneration by promoting TJP2 expression. (A) The expressions of LASP1 and TJP2 in chondrocytes measured by western blot; (B) chondrocyte viability detected by cell counting kit‐8 assay; (C) chondrocyte apoptosis detected by flow cytometry; (D) The expressions of TNF‐α and IL‐6 detected by ELISA; (E) The mRNA expressions of MMP9, MMP13, Aggrecan, and Collagen II measured by qRT‐PCR; (F) The protein expressions of MMP9, MMP13, Aggrecan, and…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "G18",
+   "label": "G18 — 34 single dots coincide (38% of the isolated dots in the sparser plot; best chance alignment gives 23). PMC7618755 Figure 5. Caption: Only cell-expressed CTLA-4 restores PD-1 binding irrespective of CD80 and PD-L1 expression levels(A and B) Contour plots showing DG-75:CD80 = PD-L1 (A) and DG-75:CD80 > PD-L1 (B) incubated for 24 h with CTLA-4−ve Jurkat, CTLA-4−ve Jurkat +50 nM CTLA-4 Ig, CTLA-4-Del36 Jurkat, and CTLA-4+ve Jurkat. Cells were stained with 1 mg/mL of PD-1 Ig-APC after incubation. Data show representative fluorescence-activated cell sorting (FACS) plots of CD80-GFP vs. PD-1 Ig.(C–F) Graphical representations of (A)…",
+   "verdict": "not duplicated",
+   "notes": ""
+  }
+ ]
+}

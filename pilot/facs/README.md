@@ -26,3 +26,12 @@ Review pages
 - v2 (`facs_panels.py`, `build_review2.py`): panel pairs within one figure; 20 figures have a pair scoring >= 8.
 
 Not covered yet: mirrored panels, histograms, pairs across figures or papers, cloned patches inside one plot.
+
+Review of v2 (`review2_results.json`, key `review2_key.json`; 19 panel pairs)
+- 6 duplicated, 1 unsure, 1 same data shown twice on purpose, 1 not a flow plot, 10 not duplicated.
+- Coinciding dots minus the best chance alignment (M - S) separates them: duplicated 25-291, not duplicated
+  9-17; the deliberate repeat scored 37, the unsure item 43 and the non-flow item 17. Working threshold: 20.
+- `build_review2.py` now rings every coinciding dot and outlines the region they cover.
+
+Within one plot (`within.py`): the same repeated-dot search inside each of the 958 flow panels found nothing
+above chance (7 panels with 15-18 repeated dots, none convincing by eye).

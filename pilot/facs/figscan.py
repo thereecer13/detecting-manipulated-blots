@@ -15,10 +15,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import panelmatch as pm
 
 
-def scan(path, topk=6, min_dots=25, min_frac=0.6, min_spread=12):
-    im = Image.open(path)
-    pts, shape = pm.dots(im, border=0.0)
-    out = {'file': os.path.basename(path), 'ndots': int(len(pts)), 'hits': []}
+def scan(path, topk=6, min_dots=25, min_frac=0.6, min_spread=12, border=0.0):
+    im = Image.open(path) if isinstance(path, str) else path
+    pts, shape = pm.dots(im, border=border)
+    out = {'file': os.path.basename(path) if isinstance(path, str) else '', 'ndots': int(len(pts)), 'hits': []}
     if len(pts) < 2 * min_dots:
         return out
     R = pm._raster(pts, shape)
