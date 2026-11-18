@@ -133,3 +133,10 @@ planted patch (median 0%), where "usable" means textured, 8% to 85% ink and clea
 both plots with at least 30% usable blocks were found. So the misses are not a matching failure: at the
 size PMC serves, most of a plot, including much of the event cloud, has no texture the detector can use.
 The detector is therefore run on the real plots as it is, as a search limited to their textured parts.
+
+`patch_clone.py` on the real plots (7,367 panels in 3,393 figures): 950 panels give a hit (66 figures
+errored), 316 with a score of 60 or more. The 20 highest were checked by eye and all are false: slanted
+gate lines and polygon gates (only horizontal and vertical lines are masked), large printed digits that
+repeat within a number ("55", "66"), dashed curves, tables, and a non-flow illustration. No cloned patch of
+events among them. The detector is not usable as a screen in this state; it would need masks for lines at
+any angle and for large text, and even then it only covers the textured share of a plot.
