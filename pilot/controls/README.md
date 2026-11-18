@@ -1045,3 +1045,20 @@ Fifty-seventh batch (37,627 figures, 81,061 panels; crawl at ~87,500 MA5/PA5 pag
 - False by eye: two published-figure panels (PA5-34401 vs ATF1 PA5-49792 and FRK PA5-49805) and one dark pair.
 - Blots (1,152 new): template scan 12 hit products, 1 unlisted, false: PA5-49805 (pattern B, share 0.29) is
   a two-strip blot unlike the template.
+
+Fifty-eighth batch (crawl at ~88,600 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: MEFV PA5-18410 (2024-02-01) /
+  HDAC6 PA5-142003 (2023-01-04), A431.
+- New same-day group (plausible batch control): MUC1 MA5-14077 / VASP MA5-35728 / MYO10 PA5-76391 (HeLa,
+  2022-08-18).
+- No stamp on the new member: HSPA9 PA5-78390 and Lamin B1 PA5-79606 join the RAN group (HeLa); Cofilin
+  PA5-17372 joins Prohibitin / SDHA / Profilin 1 / RPA70 (HeLa); NME1 PA5-28794, GABARAP PA5-78366 and PDK1
+  PA5-79797 join NME1 / AQP1 (HeLa); TRAP1 PA5-27596 / TOMM40 PA5-57575 and Golgin-97 PA5-30048 / GMNN
+  PA5-62110 (HeLa); SPARC PA5-78178 / PCM1 PA5-54776 (BJ).
+- Same target or same published figure (not counted): SCD (PA5-17331, PA5-17409), cytokeratin 5, and one
+  published figure listed under MA5-15739 and PA5-37075.
+- False by eye: 3 dark non-hub pairs.
+- Blots (1,081 new): template scan 13 hit products, 2 unlisted. **GPR101 PA5-118865 confirmed pattern B**
+  (stamp 2021-09-23): `match_overlay.py` share 97% against GRB14 PA5-101612, the highest share of any
+  member found so far; the band sits at the same height and is thicker. Not in Richardson's lists; noted in
+  upload_2021-09-23.md. PA5-71490 (pattern C, share 0.16) not confirmed.
