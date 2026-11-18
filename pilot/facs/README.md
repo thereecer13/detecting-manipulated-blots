@@ -106,3 +106,17 @@ figure, under left-right mirror, top-bottom flip and rotation by 90, 180 and 270
 The 16 best were checked by eye: dotted grids, symmetric curves, tables and bar charts, and eight real flow
 plots whose coinciding dots are scattered through the plot at 12 to 18 above a chance level of 28 to 92.
 None shows a compact mirrored or rotated patch.
+
+Labels for the two lower-scoring candidates (`review5_results.json`): both not duplicated.
+
+## Cloned patches inside dense regions (`patch_clone.py`, first version, not usable yet)
+
+The dot matcher only sees isolated dots. `patch_clone.py` works on pixel texture instead: every 12 x 12
+block position of a plot is indexed, textured blocks are compared with all others in four orientations, and
+a clone is a set of blocks that match at one common offset (or one common mirror axis) and form a compact
+region. Self-test on 60 real plots with one planted 26 to 44 px patch each, re-saved as JPEG: 26 of 60
+planted clones found (same orientation 8 of 15, mirrored 4 of 15, flipped 7 of 15, rotated 7 of 15). The
+clean plots are the problem: 57% produce some hit and the 95th percentile of their best score is higher
+than most planted clones, because repeated glyphs (tick labels, percentages), tick marks and smooth
+density-coloured regions match themselves. Next: mask text and ticks, require the matched region to lie in
+the event cloud, and measure again before running it on the 7,367 plots.
