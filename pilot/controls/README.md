@@ -1136,3 +1136,20 @@ Sixty-second batch (39,886 figures, 85,432 panels; crawl at ~93,500 MA5/PA5 page
   phospho-PKC beta PA5-105462 / n-Myc PA5-105270 (similar nuclei layout, different cells).
 - Blots (1,369 new): template scan 13 hit products, 1 unlisted, false: PA5-55948 (pattern D, share 0.22)
   is a ladder blot unlike the exemplar.
+
+Sixty-third batch (crawl at ~94,700 MA5/PA5 pages; 6,364 verified panel pairs, 90 new):
+- No new stained-image reuse. 12 new control pairs:
+  - The HeLa no-primary panel of the TRIM25 / PKR group (batch 62) also appears on RAD51 PA5-31144,
+    RACK1 PA5-17484, PPM1A PA5-29275 and RNPS1 PA5-35967 (2019-03-19) and on a second TRIM25 product,
+    PA5-27229; uploads now span 2019-03-19 to 2022-02-14.
+  - SMAD2 PA5-29237 (2018-07-09) joins SMAD4 PA5-34806 / phospho-SMAD2 MA5-15122.
+  - PLZF MA5-15667 (mouse primary, donkey anti-mouse secondary, 2020-07-13) / PML PA5-79835 (rabbit
+    primary, goat anti-rabbit secondary, 2020-03-04): captions name different secondaries.
+  - Same-day pairs (plausible batch controls): C5AR1 PA5-142567 / SLC6A4 PA5-142847 (HepG2), c-Kit
+    PA5-143073 / GLP1R PA5-142937 (HeLa), CHD5 PA5-142267 / CECR2 PA5-142034 (U2OS), all 2023-01-04;
+    S100A6 PA5-31862 / Lyn PA5-85319 (PC-3, 2021-03-23); COX4 PA5-19471 / CES1 PA5-19740 (Hep G2).
+- Same target or one experiment (likely legitimate): MYL9/MYL12 and phospho-MYL12A (PA5-143725/6/7, one
+  dual-labelling figure named in all three captions), TGM2, CtBP2, COX2, IFIT3, PML (PA5-51039 / PA5-79835).
+- False by eye: EPS8L3 / COL4A5 (blank panels) and 7 dark non-hub pairs.
+- Blots (1,355 new): template scan 12 hit products, 1 unlisted, false: PA5-49759 (pattern B, share 0.19)
+  is a two-strip blot unlike the template.
