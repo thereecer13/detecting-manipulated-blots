@@ -159,3 +159,26 @@ pair boxed and each GIF turned and aligned (round 3c, `review_r3c_key.json`, lab
 - FXYD2 PA5-75640 / Gng12 PA5-75620 and PANK2 PA5-75678 / PIK3CD PA5-86800: two shared bands each.
 - ABCG5 / Villin and PIK3R2 / SCLY: many-to-many matches in every orientation (8 and 11 pairs between
   plain, near-identical ovals), which is what generic bands produce rather than a specific copy.
+
+Round 3c labels (`review_r3c_results.json`): CDK9 / TRF1, FXYD2 / Gng12 and PANK2 / PIK3CD confirmed as
+the same band in different blots; ABCG5 / Villin and PIK3R2 / SCLY confirmed as not the same band, now
+from correctly aligned GIFs.
+
+The six "whole blot or control reused" groups without a reviewer note, classified by the reviewer's rule
+(acceptable only if the two products show the same protein, or share a control from the same experiment).
+Judged from the figures and captions; whether a shared control came from the same membrane cannot be told
+from the images.
+| Group | What is shared | Call |
+|---|---|---|
+| Influenza HA MA5-56606, MA5-56607 (H9N2), MA5-56759 (H3N2) | DDDDK-tag row; same panel of tagged HA transfectants in the same lane order, same upload | acceptable: shared control, same experiment |
+| GNAI1/2/3 MA5-50379, GNAI3 MA5-50380 | DDDDK-tag row; same 293T transfectant panel, same upload | acceptable: shared control, same experiment |
+| Phospho-ERK MA5-15174, phospho-JNK MA5-15175 | one three-panel figure (phospho-p44/42, phospho-p38, phospho-JNK) shown on both products, each panel labelled with its own target | acceptable: same protein in the matched panel |
+| H2BK20ac MA5-24698, H2BK12ac PA5-40100 | total histone H2B row; same HeLa / COS-7 butyrate lysates; the acetyl-H2B blots differ; uploads six days apart | acceptable: shared control, same lysate set |
+| Phospho-MYL2 Tyr118 PA5-67499, Ser15 PA5-67500 | total MLC2 row; same U87 interphase / cytokinesis lysates, same upload; the phospho blots differ | acceptable: shared control, same experiment |
+| FOXO3A PA5-27145, EHMT2 PA5-34971 | the whole figure. The EHMT2 product's "knockdown" image is the FOXO3A figure (labelled C2C12, FOXO3A shRNA, FOXO3A), while its caption describes EHMT2/G9a shRNA in 293T cells | not acceptable: the figure shows a different protein from the product |
+
+Totals for the cross-blot round after all labels: 20 groups with one band on different blots, 8 groups with
+a blot or control reused in a way that is a problem (MBD4 / TRAM2, ErbB4 / TRIF, PFKM / GART, Cyclin G1 /
+SURF1, JNK / MEK, CYP2A7 / GPR176 and ABCF1 / PPFIA1 by the reviewer's notes; FOXO3A / EHMT2 by the rule
+above; the last two reviewer-noted groups are also counted among the 20), 5 acceptable reuses, 4 not the
+same band.

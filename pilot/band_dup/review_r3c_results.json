@@ -1,0 +1,36 @@
+{
+ "review": "band_duplication_r3c_recheck",
+ "exported": "2026-11-18T01:52:12.768Z",
+ "items": [
+  {
+   "id": "G18",
+   "label": "PA5-86747 CDK9 and PA5-86084 TRF1: 2 matching band pair(s), orientations: rotated 180 degrees, rotated 180 degrees",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G20",
+   "label": "PA5-78701 ABCG5 and PA5-80221 Villin: 8 matching band pair(s), orientations: rotated 180 degrees, rotated 180 degrees, flipped top-bottom, as is, mirrored left-right, as is, rotated 180 degrees, mirrored left-right",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G24",
+   "label": "PA5-79958 SCLY and PA5-79822 PIK3R2: 11 matching band pair(s), orientations: rotated 180 degrees, as is, as is, flipped top-bottom, flipped top-bottom, flipped top-bottom, rotated 180 degrees, mirrored left-right, as is, mirrored left-right, as is",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G17",
+   "label": "PA5-75640 FXYD2 and PA5-75620 Gng12: 2 matching band pair(s), orientations: as is, as is",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G27",
+   "label": "PA5-75678 PANK2 and PA5-86800 PIK3CD: 2 matching band pair(s), orientations: as is, as is",
+   "verdict": "same band, different blots",
+   "notes": ""
+  }
+ ]
+}
