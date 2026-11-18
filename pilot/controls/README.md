@@ -1077,3 +1077,23 @@ Fifty-ninth batch (crawl at ~89,700 MA5/PA5 pages):
 - Blots (1,198 new): template scan 11 hit products, 3 unlisted, none confirmed: PA5-12138 (pattern C,
   shift-correlation peak 0.05, off zero) and PA5-51894, PA5-64452 (pattern D, share 0.24 and 0.32) are
   ordinary ladder-and-lanes blots by eye.
+
+Sixtieth batch (38,905 figures, 83,515 panels; crawl at ~90,850 MA5/PA5 pages):
+- **Same antibody-staining panel on two products, in different cell lines:** panel a of the fibronectin
+  figure of MA5-32509 (labelled FN, U-118 MG, 2025-01-20) is the same image as panel a of the collagen III
+  figure of PA5-110732 (labelled Col3A1, IMR-90, 2023-03-16). Both captions give panel a as the product's
+  own antibody in green. The nuclei, F-actin and composite panels beside it differ between the two figures,
+  so in at least one figure panel a does not belong to the field shown in panels b to d.
+- Captions disagree on the cell line: NME2 PA5-89022 (HeLa, 2021-05-27) shows the control panel of the
+  SUMO1 (fig. ICC1) / BAK / TCF7L2 / PHIP group, whose captions say A-431.
+- Uploads on different dates sharing one control panel, captions consistent: PKR PA5-85676 (2021-05-27)
+  joins the RAN group (HeLa); a further ASC product, PA5-83948 (2021-08-03), joins ASC / MDA5.
+- New same-day pair (plausible batch control): PSMD2 PA5-18324 / ALMS1 PA5-18141 (HeLa, 2024-02-01).
+- No stamp: SPHK1 PA5-22994 joins the RAN group.
+- Not counted, one double-staining experiment shown on both products: alpha-tubulin MA5-31466 / NeuN
+  PA5-78499 (rat cortical neurons) and Vimentin MA5-35320 / KRR1 PA5-109894 (U2OS, 2023-10-10).
+- Same target (likely legitimate): ASC, LDHB, RANKL.
+- False by eye: 6 dark non-hub pairs.
+- Blots (1,215 new): template scan 13 hit products, 1 unlisted, not confirmed: MMP8 PA5-118875 (stamp
+  2021-09-23) scores share 0.57 against the pattern B member PA5-102418 in the scan, but `match_overlay.py`
+  gives 7% against GRB14 PA5-101612; PA5-102418 is not on disk for a direct overlay.
