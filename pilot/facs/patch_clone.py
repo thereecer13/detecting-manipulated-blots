@@ -12,6 +12,8 @@ import numpy as np
 from PIL import Image
 from scipy import ndimage as ndi
 from scipy.spatial import cKDTree
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import context as cx
 
 BS, ST = 12, 2            # block size, query stride
 TURNS = {'same': lambda b: b, 'hflip': lambda b: b[:, :, ::-1], 'vflip': lambda b: b[:, ::-1], 'rot180': lambda b: b[:, ::-1, ::-1]}
@@ -32,7 +34,13 @@ def blocks(g, st):
     idx = (ys[:, None, None] + np.arange(BS)[None, :, None], xs[:, None, None] + np.arange(BS)[None, None, :])
     B = hp[idx]
     e = B.std(axis=(1, 2))
-    ok = (e > 9) & (~lines[idx].any(axis=(1, 2)))
+    # printed text (tick labels, percentages, gate names) and the tick-mark margin repeat legitimately
+    text = ndi.binary_dilation(cx._text(dark), iterations=3)
+    my, mx = int(0.06 * H), int(0.06 * W)
+    edge = np.ones((H, W), bool); edge[my:H - my, mx:W - mx] = False
+    bad = lines | text | edge
+    fill = dark[idx].mean(axis=(1, 2))
+    ok = (e > 9) & (~bad[idx].any(axis=(1, 2))) & (fill > 0.08) & (fill < 0.85)
     B, ys, xs = B[ok], ys[ok], xs[ok]
     B = B - B.mean(axis=(1, 2), keepdims=True)
     B /= np.linalg.norm(B.reshape(len(B), -1), axis=1)[:, None, None] + 1e-6

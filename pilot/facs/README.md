@@ -120,3 +120,9 @@ clean plots are the problem: 57% produce some hit and the 95th percentile of the
 than most planted clones, because repeated glyphs (tick labels, percentages), tick marks and smooth
 density-coloured regions match themselves. Next: mask text and ticks, require the matched region to lie in
 the event cloud, and measure again before running it on the 7,367 plots.
+
+`patch_clone.py`, second version: blocks touching printed text, the tick-mark margin (outer 6%) or frame
+lines are dropped, and a block must be 8% to 85% ink. Same self-test: 15% of clean plots give a hit (was
+57%; 90th percentile of the best clean score 10, 95th 22), but only 18 of 60 planted clones are found (was
+26). Lowering the match threshold from 0.90 to 0.80 does not recover them, so the misses are probably
+planted patches with too few textured blocks left after the masks. Not yet run on the real plots.
