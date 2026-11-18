@@ -140,3 +140,18 @@ gate lines and polygon gates (only horizontal and vertical lines are masked), la
 repeat within a number ("55", "66"), dashed curves, tables, and a non-flow illustration. No cloned patch of
 events among them. The detector is not usable as a screen in this state; it would need masks for lines at
 any angle and for large text, and even then it only covers the textured share of a plot.
+
+## Label check of the 16 confirmed pairs (18 Nov)
+Shared dots mean the same recorded events; the plots can still be legitimate if the figure presents
+them as the same sample (gating steps, a shared control). Each confirmed pair was read against its
+panel labels and caption (`confirmed_key.json`, fields `bin` and `labels`):
+- presented as different samples: 14 pairs (12 papers) - different treatment, dose, sort or donor group;
+- unclear: 2 pairs (PMC13488854, the same group name in Fig. 2 and Fig. 3 with different percentages);
+- same sample (legitimate): 0. Such pairs had already been labelled "same data shown twice on purpose"
+  in the reviews.
+Wording for the write-up: "the same events shown as two different samples", not "manipulated".
+
+**Standing rule for every future FACS scan:** before a matching pair is reported or sent for review,
+read the panel labels, row/column headers and caption, and sort it into one of the three bins above.
+Only "different samples" and "unclear" pairs go forward; the bin and the labels read are recorded with
+the pair.

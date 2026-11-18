@@ -4,7 +4,7 @@
   "source_id": "G00",
   "pmcid": "PMC13488854",
   "doi": "10.1186/s42358-024-00427-2",
-  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "title": "Hck promotes IL-1β-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
   "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
   "file": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
   "fa": null,
@@ -20,7 +20,9 @@
    860,
    326,
    1113
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 2F: \"IL-1β\" vs \"IL-1β+si-NC\" (different groups; quadrant percentages differ)"
  },
  "D01": {
   "source": "r2",
@@ -28,7 +30,7 @@
   "pmcid": "PMC13663672",
   "doi": "10.5114/aoms.2020.100837",
   "title": "Ellagic acid inhibited cervical cancer growth via blocking the AKT/mTOR/STAT3 pathway",
-  "citation": "Arch Med Sci. 2020 Nov 15;22(4):2389\u2013403. doi: 10.5114/aoms.2020.100837",
+  "citation": "Arch Med Sci. 2020 Nov 15;22(4):2389–403. doi: 10.5114/aoms.2020.100837",
   "file": "PMC13663672_AMS-22-4-127589-g001.webp",
   "fa": null,
   "fb": null,
@@ -43,7 +45,9 @@
    713,
    1555,
    1113
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 1B: \"Low\" vs \"Middle\" dose (Q2 6.67% vs 14.2%)"
  },
  "D02": {
   "source": "r2",
@@ -51,7 +55,7 @@
   "pmcid": "PMC13521051",
   "doi": "10.1016/j.jfda.2019.10.004",
   "title": "In vitro and in vivo evaluation of the neuroprotective activity of Uncaria hirsuta Haviland",
-  "citation": "J Food Drug Anal. 2019 Nov 27;28(1):147\u201358. doi: 10.1016/j.jfda.2019.10.004",
+  "citation": "J Food Drug Anal. 2019 Nov 27;28(1):147–58. doi: 10.1016/j.jfda.2019.10.004",
   "file": "PMC13521051_jfda-28-01-147f3.webp",
   "fa": null,
   "fb": null,
@@ -66,14 +70,16 @@
    382,
    1529,
    553
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 3A: compound 1 at 12.5 µM vs compound 2 at 100 µM"
  },
  "D03": {
   "source": "r2",
   "source_id": "G05",
   "pmcid": "PMC11899519",
   "doi": "10.1002/smll.202406094",
-  "title": "Harnessing Lactobacillus reuteri\u2010Derived Extracellular Vesicles for Multifaceted Cancer Treatment",
+  "title": "Harnessing Lactobacillus reuteri‐Derived Extracellular Vesicles for Multifaceted Cancer Treatment",
   "citation": "Small. 2024 Oct 18;21(10):2406094. doi: 10.1002/smll.202406094",
   "file": "PMC11899519_SMLL-21-2406094-g009.jpg",
   "fa": null,
@@ -89,7 +95,9 @@
    309,
    295,
    411
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 2c: \"Control\" vs REVs 10 µg/mL"
  },
  "D04": {
   "source": "r2",
@@ -97,7 +105,7 @@
   "pmcid": "PMC12046306",
   "doi": "10.4070/kcj.2024.0190",
   "title": "UPF1 Alleviates Myocardial Ischemia-Reperfusion Injury by Regulating SMURF2-Mediated Ubiquitination Degradation of FOXA2",
-  "citation": "Korean Circ J. 2024 Dec 10;55(4):305\u201321. doi: 10.4070/kcj.2024.0190",
+  "citation": "Korean Circ J. 2024 Dec 10;55(4):305–21. doi: 10.4070/kcj.2024.0190",
   "file": "PMC12046306_kcj-55-305-g006.jpg",
   "fa": null,
   "fb": null,
@@ -112,7 +120,9 @@
    427,
    341,
    546
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 6C: \"H/R+oe-NC\" vs \"H/R+oe-UPF1\" (upper right 10.59% vs 2.89%)"
  },
  "D05": {
   "source": "r2",
@@ -120,7 +130,7 @@
   "pmcid": "PMC11404482",
   "doi": "10.1021/jacs.4c06716",
   "title": "Visualization of Brain Tumors with Infrared-Labeled Aptamers for Fluorescence-Guided Surgery",
-  "citation": "J Am Chem Soc. 2024 Aug 26;146(36):24989\u20135004. doi: 10.1021/jacs.4c06716",
+  "citation": "J Am Chem Soc. 2024 Aug 26;146(36):24989–5004. doi: 10.1021/jacs.4c06716",
   "file": "PMC11404482_ja4c06716_0003.jpg",
   "fa": null,
   "fb": null,
@@ -135,14 +145,16 @@
    559,
    428,
    732
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 3 C1 \"Non Stained Control\" vs C2 \"Non-specific Oligonucleotide\", glial tumor cells"
  },
  "D06": {
   "source": "r3",
   "source_id": "X00",
   "pmcid": "PMC13488854",
   "doi": "10.1186/s42358-024-00427-2",
-  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "title": "Hck promotes IL-1β-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
   "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
   "file": null,
   "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
@@ -158,14 +170,16 @@
    546,
    1102,
    740
-  ]
+  ],
+  "bin": "unclear",
+  "labels": "Fig. 2F \"IL-1β+si-Hck#2\" vs Fig. 3E \"IL-1β+si-Hck#2\": same group name in two figures, but the plots are not the same plot (percentages 5.78/4.27 vs 6.59/2.05)"
  },
  "D07": {
   "source": "r3",
   "source_id": "X01",
   "pmcid": "PMC13488854",
   "doi": "10.1186/s42358-024-00427-2",
-  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "title": "Hck promotes IL-1β-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
   "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
   "file": null,
   "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
@@ -181,14 +195,16 @@
    546,
    1102,
    740
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 2F \"Control\" vs Fig. 3E \"IL-1β+si-Hck#2\""
  },
  "D08": {
   "source": "r3",
   "source_id": "X02",
   "pmcid": "PMC13488854",
   "doi": "10.1186/s42358-024-00427-2",
-  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "title": "Hck promotes IL-1β-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
   "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
   "file": null,
   "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
@@ -204,14 +220,16 @@
    542,
    274,
    736
-  ]
+  ],
+  "bin": "unclear",
+  "labels": "Fig. 2F \"Control\" vs Fig. 3E \"Control\": same group name in two figures, percentages differ (4.65/1.37 vs 5.38/1.53)"
  },
  "D09": {
   "source": "r3",
   "source_id": "X03",
   "pmcid": "PMC13488854",
   "doi": "10.1186/s42358-024-00427-2",
-  "title": "Hck promotes IL-1\u03b2-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
+  "title": "Hck promotes IL-1β-induced extracellular matrix degradation, inflammation, and apoptosis in osteoarthritis via activation of the JAK-STAT3 signaling pathway",
   "citation": "Adv Rheumatol. 2024 Dec 18;64:88. doi: 10.1186/s42358-024-00427-2",
   "file": null,
   "fa": "PMC13488854_42358_2024_427_Fig2_HTML.webp",
@@ -227,7 +245,9 @@
    542,
    274,
    736
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 2F \"IL-1β+si-Hck#2\" vs Fig. 3E \"Control\""
  },
  "D10": {
   "source": "r4",
@@ -235,7 +255,7 @@
   "pmcid": "PMC11344568",
   "doi": "10.22088/IJMCM.BUMS.13.2.198",
   "title": "Suppressive Potential of Rosmarinus officinalis L. Extract against Triple-Negative and Luminal A Breast Cancer",
-  "citation": "Int J Mol Cell Med. 2024;13(2):198\u2013209. doi: 10.22088/IJMCM.BUMS.13.2.198",
+  "citation": "Int J Mol Cell Med. 2024;13(2):198–209. doi: 10.22088/IJMCM.BUMS.13.2.198",
   "file": "PMC11344568_ijmcm-13-198-g004.jpg",
   "fa": null,
   "fb": null,
@@ -250,14 +270,16 @@
    37,
    655,
    266
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 4 panels c and d: 40 µg/mL vs 80 µg/mL per caption (Q2 41.5 vs 31.1)"
  },
  "D11": {
   "source": "r4",
   "source_id": "F03",
   "pmcid": "PMC11717013",
   "doi": "10.1002/fsn3.4715",
-  "title": "Exploring the Anticancer Effect of Artemisia herba\u2010alba on Colorectal Cancer: Insights From Eight Colorectal Cancer Cell Lines",
+  "title": "Exploring the Anticancer Effect of Artemisia herba‐alba on Colorectal Cancer: Insights From Eight Colorectal Cancer Cell Lines",
   "citation": "Food Sci Nutr. 2024 Dec 31;13(1):e4715. doi: 10.1002/fsn3.4715",
   "file": "PMC11717013_FSN3-13-e4715-g006.jpg",
   "fa": null,
@@ -273,7 +295,9 @@
    991,
    482,
    1188
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 2, RKO+/+ p53 row: \"Control\" vs \"Treated\""
  },
  "D12": {
   "source": "r4",
@@ -296,14 +320,16 @@
    1022,
    620,
    1201
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 1B, high-polyreactivity row: sort against ovalbumin vs sort against soluble cytosolic proteins (methods-overview figure)"
  },
  "D13": {
   "source": "r4",
   "source_id": "F07",
   "pmcid": "PMC11387078",
   "doi": "10.1155/2024/2792909",
-  "title": "Astragaloside IV Treats Parkinson's Disease by Regulating the Proliferation and Differentiation of NSCs through the SHH\u2013Nurr1 Pathway",
+  "title": "Astragaloside IV Treats Parkinson's Disease by Regulating the Proliferation and Differentiation of NSCs through the SHH–Nurr1 Pathway",
   "citation": "Stem Cells Int. 2024 Sep 3;2024:2792909. doi: 10.1155/2024/2792909",
   "file": "PMC11387078_SCI2024-2792909.001.jpg",
   "fa": null,
@@ -319,7 +345,9 @@
    588,
    644,
    755
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 1d: Control day 7 vs AS-IV day 14; identical plot including its \"150: All events\" header and all four percentages"
  },
  "D14": {
   "source": "r4",
@@ -342,15 +370,17 @@
    21,
    770,
    177
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 5A: \"PRPS2-Flag ARV 36h\" vs \"siRNA-PRPS2 ARV 36h\""
  },
  "D15": {
   "source": "r4",
   "source_id": "A02",
   "pmcid": "PMC11420794",
   "doi": "10.1093/infdis/jiae034",
-  "title": "IL-17 and IFN-\u03b3\u2013producing Respiratory Tissue-Resident Memory CD4 T Cells Persist for Decades in Adults Immunized as Children With Whole-Cell Pertussis Vaccines",
-  "citation": "J Infect Dis. 2024 Jan 30;230(3):e518\u201323. doi: 10.1093/infdis/jiae034",
+  "title": "IL-17 and IFN-γ–producing Respiratory Tissue-Resident Memory CD4 T Cells Persist for Decades in Adults Immunized as Children With Whole-Cell Pertussis Vaccines",
+  "citation": "J Infect Dis. 2024 Jan 30;230(3):e518–23. doi: 10.1093/infdis/jiae034",
   "file": null,
   "fa": "PMC11420794_jiae034f1.jpg",
   "fb": "PMC11420794_jiae034f2.jpg",
@@ -365,6 +395,8 @@
    823,
    381,
    976
-  ]
+  ],
+  "bin": "presented as different samples",
+  "labels": "Fig. 1B tonsil SEB, aP donor (CD4 T cells) vs Fig. 2B tonsil SEB, wP donor (CD4 TRM). A TRM gate is a subset of CD4 T cells, which would explain shared events for one donor, but the rows are labelled aP and wP; possibly a mislabelled row"
  }
 }

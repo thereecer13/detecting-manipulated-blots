@@ -38,3 +38,7 @@ not in the repository and must be fetched again where needed.
   Open Access bulk service only (not Europe PMC).
 - Read captions and context before calling anything a duplication.
 - Work on branch `claude/clever-ritchie-m1namn`; no pull request unless asked.
+
+## Standing rule added 18 Nov (FACS)
+For every FACS plot match, read the panel labels and caption and bin the pair (same sample /
+different samples / unclear) before reporting it; see pilot/facs/README.md, "Label check".
