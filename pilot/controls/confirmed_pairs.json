@@ -5590,5 +5590,157 @@
   "score": 0.933,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA514173-CyclinA2-AV-ICC_20181116153642.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA522994-SPHK1-ICC.jpg"
+ },
+ {
+  "group": "FANCA / cyclophilin 40 / COX1 group (A549, 2023-01-12) adds E6AP PA5-95918",
+  "a": "MA5-35800",
+  "b": "PA5-95918",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35800-FANCA-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95918-E6AP-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "FANCA / cyclophilin 40 / COX1 group (A549, 2023-01-12) adds E6AP PA5-95918",
+  "a": "MA5-35640",
+  "b": "PA5-95918",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35640-CYCLOPHILIN40-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95918-E6AP-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "FANCA / cyclophilin 40 / COX1 group (A549, 2023-01-12) adds E6AP PA5-95918",
+  "a": "PA5-27988",
+  "b": "PA5-95918",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-27988-CYCLOPHILIN40-ICCIF-1-20230213_082654.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95918-E6AP-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "FANCA / cyclophilin 40 / COX1 group (A549, 2023-01-12) adds E6AP PA5-95918",
+  "a": "MA5-35479",
+  "b": "PA5-95918",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35479-COX1-ICCIF-1-20230112_020528.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-95918-E6AP-ICCIF-1-20230112_020528.jpg"
+ },
+ {
+  "group": "KCNN4 / SHH / GSTM3 (2023-01-04) and FXR1 / ITM2B PA5-19074 (2024-02-01) negative control (HeLa)",
+  "a": "PA5-142531",
+  "b": "PA5-19074",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142531-KCNN4-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19074-ITM2B-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "KCNN4 / SHH / GSTM3 (2023-01-04) and FXR1 / ITM2B PA5-19074 (2024-02-01) negative control (HeLa)",
+  "a": "PA5-142192",
+  "b": "PA5-19074",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142192-SHH-ICCIF-2-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19074-ITM2B-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "KCNN4 / SHH / GSTM3 (2023-01-04) and FXR1 / ITM2B PA5-19074 (2024-02-01) negative control (HeLa)",
+  "a": "PA5-142352",
+  "b": "PA5-19074",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142352-GSTM3-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19074-ITM2B-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "KCNN4 / SHH / GSTM3 (2023-01-04) and FXR1 / ITM2B PA5-19074 (2024-02-01) negative control (HeLa)",
+  "a": "PA5-18556",
+  "b": "PA5-19074",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18556-FXR1-ICCIF-2-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-19074-ITM2B-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "Phospho-iNOS PA5-143731 / phospho-eNOS/nNOS PA5-143729 (rat PC12, 2023-07-28): whole stained figure shared, panel labelled nNOS/eNOS",
+  "a": "PA5-143731",
+  "b": "PA5-143729",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-143731-INOS-ICCIF-1-20230728_105832.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-143729-ENOS-NNOS-ICCIF-1-20230728_105832.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "PA5-110488",
+  "b": "PA5-50452",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5110488-TIMM10-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "PA5-76173",
+  "b": "PA5-50452",
+  "score": 0.999,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576173-TIMM10-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "MA5-14877",
+  "b": "PA5-50452",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA514877-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "PA5-96679",
+  "b": "PA5-50452",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA596679-NME2-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "PA5-24560",
+  "b": "PA5-50452",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA524560-SUMO1-ICC-20210527145632.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "HepG2 group (SUMO1 / NME2 / Tim10 / OASL) adds NDUFAF2 PA5-50452 (2021-05-11)",
+  "a": "PA5-81946",
+  "b": "PA5-50452",
+  "score": 0.992,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA581946-OASL-ICC_20210511114054.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA550452-NDUFAF2-ICC_20210511114232.jpg"
+ },
+ {
+  "group": "ASS1 PA5-18679 / Pleckstrin PA5-18225 negative control (HeLa, 2024-02-01)",
+  "a": "PA5-18679",
+  "b": "PA5-18225",
+  "score": 0.981,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18679-ASS1-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18225-PLECKSTRIN-ICCIF-1-20240201_121020.jpg"
+ },
+ {
+  "group": "SPAG16 PA5-142541 (2023-01-04) / WISP1 PA5-18832 fig. 1 (2024-02-01) negative control (A431)",
+  "a": "PA5-142541",
+  "b": "PA5-18832",
+  "score": 0.974,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142541-SPAG16-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18832-WISP1-ICCIF-1-20240201_121020.jpg"
+ },
+ {
+  "group": "PCK2 PA5-18426 / WISP1 PA5-18832 fig. 2 negative control (U2OS, 2024-02-01)",
+  "a": "PA5-18426",
+  "b": "PA5-18832",
+  "score": 0.967,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-18426-PCK2-ICCIF-1-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-18832-WISP1-ICCIF-2-20240201_121020.jpg"
+ },
+ {
+  "group": "eIF2B delta PA5-30292 / USP9X PA5-23035 (A-431, 2021-03-23): same no-primary panel",
+  "a": "PA5-30292",
+  "b": "PA5-23035",
+  "score": 0.965,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA530292-eIF2b-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA523035-USP9X-ICC-20210323110406.jpg"
  }
 ]

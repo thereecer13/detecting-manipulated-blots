@@ -1097,3 +1097,20 @@ Sixtieth batch (38,905 figures, 83,515 panels; crawl at ~90,850 MA5/PA5 pages):
 - Blots (1,215 new): template scan 13 hit products, 1 unlisted, not confirmed: MMP8 PA5-118875 (stamp
   2021-09-23) scores share 0.57 against the pattern B member PA5-102418 in the scan, but `match_overlay.py`
   gives 7% against GRB14 PA5-101612; PA5-102418 is not on disk for a direct overlay.
+
+Sixty-first batch (39,424 figures, 84,442 panels; crawl at ~92,300 MA5/PA5 pages):
+- Whole stained figure on two phospho-specific products: phospho-iNOS (Tyr1055) PA5-143731 and
+  phospho-eNOS/nNOS (Tyr657, Tyr895) PA5-143729 show the same four-panel figure of rat PC12 cells
+  (2023-07-28); the red panel is labelled "nNOS (Y895) / eNOS (Y657)" on both. Either the iNOS product
+  carries the other product's figure, or one antibody is sold under two names; not resolved from the pages.
+- Uploads on different dates sharing one control panel, captions consistent: KCNN4 PA5-142531, SHH
+  PA5-142192 and GSTM3 PA5-142352 (2023-01-04) with FXR1 PA5-18556 and ITM2B PA5-19074 (2024-02-01), HeLa;
+  SPAG16 PA5-142541 (2023-01-04) / WISP1 PA5-18832 fig. 1 (2024-02-01), A431; a further NDUFAF2 product,
+  PA5-50452 (2021-05-11), joins the Hep G2 group of 2021-05-27.
+- New same-day pairs or members (plausible batch controls): E6AP PA5-95918 joins FANCA / cyclophilin 40 /
+  COX1 (A549, 2023-01-12); ASS1 PA5-18679 / Pleckstrin PA5-18225 (HeLa, 2024-02-01); PCK2 PA5-18426 /
+  WISP1 PA5-18832 fig. 2 (U2OS, 2024-02-01); eIF2B delta PA5-30292 / USP9X PA5-23035 (A-431, 2021-03-23).
+- Same target (likely legitimate): MPL, RIG-I, Desmin.
+- False by eye: 3 dark non-hub pairs.
+- Blots (1,392 new): template scan 13 hit products, 1 unlisted, false: PA5-49988 (pattern B, share 0.23) is
+  a two-strip blot unlike the template.
