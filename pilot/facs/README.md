@@ -52,3 +52,29 @@ Review of the across-figure page (`review3_results.json`, key `review3_key.json`
   between the figures (e.g. Control Q1-LL 93.33% in Fig. 2, 92.48% in Fig. 3).
 - Scores (coinciding dots minus best chance alignment) are 12 to 28, lower than most within-figure
   duplicates, because Fig. 3 is drawn at 80% of the size of Fig. 2.
+
+## Scale-up: 9,000 more papers (`run_chunks.sh`)
+
+Same search and source, results 1,001 to 10,000, in chunks of 1,000: fetch, `facs_panels.py`, `cross_fig.py`,
+`within2.py`, then delete figures without a flow panel. 8,999 papers, 18,234 figures, 6,507 flow panels in
+3,021 figures.
+
+- Within one figure: 20 panel pairs in 15 figures score >= 20 (coinciding dots minus best chance alignment);
+  25 more score 12 to 19 and were not reviewed.
+- Across figures of one paper: 3 pairs score >= 20, 12 score >= 12, in 6 papers.
+- Within one plot: 79 hits, the 16 highest checked by eye, none convincing. They are histograms, line charts,
+  tables and grids of small plots that passed the flow-plot filter, and one dot plot with a weak overlap of
+  neighbouring regions.
+
+Pre-screen by eye and caption, before human review (`review4_key.json`; page of 15 items, ids F.. within a
+figure and A.. across figures):
+- look like one plot shown for two conditions: PMC11344568 Fig. 4 (different quadrant percentages),
+  PMC11717013, PMC11665346 Fig. 5 (PRPS2-Flag vs siRNA-PRPS2), PMC11387078 (two plots with identical
+  percentages), PMC11363581 Fig. 3 vs Fig. 5 (near-identical plots with slightly different percentages);
+- probably deliberate: a plot next to its enlarged inset (PMC11098111, PMC11811720), a plot repeated with
+  a gate drawn (PMC11564698), sequential gating (PMC11708019), the same gating plot in several figures
+  (PMC11486373), the same contour plots with the same numbers in Fig. 3 and Fig. 4 (PMC11098115);
+- not a flow plot: PMC11598135 (one correlation scatter shown twice with identical statistics);
+- weak: PMC11420794 Fig. 1 vs Fig. 2.
+Left off the page: a grid of small plots matched on frames (PMC11693865), one embedding map coloured by two
+markers (PMC11402138), one false across-figure pair (PMC11658681) and six further pairs of PMC11098115.

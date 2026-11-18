@@ -27,7 +27,7 @@ not in the repository and must be fetched again where needed.
    can be re-fetched from the URLs in `media.jsonl`.
 3. Control-panel batches 1 to 54 are reviewed (`pilot/controls/README.md`, 523 confirmed pairs).
    Batch 55 (crawl pages ~84,400 to ~85,200) was running and is not reviewed.
-4. FACS scale-up: chunks 1 to 5 are done, 6 to 9 are not. Hits are not reviewed yet (working threshold:
+4. FACS scale-up: all 9 chunks are done and pre-screened (see pilot/facs/README.md); labels pending (threshold:
    coinciding dots minus chance >= 20). Re-fetching figures: `pilot/facs/fetch_pmc.py --start K000 --n 1000`.
 5. Band duplication: labels are pending for round 2 and for round 3 (3a within one blot, 3b across blots);
    keys are `pilot/band_dup/review_r3_key.json` and, in the archive, `band/review_r2_key.json`.

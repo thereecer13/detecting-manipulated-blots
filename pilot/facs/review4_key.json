@@ -1,0 +1,490 @@
+{
+ "items": {
+  "F00": {
+   "file": "PMC11598135_JCMM-28-e70211-g004.jpg",
+   "a": [
+    410,
+    749,
+    563,
+    933
+   ],
+   "b": [
+    54,
+    754,
+    208,
+    937
+   ],
+   "match": {
+    "score": 81.00000762939453,
+    "M": 94,
+    "S": 13,
+    "frac": 0.921568702248966,
+    "na": 104,
+    "nb": 102,
+    "scale": 1.0,
+    "dy": 1,
+    "dx": -1,
+    "i": 0,
+    "j": 2
+   },
+   "pmcid": "PMC11598135",
+   "doi": "10.1111/jcmm.70211",
+   "title": "Connexin 43 Deficiency Confers Resistance to Immunotherapy in Lung Cancer via Inhibition of the Cyclic GMP\u2010AMP Synthase\u2013Stimulator of Interferon Genes Pathway",
+   "citation": "J Cell Mol Med. 2024 Nov 26;28(22):e70211. doi: 10.1111/jcmm.70211",
+   "fig": "FIGURE 3",
+   "license": "CC BY",
+   "retracted": false
+  },
+  "F01": {
+   "file": "PMC11344568_ijmcm-13-198-g004.jpg",
+   "a": [
+    65,
+    36,
+    323,
+    262
+   ],
+   "b": [
+    394,
+    37,
+    655,
+    266
+   ],
+   "match": {
+    "score": 71.0,
+    "M": 118,
+    "S": 47,
+    "frac": 0.5700483091787439,
+    "na": 207,
+    "nb": 239,
+    "scale": 1.0,
+    "dy": -1,
+    "dx": -1,
+    "i": 0,
+    "j": 1
+   },
+   "pmcid": "PMC11344568",
+   "doi": "10.22088/IJMCM.BUMS.13.2.198",
+   "title": "Suppressive Potential of Rosmarinus officinalis L. Extract against Triple-Negative and Luminal A Breast Cancer",
+   "citation": "Int J Mol Cell Med. 2024;13(2):198\u2013209. doi: 10.22088/IJMCM.BUMS.13.2.198",
+   "fig": "Fig. 4",
+   "license": "CC BY-NC",
+   "retracted": false
+  },
+  "F02": {
+   "file": "PMC11098111_pnas.2306776121fig03.jpg",
+   "a": [
+    137,
+    2884,
+    416,
+    3164
+   ],
+   "b": [
+    92,
+    3077,
+    248,
+    3213
+   ],
+   "match": {
+    "score": 70.9999942779541,
+    "M": 103,
+    "S": 32,
+    "frac": 0.962616751127154,
+    "na": 388,
+    "nb": 107,
+    "scale": 1.0,
+    "dy": 193,
+    "dx": -45,
+    "i": 12,
+    "j": 13
+   },
+   "pmcid": "PMC11098111",
+   "doi": "10.1073/pnas.2306776121",
+   "title": "A high-fat diet promotes cancer progression by inducing gut microbiota\u2013mediated leucine production and PMN-MDSC differentiation",
+   "citation": "Proc Natl Acad Sci U S A. 2024 May 6;121(20):e2306776121. doi: 10.1073/pnas.2306776121",
+   "fig": "Fig. 3.",
+   "license": "CC BY-NC-ND",
+   "retracted": false
+  },
+  "F03": {
+   "file": "PMC11717013_FSN3-13-e4715-g006.jpg",
+   "a": [
+    94,
+    991,
+    267,
+    1188
+   ],
+   "b": [
+    309,
+    991,
+    482,
+    1188
+   ],
+   "match": {
+    "score": 65.00000762939453,
+    "M": 88,
+    "S": 23,
+    "frac": 0.9263158697831003,
+    "na": 95,
+    "nb": 98,
+    "scale": 1.0,
+    "dy": 0,
+    "dx": 1,
+    "i": 5,
+    "j": 6
+   },
+   "pmcid": "PMC11717013",
+   "doi": "10.1002/fsn3.4715",
+   "title": "Exploring the Anticancer Effect of Artemisia herba\u2010alba on Colorectal Cancer: Insights From Eight Colorectal Cancer Cell Lines",
+   "citation": "Food Sci Nutr. 2024 Dec 31;13(1):e4715. doi: 10.1002/fsn3.4715",
+   "fig": "FIGURE 2",
+   "license": "CC BY",
+   "retracted": false
+  },
+  "F05": {
+   "file": "PMC11564698_nihms-2031312-f0002.jpg",
+   "a": [
+    243,
+    1022,
+    424,
+    1201
+   ],
+   "b": [
+    439,
+    1022,
+    620,
+    1201
+   ],
+   "match": {
+    "score": 51.0,
+    "M": 76,
+    "S": 25,
+    "frac": 0.6129032258064516,
+    "na": 131,
+    "nb": 124,
+    "scale": 1.0,
+    "dy": -1,
+    "dx": -1,
+    "i": 0,
+    "j": 1
+   },
+   "pmcid": "PMC11564698",
+   "doi": "10.1016/j.celrep.2024.114801",
+   "title": "Human antibody polyreactivity is governed primarily by the heavy-chain complementarity-determining regions",
+   "citation": "Cell Rep. Author manuscript; Available in PMC 2024 Nov 15.",
+   "fig": "Figure 1.",
+   "license": "CC BY-NC-ND",
+   "retracted": false
+  },
+  "F07": {
+   "file": "PMC11387078_SCI2024-2792909.001.jpg",
+   "a": [
+    271,
+    367,
+    438,
+    534
+   ],
+   "b": [
+    481,
+    588,
+    644,
+    755
+   ],
+   "match": {
+    "score": 40.0,
+    "M": 53,
+    "S": 13,
+    "frac": 0.7794117647058824,
+    "na": 76,
+    "nb": 68,
+    "scale": 1.0,
+    "dy": 0,
+    "dx": 2,
+    "i": 0,
+    "j": 5
+   },
+   "pmcid": "PMC11387078",
+   "doi": "10.1155/2024/2792909",
+   "title": "Astragaloside IV Treats Parkinson's Disease by Regulating the Proliferation and Differentiation of NSCs through the SHH\u2013Nurr1 Pathway",
+   "citation": "Stem Cells Int. 2024 Sep 3;2024:2792909. doi: 10.1155/2024/2792909",
+   "fig": "Figure 1",
+   "license": "CC BY",
+   "retracted": false
+  },
+  "F08": {
+   "file": "PMC11811720_CEJI-49-55147-g001.jpg",
+   "a": [
+    49,
+    589,
+    243,
+    783
+   ],
+   "b": [
+    16,
+    691,
+    128,
+    822
+   ],
+   "match": {
+    "score": 31.0,
+    "M": 44,
+    "S": 13,
+    "frac": 0.8461538461538461,
+    "na": 153,
+    "nb": 52,
+    "scale": 1.0,
+    "dy": 101,
+    "dx": -33,
+    "i": 0,
+    "j": 2
+   },
+   "pmcid": "PMC11811720",
+   "doi": "10.5114/ceji.2024.145007",
+   "title": "LncRNA GAS5 regulates the inflammatory response in inflammatory bowel disease via targeting the miR-23a-3p/BVES axis",
+   "citation": "Cent Eur J Immunol. 2024 Dec 16;49(4):332\u201344. doi: 10.5114/ceji.2024.145007",
+   "fig": "Fig. 1",
+   "license": "CC BY-NC-SA",
+   "retracted": false
+  },
+  "F09": {
+   "file": "PMC11708019_mbio.03253-24.f004.jpg",
+   "a": [
+    269,
+    15,
+    486,
+    225
+   ],
+   "b": [
+    268,
+    285,
+    485,
+    495
+   ],
+   "match": {
+    "score": 24.92034588028951,
+    "M": 88,
+    "S": 56,
+    "frac": 0.38938049721506846,
+    "na": 226,
+    "nb": 234,
+    "scale": 1.0,
+    "dy": -1,
+    "dx": -1,
+    "i": 0,
+    "j": 1
+   },
+   "pmcid": "PMC11708019",
+   "doi": "10.1128/mbio.03253-24",
+   "title": "Development and utilization of Treponema pallidum expressing green fluorescent protein to study spirochete-host interactions and antibody-mediated clearance: expanding the toolbox for syphilis research",
+   "citation": "mBio. 2024 Nov 29;16(1):e03253-24. doi: 10.1128/mbio.03253-24",
+   "fig": "Fig 4",
+   "license": "CC BY",
+   "retracted": false
+  },
+  "F10": {
+   "file": "PMC11486373_pone.0312147.g004.jpg",
+   "a": [
+    460,
+    10,
+    586,
+    142
+   ],
+   "b": [
+    40,
+    227,
+    166,
+    359
+   ],
+   "match": {
+    "score": 21.999998092651367,
+    "M": 30,
+    "S": 8,
+    "frac": 0.769230720324394,
+    "na": 39,
+    "nb": 41,
+    "scale": 1.0,
+    "dy": 0,
+    "dx": 1,
+    "i": 0,
+    "j": 4
+   },
+   "pmcid": "PMC11486373",
+   "doi": "10.1371/journal.pone.0312147",
+   "title": "Comparative analysis of the effects of cyclophosphamide and dexamethasone on intestinal immunity and microbiota in delayed hypersensitivity mice",
+   "citation": "PLoS One. 2024 Oct 17;19(10):e0312147. doi: 10.1371/journal.pone.0312147",
+   "fig": "Fig 4",
+   "license": "CC BY",
+   "retracted": false
+  },
+  "F11": {
+   "file": "PMC11665346_gr5.jpg",
+   "a": [
+    424,
+    20,
+    579,
+    176
+   ],
+   "b": [
+    615,
+    21,
+    770,
+    177
+   ],
+   "match": {
+    "score": 21.473684210526315,
+    "M": 68,
+    "S": 41,
+    "frac": 0.39766081871345027,
+    "na": 180,
+    "nb": 171,
+    "scale": 1.0,
+    "dy": 1,
+    "dx": 3,
+    "i": 0,
+    "j": 2
+   },
+   "pmcid": "PMC11665346",
+   "doi": "10.1016/j.psj.2024.104582",
+   "title": "Host protein PRPS2 interact with the non-structural protein p17 of Avian Reovirus and promote viral replication",
+   "citation": "Poult Sci. 2024 Nov 28;104(1):104582. doi: 10.1016/j.psj.2024.104582",
+   "fig": "Fig. 5",
+   "license": "CC BY-NC-ND",
+   "retracted": false
+  },
+  "A11": {
+   "pmcid": "PMC11363581",
+   "fa": "PMC11363581_12931_2024_2953_Fig3_HTML.jpg",
+   "fb": "PMC11363581_12931_2024_2953_Fig5_HTML.jpg",
+   "a": [
+    56,
+    423,
+    193,
+    558
+   ],
+   "b": [
+    91,
+    459,
+    244,
+    611
+   ],
+   "M": 29,
+   "S": 16,
+   "scale": 0.9,
+   "dx": -1,
+   "dy": -1,
+   "doi": "10.1186/s12931-024-02953-5",
+   "title": "Ubiquitination of angiotensin-converting enzyme 2 contributes to the development of pulmonary arterial hypertension mediated by neural precursor cell\u2013expressed developmentally down-regulated gene 4-Like",
+   "citation": "Respir Res. 2024 Aug 29;25:326. doi: 10.1186/s12931-024-02953-5"
+  },
+  "A02": {
+   "pmcid": "PMC11420794",
+   "fa": "PMC11420794_jiae034f1.jpg",
+   "fb": "PMC11420794_jiae034f2.jpg",
+   "a": [
+    210,
+    464,
+    349,
+    607
+   ],
+   "b": [
+    231,
+    823,
+    381,
+    976
+   ],
+   "M": 31,
+   "S": 10,
+   "scale": 0.9,
+   "dx": 3,
+   "dy": 2,
+   "doi": "10.1093/infdis/jiae034",
+   "title": "IL-17 and IFN-\u03b3\u2013producing Respiratory Tissue-Resident Memory CD4 T Cells Persist for Decades in Adults Immunized as Children With Whole-Cell Pertussis Vaccines",
+   "citation": "J Infect Dis. 2024 Jan 30;230(3):e518\u201323. doi: 10.1093/infdis/jiae034"
+  },
+  "A01": {
+   "pmcid": "PMC11098115",
+   "fa": "PMC11098115_pnas.2320268121fig03.jpg",
+   "fb": "PMC11098115_pnas.2320268121fig04.jpg",
+   "a": [
+    3130,
+    2790,
+    3570,
+    3219
+   ],
+   "b": [
+    1562,
+    1327,
+    1993,
+    1781
+   ],
+   "M": 39,
+   "S": 17,
+   "scale": 1.0,
+   "dx": 3,
+   "dy": -7,
+   "doi": "10.1073/pnas.2320268121",
+   "title": "Aire mediates tolerance to insulin through thymic trimming of high-affinity T cell clones",
+   "citation": "Proc Natl Acad Sci U S A. 2024 May 6;121(20):e2320268121. doi: 10.1073/pnas.2320268121"
+  },
+  "A00": {
+   "pmcid": "PMC11486373",
+   "fa": "PMC11486373_pone.0312147.g003.jpg",
+   "fb": "PMC11486373_pone.0312147.g005.jpg",
+   "a": [
+    39,
+    13,
+    172,
+    130
+   ],
+   "b": [
+    45,
+    14,
+    182,
+    134
+   ],
+   "M": 112,
+   "S": 64,
+   "scale": 1.0,
+   "dx": -1,
+   "dy": -1,
+   "doi": "10.1371/journal.pone.0312147",
+   "title": "Comparative analysis of the effects of cyclophosphamide and dexamethasone on intestinal immunity and microbiota in delayed hypersensitivity mice",
+   "citation": "PLoS One. 2024 Oct 17;19(10):e0312147. doi: 10.1371/journal.pone.0312147"
+  },
+  "A05": {
+   "pmcid": "PMC11486373",
+   "fa": "PMC11486373_pone.0312147.g006.jpg",
+   "fb": "PMC11486373_pone.0312147.g007.jpg",
+   "a": [
+    256,
+    5,
+    393,
+    135
+   ],
+   "b": [
+    257,
+    5,
+    394,
+    134
+   ],
+   "M": 31,
+   "S": 13,
+   "scale": 1.0,
+   "dx": -1,
+   "dy": 1,
+   "doi": "10.1371/journal.pone.0312147",
+   "title": "Comparative analysis of the effects of cyclophosphamide and dexamethasone on intestinal immunity and microbiota in delayed hypersensitivity mice",
+   "citation": "PLoS One. 2024 Oct 17;19(10):e0312147. doi: 10.1371/journal.pone.0312147"
+  }
+ },
+ "excluded": {
+  "G04": "grid of small plots matched on frames and labels",
+  "G06": "one embedding map coloured by two markers, not a flow dot plot",
+  "X07": "different plots, few coinciding dots",
+  "X03": "same paper and figures as X01",
+  "X04": "same as X01",
+  "X06": "same as X01",
+  "X08": "same as X01",
+  "X09": "same as X01",
+  "X10": "same as X01"
+ }
+}
