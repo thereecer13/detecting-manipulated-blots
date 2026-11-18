@@ -6,7 +6,7 @@ not in the repository and must be fetched again where needed.
 
 ## What is here
 - `crawl_state.tar.gz`: progress and index files of the Thermo PA5/MA5 crawl (`pilot/crawl_icc.py`).
-  `icc_all/done.txt` lists finished product pages (85,821 of 99,705); `icc_all/index.jsonl` and
+  `icc_all/done.txt` lists finished product pages (90,141 of 99,705 on 18 Nov, 07:36 UTC); `icc_all/index.jsonl` and
   `icc_all/media.jsonl` list every microscopy figure (URL, caption, file hash); `icc_all/wb/scraped.jsonl`
   lists every western blot image; the other files are the earlier scrapes passed to `--skip` / `--have-wb`.
 - `band_state.tar.gz`: band-duplication results: within-blot search output for 89,129 blots
@@ -22,14 +22,14 @@ not in the repository and must be fetched again where needed.
 1. Unpack the three archives into one scratch directory, keeping paths.
 2. Thermo crawl: run `pilot/crawl_icc.py --out icc_all --skip media_all.jsonl ctrl_sample/media.jsonl
    --delay 2 --have-wb scraped_tmpl/scraped.jsonl scraped_ma5/scraped.jsonl scraped_members/scraped.jsonl`.
-   It skips pages in `done.txt` and continues with the remaining ~13,900. Images of finished pages are
+   It skips pages in `done.txt` and continues with the remaining pages. Images of finished pages are
    not re-downloaded by this command; scanning new pages against old ones needs the old images, which
    can be re-fetched from the URLs in `media.jsonl`.
-3. Control-panel batches 1 to 54 are reviewed (`pilot/controls/README.md`, 523 confirmed pairs).
-   Batch 55 (crawl pages ~84,400 to ~85,200) was running and is not reviewed.
+3. Control-panel batches 1 to 58 are reviewed (`pilot/controls/README.md`, 633 confirmed pairs).
+   Batch 59 (crawl pages from ~88,600) was running and is not reviewed.
 4. FACS scale-up: all 9 chunks are done and pre-screened (see pilot/facs/README.md); labels pending (threshold:
    coinciding dots minus chance >= 20). Re-fetching figures: `pilot/facs/fetch_pmc.py --start K000 --n 1000`.
-5. Band duplication: labels are pending for round 2 and for round 3 (3a within one blot, 3b across blots);
+5. Band duplication: rounds 1 to 3 are labelled; round 4 (cross-blot, border score) is pending (pilot/band_dup/review_r4_key.json);
    keys are `pilot/band_dup/review_r3_key.json` and, in the archive, `band/review_r2_key.json`.
 
 ## Constraints agreed with the user
