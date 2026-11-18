@@ -1,0 +1,96 @@
+{
+ "review": "facs_scaleup_9000",
+ "exported": "2026-11-18T03:16:57.232Z",
+ "items": [
+  {
+   "id": "F00",
+   "label": "Within one figure. 94 single dots coincide (92% of the isolated dots in the sparser plot; best chance alignment gives 13). PMC11598135 FIGURE 3. Caption: Inhibition of Cx43 in LLC cells attenuated T‐cell antitumor immunity via cGAMP transfer to macrophages. (A) Representative flow cytometric analysis of IFN‐γ+ expression in CD8+ T cells. (B–D) Quantification of the expression of IFN‐γ, CD69 and PD‐1 in CD8+ T cells. Each experiment was performed at least three times. (E) Correlation between GJA1 and CD68 in LUAD. n = 515. (F, G) Relevance analysis among GJA1 and Macrophage, Macrophage M1. *p < 0.05, **p < 0.01, ***p < 0.001.",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  },
+  {
+   "id": "F01",
+   "label": "Within one figure. 118 single dots coincide (57% of the isolated dots in the sparser plot; best chance alignment gives 47). PMC11344568 Fig. 4. Caption: The apoptosis-inducing effects of rosemary extract on MCF-7 cells measured by Annexin V/PI flow cytometry assay: (A) control, (B) 20 µg/mL, (C) 40 µg/mL, (D) 80 µg/mL.",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F02",
+   "label": "Within one figure. 103 single dots coincide (96% of the isolated dots in the sparser plot; best chance alignment gives 32). PMC11098111 Fig. 3.. Caption: HFD-mediated microbiota dysbiosis triggers PMN-MDSC production. (A) Schematic of MDSCs generation and recruitment. (B) The percentage of CMPs and GMPs in the bone marrow of mice with breast tumor burden from NFD, HFD, and HDFMT groups was determined using flow cytometry (n = 6 per group). (C) The scatter plot represents the percentage of CMPs and GMPs in bone marrow from mice (n = 6 per group). (D) The percentage of CMPs and GMPs in the bone marrow of mice with breast tumor burden from HFD and H…",
+   "verdict": "not duplicated",
+   "notes": "I think this is a bug"
+  },
+  {
+   "id": "F03",
+   "label": "Within one figure. 88 single dots coincide (93% of the isolated dots in the sparser plot; best chance alignment gives 23). PMC11717013 FIGURE 2. Caption: A. herba‐alba promotes cell death in all CRC cell lines tested. The percentage of apoptotic and necrotic cells was assessed by flow cytometry using Annexin V/PI staining. Control cells were cultured in media, whereas treated cells were treated with the extract for 48 h with their corresponding IC50 concentration. DMSO was used as a negative control. Q1, Q2, Q3, and Q4 represent the average of three independent experiments is represented.",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F05",
+   "label": "Within one figure. 76 single dots coincide (61% of the isolated dots in the sparser plot; best chance alignment gives 25). PMC11564698 Figure 1.. Caption: Overview of the library sorting, deep sequencing, and model training methods used to generate machine learning models for predicting human antibody polyreactivity(A) Two human single-chain variable fragment (scFv) libraries displayed on the surface of yeast were sorted for positive or negative binding to multiple poly-specificity reagents. The enriched libraries were deep sequenced to generate large datasets of antibody sequences and corresponding classifications for either high or low polyspeci…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F07",
+   "label": "Within one figure. 53 single dots coincide (78% of the isolated dots in the sparser plot; best chance alignment gives 13). PMC11387078 Figure 1. Caption: AS-IV promotes activity and inhibits apoptosis in NSCs: (a) the cells were observed to form neurospheres, as indicated by the arrows in the image (scale bar = 100 μm). The third generation of cells was identified as NSCs by treating them with DAPI (blue) and Nestin (red) staining (scale bar = 100 μm); (b) the effect of different concentrations of AS-IV on cell activity was screened using the CCK-8 assay. The x-axis represents the drug concentration, and the y-axis represents the cell activity. T…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F08",
+   "label": "Within one figure. 44 single dots coincide (85% of the isolated dots in the sparser plot; best chance alignment gives 13). PMC11811720 Fig. 1. Caption: Effects of GAS5 overexpression on human fetal colon (FHC) cell proliferation, apoptosis, and inflammatory cytokine release. A) Colonic mucosal samples were collected from ten inflammatory bowel disease (IBD) patients and ten healthy volunteers. Levels of GAS5 were detected by RT-qPCR. B) Expression of GAS5 in FHC cells exposed to LPS was determined utilizing RT-qPCR. C-F) GAS5-overexpressing plasmid and empty vector were transfected into FHC cells. C) Expression of GAS5 in FHC cells was determin…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F09",
+   "label": "Within one figure. 88 single dots coincide (39% of the isolated dots in the sparser plot; best chance alignment gives 56). PMC11708019 Fig 4. Caption: Expression of GFP by TPA harvested from rabbit testes. Flow cytometry of GFP+ TPA harvested from rabbit testes (in vivo), permeabilized with 0.01% Triton X-100 and counterstained with PI. Gating strategies used to eliminate non-spirochetal double-negative events and define PI+ and GFP+ populations are shown in Fig. S2. Events within the red boxed area in the top left panel were used to quantify (A) GFP+ events within the PI+ population and (B) PI+ events within the GFP+ population. Results are r…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "F10",
+   "label": "Within one figure. 30 single dots coincide (77% of the isolated dots in the sparser plot; best chance alignment gives 8). PMC11486373 Fig 4. Caption: Flow cytometry was used to detect the distribution of CD3+CD4+ helper T cells in the mesenteric lymph nodes (MLNs) of sensitized mice.Representative flow cytometry of CD3+CD4+ helper T cells in mouse MLNs in Contorl, CY and DEX groups and corresponding statistical analysis. Compared to the Control group, **P<0.01. Compared to the DEX group, ##P<0.01.",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  },
+  {
+   "id": "F11",
+   "label": "Within one figure. 68 single dots coincide (40% of the isolated dots in the sparser plot; best chance alignment gives 41). PMC11665346 Fig. 5. Caption: PRPS2 protein promote ARV infection induce apoptosis in Vero cells. (A) The apoptotic of Vero cells were determined by AnnexinV-FITC and PI double staining assay. (B) Percentage of apoptotic rate of cells measured by flow cytometry. Results are presented as the means ± SD of data from three independent experiments. (***P < 0.001).",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "A11",
+   "label": "Across figures. PMC11363581: Fig. 3 (A) and Fig. 5 (B). 29 single dots coincide; best chance alignment gives 16; B is drawn at 111% of the size of A. Caption A: Ubiquitination promotes the hypoxia-induced proliferation of PASMCs. PASMCs were subjected to hypoxia or normoxia according to the protocol and were treated with low (0.05 µmol/L), medium (0.1 µmol/L), or high (0.2 µmol/L) doses of MG132. MG132, a proteasome inhibitor, can inhibit proteasome-mediated protein degradation via ubiquitination. The effe… Caption B: Overexpression(OE) of ACE2 can partially reverse the inhibition of cell apoptosis by NEDD4L. PASMCs in the two groups were treated with NEDD4L or NEDD4L + ACE2. The expression of NEDD4L and ACE2 in the three groups was examined (A-C). Then, PAMSCs were aspirated at 0, 24, 48, and 72 h after transfection, and their cell activity was examined through…",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "A02",
+   "label": "Across figures. PMC11420794: Figure 1. (A) and Figure 2. (B). 31 single dots coincide; best chance alignment gives 10; B is drawn at 111% of the size of A. Caption A: Significantly higher frequency of IFN-γ and IL-17A–producing CD4 T cells were found in tonsil of adults primed with wP compared with aP vaccines as children. Tonsil and blood samples were isolated from adult donors who had received wP (n = 10) or aP (n = 10) vaccines as children. Peripheral blood mononuclear cells or tonsil mononuclear cells were s… Caption B: IFN-γ and IL-17A–producing CD4 TRM that respond to Bordetella pertussis antigens in tonsil and nasal tissue of adults primed with wP but not aP vaccines as children. Tonsil and blood samples were isolated from adult donors who received wP (n = 10) or aP (n = 10) vaccines as infants. A, CD4+, CD8+ T cells (of total CD3+ cells), CD4 TEM (CD45R0+ CCR7…",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "A01",
+   "label": "Across figures. PMC11098115: Fig. 3. (A) and Fig. 4. (B). 39 single dots coincide; best chance alignment gives 17. Caption A: Identified tetramer+ T cell clones are insulin reactive. The identified unique clones for each of the three genotypes were recreated into hybridomas expressing the NFAT-GFP reporter and were stimulated with plate-bound tetramers to confirm their reactivity in insulin. (A) Frequency of the unique TCR clones identified within each of the genotypes. T… Caption B: Aire-405 TCR has promiscuous insulin recognition. (A) The Ins-104, Aire-280, and Aire-405 T cell hybridomas were stimulated with plate-bound tetramers to confirm their reactivity to the various register three peptides: p8E, p8G, p8V, and p8L. Hybridomas were stimulated as described above for 20 to 24 h, and the flow cytometry was used to access the…",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  },
+  {
+   "id": "A00",
+   "label": "Across figures. PMC11486373: Fig 3 (A) and Fig 5 (B). 112 single dots coincide; best chance alignment gives 64. Caption A: Percentage of CD3+ total T cells and CD3+CD69+ activated T cells in mesenteric lymph nodes (MLNs) of sensitized mice were detected by flow cytometry.Representative flow cytomogram of CD3+ total T cells and CD3+CD69+ activated T cells in mouse MLNs in Contorl, CY and DEX groups and corresponding statistical analysis. Compared to the Control group, *… Caption B: Flow cytometry was used to detect the distribution of CD3+CD8+ cytotoxic T cells in the mesenteric lymph nodes (MLNs) of sensitized mice.Representative flow cytomogram of CD3+CD8+ cytotoxic T cells in mouse MLNs in Contorl, CY and DEX groups and corresponding statistical analysis.…",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  },
+  {
+   "id": "A05",
+   "label": "Across figures. PMC11486373: Fig 6 (A) and Fig 7 (B). 31 single dots coincide; best chance alignment gives 13. Caption A: Flow cytometry was used to detect the distribution of CD3+TCRβ+ T cells in the mesenteric lymph nodes (MLNs) of sensitized mice.Representative flow cytometry of CD3+TCRβ+ T cells in mouse MLNs in Contorl, CY and DEX groups and corresponding statistical analysis. Compared to the Control group, **P<0.01. Compared to the DEX group, ##P<0.01.… Caption B: Flow cytometry was used to detect the distribution of CD3+TCRγ/δ+ T cells in the mesenteric lymph nodes (MLNs) of sensitized mice.Representative flow cytometry of CD3+TCRγ/δ+ T cells in mouse MLNs in Contorl, CY and DEX groups and corresponding statistical analysis. Compared to the Control group, *P<0.05, ***P<0.001. Compared to the DEX group, ###P…",
+   "verdict": "same data shown twice on purpose",
+   "notes": ""
+  }
+ ]
+}

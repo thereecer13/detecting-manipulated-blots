@@ -78,3 +78,31 @@ figure and A.. across figures):
 - weak: PMC11420794 Fig. 1 vs Fig. 2.
 Left off the page: a grid of small plots matched on frames (PMC11693865), one embedding map coloured by two
 markers (PMC11402138), one false across-figure pair (PMC11658681) and six further pairs of PMC11098115.
+
+Labels for the scale-up page (`review4_results.json`, 15 items): 6 duplicated (PMC11344568, PMC11717013,
+PMC11564698, PMC11387078, PMC11665346; PMC11420794 Fig. 1 vs Fig. 2), 5 not duplicated, 4 same data shown
+twice on purpose. Two "not duplicated" items were one plot next to its own enlarged crop (PMC11098111,
+PMC11811720).
+
+Changes after that review
+- GIFs: both plots are now cut at their own frame and brought to one size, so the frames coincide
+  (`build_review2.py`). Before, the second plot was shifted to make the dots coincide.
+- One plot cropped differently (`context.py`, used by `build_review2.py`): after aligning on the matching
+  dots, if nearly all ink in the overlap agrees (>= 0.75) but the two frames do not coincide, the pair is one
+  plot seen through two windows and is dropped. On all labelled pairs it flags four, all labelled not
+  duplicated or unsure, and none of the 16 labelled duplicated.
+- Labels: `context.py` also compares the title strip above the plots and the text printed inside them. This
+  does not separate deliberate repeats from duplications (matching titles and numbers occur in both
+  classes), so labels and workflow are read by eye for each candidate and written into the item's label.
+- Lower scores: the 11 remaining figures with a pair scoring 12 to 19 were read by eye. Two are candidates
+  (PMC11408713, Der p1+NC vs Der p1+shHDAC4; PMC11573321, Model vs TG; `review5_key.json`, labels pending),
+  three are deliberate (one parent plot with two gates; one plot in two colourings; a preprint copy of a
+  sequential-gating figure) and six are false matches on dotted grid lines, tick marks, dashed gate outlines
+  or correlation matrices.
+
+Mirrored and rotated matches (`flip_search.py`): every panel against itself and every pair of panels in a
+figure, under left-right mirror, top-bottom flip and rotation by 90, 180 and 270 degrees; 7,367 panels in
+3,393 figures. 25 hits (coinciding dots minus chance >= 12), all within one panel, none between panels.
+The 16 best were checked by eye: dotted grids, symmetric curves, tables and bar charts, and eight real flow
+plots whose coinciding dots are scattered through the plot at 12 to 18 above a chance level of 28 to 92.
+None shows a compact mirrored or rotated patch.

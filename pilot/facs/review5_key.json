@@ -1,0 +1,94 @@
+{
+ "L00": {
+  "file": "PMC11408713_gr6.jpg",
+  "a": [
+   192,
+   277,
+   309,
+   394
+  ],
+  "b": [
+   481,
+   277,
+   598,
+   394
+  ],
+  "match": {
+   "score": 15.0,
+   "M": 43,
+   "S": 28,
+   "frac": 0.5,
+   "na": 96,
+   "nb": 86,
+   "scale": 0.9,
+   "dy": 6,
+   "dx": 7,
+   "i": 1,
+   "j": 2
+  },
+  "pmcid": "PMC11408713",
+  "doi": "10.1016/j.waojou.2024.100963",
+  "title": "Sphk1 regulates HMGB1 via HDAC4 and mediates epithelial pyroptosis in allergic rhinitis",
+  "citation": "World Allergy Organ J. 2024 Sep 5;17(9):100963. doi: 10.1016/j.waojou.2024.100963",
+  "fig": "Fig. 6",
+  "license": "CC BY-NC-ND",
+  "retracted": false,
+  "context": {
+   "kind": "part",
+   "ident": 0.4930376482723053,
+   "same_title": null,
+   "same_text": null,
+   "offset": [
+    7,
+    6
+   ],
+   "cover": 1.0
+  }
+ },
+ "L01": {
+  "file": "PMC11573321_ijmm-55-01-05455-g08.jpg",
+  "a": [
+   166,
+   18,
+   269,
+   120
+  ],
+  "b": [
+   436,
+   20,
+   538,
+   119
+  ],
+  "match": {
+   "score": 12.5,
+   "M": 55,
+   "S": 40,
+   "frac": 0.4166666666666667,
+   "na": 132,
+   "nb": 135,
+   "scale": 1.0,
+   "dy": 1,
+   "dx": -1,
+   "i": 0,
+   "j": 1
+  },
+  "pmcid": "PMC11573321",
+  "doi": "10.3892/ijmm.2024.5455",
+  "title": "Protective effect of ginseng extract and total ginsenosides on hematopoietic stem cell damage by inhibiting cell apoptosis and regulating the intestinal microflora",
+  "citation": "Int J Mol Med. 2024 Nov 6;55(1):14. doi: 10.3892/ijmm.2024.5455",
+  "fig": "Figure 9",
+  "license": "CC BY-NC",
+  "retracted": false,
+  "context": {
+   "kind": "part",
+   "ident": 0.6693818878773359,
+   "same_title": null,
+   "same_text": null,
+   "offset": [
+    -1,
+    1
+   ],
+   "cover": 0.9902912621359223
+  }
+ }
+}

@@ -8,6 +8,7 @@ import numpy as np
 from scipy import ndimage as ndi
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import panelmatch as pm
+import context as cx
 
 
 def matched_dots(im, a, b, h, im_b=None):
@@ -65,10 +66,15 @@ def main():
         if r['pairs'] and r['pairs'][0]['score'] >= mn:
             rows.append((r['pairs'][0]['score'], r))
     rows.sort(key=lambda t: -t[0])
-    items, key, papers = [], {}, set()
+    items, key, papers, skipped = [], {}, set(), []
     for sc, r in rows:
         f = r['file']; m = M.get(f, {}); h = r['pairs'][0]
         if m.get('pmcid') in papers or (only and m.get('pmcid') not in only):
+            continue
+        im0 = Image.open(os.path.join(figdir, f)).convert('RGB')
+        ctx = cx.classify(im0, r['panels'][h['i']]['box'], im0, r['panels'][h['j']]['box'], h)
+        if ctx['kind'] == 'crop':      # one plot seen through two windows (inset, zoom): not a duplication
+            skipped.append(f)
             continue
         papers.add(m.get('pmcid'))
         idx = 'G%02d' % len(items)
@@ -81,11 +87,8 @@ def main():
         p1 = os.path.join(out, idx + '_fig.png'); box.save(p1)
         pad = 8
         ca = im.crop((a[0] - pad, a[1] - pad, a[2] + pad, a[3] + pad))
-        if h['scale'] == 1.0:   # same window, shifted so that the matching dots coincide
-            ox, oy = b[0] - h['dx'], b[1] - h['dy']
-            cb = im.crop((ox - pad, oy - pad, ox + (a[2] - a[0]) + pad, oy + (a[3] - a[1]) + pad))
-        else:
-            cb = im.crop((b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad))
+        # both plots are cut at their own frame and brought to one size, so the frames coincide in the GIF
+        cb = im.crop((b[0] - pad, b[1] - pad, b[2] + pad, b[3] + pad))
         s = min(6, 640 / max(ca.size))
         sz = (max(1, int(ca.width * s)), max(1, int(ca.height * s)))
         ca, cb = ca.resize(sz, Image.LANCZOS), cb.resize(sz, Image.LANCZOS)
@@ -111,15 +114,15 @@ def main():
             {'path': p1, 'caption': 'Whole figure: A red, B blue', 'color': True},
             {'path': p2, 'caption': 'A (left) and B (right), enlarged', 'color': True},
             {'path': p4, 'caption': 'Coinciding dots ringed in green; orange box = region they cover', 'color': True},
-            {'path': p3, 'caption': 'A and B alternating', 'color': True}]})
+            {'path': p3, 'caption': 'A and B alternating, aligned on the plot frames', 'color': True}]})
         key[idx] = {'file': f, 'a': a, 'b': b, 'match': h, 'pmcid': m.get('pmcid'), 'doi': m.get('doi'),
                     'title': m.get('title'), 'citation': m.get('citation'), 'fig': m.get('label'),
-                    'license': m.get('license'), 'retracted': m.get('retracted')}
+                    'license': m.get('license'), 'retracted': m.get('retracted'), 'context': ctx}
         if len(items) >= n:
             break
     json.dump(items, open(os.path.join(out, 'items.json'), 'w'))
     json.dump(key, open(os.path.join(out, 'key.json'), 'w'), indent=1)
-    print(len(items), 'items from', len(rows), 'figures')
+    print(len(items), 'items from', len(rows), 'figures;', len(skipped), 'skipped as one plot cropped differently')
 
 
 if __name__ == '__main__':
