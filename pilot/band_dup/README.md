@@ -182,3 +182,22 @@ a blot or control reused in a way that is a problem (MBD4 / TRAM2, ErbB4 / TRIF,
 SURF1, JNK / MEK, CYP2A7 / GPR176 and ABCF1 / PPFIA1 by the reviewer's notes; FOXO3A / EHMT2 by the rule
 above; the last two reviewer-noted groups are also counted among the 20), 5 acceptable reuses, 4 not the
 same band.
+
+## Round 2 labels and what separates the classes
+
+Round 2 (`review_r2_results.json`, 60 items): 10 duplicated, 2 unsure, 48 not duplicated. Duplicated: TCF7L2
+PA5-78192, ATP5J PA5-29202, IFT88 PA5-18467, IFI16 PA5-76462, RPS19 PA5-75564, GBA MA5-26589 (the product
+is in Richardson's spreadsheets), DNMT3L PA5-76619, ATF4 PA5-27576, SMAD2/SMAD3 PA5-17621, and a published
+figure listed under PA5-27822 (not a vendor blot). Unsure: HDAC8 PA5-79353, KRT7 MA5-15604.
+
+With rounds 1 to 3 every within-blot candidate that passes the outline filter has been labelled: 129
+decided items (excluding the low-score controls), 24 duplicated and 105 not.
+- Fill match (1 - nrmse) does not separate them at all (AUC 0.50): duplicated median 0.968, not 0.971.
+  Raising the pixel threshold would not help.
+- Orientation does: 22 of 24 duplicated items are same-orientation matches, while 60 of 105 rejected items
+  are mirrored, flipped or rotated matches.
+- Unusualness of the outline is the best single feature (AUC 0.81; duplicated median 0.20, not 0.09);
+  outline IoU is weaker (AUC 0.68).
+- Rule for further screening: same orientation and (unusualness >= 0.15 or outline IoU >= 0.96). It keeps
+  22 of 24 duplicated items and 18 of 105 rejected ones (precision 0.55, against 0.19 for the filter used
+  so far). The two it loses are the rotated and flipped matches.

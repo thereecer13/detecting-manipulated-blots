@@ -1,0 +1,1862 @@
+{
+ "C00": {
+  "name": "PA5-95223-LRRK2-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/2ca5c537a654.jpg",
+  "cat": "PA5-95223",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95223-LRRK2-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0329,
+   0.996,
+   "rot180",
+   [
+    484,
+    96,
+    60,
+    31
+   ],
+   [
+    154,
+    94
+   ]
+  ],
+  "feat": {
+   "outline": 0.9512954253687108,
+   "outline_min": 0.9431988041853513,
+   "touch": false,
+   "unusual": 0.07729007992601022,
+   "sat": 0.18305084745762712,
+   "fill": 0.9671,
+   "area_ratio": 0.9932659932659933
+  },
+  "score": 0.4942560709299159
+ },
+ "C01": {
+  "name": "PA579347-Hemoglobinalpha-WB.jpg",
+  "path": "icc_all/wb/images/e183eb1de164.jpg",
+  "cat": "PA5-79347",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA579347-Hemoglobinalpha-WB.jpg",
+  "hit": [
+   0.0492,
+   0.992,
+   "same",
+   [
+    169,
+    660,
+    47,
+    20
+   ],
+   [
+    463,
+    650
+   ]
+  ],
+  "feat": {
+   "outline": 0.9595632449376724,
+   "outline_min": 0.9364791288566243,
+   "touch": false,
+   "unusual": 0.06767610719542867,
+   "sat": 0.5344506517690876,
+   "fill": 0.9508,
+   "area_ratio": 0.9869646182495344
+  },
+  "score": 0.5447211274940316
+ },
+ "C02": {
+  "name": "tfs_32550_12672_2023_645_Fig6_HTML.jpg",
+  "path": "icc_all/wb/images/ad7aa15b8762.jpg",
+  "cat": "PA5-49925",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_32550_12672_2023_645_Fig6_HTML.jpg",
+  "hit": [
+   0.0485,
+   0.993,
+   "hflip",
+   [
+    140,
+    314,
+    42,
+    12
+   ],
+   [
+    86,
+    310
+   ]
+  ],
+  "feat": {
+   "outline": 0.9512986869689949,
+   "outline_min": 0.949685534591195,
+   "touch": false,
+   "unusual": 0.1049625601759639,
+   "sat": 0.574468085106383,
+   "fill": 0.9515,
+   "area_ratio": 0.973404255319149
+  },
+  "score": 0.5179500802447164
+ },
+ "C03": {
+  "name": "PA578192-TCF7L2-WB-20210527145632.jpg",
+  "path": "icc_all/wb/images/15ec8407d53d.jpg",
+  "cat": "PA5-78192",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA578192-TCF7L2-WB-20210527145632.jpg",
+  "hit": [
+   0.0465,
+   0.994,
+   "same",
+   [
+    312,
+    406,
+    57,
+    34
+   ],
+   [
+    377,
+    405
+   ]
+  ],
+  "feat": {
+   "outline": 0.9607075040608167,
+   "outline_min": 0.9579510703363915,
+   "touch": false,
+   "unusual": 0.13306899633088307,
+   "sat": 0.5623365300784655,
+   "fill": 0.9535,
+   "area_ratio": 0.9956597222222222
+  },
+  "score": 0.608194135363329
+ },
+ "C04": {
+  "name": "PA529202-ATP5J-AV-WB-20190319102800.jpg",
+  "path": "icc_all/wb/images/4ed4b74b5aa7.jpg",
+  "cat": "PA5-29202",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA529202-ATP5J-AV-WB-20190319102800.jpg",
+  "hit": [
+   0.0251,
+   0.998,
+   "same",
+   [
+    221,
+    1083,
+    91,
+    32
+   ],
+   [
+    318,
+    1079
+   ]
+  ],
+  "feat": {
+   "outline": 0.9669208270585147,
+   "outline_min": 0.9590050667894979,
+   "touch": false,
+   "unusual": 0.11617963795918766,
+   "sat": 0.5921908893709328,
+   "fill": 0.9749,
+   "area_ratio": 0.9919311457772996
+  },
+  "score": 0.5957969251521138
+ },
+ "C05": {
+  "name": "MA5-44705-HNRNPM-WB-1-20230104_130011.jpg",
+  "path": "icc_all/wb/images/8321dbec575d.jpg",
+  "cat": "MA5-44705",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44705-HNRNPM-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.0492,
+   0.99,
+   "rot180",
+   [
+    328,
+    270,
+    42,
+    28
+   ],
+   [
+    374,
+    267
+   ]
+  ],
+  "feat": {
+   "outline": 0.9402207455185948,
+   "outline_min": 0.9272097053726169,
+   "touch": false,
+   "unusual": 0.06368071477361785,
+   "sat": 0.0205761316872428,
+   "fill": 0.9508,
+   "area_ratio": 0.9876543209876543
+  },
+  "score": 0.4769858716910148
+ },
+ "C06": {
+  "name": "PA579353-HDAC8-WB.jpg",
+  "path": "icc_all/wb/images/f67bcd3c189f.jpg",
+  "cat": "PA5-79353",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA579353-HDAC8-WB.jpg",
+  "hit": [
+   0.0349,
+   0.997,
+   "same",
+   [
+    390,
+    589,
+    54,
+    20
+   ],
+   [
+    154,
+    590
+   ]
+  ],
+  "feat": {
+   "outline": 0.9587880611904307,
+   "outline_min": 0.9463327370304114,
+   "touch": false,
+   "unusual": 0.1516140992924981,
+   "sat": 0.5865834633385335,
+   "fill": 0.9651,
+   "area_ratio": 0.9797191887675507
+  },
+  "score": 0.6247598189050031
+ },
+ "C07": {
+  "name": "PA518467-IFT88-WB.jpg",
+  "path": "icc_all/wb/images/851ea4705d73.jpg",
+  "cat": "PA5-18467",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA518467-IFT88-WB.jpg",
+  "hit": [
+   0.0374,
+   0.996,
+   "same",
+   [
+    418,
+    556,
+    42,
+    17
+   ],
+   [
+    182,
+    548
+   ]
+  ],
+  "feat": {
+   "outline": 0.9623727965422759,
+   "outline_min": 0.9375,
+   "touch": false,
+   "unusual": 0.08951751762688176,
+   "sat": 0.6821705426356589,
+   "fill": 0.9626,
+   "area_ratio": 0.9825581395348837
+  },
+  "score": 0.5673356220492426
+ },
+ "C08": {
+  "name": "PA5-95101-TrkC-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/cd846d803f64.jpg",
+  "cat": "PA5-95101",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95101-TrkC-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0253,
+   0.997,
+   "same",
+   [
+    369,
+    309,
+    103,
+    51
+   ],
+   [
+    490,
+    303
+   ]
+  ],
+  "feat": {
+   "outline": 0.9576487171623368,
+   "outline_min": 0.9463899697362732,
+   "touch": false,
+   "unusual": 0.0515686048525326,
+   "sat": 0.20808678500986194,
+   "fill": 0.9747,
+   "area_ratio": 0.9934683213585892
+  },
+  "score": 0.5282089668640476
+ },
+ "C09": {
+  "name": "PA5-95041-CYP11B1-CYP11B2-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/d257405dd236.jpg",
+  "cat": "PA5-95041",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95041-CYP11B1-CYP11B2-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0318,
+   0.996,
+   "same",
+   [
+    162,
+    338,
+    59,
+    27
+   ],
+   [
+    357,
+    332
+   ]
+  ],
+  "feat": {
+   "outline": 0.9600440755187086,
+   "outline_min": 0.9523336643495531,
+   "touch": false,
+   "unusual": 0.07160794490152907,
+   "sat": 0.23404255319148937,
+   "fill": 0.9682,
+   "area_ratio": 0.988173455978975
+  },
+  "score": 0.5487688210221374
+ },
+ "C10": {
+  "name": "PA547298-LAG-3-CD223-WB-1-20250611_074537.jpg",
+  "path": "icc_all/wb/images/5ae136d1034a.jpg",
+  "cat": "PA5-47298",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA547298-LAG-3-CD223-WB-1-20250611_074537.jpg",
+  "hit": [
+   0.0388,
+   0.993,
+   "hflip",
+   [
+    254,
+    614,
+    34,
+    14
+   ],
+   [
+    308,
+    612
+   ]
+  ],
+  "feat": {
+   "outline": 0.9422223899112679,
+   "outline_min": 0.9356435643564357,
+   "touch": false,
+   "unusual": 0.10435230486263458,
+   "sat": 0.04950495049504951,
+   "fill": 0.9612,
+   "area_ratio": 0.9356435643564357
+  },
+  "score": 0.5124908457324493
+ },
+ "C11": {
+  "name": "PA5-95117-RSK1-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/03cd346fcabb.jpg",
+  "cat": "PA5-95117",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95117-RSK1-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0396,
+   0.994,
+   "same",
+   [
+    384,
+    419,
+    101,
+    49
+   ],
+   [
+    264,
+    414
+   ]
+  ],
+  "feat": {
+   "outline": 0.941293102987868,
+   "outline_min": 0.9324509356458238,
+   "touch": false,
+   "unusual": 0.09510329734346228,
+   "sat": 0.23447537473233404,
+   "fill": 0.9604,
+   "area_ratio": 0.986272439281943
+  },
+  "score": 0.5601666293547394
+ },
+ "C12": {
+  "name": "PA5-78964-CD1d-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/0cc7fdb9e391.jpg",
+  "cat": "PA5-78964",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-78964-CD1d-WB-20180709134901.jpg",
+  "hit": [
+   0.0267,
+   0.997,
+   "rot180",
+   [
+    329,
+    713,
+    82,
+    42
+   ],
+   [
+    500,
+    706
+   ]
+  ],
+  "feat": {
+   "outline": 0.9480200580160404,
+   "outline_min": 0.9365192582025678,
+   "touch": false,
+   "unusual": 0.11551100798756757,
+   "sat": 0.20260021668472372,
+   "fill": 0.9733,
+   "area_ratio": 0.9897074756229686
+  },
+  "score": 0.5251651033516967
+ },
+ "C13": {
+  "name": "PA5-143837-TMEM41B-WB-1-20230906_105448.jpg",
+  "path": "icc_all/wb/images/fcef6113517f.jpg",
+  "cat": "PA5-143837",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-143837-TMEM41B-WB-1-20230906_105448.jpg",
+  "hit": [
+   0.0379,
+   0.996,
+   "same",
+   [
+    421,
+    779,
+    90,
+    33
+   ],
+   [
+    312,
+    775
+   ]
+  ],
+  "feat": {
+   "outline": 0.9586742355326378,
+   "outline_min": 0.9543178973717147,
+   "touch": false,
+   "unusual": 0.0750657325295172,
+   "sat": 0.39505494505494504,
+   "fill": 0.9621,
+   "area_ratio": 0.9912087912087912
+  },
+  "score": 0.5513007015137512
+ },
+ "C14": {
+  "name": "tfs_9381_pgen.1008354.g005.jpg",
+  "path": "icc_all/wb/images/c99f815fff6a.jpg",
+  "cat": "PA5-21989",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_9381_pgen.1008354.g005.jpg",
+  "hit": [
+   0.0284,
+   0.996,
+   "hflip",
+   [
+    61,
+    619,
+    64,
+    37
+   ],
+   [
+    270,
+    613
+   ]
+  ],
+  "feat": {
+   "outline": 0.9403198168059825,
+   "outline_min": 0.9301634472511144,
+   "touch": false,
+   "unusual": 0.22902425655903028,
+   "sat": 0.46998867497168745,
+   "fill": 0.9716,
+   "area_ratio": 0.970554926387316
+  },
+  "score": 0.6169643598372344
+ },
+ "C15": {
+  "name": "PA576462-IFI16-WB.jpg",
+  "path": "icc_all/wb/images/6c0cdf492414.jpg",
+  "cat": "PA5-76462",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA576462-IFI16-WB.jpg",
+  "hit": [
+   0.048,
+   0.994,
+   "same",
+   [
+    273,
+    201,
+    36,
+    22
+   ],
+   [
+    405,
+    196
+   ]
+  ],
+  "feat": {
+   "outline": 0.945117373548746,
+   "outline_min": 0.9222689075630253,
+   "touch": false,
+   "unusual": 0.19765542806885072,
+   "sat": 0.6245059288537549,
+   "fill": 0.952,
+   "area_ratio": 0.9656488549618321
+  },
+  "score": 0.6593662658184583
+ },
+ "C16": {
+  "name": "tfs_33825_336f01.jpg",
+  "path": "icc_all/wb/images/eb97ce968eba.jpg",
+  "cat": "PA5-56012",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_33825_336f01.jpg",
+  "hit": [
+   0.047,
+   0.988,
+   "hflip",
+   [
+    529,
+    293,
+    30,
+    12
+   ],
+   [
+    458,
+    292
+   ]
+  ],
+  "feat": {
+   "outline": 0.942345818432775,
+   "outline_min": 0.9242424242424242,
+   "touch": false,
+   "unusual": 0.16943221716973025,
+   "sat": 0.043795620437956206,
+   "fill": 0.953,
+   "area_ratio": 1.0
+  },
+  "score": 0.567752985516669
+ },
+ "C17": {
+  "name": "PA5-117308-PRRS-Virus-Nucleocapsid-Protein-WB-1-20210119135213.jpg",
+  "path": "icc_all/wb/images/492bb927faa3.jpg",
+  "cat": "PA5-117308",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-117308-PRRS-Virus-Nucleocapsid-Protein-WB-1-20210119135213.jpg",
+  "hit": [
+   0.0442,
+   0.994,
+   "hflip",
+   [
+    73,
+    232,
+    43,
+    15
+   ],
+   [
+    169,
+    227
+   ]
+  ],
+  "feat": {
+   "outline": 0.9411135968182949,
+   "outline_min": 0.9177852348993288,
+   "touch": false,
+   "unusual": 0.13540783560382633,
+   "sat": 0.3855721393034826,
+   "fill": 0.9558,
+   "area_ratio": 0.9701492537313433
+  },
+  "score": 0.5381918582504803
+ },
+ "C18": {
+  "name": "PA5-119357-PROHIBITIN-WB-4-2021113123928.jpg",
+  "path": "icc_all/wb/images/0c81f7a6942b.jpg",
+  "cat": "PA5-119357",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119357-PROHIBITIN-WB-4-2021113123928.jpg",
+  "hit": [
+   0.034,
+   0.995,
+   "same",
+   [
+    211,
+    1034,
+    77,
+    28
+   ],
+   [
+    297,
+    1030
+   ]
+  ],
+  "feat": {
+   "outline": 0.947673275107746,
+   "outline_min": 0.9168526785714286,
+   "touch": false,
+   "unusual": 0.09809336016126013,
+   "sat": 0.14459556191839656,
+   "fill": 0.966,
+   "area_ratio": 0.9599141016463851
+  },
+  "score": 0.5667970934442181
+ },
+ "C19": {
+  "name": "PA5-75564-RPS19-WB-1-20200904000242.jpg",
+  "path": "icc_all/wb/images/bee904c211fb.jpg",
+  "cat": "PA5-75564",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-75564-RPS19-WB-1-20200904000242.jpg",
+  "hit": [
+   0.0333,
+   0.996,
+   "same",
+   [
+    392,
+    684,
+    85,
+    25
+   ],
+   [
+    235,
+    687
+   ]
+  ],
+  "feat": {
+   "outline": 0.9674510617617775,
+   "outline_min": 0.9600290697674418,
+   "touch": false,
+   "unusual": 0.26044851657057255,
+   "sat": 0.31064237775647174,
+   "fill": 0.9667,
+   "area_ratio": 0.9952061361457335
+  },
+  "score": 0.735696724771369
+ },
+ "C20": {
+  "name": "tfs_17328_13041_2021_748_Fig6_HTML.jpg",
+  "path": "icc_all/wb/images/f6a30e502e3a.jpg",
+  "cat": "PA5-32173",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_17328_13041_2021_748_Fig6_HTML.jpg",
+  "hit": [
+   0.0308,
+   0.996,
+   "same",
+   [
+    191,
+    420,
+    42,
+    19
+   ],
+   [
+    79,
+    413
+   ]
+  ],
+  "feat": {
+   "outline": 0.9405419226380918,
+   "outline_min": 0.902834008097166,
+   "touch": false,
+   "unusual": 0.10270266629032095,
+   "sat": 0.31952662721893493,
+   "fill": 0.9692,
+   "area_ratio": 0.985207100591716
+  },
+  "score": 0.5668671245318028
+ },
+ "C21": {
+  "name": "PA528964-CardiacTroponinI-WB_20181231225605.jpg",
+  "path": "icc_all/wb/images/2812a474490d.jpg",
+  "cat": "PA5-28964",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA528964-CardiacTroponinI-WB_20181231225605.jpg",
+  "hit": [
+   0.0356,
+   0.996,
+   "same",
+   [
+    296,
+    889,
+    58,
+    27
+   ],
+   [
+    360,
+    885
+   ]
+  ],
+  "feat": {
+   "outline": 0.9652260107398177,
+   "outline_min": 0.9594959495949595,
+   "touch": false,
+   "unusual": 0.1459633072133387,
+   "sat": 0.584061135371179,
+   "fill": 0.9644,
+   "area_ratio": 0.973432518597237
+  },
+  "score": 0.6235005861058303
+ },
+ "C22": {
+  "name": "tfs_34198_urn-x-wiley-10656995-media-cbin12221-cbin12221-fig-0008.jpg",
+  "path": "icc_all/wb/images/f16f14dcadcd.jpg",
+  "cat": "MA5-32080",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_34198_urn-x-wiley-10656995-media-cbin12221-cbin12221-fig-0008.jpg",
+  "hit": [
+   0.044,
+   0.993,
+   "same",
+   [
+    97,
+    539,
+    41,
+    15
+   ],
+   [
+    141,
+    64
+   ]
+  ],
+  "feat": {
+   "outline": 0.9420787205885212,
+   "outline_min": 0.9381443298969072,
+   "touch": false,
+   "unusual": 0.09838305048262264,
+   "sat": 0.0,
+   "fill": 0.956,
+   "area_ratio": 0.9685863874345549
+  },
+  "score": 0.5637239386205256
+ },
+ "C23": {
+  "name": "PA5-95079-TrxR2-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/5618a3f2717b.jpg",
+  "cat": "PA5-95079",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95079-TrxR2-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0222,
+   0.998,
+   "rot180",
+   [
+    403,
+    430,
+    96,
+    44
+   ],
+   [
+    195,
+    423
+   ]
+  ],
+  "feat": {
+   "outline": 0.9708571161684784,
+   "outline_min": 0.9665924276169265,
+   "touch": false,
+   "unusual": 0.11870509125164234,
+   "sat": 0.22033177371331347,
+   "fill": 0.9778,
+   "area_ratio": 0.9987239472564866
+  },
+  "score": 0.5406068165861923
+ },
+ "C24": {
+  "name": "PA5-141028-RRAS-WB-1-20230104_130011.jpg",
+  "path": "icc_all/wb/images/0a144a4cbec4.jpg",
+  "cat": "PA5-141028",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-141028-RRAS-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.047,
+   0.991,
+   "hflip",
+   [
+    277,
+    164,
+    44,
+    21
+   ],
+   [
+    330,
+    349
+   ]
+  ],
+  "feat": {
+   "outline": 0.9430041920550517,
+   "outline_min": 0.9411764705882353,
+   "touch": false,
+   "unusual": 0.0582631211676811,
+   "sat": 0.1014760147601476,
+   "fill": 0.953,
+   "area_ratio": 0.9492119089316988
+  },
+  "score": 0.4738000171777745
+ },
+ "C25": {
+  "name": "MA5-45031-AKT1-WB-1-20230104_130011.jpg",
+  "path": "icc_all/wb/images/aaff5ca08e47.jpg",
+  "cat": "MA5-45031",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-45031-AKT1-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.0379,
+   0.995,
+   "hflip",
+   [
+    323,
+    418,
+    44,
+    14
+   ],
+   [
+    237,
+    414
+   ]
+  ],
+  "feat": {
+   "outline": 0.9493229266177138,
+   "outline_min": 0.926829268292683,
+   "touch": false,
+   "unusual": 0.08388773937906428,
+   "sat": 0.13157894736842105,
+   "fill": 0.9621,
+   "area_ratio": 0.9768637532133676
+  },
+  "score": 0.4988682158071807
+ },
+ "C26": {
+  "name": "tfs_31989_mco-20-03-02722-g01.jpg",
+  "path": "icc_all/wb/images/41627084d503.jpg",
+  "cat": "MA5-23697",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_31989_mco-20-03-02722-g01.jpg",
+  "hit": [
+   0.043,
+   0.994,
+   "vflip",
+   [
+    553,
+    229,
+    41,
+    23
+   ],
+   [
+    495,
+    227
+   ]
+  ],
+  "feat": {
+   "outline": 0.9415418003396866,
+   "outline_min": 0.935,
+   "touch": false,
+   "unusual": 0.09021719317524939,
+   "sat": 0.6408094435075885,
+   "fill": 0.957,
+   "area_ratio": 0.9578414839797639
+  },
+  "score": 0.5001427427882947
+ },
+ "C27": {
+  "name": "MA515604-KRT7-WB.jpg",
+  "path": "icc_all/wb/images/c313c2cee239.jpg",
+  "cat": "MA5-15604",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA515604-KRT7-WB.jpg",
+  "hit": [
+   0.0379,
+   0.995,
+   "same",
+   [
+    388,
+    608,
+    54,
+    20
+   ],
+   [
+    278,
+    606
+   ]
+  ],
+  "feat": {
+   "outline": 0.9582202232722085,
+   "outline_min": 0.9377162629757786,
+   "touch": false,
+   "unusual": 0.12856737778207117,
+   "sat": 0.6139817629179332,
+   "fill": 0.9621,
+   "area_ratio": 0.9924012158054711
+  },
+  "score": 0.6023059730799628
+ },
+ "C28": {
+  "name": "PA5-79994-SHBG-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/3d3373f1f3fe.jpg",
+  "cat": "PA5-79994",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79994-SHBG-WB-20180709134901.jpg",
+  "hit": [
+   0.0312,
+   0.996,
+   "vflip",
+   [
+    331,
+    462,
+    127,
+    55
+   ],
+   [
+    488,
+    460
+   ]
+  ],
+  "feat": {
+   "outline": 0.9546199172383188,
+   "outline_min": 0.9486749412948675,
+   "touch": false,
+   "unusual": 0.07122805014490852,
+   "sat": 0.2159383033419023,
+   "fill": 0.9688,
+   "area_ratio": 0.9966580976863754
+  },
+  "score": 0.4907751065581849
+ },
+ "C29": {
+  "name": "tfs_3474_MMR-15-01-0153-g04.jpg",
+  "path": "icc_all/wb/images/9de2f2cbddc6.jpg",
+  "cat": "PA5-27822",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_3474_MMR-15-01-0153-g04.jpg",
+  "hit": [
+   0.0219,
+   0.998,
+   "rot180",
+   [
+    357,
+    161,
+    47,
+    17
+   ],
+   [
+    231,
+    77
+   ]
+  ],
+  "feat": {
+   "outline": 0.9486722901930635,
+   "outline_min": 0.9401993355481728,
+   "touch": false,
+   "unusual": 0.2018617859658758,
+   "sat": 0.04895104895104895,
+   "fill": 0.9781,
+   "area_ratio": 0.9862068965517241
+  },
+  "score": 0.5992531451021171
+ },
+ "C30": {
+  "name": "PA5-119014-CD300C-WB-1-2021113123928.jpg",
+  "path": "icc_all/wb/images/15c520d979c3.jpg",
+  "cat": "PA5-119014",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119014-CD300C-WB-1-2021113123928.jpg",
+  "hit": [
+   0.0387,
+   0.994,
+   "same",
+   [
+    300,
+    1032,
+    79,
+    23
+   ],
+   [
+    208,
+    1028
+   ]
+  ],
+  "feat": {
+   "outline": 0.9703217781373623,
+   "outline_min": 0.9614271938283511,
+   "touch": false,
+   "unusual": 0.12393453851534615,
+   "sat": 0.3265625,
+   "fill": 0.9613,
+   "area_ratio": 0.9828125
+  },
+  "score": 0.6054172708535253
+ },
+ "C31": {
+  "name": "MA526589-GBA-WB-20200713083630.jpg",
+  "path": "icc_all/wb/images/4316d4eeedcb.jpg",
+  "cat": "MA5-26589",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA526589-GBA-WB-20200713083630.jpg",
+  "hit": [
+   0.0415,
+   0.995,
+   "same",
+   [
+    228,
+    332,
+    51,
+    32
+   ],
+   [
+    160,
+    333
+   ]
+  ],
+  "feat": {
+   "outline": 0.9583392048502857,
+   "outline_min": 0.9578713968957872,
+   "touch": false,
+   "unusual": 0.24707926222189672,
+   "sat": 0.3009153318077803,
+   "fill": 0.9585,
+   "area_ratio": 0.9798206278026906
+  },
+  "score": 0.7159553461178706
+ },
+ "C32": {
+  "name": "PA5-95007-CD90-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/ddc527dea476.jpg",
+  "cat": "PA5-95007",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95007-CD90-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0288,
+   0.996,
+   "rot180",
+   [
+    367,
+    916,
+    99,
+    48
+   ],
+   [
+    475,
+    911
+   ]
+  ],
+  "feat": {
+   "outline": 0.9549904536833207,
+   "outline_min": 0.9447084233261339,
+   "touch": false,
+   "unusual": 0.08629939904166524,
+   "sat": 0.23285379725660757,
+   "fill": 0.9712,
+   "area_ratio": 0.9822543542556688
+  },
+  "score": 0.5039192961765524
+ },
+ "C33": {
+  "name": "PA5-105241-Phospho-GAB2-Ser159-WB-1-20190808102937.jpg",
+  "path": "icc_all/wb/images/9c50b3bf39e8.jpg",
+  "cat": "PA5-105241",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-105241-Phospho-GAB2-Ser159-WB-1-20190808102937.jpg",
+  "hit": [
+   0.0383,
+   0.996,
+   "same",
+   [
+    310,
+    240,
+    45,
+    21
+   ],
+   [
+    379,
+    236
+   ]
+  ],
+  "feat": {
+   "outline": 0.9748029483836982,
+   "outline_min": 0.973724884080371,
+   "touch": false,
+   "unusual": 0.10323576030199506,
+   "sat": 0.6155172413793103,
+   "fill": 0.9617,
+   "area_ratio": 0.9982758620689656
+  },
+  "score": 0.5880359977128666
+ },
+ "C34": {
+  "name": "tfs_20689_urn-x-wiley-0260437X-media-jat4256-jat4256-fig-0004.jpg",
+  "path": "icc_all/wb/images/9b784d5acacb.jpg",
+  "cat": "MA5-32567",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_20689_urn-x-wiley-0260437X-media-jat4256-jat4256-fig-0004.jpg",
+  "hit": [
+   0.0374,
+   0.993,
+   "hflip",
+   [
+    273,
+    353,
+    47,
+    23
+   ],
+   [
+    373,
+    350
+   ]
+  ],
+  "feat": {
+   "outline": 0.9464073137280034,
+   "outline_min": 0.9405099150141643,
+   "touch": false,
+   "unusual": 0.09112065558645481,
+   "sat": 0.294238683127572,
+   "fill": 0.9626,
+   "area_ratio": 0.977366255144033
+  },
+  "score": 0.5034968205684417
+ },
+ "C35": {
+  "name": "MA5-32479-Skeletal-Muscle-Actin-WB-1.jpg",
+  "path": "icc_all/wb/images/c1b3ad9690cd.jpg",
+  "cat": "MA5-32479",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32479-Skeletal-Muscle-Actin-WB-1.jpg",
+  "hit": [
+   0.0359,
+   0.994,
+   "same",
+   [
+    308,
+    321,
+    95,
+    53
+   ],
+   [
+    467,
+    321
+   ]
+  ],
+  "feat": {
+   "outline": 0.947957594393655,
+   "outline_min": 0.934400826446281,
+   "touch": false,
+   "unusual": 0.08462598988371099,
+   "sat": 0.10358711566617862,
+   "fill": 0.9641,
+   "area_ratio": 0.9774597495527728
+  },
+  "score": 0.5542006469901719
+ },
+ "C36": {
+  "name": "tfs_28447_urn-x-wiley-0260437X-media-jat4398-jat4398-fig-0006.jpg",
+  "path": "icc_all/wb/images/0fbe3ddbeaaa.jpg",
+  "cat": "MA5-15739-HRP",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_28447_urn-x-wiley-0260437X-media-jat4398-jat4398-fig-0006.jpg",
+  "hit": [
+   0.042,
+   0.993,
+   "same",
+   [
+    146,
+    160,
+    42,
+    13
+   ],
+   [
+    88,
+    155
+   ]
+  ],
+  "feat": {
+   "outline": 0.9622821899339534,
+   "outline_min": 0.9551724137931035,
+   "touch": false,
+   "unusual": 0.060889011337087275,
+   "sat": 0.5372549019607843,
+   "fill": 0.958,
+   "area_ratio": 0.9770114942528736
+  },
+  "score": 0.5397335061393423
+ },
+ "C37": {
+  "name": "MA5-41203-PRDX1-WB-1-20210721132148.jpg",
+  "path": "icc_all/wb/images/553cb25b7dac.jpg",
+  "cat": "MA5-41203",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41203-PRDX1-WB-1-20210721132148.jpg",
+  "hit": [
+   0.0475,
+   0.993,
+   "vflip",
+   [
+    350,
+    261,
+    56,
+    32
+   ],
+   [
+    263,
+    258
+   ]
+  ],
+  "feat": {
+   "outline": 0.9416195274624837,
+   "outline_min": 0.932258064516129,
+   "touch": false,
+   "unusual": 0.06085933025964263,
+   "sat": 0.28662420382165604,
+   "fill": 0.9525,
+   "area_ratio": 0.9745222929936306
+  },
+  "score": 0.47530448777880874
+ },
+ "C38": {
+  "name": "tfs_32634_jm3c00851_0003.jpg",
+  "path": "icc_all/wb/images/96f0e483f546.jpg",
+  "cat": "PA5-40885",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_32634_jm3c00851_0003.jpg",
+  "hit": [
+   0.0378,
+   0.994,
+   "same",
+   [
+    335,
+    392,
+    36,
+    17
+   ],
+   [
+    410,
+    388
+   ]
+  ],
+  "feat": {
+   "outline": 0.9431218219047105,
+   "outline_min": 0.924901185770751,
+   "touch": false,
+   "unusual": 0.07331772868202453,
+   "sat": 0.5015479876160991,
+   "fill": 0.9621999999999999,
+   "area_ratio": 0.9566563467492261
+  },
+  "score": 0.5407084608048616
+ },
+ "C39": {
+  "name": "tfs_25815_urn-x-wiley-08159319-media-jgh15994-jgh15994-fig-0006.jpg",
+  "path": "icc_all/wb/images/4653d4c9f775.jpg",
+  "cat": "PA5-79822",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_25815_urn-x-wiley-08159319-media-jgh15994-jgh15994-fig-0006.jpg",
+  "hit": [
+   0.0204,
+   0.997,
+   "same",
+   [
+    218,
+    327,
+    30,
+    10
+   ],
+   [
+    102,
+    323
+   ]
+  ],
+  "feat": {
+   "outline": 0.9585878994884623,
+   "outline_min": 0.9467455621301775,
+   "touch": false,
+   "unusual": 0.08756805975199274,
+   "sat": 0.07692307692307693,
+   "fill": 0.9796,
+   "area_ratio": 0.9467455621301775
+  },
+  "score": 0.563235632204174
+ },
+ "C40": {
+  "name": "tfs_19721_41389_2020_301_Fig7_HTML.jpg",
+  "path": "icc_all/wb/images/14bad62887f3.jpg",
+  "cat": "PA5-56754",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_19721_41389_2020_301_Fig7_HTML.jpg",
+  "hit": [
+   0.0457,
+   0.992,
+   "hflip",
+   [
+    160,
+    390,
+    34,
+    11
+   ],
+   [
+    199,
+    386
+   ]
+  ],
+  "feat": {
+   "outline": 0.9439018524384378,
+   "outline_min": 0.9337979094076655,
+   "touch": false,
+   "unusual": 0.1148929699601366,
+   "sat": 0.0,
+   "fill": 0.9543,
+   "area_ratio": 0.9959349593495935
+  },
+  "score": 0.5223587520570712
+ },
+ "C41": {
+  "name": "SRA_Antibody_MA5-15287_Westernblot1-1252013.jpg",
+  "path": "icc_all/wb/images/b2f82b97f991.jpg",
+  "cat": "MA5-15287",
+  "url": "https://www.thermofisher.com/antibody/images/650/SRA_Antibody_MA5-15287_Westernblot1-1252013.jpg",
+  "hit": [
+   0.0312,
+   0.995,
+   "same",
+   [
+    503,
+    665,
+    89,
+    66
+   ],
+   [
+    382,
+    661
+   ]
+  ],
+  "feat": {
+   "outline": 0.9565248576658679,
+   "outline_min": 0.9373052959501558,
+   "touch": false,
+   "unusual": 0.0816439323501218,
+   "sat": 0.0,
+   "fill": 0.9688,
+   "area_ratio": 0.9964500273074822
+  },
+  "score": 0.556356879603416
+ },
+ "C42": {
+  "name": "tfs_16985_gr5.jpg",
+  "path": "icc_all/wb/images/6150aa212595.jpg",
+  "cat": "MA5-11685",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_16985_gr5.jpg",
+  "hit": [
+   0.0349,
+   0.996,
+   "hflip",
+   [
+    356,
+    225,
+    34,
+    20
+   ],
+   [
+    192,
+    551
+   ]
+  ],
+  "feat": {
+   "outline": 0.9533955627705627,
+   "outline_min": 0.948051948051948,
+   "touch": false,
+   "unusual": 0.06761256644344116,
+   "sat": 0.0,
+   "fill": 0.9651,
+   "area_ratio": 0.9864130434782609
+  },
+  "score": 0.4870433719979892
+ },
+ "C43": {
+  "name": "PA5-112292-PDLIM1-WB-1-2020071600.jpg",
+  "path": "icc_all/wb/images/2c144441f99f.jpg",
+  "cat": "PA5-112292",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-112292-PDLIM1-WB-1-2020071600.jpg",
+  "hit": [
+   0.0449,
+   0.993,
+   "same",
+   [
+    261,
+    297,
+    90,
+    36
+   ],
+   [
+    144,
+    292
+   ]
+  ],
+  "feat": {
+   "outline": 0.9558221940055326,
+   "outline_min": 0.9532188841201716,
+   "touch": false,
+   "unusual": 0.05245898277866486,
+   "sat": 0.3830146231721035,
+   "fill": 0.9551,
+   "area_ratio": 0.9623172103487064
+  },
+  "score": 0.5280525570175683
+ },
+ "C44": {
+  "name": "PA576619-DNMT3L-WB-20200304132147.jpg",
+  "path": "icc_all/wb/images/0f1004a69a03.jpg",
+  "cat": "PA5-76619",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA576619-DNMT3L-WB-20200304132147.jpg",
+  "hit": [
+   0.031,
+   0.997,
+   "same",
+   [
+    205,
+    293,
+    39,
+    15
+   ],
+   [
+    71,
+    295
+   ]
+  ],
+  "feat": {
+   "outline": 0.9567390263453103,
+   "outline_min": 0.9435215946843853,
+   "touch": false,
+   "unusual": 0.24228302053409212,
+   "sat": 0.3838383838383838,
+   "fill": 0.969,
+   "area_ratio": 0.9696969696969697
+  },
+  "score": 0.7101711343384433
+ },
+ "C45": {
+  "name": "MA5-50776-PSMC6-WB-1-20240118_095129.jpg",
+  "path": "icc_all/wb/images/91f19ed6278e.jpg",
+  "cat": "MA5-50776",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-50776-PSMC6-WB-1-20240118_095129.jpg",
+  "hit": [
+   0.037,
+   0.995,
+   "hflip",
+   [
+    78,
+    323,
+    42,
+    20
+   ],
+   [
+    331,
+    317
+   ]
+  ],
+  "feat": {
+   "outline": 0.9475731536991807,
+   "outline_min": 0.9340277777777778,
+   "touch": false,
+   "unusual": 0.07350342455671992,
+   "sat": 0.06167400881057269,
+   "fill": 0.963,
+   "area_ratio": 0.9625550660792952
+  },
+  "score": 0.48909280379804215
+ },
+ "C46": {
+  "name": "PA527576-ATF4-WB_20180718093948.jpg",
+  "path": "icc_all/wb/images/c0e39621be7d.jpg",
+  "cat": "PA5-27576",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA527576-ATF4-WB_20180718093948.jpg",
+  "hit": [
+   0.0448,
+   0.993,
+   "same",
+   [
+    323,
+    521,
+    40,
+    16
+   ],
+   [
+    62,
+    521
+   ]
+  ],
+  "feat": {
+   "outline": 0.9735224979489067,
+   "outline_min": 0.9642058165548099,
+   "touch": false,
+   "unusual": 0.11604366271225226,
+   "sat": 0.4273972602739726,
+   "fill": 0.9552,
+   "area_ratio": 1.0
+  },
+  "score": 0.5997323653692256
+ },
+ "C47": {
+  "name": "PA5-79412-HSPB2-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/cbd6d3f413b4.jpg",
+  "cat": "PA5-79412",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79412-HSPB2-WB-20180709134901.jpg",
+  "hit": [
+   0.0366,
+   0.995,
+   "same",
+   [
+    471,
+    811,
+    110,
+    43
+   ],
+   [
+    340,
+    808
+   ]
+  ],
+  "feat": {
+   "outline": 0.9520860802537771,
+   "outline_min": 0.9384920634920635,
+   "touch": false,
+   "unusual": 0.05291965209159577,
+   "sat": 0.11707126076742365,
+   "fill": 0.9634,
+   "area_ratio": 0.9872439118670274
+  },
+  "score": 0.5264271042551696
+ },
+ "C48": {
+  "name": "MA532117-YAP1-AV-WB.jpg",
+  "path": "icc_all/wb/images/f2c818e8ab6b.jpg",
+  "cat": "MA5-32117",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA532117-YAP1-AV-WB.jpg",
+  "hit": [
+   0.044,
+   0.994,
+   "same",
+   [
+    364,
+    590,
+    46,
+    16
+   ],
+   [
+    266,
+    586
+   ]
+  ],
+  "feat": {
+   "outline": 0.9421016344445375,
+   "outline_min": 0.936542669584245,
+   "touch": false,
+   "unusual": 0.12733434640235541,
+   "sat": 0.5442708333333334,
+   "fill": 0.956,
+   "area_ratio": 0.9947916666666666
+  },
+  "score": 0.5910127130888547
+ },
+ "C49": {
+  "name": "PA5-95115-PLA2G4A-WB-1-20190319132517.jpg",
+  "path": "icc_all/wb/images/ac68fbbfad8b.jpg",
+  "cat": "PA5-95115",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-95115-PLA2G4A-WB-1-20190319132517.jpg",
+  "hit": [
+   0.0259,
+   0.997,
+   "same",
+   [
+    329,
+    215,
+    82,
+    37
+   ],
+   [
+    222,
+    214
+   ]
+  ],
+  "feat": {
+   "outline": 0.9527190923538926,
+   "outline_min": 0.9422735346358793,
+   "touch": false,
+   "unusual": 0.09564970525738477,
+   "sat": 0.1336059986366735,
+   "fill": 0.9741,
+   "area_ratio": 0.9925017041581459
+  },
+  "score": 0.5674868465536793
+ },
+ "C50": {
+  "name": "tfs_14110_pgen.1009539.s004.jpg",
+  "path": "icc_all/wb/images/129adce48f26.jpg",
+  "cat": "PA5-29180",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_14110_pgen.1009539.s004.jpg",
+  "hit": [
+   0.0432,
+   0.993,
+   "hflip",
+   [
+    282,
+    358,
+    31,
+    14
+   ],
+   [
+    206,
+    354
+   ]
+  ],
+  "feat": {
+   "outline": 0.9529008691942623,
+   "outline_min": 0.9468085106382979,
+   "touch": false,
+   "unusual": 0.09916439165503484,
+   "sat": 0.21739130434782608,
+   "fill": 0.9568,
+   "area_ratio": 0.9937888198757764
+  },
+  "score": 0.5138498426385008
+ },
+ "C51": {
+  "name": "PA5-80193-TSC1-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/e81a73494986.jpg",
+  "cat": "PA5-80193",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-80193-TSC1-WB-20180709134901.jpg",
+  "hit": [
+   0.025,
+   0.997,
+   "rot180",
+   [
+    209,
+    214,
+    51,
+    27
+   ],
+   [
+    394,
+    209
+   ]
+  ],
+  "feat": {
+   "outline": 0.94604642488639,
+   "outline_min": 0.930622009569378,
+   "touch": false,
+   "unusual": 0.0870949834482313,
+   "sat": 0.19856887298747763,
+   "fill": 0.975,
+   "area_ratio": 0.9821109123434705
+  },
+  "score": 0.4998771991439402
+ },
+ "C52": {
+  "name": "PA518392-Arginase1-WB_20190122142738.jpg",
+  "path": "icc_all/wb/images/daf8f1380f54.jpg",
+  "cat": "PA5-18392",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA518392-Arginase1-WB_20190122142738.jpg",
+  "hit": [
+   0.0441,
+   0.994,
+   "same",
+   [
+    290,
+    756,
+    56,
+    19
+   ],
+   [
+    350,
+    748
+   ]
+  ],
+  "feat": {
+   "outline": 0.9433597345377368,
+   "outline_min": 0.9397394136807817,
+   "touch": false,
+   "unusual": 0.14252256693272372,
+   "sat": 0.48299319727891155,
+   "fill": 0.9559,
+   "area_ratio": 0.9751243781094527
+  },
+  "score": 0.6061299181761595
+ },
+ "C53": {
+  "name": "MA5-44709-EIF1AX-WB-1-20230104_130011.jpg",
+  "path": "icc_all/wb/images/c4d989bd33c6.jpg",
+  "cat": "MA5-44709",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44709-EIF1AX-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.0451,
+   0.993,
+   "rot180",
+   [
+    388,
+    482,
+    47,
+    22
+   ],
+   [
+    211,
+    480
+   ]
+  ],
+  "feat": {
+   "outline": 0.9609930153112494,
+   "outline_min": 0.9601328903654485,
+   "touch": false,
+   "unusual": 0.06238707239952638,
+   "sat": 0.07536231884057971,
+   "fill": 0.9549,
+   "area_ratio": 0.9843081312410842
+  },
+  "score": 0.48640504362955805
+ },
+ "C54": {
+  "name": "tfs_34296_KCBT_A_2392339_F0002_OC.jpg",
+  "path": "icc_all/wb/images/a34b0be8b098.jpg",
+  "cat": "PA5-32178",
+  "url": "https://www.thermofisher.com/antibody/images/650/tfs_34296_KCBT_A_2392339_F0002_OC.jpg",
+  "hit": [
+   0.0233,
+   0.998,
+   "same",
+   [
+    526,
+    761,
+    37,
+    14
+   ],
+   [
+    327,
+    757
+   ]
+  ],
+  "feat": {
+   "outline": 0.9654585308854186,
+   "outline_min": 0.9622093023255814,
+   "touch": false,
+   "unusual": 0.08432237801297486,
+   "sat": 0.25555555555555554,
+   "fill": 0.9767,
+   "area_ratio": 0.9925925925925926
+  },
+  "score": 0.5641390246398809
+ },
+ "C55": {
+  "name": "MA5-44678-GAPDH-WB-1-20230104_130011.jpg",
+  "path": "icc_all/wb/images/333cd021de90.jpg",
+  "cat": "MA5-44678",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44678-GAPDH-WB-1-20230104_130011.jpg",
+  "hit": [
+   0.0461,
+   0.993,
+   "hflip",
+   [
+    316,
+    242,
+    39,
+    18
+   ],
+   [
+    449,
+    237
+   ]
+  ],
+  "feat": {
+   "outline": 0.9549061021514086,
+   "outline_min": 0.9425587467362925,
+   "touch": false,
+   "unusual": 0.05727878451623277,
+   "sat": 0.11659192825112108,
+   "fill": 0.9539,
+   "area_ratio": 0.9798206278026906
+  },
+  "score": 0.4789340207406636
+ },
+ "C56": {
+  "name": "PA5-79588-LCN1-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/1a8c86d991f6.jpg",
+  "cat": "PA5-79588",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-79588-LCN1-WB-20180709134901.jpg",
+  "hit": [
+   0.0264,
+   0.997,
+   "same",
+   [
+    527,
+    763,
+    89,
+    51
+   ],
+   [
+    426,
+    754
+   ]
+  ],
+  "feat": {
+   "outline": 0.959049097455441,
+   "outline_min": 0.9542114188807236,
+   "touch": false,
+   "unusual": 0.15859929031940098,
+   "sat": 0.2208904109589041,
+   "fill": 0.9736,
+   "area_ratio": 0.9944657300979141
+  },
+  "score": 0.6316290549656155
+ },
+ "C57": {
+  "name": "PA517621-SMAD2SMAD3-WB_20180828114149.jpg",
+  "path": "icc_all/wb/images/7464755ccb39.jpg",
+  "cat": "PA5-17621",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA517621-SMAD2SMAD3-WB_20180828114149.jpg",
+  "hit": [
+   0.041,
+   0.995,
+   "same",
+   [
+    350,
+    367,
+    37,
+    16
+   ],
+   [
+    391,
+    363
+   ]
+  ],
+  "feat": {
+   "outline": 0.9745844943621994,
+   "outline_min": 0.9710144927536232,
+   "touch": false,
+   "unusual": 0.2082198041669151,
+   "sat": 0.48214285714285715,
+   "fill": 0.959,
+   "area_ratio": 0.9767441860465116
+  },
+  "score": 0.6902200397413089
+ },
+ "C58": {
+  "name": "PA5-78898-Carbonic-Anhydrase-III-WB-20180709134901.jpg",
+  "path": "icc_all/wb/images/a0c1b2e1458b.jpg",
+  "cat": "PA5-78898",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-78898-Carbonic-Anhydrase-III-WB-20180709134901.jpg",
+  "hit": [
+   0.0256,
+   0.998,
+   "vflip",
+   [
+    331,
+    600,
+    91,
+    36
+   ],
+   [
+    223,
+    596
+   ]
+  ],
+  "feat": {
+   "outline": 0.957051748210925,
+   "outline_min": 0.9498997995991983,
+   "touch": false,
+   "unusual": 0.06428905124511164,
+   "sat": 0.21533613445378152,
+   "fill": 0.9744,
+   "area_ratio": 0.9759097898513582
+  },
+  "score": 0.48604844069137654
+ },
+ "C59": {
+  "name": "MA5-50778-TUBA3C-WB-1-20240118_095129.jpg",
+  "path": "icc_all/wb/images/727224f59cb5.jpg",
+  "cat": "MA5-50778",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-50778-TUBA3C-WB-1-20240118_095129.jpg",
+  "hit": [
+   0.0492,
+   0.992,
+   "hflip",
+   [
+    313,
+    255,
+    54,
+    33
+   ],
+   [
+    376,
+    251
+   ]
+  ],
+  "feat": {
+   "outline": 0.9429430931976001,
+   "outline_min": 0.9416376306620209,
+   "touch": false,
+   "unusual": 0.0643973684586352,
+   "sat": 0.024977698483496878,
+   "fill": 0.9508,
+   "area_ratio": 0.9884032114183765
+  },
+  "score": 0.478975140366274
+ }
+}
