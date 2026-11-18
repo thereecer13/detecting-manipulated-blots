@@ -1,0 +1,126 @@
+{
+ "P00": {
+  "catalog": "16611-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/MRPL46-Antibody-16611-1-AP-IHC6192.jpg",
+  "product_url": "https://www.ptglab.com/products/MRPL46-Antibody-16611-1-AP.htm",
+  "duplications": [
+   [
+    [
+     45,
+     33
+    ],
+    696,
+    26.6274356842041
+   ],
+   [
+    [
+     55,
+     0
+    ],
+    561,
+    27.5164737701416
+   ]
+  ]
+ },
+ "P01": {
+  "catalog": "22980-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/PRODH-Antibody-22980-1-AP-IHC-4967.jpg",
+  "product_url": "https://www.ptglab.com/products/PRODH-Antibody-22980-1-AP.htm",
+  "duplications": [
+   [
+    [
+     9,
+     -78
+    ],
+    248,
+    22.14150047302246
+   ],
+   [
+    [
+     26,
+     35
+    ],
+    213,
+    20.782445907592773
+   ],
+   [
+    [
+     11,
+     59
+    ],
+    211,
+    40.07622528076172
+   ],
+   [
+    [
+     9,
+     34
+    ],
+    203,
+    10.952371597290039
+   ]
+  ]
+ },
+ "P02": {
+  "catalog": "22980-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/PRODH-Antibody-22980-1-AP-IHC-4968.jpg",
+  "product_url": "https://www.ptglab.com/products/PRODH-Antibody-22980-1-AP.htm",
+  "duplications": [
+   [
+    [
+     10,
+     87
+    ],
+    447,
+    27.119022369384766
+   ],
+   [
+    [
+     45,
+     -48
+    ],
+    365,
+    42.43775939941406
+   ],
+   [
+    [
+     21,
+     74
+    ],
+    275,
+    38.284332275390625
+   ],
+   [
+    [
+     27,
+     95
+    ],
+    169,
+    32.9298095703125
+   ]
+  ]
+ },
+ "P03": {
+  "catalog": "51105-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/ERBB2-Antibody-51105-1-AP-IHC22545.jpg",
+  "product_url": "https://www.ptglab.com/products/ERBB2-Antibody-51105-1-AP.htm",
+  "duplications": [
+   [
+    [
+     37,
+     16
+    ],
+    233,
+    53.536155700683594
+   ],
+   [
+    [
+     20,
+     -14
+    ],
+    122,
+    42.42071533203125
+   ]
+  ]
+ }
+}
