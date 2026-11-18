@@ -1114,3 +1114,25 @@ Sixty-first batch (39,424 figures, 84,442 panels; crawl at ~92,300 MA5/PA5 pages
 - False by eye: 3 dark non-hub pairs.
 - Blots (1,392 new): template scan 13 hit products, 1 unlisted, false: PA5-49988 (pattern B, share 0.23) is
   a two-strip blot unlike the template.
+
+Sixty-second batch (39,886 figures, 85,432 panels; crawl at ~93,500 MA5/PA5 pages):
+- No new stained-image reuse. 34 new no-primary control pairs, all joining existing hubs or forming
+  small groups:
+  - TRIM25 PA5-30640 (HeLa, 2021-05-27) carries the panel already shared by RAN, Serpin H1, CBX5 (two
+    products), HSPA9 (three), PKR, BRG1, Ku80 (two), CHEK1, JNK2, FEN1, HNRNPH1 and HSP40, uploaded
+    between 2019-11-05 and 2022-02-14.
+  - CD2AP PA5-96807 (A-431, 2021-03-23) joins BAF57, FZR1, RRM1 (two), RRM2, TIF1 gamma, CDC6, PTPN2
+    (two) and PPP1CB, all same day.
+  - SEC31A PA5-52147 with WIPI2 PA5-78465 and RALA PA5-79910 (A-431).
+  - Control labelled for a treated sample reused for untreated ones: IRF7 PA5-85724 (HeLa treated with
+    IFN alpha, 2022-03-01) shares its no-primary panel with RHAMM PA5-88546 and CRBN PA5-38037 /
+    PA5-78492 (untreated HeLa); G3BP1 PA5-29455 (heat-shocked U-2 OS) with hnRNP D PA5-77026;
+    phospho-SMAD2 MA5-15122 (TGF-beta-treated HeLa) with SMAD4 PA5-34806 (uploads one day apart).
+  - SLC7A11 PA5-18599 (2024-02-01) / SLC6A4 PA5-18374 (2020-12-08): same goat IgG negative control
+    panel, Hep G2, uploads three years apart.
+- Same target (likely legitimate): Galectin 1 (PA5-30706, PA5-27455, MA5-32779), IRF7 (PA5-102832,
+  PA5-85724), ALDH2 (PA5-29717, PA5-11483; captions name each other), CD79a (PA5-77899, PA5-78999).
+- False by eye: dark panels of published figures under PA5-79740, MA5-32078 / PA5-20183, and
+  phospho-PKC beta PA5-105462 / n-Myc PA5-105270 (similar nuclei layout, different cells).
+- Blots (1,369 new): template scan 13 hit products, 1 unlisted, false: PA5-55948 (pattern D, share 0.22)
+  is a ladder blot unlike the exemplar.
