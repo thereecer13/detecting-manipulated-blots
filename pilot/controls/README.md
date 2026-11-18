@@ -1000,3 +1000,21 @@ Fifty-fourth batch (35,979 figures, 77,776 panels; crawl at ~84,400 MA5/PA5 page
 - Blots (2,122 new): template scan 15 hit products, 3 unlisted, none confirmed: PA5-98181 and PA5-12145
   (pattern C, shift-correlation peaks 0.08 and 0.06, at the noise level and off zero) and PA5-52345
   (pattern D, share 0.22; an ordinary two-lane blot by eye).
+
+Fifty-fifth batch (36,702 figures, 79,254 panels; crawl at ~85,200 MA5/PA5 pages):
+- **Same stained image for two targets:** hnRNP L PA5-113689 (2020-08-18) and HNRPUL1 PA5-41832 (no stamp)
+  show the same green nuclear staining of MCF-7 cells, scale bar included. This is the antibody's own
+  staining, not a control panel.
+- Uploads on different dates sharing one control panel, captions consistent: HSP70 PA5-28003 (2018-07-18) /
+  HSP90 alpha PA5-29042 (2018-05-15), HeLa; PBRM1 PA5-84414 (2023-03-16) joins BCL11B (2022-11-28) / SENP1 /
+  PTP1B (A549); Cyclin A2 PA5-14173 (2018-11-16) joins the RAN group (HeLa); CALD1 PA5-17250 (2019-12-09,
+  figure of MDA-MB-231 and MCF-7 cells) joins APAF1 / FADD (MDA-MB-231, 2020-03-04); RAB12 PA5-48179
+  (2023-06-19) joins STAT1 / RAB12; BMAL1 PA5-34706 joins BMAL1 / PKA C-alpha (NIH:OVCAR-3).
+- New same-day pairs or members with consistent captions (plausible batch controls): LPIN2 PA5-142135 /
+  CD34-T PA5-142938 (U2OS, 2023-01-04); PLCG1 PA5-96768 joins RSK / eIF4E (U-87 MG, 2022-06-03); KHK
+  PA5-96677 joins the SH-SY5Y group of 2021-03-23.
+- Same target (likely legitimate): VPS34, PTPN2, LRP6, FAT4, BMAL1, IFITM3.
+- False by eye: a published-figure panel (PA5-34401 vs COL6A3 PA5-49914) and 2 dark non-hub pairs.
+- Blots (1,926 new): template scan 19 hit products, 3 unlisted, none confirmed: PA5-47897 (pattern C,
+  shift-correlation peak 0.05, off zero) and PA5-49841, PA5-50043 (pattern B, share 0.15 and 0.22) are
+  two-strip blots that differ from the templates by eye.
