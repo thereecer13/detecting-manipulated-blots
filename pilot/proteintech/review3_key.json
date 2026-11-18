@@ -1,0 +1,142 @@
+{
+ "Q00": {
+  "catalog": "12836-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/GYG1-Antibody-12836-1-AP-IHC-403946.jpg",
+  "product_url": "https://www.ptglab.com/products/GYG1-Antibody-12836-1-AP.htm",
+  "candidates": [
+   [
+    [
+     13,
+     5
+    ],
+    241
+   ],
+   [
+    [
+     11,
+     7
+    ],
+    95
+   ]
+  ]
+ },
+ "Q01": {
+  "catalog": "16034-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/PSMD7-Antibody-16034-1-AP-IHC-876920.jpg",
+  "product_url": "https://www.ptglab.com/products/PSMD7-Antibody-16034-1-AP.htm",
+  "candidates": [
+   [
+    [
+     38,
+     -93
+    ],
+    73
+   ]
+  ]
+ },
+ "Q02": {
+  "catalog": "25616-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/ASB13-Antibody-25616-1-AP-IHC-888117.jpg",
+  "product_url": "https://www.ptglab.com/products/ASB13-Antibody-25616-1-AP.htm",
+  "candidates": [
+   [
+    [
+     95,
+     -74
+    ],
+    65
+   ]
+  ]
+ },
+ "Q03": {
+  "catalog": "29190-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/UVRAG-Antibody-29190-1-AP-IHC-778137.jpg",
+  "product_url": "https://www.ptglab.com/products/UVRAG-Antibody-29190-1-AP.htm",
+  "candidates": [
+   [
+    [
+     99,
+     -45
+    ],
+    62
+   ]
+  ]
+ },
+ "Q04": {
+  "catalog": "51105-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/ERBB2-Antibody-51105-1-AP-IHC-25584.jpg",
+  "product_url": "https://www.ptglab.com/products/ERBB2-Antibody-51105-1-AP.htm",
+  "candidates": [
+   [
+    [
+     25,
+     -54
+    ],
+    95
+   ],
+   [
+    [
+     33,
+     -30
+    ],
+    89
+   ]
+  ]
+ },
+ "Q05": {
+  "catalog": "87017-1-RR",
+  "image_url": "https://www.ptglab.com/products/pictures/ZCCHC8-Antibody-87017-1-RR-IHC-954432.jpg",
+  "product_url": "https://www.ptglab.com/products/ZCCHC8-Antibody-87017-1-RR.htm",
+  "candidates": [
+   [
+    [
+     7,
+     98
+    ],
+    76
+   ]
+  ]
+ },
+ "Q06": {
+  "catalog": "66483-1-Ig",
+  "image_url": "https://www.ptglab.com/products/pictures/CK7-Antibody-66483-1-Ig-IHC-103845.jpg",
+  "product_url": "https://www.ptglab.com/products/CK7-Antibody-66483-1-Ig.htm",
+  "candidates": [
+   [
+    [
+     148,
+     19
+    ],
+    94
+   ]
+  ]
+ },
+ "Q07": {
+  "catalog": "60348-1-PBS",
+  "image_url": "https://www.ptglab.com/products/pictures/MLANA-Antibody-60348-1-Ig-IHC-60801.jpg",
+  "product_url": "https://www.ptglab.com/products/Melan-A-Antibody-60348-1-PBS.htm",
+  "candidates": [
+   [
+    [
+     7,
+     16
+    ],
+    84
+   ]
+  ]
+ },
+ "Q08": {
+  "catalog": "86155-1-PBS",
+  "image_url": "https://www.ptglab.com/products/pictures/TACSTD2-Antibody-86155-1-RR-IHC-913741.jpg",
+  "product_url": "https://www.ptglab.com/products/TACSTD2-Antibody-86155-1-PBS.htm",
+  "candidates": [
+   [
+    [
+     9,
+     11
+    ],
+    67
+   ]
+  ]
+ }
+}
