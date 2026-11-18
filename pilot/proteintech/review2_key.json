@@ -1,0 +1,107 @@
+{
+ "Q00": {
+  "catalog": "20097-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/CPNE8-Antibody-20097-1-AP-IHC20084.jpg",
+  "product_url": "https://www.ptglab.com/products/CPNE8-Antibody-20097-1-AP.htm",
+  "candidates": [
+   [
+    [
+     31,
+     2
+    ],
+    251
+   ],
+   [
+    [
+     17,
+     3
+    ],
+    61
+   ]
+  ]
+ },
+ "Q01": {
+  "catalog": "14648-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/NCF4-Antibody-14648-1-AP-IHC11982.jpg",
+  "product_url": "https://www.ptglab.com/products/NCF4-Antibody-14648-1-AP.htm",
+  "candidates": [
+   [
+    [
+     42,
+     9
+    ],
+    60
+   ]
+  ]
+ },
+ "Q02": {
+  "catalog": "66483-1-Ig",
+  "image_url": "https://www.ptglab.com/products/pictures/CK7-Antibody-66483-1-Ig-IHC-169089.jpg",
+  "product_url": "https://www.ptglab.com/products/CK7-Antibody-66483-1-Ig.htm",
+  "candidates": [
+   [
+    [
+     4,
+     107
+    ],
+    82
+   ],
+   [
+    [
+     99,
+     117
+    ],
+    78
+   ],
+   [
+    [
+     27,
+     132
+    ],
+    71
+   ],
+   [
+    [
+     143,
+     63
+    ],
+    67
+   ]
+  ]
+ },
+ "Q03": {
+  "catalog": "26980-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/Connexin-43-Antibody-26980-1-AP-IHC-97820.jpg",
+  "product_url": "https://www.ptglab.com/products/Connexin-43-Antibody-26980-1-AP.htm",
+  "candidates": [
+   [
+    [
+     77,
+     -112
+    ],
+    87
+   ],
+   [
+    [
+     140,
+     77
+    ],
+    81
+   ]
+  ]
+ },
+ "Q04": {
+  "catalog": "16661-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/UGT2B7-Antibody-16661-1-AP-IHC9483.jpg",
+  "product_url": "https://www.ptglab.com/products/UGT2B7-Antibody-16661-1-AP.htm",
+  "candidates": [
+   [
+    [
+     33,
+     -12
+    ],
+    83
+   ]
+  ]
+ }
+}

@@ -38,3 +38,22 @@ fragments total >= 120 px, checked with difference maps:
 
 Most flagged images also carry many small (60-95 px) look-alike regions; the count of regions per image
 is not by itself evidence.
+
+### User review (18 Nov) and the remaining flagged images
+The four images above (MRPL46 IHC6192, PRODH IHC-4967 and IHC-4968, ERBB2 IHC22545) were all labelled
+"copied" by the reviewer.
+
+Remaining 188 flagged images: every (image, offset) group of >= 60 px was scored by the mean pixel
+difference inside the matched outline against a ring around it (a true copy is identical inside and
+different outside; the confirmed groups have inside ~5-17, ring ~30-90). Groups with ring/inside >= 2
+that are not on pale background (< 25% of pixels above 225, mean brightness < 215): 57 groups in 35
+images, all checked by eye with difference maps. Most are the web of pale background between nuclei,
+which matches itself at many offsets. Sent for review (`build_review.py`, key `review2_key.json`):
+
+| Product / image | Candidates | My call |
+|---|---|---|
+| 20097-1-AP, IHC20084 | offsets (31, 2) 251 px and (17, 3) 61 px | likely: compact identical patch in textured stained tissue |
+| 14648-1-AP, IHC11982 | (42, 9) 60 px | possible |
+| 66483-1-Ig, IHC-169089 | 4 offsets, 67-82 px | possible: compact patches among cells |
+| 26980-1-AP, IHC-97820 | 2 offsets, 81-87 px | possible |
+| 16661-1-AP, IHC9483 | (33, -12) 83 px | weak |
