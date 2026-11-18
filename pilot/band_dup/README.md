@@ -201,3 +201,27 @@ decided items (excluding the low-score controls), 24 duplicated and 105 not.
 - Rule for further screening: same orientation and (unusualness >= 0.15 or outline IoU >= 0.96). It keeps
   22 of 24 duplicated items and 18 of 105 rejected ones (precision 0.55, against 0.19 for the filter used
   so far). The two it loses are the rotated and flipped matches.
+
+## Border similarity (`border.py`)
+
+Reviewer's point: the filled interior of a dark band matches any other dark band, so similarity should be
+measured on the band's border. Edge zone = within 2 px of the half-depth outline of either band. On the 129
+decided within-blot items (24 duplicated, 105 not):
+
+| Feature | Duplicated (median) | Not (median) | AUC |
+|---|---|---|---|
+| whole-patch pixel similarity (the "fill match" shown so far) | 0.968 | 0.971 | 0.50 |
+| pixel similarity in the edge zone (RMS difference) | 0.958 | 0.956 | 0.50 |
+| correlation of the pixels in the edge zone | 0.987 | 0.969 | 0.78 |
+| correlation of the fine detail in the edge zone (image minus a 1.5 px blur) | 0.953 | 0.725 | 0.84 |
+| outline unusualness | 0.195 | 0.091 | 0.81 |
+| pixel similarity of the interior only | 0.988 | 0.975 | 0.84 |
+
+- An RMS difference is the wrong measure anywhere: it is dominated by the steep edge gradient, where a
+  sub-pixel shift costs as much as a different shape. The correlation of fine detail along the border is
+  what separates copies from look-alikes.
+- The interior is not uninformative once the border is excluded, probably because many bands are not
+  saturated and carry their own texture.
+- Sum of standardised border detail and unusualness, plus one point for a same-orientation match: AUC 0.92;
+  the 40 best-ranked of the 129 items contain 22 of the 24 duplicated. This is fitted and tested on the same
+  labels, so the next labelled set is the real test.
