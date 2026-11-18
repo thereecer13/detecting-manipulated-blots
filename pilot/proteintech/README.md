@@ -88,3 +88,10 @@ per image (the spot scan took ~2 min). On the first 737 images: 21 images flagge
 - False by eye: three images with 7-17 blocks each at short offsets in striated or smooth tissue
   (84854-5-RR, 84281-5-PBS, 85857-4-RR) and ten single blocks on pale or blurred areas.
 Sent for review as round 4 (`review4_key.json`). Minimum offset raised from 12 to 16 px afterwards.
+
+### Round-4 labels (18 Nov, `review4_results.json`)
+Copied: 17363-1-AP SLC30A3 IHC9569 (new image), and the new areas in PRODH IHC-4967 and ERBB2 IHC22545.
+Not copied: 22462-1-AP GNRHR IHC-90506 (154 px, the smallest block shown).
+Confirmed images so far: 6 of 737 (MRPL46 16611-1-AP, PRODH 22980-1-AP x2, ERBB2 51105-1-AP,
+20097-1-AP, SLC30A3 17363-1-AP). On the fast scan's blocks, every one labelled copied is >= 221 px and
+the one labelled not copied is 154 px.

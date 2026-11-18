@@ -1,0 +1,30 @@
+{
+ "review": "proteintech_ihc_blocks_round4",
+ "exported": "2026-11-18T20:46:38.267Z",
+ "items": [
+  {
+   "id": "Q00",
+   "label": "Proteintech 17363-1-AP SLC30A3, image SLC30A3-Antibody-17363-1-AP-IHC9569.jpg: 2 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  },
+  {
+   "id": "Q01",
+   "label": "Proteintech 22462-1-AP GNRHR, image GNRHR-Antibody-22462-1-AP-IHC-90506.jpg: 1 candidate copied area(s)",
+   "verdict": "not copied",
+   "notes": ""
+  },
+  {
+   "id": "Q02",
+   "label": "Proteintech 22980-1-AP PRODH, image PRODH-Antibody-22980-1-AP-IHC-4967.jpg: 1 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  },
+  {
+   "id": "Q03",
+   "label": "Proteintech 51105-1-AP ERBB2, image ERBB2-Antibody-51105-1-AP-IHC22545.jpg: 2 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  }
+ ]
+}
