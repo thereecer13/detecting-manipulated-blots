@@ -126,3 +126,10 @@ lines are dropped, and a block must be 8% to 85% ink. Same self-test: 15% of cle
 57%; 90th percentile of the best clean score 10, 95th 22), but only 18 of 60 planted clones are found (was
 26). Lowering the match threshold from 0.90 to 0.80 does not recover them, so the misses are probably
 planted patches with too few textured blocks left after the masks. Not yet run on the real plots.
+
+Why `patch_clone.py` misses planted clones: in a repeat of the self-test with the planted positions
+recorded (40 plots), 11 were found. Every one of the 29 misses had fewer than 10% usable blocks inside the
+planted patch (median 0%), where "usable" means textured, 8% to 85% ink and clear of text, ticks and lines;
+both plots with at least 30% usable blocks were found. So the misses are not a matching failure: at the
+size PMC serves, most of a plot, including much of the event cloud, has no texture the detector can use.
+The detector is therefore run on the real plots as it is, as a search limited to their textured parts.
