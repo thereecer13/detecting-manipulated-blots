@@ -1,0 +1,144 @@
+{
+ "review": "band_duplication_r3_within",
+ "exported": "2026-11-18T01:43:27.604Z",
+ "items": [
+  {
+   "id": "W00",
+   "label": "Within one blot (PA5-105597): B matches A as is — outline match 97%, fill match 96.8%",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W01",
+   "label": "Within one blot (PA5-27559): B matches A as is — outline match 99%, fill match 99.0%",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W02",
+   "label": "Within one blot (PA5-17018): B matches A as is — outline match 96%, fill match 95.6%",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W03",
+   "label": "Within one blot (PA5-37131): B matches A as is — outline match 95%, fill match 96.8%",
+   "verdict": "duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W04",
+   "label": "Within one blot (PA5-52629): B matches A as is — outline match 98%, fill match 97.4%",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "W05",
+   "label": "Within one blot (PA5-79184): B matches A as is — outline match 96%, fill match 97.8%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W06",
+   "label": "Within one blot (PA5-30044): B matches A as is — outline match 94%, fill match 95.8%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W07",
+   "label": "Within one blot (PA5-118351): B matches A as is — outline match 96%, fill match 97.4%",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "W08",
+   "label": "Within one blot (PA5-79645): B matches A rotated 180 degrees — outline match 96%, fill match 97.2%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W09",
+   "label": "Within one blot (PA5-79944): B matches A as is — outline match 94%, fill match 95.7%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W10",
+   "label": "Within one blot (PA5-95135): B matches A as is — outline match 95%, fill match 97.1%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W11",
+   "label": "Within one blot (PA5-80221): B matches A as is — outline match 96%, fill match 97.5%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W12",
+   "label": "Within one blot (PA5-95228): B matches A mirrored left-right — outline match 94%, fill match 95.0%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W13",
+   "label": "Within one blot (PA5-141097): B matches A mirrored left-right — outline match 95%, fill match 95.2%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W14",
+   "label": "Within one blot (PA5-19462): B matches A mirrored left-right — outline match 95%, fill match 97.1%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W15",
+   "label": "Within one blot (PA5-119463): B matches A rotated 180 degrees — outline match 94%, fill match 95.0%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W16",
+   "label": "Within one blot (PA5-79357): B matches A rotated 180 degrees — outline match 95%, fill match 97.3%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W17",
+   "label": "Within one blot (PA5-80056): B matches A flipped top-bottom — outline match 95%, fill match 97.6%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W18",
+   "label": "Within one blot (PA5-95549): B matches A rotated 180 degrees — outline match 94%, fill match 95.7%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W19",
+   "label": "Within one blot (MA5-36056): B matches A rotated 180 degrees — outline match 95%, fill match 95.8%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W20",
+   "label": "Within one blot (PA5-95138): B matches A mirrored left-right — outline match 95%, fill match 95.9%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W21",
+   "label": "Within one blot (MA5-44763): B matches A mirrored left-right — outline match 94%, fill match 95.0%",
+   "verdict": "not duplicated",
+   "notes": ""
+  },
+  {
+   "id": "W22",
+   "label": "Within one blot (MA5-44723): B matches A mirrored left-right — outline match 94%, fill match 95.3%",
+   "verdict": "not duplicated",
+   "notes": ""
+  }
+ ]
+}

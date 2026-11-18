@@ -1,0 +1,216 @@
+{
+ "review": "band_duplication_r3_across",
+ "exported": "2026-11-18T01:30:42.839Z",
+ "items": [
+  {
+   "id": "G00",
+   "label": "Across blots: 7 products show this band (5 shown) — surroundings differ; only the band matches. PA5-86477 C-EBP-gamma (2019-02-28); PA5-86571 TNF-beta (2019-02-28); PA5-86584 Cytokeratin-19 (2019-02-28); PA5-86596 Cofilin (2019-02-28); PA5-86607 Stathmin-1 (2019-02-28)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G01",
+   "label": "Across blots: 7 products show this band (5 shown) — surroundings differ; only the band matches. PA5-86443 JAB1 (2019-02-28); PA5-86534 CD9 (2019-02-28); PA5-86543 Histone-H2B (2019-02-28); PA5-86554 eIF4E (2019-02-28); PA5-86594 NGF (2019-02-28)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G02",
+   "label": "Across blots: 6 products show this band (5 shown) — surroundings differ; only the band matches. MA5-43578 SFTPC (2022-04-13); MA5-43732 IL-5 (2022-04-13); MA5-43740 IL-18 (2022-04-13); MA5-43834 ERLIN2 (2022-04-13); MA5-43947 ARMET (2022-04-13)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G03",
+   "label": "Across blots: 4 products show this band — surroundings also match (same image region). MA5-25136 KHK (2017-12-19); MA5-25137 KHK (2017-12-19); MA5-25175 MIOX (2017-12-19); MA5-25145 C9orf41 (2017-12-19, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G05",
+   "label": "Across blots: 3 products show this band — surroundings also match (same image region). MA5-56606 Influenza-A-H9N2-HA-A-turkey-Wisconsin-1-1966 (2025-01-13); MA5-56607 Influenza-A-H9N2-HA-A-turkey-Wisconsin-1-1966 (2025-01-13); MA5-56759 Influenza-A-H3N2-HA-A-TW-3446-02 (2025-01-13)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G06",
+   "label": "Across blots: 3 products show this band — surroundings also match (same image region). MA5-25160 GRASP65 (2017-12-19); MA5-25164 HID1 (2017-12-19); MA5-25166 Thromboxane-synthase (2017-12-19)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G07",
+   "label": "Across blots: 3 products show this band — surroundings partly match. PA5-119095 DSPG3 (2021-11-31); PA5-119358 GCDFP-15 (2021-11-31); PA5-122068 CPSF1 (2022-04-13)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G08",
+   "label": "Across blots: 3 products show this band — surroundings also match (same image region). PA5-115002 p16INK4a (2021-01-13); PA5-99229 BHLHE41 (2019-08-08); PA5-99262 IRX2 (2019-08-08)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G09",
+   "label": "Across blots: 2 products show this band — surroundings partly match. MA5-44755 WDR1 (2023-01-04); MA5-50643 ASS1 (2024-01-18)",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G12",
+   "label": "Across blots: 2 products show this band — surroundings partly match. MA5-43558 TMEM27 (2022-04-13); PA5-119060 COX2 (2021-11-31)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G13",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). MA5-50379 GNAI1-GNAI2-GNAI3 (2024-01-23); MA5-50380 GNAI3 (2024-01-23)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G14",
+   "label": "Across blots: 2 products show this band — surroundings differ; only the band matches. MA5-15174 Phospho-ERK1-ERK2-Tyr204 (no date); MA5-15175 Phospho-JNK1-JNK2-Thr183-Tyr185 (no date)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G15",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). MA5-24698 H2BK20ac (2018-01-17); PA5-40100 H2BK12ac (2018-01-23)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G16",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-67499 Phospho-MYL2-Tyr118 (2023-05-03); PA5-67500 Phospho-MYL2-Ser15 (2023-05-03)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G17",
+   "label": "Across blots: 2 products show this band — surroundings partly match. PA5-75620 Gng12 (2020-09-04); PA5-75640 FXYD2 (2020-09-04)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G18",
+   "label": "Across blots: 2 products show this band — surroundings partly match. PA5-86084 TRF1 (2019-02-28); PA5-86747 CDK9 (2019-02-28)",
+   "verdict": "same band, different blots",
+   "notes": "Actually can you check alignment on the bands when they're flipped? Also it looks like two different bands here are duplicated rather than just one. "
+  },
+  {
+   "id": "G20",
+   "label": "Across blots: 2 products show this band — surroundings partly match. PA5-78701 ABCG5 (2018-07-09); PA5-80221 Villin (2018-07-09)",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G21",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-79639 MBD4 (2018-07-09); PA5-95107 TRAM2 (2019-03-19)",
+   "verdict": "whole blot or control reused",
+   "notes": "Completely duplicated blot for different proteins. "
+  },
+  {
+   "id": "G22",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-95075 ErbB4 (2019-03-19); PA5-95078 TRIF (2019-03-19)",
+   "verdict": "whole blot or control reused",
+   "notes": "Completely duplicated blot for different proteins. "
+  },
+  {
+   "id": "G24",
+   "label": "Across blots: 2 products show this band — surroundings differ; only the band matches. PA5-79822 PIK3R2 (2023-04-10); PA5-79958 SCLY (2018-07-09)",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G27",
+   "label": "Across blots: 2 products show this band — surroundings differ; only the band matches. PA5-75678 PANK2 (2020-09-04); PA5-86800 PIK3CD (2019-02-28)",
+   "verdict": "same band, different blots",
+   "notes": "The leftmost band also seems reused here. "
+  },
+  {
+   "id": "G28",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-75499 CYP2A7 (2020-09-04); PA5-75518 GPR176 (2020-09-04)",
+   "verdict": "same band, different blots",
+   "notes": "Completely duplicated blot "
+  },
+  {
+   "id": "G29",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-27145 FOXO3A (2018-03-12); PA5-34971 EHMT2 (2018-03-12)",
+   "verdict": "whole blot or control reused",
+   "notes": ""
+  },
+  {
+   "id": "G30",
+   "label": "Across blots: 2 products show this band — surroundings partly match. PA5-51687 PFKM (2019-01-31); PA5-51688 GART (2019-01-31)",
+   "verdict": "whole blot or control reused",
+   "notes": "problem"
+  },
+  {
+   "id": "G31",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-99163 Cyclin-G1 (2019-08-08); PA5-99296 SURF1 (2019-08-08)",
+   "verdict": "whole blot or control reused",
+   "notes": "problem"
+  },
+  {
+   "id": "G32",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-99529 JNK1-JNK2-JNK3 (2019-08-08); PA5-99542 MEK1-MEK2 (2019-08-08)",
+   "verdict": "whole blot or control reused",
+   "notes": "problem"
+  },
+  {
+   "id": "G33",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-118972 ABCF1 (2021-11-31); PA5-119372 PPFIA1 (2021-11-31)",
+   "verdict": "same band, different blots",
+   "notes": "control is reused which is problematic"
+  },
+  {
+   "id": "G34",
+   "label": "Across blots: 2 products show this band — surroundings differ; only the band matches. PA5-79184 DCI (2018-07-09); PA5-95135 CDK7 (2019-03-19)",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "G35",
+   "label": "Across blots: 9 products show this band (5 shown) — surroundings partly match. PA5-116143 ZDHHC7 (2021-01-13); PA5-101077 LRAT (2019-08-08, in Richardson); PA5-101265 CREBZF (2019-08-08, in Richardson); PA5-101304 COX11 (2019-08-08, in Richardson); PA5-101426 AIG1 (2019-08-08, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G36",
+   "label": "Across blots: 8 products show this band (5 shown) — surroundings partly match. PA5-118918 USP24 (no date); PA5-103634 ABCA7 (2019-08-08, in Richardson); PA5-103799 POLR3G (2019-08-08, in Richardson); PA5-103869 TRIM23 (2019-08-08, in Richardson); PA5-103932 MUC7 (2019-08-08, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G37",
+   "label": "Across blots: 7 products show this band (5 shown) — surroundings partly match. PA5-99390 Caspase-1-p20-Cleaved-Asp296 (2019-08-08); PA5-103078 CHD5 (2019-08-08, in Richardson); PA5-103208 JTB (2019-08-08, in Richardson); PA5-104015 PLD2 (2019-08-08, in Richardson); PA5-115405 IL-37 (2021-01-13, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G38",
+   "label": "Across blots: 6 products show this band (5 shown) — surroundings partly match. PA5-118907 CABP5 (no date); PA5-103312 TMPRSS15 (2019-08-08, in Richardson); PA5-103456 Cytokeratin-Pan-Type-II (2019-08-08, in Richardson); PA5-104002 PEX6 (2019-08-08, in Richardson); PA5-104409 EBF1 (2019-08-08, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G39",
+   "label": "Across blots: 4 products show this band — surroundings partly match. PA5-116125 Wnt10B (2021-01-13); PA5-103674 CHERP (2019-08-08, in Richardson); PA5-114931 CGRP (2021-01-13, in Richardson); PA5-115605 MYBPC3 (2021-01-13, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G40",
+   "label": "Across blots: 2 products show this band — surroundings also match (same image region). PA5-99140 Phospho-PAK3-Ser154 (2019-08-08); PA5-99285 SPDL1 (2019-08-08, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "G41",
+   "label": "Across blots: 2 products show this band — surroundings differ; only the band matches. PA5-115548 MAST1 (2021-01-13); PA5-99601 PNCK (2019-08-08, in Richardson)",
+   "verdict": "same band, different blots",
+   "notes": ""
+  }
+ ]
+}

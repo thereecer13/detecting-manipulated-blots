@@ -131,3 +131,31 @@ named after their product):
 
 Not covered: bands under 30 x 10 px, symmetric ovals, resized copies across blots (the strict tier is
 same-scale only; 6,345 looser resized matches were not reviewed), and other vendors.
+
+## Round 3 labels
+
+Within one blot (`review_r3_within_results.json`, 23 items): 4 duplicated, 2 unsure, 17 not duplicated.
+Duplicated: Phospho-CXCR4 PA5-105597, SNRPB PA5-27559, ATG3 PA5-17018, ABCA5 PA5-37131; unsure: HEXIM1
+PA5-52629, Vinculin PA5-118351. None of the six is in Richardson's spreadsheets. All four duplicated items
+are same-orientation matches; every mirrored or rotated candidate was labelled not duplicated.
+
+Across blots (`review_r3_across_results.json`, 35 groups; this export used the first version of the page,
+whose option "whole blot or control reused" did not say whether the reuse is acceptable):
+- 20 groups "same band, different blots": 83 products, 51 of them not in Richardson's spreadsheets.
+- 11 groups "whole blot or control reused". The reviewer's notes mark five as a problem: MBD4 PA5-79639 /
+  TRAM2 PA5-95107 and ErbB4 PA5-95075 / TRIF PA5-95078 ("completely duplicated blot for different
+  proteins"), PFKM / GART, Cyclin G1 / SURF1, JNK / MEK. The other six carry no note (influenza HA tag
+  control, GNAI tag control, phospho-ERK / phospho-JNK, H2B loading control, MLC2 loading control,
+  FOXO3A / EHMT2). Two groups labelled "same band" also carry reuse notes: CYP2A7 / GPR176 ("completely
+  duplicated blot") and ABCF1 / PPFIA1 ("control is reused which is problematic").
+- 4 groups "not the same band": WDR1 / ASS1, ABCG5 / Villin, PIK3R2 / SCLY, DCI / CDK7.
+
+Display bug found by the reviewer: `build_page3.py` drew the group GIF without turning the second band when
+the match was mirrored or rotated. Three groups were affected (G18, G20, G24); G20 and G24 were labelled
+"not the same band" from misaligned GIFs. `pair_page.py` redraws a pair of blots with every matching band
+pair boxed and each GIF turned and aligned (round 3c, `review_r3c_key.json`, labels pending):
+- CDK9 PA5-86747 / TRF1 PA5-86084: two band pairs, both rotated 180 degrees and in reversed lane order.
+  The whole three-band row of one blot matches the other blot's row rotated 180 degrees (NCC 0.97).
+- FXYD2 PA5-75640 / Gng12 PA5-75620 and PANK2 PA5-75678 / PIK3CD PA5-86800: two shared bands each.
+- ABCG5 / Villin and PIK3R2 / SCLY: many-to-many matches in every orientation (8 and 11 pairs between
+  plain, near-identical ovals), which is what generic bands produce rather than a specific copy.
