@@ -5062,5 +5062,277 @@
   "score": 0.895,
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA530048-Golgin97-ICC.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA562110-GMNN-ICC.jpg"
+ },
+ {
+  "group": "Fumarase MA5-33010 / CDC6 PA5-77901 fig. ICC2 (PC-3, 2021-03-23): same no-primary panel",
+  "a": "MA5-33010",
+  "b": "PA5-77901",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA533010-FH-PC3-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "Fumarase MA5-33010 / CDC6 PA5-77901 fig. ICC2 (PC-3, 2021-03-23): same no-primary panel",
+  "a": "PA5-31862",
+  "b": "PA5-77901",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA531862-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC2-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "MA5-27318",
+  "b": "PA5-77901",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA527318-RRM2-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "MA5-26497",
+  "b": "PA5-77901",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA526497-RRM1-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-17023",
+  "b": "PA5-77901",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517023-RRM1-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-100535",
+  "b": "PA5-77901",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5100535-FZR1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-89181",
+  "b": "PA5-77901",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA589181-BAF57-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "MA5-33009",
+  "b": "PA5-77901",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA533009-CD2AP-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-78496",
+  "b": "PA5-77901",
+  "score": 0.993,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578496-TIF1gamma-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-42722",
+  "b": "PA5-77901",
+  "score": 0.971,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA542722-PTPN2-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "RRM2 / RRM1 / FZR1 / BAF57 / CD2AP / PTPN2 group (A-431, 2021-03-23) adds CDC6 PA5-77901 fig. ICC1",
+  "a": "PA5-79895",
+  "b": "PA5-77901",
+  "score": 0.971,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA579895-PTPN2-ICC1-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC1-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "MA5-32511",
+  "b": "PA5-77901",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532511-S100A6-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "PA5-76932",
+  "b": "PA5-77901",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA576932-PTPRN-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "PA5-92949",
+  "b": "PA5-77901",
+  "score": 0.998,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA592949-PTPRN-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "PA5-29004",
+  "b": "PA5-77901",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA529004-KHK-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "PA5-96677",
+  "b": "PA5-77901",
+  "score": 0.997,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA596677-KHK-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "MA5-25174",
+  "b": "PA5-77901",
+  "score": 0.996,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA525174-KHK-ICC2-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y, 2021-03-23) adds CDC6 PA5-77901 fig. ICC3",
+  "a": "PA5-28225",
+  "b": "PA5-77901",
+  "score": 0.989,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA528225-PPP1CB-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC3-20210323110406.jpg"
+ },
+ {
+  "group": "RRM1 PA5-17023 fig. ICC / CDC6 PA5-77901 fig. ICC (U-2 OS, 2021-03-23): same no-primary panel",
+  "a": "PA5-17023",
+  "b": "PA5-77901",
+  "score": 0.983,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517023-RRM1-ICC-20210323110406.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA577901-CDC6-ICC-20210323110406.jpg"
+ },
+ {
+  "group": "NME1 / AQP1 group (HeLa) adds NME1 PA5-17005",
+  "a": "MA5-32593",
+  "b": "PA5-17005",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA532593-AQP1-ICC-20191104133922.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517005-NME1-ICC.jpg"
+ },
+ {
+  "group": "NME1 / AQP1 group (HeLa) adds NME1 PA5-17005",
+  "a": "PA5-78366",
+  "b": "PA5-17005",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA578366-GABARAP-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517005-NME1-ICC.jpg"
+ },
+ {
+  "group": "NME1 / AQP1 group (HeLa) adds NME1 PA5-17005",
+  "a": "PA5-79797",
+  "b": "PA5-17005",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA579797-PDK1-ICC-20191209134648.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA517005-NME1-ICC.jpg"
+ },
+ {
+  "group": "AP2 gamma / MCM2 group (MCF-7) adds MCM2 PA5-78054 (2019-12-09)",
+  "a": "PA5-17330",
+  "b": "PA5-78054",
+  "score": 1.0,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA517330-AP2GAMMA-ICC-20200114105556.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA578054-MCM2-ICC-20191209134648.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-35475",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35475-SMARCC1-ICCIF-1-20220926_150048.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-34657",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34657-SMARCC1-ICCIF-1-20221010_062607.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-35331",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35331-SP1-ICCIF-4-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-41253",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-41253-CRM1-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-41126",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-41126-LDHB-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-35655",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35655-LDHB-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "PA5-90290",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-90290-PRMT5-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-32270",
+  "b": "PA5-86556",
+  "score": 0.986,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-32270-HNRNPC1-C2-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "PA5-95583",
+  "b": "PA5-86556",
+  "score": 0.975,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-95583-SP1-ICCIF-1-20220818_115929.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-35112",
+  "b": "PA5-86556",
+  "score": 0.963,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35112-ADAR1-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
+ },
+ {
+  "group": "SMARCC1 / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 group (HeLa) adds ITGA3 PA5-86556 (2022-08-18)",
+  "a": "MA5-34626",
+  "b": "PA5-86556",
+  "score": 0.951,
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34626-ADAR1-ICCIF-1-20221128_141258.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-86556-CD49C-INTEGRINALPHA3-ICCIF-1-20220818_115929.jpg"
  }
 ]

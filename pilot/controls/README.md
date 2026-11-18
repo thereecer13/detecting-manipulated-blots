@@ -1062,3 +1062,18 @@ Fifty-eighth batch (crawl at ~88,600 MA5/PA5 pages):
   (stamp 2021-09-23): `match_overlay.py` share 97% against GRB14 PA5-101612, the highest share of any
   member found so far; the band sits at the same height and is thicker. Not in Richardson's lists; noted in
   upload_2021-09-23.md. PA5-71490 (pattern C, share 0.16) not confirmed.
+
+Fifty-ninth batch (crawl at ~89,700 MA5/PA5 pages):
+- CDC6 PA5-77901 has four figures stamped 2021-03-23, in A-431, PC-3, SH-SY5Y and U-2 OS cells. Each shows
+  the control panel of that day's group for the same cell line: the RRM2 / RRM1 / FZR1 / BAF57 / CD2AP /
+  PTPN2 group (A-431), fumarase MA5-33010 (PC-3), the S100A6 / KHK / PTPRN / PPP1CB group (SH-SY5Y) and RRM1
+  PA5-17023 (U-2 OS). Same day and matching cell lines: plausible batch controls.
+- Uploads on different dates sharing one control panel, captions consistent: ITGA3 PA5-86556 (2022-08-18)
+  joins SMARCC1 (2022-09-26) / SP1 / XPO1 / LDHB / PRMT5 / HNRNPC / ADAR1 (HeLa); a second MCM2 product,
+  PA5-78054 (2019-12-09), joins AP2 gamma (2020-01-14) / MCM2 (MCF-7).
+- No stamp: another NME1 product, PA5-17005, joins NME1 / AQP1 (HeLa).
+- False by eye: Kir3.1 PA5-67648 / phospho-RACGAP1 PA5-37714 (blank dark fields), one published-figure
+  panel and 9 dark non-hub pairs.
+- Blots (1,198 new): template scan 11 hit products, 3 unlisted, none confirmed: PA5-12138 (pattern C,
+  shift-correlation peak 0.05, off zero) and PA5-51894, PA5-64452 (pattern D, share 0.24 and 0.32) are
+  ordinary ladder-and-lanes blots by eye.
