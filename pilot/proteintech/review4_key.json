@@ -1,0 +1,72 @@
+{
+ "Q00": {
+  "catalog": "17363-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/SLC30A3-Antibody-17363-1-AP-IHC9569.jpg",
+  "product_url": "https://www.ptglab.com/products/SLC30A3-Antibody-17363-1-AP.htm",
+  "candidates": [
+   [
+    [
+     6,
+     120
+    ],
+    805
+   ],
+   [
+    [
+     6,
+     120
+    ],
+    594
+   ]
+  ]
+ },
+ "Q01": {
+  "catalog": "22462-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/GNRHR-Antibody-22462-1-AP-IHC-90506.jpg",
+  "product_url": "https://www.ptglab.com/products/GNRHR-Antibody-22462-1-AP.htm",
+  "candidates": [
+   [
+    [
+     21,
+     -3
+    ],
+    154
+   ]
+  ]
+ },
+ "Q02": {
+  "catalog": "22980-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/PRODH-Antibody-22980-1-AP-IHC-4967.jpg",
+  "product_url": "https://www.ptglab.com/products/PRODH-Antibody-22980-1-AP.htm",
+  "candidates": [
+   [
+    [
+     19,
+     64
+    ],
+    594
+   ]
+  ]
+ },
+ "Q03": {
+  "catalog": "51105-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/ERBB2-Antibody-51105-1-AP-IHC22545.jpg",
+  "product_url": "https://www.ptglab.com/products/ERBB2-Antibody-51105-1-AP.htm",
+  "candidates": [
+   [
+    [
+     67,
+     -13
+    ],
+    261
+   ],
+   [
+    [
+     67,
+     -13
+    ],
+    224
+   ]
+  ]
+ }
+}

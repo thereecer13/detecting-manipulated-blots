@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from copy_move import fit, mask_watermark
 
 P, QG, K = 9, 6, 6
-MIN_DIST, MAX_DIST = 12, 200
+MIN_DIST, MAX_DIST = 16, 200
 PATCH_NCC, MIN_STD = 0.97, 6.0
 MIN_VOTES, CELL = 3, 32
 TOL, OPEN, BLOCK_MIN, RING_RATIO, PALE = 14, 11, 120, 2.0, 225

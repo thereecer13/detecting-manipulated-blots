@@ -76,3 +76,15 @@ They were pale background or striated muscle. Reviewer's further point: spots th
 calling; a person cleaning an image would not bother with blemishes that size. Rule going forward: a
 solid block of exactly matching pixels, textured and stained inside, different surroundings, and a
 minimum size set from the confirmed copies (matched area >= ~200 px).
+
+### Fast solid-block scan (`block_clone.py`, 18 Nov)
+Built on the reviewer's rules (exact, continuous, stained, surroundings differ, not tiny). About 3.5 s
+per image (the spot scan took ~2 min). On the first 737 images: 21 images flagged, 61 blocks.
+- Confirmed images found again: MRPL46 IHC6192, PRODH IHC-4967 and IHC-4968, ERBB2 IHC22545 (4 of 5;
+  20097-1-AP IHC20084 is missed). New larger areas in two of them: PRODH IHC-4967 offset (19, 64),
+  594 px; ERBB2 offset (67, -13), two blocks of 261 and 224 px.
+- New: 17363-1-AP IHC9569, offset (6, 120), two adjoining blocks of 805 and 594 px (likely);
+  22462-1-AP IHC-90506, offset (21, -3), 154 px (possible).
+- False by eye: three images with 7-17 blocks each at short offsets in striated or smooth tissue
+  (84854-5-RR, 84281-5-PBS, 85857-4-RR) and ten single blocks on pale or blurred areas.
+Sent for review as round 4 (`review4_key.json`). Minimum offset raised from 12 to 16 px afterwards.
