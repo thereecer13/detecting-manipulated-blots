@@ -1,0 +1,40 @@
+# Handoff: state of the work on 2026-11-18, 01:35 UTC
+
+The cloud session that produced this work reported "out of disk, memory or time". This folder holds
+everything needed to continue in a new session except the downloaded images (about 20 GB), which are
+not in the repository and must be fetched again where needed.
+
+## What is here
+- `crawl_state.tar.gz`: progress and index files of the Thermo PA5/MA5 crawl (`pilot/crawl_icc.py`).
+  `icc_all/done.txt` lists finished product pages (85,821 of 99,705); `icc_all/index.jsonl` and
+  `icc_all/media.jsonl` list every microscopy figure (URL, caption, file hash); `icc_all/wb/scraped.jsonl`
+  lists every western blot image; the other files are the earlier scrapes passed to `--skip` / `--have-wb`.
+- `band_state.tar.gz`: band-duplication results: within-blot search output for 89,129 blots
+  (`band/m_items.json`, `band/m_out.json`), cross-blot bands, verified pairs and groups (`band/xall/`),
+  and the keys of review rounds 1 to 3.
+- `facs_state.tar.gz`: flow-plot panels and matches for the first 1,000 papers (`facs/pmc/`) and for
+  chunks 1 to 5 of the 9,000-paper scale-up (`facs/pmcbig/cK/`), plus the control-panel batch selections.
+- `scripts/`: helper scripts that lived only in the scratch directory (`batch.sh` runs one control-panel
+  batch; `sp/list_new.py` lists new pairs; `shift2.py` checks pattern C blot hits; `facs/run_chunks.sh`
+  runs the FACS scale-up; `band/` is a copy of the working band scripts).
+
+## To resume in a new session
+1. Unpack the three archives into one scratch directory, keeping paths.
+2. Thermo crawl: run `pilot/crawl_icc.py --out icc_all --skip media_all.jsonl ctrl_sample/media.jsonl
+   --delay 2 --have-wb scraped_tmpl/scraped.jsonl scraped_ma5/scraped.jsonl scraped_members/scraped.jsonl`.
+   It skips pages in `done.txt` and continues with the remaining ~13,900. Images of finished pages are
+   not re-downloaded by this command; scanning new pages against old ones needs the old images, which
+   can be re-fetched from the URLs in `media.jsonl`.
+3. Control-panel batches 1 to 54 are reviewed (`pilot/controls/README.md`, 523 confirmed pairs).
+   Batch 55 (crawl pages ~84,400 to ~85,200) was running and is not reviewed.
+4. FACS scale-up: chunks 1 to 5 are done, 6 to 9 are not. Hits are not reviewed yet (working threshold:
+   coinciding dots minus chance >= 20). Re-fetching figures: `pilot/facs/fetch_pmc.py --start K000 --n 1000`.
+5. Band duplication: labels are pending for round 2 and for round 3 (3a within one blot, 3b across blots);
+   keys are `pilot/band_dup/review_r3_key.json` and, in the archive, `band/review_r2_key.json`.
+
+## Constraints agreed with the user
+- Vendor and journal images stay out of the repository.
+- Polite scraping: obey robots.txt, honest user agent, 2 s delay for Thermo. PMC figures come from the PMC
+  Open Access bulk service only (not Europe PMC).
+- Read captions and context before calling anything a duplication.
+- Work on branch `claude/clever-ritchie-m1namn`; no pull request unless asked.
