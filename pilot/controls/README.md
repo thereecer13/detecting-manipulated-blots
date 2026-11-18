@@ -1018,3 +1018,18 @@ Fifty-fifth batch (36,702 figures, 79,254 panels; crawl at ~85,200 MA5/PA5 pages
 - Blots (1,926 new): template scan 19 hit products, 3 unlisted, none confirmed: PA5-47897 (pattern C,
   shift-correlation peak 0.05, off zero) and PA5-49841, PA5-50043 (pattern B, share 0.15 and 0.22) are
   two-strip blots that differ from the templates by eye.
+
+Fifty-sixth batch (crawl at ~86,300 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: the RAN group (HeLa) adds
+  RNPS1 PA5-35967 (2019-03-19) and BRG1 PA5-17003 (2020-01-14); KMT2D PA5-49581 (2022-03-15) joins MAPK11 /
+  KEAP1 (A-431, 2022-03-01); a second cereblon product, PA5-98707 (2025-05-09), joins MR1 / cereblon (HeLa);
+  AP2 alpha PA5-17359 (no stamp) / Vtcn1 PA5-84187 (2023-06-19), both SK-BR-3.
+- New same-day pair or member (plausible batch controls): SLP76 PA5-17556 / RUNX1 PA5-19638 (2020-03-04;
+  RUNX1 caption Jurkat, SLP76 caption Jurkat and Raji); a third SAP102 product, PA5-78500, joins the SH-SY5Y
+  group of 2021-03-23.
+- False by eye: published-figure panels matched to PA5-17869 (from PA5-34401, PA5-34663, PA5-25392), one
+  other published panel and 10 dark non-hub pairs.
+- Blots (1,115 new): template scan 12 hit products, 2 unlisted. **SEMA3F PA5-118892 confirmed pattern A**
+  (stamp 2021-09-23; `match_overlay.py` share 80% against CABP5 PA5-118907 and 22% against USP24
+  PA5-118918). Not in Richardson's lists; noted in upload_2021-09-23.md. PA5-58261 (pattern C,
+  shift-correlation peak 0.04, off zero) is false.
