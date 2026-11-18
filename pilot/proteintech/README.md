@@ -57,3 +57,15 @@ which matches itself at many offsets. Sent for review (`build_review.py`, key `r
 | 66483-1-Ig, IHC-169089 | 4 offsets, 67-82 px | possible: compact patches among cells |
 | 26980-1-AP, IHC-97820 | 2 offsets, 81-87 px | possible |
 | 16661-1-AP, IHC9483 | (33, -12) 83 px | weak |
+
+### Round-2 labels (18 Nov)
+Reviewer: only 20097-1-AP IHC20084 is copied; the other four (14648-1-AP, 66483-1-Ig, 26980-1-AP,
+16661-1-AP) are not. Rule from the reviewer: call a duplicate only when the match is exact and
+continuous, not patchy. Confirmed so far: 5 images of 739 (MRPL46 16611-1-AP, PRODH 22980-1-AP x2,
+ERBB2 51105-1-AP, 20097-1-AP).
+
+Continuity measure tried: pixels identical at the offset (max channel difference <= 14) and textured,
+opened with an 11x11 square; area of the largest remaining block. Confirmed groups: 121-337 px for
+PRODH, MRPL46 (55, 0) and 20097-1-AP (31, 2); every rejected group 0. It misses ERBB2 (0; colour
+fringing) and MRPL46 (45, 33). Unlabelled groups with a large block and a clearly different ring are
+still to be checked by eye (29190-1-AP, 16034-1-AP, 25616-1-AP among them).
