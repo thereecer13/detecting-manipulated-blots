@@ -225,3 +225,26 @@ decided within-blot items (24 duplicated, 105 not):
 - Sum of standardised border detail and unusualness, plus one point for a same-orientation match: AUC 0.92;
   the 40 best-ranked of the 129 items contain 22 of the 24 duplicated. This is fitted and tested on the same
   labels, so the next labelled set is the real test.
+
+## Border score applied to the cross-blot matches (`cross_score.py`)
+
+Score = standardised border detail + standardised unusualness (smaller of the two bands) + 1 for a
+same-orientation match, with the means and standard deviations of the 129 labelled within-blot items.
+Cutoff 1.46 = the score of the 40th of those 129 items.
+
+Check against the round-3 cross-blot labels: all four groups labelled "not the same band" score below the
+cutoff (best pair 0.74 at most). Of the 20 groups labelled "same band", 14 have a pair above it; six do not
+(e.g. the MA5-2516x group, the CDK9 / TRF1 rotated row), so the cutoff loses real cases.
+
+All 8,671 verified cross-blot pairs (difference <= 0.05, outline >= 0.92, including resized matches) were
+scored. 7,372 are between product-named images of different targets; 7,177 of those are outside the groups
+already reviewed, and 1,174 score above the cutoff: 749 between two products already in Richardson's
+spreadsheets, 425 involving a product that is not. The 1,174 pairs form 315 groups; 242 include an unlisted
+product (552 unlisted products), 73 are listed-only.
+
+Of the 242 groups, 55 have a same-size pair above the cutoff and 187 match only after resizing. By eye the
+same-size matches at the top are mostly convincing, while resized matches are mostly look-alikes with a few
+real ones; the score was fitted on same-size pairs and is less reliable after resizing. Round 4 page
+(`review_r4_key.json`, labels pending): the 28 best same-size groups and the 12 best resized-only groups,
+one pair of blots per group, drawn with `pair_page.py` (every matching band pair boxed, second band turned
+and aligned in the GIFs).
