@@ -13967,5 +13967,117 @@
   "b_date": "",
   "a_url": "https://www.thermofisher.com/antibody/images/650/PA598768-MR1-ICC-20201130085646.jpg",
   "b_url": "https://www.thermofisher.com/antibody/images/650/PA598707-CRBN-ICC_20250509151856.jpg"
+ },
+ {
+  "tier": "4 undetermined (no upload stamp)",
+  "why": "",
+  "gap_days": null,
+  "a": "PA5-27841",
+  "b": "PA5-25974",
+  "group": "IFNGR1 PA5-27841 / CSF1R PA5-25974 (THP-1, no stamps): same no-primary panel",
+  "a_cells": [
+   "thp1"
+  ],
+  "b_cells": [
+   "thp1"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "",
+  "b_date": "",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA527841-IFNGR1-ICC.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA525974-CSF1R-ICC.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 393,
+  "a": "PA5-19001",
+  "b": "PA5-142438",
+  "group": "Monoacylglycerol lipase PA5-19001 (2024-02-01) / E2F8 PA5-142438 (2023-01-04) negative control (U2OS)",
+  "a_cells": [
+   "u2os"
+  ],
+  "b_cells": [
+   "u2os"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2024-02-01",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-19001-MONOACYLGLYCEROLLIPASE-ICCIF-2-20240201_121020.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142438-E2F8-ICCIF-2-20230104_152038.jpg"
+ },
+ {
+  "tier": "3 plausible batch control",
+  "why": "",
+  "gap_days": 0,
+  "a": "PA5-142141",
+  "b": "PA5-142481",
+  "group": "HNF1A PA5-142141 / TLR4 PA5-142481 negative control (NIH3T3, 2023-01-04)",
+  "a_cells": [
+   "nih3t3"
+  ],
+  "b_cells": [
+   "nih3t3"
+  ],
+  "a_sec": [],
+  "b_sec": [],
+  "a_date": "2023-01-04",
+  "b_date": "2023-01-04",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/PA5-142141-HNF1A-ICCIF-1-20230104_152038.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-142481-TLR4-CD284-ICCIF-1-20230104_152038.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 31,
+  "a": "MA5-35733",
+  "b": "PA5-85665",
+  "group": "MBD3 / WDR5 group (MCF7) adds WDR5 PA5-85665 (2023-02-13)",
+  "a_cells": [
+   "mcf7"
+  ],
+  "b_cells": [
+   "mcf7"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2023-03-16",
+  "b_date": "2023-02-13",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-35733-MBD3-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-85665-WDR5-ICCIF-1-20230213_082654.jpg"
+ },
+ {
+  "tier": "2 probable reuse",
+  "why": "",
+  "gap_days": 31,
+  "a": "MA5-34711",
+  "b": "PA5-85665",
+  "group": "MBD3 / WDR5 group (MCF7) adds WDR5 PA5-85665 (2023-02-13)",
+  "a_cells": [
+   "mcf7"
+  ],
+  "b_cells": [
+   "mcf7"
+  ],
+  "a_sec": [
+   "rabbit"
+  ],
+  "b_sec": [
+   "rabbit"
+  ],
+  "a_date": "2023-03-16",
+  "b_date": "2023-02-13",
+  "a_url": "https://www.thermofisher.com/antibody/images/650/MA5-34711-MBD3-ICCIF-1-20230316_142139.jpg",
+  "b_url": "https://www.thermofisher.com/antibody/images/650/PA5-85665-WDR5-ICCIF-1-20230213_082654.jpg"
  }
 ]

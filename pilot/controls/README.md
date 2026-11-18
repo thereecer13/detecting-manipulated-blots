@@ -1033,3 +1033,15 @@ Fifty-sixth batch (crawl at ~86,300 MA5/PA5 pages):
   (stamp 2021-09-23; `match_overlay.py` share 80% against CABP5 PA5-118907 and 22% against USP24
   PA5-118918). Not in Richardson's lists; noted in upload_2021-09-23.md. PA5-58261 (pattern C,
   shift-correlation peak 0.04, off zero) is false.
+
+Fifty-seventh batch (37,627 figures, 81,061 panels; crawl at ~87,500 MA5/PA5 pages):
+- Uploads on different dates sharing one control panel, captions consistent: monoacylglycerol lipase
+  PA5-19001 (2024-02-01) / E2F8 PA5-142438 (2023-01-04), U2OS; a second WDR5 product, PA5-85665
+  (2023-02-13), joins MBD3 (2023-03-16) / WDR5 (MCF7).
+- New same-day pair (plausible batch control): HNF1A PA5-142141 / TLR4 PA5-142481 (NIH3T3, 2023-01-04).
+- No stamps: IFNGR1 PA5-27841 / CSF1R PA5-25974 (THP-1).
+- Not counted: PA5-53335 and PA5-29165 list the same published figure (all 14 panels), as two antibodies
+  used in one paper.
+- False by eye: two published-figure panels (PA5-34401 vs ATF1 PA5-49792 and FRK PA5-49805) and one dark pair.
+- Blots (1,152 new): template scan 12 hit products, 1 unlisted, false: PA5-49805 (pattern B, share 0.29) is
+  a two-strip blot unlike the template.
