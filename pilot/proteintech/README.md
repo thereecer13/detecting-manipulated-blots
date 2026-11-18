@@ -69,3 +69,10 @@ opened with an 11x11 square; area of the largest remaining block. Confirmed grou
 PRODH, MRPL46 (55, 0) and 20097-1-AP (31, 2); every rejected group 0. It misses ERBB2 (0; colour
 fringing) and MRPL46 (45, 33). Unlabelled groups with a large block and a clearly different ring are
 still to be checked by eye (29190-1-AP, 16034-1-AP, 25616-1-AP among them).
+
+### Round-3 labels (18 Nov)
+The nine images surfaced by the continuity measure alone (`review3_key.json`): none copied (reviewer).
+They were pale background or striated muscle. Reviewer's further point: spots this small are not worth
+calling; a person cleaning an image would not bother with blemishes that size. Rule going forward: a
+solid block of exactly matching pixels, textured and stained inside, different surroundings, and a
+minimum size set from the confirmed copies (matched area >= ~200 px).
