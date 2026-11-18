@@ -1153,3 +1153,22 @@ Sixty-third batch (crawl at ~94,700 MA5/PA5 pages; 6,364 verified panel pairs, 9
 - False by eye: EPS8L3 / COL4A5 (blank panels) and 7 dark non-hub pairs.
 - Blots (1,355 new): template scan 12 hit products, 1 unlisted, false: PA5-49759 (pattern B, share 0.19)
   is a two-strip blot unlike the template.
+
+Sixty-fourth batch (crawl at ~95,900 MA5/PA5 pages):
+- No new stained-image reuse. 16 new control pairs:
+  - Captions name different cell lines: the no-primary panel of PLIN1 PA5-72921 (mouse 3T3-L1 /
+    differentiated 3T3-L1, 2020-03-04) is also the no-primary panel of two CALCOCO2 products, PA5-30367
+    and MA5-18293 (HeLa treated with thapsigargin, 2020-08-24).
+  - Uploads on different dates: Mitofilin PA5-96203 (A549, 2023-02-13) with BCL11B MA5-32546
+    (2022-11-28) and SENP1 MA5-34767, PTP1B PA5-109252, PBRM1 PA5-84414 (2023-03-16); FOXA1 MA5-32556 /
+    LDLR PA5-22976 (Caco-2, two months apart); GRP78 PA5-143271 and PA5-143272 (2023-01-04) / TIA-1
+    PA5-18699 (2024-02-01), HeLa; Angiopoietin 1 PA5-142603 (2023-01-04) / CYTIP PA5-18019 (2024-02-01),
+    A431.
+  - The HeLa TRIM25 / PKR panel gains RAG2 PA5-22048 (2019-03-19) and Radixin PA5-21660.
+  - Same-day pairs (plausible batch controls): MEIS1 PA5-19050 / HUR PA5-19148 (IMR-32, 2019-11-04);
+    TLR4 PA5-142481 / GLUT4 PA5-142587 (NIH3T3, 2023-01-04).
+- Not confirmed: SENP1 MA5-35519 / Mitofilin PA5-96203 (score 0.90; similar field, different contrast).
+- Same target (likely legitimate): S100A10 (MA5-32519, PA5-75432, PA5-27251), IRAK-M (PA5-89217,
+  PA5-17473, PA5-19969).
+- False by eye: published-figure panels under PA5-34401 / PA5-29188.
+- Blots (1,335 new): template scan 13 hit products, none unlisted.
