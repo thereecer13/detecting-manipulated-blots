@@ -248,3 +248,21 @@ real ones; the score was fitted on same-size pairs and is less reliable after re
 (`review_r4_key.json`, labels pending): the 28 best same-size groups and the 12 best resized-only groups,
 one pair of blots per group, drawn with `pair_page.py` (every matching band pair boxed, second band turned
 and aligned in the GIFs).
+
+## Stretch-tolerant outline shape (`shape.py`)
+
+Reviewer's request: compare the outline shape as a whole, allowing the band to be stretched horizontally
+or vertically, but not allowing its bumps to differ. Each outline (half-depth mask, plus 35% and 65%) is
+reduced to four profiles: top and bottom edge against position along the band, left and right end against
+height, with positions rescaled to 0..1 and distances to the band's own width and height. Features: mean
+profile difference (`edge_diff`, in band heights), correlation of the top and bottom profiles
+(`prof_corr`), and correlation of the bumps left after removing a 9-point running mean (`bump_corr`).
+
+On the 129 labelled within-blot items (all same scale): prof_corr AUC 0.73 (duplicated median 0.95, not
+0.85), bump_corr 0.73 (0.46 vs 0.33), edge_diff 0.69. Adding them to the border score does not change its
+AUC (0.92), which is expected: those candidates were already matched at one scale. Bumps are small at this
+image size (about 1% of band height, under one pixel), which limits bump_corr.
+
+The features are meant for resized cross-blot matches. `review_r4_shape.json` holds them for the 40 round-4
+items; among the 12 resized items, the two that look identical by eye (PGK1 / NSE, beta-4-tubulin /
+ALDH1A2) have bump_corr 0.56 and 0.48, the others -0.10 to 0.15. To be checked against the round-4 labels.
