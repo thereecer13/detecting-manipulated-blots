@@ -1,0 +1,86 @@
+{
+ "Q00": {
+  "catalog": "16518-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/RNASEH2C-Antibody-16518-1-AP-IHC4835.jpg",
+  "product_url": "https://www.ptglab.com/products/RNASEH2C-Antibody-16518-1-AP.htm",
+  "candidates": [
+   [
+    [
+     33,
+     -4
+    ],
+    200
+   ]
+  ]
+ },
+ "Q01": {
+  "catalog": "11600-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/HCK-Antibody-11600-1-AP-IHC2313.jpg",
+  "product_url": "https://www.ptglab.com/products/HCK-Antibody-11600-1-AP.htm",
+  "candidates": [
+   [
+    [
+     24,
+     -63
+    ],
+    268
+   ],
+   [
+    [
+     120,
+     -123
+    ],
+    143
+   ],
+   [
+    [
+     120,
+     -123
+    ],
+    121
+   ]
+  ]
+ },
+ "Q02": {
+  "catalog": "21310-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/NHLRC1-Antibody-21310-1-AP-IHC25136.jpg",
+  "product_url": "https://www.ptglab.com/products/NHLRC1-Antibody-21310-1-AP.htm",
+  "candidates": [
+   [
+    [
+     12,
+     42
+    ],
+    757
+   ]
+  ]
+ },
+ "Q03": {
+  "catalog": "12166-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/FXYD5-Antibody-12166-1-AP-IHC19537.jpg",
+  "product_url": "https://www.ptglab.com/products/FXYD5-Antibody-12166-1-AP.htm",
+  "candidates": [
+   [
+    [
+     39,
+     -38
+    ],
+    407
+   ]
+  ]
+ },
+ "Q04": {
+  "catalog": "14055-1-AP",
+  "image_url": "https://www.ptglab.com/products/pictures/USP16-Antibody-14055-1-AP-IHC14081.jpg",
+  "product_url": "https://www.ptglab.com/products/USP16-Antibody-14055-1-AP.htm",
+  "candidates": [
+   [
+    [
+     96,
+     41
+    ],
+    379
+   ]
+  ]
+ }
+}
