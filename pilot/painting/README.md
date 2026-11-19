@@ -100,3 +100,10 @@ constant patch (one per product) plus 8 hidden zero-score controls, shuffled.
 Richardson did not flag and that were not shown in the two earlier rounds. Same view as before
 (original + Richardson's levels inside the blot). Purpose: a rate of painted-looking blots for the
 upload with a confidence interval. Labels pending.
+Reviewer's point (19 Nov): when compression is too heavy or resolution too low, painting cannot be told
+from compression, and such blots should be set aside, not called. The page was reissued with a fourth
+choice, "can't tell: too compressed or low resolution", and the key now holds each blot's size and
+`grain_metrics` (grain amplitude, grey levels in the background, exactly-flat share, 8 px grid strength).
+In this sample the background grain is small: median amplitude 0.63 grey levels (10th-90th percentile
+0.30-1.22) and a median of 14 distinct grey levels. Plan: use the "can't tell" labels to set a
+judgeability cutoff on those measures and only score blots above it.
