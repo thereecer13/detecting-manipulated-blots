@@ -162,7 +162,7 @@ flagged as painted:
 | 2022-02-01 | 33 | 363 | 8% |
 | all other uploads | 22 | about 53,500 | under 0.1% |
 
-98% of his painted blots are in these seven families (5% of the crawled blots). The reviewer's own painted
+98% of his painted blots are in these seven families (10% of the crawled blots). The reviewer's own painted
 calls: 41 of 44 unflagged ones are in 2017-12-19 (the only family sampled so far).
 One-level flat share (feat_v3 paint_share) separates his flagged from unflagged blots only weakly inside each
 family (AUC 0.61-0.67; 0.39 in the unstamped group), as in 2017-12-19.
