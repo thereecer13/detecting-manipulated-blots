@@ -1,0 +1,246 @@
+{
+ "review": "band_duplication_r4_across",
+ "exported": "2026-11-19T06:42:07.125Z",
+ "items": [
+  {
+   "id": "S00",
+   "label": "MA5-27914 HA-Tag (no date) and MA5-47206 RAI3 (2026-10-26). 1 matching band pair(s). Border detail match 95%, outline unusualness 0.34, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S01",
+   "label": "PA5-99247 SUPT3H (2019-08-08) and PA5-115138 DOK6 (2021-01-13). 1 matching band pair(s). Border detail match 92%, outline unusualness 0.34, same size; surroundings also match.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S02",
+   "label": "PA5-102971 Integrin-beta-7 (2019-08-08, in Richardson) and PA5-116129 WNT5B (2021-01-13). 1 matching band pair(s). Border detail match 81%, outline unusualness 0.36, same size; surroundings differ or match only partly.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S03",
+   "label": "MA5-34673 p53 (2023-10-26) and PA5-54031 UPF1 (2021-03-23). 1 matching band pair(s). Border detail match 95%, outline unusualness 0.29, same size; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-28338.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S04",
+   "label": "PA5-101196 MAGI2 (2019-08-08, in Richardson) and PA5-101251 NY-BR-1 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 100%, outline unusualness 0.28, same size; surroundings also match. 5 more product(s) match the same band: PA5-101720, PA5-101845, PA5-104252, PA5-112627, PA5-118863.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S05",
+   "label": "MA5-32530 Actin (no date, in Richardson) and PA5-24632 PRDX6 (no date). 1 matching band pair(s). Border detail match 94%, outline unusualness 0.25, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S06",
+   "label": "PA5-99433 RBMX (2019-08-08, in Richardson) and PA5-101351 MRPS9 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 100%, outline unusualness 0.23, same size; surroundings also match. 6 more product(s) match the same band: PA5-101081, PA5-101632, PA5-102053, PA5-102101, PA5-113534, PA5-115371.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S07",
+   "label": "PA5-99928 TAS2R38 (2019-08-08, in Richardson) and PA5-115680 NUP98 (2021-01-13, in Richardson). 1 matching band pair(s). Border detail match 93%, outline unusualness 0.24, same size; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-118964.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S08",
+   "label": "MA5-27729 ATP6V1A (2021-05-10) and PA5-30372 Sigma-1-Receptor (2020-03-04). 1 matching band pair(s). Border detail match 92%, outline unusualness 0.31, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S09",
+   "label": "PA5-104081 RAB43 (2019-08-08, in Richardson) and PA5-104427 Claudin-9 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 96%, outline unusualness 0.21, same size; surroundings differ or match only partly. 3 more product(s) match the same band: PA5-103973, PA5-104132, PA5-118794.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S10",
+   "label": "PA5-99874 PLUNC (2019-08-08, in Richardson) and PA5-103762 CD35 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 97%, outline unusualness 0.20, same size; surroundings differ or match only partly. 13 more product(s) match the same band: PA5-103343, PA5-103527, PA5-103561, PA5-103737, PA5-104054, PA5-104113, PA5-115816, PA5-115889….",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S11",
+   "label": "PA5-115002 p16INK4a (2021-01-13) and PA5-115569 Menin (2021-01-13, in Richardson). 1 matching band pair(s). Border detail match 91%, outline unusualness 0.21, same size; surroundings also match.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S12",
+   "label": "PA5-111043 UGP2 (2025-11-17) and PA5-52281 AKAP12 (2020-06-04). 1 matching band pair(s). Border detail match 92%, outline unusualness 0.21, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S13",
+   "label": "PA5-102302 Cytomegalovirus-US28 (2019-08-08, in Richardson) and PA5-101340 KLF7 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 99%, outline unusualness 0.18, same size; surroundings also match. 20 more product(s) match the same band: PA5-101077, PA5-101265, PA5-101304, PA5-101426, PA5-101527, PA5-101551, PA5-101642, PA5-101707….",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S14",
+   "label": "PA5-21034 KPNA2 (2020-11-30) and PA5-19919 MyD88 (2019-11-05). 1 matching band pair(s). Border detail match 89%, outline unusualness 0.20, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S15",
+   "label": "MA5-41546 Amphiregulin (2021-11-31) and PA5-119014 CD300c (2021-11-31). 1 matching band pair(s). Border detail match 49%, outline unusualness 0.30, same size; surroundings differ or match only partly.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S16",
+   "label": "MA5-14882 FAS (2021-05-27) and PA5-59322 ZC3H18 (2019-08-06). 1 matching band pair(s). Border detail match 93%, outline unusualness 0.26, same size; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S17",
+   "label": "MA5-35106 HLA-A (2026-09-24) and PA5-11537 ALDH1A1 (2018-12-31). 1 matching band pair(s). Border detail match 90%, outline unusualness 0.26, same size; surroundings differ or match only partly. 14 more product(s) match the same band: MA5-14942, MA5-14953, MA5-15739-HRP, MA5-38364, PA5-17980, PA5-18079, PA5-18392, PA5-19624….",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S18",
+   "label": "PA5-86165 Cytokeratin-18 (2019-02-28) and PA5-86453 DAP5 (2019-02-28). 2 matching band pair(s). Border detail match 82%, outline unusualness 0.21, same size; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-86789.",
+   "verdict": "blot or control reused: looks wrong",
+   "notes": ""
+  },
+  {
+   "id": "S19",
+   "label": "MA5-27605 SLC38A1 (2018-06-13) and MA5-27655 CaV3-1 (2018-06-13). 3 matching band pair(s). Border detail match 86%, outline unusualness 0.20, same size; surroundings differ or match only partly.",
+   "verdict": "blot or control reused: looks legitimate",
+   "notes": "That's just the same ladder "
+  },
+  {
+   "id": "S20",
+   "label": "MA5-37803 Aminoacylase (2021-01-13) and MA5-36130 ApoER2 (2020-10-21). 1 matching band pair(s). Border detail match 90%, outline unusualness 0.18, same size; surroundings differ or match only partly. 1 more product(s) match the same band: MA5-44729.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S21",
+   "label": "PA5-80971 RhoA (2021-11-21) and PA5-112142 NUDT5 (no date). 1 matching band pair(s). Border detail match 90%, outline unusualness 0.18, same size; surroundings differ or match only partly. 6 more product(s) match the same band: MA5-29414, MA5-41041, PA5-119672, PA5-80380, PA5-80497, PA5-80668.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S22",
+   "label": "PA5-99599 CABLES2 (2019-08-08, in Richardson) and PA5-115632 NDUFS6 (2021-01-13, in Richardson). 1 matching band pair(s). Border detail match 83%, outline unusualness 0.20, same size; surroundings differ or match only partly. 5 more product(s) match the same band: PA5-104085, PA5-21158, PA5-99628, PA5-99737, PA5-99785.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S23",
+   "label": "PA5-119064 CSRP1 (2021-11-31) and PA5-118965 BMAL1 (2021-11-31). 1 matching band pair(s). Border detail match 71%, outline unusualness 0.23, same size; surroundings differ or match only partly.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S24",
+   "label": "PA5-99248 Lass4 (2019-08-08) and PA5-99213 Thrombin (2019-08-08). 1 matching band pair(s). Border detail match 89%, outline unusualness 0.18, same size; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-99245.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S25",
+   "label": "PA5-104222 Phospho-CD227-Mucin-1-Tyr1229 (2019-08-08, in Richardson) and PA5-99216 SERC1 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 96%, outline unusualness 0.16, same size; surroundings also match. 1 more product(s) match the same band: PA5-99302.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S26",
+   "label": "MA5-17145 PCNA (2023-03-16, in Richardson) and PA5-20322 ORAI1 (2020-08-24). 1 matching band pair(s). Border detail match 87%, outline unusualness 0.18, same size; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-112832.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S27",
+   "label": "PA5-99601 PNCK (2019-08-08, in Richardson) and PA5-103270 Phospho-JIP1-Thr103 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 91%, outline unusualness 0.17, same size; surroundings differ or match only partly. 2 more product(s) match the same band: PA5-103397, PA5-115548.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S28",
+   "label": "MA5-32474 Cdc45L (no date) and PA5-17004 NME1 (no date). 1 matching band pair(s). Border detail match 84%, outline unusualness 0.38, B resized to A; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S29",
+   "label": "PA5-28612 PGK1 (2018-04-18) and PA5-27452 NSE (2018-07-17). 3 matching band pair(s). Border detail match 92%, outline unusualness 0.33, B resized to A; surroundings differ or match only partly.",
+   "verdict": "blot or control reused: looks wrong",
+   "notes": "Entire upper blot looks reused"
+  },
+  {
+   "id": "S30",
+   "label": "MA5-35728 VASP (2022-08-18) and PA5-30116 PCBP2 (no date). 1 matching band pair(s). Border detail match 92%, outline unusualness 0.33, B resized to A; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-79595.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S31",
+   "label": "MA5-11516 Caspase-3 (2017-10-05) and PA5-31715 TRIT1 (no date). 1 matching band pair(s). Border detail match 94%, outline unusualness 0.31, B resized to A; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-17692.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S32",
+   "label": "MA5-25561 beta-4-Tubulin (no date) and PA5-52684 ALDH1A2 (no date). 3 matching band pair(s). Border detail match 98%, outline unusualness 0.30, B resized to A; surroundings also match.",
+   "verdict": "blot or control reused: looks wrong",
+   "notes": "GAPDH controls are reused but the cell line labels are different so this can't be possible "
+  },
+  {
+   "id": "S33",
+   "label": "PA5-99307 SIX6 (2019-08-08) and PA5-104239 GFR-alpha-4 (2019-08-08, in Richardson). 1 matching band pair(s). Border detail match 95%, outline unusualness 0.30, B resized to A; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-99316.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  },
+  {
+   "id": "S34",
+   "label": "PA5-67357 C2orf33 (no date) and PA5-21748 KPNA2 (no date). 2 matching band pair(s). Border detail match 69%, outline unusualness 0.36, B resized to A; surroundings differ or match only partly. 4 more product(s) match the same band: MA5-32154, PA5-52599, PA5-62459, PA5-86208.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S35",
+   "label": "MA5-27375 hnRNP-H1 (2019-12-09, in Richardson) and PA5-62459 Arp3 (2020-03-04). 1 matching band pair(s). Border detail match 86%, outline unusualness 0.31, B resized to A; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S36",
+   "label": "PA5-17621 SMAD2-SMAD3 (2018-08-28) and PA5-17018 ATG3 (2018-11-12). 12 matching band pair(s). Border detail match 97%, outline unusualness 0.28, B resized to A; surroundings differ or match only partly. 1 more product(s) match the same band: PA5-19958.",
+   "verdict": "blot or control reused: looks wrong",
+   "notes": "Completely reused blot but the bands are shifted "
+  },
+  {
+   "id": "S37",
+   "label": "MA5-31227 S100A8 (2019-11-04) and PA5-22111 FASN (2022-06-20). 1 matching band pair(s). Border detail match 83%, outline unusualness 0.31, B resized to A; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S38",
+   "label": "MA5-60185 RAR-gamma-1 (2025-02-26) and MA5-14812 Phospho-GAB1-Tyr627 (2019-11-05). 1 matching band pair(s). Border detail match 93%, outline unusualness 0.27, B resized to A; surroundings differ or match only partly.",
+   "verdict": "not the same band",
+   "notes": ""
+  },
+  {
+   "id": "S39",
+   "label": "MA5-43734 IL-29 (2022-04-13) and MA5-43543 WNT7B (2022-04-13). 1 matching band pair(s). Border detail match 89%, outline unusualness 0.28, B resized to A; surroundings differ or match only partly.",
+   "verdict": "same band, different blots",
+   "notes": ""
+  }
+ ]
+}

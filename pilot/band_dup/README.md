@@ -266,3 +266,39 @@ image size (about 1% of band height, under one pixel), which limits bump_corr.
 The features are meant for resized cross-blot matches. `review_r4_shape.json` holds them for the 40 round-4
 items; among the 12 resized items, the two that look identical by eye (PGK1 / NSE, beta-4-tubulin /
 ALDH1A2) have bump_corr 0.56 and 0.48, the others -0.10 to 0.15. To be checked against the round-4 labels.
+
+## Round-4 labels (19 Nov, `review_r4_results.json`)
+40 cross-blot groups: 18 "same band, different blots", 4 "blot or control reused: looks wrong"
+(Cytokeratin-18 PA5-86165 / DAP5 PA5-86453; PGK1 PA5-28612 / NSE PA5-27452, whole upper blot; beta-4-tubulin
+MA5-25561 / ALDH1A2 PA5-52684, GAPDH control under different cell-line labels; SMAD2-SMAD3 PA5-17621 / ATG3
+PA5-17018, whole blot with shifted bands), 1 "reused: looks legitimate" (SLC38A1 / CaV3-1, the same ladder),
+17 "not the same band". Same-size groups 18 of 28 positive, resized-only 5 of 12.
+
+Reviewer's guidance: judge by how the band is used. A single band in a random lane of one blot matching a
+band in a random lane of another is unlikely to be a duplication; the clear cases are a whole control
+section repeated, or blots that consist of a single band.
+
+What separates the labels (AUC, positive = any verdict other than "not the same band"):
+
+| Feature | AUC |
+|---|---|
+| surroundings match (`ctx`) | 0.95 |
+| stretch-tolerant edge profile difference (`shape.py` edge_diff) | 0.88 |
+| top/bottom profile correlation (prof_corr) | 0.87 |
+| same upload date | 0.83 |
+| bump correlation (bump_corr) | 0.80 |
+| border detail (bd) | 0.58 |
+| border score used to pick these groups | 0.38 |
+| outline unusualness | 0.33 |
+
+- The border score that ranked the round-4 groups does not predict the labels within them (all 40 were
+  already above its cutoff). What matters next is context: whether the area around the band also matches,
+  and whether the two images come from one upload.
+- Rule "surroundings match >= 0.6 or same upload date": 23 of 23 positives, 1 of 17 negatives (S38). Fitted
+  on these 40 labels; untested.
+- shape.py on the 12 resized items: prof_corr AUC 0.94, bump_corr 0.74 (5 positives, too few to rely on).
+
+Applied to the 272 groups not yet reviewed: 199 include an unlisted product, of which 75 pass the rule
+(19 same-size, 56 resized-only; 49 by surroundings, 26 by upload date alone; 204 unlisted products) and
+124 fail (117 of them resized-only). Of the 73 listed-only groups 72 pass. Round 5 (`review_r5_key.json`)
+shows the 75, with the total number of bands in each blot in the label so single-band blots are visible.
