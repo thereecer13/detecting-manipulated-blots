@@ -95,3 +95,16 @@ Not copied: 22462-1-AP GNRHR IHC-90506 (154 px, the smallest block shown).
 Confirmed images so far: 6 of 737 (MRPL46 16611-1-AP, PRODH 22980-1-AP x2, ERBB2 51105-1-AP,
 20097-1-AP, SLC30A3 17363-1-AP). On the fast scan's blocks, every one labelled copied is >= 221 px and
 the one labelled not copied is 154 px.
+
+### Larger crawl (19 Nov)
+`scrape_ptg.py --n 3600 --seed 1` finished: 3,600 sampled product pages, 4,587 IHC image records
+(the first 600 pages / 739 images are the set above). `block_clone.py scan --skip 739` on the rest:
+3,812 images scanned, 92 flagged, 17 images with a block >= 200 px among those with at most four blocks.
+- Sent for review as round 5 (`review5_key.json`), five images: 21310-1-AP NHLRC1 IHC25136 (757 px),
+  12166-1-AP IHC19537 (407 px), 14055-1-AP IHC14081 (379 px), 11600-1-AP IHC2313 (268 px),
+  16518-1-AP IHC4835 (200 px). Labels pending.
+- Rejected by eye as blurred, pale or striped background (no clean block in the difference tile):
+  21990-1-AP, 21214-1-AP, 67299-1-PBS, 60054-1-PBS, 17535-1-AP, 66868-1-PBS, 21771-1-AP, 24378-1-AP,
+  67539-1-Ig, 23153-1-AP, 85933-1-RR (1,298 px on faint horizontal scan lines in empty background).
+- Images with more than four blocks (e.g. 14221-1-AP with 58) were not tiled; in the first set those
+  were all repeating tissue texture.
