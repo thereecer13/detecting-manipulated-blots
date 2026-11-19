@@ -8,7 +8,7 @@ def make(src,out,S=2,pad=14,gap=28):
     mx=np.where(m.any(0))[0];bc=((mx.min()+mx.max())/2-x0)*S      # blot centre within the cropped panel
     up=lambda x:cv2.cvtColor(cv2.resize(x[y0:y1,x0:x1],None,fx=S,fy=S,interpolation=cv2.INTER_CUBIC),cv2.COLOR_GRAY2BGR)
     def cap(x,t):
-        fs=x.shape[1]/620;hh=int(54*fs);o=np.full((x.shape[0]+hh,x.shape[1],3),255,np.uint8);o[hh:]=x
+        fs=x.shape[1]/310;hh=int(54*fs);o=np.full((x.shape[0]+hh,x.shape[1],3),255,np.uint8);o[hh:]=x
         (tw,th),_=cv2.getTextSize(t,cv2.FONT_HERSHEY_SIMPLEX,fs,max(2,int(2.3*fs)));tx=int(min(max(bc-tw/2,4),x.shape[1]-tw-4))
         cv2.putText(o,t,(tx,int(38*fs)),cv2.FONT_HERSHEY_SIMPLEX,fs,(0,0,0),max(2,int(2.3*fs)),cv2.LINE_AA);return o
     A=cap(up(g),'Original');B=cap(up(e),'Contrast enhanced')
