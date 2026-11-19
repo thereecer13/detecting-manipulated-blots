@@ -1,0 +1,36 @@
+{
+ "review": "proteintech_ihc_blocks_round5",
+ "exported": "2026-11-19T05:11:11.085Z",
+ "items": [
+  {
+   "id": "Q00",
+   "label": "Proteintech 16518-1-AP RNASEH2C, image RNASEH2C-Antibody-16518-1-AP-IHC4835.jpg: 1 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  },
+  {
+   "id": "Q01",
+   "label": "Proteintech 11600-1-AP HCK, image HCK-Antibody-11600-1-AP-IHC2313.jpg: 3 candidate copied area(s)",
+   "verdict": "unsure",
+   "notes": ""
+  },
+  {
+   "id": "Q02",
+   "label": "Proteintech 21310-1-AP NHLRC1, image NHLRC1-Antibody-21310-1-AP-IHC25136.jpg: 1 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  },
+  {
+   "id": "Q03",
+   "label": "Proteintech 12166-1-AP FXYD5, image FXYD5-Antibody-12166-1-AP-IHC19537.jpg: 1 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  },
+  {
+   "id": "Q04",
+   "label": "Proteintech 14055-1-AP USP16, image USP16-Antibody-14055-1-AP-IHC14081.jpg: 1 candidate copied area(s)",
+   "verdict": "copied",
+   "notes": ""
+  }
+ ]
+}

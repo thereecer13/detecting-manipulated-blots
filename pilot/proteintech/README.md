@@ -108,3 +108,9 @@ the one labelled not copied is 154 px.
   67539-1-Ig, 23153-1-AP, 85933-1-RR (1,298 px on faint horizontal scan lines in empty background).
 - Images with more than four blocks (e.g. 14221-1-AP with 58) were not tiled; in the first set those
   were all repeating tissue texture.
+
+### Round-5 labels (19 Nov, `review5_results.json`)
+Copied: 16518-1-AP RNASEH2C IHC4835 (200 px), 21310-1-AP NHLRC1 IHC25136 (757 px), 12166-1-AP FXYD5
+IHC19537 (407 px), 14055-1-AP USP16 IHC14081 (379 px). Unsure: 11600-1-AP HCK IHC2313 (268 px).
+Confirmed images in total: 10 of about 4,550 scanned (6 in the first 737, 4 in the next 3,812).
+The 200 px block is the smallest labelled copied so far; 154 px remains the only "not copied" block.
