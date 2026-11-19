@@ -107,3 +107,23 @@ choice, "can't tell: too compressed or low resolution", and the key now holds ea
 In this sample the background grain is small: median amplitude 0.63 grey levels (10th-90th percentile
 0.30-1.22) and a median of 14 distinct grey levels. Plan: use the "can't tell" labels to set a
 judgeability cutoff on those measures and only score blots above it.
+
+### Random-sample labels (19 Nov, `review_2017_random_results.json`)
+60 random unflagged blots of the 2017-12-19 upload: 6 painted, 36 not painted, 18 can't tell.
+Painted: 10% of all 60 (95% interval about 5-20%), 14% of the 42 decided (about 7-28%). The earlier
+impression that "a large share of this upload looks painted" came from the selected sets and does not hold
+for a random draw. Painted here (not in Richardson's spreadsheets): ZCCHC17 MA5-27170, ANGPTL1 MA5-26750,
+SP110 MA5-26924, SOCS4 MA5-27409, BEGAIN MA5-27357, PPP3CB MA5-27212.
+
+Reviewer's description: painting usually looks like imperfect painting of the areas outside the bands; a
+background that is completely one colour outside the band is hard to call.
+
+Against the stored measures (median painted / not painted / can't tell):
+- exactly-flat share of the background: 0.83 / 0.38 / 0.82. Painted vs not painted AUC 0.98; can't tell vs
+  decided 0.83. Below 0.5 flat: 26 not painted, 3 can't tell, 0 painted. At or above 0.5: 6 painted,
+  15 can't tell, 10 not painted.
+- grain amplitude 0.41 / 0.73 / 0.31 and grey levels 7.5 / 17.5 / 8: same picture.
+- largest enclosed constant patch (the old detector score): no relation (painted median 0).
+So a low flat share safely means "not painted", but none of these measures separates painted from can't
+tell: both are mostly flat. What the reviewer uses is the shape of what is left (irregular remnants or
+brush edges versus uniform flatness), which no current feature measures.

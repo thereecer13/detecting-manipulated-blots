@@ -1,0 +1,366 @@
+{
+ "review": "painting_2017_random_v2",
+ "exported": "2026-11-19T19:21:19.441Z",
+ "items": [
+  {
+   "id": "Q00",
+   "label": "Blot 1",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q01",
+   "label": "Blot 2",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q02",
+   "label": "Blot 3",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q03",
+   "label": "Blot 4",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q04",
+   "label": "Blot 5",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q05",
+   "label": "Blot 6",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q06",
+   "label": "Blot 7",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q07",
+   "label": "Blot 8",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q08",
+   "label": "Blot 9",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q09",
+   "label": "Blot 10",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q10",
+   "label": "Blot 11",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q11",
+   "label": "Blot 12",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q12",
+   "label": "Blot 13",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q13",
+   "label": "Blot 14",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q14",
+   "label": "Blot 15",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q15",
+   "label": "Blot 16",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q16",
+   "label": "Blot 17",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q17",
+   "label": "Blot 18",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q18",
+   "label": "Blot 19",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q19",
+   "label": "Blot 20",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q20",
+   "label": "Blot 21",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q21",
+   "label": "Blot 22",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q22",
+   "label": "Blot 23",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q23",
+   "label": "Blot 24",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q24",
+   "label": "Blot 25",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q25",
+   "label": "Blot 26",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q26",
+   "label": "Blot 27",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q27",
+   "label": "Blot 28",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q28",
+   "label": "Blot 29",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q29",
+   "label": "Blot 30",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q30",
+   "label": "Blot 31",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q31",
+   "label": "Blot 32",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q32",
+   "label": "Blot 33",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q33",
+   "label": "Blot 34",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q34",
+   "label": "Blot 35",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q35",
+   "label": "Blot 36",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q36",
+   "label": "Blot 37",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q37",
+   "label": "Blot 38",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q38",
+   "label": "Blot 39",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q39",
+   "label": "Blot 40",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q40",
+   "label": "Blot 41",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q41",
+   "label": "Blot 42",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q42",
+   "label": "Blot 43",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q43",
+   "label": "Blot 44",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q44",
+   "label": "Blot 45",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q45",
+   "label": "Blot 46",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q46",
+   "label": "Blot 47",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q47",
+   "label": "Blot 48",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q48",
+   "label": "Blot 49",
+   "verdict": "can't tell: too compressed or low resolution",
+   "notes": ""
+  },
+  {
+   "id": "Q49",
+   "label": "Blot 50",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q50",
+   "label": "Blot 51",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q51",
+   "label": "Blot 52",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q52",
+   "label": "Blot 53",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q53",
+   "label": "Blot 54",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q54",
+   "label": "Blot 55",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q55",
+   "label": "Blot 56",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q56",
+   "label": "Blot 57",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q57",
+   "label": "Blot 58",
+   "verdict": "not painted",
+   "notes": ""
+  },
+  {
+   "id": "Q58",
+   "label": "Blot 59",
+   "verdict": "painted",
+   "notes": ""
+  },
+  {
+   "id": "Q59",
+   "label": "Blot 60",
+   "verdict": "not painted",
+   "notes": ""
+  }
+ ]
+}
