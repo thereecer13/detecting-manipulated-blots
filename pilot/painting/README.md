@@ -169,3 +169,26 @@ family (AUC 0.61-0.67; 0.39 in the unstamped group), as in 2017-12-19.
 Family review (`review_families_key.json`, labels pending): for each of the six families not yet sampled,
 10 random unflagged blots and 2 hidden Richardson-painted ones, shuffled (72 blots), to get the reviewer's
 painted and can't-tell rates per family.
+
+### Family review labels (19 Nov, `review_families_results.json`)
+Unflagged random blots, 10 per family (reviewer's calls):
+
+| Family | Painted | Not painted | Can't tell / unsure / blank |
+|---|---|---|---|
+| 2020-02-07 | 5 | 4 | 1 |
+| unstamped MA5-32xxx to MA5-34xxx | 4 | 5 | 1 |
+| 2020-10-21 | 3 | 4 | 3 |
+| 2022-02-01 | 2 | 7 | 1 |
+| 2021-07-21 | 1 | 4 | 5 |
+| 2023-01-04 | 0 | 9 | 1 |
+| all six | 15 of 60 (25%) | 33 | 12 |
+
+Hidden Richardson-painted controls: 8 of 12 called painted, 2 not painted (one each in 2022-02-01 and
+2023-01-04), 2 can't tell. With the gentler view added the reviewer agreed with Richardson more often than
+in the earlier rounds (5 of 10).
+The families ordered by the reviewer's rate follow Richardson's own share (44%, 18%, 23%, 8%, 16%, 4%).
+10 blots per family give wide intervals (5 of 10: about 24-76%; 0 of 10: up to about 28%).
+Painted and not in Richardson's spreadsheets (15): MA5-34798, MA5-34626, MA5-34698, MA5-34831, MA5-34734
+(2020-02-07); MA5-32137, MA5-32069, MA5-32406, MA5-32075 (unstamped); MA5-36107, MA5-36151, MA5-36212
+(2020-10-21); PA5-119660, PA5-119659 (2022-02-01); MA5-41153 (2021-07-21).
+Flat-share features on these 72: painted vs not painted AUC 0.76, painted vs can't tell 0.49 (as before).
