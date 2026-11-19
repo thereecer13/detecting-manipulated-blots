@@ -301,4 +301,4 @@ What separates the labels (AUC, positive = any verdict other than "not the same 
 Applied to the 272 groups not yet reviewed: 199 include an unlisted product, of which 75 pass the rule
 (19 same-size, 56 resized-only; 49 by surroundings, 26 by upload date alone; 204 unlisted products) and
 124 fail (117 of them resized-only). Of the 73 listed-only groups 72 pass. Round 5 (`review_r5_key.json`)
-shows the 75, with the total number of bands in each blot in the label so single-band blots are visible.
+shows 71 of them (four have no single pair of member blots that passes), with the total number of bands in each blot in the label so single-band blots are visible.
