@@ -94,3 +94,9 @@ constant patch (one per product) plus 8 hidden zero-score controls, shuffled.
   ZIM2 MA5-25331, IGJ MA5-25839, NIF3L1 MA5-25719, PMS2 MA5-26269, SERPINB3 MA5-25380, PAAF1 MA5-26327,
   RNF113B MA5-25821, CLPP MA5-25330, CDCP1 MA5-25357, TTLL12 MA5-25022, DOK2 MA5-25661.
   The 5 controls called painted are in the results file.
+
+## 2017-12-19 upload: random sample (19 Nov, `review_2017_random_key.json`)
+60 blots drawn at random (seed 2017, one per product) from the 1,533 products in that upload that
+Richardson did not flag and that were not shown in the two earlier rounds. Same view as before
+(original + Richardson's levels inside the blot). Purpose: a rate of painted-looking blots for the
+upload with a confidence interval. Labels pending.
