@@ -146,3 +146,26 @@ on 8x8 JPEG blocks inside the blot, bands and their halo excluded. Tested on all
   painted blots in the random sample the boundary between the two labels is not well defined in the data.
 Conclusion: at 650 px and this compression a single-image feature can triage (clear / flat) but not make
 the painted call. Remaining options: the per-layout family baseline, or original-resolution images.
+
+## Painting by upload family (fam.py, 19 Nov)
+Richardson's painted Thermo blots sit in a few upload batches. Share of each batch's crawled blots that he
+flagged as painted:
+
+| Upload | Richardson painted | Unflagged | Share painted |
+|---|---|---|---|
+| 2017-12-19 | 669 | 2,269 | 23% |
+| 2020-02-07 | 172 | 215 | 44% |
+| unstamped MA5-32xxx to MA5-34xxx | 171 | 775 | 18% |
+| 2023-01-04 | 47 | 1,092 | 4% |
+| 2020-10-21 | 39 | 128 | 23% |
+| 2021-07-21 | 33 | 168 | 16% |
+| 2022-02-01 | 33 | 363 | 8% |
+| all other uploads | 22 | about 53,500 | under 0.1% |
+
+98% of his painted blots are in these seven families (5% of the crawled blots). The reviewer's own painted
+calls: 41 of 44 unflagged ones are in 2017-12-19 (the only family sampled so far).
+One-level flat share (feat_v3 paint_share) separates his flagged from unflagged blots only weakly inside each
+family (AUC 0.61-0.67; 0.39 in the unstamped group), as in 2017-12-19.
+Family review (`review_families_key.json`, labels pending): for each of the six families not yet sampled,
+10 random unflagged blots and 2 hidden Richardson-painted ones, shuffled (72 blots), to get the reviewer's
+painted and can't-tell rates per family.

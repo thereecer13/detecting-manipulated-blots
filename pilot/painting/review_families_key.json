@@ -1,0 +1,722 @@
+[
+ {
+  "id": "F00",
+  "group": "richardson_painted",
+  "family": "20210721",
+  "file": "MA5-41113-c-Met-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41113",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41113-c-Met-WB-1-20210721132148.jpg",
+  "paint_share": 0.9045936395759717,
+  "flat_share": 0.9045936395759717
+ },
+ {
+  "id": "F01",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA532372-AGT-AV-WB.jpg",
+  "catalog": "MA5-32372",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA532372-AGT-AV-WB.jpg",
+  "paint_share": 0.9386861313868613,
+  "flat_share": 0.9445255474452555
+ },
+ {
+  "id": "F02",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119969-CYP1B1-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119969",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119969-CYP1B1-WB-1-20220201_094606.jpg",
+  "paint_share": 0.1800595238095238,
+  "flat_share": 0.1875
+ },
+ {
+  "id": "F03",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36138-FBP1-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36138",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36138-FBP1-WB-1-20201021153721.jpg",
+  "paint_share": 0.3564421190320471,
+  "flat_share": 0.4002616088947024
+ },
+ {
+  "id": "F04",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-142392-TDP1-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-142392",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-142392-TDP1-WB-1-20230104_152038.jpg",
+  "paint_share": 0.37566742944317316,
+  "flat_share": 0.5275870836511569
+ },
+ {
+  "id": "F05",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41179-IRF5-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41179",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41179-IRF5-WB-1-20210721132148.jpg",
+  "paint_share": 0.25,
+  "flat_share": 0.34202453987730064
+ },
+ {
+  "id": "F06",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "MA5-45035-EGFR-WB-1-20230104_130011.jpg",
+  "catalog": "MA5-45035",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-45035-EGFR-WB-1-20230104_130011.jpg",
+  "paint_share": 0.2222222222222222,
+  "flat_share": 0.3732638888888889
+ },
+ {
+  "id": "F07",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-142973-MCTS1-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-142973",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-142973-MCTS1-WB-1-20230104_152038.jpg",
+  "paint_share": 0.1939154929577465,
+  "flat_share": 0.3847887323943662
+ },
+ {
+  "id": "F08",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119900-EEF1G-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119900",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119900-EEF1G-WB-1-20220201_094606.jpg",
+  "paint_share": 0.6707938820101966,
+  "flat_share": 0.6999271667880553
+ },
+ {
+  "id": "F09",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34798-COMT-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34798",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34798-COMT-WB-1-20200207153852.jpg",
+  "paint_share": 0.4066011235955056,
+  "flat_share": 0.40870786516853935
+ },
+ {
+  "id": "F10",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32457-Carbonic-Anhydrase-IX-WB-1.jpg",
+  "catalog": "MA5-32457",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32457-Carbonic-Anhydrase-IX-WB-1.jpg",
+  "paint_share": 0.10104132769280832,
+  "flat_share": 0.36560364464692485
+ },
+ {
+  "id": "F11",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "MA5-44859-NPY5R-WB-1-20230104_130011.jpg",
+  "catalog": "MA5-44859",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44859-NPY5R-WB-1-20230104_130011.jpg",
+  "paint_share": 0.19220779220779222,
+  "flat_share": 0.21233766233766233
+ },
+ {
+  "id": "F12",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119812-TCF21-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119812",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119812-TCF21-WB-1-20220201_094606.jpg",
+  "paint_share": 0.33649075327018496,
+  "flat_share": 0.35092467298150654
+ },
+ {
+  "id": "F13",
+  "group": "richardson_painted",
+  "family": "20230104",
+  "file": "MA5-44882-HLA-DMB-WB-1-20230104_130011.jpg",
+  "catalog": "MA5-44882",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44882-HLA-DMB-WB-1-20230104_130011.jpg",
+  "paint_share": 0.13953488372093023,
+  "flat_share": 0.1698685540950455
+ },
+ {
+  "id": "F14",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41085-p53-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41085",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41085-p53-WB-1-20210721132148.jpg",
+  "paint_share": 0.11589403973509933,
+  "flat_share": 0.17052980132450332
+ },
+ {
+  "id": "F15",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32137-Caspase-1-WB-1.jpg",
+  "catalog": "MA5-32137",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32137-Caspase-1-WB-1.jpg",
+  "paint_share": 0.026039178213091256,
+  "flat_share": 0.043478260869565216
+ },
+ {
+  "id": "F16",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41172-HSP27-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41172",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41172-HSP27-WB-1-20210721132148.jpg",
+  "paint_share": 0.28802880288028804,
+  "flat_share": 0.5598559855985599
+ },
+ {
+  "id": "F17",
+  "group": "richardson_painted",
+  "family": "20201021",
+  "file": "MA5-36103-UBA3-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36103",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36103-UBA3-WB-1-20201021153721.jpg",
+  "paint_share": 0.6967741935483871,
+  "flat_share": 0.6967741935483871
+ },
+ {
+  "id": "F18",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-142653-BBS4-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-142653",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-142653-BBS4-WB-1-20230104_152038.jpg",
+  "paint_share": 0.06109377566102808,
+  "flat_share": 0.162588273936607
+ },
+ {
+  "id": "F19",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-143272-GRP78-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-143272",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-143272-GRP78-WB-1-20230104_152038.jpg",
+  "paint_share": 0.06531948199800769,
+  "flat_share": 0.11327735875907215
+ },
+ {
+  "id": "F20",
+  "group": "richardson_painted",
+  "family": "20230104",
+  "file": "MA5-44907-HDGF-WB-1-20230104_130011.jpg",
+  "catalog": "MA5-44907",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-44907-HDGF-WB-1-20230104_130011.jpg",
+  "paint_share": 0.1565629942013706,
+  "flat_share": 0.23668950975224037
+ },
+ {
+  "id": "F21",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41137-ICAM-1-CD54-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41137",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41137-ICAM-1-CD54-WB-1-20210721132148.jpg",
+  "paint_share": 0.9952061361457335,
+  "flat_share": 0.9952061361457335
+ },
+ {
+  "id": "F22",
+  "group": "richardson_painted",
+  "family": "20220201",
+  "file": "MA5-42387-CHROMOGRANINA-WB-1-20220201_094606.jpg",
+  "catalog": "MA5-42387",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-42387-CHROMOGRANINA-WB-1-20220201_094606.jpg",
+  "paint_share": 0.14609571788413098,
+  "flat_share": 0.1561712846347607
+ },
+ {
+  "id": "F23",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119688-PYCR1-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119688",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119688-PYCR1-WB-1-20220201_094606.jpg",
+  "paint_share": 0.7686567164179104,
+  "flat_share": 0.7779850746268657
+ },
+ {
+  "id": "F24",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36168-EEF1G-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36168",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36168-EEF1G-WB-1-20201021153721.jpg",
+  "paint_share": 0.7731442869057548,
+  "flat_share": 0.7731442869057548
+ },
+ {
+  "id": "F25",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "PA5-114346-SARS-CoV-2-Nucleocapsid-WB-1-20201021153721.jpg",
+  "catalog": "PA5-114346",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-114346-SARS-CoV-2-Nucleocapsid-WB-1-20201021153721.jpg",
+  "paint_share": 0.36,
+  "flat_share": 0.3968627450980392
+ },
+ {
+  "id": "F26",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41184-SMAD1-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41184",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41184-SMAD1-WB-1-20210721132148.jpg",
+  "paint_share": 0.30667765869744434,
+  "flat_share": 0.36438582028029676
+ },
+ {
+  "id": "F27",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41170-SMAD3-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41170",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41170-SMAD3-WB-1-20210721132148.jpg",
+  "paint_share": 0.2425,
+  "flat_share": 0.375
+ },
+ {
+  "id": "F28",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34887-GRB2-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34887",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34887-GRB2-WB-1-20200207153852.jpg",
+  "paint_share": 0.37187127532777114,
+  "flat_share": 0.4195470798569726
+ },
+ {
+  "id": "F29",
+  "group": "richardson_painted",
+  "family": "20200207",
+  "file": "MA5-34795-p60-CAF1-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34795",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34795-p60-CAF1-WB-1-20200207153852.jpg",
+  "paint_share": 0.4054320987654321,
+  "flat_share": 0.4167901234567901
+ },
+ {
+  "id": "F30",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34626-ADAR-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34626",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34626-ADAR-WB-1-20200207153852.jpg",
+  "paint_share": 0.12519561815336464,
+  "flat_share": 0.13615023474178403
+ },
+ {
+  "id": "F31",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41201-Laminin-alpha-3-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41201",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41201-Laminin-alpha-3-WB-1-20210721132148.jpg",
+  "paint_share": 0.29535864978902954,
+  "flat_share": 0.43037974683544306
+ },
+ {
+  "id": "F32",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119660-RUNX2-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119660",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119660-RUNX2-WB-1-20220201_094606.jpg",
+  "paint_share": 0.09326424870466321,
+  "flat_share": 0.1226252158894646
+ },
+ {
+  "id": "F33",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32069-CD8-alpha-WB-1.jpg",
+  "catalog": "MA5-32069",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32069-CD8-alpha-WB-1.jpg",
+  "paint_share": 0.6588654286441109,
+  "flat_share": 0.7099974561180361
+ },
+ {
+  "id": "F34",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-141146-C-MYC-WB-1-20230104_130011.jpg",
+  "catalog": "PA5-141146",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-141146-C-MYC-WB-1-20230104_130011.jpg",
+  "paint_share": 0.0034602076124567475,
+  "flat_share": 0.0034602076124567475
+ },
+ {
+  "id": "F35",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34931-Ribonuclease-3-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34931",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34931-Ribonuclease-3-WB-1-20200207153852.jpg",
+  "paint_share": 0.39728353140916806,
+  "flat_share": 0.44142614601018676
+ },
+ {
+  "id": "F36",
+  "group": "richardson_painted",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32475-Cystatin-C-WB-1.jpg",
+  "catalog": "MA5-32475",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32475-Cystatin-C-WB-1.jpg",
+  "paint_share": 0.3848534498452576,
+  "flat_share": 0.4230839249954488
+ },
+ {
+  "id": "F37",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34698-Glutathione-Synthetase-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34698",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34698-Glutathione-Synthetase-WB-1-20200207153852.jpg",
+  "paint_share": 0.5506709856547894,
+  "flat_share": 0.5506709856547894
+ },
+ {
+  "id": "F38",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34831-SFRP4-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34831",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34831-SFRP4-WB-1-20200207153852.jpg",
+  "paint_share": 0.46736011477761835,
+  "flat_share": 0.47596843615494977
+ },
+ {
+  "id": "F39",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41147-SGK1-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41147",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41147-SGK1-WB-1-20210721132148.jpg",
+  "paint_share": 0.8782435129740519,
+  "flat_share": 0.8782435129740519
+ },
+ {
+  "id": "F40",
+  "group": "richardson_painted",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32777-HuR-WB-1.jpg",
+  "catalog": "MA5-32777",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32777-HuR-WB-1.jpg",
+  "paint_share": 0.07165217391304347,
+  "flat_share": 0.1613913043478261
+ },
+ {
+  "id": "F41",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32281-CXCR7-WB-1.jpg",
+  "catalog": "MA5-32281",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32281-CXCR7-WB-1.jpg",
+  "paint_share": 0.01093018068257863,
+  "flat_share": 0.02007584207004238
+ },
+ {
+  "id": "F42",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "PA5-114343-SPATA13-WB-1-20201021153721.jpg",
+  "catalog": "PA5-114343",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-114343-SPATA13-WB-1-20201021153721.jpg",
+  "paint_share": 0.24104234527687296,
+  "flat_share": 0.249185667752443
+ },
+ {
+  "id": "F43",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34691-Galectin-7-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34691",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34691-Galectin-7-WB-1-20200207153852.jpg",
+  "paint_share": 0.2370617696160267,
+  "flat_share": 0.31552587646076796
+ },
+ {
+  "id": "F44",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36107-MTA2-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36107",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36107-MTA2-WB-1-20201021153721.jpg",
+  "paint_share": 0.5919308357348703,
+  "flat_share": 0.5948126801152738
+ },
+ {
+  "id": "F45",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "MA5-42553-CLIC2-WB-1-20220201_094606.jpg",
+  "catalog": "MA5-42553",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-42553-CLIC2-WB-1-20220201_094606.jpg",
+  "paint_share": 0.14953271028037382,
+  "flat_share": 0.15327102803738318
+ },
+ {
+  "id": "F46",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-142711-NPC2-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-142711",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-142711-NPC2-WB-1-20230104_152038.jpg",
+  "paint_share": 0.08612219834203255,
+  "flat_share": 0.29413570770647834
+ },
+ {
+  "id": "F47",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32406-APC6-WB-1.jpg",
+  "catalog": "MA5-32406",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32406-APC6-WB-1.jpg",
+  "paint_share": 0.4304995617879053,
+  "flat_share": 0.5724802804557406
+ },
+ {
+  "id": "F48",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "PA5-114341-CCDC90A-WB-1-20201021153721.jpg",
+  "catalog": "PA5-114341",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-114341-CCDC90A-WB-1-20201021153721.jpg",
+  "paint_share": 0.037075180226570546,
+  "flat_share": 0.09268795056642637
+ },
+ {
+  "id": "F49",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119710-ADAM22-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119710",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119710-ADAM22-WB-1-20220201_094606.jpg",
+  "paint_share": 0.5708418891170431,
+  "flat_share": 0.6078028747433265
+ },
+ {
+  "id": "F50",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "PA5-109302-USP14-WB-1-20200207153852.jpg",
+  "catalog": "PA5-109302",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-109302-USP14-WB-1-20200207153852.jpg",
+  "paint_share": 0.07,
+  "flat_share": 0.11
+ },
+ {
+  "id": "F51",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34734-TREX1-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34734",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34734-TREX1-WB-1-20200207153852.jpg",
+  "paint_share": 0.2751798561151079,
+  "flat_share": 0.28597122302158273
+ },
+ {
+  "id": "F52",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32533-PPAR-gamma-WB-1.jpg",
+  "catalog": "MA5-32533",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32533-PPAR-gamma-WB-1.jpg",
+  "paint_share": 0.3549033904484141,
+  "flat_share": 0.4197958439664601
+ },
+ {
+  "id": "F53",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36153-LDHD-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36153",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36153-LDHD-WB-1-20201021153721.jpg",
+  "paint_share": 0.523197715917202,
+  "flat_share": 0.5367594575303355
+ },
+ {
+  "id": "F54",
+  "group": "richardson_painted",
+  "family": "20210721",
+  "file": "MA5-41243-Involucrin-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41243",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41243-Involucrin-WB-1-20210721132148.jpg",
+  "paint_share": 0.8045325779036827,
+  "flat_share": 0.8101983002832861
+ },
+ {
+  "id": "F55",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119659-SHP-1-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119659",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119659-SHP-1-WB-1-20220201_094606.jpg",
+  "paint_share": 0.7120954003407155,
+  "flat_share": 0.7632027257240205
+ },
+ {
+  "id": "F56",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36151-KIFAP3-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36151",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36151-KIFAP3-WB-1-20201021153721.jpg",
+  "paint_share": 0.6223628691983122,
+  "flat_share": 0.6223628691983122
+ },
+ {
+  "id": "F57",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "PA5-119928-ATGL-WB-1-20220201_094606.jpg",
+  "catalog": "PA5-119928",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-119928-ATGL-WB-1-20220201_094606.jpg",
+  "paint_share": 0.43157132512671975,
+  "flat_share": 0.46125995655322233
+ },
+ {
+  "id": "F58",
+  "group": "richardson_painted",
+  "family": "20220201",
+  "file": "MA5-42503-CC2D1A-WB-1-20220201_094606.jpg",
+  "catalog": "MA5-42503",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-42503-CC2D1A-WB-1-20220201_094606.jpg",
+  "paint_share": 0.9883211678832117,
+  "flat_share": 0.9905109489051095
+ },
+ {
+  "id": "F59",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41169-SHP2-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41169",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41169-SHP2-WB-1-20210721132148.jpg",
+  "paint_share": 0.1609322974472808,
+  "flat_share": 0.18201997780244172
+ },
+ {
+  "id": "F60",
+  "group": "richardson_painted",
+  "family": "20201021",
+  "file": "MA5-36137-MAD3-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36137",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36137-MAD3-WB-1-20201021153721.jpg",
+  "paint_share": 0.13578500707213578,
+  "flat_share": 0.21923620933521923
+ },
+ {
+  "id": "F61",
+  "group": "richardson_painted",
+  "family": "20200207",
+  "file": "MA5-34879-PSMA3-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34879",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34879-PSMA3-WB-1-20200207153852.jpg",
+  "paint_share": 0.5366666666666666,
+  "flat_share": 0.5411111111111111
+ },
+ {
+  "id": "F62",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36212-SUPT5H-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36212",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36212-SUPT5H-WB-1-20201021153721.jpg",
+  "paint_share": 0.6361904761904762,
+  "flat_share": 0.6361904761904762
+ },
+ {
+  "id": "F63",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-141167-PROTEINS-WB-1-20230104_130011.jpg",
+  "catalog": "PA5-141167",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-141167-PROTEINS-WB-1-20230104_130011.jpg",
+  "paint_share": 0.024759284731774415,
+  "flat_share": 0.03576341127922971
+ },
+ {
+  "id": "F64",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32075-LDLR-WB-1.jpg",
+  "catalog": "MA5-32075",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32075-LDLR-WB-1.jpg",
+  "paint_share": 0.45902415916627193,
+  "flat_share": 0.4680246328754145
+ },
+ {
+  "id": "F65",
+  "group": "unflagged random",
+  "family": "20230104",
+  "file": "PA5-143097-ENPP2-WB-1-20230104_152038.jpg",
+  "catalog": "PA5-143097",
+  "url": "https://www.thermofisher.com/antibody/images/650/PA5-143097-ENPP2-WB-1-20230104_152038.jpg",
+  "paint_share": 0.06244591866166715,
+  "flat_share": 0.1359965387943467
+ },
+ {
+  "id": "F66",
+  "group": "unflagged random",
+  "family": "20200207",
+  "file": "MA5-34668-Ikaros-WB-1-20200207153852.jpg",
+  "catalog": "MA5-34668",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-34668-Ikaros-WB-1-20200207153852.jpg",
+  "paint_share": 0.05970149253731343,
+  "flat_share": 0.07462686567164178
+ },
+ {
+  "id": "F67",
+  "group": "unflagged random",
+  "family": "20210721",
+  "file": "MA5-41153-Cytokeratin-5-WB-1-20210721132148.jpg",
+  "catalog": "MA5-41153",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-41153-Cytokeratin-5-WB-1-20210721132148.jpg",
+  "paint_share": 0.9814814814814815,
+  "flat_share": 0.9814814814814815
+ },
+ {
+  "id": "F68",
+  "group": "unflagged random",
+  "family": "20201021",
+  "file": "MA5-36214-TEF1-WB-1-20201021153721.jpg",
+  "catalog": "MA5-36214",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-36214-TEF1-WB-1-20201021153721.jpg",
+  "paint_share": 0.6640625,
+  "flat_share": 0.6640625
+ },
+ {
+  "id": "F69",
+  "group": "unflagged random",
+  "family": "20220201",
+  "file": "MA5-42484-VAMP1-WB-1-20220201_094606.jpg",
+  "catalog": "MA5-42484",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-42484-VAMP1-WB-1-20220201_094606.jpg",
+  "paint_share": 0.2368587713742875,
+  "flat_share": 0.3084230525649145
+ },
+ {
+  "id": "F70",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32822-MAD2L2-WB-1.jpg",
+  "catalog": "MA5-32822",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32822-MAD2L2-WB-1.jpg",
+  "paint_share": 0.057971014492753624,
+  "flat_share": 0.06280193236714976
+ },
+ {
+  "id": "F71",
+  "group": "unflagged random",
+  "family": "none_MA5-32-34",
+  "file": "MA5-32843-PCSK9-WB-1.jpg",
+  "catalog": "MA5-32843",
+  "url": "https://www.thermofisher.com/antibody/images/650/MA5-32843-PCSK9-WB-1.jpg",
+  "paint_share": 0.04738562091503268,
+  "flat_share": 0.05392156862745098
+ }
+]
