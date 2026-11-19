@@ -127,3 +127,22 @@ Against the stored measures (median painted / not painted / can't tell):
 So a low flat share safely means "not painted", but none of these measures separates painted from can't
 tell: both are mostly flat. What the reviewer uses is the shape of what is left (irregular remnants or
 brush edges versus uniform flatness), which no current feature measures.
+
+## Remnant-shape features (feat_v3.py, 19 Nov): do not separate painted from can't tell
+Built on the reviewer's description (imperfect painting leaves remnants; uniform flatness cannot be called),
+on 8x8 JPEG blocks inside the blot, bands and their halo excluded. Tested on all 188 labelled blots
+(49 painted, 87 not painted, 52 can't tell or unsure; three rounds).
+- First set: number, size and clumping of textured islands, isolated-block share, texture strength at the
+  flat/textured boundary, number of grey levels among flat blocks, grey step between flat and textured
+  areas, largest flat region. Painted vs can't tell AUC 0.38-0.60 for every feature.
+- Second set: share of background that is flat at one grey level ("paint"), share with real grain
+  (block range >= 3) overall and away from bands, their combination, and paint/grain contact.
+  Painted vs can't tell AUC 0.47-0.61 overall and within each round.
+- What does work: painted vs not painted on the random sample, one-level flat share AUC 0.97 (medians
+  0.69 vs 0.17). Low flat share clears a blot; high flat share only says "painted or unjudgeable".
+- By eye on the random sample, the painted blots mostly show a grainy area and a uniform area side by side
+  (e.g. ZCCHC17 MA5-27170, PPP3CB MA5-27212), but one painted blot (ANGPTL1 MA5-26750) is a fully uniform
+  lane like the can't-tell ones, and several can't-tell blots have as much grain as painted ones. With 6
+  painted blots in the random sample the boundary between the two labels is not well defined in the data.
+Conclusion: at 650 px and this compression a single-image feature can triage (clear / flat) but not make
+the painted call. Remaining options: the per-layout family baseline, or original-resolution images.
