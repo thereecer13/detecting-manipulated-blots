@@ -1201,3 +1201,10 @@ figures, 6,861 verified cross-product panel pairs):
 - False by eye: published-figure panels (PA5-34401, MA5-14327, MA5-32244) and five dark-panel hits.
 - Blots (1,509 new in the previous scan): template scan 18 hit products, 3 unlisted and weak
   (PA5-49796, PA5-32127, PA5-11892; shares 0.16 to 0.19, plain single lanes), not added.
+- Blots, last scan (5,944 images from the end of the crawl and from products crawled earlier):
+  template scan 81 hit products, 6 unlisted. Confirmed by eye against the exemplars:
+  - c-Rel MA5-15859, figure WB3 (2021-06-10): same two-lane blot and band as MORF MA5-38548 figure
+    WB-2 (pattern D, share 0.80); its figure WB2 matches the FLIP MA5-31680 lane (pattern C, 0.68).
+  - ASF1A PA5-118838 (2021-09-23): same lane background as EDG4 PA5-102052 with a different band
+    (pattern A, share 0.60, correlation 0.97).
+  Weak, not added (shares 0.17 to 0.31): PA5-97730, PA5-83110, PA5-120041, MA5-24800, PA5-11927.
