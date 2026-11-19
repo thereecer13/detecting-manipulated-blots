@@ -11,7 +11,7 @@ open(C+'/scraped.jsonl','w').writelines(L); print(len(L),'new blots')
 E
 ln -sfn ../icc_all/wb/images $C/images
 (python3 -I $P/template_scan2.py scan --richardson raw/rich_aug --scraped $C --out $C/scan_t2.json --jobs 2 2>/dev/null | head -1; python3 -I $P/pattern_a.py scan $C --members scraped_members --member-list patA/members_A.txt --out $C/scan_a.json --jobs 2 2>&1 | sed -n 2,5p) > $C/log.txt 2>&1 &
-timeout 6600 python3 -I -W ignore $P/shared_panels.py icc_all/index.jsonl ctrl_all/index.jsonl --images icc_all/images ctrl_all/images --out sp/run$N.json --jobs 3 2>&1 | sed -n 1,3p
+timeout 12000 python3 -I -W ignore $P/shared_panels.py icc_all/index.jsonl ctrl_all/index.jsonl --images icc_all/images ctrl_all/images --out sp/run$N.json --jobs 3 2>&1 | sed -n 1,3p
 python3 -I - $N <<'E'
 import json,sys,hashlib
 N=int(sys.argv[1]); k=lambda p: frozenset((p["a"]["file"],p["b"]["file"]))

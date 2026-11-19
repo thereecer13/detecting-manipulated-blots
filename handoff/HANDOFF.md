@@ -6,9 +6,13 @@ not in the repository and must be fetched again where needed.
 
 ## What is here
 - `crawl_state.tar.gz`: progress and index files of the Thermo PA5/MA5 crawl (`pilot/crawl_icc.py`).
-  `icc_all/done.txt` lists finished product pages (90,141 of 99,705 on 18 Nov, 07:36 UTC); `icc_all/index.jsonl` and
+  `icc_all/done.txt` lists finished product pages (all 99,705; the crawl finished on 19 Nov, 01:00 UTC, including the blot images of products crawled earlier); `icc_all/index.jsonl` and
   `icc_all/media.jsonl` list every microscopy figure (URL, caption, file hash); `icc_all/wb/scraped.jsonl`
   lists every western blot image; the other files are the earlier scrapes passed to `--skip` / `--have-wb`.
+- `ptg_state.tar.gz`: Proteintech IHC crawl state (`ptg_ihc/index.jsonl`, `done.txt`; 2,300 of 3,600 sampled
+  pages on 19 Nov, 01:13 UTC; resume with `pilot/scrape_ptg.py --urls ptg/product_urls.txt --out ptg_ihc --n 3600
+  --seed 1 --delay 4`) and copied-block scan results (`block_first739.json`, `block_new.json` from
+  `pilot/proteintech/block_clone.py`; `spot_v3.json` from the slower patch search).
 - `band_state.tar.gz`: band-duplication results: within-blot search output for 89,129 blots
   (`band/m_items.json`, `band/m_out.json`), cross-blot bands, verified pairs and groups (`band/xall/`),
   and the keys of review rounds 1 to 3.
