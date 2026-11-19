@@ -1172,3 +1172,32 @@ Sixty-fourth batch (crawl at ~95,900 MA5/PA5 pages):
   PA5-17473, PA5-19969).
 - False by eye: published-figure panels under PA5-34401 / PA5-29188.
 - Blots (1,335 new): template scan 13 hit products, none unlisted.
+
+Sixty-fifth and final batch (crawl complete: 99,705 MA5/PA5 pages; one comparison over all 42,329
+figures, 6,861 verified cross-product panel pairs):
+- No new stained-image reuse. 107 new control pairs, most of them existing groups gaining members:
+  - Captions name different cell lines: Phospho-SHP2 PA5-48111 (negative-staining panel, untreated
+    THP-1) and SOX15 PA5-48044 (negative-staining panel, HUVEC) show the same DAPI field (both uploaded
+    2025-06-11).
+  - The HeLa RAN / TRIM25 / PKR panel gains RSK1 PA5-29215, a second RAN product PA5-79913
+    (2020-01-14) and PUF60 PA5-21411, plus PPM1A PA5-29275 (2019-03-19).
+  - The NDUFAF2 / SUMO1 / NDKB panel gains NDUFAF1 PA5-59051 and LAMTOR1 PA5-23086 (both 2021-05-27,
+    Hep G2 captions).
+  - Uploads on different dates: Claspin PA5-17227 (2020-08-24) joins MR1 PA5-98768 (2020-11-30) and
+    cereblon PA5-98707 / PA5-98708 (2025, 2026), HeLa; NONO PA5-27408 (2020-11-30) / TRIB3 PA5-75683
+    and PA5-29887 (2020-12-26), HeLa; GSK3B PA5-104555 (2021-03-23) / GORASP1 PA5-93091 (2021-05-27);
+    FSTL1 PA5-31113 (2020-07-13) / MST2 PA5-17691 (2020-08-24), A549; PTBP2 PA5-142305 (2023-01-04) /
+    BAF53A/B PA5-18272 (2024-02-01), A431; ITGB1 PA5-32887 (2020-08-24) joins the A-431 integrin
+    beta 1 / VISTA group; XRN2 PA5-61433 joins TGN46 / TRAP1 (HeLa); RAD21 PA5-75308 joins NME1 / MCM5.
+  - TRIM29 PA5-19248 (2024-02-01): its U2OS negative control is also FOXC1 PA5-18171's, and its A431
+    negative control is also PSMG1 PA5-19076's (same day).
+  - Same-day or undated pairs: SV2A PA5-18581 / Dynactin 1 PA5-18095 (U2OS, 2024-02-01); NBR1
+    PA5-30085 / PRKAR1A PA5-75223 (HeLa, 2020-03-04); HSPA1B PA5-28369 / HSC70 PA5-27337 (PC-3,
+    2018-11-14); hnRNP A1 PA5-28385 / eRF1 PA5-28777 (HeLa); RhoGDI PA5-17475, PA5-27413 / SMAD5
+    PA5-78050 (HeLa).
+- Same target or intended comparison (not counted): PARP PA5-27219 / PA5-34803 and ZO-1 PA5-28869 /
+  PA5-19090 ("antibodies raised against the same target perform similarly"); BCL6 PA5-14259 /
+  PA5-27390; SCD PA5-17331, PA5-17409 / PA5-75757; Phospho-SMAD2/3 MA5-56386 / PA5-110155.
+- False by eye: published-figure panels (PA5-34401, MA5-14327, MA5-32244) and five dark-panel hits.
+- Blots (1,509 new in the previous scan): template scan 18 hit products, 3 unlisted and weak
+  (PA5-49796, PA5-32127, PA5-11892; shares 0.16 to 0.19, plain single lanes), not added.
