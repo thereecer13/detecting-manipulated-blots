@@ -114,3 +114,15 @@ Copied: 16518-1-AP RNASEH2C IHC4835 (200 px), 21310-1-AP NHLRC1 IHC25136 (757 px
 IHC19537 (407 px), 14055-1-AP USP16 IHC14081 (379 px). Unsure: 11600-1-AP HCK IHC2313 (268 px).
 Confirmed images in total: 10 of about 4,550 scanned (6 in the first 737, 4 in the next 3,812).
 The 200 px block is the smallest labelled copied so far; 154 px remains the only "not copied" block.
+
+### Multi-block images and a contact-sheet correction (19 Nov)
+The 17 flagged images with more than four blocks were viewed (three largest blocks each): none is a
+copy. They are striated muscle (14221-1-AP, 84404-1-RR x2, 68492-1-Ig), out-of-focus smooth gradients
+(82781-6-RR, 83505-1-PBS, 68803-2-Ig, 83910-5-PBS, 84409-4-PBS, 83867-1-PBS, 27522-1-AP, 84218-1-PBS)
+or image borders and overlaid labels (83307-2-RR, 14421-1-AP).
+Correction: the scratch contact sheet used to screen the larger crawl cropped at a 1024 px scale while
+the scan works at 1600 px, so tiles for images wider than 1024 px showed the wrong place (44 flagged
+images). All tiles were rebuilt and viewed again. The five round-5 images were unaffected (they are
+<= 1024 px). Two earlier rejections became borderline and went out as round 6 (`review6_key.json`):
+67539-1-Ig CCT8 IHC-860156 (226 px, in stained tissue) and 85933-1-RR MGAT2 IHC-865833 (1,298 px, pale
+tissue with horizontal streaks). The other rejections stand on the corrected tiles.

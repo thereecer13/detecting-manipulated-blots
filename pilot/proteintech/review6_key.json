@@ -1,0 +1,30 @@
+{
+ "Q00": {
+  "catalog": "67539-1-Ig",
+  "image_url": "https://www.ptglab.com/products/pictures/CCT8-Antibody-67539-1-Ig-IHC-860156.jpg",
+  "product_url": "https://www.ptglab.com/products/CCT8-Antibody-67539-1-Ig.htm",
+  "candidates": [
+   [
+    [
+     15,
+     -17
+    ],
+    226
+   ]
+  ]
+ },
+ "Q01": {
+  "catalog": "85933-1-RR",
+  "image_url": "https://www.ptglab.com/products/pictures/MGAT2-Antibody-85933-1-RR-IHC-865833.jpg",
+  "product_url": "https://www.ptglab.com/products/MGAT2-Antibody-85933-1-RR.htm",
+  "candidates": [
+   [
+    [
+     65,
+     4
+    ],
+    1298
+   ]
+  ]
+ }
+}
