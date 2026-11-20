@@ -24,3 +24,21 @@ preserved in this file, so that does not clear it.
 
 The two older scripts in this folder ran on smaller copies; the first
 version of the comparison used a drifted alignment (see ../README.md).
+
+## Do the differing colonies come from the paper's other plates?
+
+The user supplied the 16 other plates in the paper (three images).
+
+- `oth1.py` whole-plate matching of all 18 plates against each other
+  (153 pairs, plain and mirrored): only the two shS+NPHP4 plates match
+  (173 matched points); no other pair gives a valid match.
+- `oth2.py` each of the 22 one-sided colonies searched in all 16 other
+  plates at 14 sizes, 12 rotations and mirrored. Best scores 0.92-0.988.
+  The same search with 26 colonies that are in both NPHP4 plates (so not
+  pasted in) gives 0.946-0.996, median 0.977. No one-sided colony scores
+  above that range, so no source was found.
+
+Limit: a single round colony has little distinguishing shape, so a copy
+that was resized and recompressed could score no higher than a chance
+look-alike. This search can find a copied group of colonies, not reliably
+a single one.
