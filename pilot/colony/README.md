@@ -95,3 +95,15 @@ PMC13088848, PMC9761148. Same sample, not reported: PMC12373508 (A549
 L-Cys plate in Fig 1a and Extended Data Fig 1a), PMC12595022 (untreated
 Control and MDMX plates reused as the baseline of later panels). False:
 bar charts and mouse imaging panels.
+
+### PMC10470409 Fig 7B, closer look (user-supplied high-resolution figure)
+
+`compare_two_plates_PMC10470409.py` aligns the PC-3 shS+NPHP4 plate onto
+the C4-2B one and lists colonies found in only one. Result: the top-edge
+smear, the chain of colonies in the upper centre-right, the right-hand
+cluster and the background streaks coincide; 17 colonies appear only in
+the C4-2B plate and 19 only in the PC-3 plate, mostly in the left and
+lower parts (pixel agreement 0.44 top, 0.22 bottom). The colony pattern
+in the PC-3 plate is also 11% larger while the plate outline is the same
+size. Reading: one plate image, enlarged and with colonies removed and
+added, not a plain copy.
