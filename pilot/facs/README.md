@@ -248,3 +248,12 @@ Fig 5A and Fig 9A, the Control and OGD/R JC-1 plots. Both figures list
 Control and OGD/R as conditions, so this is a shared control, not
 reported. Side note: the Control plot is printed with 97.52/2.47 in Fig 5
 and 97.42/2.57 in Fig 9.
+
+### 2025 Q4 window, batches 3–6 (window complete)
+
+676, 609, 595 and 579 panels (22,254 so far). Within-plot filter passed
+five panels, all false (a gene scatter with reference lines, histogram
+and plot label text, a fitted-curve chart). Cross-figure pairs:
+PMC12651925 Fig 9 and Fig 10, the same single-agent/control histogram in
+two combination figures (same sample); PMC12632077, one figure stored
+under two file names.
