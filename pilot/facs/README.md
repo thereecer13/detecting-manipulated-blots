@@ -265,3 +265,9 @@ two panels, both false (a strip chart of points, a scatter chart with a
 fit line). One cross-figure pair: PMC13283291 Fig 2 and Fig 5, the same
 Live/Dead gating example in two gating-strategy panels (gating plot, not
 reported).
+
+### 2025 Q3 window, batches 4–6 (window complete)
+
+643, 711 and 477 panels (26,793 so far). Within-plot filter passed five
+panels, all false (three line charts with error bars, two enrichment
+plots matched on their label text). No cross-figure pairs.
