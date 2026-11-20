@@ -60,3 +60,7 @@ pair and reading labels and captions:
 - 1 too low in resolution to judge (PMC11670111, two adjacent wells).
 - 5 false: a drawn schematic, bar charts, transwell images, and sparse
   plates matched on their printed scale bars.
+
+Round 2 verdict (`review2_results.json`): PMC12336053 confirmed as the same
+plate shown as different samples. Confirmed so far: 4 (3 in the pilot of
+399 papers, 1 in the first 902 of the scale-up).
