@@ -26,9 +26,9 @@ def ctext(x,y,t,f,fill='black'):
     w=d.textlength(t,font=f);d.text((x-w/2,y),t,font=f,fill=fill)
 c1=left+80*S;c2=left+160*S+gap+80*S
 pass
-for i,(pair,lab) in enumerate(((A,'Antibody A: caption says HeLa cells'),(B,'Antibody B: caption says MCF7 cells'))):
+for i,(pair,lab) in enumerate(((A,'Antibody A: HeLa cells, anti-rabbit secondary'),(B,'Antibody B: MCF7 cells, anti-goat secondary'))):
     y=top+i*(160*S+rowlab)
-    d.text((left,y+14),lab,font=font(36),fill='black')
+    d.text((left,y+14),lab,font=font(34),fill='black')
     cv.paste(Image.fromarray(up(pair[0])),(left,y+70));cv.paste(Image.fromarray(up(pair[1])),(left+160*S+gap,y+70))
     d.rectangle([left+160*S+gap-4,y+66,left+2*160*S+gap+3,y+70+160*S+3],outline=(255,200,0),width=6)
 cv.save('/home/user/reviews/no_primary_control_reuse_example.png');print(cv.size)
