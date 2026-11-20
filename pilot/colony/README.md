@@ -113,3 +113,10 @@ an intensity-based fit that drifted, and reported 17 and 19 one-sided
 colonies. That was an alignment error, pointed out by the user. A search
 for a second shift/zoom among the leftover colonies found nothing above
 chance.
+
+Contrast enhancement (`enhance_PMC10470409.py`): stretching the background
+12x shows the same streak pattern in both plates and no ghost or smoothed
+patch at the spots where one plate has a colony and the other does not.
+The view is dominated by compression blocks (each plate is about 145 px
+across in a lossy file), so absence of remnants is not informative here.
+Noise-level and recompression-error maps were uninformative at this size.
