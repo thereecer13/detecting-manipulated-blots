@@ -54,3 +54,8 @@ old and new figures, insets, phase/merge panels. Two sent to review
   untreated, HA and Se/HA NP; only the drawn wound outlines differ.
 - PMC13297086 Fig 4G / Fig 5G: the "oe circCIAO1(5)" invasion image is
   the "NT" control image of the other figure, 5% larger.
+
+Verdict so far (`cell_review1_results.json`): PMC13258865 is legitimate
+reuse of the control image (user). Rule taken from this: one 0 h /
+starting image shared by the conditions of a scratch assay is the same
+sample and is not sent to review.
