@@ -1223,3 +1223,11 @@ then JPEG quality 85. Found: 13 of 40 at 28 px, 18 of 27 at 40 px, 18 of 24 at 5
 (both 0.8-0.99), block area does. Working rule: oblique offset and block >= 450 px. No pilot image passes.
 Limits: copies moved exactly horizontally or vertically are discarded with the panel layout; rotated,
 mirrored or resized copies are not searched; recall on pasted cells is about two thirds.
+Full run (20 Nov): 14,162 images (2 unreadable). 4,631 flagged at any offset; 732 images have a block at an
+oblique offset (1,212 blocks). By size: 23 images with a block >= 450 px, 6 with >= 700 px, 2 with >= 1,000 px.
+The 36 largest oblique blocks (>= 420 px, 28 images) were viewed: none is a duplicated cell. They are
+(a) panel layout at a diagonal, where a channel panel and the merged panel sit diagonally in the figure
+(e.g. PA5-86143 FITC vs Merged at offset (145, -239); the F-actin and composite panels of the five-panel
+ICC layout at about (208, -208)), and (b) smooth out-of-focus cytoplasm at short offsets. The 30 blocks of
+350-420 px were not viewed individually. Result: no duplicated cell found in Thermo vendor ICC/IF images by
+this method.
