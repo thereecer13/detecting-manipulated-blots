@@ -176,3 +176,14 @@ Limit: at PMC figure size most events merge into the cloud; only sparse regions 
 searchable.
 Scale-up continued with `YEARS=2025:2026 TAG=y25_ run_chunks.sh` (48,135 papers match in 2025-2026,
 44,529 in 2014-2018, 112,936 in 2019-2024 of which 10,000 are done).
+
+### 2025-2026 batch 0 (1,000 papers, 20 Nov)
+2,204 flow panels. Within-plot (`within3.py`): 2 panels pass the filter, both false by eye (a dotted
+polygon-gate edge; a sparse two-colour cloud with 13 scattered coincidences).
+Across figures: 1 pair, score 38 (136 coinciding dots, chance 72): PMC13769143 (Poult Sci 2026,
+doi:10.1016/j.psj.2026.108081), Fig. 4D "PBS" and Fig. 6D "PBS". Same events by eye; the quadrant gates sit
+at different positions and the percentages differ (3.13/0.27/5.53/6.21 vs 3.23/0.24/6.55/6.49).
+Labels read (standing rule): both panels are the PBS-immunized group; Fig. 4D caption says PBMCs stimulated
+with recombinant Mycoplasma antigen, Fig. 6D caption says SG-stimulated PBMCs. Bin: presented as different
+samples (different stimulation), with the caveat that it is the control group in both. The JOL3193 and
+JOL3203 panels of the two figures do not match. Not yet sent for review.
