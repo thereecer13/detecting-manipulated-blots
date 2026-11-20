@@ -257,3 +257,11 @@ and plot label text, a fitted-curve chart). Cross-figure pairs:
 PMC12651925 Fig 9 and Fig 10, the same single-agent/control histogram in
 two combination figures (same sample); PMC12632077, one figure stored
 under two file names.
+
+### 2025 Q3 window, batches 0–3
+
+605, 687, 763 and 653 panels (24,962 so far). Within-plot filter passed
+two panels, both false (a strip chart of points, a scatter chart with a
+fit line). One cross-figure pair: PMC13283291 Fig 2 and Fig 5, the same
+Live/Dead gating example in two gating-strategy panels (gating plot, not
+reported).
