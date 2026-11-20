@@ -279,3 +279,15 @@ two panels, both false (plot label text, a dashed gate outline). One
 cross-figure match: PMC12152194, where the files for Figure EV1 and
 Figure 2 in the PMC package are byte-identical (one image stored under
 two names, a deposit error rather than panel reuse).
+
+### 2025 Q2 window, batches 4–6 (window complete)
+
+665, 700 and 51 panels (30,873 so far). Within-plot filter passed four
+panels, all false (gate label text, bar-chart P-value text). Cross-figure
+matches were all file-level, not panel reuse: PMC12084385 and
+PMC12081931 each store one byte-identical image under two figure names
+(as PMC12152194 above, all three EMBO Press papers with EV figures);
+PMC12090378 has two versions of its Fig. 3 in the package (same flow
+plots, one microscopy panel differs), likely a correction.
+
+Paused here at 1.5 GB free disk; 2025 Q1 and the 2026 windows remain.
