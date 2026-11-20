@@ -17,7 +17,7 @@ for n,m in enumerate(M):
     cv2.rectangle(lane,(int((x-8)*s),int((y-8)*s)),(int((x+w+8)*s),int((y+h+8)*s)),(230,0,0),3)
     Z=6;zc=cv2.cvtColor(cv2.resize(c,(cw*Z,ch*Z),interpolation=cv2.INTER_CUBIC),cv2.COLOR_GRAY2RGB)
     W=40+lane.shape[1]+50+cw*Z+40;H=110+760+30;cv=Image.new('RGB',(W,H),'white');d=ImageDraw.Draw(cv)
-    d.text((40,28),f"Blot {n+1} of {len(M)}",font=F(48),fill='black')
+    d.text((40,28),m["target"].replace("Cytomegalovirus-US28","Cytomegalovirus US28"),font=F(48),fill='black')
     cv.paste(Image.fromarray(lane),(40,110));zx=40+lane.shape[1]+50;zy=110+200
     d.text((zx,zy-64),"The band, enlarged",font=F(36),fill='black');cv.paste(Image.fromarray(zc),(zx,zy));d.rectangle([zx-3,zy-3,zx+cw*Z+2,zy+ch*Z+2],outline=(230,0,0),width=4)
     d.text((zx,zy+ch*Z+24),"22 antibodies for 22 different proteins.",font=F(30,False),fill='black');d.text((zx,zy+ch*Z+64),"The band has the same shape in every blot.",font=F(30,False),fill='black')
