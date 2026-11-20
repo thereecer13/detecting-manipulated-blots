@@ -28,6 +28,9 @@ for l in (out / "papers.jsonl").open():
     d = json.loads(l)
     for k, h in enumerate(d["hits"]):
         if h.get("ncc", 1) < MINNCC: continue
+        # one figure stored twice (colour / print versions, or an extra copy named Figa, Figb ...)
+        if h["a"] != h["b"] and abs(h["scale"] - 1) < 0.01 and h["abox"][:2] == h["bbox"][:2]: continue
+        if "_OC." in h["a"] and "_PB." in h["b"]: continue
         a, b = crop(out / "figs" / h["a"], h["abox"]), crop(out / "figs" / h["b"], h["bbox"])
         row = np.hstack([a, np.full((360, 8, 3), 0, np.uint8), b])
         head = np.full((24, row.shape[1], 3), 255, np.uint8)

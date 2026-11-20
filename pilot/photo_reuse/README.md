@@ -33,3 +33,24 @@ because merged and single-channel panels of one field match each other.
 Not covered yet: edits inside a single image (erased or cloned cells,
 painted signal). This finds reuse only, including one mouse photograph
 under two different signal overlays.
+
+## Pilot, 300 papers per topic (20 Nov)
+
+**Bioluminescence:** 20 papers with a match, 37 matches, 29 with ncc ≥
+0.5. None reportable. Most are one field shown as single-channel and
+merged fluorescence panels, or a zoomed inset. The three mouse-image
+matches are the same sample by the captions: PMC2988989 (Fig 1 cTnT and
+Fig 2 AAV-6 are the same vector and capsid), PMC12239283 (one panel is
+both "BALB/c" and "IV"; both rows are BALB/c injected IV), PMC11789939
+(same mice at two labelled exposures).
+
+**Cell culture:** 14 papers with a match, 21 matches with ncc ≥ 0.5.
+Noise: publishers storing a colour and a print version of each figure
+(`_OC` / `_PB`), extra copies named `Figa`…, correction notices carrying
+old and new figures, insets, phase/merge panels. Two sent to review
+(`cell_review1_key.json`, page `cell_image_reuse_round1.html`):
+
+- PMC13258865 Fig 7: the 0 h scratch image is one photograph for
+  untreated, HA and Se/HA NP; only the drawn wound outlines differ.
+- PMC13297086 Fig 4G / Fig 5G: the "oe circCIAO1(5)" invasion image is
+  the "NT" control image of the other figure, 5% larger.
