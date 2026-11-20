@@ -201,3 +201,12 @@ legend text repeats (neither is a flow plot). Cross-figure pairs with score
   the same image in full. The Fig 4 caption describes other panels
   (immunofluorescence, uptake), so the Fig 5 image was posted in the Fig 4
   slot. A wrong-file error, not a duplicated plot.
+
+### 2025–2026 batches 3 and 4
+
+2,230 and 2,226 panels (10,869 with batches 0–2). Within-plot filter passed
+five panels, all false: matches on printed quadrant percentages or gate
+outlines, a line chart and a scatter chart. One cross-figure pair with
+score >= 20: PMC13638297 (Gut 2026) Fig 3G and Fig 4B, "anti-CD3" in both,
+the shared unstimulated-comparison sample for two treatments; same sample,
+not reported.
