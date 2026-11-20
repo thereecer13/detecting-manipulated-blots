@@ -120,3 +120,21 @@ patch at the spots where one plate has a colony and the other does not.
 The view is dominated by compression blocks (each plate is about 145 px
 across in a lossy file), so absence of remnants is not informative here.
 Noise-level and recompression-error maps were uninformative at this size.
+
+Papers 4,002–5,000: 21 more papers flagged. 6 candidates on review page
+round 7 (`review7_key.json`): PMC12339706, PMC10480187 (two "replicate"
+wells), PMC7894390 (toluidine blue images, not plates), PMC8837780 and
+PMC12198170 (both rotated matches), PMC8395571. Same sample, not reported:
+PMC13327353 (sh-NC plates of two knockdown figures), PMC12048457 (Control
+and IL-22 plates in Fig 1 and Fig 5), PMC11957317 (untreated plate in
+Fig 1 and Fig 5). False: bar and pie charts, flow plots, icons, inset
+frames.
+
+### Scale-up totals
+
+5,000 papers, 30,898 plates. 83 papers flagged by the matcher; after
+viewing each pair and reading labels and captions, 22 went to review
+(rounds 2–7; 20 colony plates, 2 other image types), about 17 were the
+same sample shown twice, and the rest were false matches on charts,
+schematics, frames and scale bars. Round 2 (1 item) is confirmed by the
+user; rounds 3–7 await verdicts.
