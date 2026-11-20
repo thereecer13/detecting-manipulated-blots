@@ -1208,3 +1208,18 @@ figures, 6,861 verified cross-product panel pairs):
   - ASF1A PA5-118838 (2021-09-23): same lane background as EDG4 PA5-102052 with a different band
     (pattern A, share 0.60, correlation 0.97).
   Weak, not added (shares 0.17 to 0.31): PA5-97730, PA5-83110, PA5-120041, MA5-24800, PA5-11927.
+
+## Duplicated cells inside one ICC/IF image (if_clone.py, 20 Nov)
+The Proteintech copied-block scanner run on Thermo vendor ICC/IF images (13,016 non-control images plus
+1,146 controls; journal figures listed on product pages are not included), without the watermark mask and
+with offsets up to 320 px. About 0.25 s per image.
+Pilot, 400 random images: 126 flagged. 106 only at horizontal or vertical offsets (the same cells shown in
+several channel panels of one figure, which is the intended layout). 20 images at oblique offsets, 27 blocks
+of 121-368 px: all false by eye (smooth, out-of-focus cytoplasm or dim gradients that match within the
+tolerance; no block covers a cell).
+Synthetic check (if_clone_synth.py): a round patch of a cell pasted elsewhere in the image with a soft edge,
+then JPEG quality 85. Found: 13 of 40 at 28 px, 18 of 27 at 40 px, 18 of 24 at 56 px; matched area median
+270, 700 and 1,340 px. Detail correlation inside the block does not separate real hits from pasted ones
+(both 0.8-0.99), block area does. Working rule: oblique offset and block >= 450 px. No pilot image passes.
+Limits: copies moved exactly horizontally or vertically are discarded with the panel layout; rotated,
+mirrored or resized copies are not searched; recall on pasted cells is about two thirds.
