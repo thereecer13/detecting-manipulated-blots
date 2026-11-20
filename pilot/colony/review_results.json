@@ -4,7 +4,7 @@
  "items": [
   {
    "id": "C00",
-   "label": "PMC11550297, Discover Oncology 2024, doi:10.1007/s12672-024-01496-x. Fig 4I: HCT116 SI-NC and SW480 SI-NC; HCT116 SI-POLQ and SW480 SI-POLQ. Labelled as two different cell lines; bar charts 4J/4K give different counts. Caption(s): Fig. 4 POLQ knockdown suppresses the proliferation ability of CRC cells The interference efficiency of siRNAs in HCT116 ( A , B , C ) and SW480 ( D , E , F ) cells was measured by qRT‒PCR and WB. CCK8 assay was used to detect the effect of POLQ knockdown on the proliferation of HCT116 ( G ) and SW480 ( H ) cells. I , J , K Detection of the proliferation of HCT116 and SW480 cells after POLQ knockd",
+   "label": "PMC11550297, Discover Oncology 2024, doi:10.1007/s12672-024-01496-x. Fig 4I: HCT116 SI-NC and SW480 SI-NC; HCT116 SI-POLQ and SW480 SI-POLQ. Labelled as two different cell lines; bar charts 4J/4K give different counts. Caption(s): Fig. 4 POLQ knockdown suppresses the proliferation ability of CRC cells The interference efficiency of siRNAs in HCT116 ( A , B , C ) and SW480 ( D , E , F ) cells was measured by qRT\u2012PCR and WB. CCK8 assay was used to detect the effect of POLQ knockdown on the proliferation of HCT116 ( G ) and SW480 ( H ) cells. I , J , K Detection of the proliferation of HCT116 and SW480 cells after POLQ knockd",
    "verdict": "same plate, shown as different samples",
    "notes": ""
   },
@@ -12,13 +12,17 @@
    "id": "C01",
    "label": "PMC12813190, Frontiers in Pharmacology 2025, doi:10.3389/fphar.2025.1725886. Fig 2M (Ishikawa): vehicle at 2.5 uM and NEK6-OE at 5 uM. Labelled as different genotype and dose. Caption(s): FIGURE 2 NEK6 knockout results in sensitivity to Palbociclib. (A) Western blot shows effective lentiviral shRNA-mediated knockdown of NEK6 in HEC-1-A cells. (B) The inhibition of NEK6 sensitizes EC HEC-1A cells to Palbociclib. (C) The inhibition of NEK6 sensitizes EC Ishikawa cells to Palbociclib. (D,E) Colony formation assay were performed in the indicated EC cell lines with or without Palbocicl",
    "verdict": "unsure",
-   "notes": "Resolution is too poor. "
+   "notes": "Resolution is too poor. ",
+   "verdict_updated": "same plate, shown as different samples",
+   "update_note": "confirmed by reviewer in chat 20 Nov after checking the source"
   },
   {
    "id": "C02",
-   "label": "PMC12442663, Advanced Science 2025, doi:10.1002/advs.202504688. Fig 9L T24 \"P.d CM\" and Fig 10I T24 \"300 uM\" 3-IAA. Different treatments in two figures; low resolution. Caption(s): Figure 2 P. distasonis culture medium inhibits the growth and migration of bladder cancer cells. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 6) E) Schematic representation of the popliteal LN metastasis model established in nude mice. F) The || Figure 4 3‐IAA derived from P. distasonis can exert tumor‐suppressive effects. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 5) E) Schematic representation of the establishment of a popliteal LN metastasis model in nude mice. F) Representative",
+   "label": "PMC12442663, Advanced Science 2025, doi:10.1002/advs.202504688. Fig 9L T24 \"P.d CM\" and Fig 10I T24 \"300 uM\" 3-IAA. Different treatments in two figures; low resolution. Caption(s): Figure 2 P. distasonis culture medium inhibits the growth and migration of bladder cancer cells. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 6) E) Schematic representation of the popliteal LN metastasis model established in nude mice. F) The || Figure 4 3\u2010IAA derived from P. distasonis can exert tumor\u2010suppressive effects. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 5) E) Schematic representation of the establishment of a popliteal LN metastasis model in nude mice. F) Representative",
    "verdict": "unsure",
-   "notes": "resolution is too poor"
+   "notes": "resolution is too poor",
+   "verdict_updated": "same plate, shown as different samples",
+   "update_note": "confirmed by reviewer in chat 20 Nov after checking the source; reviewer reports the authors have since replaced the plate"
   },
   {
    "id": "C03",

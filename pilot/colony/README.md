@@ -35,3 +35,13 @@ Hit list (machine output): `hits_all.json` (paths are relative to the scratch do
 | PMC11648741 (Control in Fig 1C / Fig 8B) | same plate, legitimate: shared control |
 
 Confirmed as a problem: 1 of 399 papers. Two more need the figures at higher resolution than the PMC copies.
+
+### Update from the reviewer (20 Nov)
+After checking the two low-resolution cases at the source, the reviewer confirms both:
+- PMC12813190 (Front Pharmacol 2025, Fig 2M): same plate, shown as different samples.
+- PMC12442663 (Adv Sci 2025, Fig 9L / Fig 10I): same plate; per the reviewer the issue has since been
+  addressed and the authors replaced the plate with the correct one. (Correction notice not looked up or
+  linked here yet.)
+Final tally of the 500-paper pilot: 3 of 399 papers with a plate shown as different samples (one of them
+already corrected by the authors), 1 legitimate shared control, 5 false matches. All three confirmed
+cases were found from the PMC copies at about 40-45 px per plate.
