@@ -25,3 +25,13 @@ misses plates it cannot segment (square wells, plates cut by panel borders) and 
 Not checked against PubPeer or published corrections yet.
 
 Hit list (machine output): `hits_all.json` (paths are relative to the scratch download).
+
+## Reviewer's verdicts (20 Nov, `review_results.json`)
+| Paper | Verdict |
+|---|---|
+| PMC11550297 (HCT116 / SW480 rows) | same plate, shown as different samples |
+| PMC12813190 (vehicle 2.5 uM / NEK6-OE 5 uM) | unsure: resolution too poor |
+| PMC12442663 (Fig 9L / Fig 10I) | unsure: resolution too poor |
+| PMC11648741 (Control in Fig 1C / Fig 8B) | same plate, legitimate: shared control |
+
+Confirmed as a problem: 1 of 399 papers. Two more need the figures at higher resolution than the PMC copies.

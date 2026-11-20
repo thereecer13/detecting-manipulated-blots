@@ -1,0 +1,30 @@
+{
+ "review": "colony_plate_reuse",
+ "exported": "2026-11-20T01:15:03.314Z",
+ "items": [
+  {
+   "id": "C00",
+   "label": "PMC11550297, Discover Oncology 2024, doi:10.1007/s12672-024-01496-x. Fig 4I: HCT116 SI-NC and SW480 SI-NC; HCT116 SI-POLQ and SW480 SI-POLQ. Labelled as two different cell lines; bar charts 4J/4K give different counts. Caption(s): Fig. 4 POLQ knockdown suppresses the proliferation ability of CRC cells The interference efficiency of siRNAs in HCT116 ( A , B , C ) and SW480 ( D , E , F ) cells was measured by qRT‒PCR and WB. CCK8 assay was used to detect the effect of POLQ knockdown on the proliferation of HCT116 ( G ) and SW480 ( H ) cells. I , J , K Detection of the proliferation of HCT116 and SW480 cells after POLQ knockd",
+   "verdict": "same plate, shown as different samples",
+   "notes": ""
+  },
+  {
+   "id": "C01",
+   "label": "PMC12813190, Frontiers in Pharmacology 2025, doi:10.3389/fphar.2025.1725886. Fig 2M (Ishikawa): vehicle at 2.5 uM and NEK6-OE at 5 uM. Labelled as different genotype and dose. Caption(s): FIGURE 2 NEK6 knockout results in sensitivity to Palbociclib. (A) Western blot shows effective lentiviral shRNA-mediated knockdown of NEK6 in HEC-1-A cells. (B) The inhibition of NEK6 sensitizes EC HEC-1A cells to Palbociclib. (C) The inhibition of NEK6 sensitizes EC Ishikawa cells to Palbociclib. (D,E) Colony formation assay were performed in the indicated EC cell lines with or without Palbocicl",
+   "verdict": "unsure",
+   "notes": "Resolution is too poor. "
+  },
+  {
+   "id": "C02",
+   "label": "PMC12442663, Advanced Science 2025, doi:10.1002/advs.202504688. Fig 9L T24 \"P.d CM\" and Fig 10I T24 \"300 uM\" 3-IAA. Different treatments in two figures; low resolution. Caption(s): Figure 2 P. distasonis culture medium inhibits the growth and migration of bladder cancer cells. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 6) E) Schematic representation of the popliteal LN metastasis model established in nude mice. F) The || Figure 4 3‐IAA derived from P. distasonis can exert tumor‐suppressive effects. A) Schematic diagram of the subcutaneous tumor model established in C57BL/6 mice. B) Images of bladder tumors, C) statistical charts of the tumor weights and D) tumor volume growth curves in mice. (n = 5) E) Schematic representation of the establishment of a popliteal LN metastasis model in nude mice. F) Representative",
+   "verdict": "unsure",
+   "notes": "resolution is too poor"
+  },
+  {
+   "id": "C03",
+   "label": "PMC11648741, Research 2024, doi:10.34133/research.0553. Fig 1C Control and Fig 8B Control (MDA-MB-231), contrast and colour differ. Same condition in two experiments; a shared control is possible but not stated. Caption(s): pmc-status-qastatus 0 pmc-status-live yes pmc-status-embargo no pmc-status-released yes pmc-prop-open-access yes pmc-prop-olf no pmc-prop-manuscript no pmc-prop-legally-suppressed no pmc-prop-has-pdf yes pmc-prop-has-supplement yes pmc-prop-pdf-only no pmc-prop-suppress-copyright no pmc-prop-is-real-version no pmc-prop-is-scanned-article no pmc-prop-preprint no pmc-prop-in-epmc yes pmc-license-re || Fig. 8. Proliferation, migration, and invasion of MDA-MB-231 cells induced by PMA are inhibited by ononin (A). The MTT assay was conducted in MDA-MB-231 cells. (B and C). Clonogenic assay was performed in MDA-MB-231. (D) The wound-healing assay was utilized to measure the extent of wound closure, quantifying the migratory properties of the cells. (E to G) Non-Matrigel-coated and Matrigel-coated T",
+   "verdict": "same plate, legitimate (same sample or shared control)",
+   "notes": "Shared controls"
+  }
+ ]
+}
