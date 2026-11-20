@@ -64,3 +64,12 @@ pair and reading labels and captions:
 Round 2 verdict (`review2_results.json`): PMC12336053 confirmed as the same
 plate shown as different samples. Confirmed so far: 4 (3 in the pilot of
 399 papers, 1 in the first 902 of the scale-up).
+
+Papers 903–1,969: 17 more papers flagged. 3 candidates on review page
+round 3 (`review3_key.json`, built with `make_packet.py`): PMC6657265,
+PMC11173063, PMC12036886. Same sample, not reported: PMC8124562 (0 Gy and
+4 Gy plates repeated as the no-inhibitor controls of panel D), PMC8006274
+(HT29 NC in Fig 2B and Fig 5B, weak match), PMC9273950 (plate reused as an
+icon in the method schematic). False: bar charts, schematics, empty well
+frames, tissue cores, and PMC8568022, where two image files of one split
+figure both contain panel J.
