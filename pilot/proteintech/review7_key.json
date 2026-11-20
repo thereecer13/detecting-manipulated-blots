@@ -1,0 +1,17 @@
+{
+ "R00": {
+  "catalog": "17928-1-AP",
+  "target": "TUB",
+  "image_url": "https://www.ptglab.com/products/pictures/TUB-Antibody-17928-1-AP-IHC10465.jpg",
+  "file": "3e36ff8cac29.jpg",
+  "method": "copy_move.py (SIFT, similarity transform)",
+  "area": 951,
+  "inliers": 9,
+  "shift": [
+   -3.9,
+   -86.5
+  ],
+  "rotation_deg": -0.39,
+  "scale": 1.003
+ }
+}

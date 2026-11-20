@@ -126,3 +126,14 @@ images). All tiles were rebuilt and viewed again. The five round-5 images were u
 <= 1024 px). Two earlier rejections became borderline and went out as round 6 (`review6_key.json`):
 67539-1-Ig CCT8 IHC-860156 (226 px, in stained tissue) and 85933-1-RR MGAT2 IHC-865833 (1,298 px, pale
 tissue with horizontal streaks). The other rejections stand on the corrected tiles.
+
+### Rotation- and mirror-tolerant search on the larger crawl (`copy_move.py`, 20 Nov)
+The SIFT copy-move search (any distance; rotated, rescaled or mirrored copies; verified area >= 900 px) had
+only been run on the first 739 images (0 hits). Run on the 3,812 newer images: 2 images with a verified area.
+- 85112-4-RR Progesterone Receptor IHC-736690 (6,487 px): false. The image is two panels side by side and
+  the match is the printed label "human breast cancer (PR" that both carry.
+- 17928-1-AP TUB IHC10465 (951 px): a cluster of about five nuclei appears twice, 87 px apart vertically, with
+  a 0.4 degree turn and 0.3% size change (9 keypoint matches). The exact-match block scan had not flagged it,
+  as expected for a copy that is not pixel-exact. Sent as round 7 (`review7_key.json`), label pending.
+No large duplications (thousands of px), and no mirrored or strongly rotated copies, were found in 4,551
+images. Synthetic recall of this search was 150 of 200 pasted regions.
