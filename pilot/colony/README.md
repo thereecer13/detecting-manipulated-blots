@@ -45,3 +45,18 @@ After checking the two low-resolution cases at the source, the reviewer confirms
 Final tally of the 500-paper pilot: 3 of 399 papers with a plate shown as different samples (one of them
 already corrected by the authors), 1 legitimate shared control, 5 false matches. All three confirmed
 cases were found from the PMC copies at about 40-45 px per plate.
+
+## Scale-up to 5,000 papers (in progress)
+
+First 902 papers (5,764 plates): 11 papers flagged. After viewing each
+pair and reading labels and captions:
+
+- 1 candidate, on review page round 2 (`review2_key.json`): PMC12336053,
+  Fig 3C HCT116 Tianma 0.2 mg/mL and Fig 8D SW480 berberine 25 ug/mL.
+- 3 same sample, not reported: PMC6111824 (NC, NCI-H1975 in Fig 1D and
+  Fig 6A), PMC11680982 (shHER2 + ET + CDK4/6i in Fig 3 and Fig 6B),
+  PMC12334625 (parental A204 dose rows in Fig 1B and Fig 2B).
+- 1 same image file listed under two figure names (PMC12686467).
+- 1 too low in resolution to judge (PMC11670111, two adjacent wells).
+- 5 false: a drawn schematic, bar charts, transwell images, and sparse
+  plates matched on their printed scale bars.
