@@ -31,7 +31,7 @@ for i,(pair,lab) in enumerate(((A,'Antibody A: HeLa cells, anti-rabbit secondary
     d.text((left,y+14),lab,font=font(34),fill='black')
     cv.paste(Image.fromarray(up(pair[0])),(left,y+70));cv.paste(Image.fromarray(up(pair[1])),(left+160*S+gap,y+70))
     d.rectangle([left+160*S+gap-4,y+66,left+2*160*S+gap+3,y+70+160*S+3],outline=(255,200,0),width=6)
-ax=left+2*160*S+gap-70;ya=top+70+160*S-45;yb=top+(160*S+rowlab)+70+45;col=(230,0,0)
+ax=left+2*160*S+gap-42;ya=top+70+160*S-45;yb=top+(160*S+rowlab)+70+45;col=(230,0,0)
 d.line([ax,ya+22,ax,yb-22],fill=col,width=12)
 d.polygon([(ax,ya),(ax-24,ya+30),(ax+24,ya+30)],fill=col);d.polygon([(ax,yb),(ax-24,yb-30),(ax+24,yb-30)],fill=col)
 cv.save('/home/user/reviews/no_primary_control_reuse_example.png');print(cv.size)
