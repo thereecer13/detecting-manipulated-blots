@@ -238,3 +238,13 @@ environment variable) and later runs use date windows of under 10,000
 papers each (`YEARS=2025/10/01:2025/12/31 TAG=y25q4_`). Window sizes:
 2025 Q1 6,188; Q2 6,102; Q3 6,624; Q4 6,848; 2026 22,372. The 9,998 done
 so far are the first 10,000 of the combined 2025–2026 search.
+
+### 2025 Q4 window, batches 0–2
+
+528, 645 and 669 panels (19,795 so far). Within-plot filter passed four
+panels, all false (a line chart, two scatter charts with fit lines, a
+histogram legend). One cross-figure pair: PMC12902099 (Commun Biol 2025)
+Fig 5A and Fig 9A, the Control and OGD/R JC-1 plots. Both figures list
+Control and OGD/R as conditions, so this is a shared control, not
+reported. Side note: the Control plot is printed with 97.52/2.47 in Fig 5
+and 97.42/2.57 in Fig 9.
