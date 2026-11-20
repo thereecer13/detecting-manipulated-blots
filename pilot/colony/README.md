@@ -137,4 +137,10 @@ viewing each pair and reading labels and captions, 22 went to review
 (rounds 2–7; 20 colony plates, 2 other image types), about 17 were the
 same sample shown twice, and the rest were false matches on charts,
 schematics, frames and scale bars. Round 2 (1 item) is confirmed by the
-user; rounds 3–7 await verdicts.
+user.
+
+Rounds 3–7 verdict (`review3to7_results.json`): the user reported
+PMC8395571 (round 7) as the only false hit, so the other 20 items are
+recorded as real duplicates. With round 2 that is 21 of 22 reviewed
+items confirmed, from 5,000 papers. Two of the 21 are not colony plates
+(PMC12876004 transwell, PMC7894390 toluidine blue).

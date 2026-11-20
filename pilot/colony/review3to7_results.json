@@ -1,0 +1,149 @@
+[
+ {
+  "round": 3,
+  "id": "E00",
+  "pmcid": "PMC6657265",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 3,
+  "id": "E01",
+  "pmcid": "PMC11173063",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 3,
+  "id": "E02",
+  "pmcid": "PMC12036886",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 4,
+  "id": "F00",
+  "pmcid": "PMC9937894",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 4,
+  "id": "F01",
+  "pmcid": "PMC11540088",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 4,
+  "id": "F02",
+  "pmcid": "PMC10470409",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 4,
+  "id": "F03",
+  "pmcid": "PMC10411479",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 5,
+  "id": "G00",
+  "pmcid": "PMC12205545",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 5,
+  "id": "G01",
+  "pmcid": "PMC10912303",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 5,
+  "id": "G02",
+  "pmcid": "PMC12876004",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 6,
+  "id": "H00",
+  "pmcid": "PMC11392926",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 6,
+  "id": "H01",
+  "pmcid": "PMC8019231",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 6,
+  "id": "H02",
+  "pmcid": "PMC8215359",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 6,
+  "id": "H03",
+  "pmcid": "PMC13088848",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 6,
+  "id": "H04",
+  "pmcid": "PMC9761148",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I00",
+  "pmcid": "PMC12339706",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I01",
+  "pmcid": "PMC10480187",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I02",
+  "pmcid": "PMC7894390",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I03",
+  "pmcid": "PMC8837780",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I04",
+  "pmcid": "PMC12198170",
+  "verdict": "real duplicate",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ },
+ {
+  "round": 7,
+  "id": "I05",
+  "pmcid": "PMC8395571",
+  "verdict": "false match",
+  "source": "user, in chat, 2026-11-20: \"PMC8395571 is the only false colony plate hit\""
+ }
+]
