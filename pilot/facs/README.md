@@ -291,3 +291,11 @@ PMC12090378 has two versions of its Fig. 3 in the package (same flow
 plots, one microscopy panel differs), likely a correction.
 
 Paused here at 1.5 GB free disk; 2025 Q1 and the 2026 windows remain.
+
+### 2025 Q1 window, batches 0–3
+
+Resumed after freeing disk (colony paper downloads deleted). 609, 766,
+764 and 663 panels (33,675 so far). Within-plot filter passed seven
+panels, all false (a gate outline, a schematic, line charts, legend and
+label text). One cross-figure match: PMC11904033, again one
+byte-identical image stored under two figure names (EMBO Press).
