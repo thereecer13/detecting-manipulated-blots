@@ -225,3 +225,16 @@ panels, all false (legend text on two histograms, a gate outline).
 Cross-figure pairs, both same sample: PMC13524787 (Fig 3 plots repeated
 in Extended Data Fig 3 as the gating example) and PMC13459713 (one
 screen-enrichment plot with different genes highlighted).
+
+### 2025–2026 batches 8 and 9, and the paging limit
+
+716 and 807 panels (17,953 so far). Within-plot filter passed two panels,
+both false (a violin plot, a bar chart with data points). No cross-figure
+pairs with score >= 20.
+
+The NCBI search cannot page past 10,000 results, so batch 10 came back
+empty. `fetch_pmc.py` now reads a list of papers already done (`SEEN`
+environment variable) and later runs use date windows of under 10,000
+papers each (`YEARS=2025/10/01:2025/12/31 TAG=y25q4_`). Window sizes:
+2025 Q1 6,188; Q2 6,102; Q3 6,624; Q4 6,848; 2026 22,372. The 9,998 done
+so far are the first 10,000 of the combined 2025–2026 search.

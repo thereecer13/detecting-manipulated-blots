@@ -88,3 +88,10 @@ Same sample, not reported: PMC12222551 (miR-141-3p mimic plates repeated
 in the co-transfection figure), PMC13104100 (30 uM plate in panels a and
 b). False: plates matched on their drawn inset frames, bar charts, CT
 scans, a heatmap legend, cartoon plates.
+
+Papers 3,344–4,001: 11 more papers flagged. 5 candidates on review page
+round 6 (`review6_key.json`): PMC11392926, PMC8019231, PMC8215359,
+PMC13088848, PMC9761148. Same sample, not reported: PMC12373508 (A549
+L-Cys plate in Fig 1a and Extended Data Fig 1a), PMC12595022 (untreated
+Control and MDMX plates reused as the baseline of later panels). False:
+bar charts and mouse imaging panels.

@@ -1,0 +1,5 @@
+[{"id":"H00","pmcid":"PMC11392926","label":"Fig 5D, Hep3B row: the eGFP (empty vector control) plate and the dCP2 mutant plate. Labelled as different constructs."},
+ {"id":"H01","pmcid":"PMC8019231","label":"Fig 3C HTB9 shYBX-1-1 and Fig 2C Biu-87 sh-circ_100984-1. Labelled as different cell lines and different knockdowns in two figures."},
+ {"id":"H02","pmcid":"PMC8215359","label":"Fig 3C 'shVector' (knockdown control) and Fig 4E 'Vector' (overexpression control). Fig 3C shows a separate 'Vector' plate for the overexpression control, so these are labelled as two different controls."},
+ {"id":"H03","pmcid":"PMC13088848","label":"Fig 3: the 2 Gy plate in the top row and the 4 Gy plate in the middle row (rows are different drug treatments). Low resolution."},
+ {"id":"H04","pmcid":"PMC9761148","label":"Fig 5D SKOV3 Vector and Fig 5K HO8910 shESR1 1#. Dense plates, low resolution."}]

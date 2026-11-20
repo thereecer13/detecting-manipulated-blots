@@ -68,6 +68,10 @@ def main():
     done = set()
     if os.path.exists(logp):
         done = {json.loads(l)['pmcid'] for l in open(logp)}
+    # NCBI esearch cannot page past 10,000 results, so later runs use narrower
+    # date windows (--years 2025/01/01:2025/03/31) and skip papers already done.
+    if os.environ.get('SEEN') and os.path.exists(os.environ['SEEN']):
+        done |= {l.strip() for l in open(os.environ['SEEN'])}
     ids, count = search(a.n, a.start, a.years)
     print('search count', count, 'taking', len(ids), flush=True)
     out = open(logp, 'a')
