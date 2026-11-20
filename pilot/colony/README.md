@@ -99,11 +99,17 @@ bar charts and mouse imaging panels.
 ### PMC10470409 Fig 7B, closer look (user-supplied high-resolution figure)
 
 `compare_two_plates_PMC10470409.py` aligns the PC-3 shS+NPHP4 plate onto
-the C4-2B one and lists colonies found in only one. Result: the top-edge
-smear, the chain of colonies in the upper centre-right, the right-hand
-cluster and the background streaks coincide; 17 colonies appear only in
-the C4-2B plate and 19 only in the PC-3 plate, mostly in the left and
-lower parts (pixel agreement 0.44 top, 0.22 bottom). The colony pattern
-in the PC-3 plate is also 11% larger while the plate outline is the same
-size. Reading: one plate image, enlarged and with colonies removed and
-added, not a plain copy.
+the C4-2B one by matching colony centres (similarity transform found by
+exhaustive search over colony pairs, then least-squares refinement) and
+lists colonies found in only one plate inside the area both show.
+
+Result: the C4-2B plate is the PC-3 plate enlarged by 11% and shifted
+(rotation 0.3 degrees). Pixel agreement in the shared area is 0.85. Of 39
+and 34 colonies in the shared area, 4 appear only in the C4-2B plate and
+5 only in the PC-3 plate, mostly lower-left; the rest coincide.
+
+Correction: a first version of this comparison refined the alignment with
+an intensity-based fit that drifted, and reported 17 and 19 one-sided
+colonies. That was an alignment error, pointed out by the user. A search
+for a second shift/zoom among the leftover colonies found nothing above
+chance.
