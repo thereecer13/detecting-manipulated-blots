@@ -187,3 +187,17 @@ Labels read (standing rule): both panels are the PBS-immunized group; Fig. 4D ca
 with recombinant Mycoplasma antigen, Fig. 6D caption says SG-stimulated PBMCs. Bin: presented as different
 samples (different stimulation), with the caveat that it is the control group in both. The JOL3193 and
 JOL3203 panels of the two figures do not match. Not yet sent for review.
+
+### 2025–2026 batches 1 and 2
+
+2,054 and 2,155 panels (6,413 with batch 0). Within-plot filter passed
+two panels, both false: a hex-binned trajectory plot and a ROC curve whose
+legend text repeats (neither is a flow plot). Cross-figure pairs with score
+>= 20, binned by labels and captions:
+
+- PMC13167764 (PNAS 2026) Fig 4 and Fig 5, "Isotype" in both: same sample
+  (the isotype control of one day-6 experiment), not reported.
+- PMC13712078 (J Transl Med 2026) Fig 4 and Fig 5: the two figure files are
+  the same image in full. The Fig 4 caption describes other panels
+  (immunofluorescence, uptake), so the Fig 5 image was posted in the Fig 4
+  slot. A wrong-file error, not a duplicated plot.
