@@ -271,3 +271,11 @@ reported).
 643, 711 and 477 panels (26,793 so far). Within-plot filter passed five
 panels, all false (three line charts with error bars, two enrichment
 plots matched on their label text). No cross-figure pairs.
+
+### 2025 Q2 window, batches 0–3
+
+666, 674, 595 and 729 panels (29,457 so far). Within-plot filter passed
+two panels, both false (plot label text, a dashed gate outline). One
+cross-figure match: PMC12152194, where the files for Figure EV1 and
+Figure 2 in the PMC package are byte-identical (one image stored under
+two names, a deposit error rather than panel reuse).
