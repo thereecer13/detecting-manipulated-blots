@@ -155,3 +155,24 @@ Wording for the write-up: "the same events shown as two different samples", not 
 read the panel labels, row/column headers and caption, and sort it into one of the three bins above.
 Only "different samples" and "unclear" pairs go forward; the bin and the labels read are recorded with
 the pair.
+
+## Within-plot clones: the old search was nearly blind; new detector (`within3.py`, 20 Nov)
+Planted test of the old repeated-dot search (`figscan.scan`, as used by `within.py` / `within2.py`): a
+rectangle of a real flow plot (18-35% of its width) pasted elsewhere in the same plot (darker pixel wins),
+re-saved as JPEG 88. Found: 9 of 163. The earlier "nothing within plots" result therefore said little.
+
+`within3.py`: mask of small ink blobs (single events; components over 30 px or wider than 8 px dropped,
+outer 5% dropped), autocorrelation by FFT, spike at an offset = many dots coinciding with themselves at that
+exact shift; z = excess over the local median of the autocorrelation. A hit must be at an oblique offset
+(|dx|, |dy| > 4; horizontal and vertical offsets are text lines, ticks and stacked histograms), z >= 10, and
+its coinciding dots must form one compact, non-linear cluster (>= 10 dots, >= 50% of all coinciding dots,
+minor/major spread >= 0.2).
+Planted test (`within3_plant_test.py`, 190 plots, patches 12-35% of the plot): passes for 26, and for 20 of
+the 43 patches that contain at least 20 isolated dots; patches with fewer than 10 isolated dots are almost
+never found. Clean plots passing: 0 of 190.
+All 6,507 panels of the 9,000-paper scale-up: 14 panels pass, all false by eye (dotted or stepped gate
+lines at an angle, repeated text labels, a dashed curve, dot-strip charts). No within-plot clone.
+Limit: at PMC figure size most events merge into the cloud; only sparse regions with separate dots are
+searchable.
+Scale-up continued with `YEARS=2025:2026 TAG=y25_ run_chunks.sh` (48,135 papers match in 2025-2026,
+44,529 in 2014-2018, 112,936 in 2019-2024 of which 10,000 are done).
