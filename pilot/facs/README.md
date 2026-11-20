@@ -210,3 +210,10 @@ outlines, a line chart and a scatter chart. One cross-figure pair with
 score >= 20: PMC13638297 (Gut 2026) Fig 3G and Fig 4B, "anti-CD3" in both,
 the shared unstimulated-comparison sample for two treatments; same sample,
 not reported.
+
+### 2025–2026 batch 5
+
+2,417 panels (13,286 so far). Within-plot filter passed two panels, both
+false (gate label text, a paired-dot bar chart). Cross-figure pairs:
+PMC13539813, two image files that are both the paper's Fig. 3 (same label
+and caption), not a duplication.

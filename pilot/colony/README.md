@@ -73,3 +73,10 @@ PMC11173063, PMC12036886. Same sample, not reported: PMC8124562 (0 Gy and
 icon in the method schematic). False: bar charts, schematics, empty well
 frames, tissue cores, and PMC8568022, where two image files of one split
 figure both contain panel J.
+
+Papers 1,970–2,768: 13 more papers flagged. 4 candidates on review page
+round 4 (`review4_key.json`): PMC9937894, PMC11540088 (the first rotated
+match, 89 degrees), PMC10470409, PMC10411479. Not reported: PMC12089262
+(a plate next to its own colony-count overlay). False: bar charts, cartoon
+plates and cells, a flow plot. `make_packet.py` now adds a turned or
+mirrored copy of the left plate when the match is rotated or mirrored.
