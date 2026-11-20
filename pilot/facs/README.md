@@ -299,3 +299,10 @@ Resumed after freeing disk (colony paper downloads deleted). 609, 766,
 panels, all false (a gate outline, a schematic, line charts, legend and
 label text). One cross-figure match: PMC11904033, again one
 byte-identical image stored under two figure names (EMBO Press).
+
+### 2025 Q1 window, batches 4–6 (2025 complete)
+
+612, 758 and 113 panels (35,158 so far). Within-plot filter passed three
+panels, all false (bar-chart text, a line chart, a gate outline). No
+cross-figure pairs. All four 2025 windows are now done; 2026 remains
+(22,372 papers in the search), in monthly windows.
