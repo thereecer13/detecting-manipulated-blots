@@ -80,3 +80,11 @@ match, 89 degrees), PMC10470409, PMC10411479. Not reported: PMC12089262
 (a plate next to its own colony-count overlay). False: bar charts, cartoon
 plates and cells, a flow plot. `make_packet.py` now adds a turned or
 mirrored copy of the left plate when the match is rotated or mirrored.
+
+Papers 2,769–3,343: 10 more papers flagged. 3 candidates on review page
+round 5 (`review5_key.json`): PMC12205545, PMC10912303, and PMC12876004
+(transwell invasion images, not plates, matched across two cell lines).
+Same sample, not reported: PMC12222551 (miR-141-3p mimic plates repeated
+in the co-transfection figure), PMC13104100 (30 uM plate in panels a and
+b). False: plates matched on their drawn inset frames, bar charts, CT
+scans, a heatmap legend, cartoon plates.

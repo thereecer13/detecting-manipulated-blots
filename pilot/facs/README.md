@@ -217,3 +217,11 @@ not reported.
 false (gate label text, a paired-dot bar chart). Cross-figure pairs:
 PMC13539813, two image files that are both the paper's Fig. 3 (same label
 and caption), not a duplication.
+
+### 2025–2026 batches 6 and 7
+
+2,396 and 748 panels (16,430 so far). Within-plot filter passed three
+panels, all false (legend text on two histograms, a gate outline).
+Cross-figure pairs, both same sample: PMC13524787 (Fig 3 plots repeated
+in Extended Data Fig 3 as the gating example) and PMC13459713 (one
+screen-enrichment plot with different genes highlighted).
