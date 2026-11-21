@@ -13,3 +13,6 @@ mean error of 0.83 px; the shared area is 73% of the panel; pixel correlation th
 
 `simple_figure.py` draws the plain version the user asked for instead: the two published panels and the
 first one turned to the matching angle, no outlines or numbers (`PMC13481467_Fig5E_rotated_simple.png`).
+
+`two_panel_figure.py` is the version the user settled on: NC+LPS as published, and OE-Vector+LPS turned
+108 degrees with a rectangle marking the NC+LPS frame (`PMC13481467_Fig5E_two_panel.png`).
