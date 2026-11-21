@@ -176,3 +176,21 @@ reagents (si-NC and OE-NC) shown as one image are reportable.
 Confirmed so far in cell-culture figures: 11 papers from 2,700
 (round 2: six; round 3: five). Round 1: PMC13258865 acceptable,
 PMC13297086 awaiting a verdict.
+
+## Bioluminescence, papers 1,500–2,700 (21 Nov)
+
+2,700 papers so far. New: 115 matches with ncc ≥ 0.5, 50 of them
+fluorescence panels (dropped), 65 viewed. Not reportable: grids of
+animals in one holder that only look alike (PMC6796468 NC vs KD mice
+differ on viewing; the match was the stage pattern), the same animal
+over time or under two probes, photograph and overlay, single-channel
+and merge (PMC9459417 EdU), review articles, schematics and tables.
+
+Two sent to review (`bli_review2_key.json`, page
+`bioluminescence_reuse_round2.html`):
+
+- PMC10874017 Fig 9B: in the NS row the second and fifth mouse are one
+  image (pair score 0.98; other 65 pairs ≤ 0.86, median 0.73). Same
+  group, so one animal shown twice.
+- PMC6804745 Fig 3e (histology): "TRAP, Zoledronic acid" is the same
+  image as "TRAP 2, Denosumab".

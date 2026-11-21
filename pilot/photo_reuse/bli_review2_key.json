@@ -1,0 +1,36 @@
+[
+ {
+  "id": "B10",
+  "pmcid": "PMC10874017",
+  "pairs": [
+   {
+    "a": "PMC10874017_12964_2024_1513_Fig9_HTML.jpg",
+    "abox": [
+     88,
+     222,
+     137,
+     318
+    ],
+    "b": "PMC10874017_12964_2024_1513_Fig9_HTML.jpg",
+    "bbox": [
+     233,
+     222,
+     282,
+     318
+    ],
+    "note": "NS row, second mouse (left) and fifth mouse (right)"
+   }
+  ],
+  "what": "Fig 9B, end-point bioluminescence images, six mice per row (rows NS and ETOP). In the NS row the second and the fifth mouse are the same image: same pose, ears, limbs, tail and the same two signal spots. Compared on pixels, this pair scores 0.98; the other 65 pairs of mice in the panel score 0.86 or less (median 0.73).",
+  "why": "Caption: 'BALB/c nude mice (6 mice per group) were injected subcutaneously in both flanks ...' and '(B, C) In-vivo bioluminescence imaging ... and isolated subcutaneous tumours of two groups of tumour-bearing mice at the end point'. The six images in a row are presented as the six animals of the group, and panels F and G plot values per animal. Both images are in the same treatment group (NS), so this is one animal shown twice within a group rather than across groups. Source: caption."
+ },
+ {
+  "id": "B11",
+  "pmcid": "PMC6804745",
+  "hits": [
+   0
+  ],
+  "what": "Not a mouse image: TRAP-stained histology in Fig 3e, found in a figure whose caption mentions bioluminescence. The image labelled 'TRAP, Zoledronic acid' is the same image as the one labelled 'TRAP 2, Denosumab'.",
+  "why": "Panel labels: one image is the zoledronic acid group, the other the Denosumab group. Caption: 'physiological bone turnover was observed at the interface of the human mineralized tissue within the hTEBC for all three experimental groups (TRAP2 for PBS and Denosumab group, white arrow heads)'. The three treatments (ZA, Denosumab, PBS) were given to different animals, and panel f reports TRAP-positive area per group with ZA significantly lower, so the section shown for ZA cannot be the Denosumab section. Source: panel labels, caption."
+ }
+]
