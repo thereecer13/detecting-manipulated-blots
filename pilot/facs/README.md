@@ -311,3 +311,8 @@ cross-figure pairs. All four 2025 windows are now done; 2026 remains
 
 575, 666, 661 and 702 panels (37,762 so far). Within-plot filter passed
 three panels, all false (legend and label text). No cross-figure pairs.
+
+### 2026 Jan–Feb window, batches 4–5 (window complete)
+
+632 and 50 panels (38,444 so far). Nothing passed the within-plot
+filter and there were no cross-figure pairs.
