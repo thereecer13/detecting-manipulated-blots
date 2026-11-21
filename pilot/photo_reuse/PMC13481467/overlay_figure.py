@@ -1,7 +1,10 @@
 """PMC13481467 Fig 5E, overlay version: NC+LPS as published, the two panels laid over each other (OE-Vector+LPS
 turned to the matching angle, both half transparent), and OE-Vector+LPS as published.
 
-    python3 overlay_figure.py p7-000.png OUTDIR      (p7-000.png: see rotated_panels.py)
+    python3 overlay_figure.py p7-000.png OUTDIR [--anon]      (p7-000.png: see rotated_panels.py)
+
+--anon: label the panels "Sample A" and "Sample B", leave out the source line, and write a file name
+without the paper's ID (the version used in the blog post).
 """
 import sys, math
 from pathlib import Path
@@ -10,6 +13,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 src, out = sys.argv[1], Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
+ANON = "--anon" in sys.argv
+NA, NB = ("Sample A", "Sample B") if ANON else ("NC+LPS", "OE-Vector+LPS")
 im = cv2.imread(src)
 A = im[1424:1424 + 312, 249:249 + 390]; B = im[1797:1797 + 313, 652:652 + 393]        # NC+LPS, OE-Vector+LPS
 gA, gB = cv2.cvtColor(A, cv2.COLOR_BGR2GRAY), cv2.cvtColor(B, cv2.COLOR_BGR2GRAY)
@@ -40,11 +45,11 @@ O = np.clip(O, 0, 255).astype(np.uint8)
 font = lambda s, b=False: ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans%s.ttf" % ("-Bold" if b else ""), s)
 rgb = lambda a: Image.fromarray(cv2.cvtColor(a, cv2.COLOR_BGR2RGB))
 gap = 50; top = 20
-cols = [(up(A), "NC+LPS, as published"), (O, "Both overlaid (OE-Vector+LPS turned %d°)" % round(abs(angle))), (up(B), "OE-Vector+LPS, as published")]
+cols = [(up(A), NA + ", as published"), (O, "Both overlaid (%s turned %d°)" % (NB, round(abs(angle)))), (up(B), NB + ", as published")]
 H = max(c.shape[0] for c, _ in cols); W = sum(c.shape[1] for c, _ in cols) + gap * 4
-cv = Image.new("RGB", (W, top + H + 110), "white"); d = ImageDraw.Draw(cv); x = gap
+cv = Image.new("RGB", (W, top + H + (70 if ANON else 110)), "white"); d = ImageDraw.Draw(cv); x = gap
 for img, name in cols:
     cv.paste(rgb(img), (x, top + (H - img.shape[0]) // 2)); tw = d.textlength(name, font=font(28, True))
     d.text((x + (img.shape[1] - tw) / 2, top + H + 12), name, font=font(28, True), fill="black"); x += img.shape[1] + gap
-d.text((gap, top + H + 70), "Inflamm Res 2026, doi:10.1007/s00011-026-02342-2, Fig. 5E (CC BY 4.0). Panels enlarged; middle panel is a half-transparent overlay of the other two.", font=font(19), fill=(100, 100, 100))
-cv.save(out / "PMC13481467_Fig5E_overlay.png"); print(cv.size, round(angle, 1))
+if not ANON: d.text((gap, top + H + 70), "Inflamm Res 2026, doi:10.1007/s00011-026-02342-2, Fig. 5E (CC BY 4.0). Panels enlarged; middle panel is a half-transparent overlay of the other two.", font=font(19), fill=(100, 100, 100))
+cv.save(out / ("rotated_reuse_overlay_anonymized.png" if ANON else "PMC13481467_Fig5E_overlay.png")); print(cv.size, round(angle, 1))

@@ -19,3 +19,6 @@ first one turned to the matching angle, no outlines or numbers (`PMC13481467_Fig
 
 `overlay_figure.py`: three panels, with the middle one a half-transparent overlay of NC+LPS and the turned
 OE-Vector+LPS (`PMC13481467_Fig5E_overlay.png`).
+
+Blog version: `overlay_figure.py ... --anon` labels the panels Sample A / Sample B, drops the source line and
+writes `rotated_reuse_overlay_anonymized.png` (the user asked for the source removed and the names anonymised).
