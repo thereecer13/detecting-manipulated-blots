@@ -341,3 +341,10 @@ one panel, false (a line chart legend). Cross-figure pairs, both the
 same data shown twice by design: PMC13278174 (one gating plot in Fig 1
 and Fig 5, the second with numbered gates) and PMC13228465 (one
 CRISPR-screen plot with different genes highlighted; not flow data).
+
+### 2026 May–Jun window, batches 4–6 (window complete)
+
+366 panels in batch 4; batches 5 and 6 were empty (43,652 so far).
+Nothing passed the within-plot filter. One cross-figure match:
+PMC13159353, two files both captioned Fig. 2 (two stored versions of
+one figure, not panel reuse).
