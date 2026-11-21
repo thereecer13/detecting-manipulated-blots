@@ -237,3 +237,6 @@ Two sent to review (`bli_review3_key.json`, page
   either 0.23–0.47).
 - PMC12818144 Fig 4A: the 6 h image of one group is the 24 h image of
   another group, animal and signal.
+
+Round 4 verdicts (`cell_review4_results.json`): all five confirmed by
+the user. Confirmed in cell-culture figures so far: 16 papers from 3,900.

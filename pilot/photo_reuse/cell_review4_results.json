@@ -1,0 +1,37 @@
+[
+ {
+  "id": "S00",
+  "pmcid": "PMC12274886",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"The cell culture image reuse are all positive cases\""
+ },
+ {
+  "id": "S01",
+  "pmcid": "PMC10890652",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"The cell culture image reuse are all positive cases\""
+ },
+ {
+  "id": "S02",
+  "pmcid": "PMC13481467",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"The cell culture image reuse are all positive cases\""
+ },
+ {
+  "id": "S03",
+  "pmcid": "PMC13412505",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"The cell culture image reuse are all positive cases\""
+ },
+ {
+  "id": "S04",
+  "pmcid": "PMC11866248",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"The cell culture image reuse are all positive cases\""
+ }
+]
