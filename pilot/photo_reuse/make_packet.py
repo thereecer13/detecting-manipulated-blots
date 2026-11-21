@@ -8,7 +8,7 @@ spec.json is a list of items:
    "why":  "why those panels should be different images, and where that comes from
             (panel labels, caption, main text / Methods)",
    "hits": [0, 1],            # indexes into the paper's hits list in OUTDIR/papers.jsonl, and / or
-   "pairs": [{"a": "file", "abox": [x0, y0, x1, y1], "b": "file", "bbox": [...], "mirrored": false, "rot180": false, "note": "..."}],
+   "pairs": [{"a": "file", "abox": [x0, y0, x1, y1], "b": "file", "bbox": [...], "mirrored": false, "rot180": false, "vflip": false, "note": "..."}],
    "extra": [{"path": "...", "caption": "..."}],        # further images to show
    "pad": 1.0}
 
@@ -80,7 +80,8 @@ for s in json.load(open(spec)):
         ta, tb = region(A, p["abox"], 560), region(B, p["bbox"], 560); ts = [ta, tb]
         cap = (f"Pair {tag}: " if tag else "") + "the two matching regions enlarged" + (f" ({p['note']})" if p.get("note") else "")
         if p.get("rot180"): ts = [ta, cv2.rotate(tb, cv2.ROTATE_180), tb]; cap = (f"Pair {tag}: " if tag else "") + "first region as published, the second region turned 180 degrees, and the second region as published" + (f" ({p['note']})" if p.get("note") else "")
-        if p.get("mirrored"): ts = [ta, ta[:, ::-1], tb]; cap = (f"Pair {tag}: " if tag else "") + "left region as published, the same region mirrored, and the right region as published"
+        if p.get("vflip"): ts = [ta, ta[::-1], tb]; cap = (f"Pair {tag}: " if tag else "") + "first region as published, the same region flipped top to bottom, and the second region as published" + (f" ({p['note']})" if p.get("note") else "")
+        if p.get("mirrored"): ts = [ta, ta[:, ::-1], tb]; cap = (f"Pair {tag}: " if tag else "") + "left region as published, the same region mirrored, and the right region as published" + (f" ({p['note']})" if p.get("note") else "")
         f0 = f"{pk}/{s['id']}_{n}_pair.png"; cv2.imwrite(f0, side_by_side(ts)); imgs.append({"path": f0, "caption": cap, "color": True})
         byfig.setdefault(p["a"], []).append((p["abox"], COL[n % len(COL)], tag and tag + "1")); byfig.setdefault(p["b"], []).append((p["bbox"], COL[n % len(COL)], tag and tag + "2"))
     for n, (f, boxes) in enumerate(byfig.items()):

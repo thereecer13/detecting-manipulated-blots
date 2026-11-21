@@ -1,0 +1,147 @@
+[
+ {
+  "id": "S00",
+  "pmcid": "PMC12274886",
+  "hits": [
+   0
+  ],
+  "what": "Fig 5A, Transwell invasion of laryngeal carcinoma cells. The image labelled 'Vector' (TU212 row, first image) is the same image as the one labelled 'MNAT1-OE + GDF15-KD' (last image of the same row).",
+  "why": "Column labels: 'Vector' is the empty-vector control; 'MNAT1-OE + GDF15-KD' is cells overexpressing MNAT1 with GDF15 knocked down. Caption: 'Transwell assay was used to detect the invasion ability of LSCC cells by MNAT1 and GDF15.' The rescue claim of the figure is that knocking down GDF15 brings MNAT1-overexpressing cells back towards the control level; showing the control image itself in the rescue position makes that comparison empty. Different cell preparations, separate inserts. Source: column labels, caption, main text."
+ },
+ {
+  "id": "S01",
+  "pmcid": "PMC10890652",
+  "pairs": [
+   {
+    "a": "PMC10890652_jof-10-00130-g0A3.jpg",
+    "abox": [
+     460,
+     484,
+     648,
+     625
+    ],
+    "b": "PMC10890652_jof-10-00130-g0A3.jpg",
+    "bbox": [
+     78,
+     484,
+     265,
+     625
+    ],
+    "mirrored": true,
+    "note": "72 h, FALS 28 ug/ml (left) and PC-3 Control (right)"
+   },
+   {
+    "a": "PMC10890652_jof-10-00130-g0A3.jpg",
+    "abox": [
+     269,
+     484,
+     456,
+     625
+    ],
+    "b": "PMC10890652_jof-10-00130-g0A3.jpg",
+    "bbox": [
+     78,
+     484,
+     265,
+     625
+    ],
+    "vflip": true,
+    "note": "72 h, FALS 14 ug/ml (left) and PC-3 Control (right)"
+   }
+  ],
+  "what": "Appendix Figure A3, PC-3 wound-healing assay (columns PC-3 Control, FALS 14 ug/ml, FALS 28 ug/ml; rows 0, 24, 48, 72 h). The three 72 h images are one image: the 28 ug/ml image is the Control image mirrored left to right, and the 14 ug/ml image is the Control image flipped top to bottom.",
+  "why": "Column labels: three different treatments (control, 14 and 28 ug/mL FALS), each in its own well (Methods: 'Fresh medium containing increasing concentrations of FALS was added, and photographs were taken ... at the key intervals of 0, 24, 48, and 72 h'). The 72 h row is the evidence for the statement that 'The selected concentrations allowed full healing of the scratches within 72 h'. One closed monolayer cannot be three wells, and a mirror or flip is an editing step, not something a microscope produces. Source: column and row labels, Methods, main text."
+ },
+ {
+  "id": "S02",
+  "pmcid": "PMC13481467",
+  "what": "Fig 5E, Transwell migration of smooth muscle cells. The 'NC+LPS' image and the 'OE-Vector+LPS' image show the same field, one turned by about 107 degrees relative to the other and cropped.",
+  "why": "Panel labels: NC+LPS is the control for the GPR132 knockout (KO+LPS); OE-Vector+LPS is the empty-vector control for the overexpression (OE+LPS). They are two different control macrophage lines whose supernatants were put on separate wells, and panel F plots them as separate bars. The rotation by an odd angle means the image was turned and re-cropped before being placed a second time. Source: panel labels, caption.",
+  "pairs": [
+   {
+    "a": "PMC13481467_11_2026_2342_Fig5_HTML.jpg",
+    "abox": [
+     83,
+     474,
+     213,
+     578
+    ],
+    "b": "PMC13481467_11_2026_2342_Fig5_HTML.jpg",
+    "bbox": [
+     217,
+     598,
+     348,
+     703
+    ],
+    "note": "NC+LPS (left) and OE-Vector+LPS (right), as published"
+   }
+  ]
+ },
+ {
+  "id": "S03",
+  "pmcid": "PMC13412505",
+  "pairs": [
+   {
+    "a": "PMC13412505_IJPharm-58-401-g010.jpg",
+    "abox": [
+     368,
+     48,
+     444,
+     128
+    ],
+    "b": "PMC13412505_IJPharm-58-401-g010.jpg",
+    "bbox": [
+     448,
+     48,
+     524,
+     128
+    ],
+    "note": "day 0: Gel 75 mg (left) and Gel 100 mg (right)"
+   },
+   {
+    "a": "PMC13412505_IJPharm-58-401-g010.jpg",
+    "abox": [
+     368,
+     133,
+     444,
+     212
+    ],
+    "b": "PMC13412505_IJPharm-58-401-g010.jpg",
+    "bbox": [
+     448,
+     133,
+     524,
+     212
+    ],
+    "note": "day 3: Gel 75 mg (left) and Gel 100 mg (right)"
+   }
+  ],
+  "what": "Not cell culture: rat wound photographs in Fig 8 (columns are treatment groups, rows are days 0, 3, 6, 14, 21). The day 0 and day 3 photographs under 'Gel (75mg)' are the same photographs as under 'Gel (100mg)'. From day 6 on the two columns differ.",
+  "why": "Column labels: two dose groups. Methods: 'The randomized rats were divided into seven groups, each with five animals ... the sixth group received 75 mg, and the seventh group received gel treated with 100 mg.' Different animals, so the same wound (same shape, same ruler position, same scab outline) cannot represent both groups on two different days. A day 0 image alone could be argued to be a generic starting wound, but the day 3 scab is shared too. Source: column and row labels, Methods."
+ },
+ {
+  "id": "S04",
+  "pmcid": "PMC11866248",
+  "pairs": [
+   {
+    "a": "PMC11866248_102187-g009.jpg",
+    "abox": [
+     570,
+     851,
+     734,
+     993
+    ],
+    "b": "PMC11866248_102187-g009.jpg",
+    "bbox": [
+     570,
+     997,
+     734,
+     1137
+    ],
+    "note": "HepG2, THC 100 uM: Migration (left) and Invasion (right)"
+   }
+  ],
+  "what": "Fig 9B, Transwell assays of HepG2 cells. Part of the 'Migration, 100 uM' image shows the same cells as part of the 'Invasion, 100 uM' image directly below it, turned by about 140 degrees. Weaker than the others: 50 matched points, pixel agreement 0.72 on a dense, low-resolution field. Please check the aligned view.",
+  "why": "Row labels: Migration and Invasion. Methods: 'For migration experiments, cells were seeded into the upper chamber in serum-free medium. For invasion experiments, the upper chamber was coated with Matrigel.' These are separate inserts in separate assays, and the paper counts cells from each for its two bar charts, so one membrane field cannot appear in both rows. Source: row labels, Methods."
+ }
+]

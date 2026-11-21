@@ -201,3 +201,21 @@ both may be mistakes rather than deliberate. Nothing in the images
 settles intent either way: each is an unaltered copy placed once, with no
 rotation, mirroring, cropping or retouching, which is what a layout slip
 looks like; the scan cannot tell that from deliberate reuse.
+
+## Cell culture, papers 2,700–3,900 (21 Nov)
+
+3,900 papers so far. 37 new matches with ncc ≥ 0.5. Not reportable:
+schematics, charts, insets, single-channel/merge, a "0 h original
+injury" reference image declared in both captions (PMC11540258), SEM
+instrument bars (PMC12805422), same field over time.
+
+Five sent to review (`cell_review4_key.json`, page
+`cell_image_reuse_round4.html`):
+
+| Paper | What |
+|---|---|
+| PMC12274886 | Fig 5A: "Vector" = "MNAT1-OE + GDF15-KD" transwell image |
+| PMC10890652 | Fig A3: the three 72 h images are one image, mirrored / flipped |
+| PMC13481467 | Fig 5E: NC+LPS = OE-Vector+LPS, turned ~107° |
+| PMC13412505 | Fig 8 rat wounds: Gel 75 mg = Gel 100 mg on day 0 and day 3 |
+| PMC11866248 | Fig 9B: Migration 100 µM and Invasion 100 µM overlap, turned ~140° (weaker) |
