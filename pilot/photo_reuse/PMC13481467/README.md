@@ -16,3 +16,6 @@ first one turned to the matching angle, no outlines or numbers (`PMC13481467_Fig
 
 `two_panel_figure.py` is the version the user settled on: NC+LPS as published, and OE-Vector+LPS turned
 108 degrees with a rectangle marking the NC+LPS frame (`PMC13481467_Fig5E_two_panel.png`).
+
+`overlay_figure.py`: three panels, with the middle one a half-transparent overlay of NC+LPS and the turned
+OE-Vector+LPS (`PMC13481467_Fig5E_overlay.png`).
