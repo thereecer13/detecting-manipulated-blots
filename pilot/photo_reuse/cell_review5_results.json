@@ -1,0 +1,23 @@
+[
+ {
+  "id": "T00",
+  "pmcid": "PMC8176915",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"All round 5 cell culture reuse cases are positive\""
+ },
+ {
+  "id": "T01",
+  "pmcid": "PMC12657826",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"All round 5 cell culture reuse cases are positive\""
+ },
+ {
+  "id": "T02",
+  "pmcid": "PMC10743841",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-21: \"All round 5 cell culture reuse cases are positive\""
+ }
+]

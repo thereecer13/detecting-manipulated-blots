@@ -279,3 +279,6 @@ Three sent to review (`cell_review5_key.json`, page
 | PMC8176915 | Fig 4: si-NMU (C) = si-NTS (F) transwell field | turned ~75°, re-cropped, recoloured |
 | PMC12657826 | Fig 6: 48H image identical for CPC and 5%PVA/CPC | plain |
 | PMC10743841 | Fig 6: DMM-11 row, 24 h (f) = 48 h (j) | plain |
+
+Round 5 verdicts (`cell_review5_results.json`): all three confirmed by
+the user. Confirmed in cell-culture figures so far: 19 papers from 5,100.
