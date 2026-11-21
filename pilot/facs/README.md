@@ -333,3 +333,11 @@ PMC12969122 Fig 8 and Fig 9, the "Untreated" row (24, 48, 72 h). The two
 figures are the same experiment at 50 and 250 µg/mL, and the untreated
 cells have no dose, so this is a shared untreated control (same sample,
 not reported).
+
+### 2026 May–Jun window, batches 0–3
+
+2, 259, 790 and 642 panels (43,286 so far). Within-plot filter passed
+one panel, false (a line chart legend). Cross-figure pairs, both the
+same data shown twice by design: PMC13278174 (one gating plot in Fig 1
+and Fig 5, the second with numbered gates) and PMC13228465 (one
+CRISPR-screen plot with different genes highlighted; not flow data).
