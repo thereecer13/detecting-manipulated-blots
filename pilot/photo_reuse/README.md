@@ -262,3 +262,20 @@ Two sent to review (`bli_review4_key.json`, page
   sections for two different tumour cell-line models.
 - PMC10968997 Fig 2: the day 21 and day 28 panels are one photograph of
   the animal under two different signals.
+
+## Cell culture, papers 3,900–5,100 (21 Nov)
+
+5,100 papers so far. 27 new matches with ncc ≥ 0.5. Not reportable:
+schematics, insets, single-channel/merge, raw and annotated copies,
+shared 0 h scratch images (PMC11585646), untreated control rows shared
+between figures (PMC10743841 Fig 6/8 and 7/9), a correction-style repeat
+(PMC11662515 Fig 2/6 controls).
+
+Three sent to review (`cell_review5_key.json`, page
+`cell_image_reuse_round5.html`):
+
+| Paper | What | Copy |
+|---|---|---|
+| PMC8176915 | Fig 4: si-NMU (C) = si-NTS (F) transwell field | turned ~75°, re-cropped, recoloured |
+| PMC12657826 | Fig 6: 48H image identical for CPC and 5%PVA/CPC | plain |
+| PMC10743841 | Fig 6: DMM-11 row, 24 h (f) = 48 h (j) | plain |

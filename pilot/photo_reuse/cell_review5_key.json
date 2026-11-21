@@ -1,0 +1,61 @@
+[
+ {
+  "id": "T00",
+  "pmcid": "PMC8176915",
+  "pairs": [
+   {
+    "a": "PMC8176915_peerj-09-11512-g004.jpg",
+    "abox": [
+     2,
+     94,
+     238,
+     268
+    ],
+    "b": "PMC8176915_peerj-09-11512-g004.jpg",
+    "bbox": [
+     2,
+     312,
+     238,
+     486
+    ],
+    "note": "C, si-NMU (left) and F, si-NTS (right), as published"
+   }
+  ],
+  "what": "Fig 4, Transwell invasion of SK-N-BE(2) cells. Panel C ('si-NMU') and panel F ('si-NTS') show the same field of cells, one turned by about 75 degrees and re-cropped. The colour also differs (pink in C, purple in F). Altered copy: rotated, re-cropped, recoloured.",
+  "why": "Panel labels: C is cells with NMU knocked down, F is cells with NTS knocked down. Methods give two different siRNAs ('The target sequences for the NMU gene were ... and for the NTS gene were ...'), and the caption reports them as two experiments ('(C-E) ... downregulated NMU reduced invaded cell number ... (F-H) ... downregulated NTS reduced invaded cell number'), each with its own count and statistics in the text. One membrane field cannot be both knockdowns. Source: panel labels, caption, Methods, main text."
+ },
+ {
+  "id": "T01",
+  "pmcid": "PMC12657826",
+  "what": "Fig 6, Transwell migration of mouse bone-marrow stem cells (rows CPC, 1%, 2.5%, 5% PVA/CPC; columns 24H, 48H, 72H). The 48H image of the CPC row and the 48H image of the 5%PVA/CPC row are the same image. Plain copy.",
+  "why": "Row labels: CPC is the cement without fibres (the control material), 5%PVA/CPC the cement with the highest fibre content. Caption: 'The effect of PVA fibers on the migration ability of mBMSCs was determined using the Transwell method'. Methods: 'In the lower chamber, 300 uL of serum-free extract from each experimental group ... were added', so each material has its own wells. The figure exists to compare these rows, and the first and last rows show the same field at 48 h. Source: row and column labels, caption, Methods.",
+  "pairs": [
+   {
+    "a": "PMC12657826_10.1177_03000605251389734-fig6.jpg",
+    "abox": [
+     357,
+     39,
+     524,
+     173
+    ],
+    "b": "PMC12657826_10.1177_03000605251389734-fig6.jpg",
+    "bbox": [
+     357,
+     459,
+     524,
+     594
+    ],
+    "note": "48H: CPC (left) and 5%PVA/CPC (right)"
+   }
+  ]
+ },
+ {
+  "id": "T02",
+  "pmcid": "PMC10743841",
+  "hits": [
+   1
+  ],
+  "what": "Fig 6, scratch assay of A375 cells (columns 0h, 24h, 48h; second row = treated with DMM-11). Panel f (24 h) and panel j (48 h) of the DMM-11 row are the same image, including the dark speck at the upper right. Plain copy.",
+  "why": "Column labels and caption: 'Analysis of A375 cell migration by in vitro scratch assay after 0, 24 and 48 h ... (b, f, j) were treated with DMM-11'. f and j are the same well a day apart, and the comparison the figure makes is how far the wound closes between 24 and 48 h under treatment (text: 'Control cells migrated noticeably faster than cells treated with the tested compounds'). An identical image at both times shows no change by construction. Note: the control rows of Fig 6 and Fig 8, and of Fig 7 and Fig 9, are also shared; I did not count those, as they are the same untreated cells. Source: column labels, caption, main text."
+ }
+]
