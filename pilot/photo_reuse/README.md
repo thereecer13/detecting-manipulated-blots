@@ -194,3 +194,10 @@ Two sent to review (`bli_review2_key.json`, page
   group, so one animal shown twice.
 - PMC6804745 Fig 3e (histology): "TRAP, Zoledronic acid" is the same
   image as "TRAP 2, Denosumab".
+
+Bioluminescence round 2 verdicts (`bli_review2_results.json`): both
+confirmed as real duplicates (PMC10874017, PMC6804745). The user's note:
+both may be mistakes rather than deliberate. Nothing in the images
+settles intent either way: each is an unaltered copy placed once, with no
+rotation, mirroring, cropping or retouching, which is what a layout slip
+looks like; the scan cannot tell that from deliberate reuse.
