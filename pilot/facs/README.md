@@ -316,3 +316,11 @@ three panels, all false (legend and label text). No cross-figure pairs.
 
 632 and 50 panels (38,444 so far). Nothing passed the within-plot
 filter and there were no cross-figure pairs.
+
+### 2026 Mar–Apr window, batches 0–3
+
+464, 698, 837 and 697 panels (41,140 so far). Within-plot filter passed
+four panels, all false (a dashed gate outline, quadrant label text, a
+scatter chart with a fit line). One cross-figure pair: PMC13117983
+Fig 6 and Fig 7, the same lymphocyte gating plot (gating plot, not
+reported).
