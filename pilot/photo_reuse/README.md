@@ -246,3 +246,19 @@ confirmed by the user (PMC9239262, PMC12818144). Confirmed from the
 bioluminescence scan so far: 5 papers from 3,900 (PMC8201856,
 PMC10874017, PMC6804745, PMC9239262, PMC12818144); PMC6804745 is
 histology in a matching figure, not a mouse image.
+
+## Bioluminescence, papers 3,900–5,100 (21 Nov)
+
+5,100 papers so far. 59 mouse-image matches viewed. Not reportable:
+photograph and overlay rows (PMC10859097: PBS and treated animals
+score 0.73–0.88 against each other, the photo/overlay pairs 0.97–1.00),
+same animal over minutes or under two probes, grids of look-alike
+animals, schematics and tables, review articles.
+
+Two sent to review (`bli_review4_key.json`, page
+`bioluminescence_reuse_round4.html`):
+
+- PMC10734064 Fig 1B / Fig 2B: the same six liver photographs and H&E
+  sections for two different tumour cell-line models.
+- PMC10968997 Fig 2: the day 21 and day 28 panels are one photograph of
+  the animal under two different signals.

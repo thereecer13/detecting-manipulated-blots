@@ -1,0 +1,36 @@
+[
+ {
+  "id": "B30",
+  "pmcid": "PMC10734064",
+  "hits": [
+   0
+  ],
+  "what": "Not a mouse image: liver photographs and H&E sections, in two figures whose captions mention bioluminescence. Panel B of Fig 1 and panel B of Fig 2 are the same block of six images: the three liver photographs (Model, 50 mg/kg, 100 mg/kg capsaicin) and the three H&E sections beneath them, arrowheads and asterisks included. Only the size differs slightly (about 6% larger in Fig 2).",
+  "why": "Captions: Fig 1 is 'Capsaicin consumption drives metastasis of GC in the MKN-45-mediated xenograft models'; Fig 2 is the same for 'BGC-823-mediated xenograft models'. They are separate experiments with different tumour cell lines and different animals (n = 9-10 in Fig 1, n = 8 in Fig 2; imaging days 1 and 22 in Fig 1, days 15 and 44 in Fig 2). Main text introduces Fig 2 as 'The effect of high capsaicin diet on the metastasis of another GC cell type was also explored' and says its result 'could be substantiated by the visual appearance of livers from all the groups (Fig. 2B)'. The livers and sections shown as that evidence are the ones already shown for the first cell line. The printed scale bar for the H&E row even differs between the two captions (100 um in Fig 1, 50 um in Fig 2) for the same image. Source: captions, main text."
+ },
+ {
+  "id": "B31",
+  "pmcid": "PMC10968997",
+  "pairs": [
+   {
+    "a": "PMC10968997_cells-13-00499-g002.jpg",
+    "abox": [
+     390,
+     5,
+     546,
+     275
+    ],
+    "b": "PMC10968997_cells-13-00499-g002.jpg",
+    "bbox": [
+     554,
+     5,
+     714,
+     275
+    ],
+    "note": "day 21 (left) and day 28 (right)"
+   }
+  ],
+  "what": "Fig 2, bioluminescence images of one mouse at day 0, 10, 21 and 28. The day 21 and day 28 panels show the same photograph of the animal (same pose, ear, forepaw and hind leg positions, same shadow) with a different colour signal on it. The day 0 and day 10 panels are different photographs.",
+  "why": "Panel labels: day 21 and day 28. Methods: 'we examined the luciferase expression 0, 10, 21, and 28 days after implantation'; each time point is a separate imaging session after a fresh luciferin injection. An anaesthetised mouse placed in the imager a week later does not land in an identical pose. The signal differs between the two panels, so one photograph carries two different overlays. Plain copy of the photograph; whether the day 28 signal was placed on the day 21 photograph by the imaging software or by hand cannot be told from the image. Source: panel labels, Methods."
+ }
+]
