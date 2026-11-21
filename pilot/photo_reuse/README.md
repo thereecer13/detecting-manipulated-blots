@@ -121,12 +121,14 @@ three D7 panels match D0 panels of the neighbouring groups.
 
 ## Round 2 audit and follow-ups (21 Nov)
 
-User's verdicts (`cell_review2_results.json`): five of six are the same
-image shown as different samples (PMC12775211, PMC9410314, PMC13079295,
-PMC12372785, PMC7370327). PMC12028320 was marked acceptable ("Vector is
-usually the control"); I raised that the two panels are headed T98G and
-U87MG and the Methods name separate T98G-vector and U87MG-vector lines,
-so it is not one shared control. Open until the user answers.
+User's verdicts (`cell_review2_results.json`): all six are the same
+image shown as different samples (PMC12775211, PMC12028320, PMC9410314,
+PMC13079295, PMC12372785, PMC7370327). PMC12028320 was first marked
+acceptable ("Vector is usually the control"); after I pointed out that
+the two panels are headed T98G and U87MG and the Methods name separate
+T98G-vector and U87MG-vector lines, the user changed it to a real
+duplicate. Rule taken from this: a control image shared between two
+cell lines is not a shared control.
 
 The round 2 page was rebuilt with whole-area boxes and an argument per
 item (same file name; the verdicts above stand).

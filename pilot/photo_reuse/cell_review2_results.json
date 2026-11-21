@@ -9,10 +9,14 @@
  {
   "id": "Q01",
   "pmcid": "PMC12028320",
-  "verdict": "same sample (acceptable)",
-  "notes": "Vector is usually the control",
-  "source": "user, exported review file, 2026-11-21",
-  "open_question": "Raised with the user on 2026-11-21: panel A is headed T98G and panel B U87MG, and the Methods name separate 'T98G-vector' and 'U87MG-vector' lines, so the two 'Vector, 48 h' images are controls of two different cell lines, not one shared control. Verdict kept as the user gave it until they answer."
+  "verdict": "same image, shown as different samples",
+  "notes": "Real duplicate: the Vector controls belong to two different cell lines (T98G, U87MG).",
+  "source": "user, in chat, 2026-11-21, after the open question was raised",
+  "previous_verdict": {
+   "verdict": "same sample (acceptable)",
+   "notes": "Vector is usually the control",
+   "source": "user, exported review file, 2026-11-21"
+  }
  },
  {
   "id": "Q02",
