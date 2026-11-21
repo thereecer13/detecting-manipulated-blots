@@ -1,0 +1,13 @@
+{
+ "matched_points": 256,
+ "inliers": 233,
+ "rotation_deg": 107.6,
+ "scale": 1.002,
+ "mean_residual_px": 0.83,
+ "overlap_share_of_OE_Vector_panel": 0.73,
+ "pixel_correlation_in_overlap": 0.845,
+ "best_correlation_other_panels": {
+  "KO+LPS": 0.008,
+  "OE+LPS": 0.032
+ }
+}
