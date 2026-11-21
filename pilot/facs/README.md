@@ -348,3 +348,12 @@ CRISPR-screen plot with different genes highlighted; not flow data).
 Nothing passed the within-plot filter. One cross-figure match:
 PMC13159353, two files both captioned Fig. 2 (two stored versions of
 one figure, not panel reuse).
+
+### 2026 Jul–Aug window (complete)
+
+Only 67 new panels (43,719 so far): the search lists 4,228 papers for
+these months, but nearly all were already covered by the first 10,000
+results of the combined 2025–2026 search (batches `y25_0`–`y25_9`),
+which came newest first. Nothing passed the within-plot filter and there
+were no cross-figure pairs. Sep–Nov 2026 (3,738 papers) is expected to
+be the same.
