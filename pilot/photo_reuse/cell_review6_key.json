@@ -1,0 +1,132 @@
+[
+ {
+  "id": "T03",
+  "pmcid": "PMC6360294",
+  "pad": 0.5,
+  "pairs": [
+   {
+    "a": "PMC6360294_jcav10p0539g004.jpg",
+    "abox": [
+     32,
+     575,
+     180,
+     691
+    ],
+    "b": "PMC6360294_jcav10p0539g004.jpg",
+    "bbox": [
+     203,
+     708,
+     351,
+     824
+    ],
+    "note": "UMUC-NC 12h (left) and UMUC-siRNA 24h (right)"
+   }
+  ],
+  "what": "Fig 4C, scratch assay in UMUC cells: negative-control siRNA (UMUC-NC) and SNHG7 siRNA (UMUC-siRNA) at 0, 12 and 24 h. The UMUC-NC 12h image and the UMUC-siRNA 24h image are the same photograph, cell for cell, including the loose cells lying in the gap.",
+  "why": "Panel labels: column 'UMUC-NC' at '12h' and column 'UMUC-siRNA' at '24h'. Caption: 'After transfection of lncRNA-SNHG7 or negative control siRNA, we used wound healing assay to evaluate motility changes'. The two images differ in both the treatment and the time point, so they are different wells photographed twelve hours apart. This is not a shared control or a shared 0 h image. The comparison the panel makes (the knock-down wound stays more open at 24 h than the control) uses this image on both sides. Plain copy. Source: panel labels, caption."
+ },
+ {
+  "id": "T04",
+  "pmcid": "PMC11763410",
+  "pad": 0.5,
+  "pairs": [
+   {
+    "a": "PMC11763410_cancers-17-00267-g003b.jpg",
+    "abox": [
+     72,
+     404,
+     193,
+     527
+    ],
+    "b": "PMC11763410_cancers-17-00267-g006a.jpg",
+    "bbox": [
+     286,
+     375,
+     399,
+     487
+    ],
+    "note": "Fig 3G, HN30 'IR' (left) and Fig 6B, '090RR' at 4Gy (right)"
+   }
+  ],
+  "what": "Colony plates in two figures. The plate labelled HN30, 'IR' (irradiation only) in Fig 3G is the same plate as the one labelled '090RR', 4Gy in Fig 6B: same colonies in the same positions, same rim. The Fig 6B copy is about 7% smaller.",
+  "why": "Labels: Fig 3G row 'HN30', column 'IR'; Fig 6B '090RR' under '4Gy'. Text: HN30 is an HPV-negative line; '090RR' is the radioresistant clone derived 'from the HPV-positive cell line SCC090'. Caption of Fig 6B: 'Clonogenic assay for HN30RR and 090RR cells compared with their parental cells following 4 Gy irradiation'. So one plate is parental HN30 and the other is a radioresistant derivative of a different cell line; they cannot be the same dish. The plate in Fig 6B is the evidence that 090RR survives irradiation better than its parent. Plain copy, resized. Source: panel labels, captions, Results."
+ },
+ {
+  "id": "T05",
+  "pmcid": "PMC11536251",
+  "pad": 0.35,
+  "pairs": [
+   {
+    "a": "PMC11536251_scdxxbyxb-55-5-1138-2.jpg",
+    "abox": [
+     1385,
+     2635,
+     1907,
+     2910
+    ],
+    "b": "PMC11536251_scdxxbyxb-55-5-1138-2.jpg",
+    "bbox": [
+     1923,
+     2759,
+     2445,
+     3034
+    ],
+    "note": "siFMRP-2 (left) and siFMRP-3 (right): overlapping part of one field"
+   }
+  ],
+  "what": "Fig 2D, transwell migration of MCF-7 cells: Control, NC, siFMRP-2, siFMRP-3. The siFMRP-2 and siFMRP-3 images are two overlapping crops of one field: the upper 70% of the siFMRP-2 image reappears as the lower 70% of the siFMRP-3 image, shifted down and slightly left. The boxes mark the shared part. The yellow scale bar sits in the same corner of both panels, so it was added after cropping.",
+  "why": "Panel labels: 'siFMRP-2' and 'siFMRP-3'. Fig 2A and 2B show these as two different siRNAs with separate knock-down measurements, and the bar chart in 2D gives each its own migration count. Two different siRNAs mean two separately transfected cultures and two separate membranes, which cannot show the same cells. The second siRNA is there as independent confirmation of the first, and that confirmation is the same field. Altered copy: shifted crop of one photograph, not a straight repeat. Source: panel labels, panels A, B and the chart in D, Results."
+ },
+ {
+  "id": "T06",
+  "pmcid": "PMC12852651",
+  "pad": 0.6,
+  "pairs": [
+   {
+    "a": "PMC12852651_41598_2025_30686_Fig6a_HTML.jpg",
+    "abox": [
+     682,
+     30,
+     789,
+     136
+    ],
+    "b": "PMC12852651_41598_2025_30686_Fig6a_HTML.jpg",
+    "bbox": [
+     682,
+     152,
+     789,
+     260
+    ],
+    "note": "BCSC YAP1 siRNA 0h (top) and BCSC YAP1 siRNA 24h (bottom); shown side by side"
+   }
+  ],
+  "what": "Fig 6b, scratch assay in BCSC cells: Control, CA3 and YAP1 siRNA at 0, 24 and 48 h. The 'BCSC YAP1 siRNA 0h' and 'BCSC YAP1 siRNA 24h' images show the same field with the cells in the same places: same cell clusters on both sides, same loose cells in the gap, same green guide lines. The right-hand side is a little brighter and fuller in the 24h panel. Agreement between the two panels 0.89; no other pair of the nine panels scores above 0.23.",
+  "why": "Panel labels: '0h' and '24h' of the same condition. Caption: 'Representative phase-contrast micrographs acquired at 0, 24, and 48 h ... Progressive closure of the linear scratch is used as a surrogate for collective cell migration.' A culture photographed 24 hours later has moved and divided, and even loose cells in the gap sit where they were. Caveat to weigh: if the authors returned to exactly the same field and these cells truly did not move, a real 24 h image could look like this; the slightly fuller right-hand side fits that reading. Against it: in the other eight panels of this figure the 0 h and 24 h images of one condition do not line up at all (agreement 0.23 or lower), so fields were not re-found elsewhere, and floating cells do not stay put through 24 hours and a medium change. Either a plain copy with the brightness changed, or the same field re-photographed; I cannot tell which from a panel 107 pixels wide. Source: panel labels, caption."
+ },
+ {
+  "id": "T07",
+  "pmcid": "PMC7718642",
+  "pad": 0.4,
+  "pairs": [
+   {
+    "a": "PMC7718642_j_med-2020-0206-fig004.jpg",
+    "abox": [
+     27,
+     8,
+     173,
+     119
+    ],
+    "b": "PMC7718642_j_med-2020-0206-fig004.jpg",
+    "bbox": [
+     190,
+     8,
+     336,
+     119
+    ],
+    "note": "ACHN (left) and H-NC (right)"
+   }
+  ],
+  "what": "Fig 4a, transwell invasion: ACHN, H-NC, H, sh-NC, sh. The 'ACHN' and 'H-NC' images are the same photograph, pixel for pixel (agreement 1.00).",
+  "why": "Panel labels: 'ACHN' and 'H-NC'. Text: cell lines 'were constructed using lentivirus infection with an empty vector as an overexpression negative control (H-NC)'; ACHN is the uninfected parental line. They are two different cultures, each with its own bar in Fig 4b (the two bars have different heights and error bars). Weaker than the others: both are controls, and the paper's claim rests on H against H-NC and sh against sh-NC, so the repeat does not change the conclusion. It matches the kind you ruled reportable before (one image for two different negative controls). Plain copy. Source: panel labels, Results, bar chart."
+ }
+]

@@ -310,3 +310,22 @@ Four sent to review (`bli_review5_key.json`, page
 
 All four are plain copies of the photograph; the overlay differs in
 three of them.
+
+## Cell culture, papers 5,100–6,300 (21 Nov)
+
+6,300 papers so far. 34 new matches with ncc ≥ 0.5. Not reportable:
+schematics, insets and magnified views, analysis overlays, untreated
+control row shared between figures (PMC12892515 Fig 8/9/10, PMC10605247
+Fig 8/9), shared 0 h column (PMC12231746), one tissue shown as both
+"normal" and "Gb3 negative" example (PMC12917973).
+
+Five sent to review (`cell_review6_key.json`, page
+`cell_image_reuse_round6.html`):
+
+| Paper | What | Copy |
+|---|---|---|
+| PMC6360294 | Fig 4C: UMUC-NC 12 h = UMUC-siRNA 24 h scratch image | plain |
+| PMC11763410 | Fig 3G HN30 IR plate = Fig 6B 090RR 4 Gy plate | plain, resized |
+| PMC11536251 | Fig 2D: siFMRP-2 and siFMRP-3 are overlapping crops of one field | shifted crop |
+| PMC12852651 | Fig 6b: BCSC YAP1 siRNA 0 h = 24 h (could be the same field re-photographed) | plain or re-imaged |
+| PMC7718642 | Fig 4a: ACHN = H-NC transwell image (two controls) | plain |
