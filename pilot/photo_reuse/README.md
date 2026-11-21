@@ -240,3 +240,9 @@ Two sent to review (`bli_review3_key.json`, page
 
 Round 4 verdicts (`cell_review4_results.json`): all five confirmed by
 the user. Confirmed in cell-culture figures so far: 16 papers from 3,900.
+
+Bioluminescence round 3 verdicts (`bli_review3_results.json`): both
+confirmed by the user (PMC9239262, PMC12818144). Confirmed from the
+bioluminescence scan so far: 5 papers from 3,900 (PMC8201856,
+PMC10874017, PMC6804745, PMC9239262, PMC12818144); PMC6804745 is
+histology in a matching figure, not a mouse image.
