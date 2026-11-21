@@ -350,3 +350,19 @@ Sent as `bioluminescence_reuse_round6.html`, key `bli_review6_key.json`:
 | B36 | PMC9688407 | Fig 7A: CTL mice 2–3 = TMZ mice 2–3, signal included (0.96; other groups 0.79) |
 | B37 | PMC5876459 | Fig 3B transwell: Hepa1-6 = Hepa1-6-FLuc turned 36° (132/137 points on one rotation) |
 | B38 | PMC7312797 | Fig 5A: Group A 21 d = Group B 28 d photo (0.84; others < 0.40); Fig 5B control hMito = control OCN nuclei |
+
+## Cell culture, papers 6,300–7,500 (22 Nov)
+
+7,500 papers so far. 33 new matches with ncc ≥ 0.5. Not reportable:
+schematics, shared 0 h scratch image (PMC11492136 Fig 2, PMC12937787,
+PMC12655155), control shared between two figures on one cell line
+(PMC12024059, PMC12130024, PMC7529912), one well followed over time
+(PMC12346839), one tissue overview with different ROIs (PMC12050407), a
+correction notice printing its figure twice (PMC11980132), a paper
+already retracted (PMC11670366).
+
+Sent as `cell_image_reuse_round7.html`, key `cell_review7_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| T08 | PMC11492136 | Fig 6D invasion = Fig 6E migration for Reg+RRM2, both cell lines (0.90 each; others < 0.12) |

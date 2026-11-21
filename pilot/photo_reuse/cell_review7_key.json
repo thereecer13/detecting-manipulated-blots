@@ -1,0 +1,45 @@
+[
+ {
+  "id": "T08",
+  "pmcid": "PMC11492136",
+  "pad": 0.12,
+  "pairs": [
+   {
+    "a": "PMC11492136_gr6.jpg",
+    "abox": [
+     28,
+     808,
+     148,
+     895
+    ],
+    "b": "PMC11492136_gr6.jpg",
+    "bbox": [
+     28,
+     1022,
+     148,
+     1108
+    ],
+    "note": "Sk-Mel-28, Reg+RRM2: invasion panel D (left) and migration panel E (right)"
+   },
+   {
+    "a": "PMC11492136_gr6.jpg",
+    "abox": [
+     28,
+     712,
+     148,
+     800
+    ],
+    "b": "PMC11492136_gr6.jpg",
+    "bbox": [
+     28,
+     927,
+     148,
+     1015
+    ],
+    "note": "Sk-Mel-2, Reg+RRM2: invasion panel D (left) and migration panel E (right)"
+   }
+  ],
+  "what": "Fig 6D (invasion) and Fig 6E (migration), Transwell assays of two melanoma cell lines treated with regorafenib (Reg) with or without RRM2 overexpression. Pair A: the Sk-Mel-28 Reg+RRM2 image is the same field in D and in E, cell for cell. Pair B: the Sk-Mel-2 Reg+RRM2 image is also the same field in D and E; the D copy is lighter and has more contrast. Panel-by-panel agreement: 0.90 for each pair; the Reg+RRM2 panels against the other panels of D and E score below 0.12. Pair A is a plain copy, pair B a copy with brightness and contrast changed. The Reg-only panels are different images.",
+  "why": "Caption: '(D and E) RRM2 overexpression partially reverses the suppression of invasion and migration induced by regorafenib in melanoma cells by transell assays.' Methods: 'The upper chambers were precoated with Matrigel (Sigma) or not', so invasion and migration are two separate inserts, one coated and one not. The bar charts beside them give different counts for the same images: about 45 invaded and about 140 migrated cells for Sk-Mel-28 Reg+RRM2, about 130 and about 290 for Sk-Mel-2. One field of cells cannot be the result of both assays."
+ }
+]
