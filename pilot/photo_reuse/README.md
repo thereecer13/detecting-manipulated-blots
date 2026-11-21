@@ -282,3 +282,31 @@ Three sent to review (`cell_review5_key.json`, page
 
 Round 5 verdicts (`cell_review5_results.json`): all three confirmed by
 the user. Confirmed in cell-culture figures so far: 19 papers from 5,100.
+
+## Bioluminescence, papers 5,100–6,300 (21 Nov)
+
+6,300 papers so far. 72 mouse-image matches viewed. Not reportable:
+photograph and overlay or two-probe views of the same animals
+(PMC7810895, PMC6828332, PMC6896159, PMC12187574), raw and ROI-annotated
+copies (PMC6201850, caption says so), one animal imaged through two
+emission filters in a mixed infection (PMC6853927 Fig 8), the same
+session shown in two figures with different ROIs (PMC5762894), grids of
+look-alike animals, the imaging stage matching itself (PMC5581022).
+
+`panel_pairs.py FIGURE spec.json` scores every pair of named panels on
+the greyscale photograph only (colour overlay masked), best over small
+shifts and scales; used below to show that a pair stands out from the
+other panels of its figure.
+
+Four sent to review (`bli_review5_key.json`, page
+`bioluminescence_reuse_round5.html`):
+
+| Paper | What | Pair score vs rest of figure |
+|---|---|---|
+| PMC5090211 | Fig 2: rat at 40 min (A), 3 days (B), 5 days (C) is one photograph | B/C 0.97, A/B 0.91 |
+| PMC6047774 | Fig 1B, day 0: Infected = Infected + Mupirocin (weaker: pre-treatment day) | 0.86 vs ≤ 0.76 |
+| PMC6244358 | Fig 9, blue light alone: day 1 = day 3, day 2 = day 4 | 0.89, 0.94 vs ≤ 0.82 |
+| PMC3836995 | Fig 7B dorsal: day 1 = day 14 photograph, different signal | 0.87 vs 0.56 |
+
+All four are plain copies of the photograph; the overlay differs in
+three of them.

@@ -1,0 +1,140 @@
+[
+ {
+  "id": "B32",
+  "pmcid": "PMC5090211",
+  "pad": 0.15,
+  "pairs": [
+   {
+    "a": "PMC5090211_srep33700-f2.jpg",
+    "abox": [
+     2,
+     2,
+     216,
+     490
+    ],
+    "b": "PMC5090211_srep33700-f2.jpg",
+    "bbox": [
+     218,
+     2,
+     397,
+     490
+    ],
+    "note": "A, 40 min (left) and B, 3 days (right)"
+   },
+   {
+    "a": "PMC5090211_srep33700-f2.jpg",
+    "abox": [
+     218,
+     2,
+     397,
+     490
+    ],
+    "b": "PMC5090211_srep33700-f2.jpg",
+    "bbox": [
+     399,
+     2,
+     582,
+     490
+    ],
+    "note": "B, 3 days (left) and C, 5 days (right)"
+   }
+  ],
+  "what": "Fig 2, bioluminescence images of a rat after injection of labelled stem cells into the heart: A = 40 min, B = 3 days, C = 5 days, D = 7 days, E = 9 days. Panels A, B and C show one photograph of the animal: same pose, same fur pattern, same forepaws, and the same strips of tape in the same places. Only the crop and the size differ (C is about 6% larger than B, and cut further to the right, so its right-hand tape strip is visible). The colour signal is nearly the same shape in all three and a little smaller in C. Panels D and E are different photographs. Panel-by-panel agreement of the greyscale photograph, signal left out: B/C 0.97, A/B 0.91, A/C 0.89.",
+  "why": "Caption: 'transfected BMSC signals can be detected from 40 min (A) to 3 days (B), 5 day (C), and 7 days (D)'. Methods: luciferin 'was intraperitoneally injected five minutes before imaging' and 'the BLI/D-Luc signals in animals were imaged after 40 minutes, 3, 5, 7, and 9 days'. So A, B and C are three imaging sessions on three different days, each with the animal anaesthetised and taped down afresh. The tape strips, limbs and fur cannot land in the same places three times; panels D and E show how different a new session looks. The text also says the signal 'declined gradually 3 days after injection', while the three signals shown are almost alike. Plain copy of the photograph, re-cropped and resized; the signal in C is slightly different, so either the overlay was re-thresholded or it was changed. Source: caption, Methods, Results."
+ },
+ {
+  "id": "B33",
+  "pmcid": "PMC6047774",
+  "pad": 0.6,
+  "pairs": [
+   {
+    "a": "PMC6047774_pone.0200195.g001.jpg",
+    "abox": [
+     196,
+     308,
+     269,
+     456
+    ],
+    "b": "PMC6047774_pone.0200195.g001.jpg",
+    "bbox": [
+     272,
+     308,
+     346,
+     456
+    ],
+    "note": "Day 0, Infected (left) and Day 0, Infected + Mupirocin (right)"
+   }
+  ],
+  "what": "Fig 1B, burn-wound mice in three groups (Control, Infected, Infected + Mupirocin) imaged on days 0, 4, 6 and 8. In the Day 0 row, the Infected and the Infected + Mupirocin panels show the same photograph of a mouse: same body outline, ears, wound outline, hind legs and tail. The colour signal on the wound is slightly different (yellow-green centre on the left, red centre on the right). Agreement of the greyscale photograph, signal left out: 0.86; the other 65 panel pairs in this figure score 0.76 or lower (median 0.53). Low-resolution figure, each panel is about 70 pixels wide.",
+  "why": "Column labels: 'Infected' and 'Infected + Mupirocin'. These are two separate groups of animals (caption: 'n = 6 mice' per group; panel C plots them as separate bars at day 0, and panel D gives separate bacterial counts for each group). A representative mouse from one group cannot be the same animal as the representative mouse from the other. Weaker than the other items for two reasons: day 0 is before treatment starts (timeline: mupirocin from day 1), so both animals are simply infected mice at that point, and the claim the figure makes about mupirocin rests on days 4 to 8, which are different photographs. Plain copy of the photograph with a different signal overlay. Source: panel labels, caption, timeline in panel A."
+ },
+ {
+  "id": "B34",
+  "pmcid": "PMC6244358",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC6244358_41598_2018_35594_Fig9_HTML.jpg",
+    "abox": [
+     116,
+     457,
+     232,
+     678
+    ],
+    "b": "PMC6244358_41598_2018_35594_Fig9_HTML.jpg",
+    "bbox": [
+     349,
+     457,
+     461,
+     678
+    ],
+    "note": "blue light alone: day 1 (left) and day 3 (right)"
+   },
+   {
+    "a": "PMC6244358_41598_2018_35594_Fig9_HTML.jpg",
+    "abox": [
+     234,
+     457,
+     347,
+     678
+    ],
+    "b": "PMC6244358_41598_2018_35594_Fig9_HTML.jpg",
+    "bbox": [
+     463,
+     457,
+     577,
+     678
+    ],
+    "note": "blue light alone: day 2 (left) and day 4 (right)"
+   }
+  ],
+  "what": "Fig 9, follow-up imaging of infected skin abrasions on days 1 to 5 in four groups. In the 'blue light alone' row, day 1 and day 3 show the same photograph of the mouse, and day 2 and day 4 show the same photograph: same pose, ears, wound texture, legs and tail in each pair. The colour signal is nearly the same within each pair as well (day 4 has two extra blue specks). Agreement of the greyscale photograph, signal left out: day 2/day 4 0.94, day 1/day 3 0.89; the other 188 panel pairs in the figure score 0.82 or lower (median 0.69).",
+  "why": "Column labels: day 1 to day 5. Caption: images 'captured on each day from day 1 after PDT until day 5'. Methods: imaging was done 'on a daily basis', with mice 'anesthetized by inhalation of isoflurane/oxygen mixture' and 'a grayscale reference image of each mouse' captured at each session. So each column is a separate session on a separate day, and the mouse cannot lie in the identical pose two days apart; every other row of the figure shows the pose changing from day to day. The repeat also carries the result: the text says the signal 'remained at a reduced level for 4 days in the blue light alone group', and the day 3 and day 4 images that show this are the day 1 and day 2 images. Plain copies. Source: panel labels, caption, Methods, Results."
+ },
+ {
+  "id": "B35",
+  "pmcid": "PMC3836995",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC3836995_pntd.0002571.g007.jpg",
+    "abox": [
+     100,
+     790,
+     258,
+     976
+    ],
+    "b": "PMC3836995_pntd.0002571.g007.jpg",
+    "bbox": [
+     260,
+     790,
+     418,
+     976
+    ],
+    "note": "Dorsal view: Day 1 (left) and Day 14 (right)"
+   }
+  ],
+  "what": "Fig 7B, two infected black mice imaged from the ventral and dorsal side on days 1, 14, 24 and 32. The Dorsal panels for Day 1 and Day 14 show the same photograph of the two mice: same positions against the lines of the stage, same ears and light patches on the neck, same legs and tails. Day 14 carries a signal on the heads, feet and tails; Day 1 carries none. Agreement of the greyscale photograph, signal left out: 0.87; Day 1/Day 24 and Day 14/Day 24 dorsal score 0.56 and 0.55, and the three ventral panels 0.63 to 0.74 against each other.",
+  "why": "Column labels: Day 1 and Day 14, with different exposure times printed under them (1 min and 30 min). The two panels are imaging sessions thirteen days apart. Two anaesthetised mice laid on the stage on a later day do not land in the same positions; the Day 24 dorsal panel and the three ventral panels of the same two mice show how much the pose changes between sessions. The text uses the panels as a time course: 'Distinct signals appeared in the head region between day 14 and day 24'. Weaker point to check by eye: these are the same two animals throughout, so the question is only whether the photograph is identical, not whether the animals are. Plain copy of the photograph with a different signal overlay. Source: panel labels, caption, Results."
+ }
+]
