@@ -14,6 +14,8 @@ detector, just keypoints.
    bars. Self-matches that are the identity are ignored.
 4. Each hit gets "ncc", the pixel correlation of the two regions after alignment. Triage keeps
    hits with ncc >= 0.5.
+5. Each hit is grown to the whole area where the two images agree ("afull", "bfull"; see _extent).
+   "abox"/"bbox" are only the bounding box of the matched keypoints and are usually too small.
 
 A hit says only that two regions show the same pixels. Whether that is a problem (different
 samples) or fine (inset, same sample, merged channel) needs the labels and caption.
@@ -123,6 +125,106 @@ def _ncc(ga, gb, M, bbox, mirrored):
     return round(float((a * b).sum() / d), 3) if d > 0 else 0.0
 
 
+def _extent(ga, gb, M, seed, mirrored, win=17, thr=0.55, step=6, gap=24):
+    """Grow a hit to the whole rectangle in which the two images agree.
+
+    The RANSAC inliers only cover where keypoints happened to be found, so their bounding box is
+    usually smaller than the duplicated area. Here image A is moved onto image B with the fitted
+    transform and the two are compared window by window (win x win pixels) on their fine detail
+    (a band-pass, so that shared layout such as a scratch running down the middle of every panel
+    does not count). A window is 'informative' when it is photographic in both images (few
+    near-white pixels: this leaves out labels, axes and gutters) and textured in both; it 'agrees'
+    when it also correlates >= thr.
+
+    Starting from the inlier box, each side is pushed outwards one strip (step pixels) at a time
+    for as long as at least 60% of the informative windows in the new strip (or, failing that, in
+    the next four strips together) agree. Strips with
+    almost nothing informative (flat background, a label box, a gutter) are crossed only if they
+    are narrower than gap pixels and agreement resumes for 3 strips behind them, which is how a
+    block of several duplicated panels is followed across its gutters.
+    Returns (box in B, box in A, share of informative windows in the box that agree), boxes as
+    [x0, y0, x1, y1] in the coordinates of ga / gb, or None when the inlier box itself fails.
+    """
+    Hb, Wb = gb.shape; Wa = ga.shape[1]
+    src = ga[:, ::-1] if mirrored else ga
+    M = np.array(M, np.float32)
+    aw = cv2.warpAffine(src, M, (Wb, Hb), flags=cv2.INTER_LINEAR, borderValue=255)
+    valid = cv2.warpAffine(np.full(src.shape, 255, np.uint8), M, (Wb, Hb), flags=cv2.INTER_NEAREST, borderValue=0) > 0
+    k = (win, win)
+    photo = (cv2.blur((aw > 232).astype(np.float32), k) < 0.3) & (cv2.blur((gb > 232).astype(np.float32), k) < 0.3) & valid
+    band = lambda x: cv2.GaussianBlur(x, (0, 0), 1.0) - cv2.GaussianBlur(x, (0, 0), 4.0)
+    a, b = band(aw.astype(np.float32)), band(gb.astype(np.float32))
+    ma, mb = cv2.blur(a, k), cv2.blur(b, k)
+    va, vb = cv2.blur(a * a, k) - ma * ma, cv2.blur(b * b, k) - mb * mb
+    c = (cv2.blur(a * b, k) - ma * mb) / np.sqrt(np.maximum(va * vb, 1e-6))
+    tex = (va > 2) & (vb > 2) & photo
+    good = (c >= thr) & tex
+    It, Ig = cv2.integral(tex.astype(np.uint8)), cv2.integral(good.astype(np.uint8))
+    rect = lambda I, x0, y0, x1, y1: int(I[y1, x1] - I[y0, x1] - I[y1, x0] + I[y0, x0])
+
+    def judge(x0, y0, x1, y1):
+        """True: the strip agrees; False: it does not; None: too little in it to say."""
+        x0, y0, x1, y1 = max(0, x0), max(0, y0), min(Wb, x1), min(Hb, y1)
+        if x1 <= x0 or y1 <= y0: return False
+        nt = rect(It, x0, y0, x1, y1)
+        if nt < 0.12 * (x1 - x0) * (y1 - y0): return None
+        return rect(Ig, x0, y0, x1, y1) >= 0.6 * nt
+
+    x0, y0, x1, y1 = [int(v) for v in seed]
+    if judge(x0, y0, x1, y1) is not True: return None
+
+    def strip(side, d0, d1):          # the band from d0 to d1 pixels beyond one side of the current box
+        return {"l": (x0 - d1, y0, x0 - d0, y1), "r": (x1 + d0, y0, x1 + d1, y1), "u": (x0, y0 - d1, x1, y0 - d0), "d": (x0, y1 + d0, x1, y1 + d1)}[side]
+
+    moved = True
+    while moved:
+        moved = False
+        for side in "lrud":
+            while True:
+                v = judge(*strip(side, 0, step)); adv = 0
+                if v is True: adv = step
+                elif v is False and judge(*strip(side, 0, 4 * step)) is True: adv = step     # one poor strip inside a good band
+                elif v is None:                      # look across the uninformative band
+                    for d in range(step, gap + 1, step):
+                        w = judge(*strip(side, d, d + step))
+                        if w is None: continue
+                        if w is True and all(judge(*strip(side, d + i * step, d + (i + 1) * step)) is True for i in (1, 2)): adv = d + 3 * step
+                        break
+                if not adv: break
+                if side == "l": x0 = max(0, x0 - adv)
+                elif side == "r": x1 = min(Wb, x1 + adv)
+                elif side == "u": y0 = max(0, y0 - adv)
+                else: y1 = min(Hb, y1 + adv)
+                moved = True
+                if (side == "l" and x0 == 0) or (side == "r" and x1 == Wb) or (side == "u" and y0 == 0) or (side == "d" and y1 == Hb): break
+    # windows are centred on their pixel and avoid white, so the box stops short of the photograph's
+    # edge; take it out to the edge when that is within half a window
+    inside = ((aw <= 232) & (gb <= 232) & valid).astype(np.uint8)
+    for _ in range(win // 2 + 3):
+        if x0 > 0 and inside[y0:y1, x0 - 1].mean() > 0.5: x0 -= 1
+        if x1 < Wb and inside[y0:y1, x1].mean() > 0.5: x1 += 1
+        if y0 > 0 and inside[y0 - 1, x0:x1].mean() > 0.5: y0 -= 1
+        if y1 < Hb and inside[y1, x0:x1].mean() > 0.5: y1 += 1
+    bfull = [x0, y0, x1, y1]
+    Mi = cv2.invertAffineTransform(M)
+    pts = np.array([[x0, y0], [x1, y0], [x1, y1], [x0, y1]], np.float32) @ Mi[:, :2].T + Mi[:, 2]
+    if mirrored: pts[:, 0] = Wa - 1 - pts[:, 0]
+    afull = [int(max(0, pts[:, 0].min())), int(max(0, pts[:, 1].min())), int(min(Wa, pts[:, 0].max())), int(min(ga.shape[0], pts[:, 1].max()))]
+    nt = rect(It, x0, y0, x1, y1)
+    return bfull, afull, round(rect(Ig, x0, y0, x1, y1) / nt, 2) if nt else 0.0
+
+
+def full_extent(path_a, path_b, h):
+    """Full duplicated area for a stored hit (see _extent), in the pixels of the original figures."""
+    A, sa = load(path_a); B, sb = load(path_b)
+    ga, gb = cv2.cvtColor(A, cv2.COLOR_BGR2GRAY), cv2.cvtColor(B, cv2.COLOR_BGR2GRAY)
+    seed = [int(v * sb) for v in h["bbox"]]
+    r = _extent(ga, gb, h["M"], seed, h["mirrored"])
+    if r is None: return h["abox"], h["bbox"], None
+    bfull, afull, share = r
+    return [int(v / sa) for v in afull], [int(v / sb) for v in bfull], share
+
+
 def _dedupe(hits):
     """A self-match is found in both directions; keep one of each mirror pair of boxes."""
     out = []
@@ -156,6 +258,9 @@ def paper(files, dark=True):
                 src, dst = _pairs(xa, da, xb, db, same and not mir, W if (same and mir) else None)
                 for h in _fit(src, dst, same, mir):
                     h["ncc"] = _ncc(fa["g"], fb["g"], h["M"], h["bbox"], mir)
+                    ext = _extent(fa["g"], fb["g"], h["M"], h["bbox"], mir)
+                    if ext:      # the whole agreeing area, not just where keypoints fell
+                        h["bfull"] = [int(v / fb["scale"]) for v in ext[0]]; h["afull"] = [int(v / fa["scale"]) for v in ext[1]]; h["agree"] = ext[2]
                     if mir: h["abox"] = [W - 1 - h["abox"][2], h["abox"][1], W - 1 - h["abox"][0], h["abox"][3]]
                     # coordinates back to the original figure's pixels
                     h["abox"] = [int(v / fa["scale"]) for v in h["abox"]]; h["bbox"] = [int(v / fb["scale"]) for v in h["bbox"]]

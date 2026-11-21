@@ -46,7 +46,7 @@ for ln, l in enumerate((out / "papers.jsonl").open()):
         if h["a"] != h["b"] and abs(h["scale"] - 1) < 0.01 and h["abox"][:2] == h["bbox"][:2]: continue
         if "_OC." in h["a"] and "_PB." in h["b"]: continue
         if GREY and not (grey(out / "figs" / h["a"], h["abox"]) and grey(out / "figs" / h["b"], h["bbox"])): continue
-        a, b = crop(out / "figs" / h["a"], h["abox"]), crop(out / "figs" / h["b"], h["bbox"])
+        a, b = crop(out / "figs" / h["a"], h.get("afull", h["abox"])), crop(out / "figs" / h["b"], h.get("bfull", h["bbox"]))
         row = np.hstack([a, np.full((360, 8, 3), 0, np.uint8), b])
         head = np.full((24, row.shape[1], 3), 255, np.uint8)
         fa, fb = h["a"].split("_", 1)[1][-18:], h["b"].split("_", 1)[1][-18:]

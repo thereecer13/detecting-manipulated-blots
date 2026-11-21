@@ -1,0 +1,82 @@
+{
+ "registration_onto_A": {
+  "B": {
+   "matches": 513,
+   "zoom_only_inliers": 297,
+   "affine_inliers": 297,
+   "x_scale": 1.2,
+   "y_scale": 1.208
+  },
+  "C": {
+   "matches": 251,
+   "zoom_only_inliers": 51,
+   "affine_inliers": 127,
+   "x_scale": 1.018,
+   "y_scale": 0.813
+  }
+ },
+ "wound": {
+  "A": {
+   "left_end_in_A": [
+    79.1,
+    111.6
+   ],
+   "right_end_in_A": [
+    146.8,
+    99.8
+   ],
+   "length_px": 68.7,
+   "length_cm": 3.27,
+   "relative_to_A": 1.0
+  },
+  "B": {
+   "left_end_in_A": [
+    79.2,
+    111.6
+   ],
+   "right_end_in_A": [
+    124.5,
+    103.1
+   ],
+   "length_px": 46.1,
+   "length_cm": 2.2,
+   "relative_to_A": 0.67
+  },
+  "C": {
+   "left_end_in_A": [
+    78.0,
+    111.7
+   ],
+   "right_end_in_A": [
+    96.6,
+    109.0
+   ],
+   "length_px": 18.8,
+   "length_cm": 0.9,
+   "relative_to_A": 0.27
+  }
+ },
+ "fine_texture_ratio": {
+  "fur on the back, left of the wound": {
+   "B_over_A": 0.35,
+   "C_over_A": 0.34
+  },
+  "fur at the shoulder": {
+   "B_over_A": 0.8,
+   "C_over_A": 0.7
+  },
+  "ruler face": {
+   "B_over_A": 1.03,
+   "C_over_A": 1.01
+  },
+  "glove": {
+   "B_over_A": 1.05
+  },
+  "wall": {
+   "B_over_A": 1.17
+  },
+  "table": {
+   "C_over_A": 1.06
+  }
+ }
+}

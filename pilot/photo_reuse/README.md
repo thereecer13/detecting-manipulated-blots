@@ -22,6 +22,25 @@ A hit only says two regions show the same pixels. Each is read against
 panel labels and caption and binned (same sample / presented as
 different samples / unclear) before anything goes to review.
 
+Two standing rules from the user's audit of round 2 (21 Nov):
+
+1. **Every item sent to review carries an argument for why the two
+   images should not be the same**, read from the panel labels, the
+   caption and, where those do not settle it, the main text (Methods,
+   the paragraph citing the figure). `paper_text.py PMCID --fig N --grep
+   REGEX --cache DIR` prints those parts of the article XML.
+   `make_packet.py` refuses an item without a `why`, and the review page
+   shows it under the label ("Why these should be different images").
+2. **The box drawn is the whole duplicated area**, not the bounding box
+   of the matched keypoints (the user's example: PMC7370327, where the
+   keypoint box covered about a fifth of the overlap). `photo_dupes.
+   full_extent` moves one image onto the other and pushes each side of
+   the box outwards strip by strip while the fine detail still agrees;
+   new scans store the result as `afull` / `bfull`. It stops at edited
+   areas (it boxes where the images agree) and it cannot separate
+   look-alike panels in a grid, so every box is still checked by eye and
+   can be given by hand (`pairs` in the packet spec; see `PMC8201856/`).
+
 Check on planted copies (one photo region pasted into a blank image at
 0.9× and mirrored): both found, 192 and 318 inliers.
 
@@ -99,3 +118,23 @@ One sent to review (`bli_review1_key.json`, page
 `bioluminescence_reuse_round1.html`): PMC8201856 Fig 5b. The mice in the
 D14 panels of two groups match the D0 panels of the same groups, and
 three D7 panels match D0 panels of the neighbouring groups.
+
+## Round 2 audit and follow-ups (21 Nov)
+
+User's verdicts (`cell_review2_results.json`): five of six are the same
+image shown as different samples (PMC12775211, PMC9410314, PMC13079295,
+PMC12372785, PMC7370327). PMC12028320 was marked acceptable ("Vector is
+usually the control"); I raised that the two panels are headed T98G and
+U87MG and the Methods name separate T98G-vector and U87MG-vector lines,
+so it is not one shared control. Open until the user answers.
+
+The round 2 page was rebuilt with whole-area boxes and an argument per
+item (same file name; the verdicts above stand).
+
+- `PMC13079295/`: all three wound photographs (day 3, 7, 14) are one
+  photograph; the wound is cut shorter from one end (3.3, 2.2, 0.9 cm)
+  and the fur smoothed in B and C; C is also stretched.
+- `PMC8201856/`: panel-by-panel comparison of the 15 mouse panels. Four
+  pairs are the same photograph. This corrects the first version of the
+  bioluminescence round 1 page, which claimed a fifth pair that is not a
+  match.

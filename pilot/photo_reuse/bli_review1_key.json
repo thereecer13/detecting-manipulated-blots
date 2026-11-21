@@ -2,6 +2,77 @@
  {
   "id": "B00",
   "pmcid": "PMC8201856",
-  "label": "PMC8201856, J Nanobiotechnology 2021, doi:10.1186/s12951-021-00932-2. Fig 5b, bioluminescence images of tumour-bearing mice at day 0, 7 and 14. First pair: the upper bodies of the mice in the D14 panels for aPD-L1 and BPQDs+NIR match the D0 panels of the same two groups (same mouse positions and outlines after 14 days). Second pair: the D7 panels for aPD-L1, BPQDs+NIR and BBPQDs+NIR match the D0 panels one column to the right (BPQDs+NIR, BBPQDs+NIR, BBPQDs+NIR+aPD-L1), i.e. different treatment groups."
+  "what": "Fig 5b, bioluminescence images of tumour-bearing mice (rows D0, D7, D14; columns PBS, aPD-L1, BPQDs+NIR, BBPQDs+NIR, BBPQDs+NIR+aPD-L1). Four pairs of panels show the same photograph of four mice (same poses, limbs and tail shapes) under a different colour signal: (A) D0 aPD-L1 and D14 aPD-L1; (B) D0 BPQDs+NIR and D14 BPQDs+NIR; (C) D7 BPQDs+NIR and D0 BBPQDs+NIR; (D) D7 BBPQDs+NIR and D0 BBPQDs+NIR+aPD-L1.",
+  "why": "Caption: 'Typical in vivo bioluminescence images of tumor burdens on day 0, day 7 and day 14.' Methods: 'the tumor-bearing mice were randomly divided into five groups (n = 6 per group): PBS as the control group; aPD-L1, BPQDs with NIR irradiation; BBPQDs with NIR irradiation; and BBPQDs with NIR irradiation and aPD-L1.' Each panel is therefore a separate imaging session: pairs A and B are the same group imaged 14 days apart, and anaesthetised mice put back in the imager two weeks later do not land in identical poses with identical tail curves; pairs C and D are different treatment groups (different animals) on different days. Source: row and column labels, caption, Methods.",
+  "pairs": [
+   {
+    "a": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "abox": [
+     154,
+     203,
+     275,
+     301
+    ],
+    "b": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "bbox": [
+     154,
+     400,
+     275,
+     503
+    ],
+    "note": "D0 aPD-L1 (left) and D14 aPD-L1 (right)"
+   },
+   {
+    "a": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "abox": [
+     277,
+     203,
+     400,
+     301
+    ],
+    "b": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "bbox": [
+     277,
+     400,
+     400,
+     503
+    ],
+    "note": "D0 BPQDs+NIR (left) and D14 BPQDs+NIR (right)"
+   },
+   {
+    "a": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "abox": [
+     277,
+     303,
+     400,
+     398
+    ],
+    "b": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "bbox": [
+     403,
+     203,
+     526,
+     301
+    ],
+    "note": "D7 BPQDs+NIR (left) and D0 BBPQDs+NIR (right)"
+   },
+   {
+    "a": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "abox": [
+     403,
+     303,
+     526,
+     398
+    ],
+    "b": "PMC8201856_12951_2021_932_Fig5_HTML.jpg",
+    "bbox": [
+     528,
+     203,
+     650,
+     301
+    ],
+    "note": "D7 BBPQDs+NIR (left) and D0 BBPQDs+NIR+aPD-L1 (right)"
+   }
+  ]
  }
 ]

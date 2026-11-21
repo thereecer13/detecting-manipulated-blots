@@ -6,7 +6,8 @@ box. Progress is kept in the browser while reviewing; 'Export' downloads a JSON 
 
     --lossless embeds PNG instead of JPEG, so the page adds no compression artifacts.
 
-items.json: [{"id": "...", "label": "shown above the item", "images": [{"path": "...", "caption": "...", "color": false}]}]
+items.json: [{"id": "...", "label": "shown above the item", "why": "optional: shown under the label as
+the argument for why the images should differ", "images": [{"path": "...", "caption": "...", "color": false}]}]
 ("color": true keeps an image in colour; the default is greyscale.)
 """
 import argparse, base64, html, io, json
@@ -40,6 +41,7 @@ button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 main{max-width:1400px;margin:0 auto;padding:16px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,600px),1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;border-left:5px solid var(--line)}
 .card[data-v="__C0__"]{border-left-color:var(--ok)}.card[data-v="__C1__"]{border-left-color:var(--bad)}.card[data-v]:not([data-v=""]):not([data-v="__C0__"]):not([data-v="__C1__"]){border-left-color:var(--warn)}
+.why{margin:0 0 10px;padding:8px 10px;border-left:3px solid var(--accent);background:var(--bg);border-radius:4px}
 .top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}.top b{font-size:16px}.n{color:var(--muted)}
 .imgs{display:flex;flex-wrap:wrap;gap:10px}figure{margin:0;flex:0 1 270px;max-width:100%}
 figure img{width:100%;height:auto;max-height:38vh;object-fit:contain;border:1px solid var(--line);border-radius:4px;background:#fff;cursor:zoom-in;image-rendering:auto}
@@ -66,9 +68,11 @@ function render() {
     const c = document.createElement("section"); c.className = "card"; c.dataset.v = s.verdict;
     c.innerHTML = `<div class="top"><span class="n">${i + 1}/${ITEMS.length}</span><b></b>
       <select aria-label="verdict"><option value="">— verdict —</option>${CHOICES.map(x => `<option>${x}</option>`).join("")}</select></div>
+      ${it.why ? `<p class="why"><b>Why these should be different images: </b><span></span></p>` : ""}
       <div class="imgs">${it.images.map(im => `<figure><img loading="lazy" src="${im.src}" alt=""><figcaption></figcaption></figure>`).join("")}</div>
       <textarea placeholder="Notes (optional): what you see, where"></textarea>`;
     c.querySelector("b").textContent = it.label;
+    if (it.why) c.querySelector(".why span").textContent = it.why;
     c.querySelectorAll("figcaption").forEach((fc, j) => fc.textContent = it.images[j].caption || "");
     c.querySelectorAll("figure img").forEach((img, j) => img.alt = it.label + " " + (it.images[j].caption || ""));
     const sel = c.querySelector("select"); sel.value = s.verdict;
@@ -81,7 +85,7 @@ function render() {
 }
 function count() { const n = ITEMS.filter(it => (state[it.id] || {}).verdict).length; progress.textContent = `${n} of ${ITEMS.length} reviewed`; }
 function results() { return JSON.stringify({review: __REVIEW_ID__, exported: new Date().toISOString(),
-  items: ITEMS.map(it => ({id: it.id, label: it.label, verdict: (state[it.id] || {}).verdict || "", notes: (state[it.id] || {}).notes || ""}))}, null, 1); }
+  items: ITEMS.map(it => ({id: it.id, label: it.label, ...(it.why ? {why: it.why} : {}), verdict: (state[it.id] || {}).verdict || "", notes: (state[it.id] || {}).notes || ""}))}, null, 1); }
 document.getElementById("export").onclick = () => { const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([results()], {type: "application/json"})); a.download = __REVIEW_ID__ + "_results.json"; a.click(); };
 document.getElementById("copy").onclick = async () => { try { await navigator.clipboard.writeText(results()); alert("Copied. Paste it into the chat."); } catch (e) { alert("Copy failed; use Export instead."); } };

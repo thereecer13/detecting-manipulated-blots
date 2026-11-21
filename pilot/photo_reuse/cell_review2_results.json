@@ -1,0 +1,45 @@
+[
+ {
+  "id": "Q00",
+  "pmcid": "PMC12775211",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "Q01",
+  "pmcid": "PMC12028320",
+  "verdict": "same sample (acceptable)",
+  "notes": "Vector is usually the control",
+  "source": "user, exported review file, 2026-11-21",
+  "open_question": "Raised with the user on 2026-11-21: panel A is headed T98G and panel B U87MG, and the Methods name separate 'T98G-vector' and 'U87MG-vector' lines, so the two 'Vector, 48 h' images are controls of two different cell lines, not one shared control. Verdict kept as the user gave it until they answer."
+ },
+ {
+  "id": "Q02",
+  "pmcid": "PMC9410314",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "Q03",
+  "pmcid": "PMC13079295",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "Q04",
+  "pmcid": "PMC12372785",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "Q05",
+  "pmcid": "PMC7370327",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ }
+]

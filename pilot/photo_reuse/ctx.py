@@ -42,7 +42,7 @@ for ln, l in enumerate((out / "papers.jsonl").open()):
         if "_OC." in h["a"] and "_PB." in h["b"]: continue
         if GREY and not (grey(out / "figs" / h["a"], h["abox"]) and grey(out / "figs" / h["b"], h["bbox"])): continue
         if n in want:
-            cv2.imwrite(str(out / "view" / f"ctx_{n}.jpg"), np.hstack([crop(out / "figs" / h["a"], h["abox"]), np.zeros((900, 10, 3), np.uint8), crop(out / "figs" / h["b"], h["bbox"])]), [cv2.IMWRITE_JPEG_QUALITY, 90])
+            cv2.imwrite(str(out / "view" / f"ctx_{n}.jpg"), np.hstack([crop(out / "figs" / h["a"], h.get("afull", h["abox"])), np.zeros((900, 10, 3), np.uint8), crop(out / "figs" / h["b"], h.get("bfull", h["bbox"]))]), [cv2.IMWRITE_JPEG_QUALITY, 90])
             print(f"== {n} {d['pmcid']} {d['journal']} {d['year']} | {d['title']}\n  A {h['a']} {h['abox']}\n    {caps[h['a']][:1500]}")
             if h["b"] != h["a"]: print(f"  B {h['b']} {h['bbox']}\n    {caps[h['b']][:1500]}")
         n += 1
