@@ -20,5 +20,5 @@ simply spanned three panels. The page was rebuilt with the four pairs above, eac
 panel.
 
 `blog_figure.py` draws the blog figure the user asked for: the two panels of pair A (D0 and D14, aPD-L1)
-from the full-resolution PDF figure, titled "Condition 1" and "Condition 2", no source line
-(`mouse_reuse_two_conditions_anonymized.png`).
+from the full-resolution PDF figure, titled "Time point 1" and "Time point 2", no source line
+(`mouse_reuse_two_time_points_anonymized.png`).

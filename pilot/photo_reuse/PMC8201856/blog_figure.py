@@ -1,5 +1,5 @@
 """PMC8201856 Fig 5b, blog figure: the two panels of pair A (D0 aPD-L1 and D14 aPD-L1), side by side,
-labelled "Condition 1" and "Condition 2" with titles above (anonymised at the user's request: no source).
+labelled "Time point 1" and "Time point 2" with titles above (anonymised at the user's request: no source).
 
 Uses the full-resolution Figure 5 from the article PDF in the PMC open-data bucket
 (pdfimages -png -f 12 -l 12 PMC8201856.1.pdf q12  ->  q12-000.png, 1853 x 2481 px).
@@ -34,7 +34,7 @@ P = [up(A1), up(A2)]; H = max(p.shape[0] for p in P)
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 44)
 gap = 50; top = 110; W = sum(p.shape[1] for p in P) + gap * 3
 cv = Image.new("RGB", (W, top + H + 30), "white"); d = ImageDraw.Draw(cv); x = gap
-for p, name in zip(P, ("Condition 1", "Condition 2")):
+for p, name in zip(P, ("Time point 1", "Time point 2")):
     cv.paste(Image.fromarray(cv2.cvtColor(p, cv2.COLOR_BGR2RGB)), (x, top))
     tw = d.textlength(name, font=font); d.text((x + (p.shape[1] - tw) / 2, 30), name, font=font, fill="black"); x += p.shape[1] + gap
-cv.save(out / "mouse_reuse_two_conditions_anonymized.png"); print(cv.size, A1.shape, A2.shape)
+cv.save(out / "mouse_reuse_two_time_points_anonymized.png"); print(cv.size, A1.shape, A2.shape)
