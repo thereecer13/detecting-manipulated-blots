@@ -1,0 +1,103 @@
+[
+ {
+  "id": "B36",
+  "pmcid": "PMC9688407",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC9688407_cancers-14-05712-g007.jpg",
+    "abox": [
+     110,
+     55,
+     200,
+     148
+    ],
+    "b": "PMC9688407_cancers-14-05712-g007.jpg",
+    "bbox": [
+     250,
+     55,
+     340,
+     148
+    ],
+    "note": "CTL, second and third mouse (left) and TMZ, second and third mouse (right)"
+   }
+  ],
+  "what": "Fig 7A, bioluminescence images of mice with brain tumours, three mice per treatment group: CTL (placebo), TMZ, ONX and ONX+TMZ. The second and third mouse of the CTL panel and the second and third mouse of the TMZ panel are one photograph: same poses, same legs and tails, same stage marks behind them, and the colour signal on both heads has the same shape. The TMZ copy is about 6% larger. The first mouse of each panel is a different animal, so the two panels are not wholly the same picture. Agreement of the greyscale photograph, signal left out: 0.96 for this pair; the same two CTL mice against the ONX and ONX+TMZ mice give 0.79. Plain copy, resized.",
+  "why": "Caption: 'Placebo (CTL), temozolomide (TMZ), ONX-0914, and TMZ plus ONX-0914 were then administered every day for 15 days.' Methods: five days after implantation 'the mice were assigned to' four treatment groups. CTL and TMZ are therefore different animals given different treatments, and Fig 7C compares the signal between these groups. Two placebo mice and two temozolomide mice cannot be the same two animals in the same photograph with the same signal."
+ },
+ {
+  "id": "B37",
+  "pmcid": "PMC5876459",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC5876459_ol-15-05-6203-g02.jpg",
+    "abox": [
+     27,
+     362,
+     229,
+     512
+    ],
+    "b": "PMC5876459_ol-15-05-6203-g02.jpg",
+    "bbox": [
+     233,
+     362,
+     436,
+     512
+    ],
+    "note": "Hepa1-6 (left) and Hepa1-6-FLuc (right); the right one is the left one turned by about 36 degrees"
+   }
+  ],
+  "extra": [
+   {
+    "path": "bli_p/big/hepa.png",
+    "caption": "Left: the Hepa1-6 panel turned by 36 degrees and laid over the frame of the Hepa1-6-FLuc panel. Right: the Hepa1-6-FLuc panel as published. The cells and the pores of the membrane are in the same places."
+   }
+  ],
+  "what": "This one is a cell image, found because the paper is about a luciferase cell line. Fig 3B, Transwell migration assay, crystal violet stain: the Hepa1-6 panel and the Hepa1-6-FLuc panel show the same field of cells. The FLuc panel is the same field turned by about 36 degrees and cropped again, with a slightly different colour balance. 132 of 137 matched points agree with a single rotation. Altered copy (rotated and recropped).",
+  "why": "Caption: 'Migration and invasion ability of Hepa1-6-FLuc and Hepa1-6 cell lines. (B) Cell migration as determined by a Transwell assay.' The two panels are two different cell lines, the parental line and the line carrying the luciferase gene, each seeded in its own insert. The paper's claim is exactly this comparison: 'the migrating cell number for the Hepa1-6 and Hepa1-6-FLuc groups was consistent (Fig. 3B)'. Two inserts with two cell lines cannot have every cell in the same place, and a rotation does not happen by picking the wrong file."
+ },
+ {
+  "id": "B38",
+  "pmcid": "PMC7312797",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC7312797_ijms-21-03767-g005.jpg",
+    "abox": [
+     528,
+     72,
+     606,
+     186
+    ],
+    "b": "PMC7312797_ijms-21-03767-g005.jpg",
+    "bbox": [
+     614,
+     208,
+     694,
+     322
+    ],
+    "note": "Group A at 21 days (left) and Group B at 28 days (right)"
+   },
+   {
+    "a": "PMC7312797_ijms-21-03767-g005.jpg",
+    "abox": [
+     127,
+     457,
+     308,
+     590
+    ],
+    "b": "PMC7312797_ijms-21-03767-g005.jpg",
+    "bbox": [
+     127,
+     799,
+     308,
+     932
+    ],
+    "note": "Control stained for hMito (left) and Control stained for OCN (right)"
+   }
+  ],
+  "what": "Fig 5A, bioluminescence images of mice carrying transplanted cell sheets, Group A (top row) and Group B (bottom row), day 0 to day 28. Pair A: the mouse shown for Group A at 21 days and the mouse shown for Group B at 28 days are one photograph: same pose, same paws, same ear, same row of wound clips on the back. Only the overlay differs: the Group A copy has a pink signal on the implant, the Group B copy has none. Agreement of the greyscale photograph: 0.84 for this pair, below 0.40 for every other pair of panels I scored in the figure. Pair B, same figure, panel B (fluorescence, so weaker evidence): the Control panel in the hMito row and the Control panel in the OCN row show the same field of blue nuclei, with the dashed outline drawn slightly differently. Pair A is a plain copy with a different overlay.",
+  "why": "Pair A: caption: 'group A in osteogenic differentiation medium (ODM) or group B in ODM with rhBMP-2 ... Bioluminescence imaging was performed for the transplantation in a time series'. The two panels differ in both group and day, so they should be two imaging sessions a week apart. Caveat: Methods say 'two dorsal pocket sites per mouse were randomly assigned' among the groups, so one animal can carry implants of two groups. That could explain the same animal appearing in both rows, but not the same photograph for day 21 and day 28. Pair B: each row of panel B is a different antibody (hMito, ALP, OCN, CEMP-1), each on its own tissue section. Two sections stained for two proteins cannot have every nucleus in the same place."
+ }
+]

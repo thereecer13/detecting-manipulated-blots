@@ -329,3 +329,24 @@ Five sent to review (`cell_review6_key.json`, page
 | PMC11536251 | Fig 2D: siFMRP-2 and siFMRP-3 are overlapping crops of one field | shifted crop |
 | PMC12852651 | Fig 6b: BCSC YAP1 siRNA 0 h = 24 h (could be the same field re-photographed) | plain or re-imaged |
 | PMC7718642 | Fig 4a: ACHN = H-NC transwell image (two controls) | plain |
+
+## Bioluminescence, papers 6,300–7,500 (21 Nov)
+
+7,500 papers so far. 72 mouse-image matches viewed. Not reportable:
+main figure and its figure supplement (PMC6021173), one experiment shown
+in a main and an expanded-view figure (PMC10565638), photograph and
+overlay or two modalities of the same animals (PMC5333872, PMC10898324,
+PMC7248428, PMC13255310), the 24 h row repeated in a comparison panel
+(PMC8474941), one animal followed over minutes or light doses
+(PMC4491820, PMC7064570, PMC9315199), control column shared between two
+figures (PMC7886131), layout or imaging stage matching itself
+(PMC5200896, PMC10308360, PMC12936002, PMC12049435, PMC5744014 where all
+panels are X-ray views in one holder, best pair 0.81).
+
+Sent as `bioluminescence_reuse_round6.html`, key `bli_review6_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| B36 | PMC9688407 | Fig 7A: CTL mice 2–3 = TMZ mice 2–3, signal included (0.96; other groups 0.79) |
+| B37 | PMC5876459 | Fig 3B transwell: Hepa1-6 = Hepa1-6-FLuc turned 36° (132/137 points on one rotation) |
+| B38 | PMC7312797 | Fig 5A: Group A 21 d = Group B 28 d photo (0.84; others < 0.40); Fig 5B control hMito = control OCN nuclei |
