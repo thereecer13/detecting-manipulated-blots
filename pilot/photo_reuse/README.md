@@ -143,3 +143,23 @@ item (same file name; the verdicts above stand).
 
 Bioluminescence round 1 verdict (`bli_review1_results.json`): PMC8201856
 confirmed by the user as real reuse (21 Nov).
+
+## Cell culture, papers 1,500–2,700 (21 Nov)
+
+2,700 papers so far. 34 new matches with ncc ≥ 0.5. Not reportable:
+schematics and tables, insets, single-channel/merge, raw and annotated
+copies of one image (PMC9513113), one control for short- and long-term
+series with a single control bar (PMC11641017), before/after of one
+field, controls shared by two dilution figures (PMC11889099).
+
+Six sent to review (`cell_review3_key.json`, page
+`cell_image_reuse_round3.html`), each with its argument:
+
+| Paper | What |
+|---|---|
+| PMC12139281 | Fig 2: "0.0 nM DEXA" and "10 nM DEXA" are one field |
+| PMC10006185 | Fig 2D: "shCtrl, no 5-FU" = "shCRYAB #1, + 5-FU" |
+| PMC12447747 | Fig 7B "HIF-1a" = Fig 9B "TCF12 sh + HIF-1a" |
+| PMC13485777 | Fig 4: Lectin image contains the Control image turned 180° |
+| PMC12658732 | Fig 7: si-NC = OE-NC (weaker: both negative controls) |
+| PMC11679756 | Control in Fig 2C = Control in Fig 5B (unclear: maybe shared) |

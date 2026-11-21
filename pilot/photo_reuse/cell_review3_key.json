@@ -1,0 +1,73 @@
+[
+ {
+  "id": "R00",
+  "pmcid": "PMC12139281",
+  "hits": [
+   0
+  ],
+  "what": "Fig 2, phase-contrast images of bone-marrow MSCs. Panel B (BM-MSCs, Day 10, 0.0 nM DEXA) and panel C (10 nM DEXA) show the same field of cells, at different zoom and crop.",
+  "why": "Panel titles: B is '0.0 nM DEXA', C is '10 nM DEXA'. Main text: 'culture BM-MSCs exhibited a typical spindle and myofibroblast-like shape (Fig. 2B). Exposure of the 4th passage cells to 10, 100, or 1000 nM DEXA for 24 h did not affect cell morphology under a phase-contrast microscope (Fig. 2C-2E).' B is the untreated culture and C a dexamethasone-treated one, and the claim being made is that treatment leaves morphology unchanged, so the treated image must be a different culture from the untreated one. Source: panel titles, main text."
+ },
+ {
+  "id": "R01",
+  "pmcid": "PMC10006185",
+  "hits": [
+   0
+  ],
+  "what": "Fig 2D, transwell migration of HCC1806 cells (rows shCtrl, shCRYAB #1, shCRYAB #2; columns 5-FU - and +). The 'shCtrl, 5-FU -' image and the 'shCRYAB #1, 5-FU +' image show the same field.",
+  "why": "Row and column labels: one image is control-shRNA cells without drug, the other is CRYAB-knockdown cells treated with 0.5 uM 5-FU. They differ in both cell line and treatment. Methods: stable lines 'harboring the negative control vector (shCtrl) or shCRYAB (#1 or #2)' are separate lines, each treated with 5-FU and seeded in its own Transwell insert. Source: panel labels, caption, Methods."
+ },
+ {
+  "id": "R02",
+  "pmcid": "PMC12447747",
+  "hits": [
+   0
+  ],
+  "what": "Tube-formation images of ECDHCC-1 cells. The 'HIF-1a' image in Fig 7B is the same field as the 'TCF12 sh +, HIF-1a +' image in Fig 9B (about 10% smaller in Fig 9).",
+  "why": "Fig 7B compares NC with HIF-1a overexpression alone (text: 'HIF-1a overexpression also promoted the tube-forming ability of the ECDHCC-1 cells (Figure 7B)'). Fig 9B is a different experiment: 'we examined three groups: a control group, a TCF12 shRNA group, and a TCF12 shRNA plus HIF-1a group', and its third image is labelled TCF12 sh + / HIF-1a +. So one image stands for HIF-1a overexpression in normal cells and for HIF-1a overexpression in TCF12-knockdown cells, where the paper reports only partial rescue ('~70% of the tube-forming ability'). Source: panel labels, main text."
+ },
+ {
+  "id": "R03",
+  "pmcid": "PMC13485777",
+  "pairs": [
+   {
+    "a": "PMC13485777_fonc-16-1913802-g004.jpg",
+    "abox": [
+     297,
+     585,
+     637,
+     764
+    ],
+    "b": "PMC13485777_fonc-16-1913802-g004.jpg",
+    "bbox": [
+     297,
+     914,
+     637,
+     1093
+    ],
+    "rot180": true,
+    "note": "Control SCC9, lower part, and Lectin SCC9, lower part"
+   }
+  ],
+  "what": "Fig 4, Matrigel invasion assay of SCC9 cells; 'Control SCC9' is the upper half and 'Lectin SCC9' the lower half of one image block. The lower part of the Lectin image is the lower part of the Control image turned 180 degrees (pixel correlation 0.80 turned, -0.02 unturned). The two scale bars are not turned.",
+  "why": "Row labels and caption: 'SCC9 cells were treated with GaBL (10 ug/mL) or left untreated (control) for 24 h ... Microscopy images depict more purple-stained invasive cells in control SCC9 and visibly fewer in lectin SCC9.' Treated and untreated cells are in separate inserts (Methods: cells 'plated onto each well and treated with 10 ug/ml of lectin'), so the treated image cannot be the control image rotated. Source: row labels, caption, Methods."
+ },
+ {
+  "id": "R04",
+  "pmcid": "PMC12658732",
+  "hits": [
+   0
+  ],
+  "what": "Fig 7 Transwell invasion of RL95-2 cells. The 'si-NC' image in panel (c) and the 'OE-NC' image in panel (d) show the same field (slightly different crop).",
+  "why": "Panel labels and caption: (c) is 'Transwell assay results after knocking down EPHB2' with si-NC as its control; (d) is 'after overexpression of EPHB2' with OE-NC as its control. Both are negative controls of the same cell line, but for different reagents (a control siRNA and a control overexpression vector) in two separate experiments, and the bar charts give them different counts (about 150 and 165 cells per field). Weaker than the others: you may judge this an acceptable shared control. Source: panel labels, caption, bar charts."
+ },
+ {
+  "id": "R05",
+  "pmcid": "PMC11679756",
+  "hits": [
+   0
+  ],
+  "what": "Transwell migration of MDA-MB231 cells. The 'Control' image in Fig 2C and the 'Control' image in Fig 5B show the same field (about 12% larger in Fig 5).",
+  "why": "Fig 2C is a PGG dose series (Control, 10, 20, 40 uM); Fig 5B is a combination experiment (Control, PGG 40 uM, DOX 0.75 uM, PGG + DOX). Both controls are untreated cells of the same line, so this is only a problem if the two figures are separate experiments; the paper does not say they shared one control well. Unclear rather than clearly wrong: sent for your call under the 'same controls from the same experiment' rule. Source: captions, main text."
+ }
+]
