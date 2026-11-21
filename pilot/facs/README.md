@@ -324,3 +324,12 @@ four panels, all false (a dashed gate outline, quadrant label text, a
 scatter chart with a fit line). One cross-figure pair: PMC13117983
 Fig 6 and Fig 7, the same lymphocyte gating plot (gating plot, not
 reported).
+
+### 2026 Mar–Apr window, batches 4–6 (window complete)
+
+453 panels in batch 4; batches 5 and 6 were empty (41,593 so far).
+Nothing passed the within-plot filter. One cross-figure pair:
+PMC12969122 Fig 8 and Fig 9, the "Untreated" row (24, 48, 72 h). The two
+figures are the same experiment at 50 and 250 µg/mL, and the untreated
+cells have no dose, so this is a shared untreated control (same sample,
+not reported).
