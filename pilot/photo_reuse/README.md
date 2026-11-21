@@ -140,3 +140,6 @@ item (same file name; the verdicts above stand).
   pairs are the same photograph. This corrects the first version of the
   bioluminescence round 1 page, which claimed a fifth pair that is not a
   match.
+
+Bioluminescence round 1 verdict (`bli_review1_results.json`): PMC8201856
+confirmed by the user as real reuse (21 Nov).
