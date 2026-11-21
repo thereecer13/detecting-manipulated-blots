@@ -18,3 +18,7 @@ Correction: the first review page (21 Nov) said three D7 panels matched D0 panel
 the right. The D7 aPD-L1 / D0 BPQDs+NIR pair scores 0.44 and is not a match; the keypoint box had
 simply spanned three panels. The page was rebuilt with the four pairs above, each boxed as a whole
 panel.
+
+`blog_figure.py` draws the blog figure the user asked for: the two panels of pair A (D0 and D14, aPD-L1)
+from the full-resolution PDF figure, titled "Condition 1" and "Condition 2", no source line
+(`mouse_reuse_two_conditions_anonymized.png`).
