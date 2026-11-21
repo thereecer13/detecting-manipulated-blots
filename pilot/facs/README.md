@@ -306,3 +306,8 @@ byte-identical image stored under two figure names (EMBO Press).
 panels, all false (bar-chart text, a line chart, a gate outline). No
 cross-figure pairs. All four 2025 windows are now done; 2026 remains
 (22,372 papers in the search), in monthly windows.
+
+### 2026 Jan–Feb window, batches 0–3
+
+575, 666, 661 and 702 panels (37,762 so far). Within-plot filter passed
+three panels, all false (legend and label text). No cross-figure pairs.
