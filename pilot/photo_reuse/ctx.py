@@ -4,8 +4,21 @@
 """
 import json, sys
 from pathlib import Path
+import os
 import cv2
 import numpy as np
+
+# GREY=1 keeps only matches whose two regions contain bright, unsaturated pixels (mouse photographs,
+# bright-field); it drops fluorescence panels, where single-channel and merged views match each other.
+# SKIP=n ignores the first n papers of the scan (already reviewed).
+GREY = os.environ.get("GREY") == "1"; SKIP = int(os.environ.get("SKIP", 0))
+
+
+def grey(path, box):
+    im = cv2.imread(str(path))
+    if im is None: return False
+    x0, y0, x1, y1 = box; hsv = cv2.cvtColor(im[y0:y1, x0:x1], cv2.COLOR_BGR2HSV)
+    return hsv.size > 0 and float(((hsv[..., 1] < 40) & (hsv[..., 2] > 90)).mean()) >= 0.15
 
 out = Path(sys.argv[1]); want = {int(x) for x in sys.argv[2:]}
 
@@ -20,12 +33,14 @@ def crop(path, box, pad=1.0, side=900):
 
 
 n = 0
-for l in (out / "papers.jsonl").open():
+for ln, l in enumerate((out / "papers.jsonl").open()):
+    if ln < SKIP: continue
     d = json.loads(l); caps = {f["file"]: f["caption"] for f in d["figs"]}
     for h in d["hits"]:
         if h.get("ncc", 1) < 0.5: continue
         if h["a"] != h["b"] and abs(h["scale"] - 1) < 0.01 and h["abox"][:2] == h["bbox"][:2]: continue
         if "_OC." in h["a"] and "_PB." in h["b"]: continue
+        if GREY and not (grey(out / "figs" / h["a"], h["abox"]) and grey(out / "figs" / h["b"], h["bbox"])): continue
         if n in want:
             cv2.imwrite(str(out / "view" / f"ctx_{n}.jpg"), np.hstack([crop(out / "figs" / h["a"], h["abox"]), np.zeros((900, 10, 3), np.uint8), crop(out / "figs" / h["b"], h["bbox"])]), [cv2.IMWRITE_JPEG_QUALITY, 90])
             print(f"== {n} {d['pmcid']} {d['journal']} {d['year']} | {d['title']}\n  A {h['a']} {h['abox']}\n    {caps[h['a']][:1500]}")

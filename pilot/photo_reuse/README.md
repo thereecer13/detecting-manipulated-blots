@@ -82,3 +82,20 @@ Six sent to review (`cell_review2_key.json`, page
 | PMC13079295 | Fig 5 rat wound photos: day 7 panel is the day 3 scene, 20% larger |
 | PMC12372785 | Fig 9E: Ctrl and si-CDH1 200X fields overlap |
 | PMC7370327 | Fig 5: "blank" and "negative" transwell fields overlap |
+
+## Bioluminescence, papers 300–1,500 (21 Nov)
+
+1,500 papers so far. New in 300–1,500: 97 matches with ncc ≥ 0.5; 47
+are fluorescence panels (dropped at triage with `GREY=1`, which keeps
+only regions with bright unsaturated pixels), 50 viewed. Not reportable:
+photograph and overlay of one animal, luminescence and fluorescence of
+one plate, same animal over minutes, exposure variants, review articles
+reprinting figures (PMC13143736, PMC3326720, PMC7883342), a protocol
+illustration (PMC8273408), blank/zero-dose control columns shared by two
+blocks (PMC11768954), and false matches on animals lying alike in a
+holder (PMC13148951) or left-right symmetric gel lanes (PMC12485097).
+
+One sent to review (`bli_review1_key.json`, page
+`bioluminescence_reuse_round1.html`): PMC8201856 Fig 5b. The mice in the
+D14 panels of two groups match the D0 panels of the same groups, and
+three D7 panels match D0 panels of the neighbouring groups.
