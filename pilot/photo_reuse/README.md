@@ -59,3 +59,26 @@ Verdict so far (`cell_review1_results.json`): PMC13258865 is legitimate
 reuse of the control image (user). Rule taken from this: one 0 h /
 starting image shared by the conditions of a scratch assay is the same
 sample and is not sent to review.
+
+## Cell culture, papers 300–1,500 (21 Nov)
+
+1,500 papers so far, 53 matches with ncc ≥ 0.5 after dropping stored
+duplicates. Most are not reportable: single-channel/merge panels, phase
+and merge, insets, schematics with repeated clip-art, consecutive time
+points of one field, correction notices (PMC13015173, PMC12370780,
+PMC12884613, PMC12775083), a shared 0 h scratch image (PMC10074231,
+PMC11908088, PMC12736314; overlapping 0 h fields in PMC12911705), and a
+control shared by two figures that list the same conditions (PMC8075232,
+PMC8657689).
+
+Six sent to review (`cell_review2_key.json`, page
+`cell_image_reuse_round2.html`, built with `make_packet.py`):
+
+| Paper | What |
+|---|---|
+| PMC12775211 | transwell blocks: Fig 3F Invasion = Fig 7C Migration with different treatments; Fig 1D Invasion = Fig 2F Migration |
+| PMC12028320 | Fig 7: "Vector 48 h" scratch image identical for T98G and U87MG |
+| PMC9410314 | Fig 1 SEM: (E) Exo-5-FU is the mirror image of (D) Exo-PAC |
+| PMC13079295 | Fig 5 rat wound photos: day 7 panel is the day 3 scene, 20% larger |
+| PMC12372785 | Fig 9E: Ctrl and si-CDH1 200X fields overlap |
+| PMC7370327 | Fig 5: "blank" and "negative" transwell fields overlap |

@@ -24,6 +24,8 @@ for l in (out / "papers.jsonl").open():
     d = json.loads(l); caps = {f["file"]: f["caption"] for f in d["figs"]}
     for h in d["hits"]:
         if h.get("ncc", 1) < 0.5: continue
+        if h["a"] != h["b"] and abs(h["scale"] - 1) < 0.01 and h["abox"][:2] == h["bbox"][:2]: continue
+        if "_OC." in h["a"] and "_PB." in h["b"]: continue
         if n in want:
             cv2.imwrite(str(out / "view" / f"ctx_{n}.jpg"), np.hstack([crop(out / "figs" / h["a"], h["abox"]), np.zeros((900, 10, 3), np.uint8), crop(out / "figs" / h["b"], h["bbox"])]), [cv2.IMWRITE_JPEG_QUALITY, 90])
             print(f"== {n} {d['pmcid']} {d['journal']} {d['year']} | {d['title']}\n  A {h['a']} {h['abox']}\n    {caps[h['a']][:1500]}")

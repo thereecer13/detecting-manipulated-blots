@@ -1,0 +1,32 @@
+[
+ {
+  "id": "Q00",
+  "pmcid": "PMC12775211",
+  "label": "PMC12775211, Cell Mol Life Sci 2025, doi:10.1007/s00018-025-06002-2. Transwell images. First pair: a block of eight images shown as Invasion in Fig 3F (shNC+NC, shcircEPHB4, MRPS16, shcircEPHB4+MRPS16; SHG44 and U373) appears as Migration in Fig 7C (shNC+NC, shcircEPHB4, YBX1, shcircEPHB4+YBX1). Second pair: images shown as Invasion in Fig 1D (shNC, shcircEPHB4-1, shcircEPHB4-2) appear as Migration in Fig 2F (shNC, shMRPS16-1, shMRPS16-2). Different assays and different treatments."
+ },
+ {
+  "id": "Q01",
+  "pmcid": "PMC12028320",
+  "label": "PMC12028320, Int J Mol Sci 2025, doi:10.3390/ijms26083859. Fig 7 wound-healing assay. The 'Vector, 48 h' image for T98G cells (panel A) and the 'Vector, 48 h' image for U87MG cells (panel B) are the same image: two different cell lines."
+ },
+ {
+  "id": "Q02",
+  "pmcid": "PMC9410314",
+  "label": "PMC9410314, Life (Basel) 2022, doi:10.3390/life12081143. Not cell culture: scanning electron micrographs in Fig 1. The SEM image under (E) Exo-5-FU is the mirror image of the SEM image under (D) Exo-PAC: two different formulations."
+ },
+ {
+  "id": "Q03",
+  "pmcid": "PMC13079295",
+  "label": "PMC13079295, Front Bioeng Biotechnol 2026, doi:10.3389/fbioe.2026.1800416. Not cell culture: rat wound photographs in Fig 5. The photograph in panel B (day 7) shows the same scene as panel A (day 3), about 20% larger: same glove, ruler position and wound. The caption gives them as different days."
+ },
+ {
+  "id": "Q04",
+  "pmcid": "PMC12372785",
+  "label": "PMC12372785, PeerJ 2025, doi:10.7717/peerj.19785. Fig 9E, the 200X images under the colony plates. Part of the middle image (si-CDH1-A549) shows the same cells as part of the left image (Ctrl-A549), shifted: the two fields overlap. Small region (29 matched points); please check."
+ },
+ {
+  "id": "Q05",
+  "pmcid": "PMC7370327",
+  "label": "PMC7370327, Int J Immunopathol Pharmacol 2020, doi:10.1177/2058738420930899. Fig 5 transwell invasion of CaSki cells. Part of image (b) 'negative' shows the same cells as part of image (a) 'blank', shifted: the two fields overlap. Both are control groups, but they are presented as separate groups."
+ }
+]
