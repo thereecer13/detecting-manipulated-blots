@@ -44,12 +44,12 @@ O = np.clip(O, 0, 255).astype(np.uint8)
 
 font = lambda s, b=False: ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans%s.ttf" % ("-Bold" if b else ""), s)
 rgb = lambda a: Image.fromarray(cv2.cvtColor(a, cv2.COLOR_BGR2RGB))
-gap = 50; top = 20
+gap = 50; FS = 44; top = 110                      # titles above the photographs
 cols = [(up(A), NA + ", as published"), (O, "Both overlaid (%s turned %d°)" % (NB, round(abs(angle)))), (up(B), NB + ", as published")]
 H = max(c.shape[0] for c, _ in cols); W = sum(c.shape[1] for c, _ in cols) + gap * 4
-cv = Image.new("RGB", (W, top + H + (70 if ANON else 110)), "white"); d = ImageDraw.Draw(cv); x = gap
+cv = Image.new("RGB", (W, top + H + (30 if ANON else 80)), "white"); d = ImageDraw.Draw(cv); x = gap
 for img, name in cols:
-    cv.paste(rgb(img), (x, top + (H - img.shape[0]) // 2)); tw = d.textlength(name, font=font(28, True))
-    d.text((x + (img.shape[1] - tw) / 2, top + H + 12), name, font=font(28, True), fill="black"); x += img.shape[1] + gap
-if not ANON: d.text((gap, top + H + 70), "Inflamm Res 2026, doi:10.1007/s00011-026-02342-2, Fig. 5E (CC BY 4.0). Panels enlarged; middle panel is a half-transparent overlay of the other two.", font=font(19), fill=(100, 100, 100))
+    cv.paste(rgb(img), (x, top + (H - img.shape[0]) // 2)); tw = d.textlength(name, font=font(FS, True))
+    d.text((x + (img.shape[1] - tw) / 2, 30), name, font=font(FS, True), fill="black"); x += img.shape[1] + gap
+if not ANON: d.text((gap, top + H + 30), "Inflamm Res 2026, doi:10.1007/s00011-026-02342-2, Fig. 5E (CC BY 4.0). Panels enlarged; middle panel is a half-transparent overlay of the other two.", font=font(19), fill=(100, 100, 100))
 cv.save(out / ("rotated_reuse_overlay_anonymized.png" if ANON else "PMC13481467_Fig5E_overlay.png")); print(cv.size, round(angle, 1))
