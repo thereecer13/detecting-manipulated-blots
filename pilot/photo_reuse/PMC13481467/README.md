@@ -10,3 +10,6 @@ transwell panel is 390 x 312 px.
 `measurements.json`: 233 of 256 matched points fit one rotation of 107.6 degrees at scale 1.002 with a
 mean error of 0.83 px; the shared area is 73% of the panel; pixel correlation there is 0.84, against
 0.01 and 0.03 for the figure's other two panels.
+
+`simple_figure.py` draws the plain version the user asked for instead: the two published panels and the
+first one turned to the matching angle, no outlines or numbers (`PMC13481467_Fig5E_rotated_simple.png`).
