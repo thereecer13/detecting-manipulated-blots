@@ -42,3 +42,7 @@ Limit: a single round colony has little distinguishing shape, so a copy
 that was resized and recompressed could score no higher than a chance
 look-alike. This search can find a copied group of colonies, not reliably
 a single one.
+
+- `blog_figure.py` draws the anonymised blog figure from the working files of big1/big2: Sample A,
+  a half-transparent overlay with Sample B enlarged 1.11x, and Sample B, with the one-sided colonies
+  circled (10 only in A, 12 only in B). Output `colony_plate_reuse_anonymized.png`, kept with the reviews.
