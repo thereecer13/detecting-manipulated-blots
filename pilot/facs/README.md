@@ -357,3 +357,15 @@ results of the combined 2025–2026 search (batches `y25_0`–`y25_9`),
 which came newest first. Nothing passed the within-plot filter and there
 were no cross-figure pairs. Sep–Nov 2026 (3,738 papers) is expected to
 be the same.
+
+### 2026 Sep–Nov window, and the 2025–2026 total
+
+69 new panels, nothing passing the within-plot filter, no cross-figure
+pairs. This completes every 2025–2026 window.
+
+**2025–2026 total: 43,788 flow panels, no within-plot duplication
+found.** Every panel that passed the filter was a false match (label or
+legend text, dashed gate outlines, line and scatter charts). Cross-figure
+matches were all the same sample (gating plots, shared controls) or one
+figure stored twice, except the one pending pair PMC13769143 Fig 4D/6D
+(PBS plots, binned "different samples", not yet sent to review).
