@@ -219,3 +219,21 @@ Five sent to review (`cell_review4_key.json`, page
 | PMC13481467 | Fig 5E: NC+LPS = OE-Vector+LPS, turned ~107° |
 | PMC13412505 | Fig 8 rat wounds: Gel 75 mg = Gel 100 mg on day 0 and day 3 |
 | PMC11866248 | Fig 9B: Migration 100 µM and Invasion 100 µM overlap, turned ~140° (weaker) |
+
+## Bioluminescence, papers 2,700–3,900 (21 Nov)
+
+3,900 papers so far. 88 mouse-image matches viewed (fluorescence panels
+dropped). Not reportable: photograph and overlay, same animal over
+minutes or under two probes, a representative image repeated in an
+Extended Data figure under the same label (PMC7136154), stage and
+holder patterns, look-alike pairs that differ on viewing (PMC11004311),
+review articles, schematics.
+
+Two sent to review (`bli_review3_key.json`, page
+`bioluminescence_reuse_round3.html`):
+
+- PMC9239262 Fig 4B: the day 28 row is the day 14 row for all three
+  groups, signal included (panel scores 0.91, 0.98, 0.97; day 3 against
+  either 0.23–0.47).
+- PMC12818144 Fig 4A: the 6 h image of one group is the 24 h image of
+  another group, animal and signal.

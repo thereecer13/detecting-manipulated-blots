@@ -1,0 +1,86 @@
+[
+ {
+  "id": "B20",
+  "pmcid": "PMC9239262",
+  "pairs": [
+   {
+    "a": "PMC9239262_mbio.00433-22-f004.jpg",
+    "abox": [
+     159,
+     657,
+     292,
+     780
+    ],
+    "b": "PMC9239262_mbio.00433-22-f004.jpg",
+    "bbox": [
+     159,
+     783,
+     292,
+     900
+    ],
+    "note": "Ctrl: day 14 (left) and day 28 (right)"
+   },
+   {
+    "a": "PMC9239262_mbio.00433-22-f004.jpg",
+    "abox": [
+     295,
+     657,
+     428,
+     780
+    ],
+    "b": "PMC9239262_mbio.00433-22-f004.jpg",
+    "bbox": [
+     295,
+     783,
+     428,
+     900
+    ],
+    "note": "LdPBN1-/-: day 14 (left) and day 28 (right)"
+   },
+   {
+    "a": "PMC9239262_mbio.00433-22-f004.jpg",
+    "abox": [
+     431,
+     657,
+     568,
+     780
+    ],
+    "b": "PMC9239262_mbio.00433-22-f004.jpg",
+    "bbox": [
+     431,
+     783,
+     568,
+     900
+    ],
+    "note": "Rescue: day 14 (left) and day 28 (right)"
+   }
+  ],
+  "what": "Fig 4B, bioluminescence images of infected mice (columns Ctrl, LdPBN1-/-, Rescue; rows day 3, 14, 28). The whole day 28 row is the day 14 row again: for all three groups the animals, their poses and the colour signal are the same in both rows. Panel-by-panel scores: day 14 against day 28 is 0.91, 0.98 and 0.97; day 3 against either is 0.23 to 0.47.",
+  "why": "Row labels: 14 and 28 days post infection. Caption: 'infections were longitudinally monitored by bioluminescence imaging', with the quantification in C and D plotted separately for each time point. Main text: parasites 'multiply to a peak at 2 weeks postinfection before they are gradually cleared', so the signal at day 28 is reported as different from day 14, and the liver curve in panel C falls between those points. Two imaging sessions two weeks apart cannot give the same poses and the same signal pattern in nine animals. Unlike most mouse-image matches in this scan, here the signal overlay is duplicated too, not only the photograph. Source: row labels, caption, main text, panel C."
+ },
+ {
+  "id": "B21",
+  "pmcid": "PMC12818144",
+  "pairs": [
+   {
+    "a": "PMC12818144_gr4.jpg",
+    "abox": [
+     468,
+     18,
+     540,
+     128
+    ],
+    "b": "PMC12818144_gr4.jpg",
+    "bbox": [
+     612,
+     286,
+     684,
+     400
+    ],
+    "note": "AIE@HFn-scfv, 6 h (left) and AIE@HFn-scfv + anti-Claudin18.2, 24 h (right)"
+   }
+  ],
+  "what": "Fig 4A, whole-body fluorescence images of tumour-bearing mice (IVIS; eight treatment groups, time points 0, 6, 12, 24, 48 h). The 6 h image of the 'AIE@HFn-scfv' group is the same image, animal and signal, as the 24 h image of the 'AIE@HFn-scfv + anti-Claudin18.2' group.",
+  "why": "Group labels under the rows and time labels above the columns: two different injection groups at two different times. Caption: 'IVIS imaging system to observe the targeting effect of different formulated injection groups on MGC803 subcutaneous tumor at different time intervals (Six hours before i.v. injection of ... the fusion protein, ... the indicated antibody was injected into the tail vein)'. The second group was pre-treated with a blocking antibody and is a different animal, and the figure's point is that the distribution differs between groups and changes over time. Source: row and column labels, caption, main text."
+ }
+]
