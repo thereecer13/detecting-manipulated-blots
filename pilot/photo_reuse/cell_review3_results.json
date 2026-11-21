@@ -1,0 +1,44 @@
+[
+ {
+  "id": "R00",
+  "pmcid": "PMC12139281",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "R01",
+  "pmcid": "PMC10006185",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "R02",
+  "pmcid": "PMC12447747",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "R03",
+  "pmcid": "PMC13485777",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "R04",
+  "pmcid": "PMC12658732",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, exported review file, 2026-11-21"
+ },
+ {
+  "id": "R05",
+  "pmcid": "PMC11679756",
+  "verdict": "same sample (acceptable)",
+  "notes": "Even though the experiments are different it's technically possible they could have the same control",
+  "source": "user, exported review file, 2026-11-21"
+ }
+]

@@ -163,3 +163,16 @@ Six sent to review (`cell_review3_key.json`, page
 | PMC13485777 | Fig 4: Lectin image contains the Control image turned 180° |
 | PMC12658732 | Fig 7: si-NC = OE-NC (weaker: both negative controls) |
 | PMC11679756 | Control in Fig 2C = Control in Fig 5B (unclear: maybe shared) |
+
+Round 3 verdicts (`cell_review3_results.json`): five of six are the same
+image shown as different samples (PMC12139281, PMC10006185, PMC12447747,
+PMC13485777, PMC12658732). PMC11679756 is acceptable: "Even though the
+experiments are different it's technically possible they could have the
+same control". Rules taken from this: an untreated control of one cell
+line shared between two figures is not sent to review, even when the
+figures are different experiments; negative controls for different
+reagents (si-NC and OE-NC) shown as one image are reportable.
+
+Confirmed so far in cell-culture figures: 11 papers from 2,700
+(round 2: six; round 3: five). Round 1: PMC13258865 acceptable,
+PMC13297086 awaiting a verdict.
