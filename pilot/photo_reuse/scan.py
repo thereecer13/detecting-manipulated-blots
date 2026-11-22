@@ -6,6 +6,7 @@ delete the figures again unless the paper has a hit. Resumable: one JSON line pe
 
     python3 scan.py --topic bli  --out DIR --start 0 --end 300
     python3 scan.py --topic cell --out DIR --start 0 --end 300
+    (topics: bli, cell, tumor, em)
 """
 import argparse, json, random, re, sys, time, urllib.parse
 from pathlib import Path
@@ -19,6 +20,12 @@ TOPICS = {
             r"bioluminescen|IVIS|luciferase|in vivo imaging|luminescence", True),
     "cell": ('"wound healing assay" OR "scratch assay" OR "transwell assay"',
              r"wound|scratch|transwell|migrat|invasi|morpholog|bright.?field|phase.contrast", False),
+    # photographs of excised tumours and organs (often on a dark or coloured background)
+    "tumor": ('xenograft AND "nude mice" AND ("tumor weight" OR "tumour weight" OR "tumor volume" OR "tumour volume")',
+              r"xenograft|excised|resected|dissected|harvested|tumou?rs? (image|photo|picture)|(image|photo|picture)s? of (the )?(tumou?r|organ|lung|liver|spleen)|gross|macroscopic|photograph", True),
+    # electron micrographs; TEM/SEM matched case-sensitively so that "mean +/- SEM" does not count
+    "em": ('"transmission electron microscopy" OR "scanning electron microscopy"',
+           r"electron micro|(?-i:\bTEM\b)|(?-i:\bFE-?SEM\b)|(?-i:\bSEM\b) (image|micrograph|photo|morpholog|observation)", True),
 }
 
 
