@@ -1,0 +1,225 @@
+[
+ {
+  "id": "T41",
+  "pmcid": "PMC10600093",
+  "pad": 0.1,
+  "pairs": [
+   {
+    "a": "PMC10600093_12672_2023_794_Fig22_HTML.jpg",
+    "abox": [
+     295,
+     590,
+     535,
+     725
+    ],
+    "b": "PMC10600093_12672_2023_794_Fig22_HTML.jpg",
+    "bbox": [
+     22,
+     218,
+     262,
+     355
+    ],
+    "note": "C, si-MYCN at 24 h (left) and A, nc-CDKN2A at 24 h (right)"
+   },
+   {
+    "a": "PMC10600093_12672_2023_794_Fig22_HTML.jpg",
+    "abox": [
+     22,
+     590,
+     262,
+     725
+    ],
+    "b": "PMC10600093_12672_2023_794_Fig22_HTML.jpg",
+    "bbox": [
+     295,
+     218,
+     535,
+     355
+    ],
+    "note": "C, nc-MYCN at 24 h (left) and A, si-CDKN2A at 24 h (right)"
+   }
+  ],
+  "what": "Fig 22, wound healing assays of ACHN cells: panel A for CDKN2A knockdown, panel C for MYCN knockdown. Panel C is panel A with the 24 h images swapped between the columns. Pair A: the si-MYCN image at 24 h is the nc-CDKN2A (control) image at 24 h (481 of 482 matched points agree). Pair B: the nc-MYCN (control) image at 24 h is the si-CDKN2A image at 24 h (432 of 433). The 0 h rows of A and C are also the same photographs, not swapped; I have not boxed them. Plain copies.",
+  "why": "Caption: 'CDKN2A promotes and MYCN inhibits migration in ACHN cell line. A siRNA interference experimental group (si-CDKN2A) and control group (nc-CDKN2A) ... C siRNA interference experimental group (si-MYCN) and control group (nc-MYCN)'. Text: 'the cell migration ability of the si-CDKN2A group was significantly reduced ... and the cell migration ability of the si-MYCN group was significantly induced'. The two knockdowns are different genes, and the paper reports opposite effects. The opposite effect in panel C is produced by showing panel A's control image as the MYCN knockdown and panel A's knockdown image as the MYCN control."
+ },
+ {
+  "id": "T42",
+  "pmcid": "PMC11525154",
+  "pad": 0.1,
+  "pairs": [
+   {
+    "a": "PMC11525154_gr7a.jpg",
+    "abox": [
+     62,
+     675,
+     275,
+     838
+    ],
+    "b": "PMC11525154_gr7b.jpg",
+    "bbox": [
+     52,
+     168,
+     275,
+     330
+    ],
+    "note": "H&E: 'CHS-LDH subcutaneous implant' (left) and 'CHS-LDH lesion' (right)"
+   },
+   {
+    "a": "PMC11525154_gr7a.jpg",
+    "abox": [
+     300,
+     675,
+     515,
+     838
+    ],
+    "b": "PMC11525154_gr7b.jpg",
+    "bbox": [
+     292,
+     168,
+     515,
+     330
+    ],
+    "note": "Picrosirius red: 'CHS-LDH subcutaneous implant' (left) and 'CHS-LDH lesion' (right); one is the mirror image of the other",
+    "mirrored": true
+   }
+  ],
+  "what": "A tissue figure from the same scan. Fig 7 (two parts), skin sections after 17 days. The row 'CHS-LDH subcutaneous implant' and the row 'CHS-LDH lesion' show the same sections. H&E: same image (120 of 122 matched points agree). Picrosirius red: same image, mirrored left to right (155 of 156 after mirroring). The other rows (CHS, CHS-MMT) differ between implant and lesion. Plain copy (H&E) and altered copy (mirrored, PSR).",
+  "why": "Caption: 'sections of intact skin, lesions treated with saline solution as negative control and with spray-dried microparticles after 17 days of treatment'. The paper runs two experiments: microparticles implanted under intact skin to test biocompatibility, and microparticles applied to full-thickness wounds to test healing (text: 'the efficacy of the microparticles to promote tissue regeneration was evaluated (Fig. 7, \"lesion\")'). An implant site and a healed wound are different tissue from different sites, and the text describes them separately."
+ },
+ {
+  "id": "T43",
+  "pmcid": "PMC10837561",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC10837561_gr3.jpg",
+    "abox": [
+     388,
+     572,
+     582,
+     684
+    ],
+    "b": "PMC10837561_gr3.jpg",
+    "bbox": [
+     386,
+     442,
+     580,
+     552
+    ],
+    "note": "SiHa: shSYT7 (left) and shCtrl (right)"
+   }
+  ],
+  "what": "Fig 3B, Transwell invasion, SiHa cells: the shCtrl image and the shSYT7 image are the same photograph (193 of 193 matched points agree, shifted by 2 to 3 pixels). Plain copy.",
+  "why": "Caption: 'The SYT7 knockdown in HeLa and SiHa cells inhibited cell invasion (both P < 0.001).' The bar chart beside the images gives about 270 cells per field for shCtrl and about 150 for shSYT7. Control and knockdown cells are separate inserts, and one photograph cannot show both 270 and 150 cells."
+ },
+ {
+  "id": "T44",
+  "pmcid": "PMC11018541",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC11018541_rbae035f3.jpg",
+    "abox": [
+     430,
+     160,
+     590,
+     265
+    ],
+    "b": "PMC11018541_rbae035f3.jpg",
+    "bbox": [
+     255,
+     160,
+     415,
+     265
+    ],
+    "note": "24H row: 2.5D-Exos (left) and 2D-Exos (right)"
+   }
+  ],
+  "what": "Fig 3A, scratch assay of HUVECs, 24 h row: the 2D-Exos image and the 2.5D-Exos image are the same photograph, shifted sideways by about 7 pixels (99 of 101 matched points agree). Their 0 h images differ. Plain copy.",
+  "why": "Caption: 'Scratch assay of HUVECs in the indicated treatment groups ... Scratch healing in the indicated groups was quantified, revealing enhanced migration after 3D-Exos treatment.' The paper compares exosomes from cells grown in 2D, 2.5D and 3D culture as different treatments, each in its own well with its own bar. One photograph cannot be the 24 h result of two of them."
+ },
+ {
+  "id": "T45",
+  "pmcid": "PMC13265452",
+  "pad": 0.15,
+  "pairs": [
+   {
+    "a": "PMC13265452_fcell-14-1786248-g007.jpg",
+    "abox": [
+     380,
+     140,
+     555,
+     262
+    ],
+    "b": "PMC13265452_fcell-14-1786248-g007.jpg",
+    "bbox": [
+     205,
+     140,
+     378,
+     262
+    ],
+    "note": "Invasion: PFOS (left) and PFOA (right)"
+   }
+  ],
+  "what": "Fig 7B, invasion assay of DU145 cells: the PFOA image and the PFOS image show the same field of cells, offset diagonally so that about half of each is shared (187 of 190 matched points agree, no rotation). Altered copy (shifted crop).",
+  "why": "Caption: 'The effect of PFAS on prostate cancer cells (DU145) ... (B) Invasion experiment ... *p < 0.05, PFOA vs. Control; & p < 0.05, PFOS vs. Control.' PFOA and PFOS are two different chemicals, each compared separately with the control and given its own bar. Two inserts treated with two chemicals cannot contain the same cells."
+ },
+ {
+  "id": "T46",
+  "pmcid": "PMC12991280",
+  "pad": 0.1,
+  "pairs": [
+   {
+    "a": "PMC12991280_pone.0344653.g007.jpg",
+    "abox": [
+     522,
+     195,
+     744,
+     360
+    ],
+    "b": "PMC12991280_pone.0344653.g007.jpg",
+    "bbox": [
+     522,
+     18,
+     744,
+     186
+    ],
+    "note": "HCT-116: F, SWT-treated (left) and C, DMSO (right)"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/q3.png",
+    "caption": "Left: panel F turned by 4.8 degrees and shifted into the frame of panel C. Right: panel C as published."
+   }
+  ],
+  "what": "Fig 7, morphology of colon cancer cells with DMSO (A to C) or the compound SWT (D to F). Panels C and F (HCT-116) show the same field of cells; F is shifted and turned by about 5 degrees relative to C (64 of 88 matched points agree; about two thirds of the field shared). Altered copy (shifted, slightly rotated). Caveat: if the authors photographed one well before and after treatment, the same cells could appear twice, but they would not be expected to stay in exactly the same places and shapes.",
+  "why": "Caption: 'Caco-2, HT-29, and HCT-116 were either treated with DMSO (A-C) or with 1000 uM of SWT (D-F).' 'Either ... or' means separate wells. The paper's conclusion from this figure is that SWT 'had no impact on ... morphology', which is the conclusion one would reach from showing the same cells twice."
+ },
+ {
+  "id": "T47",
+  "pmcid": "PMC8607643",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC8607643_12951_2021_1126_Fig4_HTML.jpg",
+    "abox": [
+     50,
+     45,
+     170,
+     122
+    ],
+    "b": "PMC8607643_12951_2021_1126_Fig4_HTML.jpg",
+    "bbox": [
+     50,
+     443,
+     170,
+     520
+    ],
+    "note": "A, NC mimics (left) and F, NC inhibitor (right)"
+   }
+  ],
+  "what": "Fig 4, tube formation assays: the 'NC mimics' image of panel A and the 'NC inhibitor' image of panel F are the same photograph (51 of 51 matched points agree; about 3% size difference). Plain copy. Both are negative controls, so this is the weaker kind.",
+  "why": "Caption: 'A Representative images of tubule formation for NC mimics and mi-612 mimics ... ' and panel F shows NC inhibitor against miR-612 inhibitor. A control mimic and a control inhibitor are different reagents used in two separate experiments, and panels B and G quantify them separately (about 400 nodes in B, about 65 in G for the control), so the same image is counted with different results."
+ }
+]

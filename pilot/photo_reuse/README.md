@@ -522,3 +522,26 @@ PMC12905875 is the journal's correction (2026) of PMC6505074 (B41): the
 authors state that Figs 4a, 6d and 9b had "overlap or duplication in a
 few instances" and replace them. B41 (Fig 9b control p-AKT = β-catenin)
 is therefore already acknowledged.
+
+## Cell culture, papers 11,100–12,300 (22 Nov)
+
+12,300 papers so far. 58 new matches with ncc ≥ 0.5. Not reportable:
+schematics, insets and zooms, raw and annotated copies (PMC13077950,
+PMC10137921, PMC11545231), correction notice (PMC12307793), shared 0 h
+image (PMC13083553), NC control shared across figures on one cell line
+(PMC12776195), consecutive frames of one well (PMC12656098), colour and
+print versions. Not sent, mild: PMC9738392, the DMSO scratch column of
+Fig 1 reappears in Fig 3 with the middle row labelled 18 h in one and
+24 h in the other.
+
+Sent as `cell_image_reuse_round11.html`, key `cell_review11_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| T41 | PMC10600093 | Fig 22: panel C (MYCN) = panel A (CDKN2A) with the 24 h images swapped between control and knockdown (481/482, 432/433) |
+| T42 | PMC11525154 | Fig 7: 'CHS-LDH subcutaneous implant' row = 'CHS-LDH lesion' row; H&E same (120/122), PSR mirrored (155/156) |
+| T43 | PMC10837561 | Fig 3B SiHa: shCtrl = shSYT7 (193/193) |
+| T44 | PMC11018541 | Fig 3A 24 h: 2D-Exos = 2.5D-Exos (99/101) |
+| T45 | PMC13265452 | Fig 7B: PFOA = PFOS, shifted crop (187/190) |
+| T46 | PMC12991280 | Fig 7: C (DMSO) = F (SWT), shifted and turned 5° (64/88) |
+| T47 | PMC8607643 | Fig 4: A NC mimics = F NC inhibitor (51/51; two controls) |
