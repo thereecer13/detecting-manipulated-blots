@@ -429,3 +429,30 @@ between figures (PMC12945804), raw and annotated copies, schematics.
 Scored panel by panel and not standing out: PMC4030865 Figs 2–4 (best
 pair 0.67, typical 0.55–0.62), PMC8619421 Fig 1B (0.77–0.82, all three
 groups alike: stage and holder), PMC3230016 (dorsal/ventral, stage only).
+
+## Cell culture, papers 8,700–9,900 (22 Nov)
+
+9,900 papers so far. 54 new matches with ncc ≥ 0.5. Not reportable:
+schematics, insets and zooms, raw and analysed copies, single channel
+and merge, control column shared between two figures on one cell line
+(PMC13203602, PMC11280071). Left out as ambiguous: PMC9416381 Fig 12
+(CBD vs CBG panels match on faint marks in near-empty fields; could be
+dust on the optics). PMC13100028 is the correction notice for
+PMC12852651 (T06): it reprints the original Fig 6 and only moves a
+label row, so the BCSC YAP1 siRNA 0 h / 24 h match is not addressed.
+
+Sent as `cell_image_reuse_round9.html`, key `cell_review9_key.json`
+(numbers from `region_match.py`):
+
+| id | paper | match |
+|---|---|---|
+| T20 | PMC11514663 | Fig 3F HCC-LM3 Control = Fig 4F HUH-7 PA turned 10° (203/213); also overlaps Fig 3F HUH-7 Control (87/108) |
+| T21 | PMC10688045 | Fig 1E NC-FLS ISO invasion = Fig 6E CIA-Veh invasion (274/276, 9% larger) |
+| T22 | PMC13362964 | Fig 8: TFE200 72 h = TFE500 72 h (185/186) |
+| T23 | PMC12482102 | Fig 3B: Control siRNA 24 h = CASC19 siRNA 48 h (59/60) |
+| T24 | PMC12239490 | Fig 7c tube formation: Control = CM+anti-CXCL12 (223/225) |
+| T25 | PMC10639105 | Fig 7A mimic+Fedratinib: migration = invasion (192/193) |
+| T26 | PMC7485740 | Fig 2C SK-BR-3 Leptin = Fig 4A Leptin+SDF-1, 20% larger (156/161) |
+| T27 | PMC13397375 | Fig 2G oe-miR-NC: S18 = 5-8F, shifted crop (93/105) |
+| T28 | PMC12481119 | Fig 5A IHC, KRAS WT: KRAS stain = Ki67 stain, shifted (102/106) |
+| T29 | PMC7930260 | Fig 7A: Blank = NC, shifted crop (545/563; two controls) |

@@ -1,0 +1,275 @@
+[
+ {
+  "id": "T20",
+  "pmcid": "PMC11514663",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC11514663_WJGO-16-4232-g003.jpg",
+    "abox": [
+     242,
+     1000,
+     414,
+     1170
+    ],
+    "b": "PMC11514663_WJGO-16-4232-g004.jpg",
+    "bbox": [
+     592,
+     812,
+     764,
+     984
+    ],
+    "note": "Fig 3F HCC-LM3 Control (left) and Fig 4F HUH-7 PA (right); the right one is turned by about 10 degrees"
+   },
+   {
+    "a": "PMC11514663_WJGO-16-4232-g003.jpg",
+    "abox": [
+     242,
+     1076,
+     330,
+     1170
+    ],
+    "b": "PMC11514663_WJGO-16-4232-g003.jpg",
+    "bbox": [
+     326,
+     822,
+     414,
+     916
+    ],
+    "note": "the shared part only: lower left of Fig 3F HCC-LM3 Control (left) and upper right of Fig 3F HUH-7 Control (right)"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/a1.png",
+    "caption": "Left: the Fig 3F HCC-LM3 Control image turned by 10 degrees and placed in the frame of the Fig 4F HUH-7 PA image. Right: the HUH-7 PA image as published."
+   }
+  ],
+  "what": "Fig 3F and Fig 4F, Transwell migration assays of two liver cancer cell lines. Pair A: the HCC-LM3 Control image of Fig 3F and the HUH-7 PA (propionic acid) image of Fig 4F show the same field of cells; the PA image is turned by about 10 degrees and cropped differently (203 of 213 matched points agree with one rotation, about two thirds of the field shared). Pair B: within Fig 3F, a corner of the HCC-LM3 Control image also appears in the HUH-7 Control image (87 of 108 matched points, about a quarter of the field shared, no rotation). Altered copies (rotated and shifted crops).",
+  "why": "Row labels: HUH-7 and HCC-LM3 are two different cell lines. Column labels: Control and PA are untreated and propionic-acid-treated inserts. Text: 'The Transwell assay further confirmed that PA inhibited the migration (P < 0.001, Figure 4F-H)'. An untreated insert of one cell line and a treated insert of another cannot contain the same cells, and the panels beside them give separate counts. A 10 degree turn is not what a file mix-up produces. This is your 'control shared between two different cell lines' case, and more."
+ },
+ {
+  "id": "T21",
+  "pmcid": "PMC10688045",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC10688045_12964_2023_1358_Fig1_HTML.jpg",
+    "abox": [
+     220,
+     382,
+     385,
+     515
+    ],
+    "b": "PMC10688045_12964_2023_1358_Fig6_HTML.jpg",
+    "bbox": [
+     228,
+     436,
+     405,
+     575
+    ],
+    "note": "Fig 1E Invasion, NC-FLS ISO (left) and Fig 6E Invasion, CIA-Veh (right)"
+   }
+  ],
+  "what": "Fig 1E and Fig 6E, Transwell invasion assays of rat synovial cells (FLS). The 'NC-FLS ISO' image of Fig 1E and the 'CIA-Veh' image of Fig 6E are the same photograph (274 of 276 matched points agree; the Fig 6 copy is about 9% larger). Plain copy, resized.",
+  "why": "Fig 1 caption: 'The effects of ISO (1 uM) stimulation on FLS migration and invasion were detected by a Transwell assay'; NC-FLS are cells from normal rats, here stimulated with isoprenaline. Fig 6 caption: 'CP-25 treatment significantly prevents CIA FLS activation ... n = 3-5 animals per group'; CIA-Veh are cells from arthritic rats given vehicle. Cells from healthy rats treated with a drug in the dish and cells from arthritic rats are different cultures from different animals."
+ },
+ {
+  "id": "T22",
+  "pmcid": "PMC13362964",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC13362964_molecules-31-02354-g008.jpg",
+    "abox": [
+     600,
+     285,
+     770,
+     400
+    ],
+    "b": "PMC13362964_molecules-31-02354-g008.jpg",
+    "bbox": [
+     600,
+     415,
+     770,
+     530
+    ],
+    "note": "72 h column: TFE200 (left) and TFE500 (right)"
+   }
+  ],
+  "what": "Fig 8, scratch assay of human dermal fibroblasts, 72 h column: the TFE200 image and the TFE500 image are the same photograph (185 of 186 matched points agree, no shift). Plain copy.",
+  "why": "Caption: 'cells treated with HA at 500 ug/mL or TFE at 200 and 500 ug/mL are shown at 0, 24, 48, and 72 h after scratch formation. One representative image is presented for each condition and time point.' Two doses are two wells; their 0, 24 and 48 h images differ, so the two rows are not the same well. One photograph cannot be the 72 h result of both."
+ },
+ {
+  "id": "T23",
+  "pmcid": "PMC12482102",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC12482102_10020_2025_1363_Fig3_HTML.jpg",
+    "abox": [
+     430,
+     110,
+     545,
+     180
+    ],
+    "b": "PMC12482102_10020_2025_1363_Fig3_HTML.jpg",
+    "bbox": [
+     545,
+     197,
+     660,
+     270
+    ],
+    "note": "Control siRNA at 24 h (left) and CASC19 siRNA at 48 h (right)"
+   }
+  ],
+  "what": "Fig 3B, wound healing assay of pancreatic cancer cells: the Control siRNA image at 24 h and the CASC19 siRNA image at 48 h are the same photograph (59 of 60 matched points agree, no shift). Plain copy.",
+  "why": "Column labels: 'Control siRNA' and 'CASC19 siRNA'; row labels: 24 h and 48 h. Text: 'a decreased rate of wound-healing was seen in cells with the CASC19 knockdown ... (Fig. 3B)'. The two panels differ in both the transfection and the time point, and the bar chart gives different closure for them. This is the same pattern as T03 in round 6."
+ },
+ {
+  "id": "T24",
+  "pmcid": "PMC12239490",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC12239490_12967_2025_6707_Fig7_HTML.jpg",
+    "abox": [
+     50,
+     310,
+     185,
+     422
+    ],
+    "b": "PMC12239490_12967_2025_6707_Fig7_HTML.jpg",
+    "bbox": [
+     458,
+     310,
+     596,
+     422
+    ],
+    "note": "Control (left) and CM+anti-CXCL12 (right)"
+   }
+  ],
+  "what": "Fig 7c, tube formation assay of lymphatic endothelial cells: the Control image and the 'CM+anti-CXCL12' image are the same photograph (223 of 225 matched points agree, no shift). Plain copy.",
+  "why": "Caption: 'Tube formation assay of Human Lymphatic Endothelial Cells (HLECs) stimulated with CAL-27 conditioned medium.' Control wells received no conditioned medium; the fourth group received conditioned medium plus a CXCL12-blocking antibody. They are different wells, and the bar chart beside them gives different tube lengths (100 for Control, about 115 for CM+anti-CXCL12)."
+ },
+ {
+  "id": "T25",
+  "pmcid": "PMC10639105",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC10639105_pbad027fig7.jpg",
+    "abox": [
+     378,
+     19,
+     528,
+     130
+    ],
+    "b": "PMC10639105_pbad027fig7.jpg",
+    "bbox": [
+     378,
+     146,
+     528,
+     255
+    ],
+    "note": "miR-181b mimic+Fedratinib: Migration (left) and Invasion (right)"
+   }
+  ],
+  "what": "Fig 7A, Transwell assays of Huh6 cells, 'miR-181b mimic+Fedratinib' column: the Migration image and the Invasion image show the same field of cells, the second shifted down by a few pixels and with different sharpness (192 of 193 matched points agree). Plain copy with a small shift.",
+  "why": "Caption: 'Fedratinib decreased the migration and invasion of Huh6 cells ... the bar graphs show the number of migrated and invaded cells through the membrane.' Migration and invasion are reported as two assays with two bar charts and different counts. One field of cells cannot be the result of both. Same pattern as T08 and T15."
+ },
+ {
+  "id": "T26",
+  "pmcid": "PMC7485740",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC7485740_aging-12-103599-g002.jpg",
+    "abox": [
+     228,
+     356,
+     394,
+     480
+    ],
+    "b": "PMC7485740_aging-12-103599-g004.jpg",
+    "bbox": [
+     236,
+     40,
+     430,
+     190
+    ],
+    "note": "Fig 2C SK-BR-3, Leptin (left) and Fig 4A, Leptin + SDF-1 (right)"
+   }
+  ],
+  "what": "Fig 2C and Fig 4A, Transwell invasion assays of breast cancer cells. The SK-BR-3 'Leptin' image of Fig 2C and the 'SDF-1' image of Fig 4A (leptin-pretreated cells with SDF-1 in the lower chamber) show the same field; the Fig 4 copy is enlarged by 20% and cropped (156 of 161 matched points agree). Altered copy (enlarged, recropped).",
+  "why": "Fig 2 caption: cells '(5x10^4/well) were seeded ... The lower chamber was filled with medium containing 5% fetal bovine serum as a chemoattractant.' Fig 4 caption: cells 'pre-treated with leptin (200ng/mL) and then seeded in the upper chambers of the 24-well plate (2x10^4/well) ... The lower chamber was filled with medium containing SDF-1 (100 ng/mL) as a chemoattractant.' The two experiments differ in cell number and in chemoattractant, and Fig 4 uses its image to show that SDF-1 adds to the effect of leptin. If the two were the same condition, Fig 4's own Control panel (leptin without SDF-1) would be the one to match Fig 2, and it does not."
+ },
+ {
+  "id": "T27",
+  "pmcid": "PMC13397375",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC13397375_OncolRes-34-81869-f002.jpg",
+    "abox": [
+     73,
+     862,
+     208,
+     968
+    ],
+    "b": "PMC13397375_OncolRes-34-81869-f002.jpg",
+    "bbox": [
+     73,
+     970,
+     208,
+     1078
+    ],
+    "note": "oe-miR-NC: S18 (left) and 5-8F (right)"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/a7.png",
+    "caption": "Left: the S18 image shifted into the frame of the 5-8F image. Right: the 5-8F image as published. (The published figure has its labels printed twice.)"
+   }
+  ],
+  "what": "Fig 2G, Transwell assay, oe-miR-NC column: the S18 image and the 5-8F image show the same field of cells, shifted sideways by about a quarter of the panel (93 of 105 matched points agree, about 70% of the field shared). Altered copy (shifted crop).",
+  "why": "Caption: 'miR-320d inhibits the viability, migration, and invasion abilities of S18 and 5-8F cells.' Methods: 'Stable oe-miR-NC and oe-miR-320d S18 and 5-8F cells were harvested ... seeded into the upper chamber'. S18 and 5-8F are two different nasopharyngeal carcinoma cell lines, each with its own insert and its own bar chart. This is your 'control shared between two different cell lines' case, with the crop shifted."
+ },
+ {
+  "id": "T28",
+  "pmcid": "PMC12481119",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC12481119_gr5.jpg",
+    "abox": [
+     36,
+     38,
+     173,
+     143
+    ],
+    "b": "PMC12481119_gr5.jpg",
+    "bbox": [
+     179,
+     38,
+     315,
+     143
+    ],
+    "note": "KRAS WT row: KRAS/KRAS G12D stain (left) and Ki67 stain (right)"
+   }
+  ],
+  "what": "A tissue image, found in the same scan. Fig 5A, immunohistochemistry of colorectal tumours, KRAS wild-type row: the image in the 'KRAS/KRAS G12D' column and the image in the 'Ki67' column show the same field of tissue, shifted sideways by about a tenth of the panel (102 of 106 matched points agree). Altered copy (shifted crop).",
+  "why": "Column labels: 'KRAS/KRAS G12D', 'Ki67', 'CD31' are three different antibodies. Caption: 'Comparative IHC analysis demonstrated significantly enhanced expression of the proliferation marker Ki67 ... in KRAS G12D-mutant CRCs compared to KRAS wild-type specimens.' Each antibody is applied to its own section. Serial sections can look alike in outline, but not gland for gland and nucleus for nucleus, and the Ki67 image is the wild-type reference for the paper's comparison."
+ },
+ {
+  "id": "T29",
+  "pmcid": "PMC7930260",
+  "hits": [
+   0
+  ],
+  "pad": 0.15,
+  "what": "Fig 7A, Transwell invasion assay of HSC-3 cells: the Blank image and the NC image show the same field of cells, offset diagonally so that about half the field is shared (545 of 563 matched points agree). Altered copy (shifted crop). Both panels are controls, so this is the weaker kind, as with T18 and T19.",
+  "why": "Caption: '* P < 0.05, compared with blank group; # P < 0.05, compared with NC group.' Text: 'the invasion cell numbers were significantly lower in the ANXA2-siRNA group compared with the NC and blank groups'. Blank (untransfected) and NC (control siRNA) are two groups in two inserts, each used as a separate comparator. One field cannot belong to both."
+ }
+]
