@@ -477,3 +477,30 @@ Sent as `bioluminescence_reuse_round8.html`, key `bli_review8_key.json`:
 | B42 | PMC12775211 | Fig 1D invasion block (shcircEPHB4) = Fig 2F migration block (shMRPS16), 643/652 |
 | B43 | PMC10077468 | Fig 3B B-cell-deficient day 14: mice 2–3 = mice 4–5, signal included |
 | B44 | PMC8619749 | Fig 4A (review, adapted from its ref 63): PS-DTX block = Free DTX block, 227/252 |
+
+## Cell culture, papers 9,900–11,100 (22 Nov)
+
+11,100 papers so far. 60 new matches with ncc ≥ 0.5. Not reportable:
+schematics and tables, insets and zooms, SEM beside its element map
+(PMC8862395), correction notices printing a figure twice (PMC13067713,
+PMC12172283), shared 0 h scratch image (PMC10685223, all five columns),
+time-lapse frames of one well (PMC11395615), same condition shown in two
+panels (PMC8016562 shEPHA2 / DMSO shEPHA2), plate plastic matching itself
+with different colonies (PMC11270567, PMC11705124).
+
+Sent as `cell_image_reuse_round10.html`, key `cell_review10_key.json`
+(numbers from `region_match.py`):
+
+| id | paper | match |
+|---|---|---|
+| T30 | PMC10778606 | Fig 5a: Dtx+Lev 4 h = Dtx+Lid 24 h (127/132) and Dtx+Lid 4 h = Dtx+Lev 24 h (122/126) |
+| T31 | PMC9338982 | Fig 7B: FLDP-5 row = Curcumin row (433/434) |
+| T32 | PMC12876004 | Fig 8E KYSE170 si-NC, si-LINC00092 = Fig 10E KYSE30 ov+NC, ov+ov (488/489) |
+| T33 | PMC10984963 | Fig 2F sh-SLNCR1 invasion block = Fig 5G si-SOX5 block, 17% larger |
+| T34 | PMC8064228 | Fig 2C A/exo = Fig 3 miR-222 mimics, turned 10° (145/150) |
+| T35 | PMC8848475 | Fig 1A Panc-1 5.5 mM = Fig 3H Panc-1 2-ME, turned 11.5° (162/164) |
+| T36 | PMC13323720 | Fig 6c vehicle column: R715 = HOE140 (148/150; two controls) |
+| T37 | PMC6790059 | Fig 4 migration: HCC827 = HCC827+EDS (100/100; two controls) |
+| T38 | PMC11414618 | Fig 12 IHC, NA group: Bcl-2 = MMP2 (241/241) |
+| T39 | PMC11585562 | SEM: 1.5 wt% = part of 1 wt% flipped (206/214); 2.5 wt% = 3 wt% turned 39° (221/344) |
+| T40 | PMC11884795 | Fig 2b = Fig 4b knockdown images; captions name different cell lines (weakest) |

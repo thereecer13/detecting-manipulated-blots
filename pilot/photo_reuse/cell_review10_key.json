@@ -1,0 +1,278 @@
+[
+ {
+  "id": "T30",
+  "pmcid": "PMC10778606",
+  "pad": 0.12,
+  "pairs": [
+   {
+    "a": "PMC10778606_ijms-25-00468-g005.jpg",
+    "abox": [
+     485,
+     240,
+     700,
+     400
+    ],
+    "b": "PMC10778606_ijms-25-00468-g005.jpg",
+    "bbox": [
+     270,
+     402,
+     485,
+     562
+    ],
+    "note": "Dtx+Lev at 4 h (left) and Dtx+Lid at 24 h (right)"
+   },
+   {
+    "a": "PMC10778606_ijms-25-00468-g005.jpg",
+    "abox": [
+     270,
+     240,
+     485,
+     400
+    ],
+    "b": "PMC10778606_ijms-25-00468-g005.jpg",
+    "bbox": [
+     485,
+     402,
+     700,
+     562
+    ],
+    "note": "Dtx+Lid at 4 h (left) and Dtx+Lev at 24 h (right)"
+   }
+  ],
+  "what": "Fig 5a, wound healing assay, columns Ctr, Dtx+Lid, Dtx+Lev, rows 0, 4, 24, 48 h. Pair A: the Dtx+Lev image at 4 h is the same photograph as the Dtx+Lid image at 24 h (127 of 132 matched points agree, no shift). Pair B: the Dtx+Lid image at 4 h is the same as the Dtx+Lev image at 24 h (122 of 126). The two columns have their 4 h and 24 h images crossed over. The 0 h images of the two columns are also one photograph, which I have not boxed because a shared 0 h image is acceptable under your ruling. Plain copies.",
+  "why": "Column labels: 'Dtx + Lid' (docetaxel with lidocaine) and 'Dtx + Lev' (docetaxel with levobupivacaine) are two different drug combinations in separate wells. Text: 'cells treated with the association of Dtx and Lid presented a wound closure of 5.2% ... Similar results were obtained with cells treated with the association of Dtx and Lev (6%)', so each column is measured separately at each time. A photograph cannot be both one combination at 4 h and the other at 24 h. (The panel is headed LNCaP while the caption says PC3; that does not affect the match.)"
+ },
+ {
+  "id": "T31",
+  "pmcid": "PMC9338982",
+  "hits": [
+   0
+  ],
+  "pad": 0.25,
+  "what": "Fig 7B, transwell invasion of LN-18 cells. The two FLDP-5 images (1.25 uM and 2.5 uM) are the same two photographs as the two Curcumin images (12.5 uM and 25 uM): 433 of 434 matched points agree for the left pair, no shift. Plain copy of the whole row.",
+  "why": "Row labels: 'FLDP-5' and 'CURCUMIN' are different compounds, at different concentrations. Caption: 'cells treated with FLDP-5 curcuminoid analogue (1.25 uM and 2.5 uM), FLDP-8 curcuminoid analogue (2.5 uM and 5 uM) and curcumin (12.5 uM and 25 uM)'. The paper's point is to compare the new analogues against curcumin, and panel A gives them different invasion values. Inserts treated with two different compounds cannot give the same photographs."
+ },
+ {
+  "id": "T32",
+  "pmcid": "PMC12876004",
+  "hits": [
+   0
+  ],
+  "pad": 0.2,
+  "what": "Fig 8E and Fig 10E, transwell invasion. The 'si-NC' and 'si-LINC00092-3' images of Fig 8E (KYSE170 cells) are the same two photographs as the 'ov-LINC00092 + NC-NFE2L2' and 'ov-LINC00092 + ov-NFE2L2' images of Fig 10E (KYSE30 cells): 488 of 489 matched points agree; the Fig 10 copy is about 13% smaller. Plain copy, resized.",
+  "why": "Fig 8 caption: 'Knockdown of LINC00092 in the KYSE170 cell line'. Fig 10 caption: 'NFE2L2 reverses the suppressive effects of LINC00092 on malignancy phenotypes in the KYSE30 cell line'. The two figures use different cell lines and opposite manipulations (knockdown against overexpression), and their bar charts differ (about 800 and 1,250 cells in Fig 8; about 800 and 1,050 in Fig 10). The same photographs cannot be both."
+ },
+ {
+  "id": "T33",
+  "pmcid": "PMC10984963",
+  "hits": [
+   0
+  ],
+  "pad": 0.15,
+  "what": "Fig 2F and Fig 5G, transwell assays of A375 and A875 melanoma cells. The block of six images in Fig 2F (sh-NC, sh-SLNCR1-1, sh-SLNCR1-2) shows the same fields as the block in Fig 5G (si-NC, si-SOX5-1, si-SOX5-2); the Fig 5 copy is about 17% larger and cropped differently. Altered copy (enlarged, recropped).",
+  "why": "Fig 2 caption: 'Invasiveness of sh-SLNCR1-transfected A375 and A875 cell lines'. Fig 5 caption: 'Effects of SOX5 knockdown ... Migration (F) and invasion (G) in A375 and A875 cells'. One figure silences the RNA SLNCR1 with shRNA, the other silences the gene SOX5 with siRNA. The control column might be argued to be shared, but the four knockdown images are different treatments and each has its own bar."
+ },
+ {
+  "id": "T34",
+  "pmcid": "PMC8064228",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC8064228_aging-13-202802-g002.jpg",
+    "abox": [
+     350,
+     190,
+     520,
+     345
+    ],
+    "b": "PMC8064228_aging-13-202802-g003.jpg",
+    "bbox": [
+     330,
+     430,
+     500,
+     590
+    ],
+    "note": "Fig 2C, MCF-7/Adr+M+A/exo (left) and Fig 3, MCF-7/Adr+M+miR-222 mimics (right); turned by about 10 degrees"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/n14.png",
+    "caption": "Left: the Fig 2C image turned by 10 degrees and resized into the frame of the Fig 3 image. Right: the Fig 3 image as published."
+   }
+  ],
+  "what": "Fig 2C and Fig 3, transwell migration of MCF-7/Adr cells. The 'MCF-7/Adr+M+A/exo' image of Fig 2C and the 'MCF-7/Adr+M+miR-222 mimics' image of Fig 3 show the same field of cells; one is turned by about 10 degrees and 16% smaller (145 of 150 matched points agree with one rotation). Altered copy (rotated, resized).",
+  "why": "Fig 2 caption: 'MCF-7/Adr cells were incubated with culture medium of macrophages (M) treated with PBS, and S/exo or A/exo.' In Fig 3 the macrophages were instead transfected with miR-222 mimics (text: 'overexpressed miR-222 in macrophages'). Exosome-treated macrophages and mimic-transfected macrophages are two experiments, and the rotation shows the image was handled, not just picked twice."
+ },
+ {
+  "id": "T35",
+  "pmcid": "PMC8848475",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC8848475_or-47-04-08275-g00.jpg",
+    "abox": [
+     217,
+     48,
+     357,
+     152
+    ],
+    "b": "PMC8848475_or-47-04-08275-g02.jpg",
+    "bbox": [
+     212,
+     503,
+     352,
+     607
+    ],
+    "note": "Fig 1A, Panc-1 at 5.5 mM glucose (left) and Fig 3H, Panc-1 with 2-ME (right); turned by about 11 degrees"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/n10.png",
+    "caption": "Left: the Fig 1A image turned by 11.5 degrees into the frame of the Fig 3H image. Right: the Fig 3H image as published."
+   }
+  ],
+  "what": "Fig 1A and Fig 3H, transwell invasion of Panc-1 pancreatic cancer cells. The 5.5 mM glucose image of Fig 1A and the 2-ME image of Fig 3H show the same field of cells, one turned by about 11.5 degrees (162 of 164 matched points agree with one rotation). Altered copy (rotated).",
+  "why": "Fig 1 caption: 'euglycemia (5.5 mM glucose)'. Fig 3 text: 'To measure the influence of HIF1a on PC cell invasion and migration, 2-ME (10 uM) was adopted as an inhibitor of HIF1a'. One panel is untreated cells in normal glucose, the other is cells given a drug; Fig 3 uses its image to show that the drug lowers invasion. The same insert cannot be both, and the image has been rotated between the two uses."
+ },
+ {
+  "id": "T36",
+  "pmcid": "PMC13323720",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC13323720_12276_2026_1729_Fig6_HTML.jpg",
+    "abox": [
+     226,
+     198,
+     340,
+     283
+    ],
+    "b": "PMC13323720_12276_2026_1729_Fig6_HTML.jpg",
+    "bbox": [
+     226,
+     106,
+     340,
+     191
+    ],
+    "note": "vehicle column: HOE140 (left) and R715 (right)"
+   }
+  ],
+  "what": "Fig 6c, transwell assay of primary microglia, vehicle column: the R715 image and the HOE140 image show the same field of cells, offset by a couple of pixels (148 of 150 matched points agree). Plain copy.",
+  "why": "Caption: 'Transwell assay using primary cultured microglia treated with GV1001 and R715 or HOE140'; R715 blocks bradykinin receptor 1 and HOE140 blocks receptor 2 (text: 'the B1R-specific and B2R-specific inhibitors, respectively'). The two rows are different inhibitors in different inserts, with separate bars in panel d. Note that both panels are inhibitor-alone controls; the paper's conclusion rests on the GV1001 column, so this is the weaker kind."
+ },
+ {
+  "id": "T37",
+  "pmcid": "PMC6790059",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC6790059_12931_2019_1202_Fig4_HTML.jpg",
+    "abox": [
+     607,
+     38,
+     712,
+     140
+    ],
+    "b": "PMC6790059_12931_2019_1202_Fig4_HTML.jpg",
+    "bbox": [
+     607,
+     152,
+     712,
+     254
+    ],
+    "note": "Migration column: HCC827 (left) and HCC827+EDS (right)"
+   }
+  ],
+  "what": "Fig 4 transwell panel, Migration column: the HCC827 image and the HCC827+EDS image are the same photograph (100 of 100 matched points agree). Plain copy. Both are comparison groups (untreated cells and cells given exosome-depleted supernatant), so this is the weaker kind.",
+  "why": "Text: 'HCC827 cells were co-cultured with exosomes from IR cells and the EDS for 48 h, respectively. The EDS was used as a control group.' Untreated cells and cells given the depleted supernatant are separate inserts and are shown as separate rows. They may behave alike, but cannot be the same field cell for cell."
+ },
+ {
+  "id": "T38",
+  "pmcid": "PMC11414618",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC11414618_jcav15p5691g012.jpg",
+    "abox": [
+     257,
+     180,
+     412,
+     293
+    ],
+    "b": "PMC11414618_jcav15p5691g012.jpg",
+    "bbox": [
+     255,
+     319,
+     410,
+     432
+    ],
+    "note": "NA group: Bcl-2 stain (left) and MMP2 stain (right)"
+   }
+  ],
+  "what": "A tissue image from the same scan. Fig 12, immunohistochemistry of mouse glioma, NA group column: the Bcl-2 image and the MMP2 image show the same field of tissue (241 of 241 matched points agree). Plain copy.",
+  "why": "Row labels: bax, Bcl-2, MMP2 are three antibodies. Caption: 'Immunohistochemistry analysis was utilized to assess the expression the apoptosis-related proteins (bax and bcl-2) and in[vasion-related MMP2]'. Each antibody is applied to its own section, and the two bar charts quantify Bcl-2/bax and MMP2 separately. Two sections stained for two proteins cannot match cell for cell."
+ },
+ {
+  "id": "T39",
+  "pmcid": "PMC11585562",
+  "pad": 0.08,
+  "pairs": [
+   {
+    "a": "PMC11585562_41598_2024_80467_Fig8_HTML.jpg",
+    "abox": [
+     10,
+     295,
+     260,
+     495
+    ],
+    "b": "PMC11585562_41598_2024_80467_Fig8_HTML.jpg",
+    "bbox": [
+     525,
+     50,
+     780,
+     250
+    ],
+    "note": "1.5 wt% G (left) and 1 wt% G (right); the right one contains the left one flipped top to bottom and at about 0.58 of the size",
+    "vflip": true
+   },
+   {
+    "a": "PMC11585562_41598_2024_80467_Fig8_HTML.jpg",
+    "abox": [
+     525,
+     295,
+     780,
+     495
+    ],
+    "b": "PMC11585562_41598_2024_80467_Fig8_HTML.jpg",
+    "bbox": [
+     265,
+     535,
+     520,
+     735
+    ],
+    "note": "2.5 wt% G (left) and 3 wt% G (right); turned by about 39 degrees"
+   }
+  ],
+  "extra": [
+   {
+    "path": "cell/big/n8.png",
+    "caption": "Pair B. Left: the 2.5 wt% image turned by 39 degrees into the frame of the 3 wt% image. Right: the 3 wt% image as published."
+   }
+  ],
+  "what": "An electron microscopy figure from the same scan. Fig 6 (file Fig8), SEM images of scaffolds with increasing graphene content. Pair A: the 1.5 wt% image shows the same area as the 1 wt% image, flipped top to bottom and at higher magnification (206 of 214 matched points agree with one transform). Pair B: the 2.5 wt% image and the 3 wt% image show the same area, one turned by about 39 degrees (221 of 344 matched points). Altered copies (flipped and zoomed; rotated).",
+  "why": "Panel labels: '1 wt% G', '1.5 wt% G', '2.5 wt% G', '3 wt% G' are four different scaffold compositions. Caption: 'The morphology of PCL/G scaffolds, illustrating the shape and size of the scaffolds.' The paper attributes different mechanical behaviour to each composition (for example '3 wt% graphene effectively restored the toughness'). Two different materials cannot show the same pores, and a flip or a 39 degree turn is a deliberate operation."
+ },
+ {
+  "id": "T40",
+  "pmcid": "PMC11884795",
+  "hits": [
+   1,
+   3
+  ],
+  "pad": 0.25,
+  "what": "Fig 2b and Fig 4b, transwell assays with HER2 knockdown. The CON313 and sh-Her2-2 images of Fig 2b are the same photographs as the CON313 and sh-Her2-2 images of Fig 4b (the Fig 4 copy about 22% smaller). Plain copies, resized. Whether this is a problem depends on the captions, see below; I rate it the weakest of this round.",
+  "why": "Fig 2 caption: 'Transwell assays were performed to evaluate the migration capacity of AGS cells with HER2 overexpression (a) and knockdown (b)'. Fig 4 caption: 'Transwell (b) ... the migration of MGC803 cells with HER2 knockdown'. By the captions, the same images stand for AGS cells in Fig 2 and MGC803 cells in Fig 4, which are different cell lines. If one caption is simply wrong and both panels are the same cell line without chloroquine, this is an acceptable repeat of the same condition."
+ }
+]
