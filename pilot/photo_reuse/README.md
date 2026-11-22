@@ -416,3 +416,16 @@ Sent as `cell_image_reuse_round8.html`, key `cell_review8_key.json`:
 | T17 | PMC10227323 | Fig 4B: B-group field = C-group field mirrored (70/72), low resolution |
 | T18 | PMC11294307 | Fig 3E: 'cell' = ov-NC, both lines (two controls) |
 | T19 | PMC6408831 | Fig 3a: Control = NC, shifted crop (two controls) |
+
+## Bioluminescence, papers 8,700–9,900 (22 Nov)
+
+9,900 papers so far. 81 mouse-image matches viewed; none sent. Not
+reportable: one animal followed over seconds or minutes (PMC1991622,
+PMC8198274, PMC3715762, PMC8779867, PMC3520978), same animals under two
+reporters or two modalities (PMC11675005, PMC4688563, PMC12262087,
+PMC12845254 Fig 7/8, PMC4967900), an illustrative inset repeated in a
+later figure (PMC4153648 Fig 2B inset = Fig 4A), control cohort shared
+between figures (PMC12945804), raw and annotated copies, schematics.
+Scored panel by panel and not standing out: PMC4030865 Figs 2–4 (best
+pair 0.67, typical 0.55–0.62), PMC8619421 Fig 1B (0.77–0.82, all three
+groups alike: stage and holder), PMC3230016 (dorsal/ventral, stage only).
