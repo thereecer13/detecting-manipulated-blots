@@ -504,3 +504,21 @@ Sent as `cell_image_reuse_round10.html`, key `cell_review10_key.json`
 | T38 | PMC11414618 | Fig 12 IHC, NA group: Bcl-2 = MMP2 (241/241) |
 | T39 | PMC11585562 | SEM: 1.5 wt% = part of 1 wt% flipped (206/214); 2.5 wt% = 3 wt% turned 39° (221/344) |
 | T40 | PMC11884795 | Fig 2b = Fig 4b knockdown images; captions name different cell lines (weakest) |
+
+## Bioluminescence, papers 11,100–12,300 (22 Nov)
+
+12,300 papers so far. 53 mouse-image matches viewed; none sent. Not
+reportable: one animal over time or minutes (PMC3590588, PMC9314316,
+PMC6831815), photograph beside overlay or two modalities (PMC2935351,
+PMC4209452, PMC8791091, PMC10976037, PMC11359855, PMC8035760), two
+acquisitions of one cage (PMC5347687, file IDs differ), same mice at two
+doses' stage position only (PMC3887293), one section shown in two
+stains of a multiplex (PMC11362648 Fig 5G/H is two sections, fields
+differ), correction notices (PMC13015173). Ambiguous, not sent:
+PMC12634820 Fig 4D, two adjacent IHC columns agree after an 11° turn
+(58/58) — consistent with serial sections of one tumour.
+
+PMC12905875 is the journal's correction (2026) of PMC6505074 (B41): the
+authors state that Figs 4a, 6d and 9b had "overlap or duplication in a
+few instances" and replace them. B41 (Fig 9b control p-AKT = β-catenin)
+is therefore already acknowledged.
