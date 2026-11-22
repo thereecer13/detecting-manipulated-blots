@@ -612,3 +612,10 @@ different scale bars (M04).
 
 Review pages: `tumor_photo_reuse_round1.html`,
 `electron_microscopy_reuse_round1.html`. No verdicts yet.
+
+## Pilot scans stopped, 22 Nov
+
+The user stopped both pilots after the first 1,200 papers each ("The
+electron microscopy hits are real but I just wanted to get a few
+examples"). No per-item verdicts were entered for M00–M04 or U00–U02.
+Do not restart either scan unless asked.
