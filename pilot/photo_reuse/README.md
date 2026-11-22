@@ -581,3 +581,34 @@ bioluminescence scanned to 14,169 of 15,356, reviewed to 13,500. The
 matches in the unreviewed tails (cell 12,300–13,127, bioluminescence
 13,500–14,169) have not been looked at. Both scans resume from where
 they stopped with the same `scan.py` command.
+
+## New image types, pilot batches, 22 Nov
+
+Two topics added to `scan.py` at the user's request, 1,200 papers each
+(shuffled, seed 1, from pools of 20,000).
+
+**`tumor`** (xenograft papers; captions mentioning xenograft, excised
+tumours, organ photographs). 848 papers had matching figures, 65 had a
+match, 54 matches after the triage filters. Almost all are a single
+channel matched to its merged image, or an overview matched to its inset.
+Three candidates (`tumor_review1_key.json`, U00–U02), none of which is a
+photograph of an excised tumour: a TUNEL row (U00), spheroid micrographs
+in a review reproducing a 2015 figure (U01), and an H&E panel shown in two
+figures (U02, probably the same sample). The only matched tumour
+photograph (PMC7118901) is a shared control group that the caption
+declares. So the method finds little in tumour photographs at this figure
+resolution; the candidates come from other panels of the same figures.
+
+**`em`** (transmission and scanning electron microscopy). 725 papers had
+matching figures, 129 had a match, 206 matches after the filters. The
+noise is different from the other scans and mostly legitimate: the same
+field at two magnifications, identical-location imaging before and after
+a treatment, in-situ time series, a micrograph next to its false-colour
+or element-map version, and diffraction patterns matching themselves
+rotated by 180 degrees. Five candidates (`em_review1_key.json`, M00–M04):
+two overlapping fields under different conditions (M00, M01), two images
+that repeat within themselves (M02, M03), and one field shown with two
+different scale bars (M04).
+
+Review pages: `tumor_photo_reuse_round1.html`,
+`electron_microscopy_reuse_round1.html`. No verdicts yet.

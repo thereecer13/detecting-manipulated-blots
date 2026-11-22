@@ -1,0 +1,132 @@
+[
+ {
+  "id": "M00",
+  "pmcid": "PMC12571210",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC12571210_SMLL-21-e07662-g004.jpg",
+    "abox": [
+     223,
+     5,
+     328,
+     188
+    ],
+    "b": "PMC12571210_SMLL-21-e07662-g004.jpg",
+    "bbox": [
+     491,
+     5,
+     596,
+     188
+    ],
+    "note": "350 \u00b0C panel, left part (left) and 450 \u00b0C panel, right part (right)"
+   }
+  ],
+  "what": "Fig 3a, SEM images of TiO2 layers annealed at six temperatures (Small 2025). The 350 \u00b0C and 450 \u00b0C panels show overlapping areas of one field: the left part of the 350 \u00b0C panel is the right part of the 450 \u00b0C panel (61 of 91 matched points agree, no rescaling, no rotation). Brightness differs slightly between the two. Plain copy of an overlapping field, shifted sideways.",
+  "why": "Caption: 'SEM images of 200-nm TiO2 layers on FTO annealed at different temperatures'. Text: 'Figure 3a shows SEM images of sputtered 200-nm-thick layers after air annealing at various temperatures. The images reveal that annealing affects the grain size'. Each temperature is a separate sample. Two separately annealed samples cannot share the same grains in the same arrangement, so the 350 \u00b0C and 450 \u00b0C panels are two crops of one sample. 450 \u00b0C is the condition the paper reports as the most active."
+ },
+ {
+  "id": "M01",
+  "pmcid": "PMC13279383",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC13279383_10103_2026_4926_Fig3_HTML.jpg",
+    "abox": [
+     511,
+     235,
+     652,
+     299
+    ],
+    "b": "PMC13279383_10103_2026_4926_Fig3_HTML.jpg",
+    "bbox": [
+     110,
+     613,
+     251,
+     677
+    ],
+    "note": "panel f, CAP 90 s, top-left part (left) and panel g, CAP 120 s, bottom-right part (right)"
+   }
+  ],
+  "what": "Fig 3, SEM images of S. mutans biofilm on enamel after nine treatments (Lasers Med Sci 2026). Panel f (cold plasma, 90 s) and panel g (cold plasma, 120 s) show overlapping areas of one field: the top-left of f is the bottom-right of g (45 of 47 matched points agree, no rescaling, no rotation, correlation 0.73 over the whole overlap). Plain copy of an overlapping field, shifted diagonally.",
+  "why": "Caption: '(f) Cold atmospheric plasma (CAP) with an exposure duration of 90 s, (g) CAP with an exposure duration of 120 s'. Methods: specimens were 'randomly allocated to nine experimental groups (n = 10)' and 'three separate specimens per group were analyzed qualitatively using SEM'. The two exposure times are different groups, so different enamel slabs. The same bacteria on the same surface pits appear in both panels, so both panels come from one slab. The file names in the instrument bars differ (\u2026_055 and \u2026_063), which is consistent with two overlapping exposures of one specimen saved as separate files."
+ },
+ {
+  "id": "M02",
+  "pmcid": "PMC12146702",
+  "pad": 0.4,
+  "pairs": [
+   {
+    "a": "PMC12146702_ppj-oa-12-2024-0188f3.jpg",
+    "abox": [
+     600,
+     264,
+     699,
+     405
+    ],
+    "b": "PMC12146702_ppj-oa-12-2024-0188f3.jpg",
+    "bbox": [
+     500,
+     289,
+     599,
+     430
+    ],
+    "note": "panel D (2% TPP): right part of the image (left) and a region further left in the same image (right)"
+   }
+  ],
+  "what": "Fig 3D, TEM image of nanoparticles made with 2% TPP (Plant Pathol J 2025). A block of the image repeats inside the same image: the same group of particles, with the same shapes and the same small dark attachments, appears twice, shifted about 100 pixels sideways and 25 down (38 of 76 matched points agree, no rescaling, no rotation). This is repetition within one image, not reuse between panels.",
+  "why": "Caption: 'TEM images display the formulations with TPP concentrations of 0% (A), 0.5% (B), 1% (C), 2% (D), and 4% (E)'. A single micrograph of separate particles on a grid should not contain the same particles twice. Innocent explanations I considered: (1) two overlapping exposures stitched together, which would duplicate the overlap strip; (2) a montage of several fields under one label. Neither is mentioned in the caption or methods. The alternative is that particles were copied within the image to make the field look fuller. The paper uses these images to describe particle size and uniformity at each concentration."
+ },
+ {
+  "id": "M03",
+  "pmcid": "PMC12559203",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC12559203_41598_2025_21578_Fig1_HTML.jpg",
+    "abox": [
+     3,
+     21,
+     100,
+     180
+    ],
+    "b": "PMC12559203_41598_2025_21578_Fig1_HTML.jpg",
+    "bbox": [
+     115,
+     21,
+     212,
+     180
+    ],
+    "note": "panel a (FE-SEM): left half (left) and right half (right)"
+   }
+  ],
+  "what": "Fig 1a, FE-SEM image of an etched indium tin oxide film (Sci Rep 2025). The left half and the right half of the panel are the same image: the grain texture repeats exactly, shifted by about 111 pixels (131 of 186 matched points agree, no rescaling, no rotation). This is repetition within one image.",
+  "why": "Caption: '(a) High resolution scanning electron microscopy image ... of in-situ argon-ion non-reactive sputtered/etched ultrathin film of indium-tin-oxide'. A single SEM frame of a granular film should not repeat itself. Innocent explanations: a narrow original frame tiled sideways to fill the panel width, or a display artefact from the instrument. Neither is stated. The paper uses the image only qualitatively (surface morphology of the film), so nothing is measured from it. I rate this the weakest of the electron microscopy items; it is here because the repetition is exact."
+ },
+ {
+  "id": "M04",
+  "pmcid": "PMC12257167",
+  "pad": 0.3,
+  "pairs": [
+   {
+    "a": "PMC12257167_d5na00223k-f3.jpg",
+    "abox": [
+     570,
+     5,
+     761,
+     250
+    ],
+    "b": "PMC12257167_d5na00223k-f3.jpg",
+    "bbox": [
+     60,
+     300,
+     240,
+     535
+    ],
+    "note": "panel c, scale bar 50 nm (left) and panel d, scale bar 100 nm (right)"
+   }
+  ],
+  "what": "Fig 3c and 3d, TEM images of NiCo2O4 nanoribbons (Nanoscale Adv 2025). The two panels show the same field at almost the same size (170 of 184 matched points agree, scale 0.975, rotation under 1 degree), but panel c carries a 50 nm scale bar and panel d a 100 nm scale bar. Contrast differs between the two. Plain copy with a small resize.",
+  "why": "Caption: 'TEM images of the as-prepared NiCo2O4 nanosheets (a and b) and NiCo2O4 nanoribbons (c and d)'. Both panels are the same material, so showing the same sample twice is not in itself a problem. The issue is different: two images of one material are normally a lower and a higher magnification view, and the scale bars say so (50 nm and 100 nm), but the field is the same size in both. Either one scale bar is wrong by a factor of about two, or one image was presented as a second magnification. Particle sizes read from one of the two panels would be off by that factor."
+ }
+]

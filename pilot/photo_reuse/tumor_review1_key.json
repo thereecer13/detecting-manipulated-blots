@@ -1,0 +1,81 @@
+[
+ {
+  "id": "U00",
+  "pmcid": "PMC11075361",
+  "pad": 0.5,
+  "pairs": [
+   {
+    "a": "PMC11075361_12943_2024_1998_Fig9_HTML.jpg",
+    "abox": [
+     410,
+     163,
+     655,
+     237
+    ],
+    "b": "PMC11075361_12943_2024_1998_Fig9_HTML.jpg",
+    "bbox": [
+     410,
+     239,
+     655,
+     313
+    ],
+    "note": "TUNEL row labelled sh-NC (left) and row labelled sh-circ_100696 (right); DAPI, TUNEL and merge"
+   }
+  ],
+  "what": "Fig 9E, TUNEL staining of xenograft tumour sections (Mol Cancer 2024). The whole row for the knockdown control (sh-NC) and the whole row for the knockdown (sh-circ_100696) are the same three images: DAPI, TUNEL and merge all match (90 of 105 matched points agree, no rescaling, shift of one pixel, correlation 0.97). Plain copy. Note: this is a fluorescence panel, not a tumour photograph; the scan picked it up because the figure caption mentions the xenograft.",
+  "why": "Caption: 'E TUNEL assay was performed to determine the cell apoptosis rate in Xenograft tumor. n = 3'. The bar chart beside the images reports a higher apoptotic rate for sh-circ_100696 than for sh-NC, marked significant. sh-NC and sh-circ_100696 are tumours grown from different cell lines (control virus and knockdown virus), so they are different animals and different sections. The images shown for the two groups are identical, while the chart says the groups differ."
+ },
+ {
+  "id": "U01",
+  "pmcid": "PMC12178904",
+  "pad": 0.4,
+  "pairs": [
+   {
+    "a": "PMC12178904_fonc-15-1499283-g007.jpg",
+    "abox": [
+     117,
+     15,
+     217,
+     98
+    ],
+    "b": "PMC12178904_fonc-15-1499283-g007.jpg",
+    "bbox": [
+     117,
+     102,
+     217,
+     185
+    ],
+    "note": "GNS-PEG, before irradiation (left) and after irradiation (right)"
+   },
+   {
+    "a": "PMC12178904_fonc-15-1499283-g007.jpg",
+    "abox": [
+     220,
+     15,
+     322,
+     98
+    ],
+    "b": "PMC12178904_fonc-15-1499283-g007.jpg",
+    "bbox": [
+     220,
+     102,
+     322,
+     185
+    ],
+    "note": "Non-treatment, before irradiation (left) and after irradiation (right)"
+   }
+  ],
+  "what": "Fig 7A, micrographs of gastric cancer stem cell spheroids before and after near-infrared irradiation. For two of the three columns the 'before' and 'after' images are the same photograph: GNS-PEG (154 of 156 matched points agree, no shift, correlation 0.98) and Non-treatment (108 of 108, correlation 0.99). Only the GNS-PEG-CD44v6 column changes. Plain copies. Important: this paper is a 2025 review article in Front Oncol; the figure is reproduced with permission from Liang et al., Theranostics 2015 (PMC4493535), so the duplication, if you count it, belongs to the 2015 paper.",
+  "why": "Caption: 'microscopy descriptions of gastric cancer stem cell (GCSC) spheroid colonies treated with GNS-PEG-CD44v6 and GNS-PEG irradiated for 24 h with near-infrared (NIR) laser ... showing damaged spheroid colonies in NIR irradiated GNS-PEG-CD44v6'. The rows are two time points (before irradiation, and after). A suspension of spheroids photographed at two times would not give a pixel-identical field, so the control columns show one photograph for both time points. This falls under your earlier ruling that the same photo at different time points is reportable. An argument against: the point of the control columns is 'no change', and the authors may have considered one image sufficient to show it."
+ },
+ {
+  "id": "U02",
+  "pmcid": "PMC12447753",
+  "pad": 0.5,
+  "hits": [
+   0
+  ],
+  "what": "H&E image of the tumour grown on the chick embryo membrane (CAM-PDX model): the high-magnification panel of the model-validation figure and the 'Con' panel of Fig 5D (untreated tumour in the drug experiment) are the same section, shown at different magnification (59 of 61 matched points agree, scale 0.83, correlation 0.60 after resizing). Plain copy, rescaled and cropped.",
+  "why": "Captions: validation figure: '(D\u2013F) High magnification images corresponding to the boxed regions in (A), (B), and (C)' for patient tumour, PDX and CAM-PDX; Fig 5: '(D) H&E stain shows untreated tumor is poorly differentiated with dense nodules and fibrosis'. The matched validation panel is F, the CAM-PDX model, and Fig 5D 'Con' is the untreated CAM-PDX tumour. Both labels describe the same thing, so I expect this to be acceptable under your rule (same sample shown twice). The one reservation: Fig 5D is presented as the control arm of a separate treatment experiment (n = 6 per group), and the paper does not say the validation image was taken from that experiment."
+ }
+]
