@@ -1,0 +1,275 @@
+{
+ "n": 116,
+ "median_cited": 6.5,
+ "mean_cited": 13.362068965517242,
+ "zero": 20,
+ "countries": [
+  [
+   "China",
+   76
+  ],
+  [
+   "Italy",
+   4
+  ],
+  [
+   "United Kingdom",
+   3
+  ],
+  [
+   "Taiwan",
+   3
+  ],
+  [
+   "South Korea",
+   3
+  ],
+  [
+   "India",
+   3
+  ],
+  [
+   "Australia",
+   2
+  ],
+  [
+   "Japan",
+   2
+  ],
+  [
+   "Brazil",
+   2
+  ],
+  [
+   "Ireland",
+   2
+  ],
+  [
+   "Poland",
+   2
+  ],
+  [
+   "Germany",
+   1
+  ],
+  [
+   "Portugal",
+   1
+  ],
+  [
+   "Malaysia",
+   1
+  ],
+  [
+   "Indonesia",
+   1
+  ],
+  [
+   "Lebanon",
+   1
+  ],
+  [
+   "Iraq",
+   1
+  ],
+  [
+   "Egypt",
+   1
+  ],
+  [
+   "Greece",
+   1
+  ],
+  [
+   "Turkey",
+   1
+  ],
+  [
+   "Saudi Arabia",
+   1
+  ],
+  [
+   "Russia",
+   1
+  ],
+  [
+   "Iran",
+   1
+  ],
+  [
+   "Jordan",
+   1
+  ],
+  [
+   "United States",
+   1
+  ]
+ ],
+ "china_rows": [
+  [
+   "Cell-assay scan",
+   0.7676767676767676,
+   297,
+   0.6666666666666666,
+   63
+  ],
+  [
+   "Animal-imaging scan",
+   0.44482758620689655,
+   290,
+   0.45,
+   20
+  ]
+ ],
+ "years": [
+  [
+   2013,
+   1
+  ],
+  [
+   2015,
+   1
+  ],
+  [
+   2016,
+   1
+  ],
+  [
+   2018,
+   3
+  ],
+  [
+   2019,
+   7
+  ],
+  [
+   2020,
+   6
+  ],
+  [
+   2021,
+   11
+  ],
+  [
+   2022,
+   8
+  ],
+  [
+   2023,
+   13
+  ],
+  [
+   2024,
+   27
+  ],
+  [
+   2025,
+   24
+  ],
+  [
+   2026,
+   14
+  ]
+ ],
+ "journals": [
+  [
+   "Scientific reports",
+   8
+  ],
+  [
+   "International journal of molecular sciences",
+   5
+  ],
+  [
+   "Cell communication and signaling : CCS",
+   3
+  ],
+  [
+   "Cell death discovery",
+   3
+  ],
+  [
+   "Discover oncology",
+   3
+  ],
+  [
+   "Journal of nanobiotechnology",
+   2
+  ],
+  [
+   "Materials today. Bio",
+   2
+  ],
+  [
+   "PloS one",
+   2
+  ],
+  [
+   "Cancers",
+   2
+  ],
+  [
+   "Pharmaceutics",
+   2
+  ],
+  [
+   "Aging",
+   2
+  ],
+  [
+   "Journal of Cancer",
+   2
+  ],
+  [
+   "Heliyon",
+   2
+  ],
+  [
+   "Frontiers in cell and developmental biology",
+   2
+  ],
+  [
+   "PeerJ",
+   2
+  ],
+  [
+   "Frontiers in oncology",
+   2
+  ],
+  [
+   "Open life sciences",
+   2
+  ],
+  [
+   "Translational oncology",
+   2
+  ],
+  [
+   "World journal of gastrointestinal oncology",
+   2
+  ],
+  [
+   "iScience",
+   2
+  ],
+  [
+   "Archives of medical science : AMS",
+   2
+  ]
+ ],
+ "kinds": {
+  "Animal imaging scan": 20,
+  "Cell-assay image": 63,
+  "Colony plate": 21,
+  "Flow cytometry plot": 12
+ },
+ "baseline_median_cited": {
+  "cell": 2,
+  "bli_p": 15.0
+ },
+ "baseline_median_year": {
+  "cell": 2025,
+  "bli_p": 2022.0
+ },
+ "conf_median_year": 2024.0
+}
