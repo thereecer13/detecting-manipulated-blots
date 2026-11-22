@@ -572,3 +572,12 @@ Confirmed so far:
   B44 sits in a review that reproduces another paper's figure.
 
 Still without a verdict: PMC13297086 (cell round 1).
+
+## Scans stopped, 22 Nov
+
+The user stopped both scans ("We've found enough"). State at the stop:
+cell culture scanned to paper 13,127 of 20,000, reviewed to 12,300;
+bioluminescence scanned to 14,169 of 15,356, reviewed to 13,500. The
+matches in the unreviewed tails (cell 12,300–13,127, bioluminescence
+13,500–14,169) have not been looked at. Both scans resume from where
+they stopped with the same `scan.py` command.
