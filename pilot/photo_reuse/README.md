@@ -545,3 +545,14 @@ Sent as `cell_image_reuse_round11.html`, key `cell_review11_key.json`:
 | T45 | PMC13265452 | Fig 7B: PFOA = PFOS, shifted crop (187/190) |
 | T46 | PMC12991280 | Fig 7: C (DMSO) = F (SWT), shifted and turned 5° (64/88) |
 | T47 | PMC8607643 | Fig 4: A NC mimics = F NC inhibitor (51/51; two controls) |
+
+## Bioluminescence, papers 12,300–13,500 (22 Nov)
+
+13,500 papers so far. 50 mouse-image matches viewed; none sent. Not
+reportable: same animals over time or minutes (PMC8298093, PMC9958775,
+PMC10158089, PMC12524236), photograph beside overlay or two modalities
+(PMC12249421, PMC4317961, PMC9944124, PMC3428245, PMC9378969,
+PMC8834410, PMC12921544), one experiment shown in a main and an
+extended-data figure (PMC7854852, S.C. day 5), surgery-alone mouse
+reused as the day 45 control of the same model (PMC6791416), stage
+marks only (PMC13373782, PMC10246050), colour and print versions.
