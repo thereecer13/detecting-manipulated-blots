@@ -1,0 +1,140 @@
+[
+ {
+  "id": "T09",
+  "pmcid": "PMC9279021",
+  "hits": [
+   0
+  ],
+  "pad": 0.25,
+  "what": "Fig 2c and Fig 3c, wound healing assays of hep3B and Huh7 cells. The whole block of eight images is the same in both figures. In Fig 2 the columns are labelled NC and Rac1 (overexpression); in Fig 3 the same images are labelled NC and si-Rac1 (knockdown). Plain copy of the whole panel.",
+  "why": "Fig 2 caption: 'after transfection with NC or Rac1'. Fig 3 caption: 'after transfection with si-NC or si-Rac1'. Text: 'The wound healing assay revealed that Rac1 increased migration ability in HCC cells (Figure 2(c))' and 'The blocked migration and invasion ability were found in si-Rac1 transfected cells (Figures 3(c) and 3(d))'. Overexpressing a gene and silencing it are opposite experiments on different cultures, and the two bar charts beside the images show opposite effects. The same photographs cannot show both."
+ },
+ {
+  "id": "T10",
+  "pmcid": "PMC13465012",
+  "hits": [
+   0
+  ],
+  "pad": 0.25,
+  "what": "Fig 4, wound healing assay of AGS cells, 24 h column: the Ctrl image and the 100% donkey milk image are the same photograph (717 of 718 matched points agree, no rotation, no resizing). The 0 h images of the two rows are different. Plain copy.",
+  "why": "Caption: 'after 24 h in untreated cells (CTRL) or cells treated with 75% or 100% DM'. Text: in control cells 'the scratch area was nearly completely repopulated', while 'a significant (p = 0.0037) inhibition of migration was observed in cells treated with 100% DM'. The bar chart gives about 93% closure for Ctrl and about 64% for 100% DM. Untreated and treated wells are different wells, and one photograph cannot show both 93% and 64% closure."
+ },
+ {
+  "id": "T11",
+  "pmcid": "PMC11141472",
+  "hits": [
+   4
+  ],
+  "pad": 0.25,
+  "extra": [
+   {
+    "path": "cell/big/a_11141.png",
+    "caption": "Left: the Control plate turned by 90 degrees. Right: the miR-1296-5p (+) + TRIM14 (+) plate as published. The colonies are in the same places."
+   }
+  ],
+  "what": "Fig 5e, colony formation, MCF-7 row: the Control plate and the miR-1296-5p (+) + TRIM14 (+) plate are one plate photograph, the second turned by 90 degrees (74 of 75 matched points agree with a 90.0 degree rotation, same size). Altered copy (rotated).",
+  "why": "Caption: 'the overexpressing miR-1296-5p [miR-1296-5 (+)] in MCF-7 and MDA-MB-231 cells inhibited cell viability while the overexpressing TRIM14 [TRIM14 (+)] reversed it ... (e, f) Results of cell cloning formation assay'. Control cells and cells overexpressing both miR-1296-5p and TRIM14 are different transfected cultures in different wells, and panel f counts their colonies separately. Two wells cannot have every colony in the same place, and a 90 degree turn is not what a file mix-up produces."
+ },
+ {
+  "id": "T12",
+  "pmcid": "PMC12650368",
+  "hits": [
+   0
+  ],
+  "pad": 0.15,
+  "what": "Fig 2, wound healing assays of four cell lines, each a grid of 4 treatments by 5 time points. The grid shown for U-2 OS (panel A) and the grid shown for MCC26 (panel G) are the same set of photographs: the scratch lines and specks agree in all four rows (row-by-row agreement 0.95 to 0.98; panel G is about 3.6% larger). Plain copy of the whole block, resized.",
+  "why": "Caption: 'U-2 OS (A), Saos-2 (C), MCC-13 (E) and MCC26 (G) cells were photographed immediately after scratch (0 h) and at different time points'. Methods: U-2 OS is an osteosarcoma line from ATCC and MCC26 a Merkel cell carcinoma line from another laboratory. They are different cell lines in different plates, and the bar charts B and H give different recovery values. This falls under your ruling that a control shared between two different cell lines is reportable; here the treated wells are shared too."
+ },
+ {
+  "id": "T13",
+  "pmcid": "PMC8258952",
+  "hits": [
+   0
+  ],
+  "pad": 0.2,
+  "what": "Fig 2A, Transwell assay of Hep3B cells: the 25 uM NDP image and the 25 uM DHM image show the same field of cells, shifted sideways and down so that the two crops overlap (182 of 183 matched points agree). Altered copy (shifted crop).",
+  "why": "Caption: 'Effect of DHM and NDP on the migratory ability of Hep3B cells in a Transwell assay'. DHM (dihydromyricetin) and NDP (nedaplatin) are two different drugs; Methods: 'cells were treated with different concentration of DHM and NDP'. Each condition is its own insert, and the bar chart B gives each its own migration rate. One field of cells cannot come from two inserts treated with two different drugs."
+ },
+ {
+  "id": "T14",
+  "pmcid": "PMC8629617",
+  "hits": [
+   0
+  ],
+  "pad": 0.2,
+  "what": "Fig 1a, Transwell assay of rat aortic endothelial cells: the 2.5% TSW image and the 5% TSW image show the same field of cells, shifted sideways (208 of 213 matched points agree, same size, no rotation). Altered copy (shifted crop).",
+  "why": "Caption: 'TSW decoction promoted migration ... (a) the migrated cells were detected using a transwell assay; (b) the migrated cells were counted and quantified'. Text: 'TSW-containing serum enhanced the migration of cells in a dose-dependent manner'. 2.5% and 5% serum are two doses in two inserts, each with its own bar in panel b. The same cells cannot have migrated through both."
+ },
+ {
+  "id": "T15",
+  "pmcid": "PMC6738998",
+  "hits": [
+   0
+  ],
+  "pad": 0.25,
+  "extra": [
+   {
+    "path": "cell/big/a_6738.png",
+    "caption": "Left: the invasion image turned by 90 degrees. Right: the migration image as published."
+   }
+  ],
+  "what": "Fig 4, Transwell assays, MCF-7 cells, 4 ug/mL column: the Invasion image and the Migration image show the same field of cells, one turned by 90 degrees (77 of 77 matched points agree with a 90.1 degree rotation). Altered copy (rotated).",
+  "why": "Caption: 'Cell migration and invasion were assessed by Transwell assay'. Methods: for invasion, 'Matrigel was mixed with serum-free RPMI-1640 (1:8), then spread onto the upper chamber membrane of the insert'; migration inserts have no Matrigel. The two assays use separate inserts, and the bar chart gives separate counts for migration and invasion at 4 ug/mL. One field cannot be the result of both, and it would not turn by 90 degrees by accident."
+ },
+ {
+  "id": "T16",
+  "pmcid": "PMC11699557",
+  "pad": 0.2,
+  "pairs": [
+   {
+    "a": "PMC11699557_j_biol-2022-0994-fig002.jpg",
+    "abox": [
+     42,
+     195,
+     262,
+     358
+    ],
+    "b": "PMC11699557_j_biol-2022-0994-fig002.jpg",
+    "bbox": [
+     270,
+     195,
+     490,
+     358
+    ],
+    "note": "(d) 1 ug/mL (left) and (e) 1.5 ug/mL (right)"
+   }
+  ],
+  "what": "Fig 2, wound healing assay of MCF7 cells after 24 h at increasing doses: panel (d) and panel (e) are the same photograph (145 of 150 matched points agree, no shift). Plain copy.",
+  "why": "Caption: '(d) 1 ug/mL senna extract + 0.5 ug/mL SWCNTs, (e) 1.5 ug/mL senna extract + 0.5 ug/mL SWCNTs'. The figure is presented as a dose series ('different doses ... induced cell migration in MCF7 cells after 24 h'), each dose in its own well. Two wells at two doses cannot give the same photograph."
+ },
+ {
+  "id": "T17",
+  "pmcid": "PMC10227323",
+  "hits": [
+   0
+  ],
+  "pad": 0.35,
+  "what": "Fig 4B, Transwell assay of HepG2 cells, three fields per group with the cell count written on each. A field in the B-group column (second row, '30 cells') and a field in the C-group column (third row, '25 cells') show the same cells, one mirrored left to right (70 of 72 matched points agree after mirroring); the two fields overlap by a little over half. The panels are only about 100 pixels wide, so this needs a sharper copy to be sure. Altered copy (mirrored, shifted).",
+  "why": "Methods: 'HCC cells transfected with LV3-NEK6-homo-657 (Control group) and cells transfected with LV3-shNC (Blank group) were added to the upper chamber of transwell 24-well plates' (the group names in the methods and the caption do not agree with each other, but B and C are different groups either way). Each field carries its own count (30 and 25) and the group means below differ (29.7 and 23.3). Fields from two groups cannot show the same cells, and a mirror image does not arise from choosing the wrong file."
+ },
+ {
+  "id": "T18",
+  "pmcid": "PMC11294307",
+  "hits": [
+   0
+  ],
+  "pad": 0.2,
+  "what": "Fig 3E, Transwell invasion assay: the 'cell' column and the 'ov-NC' column are the same images, for both HepG2 and SMMC-7721 (600 of 600 matched points agree). Plain copy. Both columns are controls (untransfected cells and empty-vector cells), so this is the weaker kind: the paper's conclusion rests on the ov-LINC01370 column.",
+  "why": "Text: 'HepG2 and SMMC-7721 cells were transformed with LINC01370 overexpression or negative control (NC) plasmids.' The 'cell' column is untransfected cells and 'ov-NC' is cells carrying the control plasmid; they are separate cultures in separate inserts and are shown as separate groups. They are expected to look alike, but not to be cell-for-cell identical."
+ },
+ {
+  "id": "T19",
+  "pmcid": "PMC6408831",
+  "hits": [
+   0
+  ],
+  "pad": 0.2,
+  "what": "Fig 3a, Transwell invasion assay of DU145 cells: the Control image and the NC image show the same field of cells, shifted sideways by about a third of the panel (101 of 102 matched points agree). Altered copy (shifted crop). Both are controls, as in T18.",
+  "why": "Caption: 'Cell invasion of DU145 cells with an miR-9-5p inhibitor or NC transfection was evaluated using a transwell assay'. Text: 'Compared with the control and negative control (NC) groups'. Control (untransfected) and NC (control oligonucleotide) are two groups in two inserts with separate bars in panel b. One field cannot belong to both, and here the two crops are offset, which a simple file mix-up would not produce."
+ }
+]

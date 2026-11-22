@@ -386,3 +386,33 @@ Sent as `bioluminescence_reuse_round7.html`, key `bli_review7_key.json`:
 | B39 | PMC10976084 | Fig 7: G3 (training) = G5 (omega-3) at day 14 and day 21, signal included (0.90, 0.99; figure median 0.78) |
 | B40 | PMC4454195 | Fig 7: control A day 0 = D day 12 photograph, different overlay (0.92; others ≤ 0.75) |
 | B41 | PMC6505074 | Fig 9b IHC control: p-AKT = β-catenin field, shifted crop |
+
+## Cell culture, papers 7,500–8,700 (22 Nov)
+
+8,700 papers so far. 50 new matches with ncc ≥ 0.5. Not reportable:
+insets and magnified views, schematics, single channel and merge, raw
+and analysed copies, colour and print versions of one figure
+(PMC11141472 `_OC`/`_PB`), a correction notice (PMC12538872), control
+plates shared between two figures on one cell line (PMC12531794, the
+Control and Mimic plates of Fig 4 reappear in Fig 5), overlapping
+columns matching themselves (PMC10531673, PMC10453269).
+
+`region_match.py` fits one similarity transform between two
+regions with SIFT, also trying the mirror image, and reports inliers,
+scale, rotation and shift; used for the numbers below.
+
+Sent as `cell_image_reuse_round8.html`, key `cell_review8_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| T09 | PMC9279021 | Fig 2c (Rac1 overexpression) = Fig 3c (si-Rac1), whole wound-healing block |
+| T10 | PMC13465012 | Fig 4: Ctrl 24 h = 100% DM 24 h (717/718) |
+| T11 | PMC11141472 | Fig 5e MCF-7: Control plate = miR-1296-5p(+)+TRIM14(+) plate turned 90° |
+| T12 | PMC12650368 | Fig 2: U-2 OS grid (A) = MCC26 grid (G), all rows |
+| T13 | PMC8258952 | Fig 2A: 25 µM NDP = 25 µM DHM, shifted crop (182/183) |
+| T14 | PMC8629617 | Fig 1a: 2.5% TSW = 5% TSW, shifted crop (208/213) |
+| T15 | PMC6738998 | Fig 4 MCF-7 4 µg/mL: invasion = migration turned 90° (77/77) |
+| T16 | PMC11699557 | Fig 2: (d) = (e) (145/150) |
+| T17 | PMC10227323 | Fig 4B: B-group field = C-group field mirrored (70/72), low resolution |
+| T18 | PMC11294307 | Fig 3E: 'cell' = ov-NC, both lines (two controls) |
+| T19 | PMC6408831 | Fig 3a: Control = NC, shifted crop (two controls) |
