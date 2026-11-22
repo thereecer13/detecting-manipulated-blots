@@ -456,3 +456,24 @@ Sent as `cell_image_reuse_round9.html`, key `cell_review9_key.json`
 | T27 | PMC13397375 | Fig 2G oe-miR-NC: S18 = 5-8F, shifted crop (93/105) |
 | T28 | PMC12481119 | Fig 5A IHC, KRAS WT: KRAS stain = Ki67 stain, shifted (102/106) |
 | T29 | PMC7930260 | Fig 7A: Blank = NC, shifted crop (545/563; two controls) |
+
+## Bioluminescence, papers 9,900–11,100 (22 Nov)
+
+11,100 papers so far. 46 mouse-image matches viewed. Not reportable:
+one group shown in two panels under the same condition (PMC10692915:
+"DNA 20 µg / MB 1.6×10⁶" and "DNA 100 µg / MB 1.6×10⁶" each appear in
+two comparisons), same tumour and same antibody shown in two panels
+(PMC6987283 Fig 7e/f, U87-vIII DMSO H3K27AC), protocol paper reusing its
+example mouse (PMC7521670), time series and filter series of one animal
+(PMC3125303, PMC3081340, PMC10384630), photograph beside overlay,
+layouts and schematics. Not sent, weak: PMC3944333 Fig 4a (two 56-day
+panels of one genotype share the photograph with different signal;
+could be two acquisitions of one animal).
+
+Sent as `bioluminescence_reuse_round8.html`, key `bli_review8_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| B42 | PMC12775211 | Fig 1D invasion block (shcircEPHB4) = Fig 2F migration block (shMRPS16), 643/652 |
+| B43 | PMC10077468 | Fig 3B B-cell-deficient day 14: mice 2–3 = mice 4–5, signal included |
+| B44 | PMC8619749 | Fig 4A (review, adapted from its ref 63): PS-DTX block = Free DTX block, 227/252 |

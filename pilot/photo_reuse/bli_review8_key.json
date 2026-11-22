@@ -1,0 +1,80 @@
+[
+ {
+  "id": "B42",
+  "pmcid": "PMC12775211",
+  "pad": 0.15,
+  "pairs": [
+   {
+    "a": "PMC12775211_18_2025_6002_Fig1_HTML.jpg",
+    "abox": [
+     345,
+     420,
+     681,
+     570
+    ],
+    "b": "PMC12775211_18_2025_6002_Fig2_HTML.jpg",
+    "bbox": [
+     25,
+     565,
+     400,
+     720
+    ],
+    "note": "Fig 1D Invasion block, circEPHB4 knockdown (left) and Fig 2F Migration block, MRPS16 knockdown (right)"
+   }
+  ],
+  "what": "This one is a cell image in a paper with bioluminescence. Fig 1D and Fig 2F, Transwell assays of SHG44 and U373 glioma cells. The whole block of six Invasion images in Fig 1D (shNC, shcircEPHB4-1, shcircEPHB4-2) is the same set of photographs as the block of six Migration images in Fig 2F (shNC, shMRPS16-1, shMRPS16-2): 643 of 652 matched points agree, with the Fig 2 copy about 6% larger. Plain copy of the whole block, resized.",
+  "why": "Fig 1 caption: 'SHG44 and U373 cells were transfected with shNC, shcircEPHB4-1 or shcircEPHB4-2 ... (D) Cell migration and invasion were detected by Transwell assay'. Fig 2 caption: 'SHG44 and U373 cells were transfected with shNC, shMRPS16-1 or shMRPS16-2 ... (F) Cell migration and invasion'. The two blocks differ twice over: the gene that was knocked down (circEPHB4 against MRPS16) and the assay (invasion, with Matrigel, against migration; Methods: 'The migration assay was conducted without Matrigel coating'). The shNC column could at most be a shared control; the four knockdown images cannot be shared."
+ },
+ {
+  "id": "B43",
+  "pmcid": "PMC10077468",
+  "pad": 0.5,
+  "pairs": [
+   {
+    "a": "PMC10077468_jciinsight-8-149648-g034.jpg",
+    "abox": [
+     433,
+     612,
+     530,
+     675
+    ],
+    "b": "PMC10077468_jciinsight-8-149648-g034.jpg",
+    "bbox": [
+     532,
+     612,
+     629,
+     675
+    ],
+    "note": "B cell deficient, day 14: mice 2 and 3 (left) and mice 4 and 5 (right)"
+   }
+  ],
+  "what": "Fig 3B, bioluminescence images of five B cell-deficient mice at day 14 after transplantation. Mice 2 and 3 of the row are repeated as mice 4 and 5: the same two animals, same pose, same legs, and the same colour signal (the purple-and-orange pattern on mouse 2 is identical on mouse 4; the white saturated shape on mouse 3 is identical on mouse 5). Plain copy within one row.",
+  "why": "Caption: 'Bioluminescence imaging of 5 infected B cell-deficient mice at 7, 14, 21, and 28 days after BMT.' The row is presented as five individual animals. Five mice cannot include two pairs with the same body outline and the same signal pattern, pixel for pixel. Caveat: the reuse is within one group at one time point, so it changes how many animals are shown, not which group they belong to. Methods say the overlays were assembled 'using Adobe Photoshop Software', which is where a copy could arise."
+ },
+ {
+  "id": "B44",
+  "pmcid": "PMC8619749",
+  "pad": 0.1,
+  "pairs": [
+   {
+    "a": "PMC8619749_pharmaceutics-13-01972-g004.jpg",
+    "abox": [
+     165,
+     18,
+     296,
+     150
+    ],
+    "b": "PMC8619749_pharmaceutics-13-01972-g004.jpg",
+    "bbox": [
+     15,
+     176,
+     148,
+     308
+    ],
+    "note": "PS-DTX block (left) and Free DTX block (right), three mice by five time points each"
+   }
+  ],
+  "what": "Fig 4A, bioluminescence images of lung-tumour mice, three mice per treatment followed over 16 days. The whole PS-DTX block and the whole Free DTX block are the same 15 images: same mice, same poses and the same signal at every time point (227 of 252 matched points agree; one block is about 2% smaller). Plain copy of the whole block. Note: this paper is a review. It reproduces the figure from its reference 63 (Zou et al., an American Chemical Society journal), so the duplication would belong to that original paper, which I have not seen; it could also have been introduced when the figure was adapted.",
+  "why": "Caption: 'Representative bioluminescence imaging of A549 tumor-bearing mice treated with cNGQ-PS-DTX, PS-DTX, free DTX, and PBS. Adapted with permission from Ref. [63].' PS-DTX (docetaxel in untargeted vesicles) and free docetaxel are two treatment groups with different animals. Three mice followed over five sessions cannot be identical between two groups."
+ }
+]
