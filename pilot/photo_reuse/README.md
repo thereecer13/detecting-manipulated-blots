@@ -556,3 +556,19 @@ PMC8834410, PMC12921544), one experiment shown in a main and an
 extended-data figure (PMC7854852, S.C. day 5), surgery-alone mouse
 reused as the day 45 control of the same model (PMC6791416), stage
 marks only (PMC13373782, PMC10246050), colour and print versions.
+
+## Verdicts, 22 Nov
+
+The user reviewed the combined page (`image_reuse_combined_open_reviews.html`,
+60 items) and confirmed every case: bioluminescence rounds 4–8 (B30–B44,
+`bli_review4..8_results.json`) and cell culture rounds 6–11 (T03–T47,
+`cell_review6..11_results.json`).
+
+Confirmed so far:
+- cell-culture scan: 64 papers from 12,300 scanned (19 + 45), about 1 in 190;
+- bioluminescence scan: 20 papers from 13,500 scanned (5 + 15), about
+  1 in 675. Three of these are not mouse images (B37 and B42 transwell,
+  B41 tissue staining; B41 has since been corrected by the journal), and
+  B44 sits in a review that reproduces another paper's figure.
+
+Still without a verdict: PMC13297086 (cell round 1).

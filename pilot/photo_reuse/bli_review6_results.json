@@ -1,0 +1,23 @@
+[
+ {
+  "id": "B36",
+  "pmcid": "PMC9688407",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-22, after the combined page image_reuse_combined_open_reviews.html (B30-B44, T03-T47): \"All cases are positive\""
+ },
+ {
+  "id": "B37",
+  "pmcid": "PMC5876459",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-22, after the combined page image_reuse_combined_open_reviews.html (B30-B44, T03-T47): \"All cases are positive\""
+ },
+ {
+  "id": "B38",
+  "pmcid": "PMC7312797",
+  "verdict": "same image, shown as different samples",
+  "notes": "",
+  "source": "user, in chat, 2026-11-22, after the combined page image_reuse_combined_open_reviews.html (B30-B44, T03-T47): \"All cases are positive\""
+ }
+]
