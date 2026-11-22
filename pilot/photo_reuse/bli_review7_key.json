@@ -1,0 +1,97 @@
+[
+ {
+  "id": "B39",
+  "pmcid": "PMC10976084",
+  "pad": 0.15,
+  "pairs": [
+   {
+    "a": "PMC10976084_pharmaceutics-16-00310-g007.jpg",
+    "abox": [
+     62,
+     448,
+     228,
+     640
+    ],
+    "b": "PMC10976084_pharmaceutics-16-00310-g007.jpg",
+    "bbox": [
+     465,
+     54,
+     631,
+     244
+    ],
+    "note": "Day 14: G3 Tumor+P.Training (left) and G5 Tumor+omega-3 (right)"
+   },
+   {
+    "a": "PMC10976084_pharmaceutics-16-00310-g007.jpg",
+    "abox": [
+     234,
+     448,
+     400,
+     640
+    ],
+    "b": "PMC10976084_pharmaceutics-16-00310-g007.jpg",
+    "bbox": [
+     637,
+     54,
+     803,
+     244
+    ],
+    "note": "Day 21: G3 Tumor+P.Training (left) and G5 Tumor+omega-3 (right)"
+   }
+  ],
+  "what": "Fig 7, bioluminescence images of eight treatment groups (G1 to G8), each at day 14 and day 21. The two images of G3 (tumour + physical training) and the two images of G5 (tumour + omega-3) are the same two photographs: same mouse, same pose, same paws and tail, and the same colour signal on the flank, at both days. Agreement of the greyscale photograph, signal left out: 0.99 for the day 21 pair, 0.90 for the day 14 pair (the typical pair of panels in this figure scores 0.78, because every mouse lies the same way on the same stage). Plain copy.",
+  "why": "Methods: 'The efficacy of different therapeutic combinations was evaluated by BLI imaging in eight experimental groups (8 animals per group)'; 'G3 (only physical training) ... G5 (only omega-3)'. G3 animals ran on a treadmill and received no supplement; G5 animals received omega-3 and did not train. They are different animals, and Fig 8 quantifies the signal of the training groups and the omega-3 groups separately. One animal cannot represent both, at two time points, with the same signal."
+ },
+ {
+  "id": "B40",
+  "pmcid": "PMC4454195",
+  "pad": 0.12,
+  "pairs": [
+   {
+    "a": "PMC4454195_ijn-10-3791Fig7.jpg",
+    "abox": [
+     21,
+     21,
+     150,
+     240
+    ],
+    "b": "PMC4454195_ijn-10-3791Fig7.jpg",
+    "bbox": [
+     474,
+     21,
+     603,
+     240
+    ],
+    "note": "Control: A, day 0 (left) and D, day 12 (right)"
+   }
+  ],
+  "what": "Fig 7, bioluminescence images of one mouse per group followed over 12 days (control A to D, Endostar E to H, GPENs I to L). Control panel A (day 0) and control panel D (day 12) show one photograph of the mouse: same pose, same ear, same forelimb, same hind leg and foot. Only the colour signal differs: small and purple in A, large and green in D. Agreement of the greyscale photograph, signal left out: 0.92 for A and D, 0.75 or lower for every other pair I scored in the figure, including the same mouse at days 4 and 8. Plain copy of the photograph with a different overlay.",
+  "why": "Caption: 'Representative BLI of tumors in vivo over 12 days observation ... the control group (A-D)'. Text: 'the BLI intensity greatly increased in the control group over the 12-day observation (Figure 7A-D)'. A and D are imaging sessions 12 days apart. The animal was anaesthetised and positioned afresh each time, as panels B and C show (different pose in each), and the methods report that body weight 'increased steadily during the 12-day period'. The same photograph cannot have been taken on day 0 and on day 12."
+ },
+ {
+  "id": "B41",
+  "pmcid": "PMC6505074",
+  "pad": 0.25,
+  "pairs": [
+   {
+    "a": "PMC6505074_13046_2019_1196_Fig9_HTML.jpg",
+    "abox": [
+     350,
+     222,
+     446,
+     318
+    ],
+    "b": "PMC6505074_13046_2019_1196_Fig9_HTML.jpg",
+    "bbox": [
+     350,
+     522,
+     445,
+     618
+    ],
+    "note": "Control tumour stained for p-AKT (left) and for beta-catenin (right)"
+   }
+  ],
+  "what": "This one is a tissue image in a paper with bioluminescence. Fig 9b, immunohistochemistry of tumour sections, control column: the image in the p-AKT row and the image in the beta-catenin row show the same field of tissue, nucleus for nucleus. The beta-catenin copy is cut slightly higher, so the two overlap rather than coincide. Altered copy (shifted crop).",
+  "why": "Caption: 'MMP-2, MMP-9, p-AKT, p65, E-cadherin, and beta-catenin were examined using immunohistochemical staining'. Each row is a different antibody on its own tissue section, and the bar charts to the right give each protein its own count. Text: 'CoQ0 inhibited MMP-9, MMP-2, p-AKT, p65, and beta-catenin expression ... relative to the controls'. Two sections stained for two different proteins cannot have every nucleus in the same place."
+ }
+]

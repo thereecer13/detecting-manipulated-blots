@@ -366,3 +366,23 @@ Sent as `cell_image_reuse_round7.html`, key `cell_review7_key.json`:
 | id | paper | match |
 |---|---|---|
 | T08 | PMC11492136 | Fig 6D invasion = Fig 6E migration for Reg+RRM2, both cell lines (0.90 each; others < 0.12) |
+
+## Bioluminescence, papers 7,500–8,700 (22 Nov)
+
+8,700 papers so far. 63 mouse-image matches viewed. Not reportable:
+one session shown at two colour scales (PMC3743513, caption says so),
+the same mouse or lungs repeated across figures as "the same mice"
+(PMC11259842, PMC3527494), control row shared between two cohorts
+figures (PMC4924861), photograph beside overlay or two modalities
+(PMC6401411, PMC10288272, PMC12843090, PMC13454112), single-channel and
+merge (PMC6505074 Fig 3), renderings and schematics (PMC3426305,
+PMC10196834), figure stored twice (PMC11366154, PMC12285008), grids of
+look-alike animals.
+
+Sent as `bioluminescence_reuse_round7.html`, key `bli_review7_key.json`:
+
+| id | paper | match |
+|---|---|---|
+| B39 | PMC10976084 | Fig 7: G3 (training) = G5 (omega-3) at day 14 and day 21, signal included (0.90, 0.99; figure median 0.78) |
+| B40 | PMC4454195 | Fig 7: control A day 0 = D day 12 photograph, different overlay (0.92; others ≤ 0.75) |
+| B41 | PMC6505074 | Fig 9b IHC control: p-AKT = β-catenin field, shifted crop |
