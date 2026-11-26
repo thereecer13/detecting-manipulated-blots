@@ -137,3 +137,18 @@ only been run on the first 739 images (0 hits). Run on the 3,812 newer images: 2
   as expected for a copy that is not pixel-exact. Sent as round 7 (`review7_key.json`), label pending.
 No large duplications (thousands of px), and no mirrored or strongly rotated copies, were found in 4,551
 images. Synthetic recall of this search was 150 of 200 pasted regions.
+
+### Small turned patches on the confirmed images (`small_turn.py`, 26 Nov)
+Asked by the user: can the turn-tolerant search be run for small patches on the confirmed images,
+without requiring exact pixels. `small_turn.py` fits every local cluster of self-matches (within 45 px,
+>= 5 inliers; rotation + scale + shift, mirrored copies via the flipped image) and verifies with local
+correlation > 0.85 over >= 150 px (copy_move.py: one global fit, 0.95, 900 px).
+- Ten confirmed images: hits in 6 (MRPL46 x3, PRODH IHC-4967, ERBB2, SLC30A3, RNASEH2C, NHLRC1), all at
+  the offsets of the known exact copies. Fitted turns 0.0–0.1 degrees except PRODH (-0.8, 5 inliers) and
+  ERBB2 (1.5, 6 inliers), which sit on known exact copies, so the turn is fit noise. No mirrored hit.
+  Nothing found in PRODH IHC-4968, 20097-1-AP, FXYD5, USP16: the search misses known plain copies in 4
+  of 10, so a clean result does not rule out a small turned patch.
+- Four pending images: TUB IHC10465 found again (2,018 px, 0.1 degrees); HCK, CCT8, MGAT2 nothing.
+- 150 random other images: 1 hit, no turned or mirrored hit. The hit is 16518-1-AP RNASEH2C IHC4829
+  (379 px, offset (36, 18), 6 inliers, no turn): one nucleus with the same shape twice. It is the second
+  image of a product whose IHC4835 is confirmed. Not yet sent for review.
