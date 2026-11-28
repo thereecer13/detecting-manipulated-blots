@@ -4,7 +4,7 @@ Product URLs come from the site's product sitemaps; antibody pages are sampled a
 robots.txt is obeyed, one request per --delay seconds, honest User-Agent; resumable (products in
 <out>/done.txt are skipped). Images are for private research use and are not redistributed.
 
-    python pilot/scrape_ptg.py --urls product_urls.txt --out ptg_ihc --n 600 [--seed 1] [--apps IHC]
+    python pilot/scrape_ptg.py --urls product_urls.txt --out ptg_ihc --n 600 [--skip 0] [--seed 1] [--apps IHC]
 """
 import argparse, hashlib, json, random, re, sys, time, urllib.request, urllib.robotparser
 from datetime import datetime, timezone
@@ -29,11 +29,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--urls", type=Path, required=True); ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--n", type=int, default=600); ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--skip", type=int, default=0, help="pages of the shuffled list to pass over (already crawled)")
     ap.add_argument("--delay", type=float, default=4.0); ap.add_argument("--apps", default="IHC")
     a = ap.parse_args(); (a.out / "images").mkdir(parents=True, exist_ok=True)
     rp = urllib.robotparser.RobotFileParser(); rp.parse(get(BASE + "/robots.txt", 0).decode("utf-8", "ignore").splitlines())
     urls = sorted({u.strip() for u in a.urls.read_text().splitlines() if ANTIBODY.search(u.strip())})
-    random.Random(a.seed).shuffle(urls); urls = urls[:a.n]
+    random.Random(a.seed).shuffle(urls); urls = urls[a.skip:a.skip + a.n]
     done_f = a.out / "done.txt"; done = set(done_f.read_text().split()) if done_f.exists() else set()
     app_re = re.compile(rf"/products/pictures/[^\"'\s]+?-(?:{a.apps})[-_]?\d*[^\"'\s/]*?\.jpg", re.I)
     print(f"{len(urls)} antibody pages planned, {len(done)} done", flush=True)
